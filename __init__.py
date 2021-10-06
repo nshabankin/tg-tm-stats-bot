@@ -1,2 +1,2 @@
 from . import bot
-from .tmstats.controls import GetData
+from . import tmstats
