@@ -3,7 +3,7 @@ import telegram
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
     MessageHandler, Filters
 import os
-from getfootballstats.tmstats.controls import GetData
+from tmstats.controls import GetData
 PORT = int(os.environ.get('PORT', '8443'))
 
 # Enable logging
