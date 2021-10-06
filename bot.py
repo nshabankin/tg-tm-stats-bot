@@ -1,9 +1,14 @@
 import logging
-import telegram
-from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
-    MessageHandler, Filters
 import os
+
+import telegram
+from telegram import Update
+from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
+    MessageHandler, Filters, CallbackContext
+
 import tmstats.controls
+
+TOKEN = '2039746632:AAE3ZoHPIA7_ypptqtOmPctB8WhSzI9OBH8'
 PORT = int(os.environ.get('PORT', '8443'))
 
 # Enable logging
@@ -12,7 +17,7 @@ logging.basicConfig(
     level=logging.INFO)
 
 logger = logging.getLogger(__name__)
-TOKEN = '2039746632:AAE3ZoHPIA7_ypptqtOmPctB8WhSzI9OBH8'
+
 
 HELP_BUTTON_CALLBACK_DATA = 'A unique text for help button callback data'
 help_button = telegram.InlineKeyboardButton(
@@ -55,7 +60,7 @@ league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
 # Define a few command handlers. These usually take the two arguments update
 # and context. Error handlers also receive the raised TelegramError object
 # in error.
-def command_handler_start(bot, update):
+def command_handler_start(bot, update: Update, context: CallbackContext):
     """Send a message when the command /start is issued."""
     chat_id = update.message.from_user.id
     bot.send_message(
@@ -66,7 +71,7 @@ def command_handler_start(bot, update):
         reply_markup=telegram.InlineKeyboardMarkup([[help_button]]))
 
 
-def command_handler_help(bot, update):
+def command_handler_help(bot, update: Update, context: CallbackContext):
     """Send a message when the command /help is issued."""
     chat_id = update.message.from_user.id
     bot.send_message(
@@ -75,7 +80,8 @@ def command_handler_help(bot, update):
         reply_markup=telegram.InlineKeyboardMarkup([league_buttons]))
 
 
-def command_handler_league(bot, update, league):
+def command_handler_league(bot, update: Update, context: CallbackContext,
+                           league):
     """Receive league name from buttons and upload .csv file back"""
     tmstats.controls.GetData(league, '2021').teams()
     chat_id = update.message.from_user.id
@@ -85,22 +91,22 @@ def command_handler_league(bot, update, league):
                           filename=f'{str(league)}_teams_2021.csv')
 
 
-def callback_query_handler(bot, update):
+def callback_query_handler(bot, update: Update, context: CallbackContext):
     cqd = update.callback_query.data
     # message_id = update.callback_query.message.message_id
     # update_id = update.update_id
     if cqd == HELP_BUTTON_CALLBACK_DATA:
-        command_handler_help(bot, update)
+        command_handler_help(bot, update, context)
     elif cqd in league_button_callback_data:
-        command_handler_league(bot, update, league=cqd)
+        command_handler_league(bot, update, context, league=cqd)
 
 
-def echo(update):
+def echo(update: Update, context: CallbackContext):
     """Echo the user message."""
     update.message.reply_text(update.message.text)
 
 
-def error(update, context):
+def error(update: Update, context: CallbackContext):
     """Log Errors caused by Updates."""
     logger.warning('Update "%s" caused error "%s"', update, context.error)
 
@@ -126,16 +132,18 @@ def main():
     dp.add_handler(CommandHandler('league', command_handler_league))
 
     # on non-command i.e message - echo the message on Telegram
-    dp.add_handler(MessageHandler(Filters.text, echo))
+    dp.add_handler(MessageHandler(Filters.text &
+                                  ~Filters.command, echo))
 
     # log all errors
     dp.add_error_handler(error)
 
     # Start the Bot
-    updater.start_webhook(listen="0.0.0.0",
-                          port=int(PORT),
-                          url_path=TOKEN)
-    updater.bot.setWebhook('https://getfootballstats.herokuapp.com/' + TOKEN)
+    updater.start_webhook(listen='0.0.0.0',
+                          port=PORT,
+                          url_path=TOKEN,
+                          webhook_url='https://getfootballstats.herokuapp.com/'
+                                      + TOKEN)
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since
