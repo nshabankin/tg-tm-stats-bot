@@ -1,2 +1,2 @@
 from . import bot
-from . import tmstats
+from .tmstats import controls
