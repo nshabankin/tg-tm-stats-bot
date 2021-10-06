@@ -3,7 +3,7 @@ import telegram
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
     MessageHandler, Filters
 import os
-from tmstats.controls import GetData
+import tmstats.controls
 PORT = int(os.environ.get('PORT', '8443'))
 
 # Enable logging
@@ -77,7 +77,7 @@ def command_handler_help(bot, update):
 
 def command_handler_league(bot, update, league):
     """Receive league name from buttons and upload .csv file back"""
-    GetData(league, '2021').teams()
+    tmstats.controls.GetData(league, '2021').teams()
     chat_id = update.message.from_user.id
     with open(f'{str(league)}/{str(league)}_teams_2021.csv', 'rb') as file:
         bot.send_document(chat_id=chat_id,
