@@ -59,7 +59,7 @@ league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
 # Define a few command handlers. These usually take the two arguments update
 # and context. Error handlers also receive the raised TelegramError object
 # in error.
-def command_handler_start(bot, update: Update, context: CallbackContext):
+def command_handler_start(bot, update: Update):
     """Send a message when the command /start is issued."""
     chat_id = update.message.from_user.id
     bot.send_message(
@@ -70,7 +70,7 @@ def command_handler_start(bot, update: Update, context: CallbackContext):
         reply_markup=telegram.InlineKeyboardMarkup([[help_button]]))
 
 
-def command_handler_help(bot, update: Update, context: CallbackContext):
+def command_handler_help(bot, update: Update):
     """Send a message when the command /help is issued."""
     chat_id = update.message.from_user.id
     bot.send_message(
@@ -79,8 +79,7 @@ def command_handler_help(bot, update: Update, context: CallbackContext):
         reply_markup=telegram.InlineKeyboardMarkup([league_buttons]))
 
 
-def command_handler_league(bot, update: Update, context: CallbackContext,
-                           league):
+def command_handler_league(bot, update: Update, league):
     """Receive league name from buttons and upload .csv file back"""
     tmstats.controls.GetData(league, '2021').teams()
     chat_id = update.message.from_user.id
@@ -90,17 +89,17 @@ def command_handler_league(bot, update: Update, context: CallbackContext,
                           filename=f'{str(league)}_teams_2021.csv')
 
 
-def callback_query_handler(bot, update: Update, context: CallbackContext):
+def callback_query_handler(bot, update: Update):
     cqd = update.callback_query.data
     # message_id = update.callback_query.message.message_id
     # update_id = update.update_id
     if cqd == HELP_BUTTON_CALLBACK_DATA:
-        command_handler_help(bot, update, context)
+        command_handler_help(bot, update)
     elif cqd in league_button_callback_data:
-        command_handler_league(bot, update, context, league=cqd)
+        command_handler_league(bot, update, league=cqd)
 
 
-def echo(update: Update, context: CallbackContext):
+def echo(update: Update):
     """Echo the user message."""
     update.message.reply_text(update.message.text)
 
