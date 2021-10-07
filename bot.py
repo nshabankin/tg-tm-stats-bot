@@ -77,7 +77,7 @@ def start(update: Update, _: CallbackContext):
 def button(update: Update, _: CallbackContext):
     """Receive league name from buttons and upload .csv file back"""
     # ctrl.GetData(league, '2021').teams()
-    # chat_id = update.message.from_user.id
+    chat_id = update.message.from_user['id']
     query = update.callback_query
     query.answer()
     cqd = query.data
@@ -87,7 +87,7 @@ def button(update: Update, _: CallbackContext):
         with open(f'./tmstats/'
                   f'{str(cqd)}/'
                   f'{str(cqd)}_teams_2021.csv', 'rb') as file:
-            _.bot.sendDocument(  # chat_id=chat_id,
+            _.bot.sendDocument(chat_id=chat_id,
                                document=file,
                                filename=f'{str(cqd)}_teams_2021.csv')
 
