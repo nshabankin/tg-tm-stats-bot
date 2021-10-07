@@ -1,5 +1,7 @@
 import logging
 import os
+from datetime import date
+
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
     MessageHandler, Filters, CallbackContext
@@ -23,27 +25,27 @@ help_button = InlineKeyboardButton(
 
 EPL_BUTTON_CALLBACK_DATA = 'epl'
 epl = InlineKeyboardButton(
-    text='Premier League',
+    text='🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League',
     callback_data=EPL_BUTTON_CALLBACK_DATA)
 
 LALIGA_BUTTON_CALLBACK_DATA = 'la_liga'
 laliga = InlineKeyboardButton(
-    text='La Liga',
+    text='🇪🇸 La Liga',
     callback_data=LALIGA_BUTTON_CALLBACK_DATA)
 
 BUNDESLIGA_BUTTON_CALLBACK_DATA = 'bundesliga'
 bundesliga = InlineKeyboardButton(
-    text='Bundesliga',
+    text='🇩🇪 Bundesliga',
     callback_data=BUNDESLIGA_BUTTON_CALLBACK_DATA)
 
 LIGUE1_BUTTON_CALLBACK_DATA = 'ligue_1'
 ligue1 = InlineKeyboardButton(
-    text='Ligue 1',
+    text='🇫🇷 Ligue 1',
     callback_data=LIGUE1_BUTTON_CALLBACK_DATA)
 
 RPL_BUTTON_CALLBACK_DATA = 'rpl'
 rpl = InlineKeyboardButton(
-    text='Russian Premier League',
+    text='🇷🇺 Russian Premier League',
     callback_data=RPL_BUTTON_CALLBACK_DATA)
 
 league_keyboard = [[epl], [laliga], [bundesliga], [ligue1], [rpl]]
@@ -59,12 +61,12 @@ league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
 # in error.
 def start(update: Update, _: CallbackContext):
     """Send a message when the command /start is issued."""
-    # user = update.message.from_user
-    # chat_id = user.id
     reply_markup = InlineKeyboardMarkup(league_keyboard)
     update.message.reply_text('Hi! I am GetFootballStats bot. '
-                              'I can get you updates on football statistics.\n'
-                              'Please choose a league:',
+                              'I can get you players` '
+                              'current individual stats'
+                              'in a .csv-file.\n'
+                              'To proceed, choose a league:',
                               reply_markup=reply_markup)
     return CallbackContext
 
@@ -83,7 +85,8 @@ def button(update: Update, _: CallbackContext):
                   f'{str(cqd)}_stats_2021.csv', 'rb') as file:
             _.bot.sendDocument(chat_id=chat_id,
                                document=file,
-                               filename=f'{str(cqd)}_stats_2021.csv')
+                               filename=f'{str(cqd)}_stats_'
+                                        f'{date.today():%m/%d/%Y}.csv')
     query.answer()
 
 
@@ -104,9 +107,6 @@ def error(update: Update, context: CallbackContext):
 
 def main():
     """Start the bot."""
-    # Create the GetData and pass it your bot's token.
-    # Make sure to set use_context=True to use the new context based callbacks
-    # Post version 12 this will no longer be necessary
     updater = Updater(TOKEN, use_context=True)
 
     # Get the dispatcher to register handlers
@@ -116,21 +116,21 @@ def main():
     bot = updater.bot
     print('Your bot is --->', bot.username)
 
-    # on different commands - answer in Telegram
+    # for command-answer in telegram
     dp.add_handler(CommandHandler('start', start,
                                   pass_args=True))
     dp.add_handler(CommandHandler('help', help_command,
                                   pass_args=True))
     dp.add_handler(CallbackQueryHandler(button))
 
-    # on non-command i.e message - echo the message on Telegram
+    # for non-command i.e message — echo the message on telegram
     dp.add_handler(MessageHandler(Filters.text &
                                   ~Filters.command, echo))
 
     # log all errors
     dp.add_error_handler(error)
 
-    # Start the Bot
+    # start the Bot
     updater.start_webhook(listen='0.0.0.0',
                           port=PORT,
                           url_path=TOKEN,
@@ -140,8 +140,6 @@ def main():
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since
     # start_polling() is non-blocking and will stop the bot gracefully.
-
-    # updater.start_polling()
     updater.idle()
 
 
