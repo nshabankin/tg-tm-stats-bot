@@ -4,7 +4,6 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
     MessageHandler, Filters, CallbackContext
 # import tmstats.controls as ctrl
-# from typing import List, Tuple, cast
 
 TOKEN = '2039746632:AAE3ZoHPIA7_ypptqtOmPctB8WhSzI9OBH8'
 PORT = int(os.environ.get('PORT', '8443'))
@@ -64,7 +63,7 @@ def start(update: Update, _: CallbackContext):
     # chat_id = user.id
     reply_markup = InlineKeyboardMarkup(league_keyboard)
     update.message.reply_text('Hi! I am GetFootballStats bot. '
-                              'I can get you updates on football statistics '
+                              'I can get you updates on football statistics.\n'
                               'Please choose a league:',
                               reply_markup=reply_markup)
     return CallbackContext
@@ -81,31 +80,16 @@ def button(update: Update, _: CallbackContext):
     elif cqd in league_button_callback_data:
         with open(f'./tmstats/'
                   f'{str(cqd)}/'
-                  f'{str(cqd)}_teams_2021.csv', 'rb') as file:
+                  f'{str(cqd)}_stats_2021.csv', 'rb') as file:
             _.bot.sendDocument(chat_id=chat_id,
                                document=file,
-                               filename=f'{str(cqd)}_teams_2021.csv')
+                               filename=f'{str(cqd)}_stats_2021.csv')
     query.answer()
 
 
 def help_command(update: Update, _: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
-    # chat_id = update.message.from_user.id
     update.message.reply_text("Use /start to test this bot.")
-    # context.bot.send_message(
-    #     chat_id=chat_id,
-    #     text='Pick a football league:',
-    #     reply_markup=InlineKeyboardMarkup(league_keyboard))
-
-
-# def callback_query_handler(update: Update, context: CallbackContext):
-#     cqd = update.callback_query.data
-#     # message_id = update.callback_query.message.message_id
-#     # update_id = update.update_id
-#     if cqd == HELP_BUTTON_CALLBACK_DATA:
-#         help_command(update, context)
-#     elif cqd in league_button_callback_data:
-#         command_handler_league(update, context, league=cqd)
 
 
 def echo(update: Update):

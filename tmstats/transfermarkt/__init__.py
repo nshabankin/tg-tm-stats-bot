@@ -1,2 +1,2 @@
 from .items import Leagueitem, Tableitem, Teamitem, Playeritem
-from . import spiders
+from .spiders import Leaguespider, Teamspider, Tablespider, Playerspider
