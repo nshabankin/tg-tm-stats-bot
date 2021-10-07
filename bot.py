@@ -73,7 +73,7 @@ def start(update: Update, _: CallbackContext):
 def button(update: Update, _: CallbackContext):
     """Receive league name from buttons and upload .csv file back"""
     # ctrl.GetData(league, '2021').teams()
-    chat_id = update.message.chat_id
+    chat_id = update.effective_message.chat_id
     query = update.callback_query
     cqd = query.data
     if cqd == HELP_BUTTON_CALLBACK_DATA:
