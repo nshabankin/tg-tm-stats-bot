@@ -1,1 +1,1 @@
-from .tmstats import controls
+from . import tmstats
