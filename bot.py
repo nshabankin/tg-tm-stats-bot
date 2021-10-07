@@ -67,12 +67,7 @@ def start(update: Update, _: CallbackContext):
                               'I can get you updates on football statistics '
                               'Please choose a league:',
                               reply_markup=reply_markup)
-    # context.bot.send_message(
-    #     chat_id=chat_id,
-    #     text='Hi! I am GetFootballStats bot. I can get you updates on '
-    #          'football statistics, just pick a league and a year! '
-    #          'Please choose a league:',
-    #     reply_markup=InlineKeyboardMarkup([[help_button]]))
+    return _
 
 
 def button(update: Update, _: CallbackContext):
