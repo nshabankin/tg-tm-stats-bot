@@ -85,7 +85,7 @@ def button(update: Update, _: CallbackContext):
         help_command(update, _)
     elif cqd in league_button_callback_data:
         with open(f'{str(cqd)}/{str(cqd)}_teams_2021.csv', 'rb') as file:
-            _.bot.sendDocument(chat_id=chat_id,
+            _.bot.sendDocument(  # chat_id=chat_id,
                                document=file,
                                filename=f'{str(cqd)}_teams_2021.csv')
 
