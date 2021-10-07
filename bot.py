@@ -1,10 +1,10 @@
 import logging
 import os
-import telegram
-from telegram import Update
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
     MessageHandler, Filters, CallbackContext
-import tmstats.controls as ctrl
+# import tmstats.controls as ctrl
+# from typing import List, Tuple, cast
 
 TOKEN = '2039746632:AAE3ZoHPIA7_ypptqtOmPctB8WhSzI9OBH8'
 PORT = int(os.environ.get('PORT', '8443'))
@@ -18,36 +18,36 @@ logger = logging.getLogger(__name__)
 
 
 HELP_BUTTON_CALLBACK_DATA = 'help'
-help_button = telegram.InlineKeyboardButton(
+help_button = InlineKeyboardButton(
     text='Help',  # text shown to user
     callback_data=HELP_BUTTON_CALLBACK_DATA)  # text sent to bot
 
 EPL_BUTTON_CALLBACK_DATA = 'epl'
-epl = telegram.InlineKeyboardButton(
+epl = InlineKeyboardButton(
     text='Premier League',
     callback_data=EPL_BUTTON_CALLBACK_DATA)
 
 LALIGA_BUTTON_CALLBACK_DATA = 'la_liga'
-laliga = telegram.InlineKeyboardButton(
+laliga = InlineKeyboardButton(
     text='La Liga',
     callback_data=LALIGA_BUTTON_CALLBACK_DATA)
 
 BUNDESLIGA_BUTTON_CALLBACK_DATA = 'bundesliga'
-bundesliga = telegram.InlineKeyboardButton(
+bundesliga = InlineKeyboardButton(
     text='Bundesliga',
     callback_data=BUNDESLIGA_BUTTON_CALLBACK_DATA)
 
 LIGUE1_BUTTON_CALLBACK_DATA = 'ligue_1'
-ligue1 = telegram.InlineKeyboardButton(
+ligue1 = InlineKeyboardButton(
     text='Ligue 1',
     callback_data=LIGUE1_BUTTON_CALLBACK_DATA)
 
 RPL_BUTTON_CALLBACK_DATA = 'rpl'
-rpl = telegram.InlineKeyboardButton(
+rpl = InlineKeyboardButton(
     text='Russian Premier League',
     callback_data=RPL_BUTTON_CALLBACK_DATA)
 
-league_buttons = [epl, laliga, bundesliga, ligue1, rpl]
+league_keyboard = [[epl], [laliga], [bundesliga], [ligue1], [rpl]]
 league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
                                LALIGA_BUTTON_CALLBACK_DATA,
                                BUNDESLIGA_BUTTON_CALLBACK_DATA,
@@ -58,45 +58,56 @@ league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
 # Define a few command handlers. These usually take the two arguments update
 # and context. Error handlers also receive the raised TelegramError object
 # in error.
-def command_handler_start(update: Update, context: CallbackContext):
+def start(update: Update, _: CallbackContext):
     """Send a message when the command /start is issued."""
-    chat_id = update.message.from_user.id
-    context.bot.send_message(
-        chat_id=chat_id,
-        text='Hi! I am GetFootballStats bot. I can get you updates on '
-             'football statistics, just pick a league and a year! '
-             'Press "Help" button proceed.',
-        reply_markup=telegram.InlineKeyboardMarkup([[help_button]]))
+    # chat_id = update.message.from_user.id
+    reply_markup = InlineKeyboardMarkup(league_keyboard)
+    update.message.reply_text('Hi! I am GetFootballStats bot. '
+                              'I can get you updates on football statistics '
+                              'Please choose a league:',
+                              reply_markup=reply_markup)
+    # context.bot.send_message(
+    #     chat_id=chat_id,
+    #     text='Hi! I am GetFootballStats bot. I can get you updates on '
+    #          'football statistics, just pick a league and a year! '
+    #          'Please choose a league:',
+    #     reply_markup=InlineKeyboardMarkup([[help_button]]))
 
 
-def command_handler_help(update: Update, context: CallbackContext):
-    """Send a message when the command /help is issued."""
-    chat_id = update.message.from_user.id
-    context.bot.send_message(
-        chat_id=chat_id,
-        text='Pick a football league:',
-        reply_markup=telegram.InlineKeyboardMarkup([league_buttons]))
-
-
-def command_handler_league(update: Update,
-                           context: CallbackContext, league):
+def button(update: Update, _: CallbackContext):
     """Receive league name from buttons and upload .csv file back"""
-    ctrl.GetData(league, '2021').teams()
+    # ctrl.GetData(league, '2021').teams()
     chat_id = update.message.from_user.id
-    with open(f'{str(league)}/{str(league)}_teams_2021.csv', 'rb') as file:
-        context.bot.send_document(chat_id=chat_id,
-                                  document=file,
-                                  filename=f'{str(league)}_teams_2021.csv')
-
-
-def callback_query_handler(update: Update, context: CallbackContext):
-    cqd = update.callback_query.data
-    # message_id = update.callback_query.message.message_id
-    # update_id = update.update_id
+    query = update.callback_query
+    query.answer()
+    cqd = query.data
     if cqd == HELP_BUTTON_CALLBACK_DATA:
-        command_handler_help(update, context)
+        help_command(update, _)
     elif cqd in league_button_callback_data:
-        command_handler_league(update, context, league=cqd)
+        with open(f'{str(cqd)}/{str(cqd)}_teams_2021.csv', 'rb') as file:
+            _.bot.sendDocument(chat_id=chat_id,
+                               document=file,
+                               filename=f'{str(cqd)}_teams_2021.csv')
+
+
+def help_command(update: Update, _: CallbackContext) -> None:
+    """Send a message when the command /help is issued."""
+    # chat_id = update.message.from_user.id
+    update.message.reply_text("Use /start to test this bot.")
+    # context.bot.send_message(
+    #     chat_id=chat_id,
+    #     text='Pick a football league:',
+    #     reply_markup=InlineKeyboardMarkup(league_keyboard))
+
+
+# def callback_query_handler(update: Update, context: CallbackContext):
+#     cqd = update.callback_query.data
+#     # message_id = update.callback_query.message.message_id
+#     # update_id = update.update_id
+#     if cqd == HELP_BUTTON_CALLBACK_DATA:
+#         help_command(update, context)
+#     elif cqd in league_button_callback_data:
+#         command_handler_league(update, context, league=cqd)
 
 
 def echo(update: Update):
@@ -124,13 +135,11 @@ def main():
     print('Your bot is --->', bot.username)
 
     # on different commands - answer in Telegram
-    dp.add_handler(CommandHandler('start', command_handler_start,
+    dp.add_handler(CommandHandler('start', start,
                                   pass_args=True))
-    dp.add_handler(CommandHandler('help', command_handler_help,
+    dp.add_handler(CommandHandler('help', help_command,
                                   pass_args=True))
-    dp.add_handler(CallbackQueryHandler(callback_query_handler))
-    dp.add_handler(CommandHandler('league', command_handler_league,
-                                  pass_args=True))
+    dp.add_handler(CallbackQueryHandler(button))
 
     # on non-command i.e message - echo the message on Telegram
     dp.add_handler(MessageHandler(Filters.text &
