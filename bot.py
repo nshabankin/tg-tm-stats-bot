@@ -73,10 +73,8 @@ def start(update: Update, _: CallbackContext):
 def button(update: Update, _: CallbackContext):
     """Receive league name from buttons and upload .csv file back"""
     # ctrl.GetData(league, '2021').teams()
-    user = update.message.from_user
-    chat_id = user.id
+    chat_id = update.message.chat_id
     query = update.callback_query
-    query.answer()
     cqd = query.data
     if cqd == HELP_BUTTON_CALLBACK_DATA:
         help_command(update, _)
@@ -87,6 +85,7 @@ def button(update: Update, _: CallbackContext):
             _.bot.sendDocument(chat_id=chat_id,
                                document=file,
                                filename=f'{str(cqd)}_teams_2021.csv')
+    query.answer()
 
 
 def help_command(update: Update, _: CallbackContext) -> None:
