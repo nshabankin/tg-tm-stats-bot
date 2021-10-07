@@ -62,7 +62,7 @@ league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
 def start(update: Update, _: CallbackContext):
     """Send a message when the command /start is issued."""
     reply_markup = InlineKeyboardMarkup(league_keyboard)
-    update.message.reply_text('Hi!\n I am GetFootballStats bot. '
+    update.message.reply_text('Hi!\nI am GetFootballStats bot. '
                               "I can get you football players' "
                               'current individual stats '
                               'in a .csv-file.\n'
@@ -74,7 +74,7 @@ def start(update: Update, _: CallbackContext):
 def button(update: Update, _: CallbackContext):
     """Receive league name from buttons and upload .csv file back"""
     # ctrl.GetData(league, '2021').teams()
-    today = datetime.today().strftime('%Y-%m-%d')
+    today = datetime.today().strftime('%d-%m-%Y')
     chat_id = update.effective_message.chat_id
     query = update.callback_query
     cqd = query.data
