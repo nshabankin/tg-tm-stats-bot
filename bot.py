@@ -60,7 +60,8 @@ league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
 # in error.
 def start(update: Update, _: CallbackContext):
     """Send a message when the command /start is issued."""
-    # chat_id = update.message.from_user.id
+    # user = update.message.from_user
+    # chat_id = user.id
     reply_markup = InlineKeyboardMarkup(league_keyboard)
     update.message.reply_text('Hi! I am GetFootballStats bot. '
                               'I can get you updates on football statistics '
@@ -77,7 +78,8 @@ def start(update: Update, _: CallbackContext):
 def button(update: Update, _: CallbackContext):
     """Receive league name from buttons and upload .csv file back"""
     # ctrl.GetData(league, '2021').teams()
-    chat_id = update.message.from_user['id']
+    user = update.message.from_user
+    chat_id = user.id
     query = update.callback_query
     query.answer()
     cqd = query.data
