@@ -4,8 +4,7 @@ import telegram
 from telegram import Update
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
     MessageHandler, Filters, CallbackContext
-
-from tmstats import controls as ctrl
+from tmstats.controls import GetData
 
 TOKEN = '2039746632:AAE3ZoHPIA7_ypptqtOmPctB8WhSzI9OBH8'
 PORT = int(os.environ.get('PORT', '8443'))
@@ -82,7 +81,7 @@ def command_handler_help(update: Update, context: CallbackContext):
 def command_handler_league(update: Update,
                            context: CallbackContext, league):
     """Receive league name from buttons and upload .csv file back"""
-    ctrl.GetData(league, '2021').teams()
+    GetData(league, '2021').teams()
     chat_id = update.message.from_user.id
     with open(f'{str(league)}/{str(league)}_teams_2021.csv', 'rb') as file:
         context.bot.send_document(chat_id=chat_id,
