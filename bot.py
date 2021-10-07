@@ -18,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-HELP_BUTTON_CALLBACK_DATA = 'A unique text for help button callback data'
+HELP_BUTTON_CALLBACK_DATA = 'help'
 help_button = telegram.InlineKeyboardButton(
     text='Help',  # text shown to user
     callback_data=HELP_BUTTON_CALLBACK_DATA)  # text sent to bot
@@ -59,10 +59,10 @@ league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
 # Define a few command handlers. These usually take the two arguments update
 # and context. Error handlers also receive the raised TelegramError object
 # in error.
-def command_handler_start(bot, update: Update, context: CallbackContext):
+def command_handler_start(update: Update, context: CallbackContext):
     """Send a message when the command /start is issued."""
     chat_id = update.message.from_user.id
-    bot.send_message(
+    context.bot.send_message(
         chat_id=chat_id,
         text='Hi! I am GetFootballStats bot. I can get you updates on '
              'football statistics, just pick a league and a year! '
@@ -70,34 +70,34 @@ def command_handler_start(bot, update: Update, context: CallbackContext):
         reply_markup=telegram.InlineKeyboardMarkup([[help_button]]))
 
 
-def command_handler_help(bot, update: Update, context: CallbackContext):
+def command_handler_help(update: Update, context: CallbackContext):
     """Send a message when the command /help is issued."""
     chat_id = update.message.from_user.id
-    bot.send_message(
+    context.bot.send_message(
         chat_id=chat_id,
         text='Pick a football league:',
         reply_markup=telegram.InlineKeyboardMarkup([league_buttons]))
 
 
-def command_handler_league(bot, update: Update,
+def command_handler_league(update: Update,
                            context: CallbackContext, league):
     """Receive league name from buttons and upload .csv file back"""
     tmstats.controls.GetData(league, '2021').teams()
     chat_id = update.message.from_user.id
     with open(f'{str(league)}/{str(league)}_teams_2021.csv', 'rb') as file:
-        bot.send_document(chat_id=chat_id,
-                          document=file,
-                          filename=f'{str(league)}_teams_2021.csv')
+        context.bot.send_document(chat_id=chat_id,
+                                  document=file,
+                                  filename=f'{str(league)}_teams_2021.csv')
 
 
-def callback_query_handler(bot, update: Update, context: CallbackContext):
+def callback_query_handler(update: Update, context: CallbackContext):
     cqd = update.callback_query.data
     # message_id = update.callback_query.message.message_id
     # update_id = update.update_id
     if cqd == HELP_BUTTON_CALLBACK_DATA:
-        command_handler_help(bot, update, context)
+        command_handler_help(update, context)
     elif cqd in league_button_callback_data:
-        command_handler_league(bot, update, context, league=cqd)
+        command_handler_league(update, context, league=cqd)
 
 
 def echo(update: Update):
@@ -128,7 +128,8 @@ def main():
     dp.add_handler(CommandHandler('start', command_handler_start))
     dp.add_handler(CommandHandler('help', command_handler_help))
     dp.add_handler(CallbackQueryHandler(callback_query_handler))
-    dp.add_handler(CommandHandler('league', command_handler_league))
+    dp.add_handler(CommandHandler('league', command_handler_league,
+                                  pass_args=True))
 
     # on non-command i.e message - echo the message on Telegram
     dp.add_handler(MessageHandler(Filters.text &
