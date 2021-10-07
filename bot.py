@@ -1,6 +1,6 @@
 import logging
 import os
-from datetime import date
+from datetime import datetime
 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
@@ -62,9 +62,9 @@ league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
 def start(update: Update, _: CallbackContext):
     """Send a message when the command /start is issued."""
     reply_markup = InlineKeyboardMarkup(league_keyboard)
-    update.message.reply_text('Hi! I am GetFootballStats bot. '
-                              'I can get you players` '
-                              'current individual stats'
+    update.message.reply_text('Hi!\n I am GetFootballStats bot. '
+                              "I can get you football players' "
+                              'current individual stats '
                               'in a .csv-file.\n'
                               'To proceed, choose a league:',
                               reply_markup=reply_markup)
@@ -74,6 +74,7 @@ def start(update: Update, _: CallbackContext):
 def button(update: Update, _: CallbackContext):
     """Receive league name from buttons and upload .csv file back"""
     # ctrl.GetData(league, '2021').teams()
+    today = datetime.today().strftime('%Y-%m-%d')
     chat_id = update.effective_message.chat_id
     query = update.callback_query
     cqd = query.data
@@ -86,13 +87,14 @@ def button(update: Update, _: CallbackContext):
             _.bot.sendDocument(chat_id=chat_id,
                                document=file,
                                filename=f'{str(cqd)}_stats_'
-                                        f'{date.today():%m/%d/%Y}.csv')
+                                        f'{str(today)}.csv')
     query.answer()
 
 
 def help_command(update: Update, _: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
-    update.message.reply_text("Use /start to test this bot.")
+    update.message.reply_text("Use /start to begin interacting "
+                              "with GetFootballStatsBot.")
 
 
 def echo(update: Update):
