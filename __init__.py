@@ -1,1 +1,1 @@
-from . import tmstats
+from .tmstats import GetData
