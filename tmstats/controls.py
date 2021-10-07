@@ -1,10 +1,10 @@
 import os
 import pathlib
 from scrapy.crawler import CrawlerProcess
-from transfermarkt.spiders import Playerspider, Teamspider, \
+from .transfermarkt.spiders import Playerspider, Teamspider, \
     Tablespider, Leaguespider
 from scrapy.utils.project import get_project_settings
-from transfermarkt.settings import team_fields, table_fields, \
+from .transfermarkt.settings import team_fields, table_fields, \
     league_fields, player_fields
 
 
