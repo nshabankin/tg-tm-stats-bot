@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
     MessageHandler, Filters, CallbackContext
 
-from .tmstats.controls import GetData
+from tmstats.controls import GetData
 
 TOKEN = '2039746632:AAE3ZoHPIA7_ypptqtOmPctB8WhSzI9OBH8'
 PORT = int(os.environ.get('PORT', '8443'))
