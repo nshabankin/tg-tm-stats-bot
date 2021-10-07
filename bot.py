@@ -124,8 +124,10 @@ def main():
     print('Your bot is --->', bot.username)
 
     # on different commands - answer in Telegram
-    dp.add_handler(CommandHandler('start', command_handler_start))
-    dp.add_handler(CommandHandler('help', command_handler_help))
+    dp.add_handler(CommandHandler('start', command_handler_start,
+                                  pass_args=True))
+    dp.add_handler(CommandHandler('help', command_handler_help,
+                                  pass_args=True))
     dp.add_handler(CallbackQueryHandler(callback_query_handler))
     dp.add_handler(CommandHandler('league', command_handler_league,
                                   pass_args=True))
