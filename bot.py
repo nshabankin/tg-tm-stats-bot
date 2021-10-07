@@ -67,7 +67,7 @@ def start(update: Update, _: CallbackContext):
                               'I can get you updates on football statistics '
                               'Please choose a league:',
                               reply_markup=reply_markup)
-    return _
+    return CallbackContext
 
 
 def button(update: Update, _: CallbackContext):
