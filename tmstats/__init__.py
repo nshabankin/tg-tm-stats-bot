@@ -1,1 +1,1 @@
-from .transfermarkt import settings, spiders
+from .transfermarkt import settings, spiders, items

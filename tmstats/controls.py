@@ -1,11 +1,10 @@
-import os
+from transfermarkt.spiders import Leaguespider, Teamspider, Playerspider, \
+    Tablespider
 import pathlib
 from scrapy.crawler import CrawlerProcess
-from transfermarkt.spiders import Playerspider, Teamspider, \
-    Tablespider, Leaguespider
 from scrapy.utils.project import get_project_settings
-from transfermarkt.settings import team_fields, table_fields, \
-    league_fields, player_fields
+from transfermarkt.settings import team_fields, table_fields, league_fields, \
+    player_fields
 
 
 class GetData:
@@ -118,15 +117,23 @@ class GetData:
                       year=self.year)
         process.start()
 
-    def list_files(self, startpath='D:/Python Projects/'
-                                   'Football Stats Parsing'):
-        with open('dirs.txt', 'w') as d:
-            for root, dirs, files in os.walk(startpath):
-                level = root.replace(startpath, '').count(os.sep)
-                indent = ' ' * 4 * level
-                print(f'{indent}{os.path.basename(root)}/')
-                subindent = ' ' * 4 * (level + 1)
-                for f in files:
-                    print(f'{subindent}{f}')
-        d.write('dirs')
-        return self
+    # the wrapper to make it run more times
+    '''def run_spider(spider):
+        def f(q):
+            try:
+                runner = crawler.CrawlerRunner()
+                deferred = runner.crawl(spider)
+                deferred.addBoth(lambda _: reactor.stop())
+                reactor.run()
+                q.put(None)
+            except Exception as e:
+                q.put(e)
+
+        q = Queue()
+        p = Process(target=f, args=(q,))
+        p.start()
+        result = q.get()
+        p.join()
+
+        if result is not None:
+            raise result'''
