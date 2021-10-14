@@ -31,6 +31,11 @@ laliga = InlineKeyboardButton(
     text='🇪🇸 La Liga',
     callback_data=LALIGA_BUTTON_CALLBACK_DATA)
 
+SERIEA_BUTTON_CALLBACK_DATA = 'serie_a'
+seriea = InlineKeyboardButton(
+    text='🇮🇹 Serie A',
+    callback_data=SERIEA_BUTTON_CALLBACK_DATA)
+
 BUNDESLIGA_BUTTON_CALLBACK_DATA = 'bundesliga'
 bundesliga = InlineKeyboardButton(
     text='🇩🇪 Bundesliga',
@@ -46,9 +51,10 @@ rpl = InlineKeyboardButton(
     text='🇷🇺 Russian Premier League',
     callback_data=RPL_BUTTON_CALLBACK_DATA)
 
-league_keyboard = [[epl], [laliga], [bundesliga], [ligue1], [rpl]]
+league_keyboard = [[epl], [laliga], [seriea], [bundesliga], [ligue1], [rpl]]
 league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
                                LALIGA_BUTTON_CALLBACK_DATA,
+                               SERIEA_BUTTON_CALLBACK_DATA,
                                BUNDESLIGA_BUTTON_CALLBACK_DATA,
                                LIGUE1_BUTTON_CALLBACK_DATA,
                                RPL_BUTTON_CALLBACK_DATA]
@@ -60,18 +66,17 @@ league_button_callback_data = [EPL_BUTTON_CALLBACK_DATA,
 def start(update: Update, _: CallbackContext):
     """Send a message when the command /start is issued."""
     reply_markup = InlineKeyboardMarkup(league_keyboard)
-    update.message.reply_text('Hi!\nI am GetFootballStats bot. '
-                              "I can get you football players' "
-                              'current individual stats '
+    update.message.reply_text('Hi!\nI am GetFootballStats bot.\n'
+                              'I can get you updates on '
+                              'football player stats '
                               'in a .csv-file.\n'
-                              'To proceed, choose a league:',
+                              'Choose a league:',
                               reply_markup=reply_markup)
     return CallbackContext
 
 
 def button(update: Update, _: CallbackContext):
     """Receive league name from buttons and upload .csv file back"""
-    # ctrl.GetData(league, '2021').teams()
     today = datetime.today().strftime('%d-%m-%Y')
     chat_id = update.effective_message.chat_id
     query = update.callback_query
@@ -91,8 +96,7 @@ def button(update: Update, _: CallbackContext):
 
 def help_command(update: Update, _: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
-    update.message.reply_text("Use /start to begin interacting "
-                              "with GetFootballStatsBot.")
+    update.message.reply_text('Use /start to begin')
 
 
 def echo(update: Update):

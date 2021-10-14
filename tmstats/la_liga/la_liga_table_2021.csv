@@ -1,0 +1,21 @@
+rank,club,played,wins,draws,losses,goals,diff,points
+1,Real Madrid,8,5,2,1,22:10,12,17
+2,Atlético Madrid,8,5,2,1,11:6,5,17
+3,Real Sociedad,8,5,2,1,11:7,4,17
+4,Sevilla FC,7,4,2,1,10:3,7,14
+5,CA Osasuna,8,4,2,2,11:11,0,14
+6,Rayo Vallecano,8,4,1,3,13:8,5,13
+7,Athletic,8,3,4,1,7:4,3,13
+8,Valencia,8,3,3,2,12:8,4,12
+9,Barcelona,7,3,3,1,11:7,4,12
+10,Real Betis,8,3,3,2,11:9,2,12
+11,Villarreal,7,2,5,0,8:3,5,11
+12,RCD Mallorca,8,3,2,3,7:12,-5,11
+13,Espanyol,8,2,3,3,6:8,-2,9
+14,Elche CF,8,2,3,3,5:8,-3,9
+15,Celta de Vigo,8,2,1,5,7:11,-4,7
+16,Cádiz CF,8,1,4,3,7:11,-4,7
+17,Granada CF,8,1,3,4,6:12,-6,6
+18,Levante,8,0,4,4,6:13,-7,4
+19,Alavés,7,1,0,6,2:12,-10,3
+20,Getafe,8,0,1,7,3:13,-10,1

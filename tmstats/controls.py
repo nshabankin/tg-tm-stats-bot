@@ -11,7 +11,7 @@ class GetData:
 
     def __init__(self, league=None, year=None):
         """
-        Receives a league name and a year to process throughout.
+        Receive a league name and a year to process throughout.
         """
         self.league = league
         self.year = year
@@ -38,7 +38,7 @@ class GetData:
 
     def teams(self):
         """
-        Runs the spider to export a list of teams and their URLs to .csv,
+        Run the spider to export a list of teams and their URLs to .csv,
         thus forming a pool of URLs for the next spider to crawl over.
         """
         settings_teams = get_project_settings()  # from settings.py
@@ -54,13 +54,13 @@ class GetData:
         process = CrawlerProcess(settings_teams)
         process.crawl(Leaguespider,  # refer to the spider for teams crawling
                       input='inputargument',
-                      # received from leagues dict with league as the key
+                      # receive from leagues dict with league as the key
                       league_site=self.leagues[self.league])
         process.start()
 
     def table(self):
         """
-        Runs the spider to export an up-to-date league table in a .csv file.
+        Run the spider to export an up-to-date league table in a .csv file.
         """
         settings_table = get_project_settings()  # from settings.py
         # set export fields for league table
@@ -108,7 +108,7 @@ class GetData:
 
     def stats(self):
         """
-        Crawls over the list of players and returns their stats in a .csv file.
+        Crawl over the list of players and return their stats in a .csv file.
         """
         settings_stats = get_project_settings()  # from settings.py
         # set export fields for player stats

@@ -1,0 +1,21 @@
+rank,club,played,wins,draws,losses,goals,diff,points
+1,Chelsea,7,5,1,1,15:3,12,16
+2,Liverpool,7,4,3,0,17:6,11,15
+3,Man City,7,4,2,1,14:3,11,14
+4,Man Utd,7,4,2,1,14:6,8,14
+5,Everton,7,4,2,1,13:8,5,14
+6,Brighton,7,4,2,1,8:5,3,14
+7,Brentford,7,3,3,1,10:6,4,12
+8,Spurs,7,4,0,3,6:10,-4,12
+9,West Ham,7,3,2,2,14:10,4,11
+10,Aston Villa,7,3,1,3,10:9,1,10
+11,Arsenal,7,3,1,3,5:10,-5,10
+12,Wolves,7,3,0,4,5:6,-1,9
+13,Leicester,7,2,2,3,9:12,-3,8
+14,Crystal Palace,7,1,4,2,8:11,-3,7
+15,Watford,7,2,1,4,7:10,-3,7
+16,Leeds,7,1,3,3,7:14,-7,6
+17,Southampton,7,0,4,3,5:10,-5,4
+18,Burnley,7,0,3,4,5:11,-6,3
+19,Newcastle,7,0,3,4,8:16,-8,3
+20,Norwich,7,0,1,6,2:16,-14,1
