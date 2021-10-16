@@ -6,7 +6,7 @@ from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
     MessageHandler, Filters, CallbackContext
 
 TOKEN = '2039746632:AAE3ZoHPIA7_ypptqtOmPctB8WhSzI9OBH8'
-PORT = int(os.environ.get('PORT', '8443'))
+# PORT = int(os.environ.get('PORT', '8443'))
 
 # Enable logging
 logging.basicConfig(
@@ -135,16 +135,17 @@ def main():
     dp.add_error_handler(error)
 
     # start the Bot
-    updater.start_webhook(listen='0.0.0.0',
-                          port=PORT,
-                          url_path=TOKEN,
-                          webhook_url='https://getfootballstats.herokuapp.com/'
-                                      + TOKEN)
+    #updater.start_webhook(listen='0.0.0.0',
+    #                      port=PORT,
+    #                      url_path=TOKEN,
+    #                      webhook_url='https://getfootballstats.herokuapp.com/'
+    #                                  + TOKEN)
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since
     # start_polling() is non-blocking and will stop the bot gracefully.
-    updater.idle()
+    updater.start_polling()
+    # updater.idle()
 
 
 if __name__ == '__main__':
