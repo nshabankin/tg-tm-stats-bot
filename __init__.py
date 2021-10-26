@@ -1,1 +1,1 @@
-from tmstats import controls, transfermarkt
+from .tmstats import controls, transfermarkt

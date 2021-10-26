@@ -11,7 +11,7 @@ from transfermarkt.spiders.playerspider import Playerspider
 from transfermarkt.spiders.tablespider import Tablespider
 import sys
 sys.path.append('D:/Python Projects/tg-tm-stats-bot/'
-                'getfootballstats/tmstats/')
+                'getfootballstats/')
 
 
 class GetData:
