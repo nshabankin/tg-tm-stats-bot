@@ -1,14 +1,14 @@
 import pathlib
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
-from .transfermarkt import settings
+from transfermarkt import settings
 
 #from transfermarkt.settings import team_fields, table_fields, league_fields, \
 #    player_fields
-from .transfermarkt.spiders.leaguespider import Leaguespider
-from .transfermarkt.spiders.teamspider import Teamspider
-from .transfermarkt.spiders.playerspider import Playerspider
-from .transfermarkt.spiders.tablespider import Tablespider
+from transfermarkt.spiders.leaguespider import Leaguespider
+from transfermarkt.spiders.teamspider import Teamspider
+from transfermarkt.spiders.playerspider import Playerspider
+from transfermarkt.spiders.tablespider import Tablespider
 import sys
 sys.path.append('D:/Python Projects/tg-tm-stats-bot/'
                 'getfootballstats/tmstats/')
