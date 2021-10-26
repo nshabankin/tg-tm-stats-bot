@@ -1,17 +1,12 @@
+#!/usr/bin/env
 import pathlib
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
-from transfermarkt import settings
-
-#from transfermarkt.settings import team_fields, table_fields, league_fields, \
-#    player_fields
-from transfermarkt.spiders.leaguespider import Leaguespider
-from transfermarkt.spiders.teamspider import Teamspider
-from transfermarkt.spiders.playerspider import Playerspider
-from transfermarkt.spiders.tablespider import Tablespider
+from .transfermarkt import settings
+from .transfermarkt import spiders
 import sys
 sys.path.append('D:/Python Projects/tg-tm-stats-bot/'
-                'getfootballstats/')
+                'getfootballstats/tmstats/')
 
 
 class GetData:
@@ -59,7 +54,8 @@ class GetData:
                                         'overwrite': True}}  # allow overwrite
         # process_teams
         process = CrawlerProcess(settings_teams)
-        process.crawl(Leaguespider,  # refer to the spider for teams crawling
+        process.crawl(spiders.Leaguespider,
+                      # refer to the spider for teams crawling
                       input='inputargument',
                       # receive from leagues dict with league as the key
                       league_site=self.leagues[self.league])
@@ -80,7 +76,8 @@ class GetData:
                                         'overwrite': True}}  # allow overwrite
         # process_teams
         process = CrawlerProcess(settings_table)
-        process.crawl(Tablespider,  # refer to the spider for table crawling
+        process.crawl(spiders.Tablespider,
+                      # refer to the spider for table crawling
                       input='inputargument',
                       # received from the tables dict with league as the key
                       table=self.tables[self.league],
@@ -106,7 +103,8 @@ class GetData:
                                           'overwrite': True}}
         # process_players
         process = CrawlerProcess(settings_players)
-        process.crawl(Teamspider,  # refer to the spider for players crawling
+        process.crawl(spiders.Teamspider,
+                      # refer to the spider for players crawling
                       input='inputargument',
                       # league name and year as arguments
                       league=self.league,
@@ -129,7 +127,8 @@ class GetData:
                                         'overwrite': True}}
         # process_stats
         process = CrawlerProcess(settings_stats)
-        process.crawl(Playerspider,  # refer to the spider for player stats
+        process.crawl(spiders.Playerspider,
+                      # refer to the spider for player stats
                       input='inputargument',
                       # league name and year as arguments
                       league=self.league,

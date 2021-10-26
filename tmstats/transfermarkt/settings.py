@@ -9,8 +9,8 @@
 
 BOT_NAME = 'transfermarkt'
 
-SPIDER_MODULES = ['tmstats.transfermarkt.spiders']
-NEWSPIDER_MODULE = 'tmstats.transfermarkt.spiders'
+SPIDER_MODULES = ['transfermarkt.spiders']
+NEWSPIDER_MODULE = 'transfermarkt.spiders'
 
 league_fields = ['id', 'name', 'link']
 
