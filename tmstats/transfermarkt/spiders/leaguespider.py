@@ -3,8 +3,8 @@ import json
 import scrapy
 from itemloaders import ItemLoader
 from itemloaders.processors import MapCompose, Join, SelectJmes
-from getfootballstats.tmstats.transfermarkt.items import Leagueitem
-from getfootballstats.tmstats.transfermarkt.settings import league_fields
+from ..items import Leagueitem
+from ..settings import league_fields
 
 
 # Create the spider class

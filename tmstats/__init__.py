@@ -1,1 +1,2 @@
-from .transfermarkt import settings, spiders, items
+from .transfermarkt import settings, items, spiders
+from .controls import GetData

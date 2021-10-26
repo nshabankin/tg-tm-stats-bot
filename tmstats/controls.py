@@ -1,10 +1,17 @@
 import pathlib
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
-from transfermarkt.settings import team_fields, table_fields, league_fields, \
-    player_fields
-from transfermarkt.spiders import Leaguespider, Teamspider, Playerspider, \
-    Tablespider
+from .transfermarkt import settings
+
+#from transfermarkt.settings import team_fields, table_fields, league_fields, \
+#    player_fields
+from .transfermarkt.spiders.leaguespider import Leaguespider
+from .transfermarkt.spiders.teamspider import Teamspider
+from .transfermarkt.spiders.playerspider import Playerspider
+from .transfermarkt.spiders.tablespider import Tablespider
+import sys
+sys.path.append('D:/Python Projects/tg-tm-stats-bot/'
+                'getfootballstats/tmstats/')
 
 
 class GetData:
@@ -43,7 +50,7 @@ class GetData:
         """
         settings_teams = get_project_settings()  # from settings.py
         # set export fields for teams
-        settings_teams['FEED_EXPORT_FIELDS'] = league_fields
+        settings_teams['FEED_EXPORT_FIELDS'] = settings.league_fields
         # set filepath and filename for the .csv output
         settings_teams['FEEDS'] = {pathlib.Path(
             f'{str(self.league)}/'  # folder name
@@ -64,7 +71,7 @@ class GetData:
         """
         settings_table = get_project_settings()  # from settings.py
         # set export fields for league table
-        settings_table['FEED_EXPORT_FIELDS'] = table_fields
+        settings_table['FEED_EXPORT_FIELDS'] = settings.table_fields
         # set filepath and filename for the .csv output
         settings_table['FEEDS'] = {pathlib.Path(
             f'{str(self.league)}/'  # folder name
@@ -90,7 +97,7 @@ class GetData:
         """
         settings_players = get_project_settings()  # from settings.py
         # set export fields for players table
-        settings_players['FEED_EXPORT_FIELDS'] = team_fields
+        settings_players['FEED_EXPORT_FIELDS'] = settings.team_fields
         # set filepath and filename for the .csv output
         settings_players['FEEDS'] = {pathlib.Path(
             f'{str(self.league)}/'  # folder name
@@ -112,9 +119,10 @@ class GetData:
         """
         settings_stats = get_project_settings()  # from settings.py
         # set export fields for player stats
-        settings_stats['FEED_EXPORT_FIELDS'] = player_fields
+        settings_stats['FEED_EXPORT_FIELDS'] = settings.player_fields
         # set filepath and filename for the .csv output
         settings_stats['FEEDS'] = {pathlib.Path(
+            f'tmstats/'
             f'{str(self.league)}/'  # folder name
             f'{str(self.league)}_stats_{str(self.year)}.csv'):  # file name
                                        {'format': 'csv',  # format

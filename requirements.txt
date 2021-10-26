@@ -1,3 +1,5 @@
 python-telegram-bot==12.7
 scrapy==2.4.1
-pandas==1.2.4
+pandas>=1.2.4
+rq>=1.10.0
+redis

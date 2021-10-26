@@ -18,7 +18,8 @@ class Playerspider(scrapy.Spider):
         super(Playerspider, self).__init__(*args, **kwargs)
         site = 'https://www.transfermarkt.com/'
         # get DataFrame with league players and links to their profiles
-        links = pd.read_csv(f'{str(league)}/'
+        links = pd.read_csv(f'tmstats/'
+                            f'{str(league)}/'
                             f'{str(league)}_players_{str(year)}.csv',
                             usecols=['id', 'name', 'positionId', 'link'],
                             dtype='str')
