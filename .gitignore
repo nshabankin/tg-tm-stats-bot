@@ -1,2 +1,9 @@
 Procfile.windows
-./__pycache__/*
+# tmstats/bundesliga
+# tmstats/epl
+# tmstats/la_liga
+# tmstats/ligue_1
+# tmstats/rpl
+# tmstats/serie_a
+#./__pycache__/*
+tg_bot.py

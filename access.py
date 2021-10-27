@@ -1,0 +1,1 @@
+tg_token = '2039746632:AAE3ZoHPIA7_ypptqtOmPctB8WhSzI9OBH8'

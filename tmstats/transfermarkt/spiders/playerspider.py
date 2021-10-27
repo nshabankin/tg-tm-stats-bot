@@ -58,7 +58,7 @@ class Playerspider(scrapy.Spider):
     # par+e method for goalkeepers: with "conceded" and "clean sheets" fields
     def gkparse(self, response, **kwargs):
         items = GKitem()
-        body = '//*[@id="yw2"]/table/tbody/tr[1]'
+        body = '//*[@id="yw1"]/table/tbody/tr[1]'
         items['player_name'] = response.xpath(
             '//h1[@itemprop="name"]//text()').extract()
         items['number'] = response.xpath(
@@ -91,7 +91,7 @@ class Playerspider(scrapy.Spider):
     # parse method for field players
     def parse(self, response, **kwargs):
         items = Playeritem()
-        body = '//*[@id="yw2"]/table/tbody/tr[1]'
+        body = '//*[@id="yw1"]/table/tbody/tr[1]'
         items['player_name'] = response.xpath(
             '//h1[@itemprop="name"]//text()').extract()
         items['number'] = response.xpath(

@@ -3,8 +3,11 @@ from datetime import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, \
     MessageHandler, Filters, CallbackContext
+from access import tg_token
 
-TOKEN = '2039746632:AAE3ZoHPIA7_ypptqtOmPctB8WhSzI9OBH8'
+# Import telegram token
+TOKEN = tg_token
+
 # PORT = int(os.environ.get('PORT', '8443'))
 
 # Enable logging
