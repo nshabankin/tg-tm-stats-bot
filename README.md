@@ -2,7 +2,7 @@
 
 # tg-tm-stats-bot
 
-A Telegram bot to exchange scraped football statistics in a .csv file.
+A Telegram [bot](https://t.me/GetFootballStatsBot) to exchange scraped football statistics in a .csv file.
 
 ![tg-tm-stats-bot-logo](https://i.ibb.co/28zqyxC/photo-2022-06-15-13-54-05.jpg)
 
