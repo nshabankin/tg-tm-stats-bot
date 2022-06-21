@@ -6,4 +6,4 @@ Procfile.windows
 # tmstats/rpl
 # tmstats/serie_a
 #./__pycache__/*
-tg_bot.py
+bot.py
