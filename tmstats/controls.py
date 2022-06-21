@@ -4,9 +4,9 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from .transfermarkt import settings
 from .transfermarkt import spiders
-import sys
-sys.path.append('D:/Python Projects/tg-tm-stats-bot/'
-                'getfootballstats/tmstats/')
+# import sys
+# sys.path.append('D:/Python Projects/tg-tm-stats-bot/'
+#                 'getfootballstats/tmstats/')
 
 
 class GetData:
