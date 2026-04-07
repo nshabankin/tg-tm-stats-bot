@@ -41,15 +41,22 @@ Right now, the most reliable workflow for this project is manual refresh:
 TG_BOT_TOKEN=your-real-telegram-token
 ```
 
-7. In service settings, set the Start Command to:
+7. In service variables, add this too if Railway has already built the service
+   with Python `3.13`:
+
+```env
+NIXPACKS_PYTHON_VERSION=3.11
+```
+
+8. In service settings, set the Start Command to:
 
 ```bash
 python bot.py
 ```
 
-8. Deploy the service.
+9. Deploy the service.
 
-9. After the deploy succeeds, open the logs once and confirm you see the bot
+10. After the deploy succeeds, open the logs once and confirm you see the bot
    username printed at startup.
 
 ## Notes
@@ -64,6 +71,8 @@ python bot.py
 - Railway can run this as an always-on service, but because the bot keeps a
   persistent polling process alive, treat it as a small paid/usage-based
   service rather than assuming it will stay free forever.
+- The repo includes a `.python-version` file pinned to `3.11` because
+  `python-telegram-bot==12.7` is too old for Python `3.13`.
 
 ## Updating snapshots
 

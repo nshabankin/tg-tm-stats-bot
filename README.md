@@ -217,6 +217,10 @@ Quick summary:
 This bot uses Telegram long polling, so Railway does not need to expose a
 public port for it.
 
+Railway should run this project on Python `3.11`. The repo includes a
+`.python-version` file for that because the pinned Telegram bot library is not
+compatible with Python `3.13`.
+
 For the full step-by-step guide, see [RAILWAY.md](/Users/nikitashabankin/Documents/tg_tm_stats_bot/RAILWAY.md).
 
 ## Troubleshooting
