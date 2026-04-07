@@ -195,6 +195,30 @@ Then in Telegram:
 
 - Snapshot storage for each league
 
+## Railway Hosting
+
+This bot is a good candidate for a single Railway service if you want it
+running continuously without keeping your local machine on.
+
+Recommended Railway model:
+
+- host only the bot process on Railway
+- keep manual refreshes local
+- commit refreshed CSV/PDF snapshots to GitHub
+- let Railway autodeploy the new commit
+
+Quick summary:
+
+1. push the repo to GitHub
+2. create a Railway project from the GitHub repo
+3. set `TG_BOT_TOKEN` in Railway variables
+4. set the Railway start command to `python bot.py`
+
+This bot uses Telegram long polling, so Railway does not need to expose a
+public port for it.
+
+For the full step-by-step guide, see [RAILWAY.md](/Users/nikitashabankin/Documents/tg_tm_stats_bot/RAILWAY.md).
+
 ## Troubleshooting
 
 ### Transfermarkt human verification
