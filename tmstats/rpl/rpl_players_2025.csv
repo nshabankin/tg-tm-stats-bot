@@ -1,0 +1,447 @@
+id,name,shirtNumber,positionId,position,club,link
+515744,Eduard Spertsyan,10,3,Midfield,FC Krasnodar,/eduard-spertsyan/profil/spieler/515744
+185245,Jhon Córdoba,9,4,Forward,FC Krasnodar,/jhon-cordoba/profil/spieler/185245
+617520,Stanislav Agkatsev,1,1,Goalkeeper,FC Krasnodar,/stanislav-agkatsev/profil/spieler/617520
+546212,Diego Costa,4,2,Defender,FC Krasnodar,/diego-costa/profil/spieler/546212
+432112,Aleksandr Chernikov,53,3,Midfield,FC Krasnodar,/aleksandr-chernikov/profil/spieler/432112
+517300,Vítor Tormena,3,2,Defender,FC Krasnodar,/vitor-tormena/profil/spieler/517300
+393621,Douglas Augusto,66,3,Midfield,FC Krasnodar,/douglas-augusto/profil/spieler/393621
+514256,João Batxi,11,4,Forward,FC Krasnodar,/joao-batxi/profil/spieler/514256
+746180,Nikita Krivtsov,88,3,Midfield,FC Krasnodar,/nikita-krivtsov/profil/spieler/746180
+544586,Kevin Lenini,6,3,Midfield,FC Krasnodar,/kevin-lenini/profil/spieler/544586
+216240,Lucas Olaza,15,2,Defender,FC Krasnodar,/lucas-olaza/profil/spieler/216240
+381724,Victor Sá,7,4,Forward,FC Krasnodar,/victor-sa/profil/spieler/381724
+615650,Valentin Paltsev,17,2,Defender,FC Krasnodar,/valentin-paltsev/profil/spieler/615650
+339699,Giovanni González,20,2,Defender,FC Krasnodar,/giovanni-gonzalez/profil/spieler/339699
+149928,Jubal,5,2,Defender,FC Krasnodar,/jubal/profil/spieler/149928
+487421,Juan Manuel Boselli,23,4,Forward,FC Krasnodar,/juan-manuel-boselli/profil/spieler/487421
+911232,Moses David Cobnan,90,4,Forward,FC Krasnodar,/moses-david-cobnan/profil/spieler/911232
+687463,Aleksandr Koryakin,16,1,Goalkeeper,FC Krasnodar,/aleksandr-koryakin/profil/spieler/687463
+817843,Aleksandr Koksharov,96,4,Forward,FC Krasnodar,/aleksandr-koksharov/profil/spieler/817843
+1160724,Kazbek Mukailov,67,4,Forward,FC Krasnodar,/kazbek-mukailov/profil/spieler/1160724
+375662,Vitaliy Stezhko,2,2,Defender,FC Krasnodar,/vitaliy-stezhko/profil/spieler/375662
+1052493,Artem Khmarin,59,2,Defender,FC Krasnodar,/artem-khmarin/profil/spieler/1052493
+102581,Sergey Petrov,98,2,Defender,FC Krasnodar,/sergey-petrov/profil/spieler/102581
+1109231,Efim Burkin,27,3,Midfield,FC Krasnodar,/efim-burkin/profil/spieler/1109231
+1244035,Eldar Guseynov,29,4,Forward,FC Krasnodar,/eldar-guseynov/profil/spieler/1244035
+797594,Timur Abdrashitov,41,4,Forward,FC Krasnodar,/timur-abdrashitov/profil/spieler/797594
+489814,Danil Karpov,21,4,Forward,FC Krasnodar,/danil-karpov/profil/spieler/489814
+685982,Roman Safronov,0,1,Goalkeeper,FC Krasnodar,/roman-safronov/profil/spieler/685982
+715339,Grigoriy Lovtsov,0,3,Midfield,FC Krasnodar,/grigoriy-lovtsov/profil/spieler/715339
+649317,Jhon Durán,9,4,Forward,Zenit St. Petersburg,/jhon-duran/profil/spieler/649317
+800175,Luiz Henrique,11,4,Forward,Zenit St. Petersburg,/luiz-henrique/profil/spieler/800175
+1004741,Pedro,20,4,Forward,Zenit St. Petersburg,/pedro/profil/spieler/1004741
+964582,Jhon Jhon,14,3,Midfield,Zenit St. Petersburg,/jhon-jhon/profil/spieler/964582
+499721,Wendel,8,3,Midfield,Zenit St. Petersburg,/wendel/profil/spieler/499721
+448981,Maksim Glushenkov,10,4,Forward,Zenit St. Petersburg,/maksim-glushenkov/profil/spieler/448981
+520454,Nino,33,2,Defender,Zenit St. Petersburg,/nino/profil/spieler/520454
+532732,Igor Diveev,78,2,Defender,Zenit St. Petersburg,/igor-diveev/profil/spieler/532732
+220793,Douglas Santos,3,2,Defender,Zenit St. Petersburg,/douglas-santos/profil/spieler/220793
+257668,Wilmar Barrios,5,3,Midfield,Zenit St. Petersburg,/wilmar-barrios/profil/spieler/257668
+464259,Aleksandr Sobolev,7,4,Forward,Zenit St. Petersburg,/aleksandr-sobolev/profil/spieler/464259
+814269,Gustavo Mantuan,31,2,Defender,Zenit St. Petersburg,/gustavo-mantuan/profil/spieler/814269
+875947,Román Vega,66,2,Defender,Zenit St. Petersburg,/roman-vega/profil/spieler/875947
+371856,Vanja Drkusic,6,2,Defender,Zenit St. Petersburg,/vanja-drkusic/profil/spieler/371856
+362570,Andrey Mostovoy,17,4,Forward,Zenit St. Petersburg,/andrey-mostovoy/profil/spieler/362570
+465408,Nuraly Alip,28,2,Defender,Zenit St. Petersburg,/nuraly-alip/profil/spieler/465408
+334477,Denis Adamov,16,1,Goalkeeper,Zenit St. Petersburg,/denis-adamov/profil/spieler/334477
+170620,Vyacheslav Karavaev,15,2,Defender,Zenit St. Petersburg,/vyacheslav-karavaev/profil/spieler/170620
+312891,Evgeniy Latyshonok,1,1,Goalkeeper,Zenit St. Petersburg,/evgeniy-latyshonok/profil/spieler/312891
+448983,Yuriy Gorshkov,4,2,Defender,Zenit St. Petersburg,/yuriy-gorshkov/profil/spieler/448983
+455016,Arsen Adamov,23,2,Defender,Zenit St. Petersburg,/arsen-adamov/profil/spieler/455016
+701937,Yaroslav Mikhailov,18,3,Midfield,Zenit St. Petersburg,/yaroslav-mikhailov/profil/spieler/701937
+1109229,Vadim Shilov,51,4,Forward,Zenit St. Petersburg,/vadim-shilov/profil/spieler/1109229
+1109232,Daniil Kondakov,61,3,Midfield,Zenit St. Petersburg,/daniil-kondakov/profil/spieler/1109232
+718755,Bogdan Moskvichev,57,1,Goalkeeper,Zenit St. Petersburg,/bogdan-moskvichev/profil/spieler/718755
+84483,Aleksandr Erokhin,21,3,Midfield,Zenit St. Petersburg,/aleksandr-erokhin/profil/spieler/84483
+27706,Mikhail Kerzhakov,41,1,Goalkeeper,Zenit St. Petersburg,/mikhail-kerzhakov/profil/spieler/27706
+720286,Aleksey Batrakov,83,3,Midfield,Lokomotiv Moscow,/aleksey-batrakov/profil/spieler/720286
+516751,Sergey Pinyaev,9,4,Forward,Lokomotiv Moscow,/sergey-pinyaev/profil/spieler/516751
+515051,Aleksandr Silyanov,45,2,Defender,Lokomotiv Moscow,/aleksandr-silyanov/profil/spieler/515051
+387687,César Montes,23,2,Defender,Lokomotiv Moscow,/cesar-montes/profil/spieler/387687
+691920,Artem Karpukas,93,3,Midfield,Lokomotiv Moscow,/artem-karpukas/profil/spieler/691920
+370287,Dmitriy Vorobyov,10,4,Forward,Lokomotiv Moscow,/dmitriy-vorobyov/profil/spieler/370287
+381714,Danil Prutsev,25,3,Midfield,Lokomotiv Moscow,/danil-prutsev/profil/spieler/381714
+729266,Lucas Fasson,3,2,Defender,Lokomotiv Moscow,/lucas-fasson/profil/spieler/729266
+652270,Evgeniy Morozov,85,2,Defender,Lokomotiv Moscow,/evgeniy-morozov/profil/spieler/652270
+378953,Gerzino Nyamsi,5,2,Defender,Lokomotiv Moscow,/gerzino-nyamsi/profil/spieler/378953
+300538,Nikolay Komlichenko,27,4,Forward,Lokomotiv Moscow,/nikolay-komlichenko/profil/spieler/300538
+382535,Maksim Nenakhov,24,2,Defender,Lokomotiv Moscow,/maksim-nenakhov/profil/spieler/382535
+260677,Anton Mitryushkin,1,1,Goalkeeper,Lokomotiv Moscow,/anton-mitryushkin/profil/spieler/260677
+689628,Lucas Vera,32,3,Midfield,Lokomotiv Moscow,/lucas-vera/profil/spieler/689628
+318468,Aleksandr Rudenko,19,4,Forward,Lokomotiv Moscow,/aleksandr-rudenko/profil/spieler/318468
+279242,Zelimkhan Bakaev,7,4,Forward,Lokomotiv Moscow,/zelimkhan-bakaev/profil/spieler/279242
+189485,Cristian Ramírez,2,2,Defender,Lokomotiv Moscow,/cristian-ramirez/profil/spieler/189485
+230946,Ilya Lantratov,22,1,Goalkeeper,Lokomotiv Moscow,/ilya-lantratov/profil/spieler/230946
+697724,Egor Pogostnov,59,2,Defender,Lokomotiv Moscow,/egor-pogostnov/profil/spieler/697724
+697728,Nikita Saltykov,14,4,Forward,Lokomotiv Moscow,/nikita-saltykov/profil/spieler/697728
+948363,Danila Godyaev,90,3,Midfield,Lokomotiv Moscow,/danila-godyaev/profil/spieler/948363
+211727,Artem Timofeev,94,3,Midfield,Lokomotiv Moscow,/artem-timofeev/profil/spieler/211727
+393864,Vladislav Sarveli,8,4,Forward,Lokomotiv Moscow,/vladislav-sarveli/profil/spieler/393864
+749186,Mikhail Shchetinin,88,3,Midfield,Lokomotiv Moscow,/mikhail-shchetinin/profil/spieler/749186
+946413,Ruslan Myalkovskiy,99,4,Forward,Lokomotiv Moscow,/ruslan-myalkovskiy/profil/spieler/946413
+838670,Daniil Veselov,16,1,Goalkeeper,Lokomotiv Moscow,/daniil-veselov/profil/spieler/838670
+1037572,Daniil Chevardin,74,3,Midfield,Lokomotiv Moscow,/daniil-chevardin/profil/spieler/1037572
+736202,Brayan Gil,91,4,Forward,Baltika Kaliningrad,/brayan-gil/profil/spieler/736202
+614898,Kevin Andrade,16,2,Defender,Baltika Kaliningrad,/kevin-andrade/profil/spieler/614898
+526448,Maksim Borisko,67,1,Goalkeeper,Baltika Kaliningrad,/maksim-borisko/profil/spieler/526448
+431708,Maksim Petrov,73,3,Midfield,Baltika Kaliningrad,/maksim-petrov/profil/spieler/431708
+555159,Sergey Varatynov,2,2,Defender,Baltika Kaliningrad,/sergey-varatynov/profil/spieler/555159
+360451,Mingiyan Beveev,23,2,Defender,Baltika Kaliningrad,/mingiyan-beveev/profil/spieler/360451
+815346,Nathan Gassama,4,2,Defender,Baltika Kaliningrad,/nathan-gassama/profil/spieler/815346
+700933,Derik Lacerda,18,4,Forward,Baltika Kaliningrad,/derik-lacerda/profil/spieler/700933
+297034,Ilya Petrov,10,3,Midfield,Baltika Kaliningrad,/ilya-petrov/profil/spieler/297034
+301037,Aleksandr Filin,25,2,Defender,Baltika Kaliningrad,/aleksandr-filin/profil/spieler/301037
+376127,Stefan Kovac,14,3,Midfield,Baltika Kaliningrad,/stefan-kovac/profil/spieler/376127
+606526,Nikolay Titkov,22,3,Midfield,Baltika Kaliningrad,/nikolay-titkov/profil/spieler/606526
+917404,Mikhail Ryadno,68,2,Defender,Baltika Kaliningrad,/mikhail-ryadno/profil/spieler/917404
+693412,Chinonso Offor,90,4,Forward,Baltika Kaliningrad,/chinonso-offor/profil/spieler/693412
+230536,Andrey Mendel,8,3,Midfield,Baltika Kaliningrad,/andrey-mendel/profil/spieler/230536
+1247237,Ivan Belikov,26,3,Midfield,Baltika Kaliningrad,/ivan-belikov/profil/spieler/1247237
+317764,Eldar Civic,77,2,Defender,Baltika Kaliningrad,/eldar-civic/profil/spieler/317764
+593480,Aymane Mourid,5,3,Midfield,Baltika Kaliningrad,/aymane-mourid/profil/spieler/593480
+667980,Irakliy Manelov,69,4,Forward,Baltika Kaliningrad,/irakliy-manelov/profil/spieler/667980
+620015,Tenton Yenne,15,4,Forward,Baltika Kaliningrad,/tenton-yenne/profil/spieler/620015
+577714,Egor Lyubakov,44,1,Goalkeeper,Baltika Kaliningrad,/egor-lyubakov/profil/spieler/577714
+203510,Yuriy Kovalev,11,3,Midfield,Baltika Kaliningrad,/yuriy-kovalev/profil/spieler/203510
+742858,Eduardo Anderson,21,2,Defender,Baltika Kaliningrad,/eduardo-anderson/profil/spieler/742858
+1125676,Kirill Stepanov,39,4,Forward,Baltika Kaliningrad,/kirill-stepanov/profil/spieler/1125676
+743906,Kirill Nikishin,28,4,Forward,Baltika Kaliningrad,/kirill-nikishin/profil/spieler/743906
+692563,Ivan Kukushkin,81,1,Goalkeeper,Baltika Kaliningrad,/ivan-kukushkin/profil/spieler/692563
+1038342,Kirill Obonin,46,2,Defender,Baltika Kaliningrad,/kirill-obonin/profil/spieler/1038342
+1151887,Vladislav Pospelov,42,3,Midfield,Baltika Kaliningrad,/vladislav-pospelov/profil/spieler/1151887
+651580,Matvey Kislyak,31,3,Midfield,CSKA Moscow,/matvey-kislyak/profil/spieler/651580
+419845,Ivan Oblyakov,10,3,Midfield,CSKA Moscow,/ivan-oblyakov/profil/spieler/419845
+865414,Kirill Glebov,17,4,Forward,CSKA Moscow,/kirill-glebov/profil/spieler/865414
+263905,Dmitriy Barinov,6,3,Midfield,CSKA Moscow,/dmitriy-barinov/profil/spieler/263905
+851111,Luciano Gondou,9,4,Forward,CSKA Moscow,/luciano-gondou/profil/spieler/851111
+1127813,Matheus Alves,7,3,Midfield,CSKA Moscow,/matheus-alves/profil/spieler/1127813
+368468,Moisés,27,2,Defender,CSKA Moscow,/moises/profil/spieler/368468
+372535,Danil Krugovoy,3,3,Midfield,CSKA Moscow,/danil-krugovoy/profil/spieler/372535
+245030,Milan Gajic,22,2,Defender,CSKA Moscow,/milan-gajic/profil/spieler/245030
+624340,Matvey Lukin,90,2,Defender,CSKA Moscow,/matvey-lukin/profil/spieler/624340
+671145,João Victor,4,2,Defender,CSKA Moscow,/joao-victor/profil/spieler/671145
+1009031,Henrique Carmo,37,4,Forward,CSKA Moscow,/henrique-carmo/profil/spieler/1009031
+379249,Matheus Reis,2,2,Defender,CSKA Moscow,/matheus-reis/profil/spieler/379249
+654117,Tamerlan Musaev,11,4,Forward,CSKA Moscow,/tamerlan-musaev/profil/spieler/654117
+720287,Danila Kozlov,18,3,Midfield,CSKA Moscow,/danila-kozlov/profil/spieler/720287
+1141473,Maksim Voronov,97,4,Forward,CSKA Moscow,/maksim-voronov/profil/spieler/1141473
+1012421,Matija Popović,20,3,Midfield,CSKA Moscow,/matija-popovic/profil/spieler/1012421
+650833,Daniel Ruiz,19,4,Forward,CSKA Moscow,/daniel-ruiz/profil/spieler/650833
+878219,Ramiro Di Luciano,24,2,Defender,CSKA Moscow,/ramiro-di-luciano/profil/spieler/878219
+555146,Vladislav Torop,49,1,Goalkeeper,CSKA Moscow,/vladislav-torop/profil/spieler/555146
+15570,Igor Akinfeev,35,1,Goalkeeper,CSKA Moscow,/igor-akinfeev/profil/spieler/15570
+917403,Artem Bandikyan,52,3,Midfield,CSKA Moscow,/artem-bandikyan/profil/spieler/917403
+1131030,Kirill Danilov,79,2,Defender,CSKA Moscow,/kirill-danilov/profil/spieler/1131030
+1052489,Artem Serikov,88,4,Forward,CSKA Moscow,/artem-serikov/profil/spieler/1052489
+703581,Egor Ushakov,14,4,Forward,CSKA Moscow,/egor-ushakov/profil/spieler/703581
+864314,Egor Besaev,85,1,Goalkeeper,CSKA Moscow,/egor-besaev/profil/spieler/864314
+337800,Gedson Fernandes,83,3,Midfield,Spartak Moscow,/gedson-fernandes/profil/spieler/337800
+645173,Manfred Ugalde,9,4,Forward,Spartak Moscow,/manfred-ugalde/profil/spieler/645173
+456623,Esequiel Barco,5,3,Midfield,Spartak Moscow,/esequiel-barco/profil/spieler/456623
+354587,Levi García,11,4,Forward,Spartak Moscow,/levi-garcia/profil/spieler/354587
+381833,Nail Umyarov,18,3,Midfield,Spartak Moscow,/nail-umyarov/profil/spieler/381833
+756991,Pablo Solari,7,4,Forward,Spartak Moscow,/pablo-solari/profil/spieler/756991
+516722,Marquinhos,10,4,Forward,Spartak Moscow,/marquinhos/profil/spieler/516722
+222805,Srdjan Babic,6,2,Defender,Spartak Moscow,/srdjan-babic/profil/spieler/222805
+520073,Ruslan Litvinov,68,2,Defender,Spartak Moscow,/ruslan-litvinov/profil/spieler/520073
+248054,Christopher Martins,35,3,Midfield,Spartak Moscow,/christopher-martins/profil/spieler/248054
+351419,Aleksandr Maksimenko,98,1,Goalkeeper,Spartak Moscow,/aleksandr-maksimenko/profil/spieler/351419
+572326,Christopher Wooh,3,2,Defender,Spartak Moscow,/christopher-wooh/profil/spieler/572326
+280701,Théo Bongonda,77,4,Forward,Spartak Moscow,/theo-bongonda/profil/spieler/280701
+649303,Daniil Denisov,97,2,Defender,Spartak Moscow,/daniil-denisov/profil/spieler/649303
+250844,Alexander Djiku,4,2,Defender,Spartak Moscow,/alexander-djiku/profil/spieler/250844
+817700,Igor Dmitriev,27,4,Forward,Spartak Moscow,/igor-dmitriev/profil/spieler/817700
+461512,Oleg Reabciuk,2,2,Defender,Spartak Moscow,/oleg-reabciuk/profil/spieler/461512
+522030,Ilya Samoshnikov,14,2,Defender,Spartak Moscow,/ilya-samoshnikov/profil/spieler/522030
+166277,Roman Zobnin,47,3,Midfield,Spartak Moscow,/roman-zobnin/profil/spieler/166277
+706618,Vladislav Saus,17,3,Midfield,Spartak Moscow,/vladislav-saus/profil/spieler/706618
+217686,Ilya Pomazun,1,1,Goalkeeper,Spartak Moscow,/ilya-pomazun/profil/spieler/217686
+726445,Daniil Zorin,28,3,Midfield,Spartak Moscow,/daniil-zorin/profil/spieler/726445
+70114,Anton Zabolotnyi,91,4,Forward,Spartak Moscow,/anton-zabolotnyi/profil/spieler/70114
+1180777,Nikita Massalyga,24,4,Forward,Spartak Moscow,/nikita-massalyga/profil/spieler/1180777
+1384080,Pavel Polekh,62,4,Forward,Spartak Moscow,/pavel-polekh/profil/spieler/1384080
+47004,Aleksandr Dovbnya,56,1,Goalkeeper,Spartak Moscow,/aleksandr-dovbnya/profil/spieler/47004
+521872,Mirlind Daku,10,4,Forward,Rubin Kazan,/mirlind-daku/profil/spieler/521872
+700385,Ilya Rozhkov,51,2,Defender,Rubin Kazan,/ilya-rozhkov/profil/spieler/700385
+619279,Veldin Hodza,22,3,Midfield,Rubin Kazan,/veldin-hodza/profil/spieler/619279
+279570,Daler Kuzyaev,14,3,Midfield,Rubin Kazan,/daler-kuzyaev/profil/spieler/279570
+565852,Ugochukwu Iwu,6,3,Midfield,Rubin Kazan,/ugochukwu-iwu/profil/spieler/565852
+227538,Igor Vujacic,5,2,Defender,Rubin Kazan,/igor-vujacic/profil/spieler/227538
+804933,Jacques Siwe,43,4,Forward,Rubin Kazan,/jacques-siwe/profil/spieler/804933
+584231,Egor Teslenko,2,2,Defender,Rubin Kazan,/egor-teslenko/profil/spieler/584231
+389624,Evgeniy Staver,38,1,Goalkeeper,Rubin Kazan,/evgeniy-staver/profil/spieler/389624
+401706,Ignacio Saavedra,7,3,Midfield,Rubin Kazan,/ignacio-saavedra/profil/spieler/401706
+401769,Denil Maldonado,3,2,Defender,Rubin Kazan,/denil-maldonado/profil/spieler/401769
+426326,Anderson Arroyo,12,2,Defender,Rubin Kazan,/anderson-arroyo/profil/spieler/426326
+452464,Dardan Shabanhaxhaj,99,4,Forward,Rubin Kazan,/dardan-shabanhaxhaj/profil/spieler/452464
+355692,Nazmi Gripshi,11,3,Midfield,Rubin Kazan,/nazmi-gripshi/profil/spieler/355692
+379634,Aleksey Gritsaenko,27,2,Defender,Rubin Kazan,/aleksey-gritsaenko/profil/spieler/379634
+685854,Ruslan Bezrukov,23,3,Midfield,Rubin Kazan,/ruslan-bezrukov/profil/spieler/685854
+574669,Bogdan Jocic,8,3,Midfield,Rubin Kazan,/bogdan-jocic/profil/spieler/574669
+393699,Aleksandar Jukic,77,3,Midfield,Rubin Kazan,/aleksandar-jukic/profil/spieler/393699
+221992,Anton Shvets,30,3,Midfield,Rubin Kazan,/anton-shvets/profil/spieler/221992
+604073,Konstantin Nizhegorodov,4,2,Defender,Rubin Kazan,/konstantin-nizhegorodov/profil/spieler/604073
+148118,Dmitriy Kabutov,70,2,Defender,Rubin Kazan,/dmitriy-kabutov/profil/spieler/148118
+726446,Daniil Motorin,59,4,Forward,Rubin Kazan,/daniil-motorin/profil/spieler/726446
+522145,Daniil Kuznetsov,44,4,Forward,Rubin Kazan,/daniil-kuznetsov/profil/spieler/522145
+720281,Nikita Lobov,98,2,Defender,Rubin Kazan,/nikita-lobov/profil/spieler/720281
+292837,Aleksandr Lomovitskiy,9,4,Forward,Rubin Kazan,/aleksandr-lomovitskiy/profil/spieler/292837
+70074,Artur Nigmatullin,25,1,Goalkeeper,Rubin Kazan,/artur-nigmatullin/profil/spieler/70074
+549983,Aleksey Kenyaykin,1,1,Goalkeeper,Rubin Kazan,/aleksey-kenyaykin/profil/spieler/549983
+615642,Uros Drezgic,26,2,Defender,Rubin Kazan,/uros-drezgic/profil/spieler/615642
+599046,Marat Apshatsev,18,3,Midfield,Rubin Kazan,/marat-apshatsev/profil/spieler/599046
+93177,Aleksandr Zotov,21,3,Midfield,Rubin Kazan,/aleksandr-zotov/profil/spieler/93177
+16756,Oleg Ivanov,19,3,Midfield,Rubin Kazan,/oleg-ivanov/profil/spieler/16756
+995045,Nikita Vasiljev,96,3,Midfield,Rubin Kazan,/nikita-vasiljev/profil/spieler/995045
+1119146,Enri Mukba,87,4,Forward,Rubin Kazan,/enri-mukba/profil/spieler/1119146
+532676,Konstantin Tyukavin,70,4,Forward,Dynamo Moscow,/konstantin-tyukavin/profil/spieler/532676
+703497,Bitello,10,3,Midfield,Dynamo Moscow,/bitello/profil/spieler/703497
+843397,Rubens,44,2,Defender,Dynamo Moscow,/rubens/profil/spieler/843397
+400713,Daniil Fomin,74,3,Midfield,Dynamo Moscow,/daniil-fomin/profil/spieler/400713
+570423,Danil Glebov,15,3,Midfield,Dynamo Moscow,/danil-glebov/profil/spieler/570423
+985172,David Ricardo,57,2,Defender,Dynamo Moscow,/david-ricardo/profil/spieler/985172
+331059,Luis Chávez,24,3,Midfield,Dynamo Moscow,/luis-chavez/profil/spieler/331059
+852980,Nicolás Marichal,2,2,Defender,Dynamo Moscow,/nicolas-marichal/profil/spieler/852980
+673114,Yaroslav Gladyshev,91,4,Forward,Dynamo Moscow,/yaroslav-gladyshev/profil/spieler/673114
+756494,Juan José Cáceres,4,2,Defender,Dynamo Moscow,/juan-jose-caceres/profil/spieler/756494
+293829,Maksim Osipenko,55,2,Defender,Dynamo Moscow,/maksim-osipenko/profil/spieler/293829
+395659,Ivan Sergeev,33,4,Forward,Dynamo Moscow,/ivan-sergeev/profil/spieler/395659
+401534,Arthur Gomes,11,4,Forward,Dynamo Moscow,/arthur-gomes/profil/spieler/401534
+491589,Roberto Fernández,6,2,Defender,Dynamo Moscow,/roberto-fernandez/profil/spieler/491589
+266768,Nicolas Moumi Ngamaleu,13,4,Forward,Dynamo Moscow,/nicolas-moumi-ngamaleu/profil/spieler/266768
+344299,Bakhtiyor Zaynutdinov,19,2,Defender,Dynamo Moscow,/bakhtiyor-zaynutdinov/profil/spieler/344299
+255451,Anton Miranchuk,21,3,Midfield,Dynamo Moscow,/anton-miranchuk/profil/spieler/255451
+281917,Dmitriy Skopintsev,7,2,Defender,Dynamo Moscow,/dmitriy-skopintsev/profil/spieler/281917
+687617,Aleksandr Kutitskiy,50,3,Midfield,Dynamo Moscow,/aleksandr-kutitskiy/profil/spieler/687617
+667974,El Mehdi Maouhoub,14,4,Forward,Dynamo Moscow,/el-mehdi-maouhoub/profil/spieler/667974
+918327,Kurban Rasulov,40,1,Goalkeeper,Dynamo Moscow,/kurban-rasulov/profil/spieler/918327
+673429,Milan Majstorovic,5,2,Defender,Dynamo Moscow,/milan-majstorovic/profil/spieler/673429
+112541,Andrey Lunev,99,1,Goalkeeper,Dynamo Moscow,/andrey-lunev/profil/spieler/112541
+637540,Ulvi Babaev,17,4,Forward,Dynamo Moscow,/ulvi-babaev/profil/spieler/637540
+718759,Leon Zaydenzal,56,2,Defender,Dynamo Moscow,/leon-zaydenzal/profil/spieler/718759
+1080107,Timofey Marinkin,60,3,Midfield,Dynamo Moscow,/timofey-marinkin/profil/spieler/1080107
+168527,Igor Leshchuk,31,1,Goalkeeper,Dynamo Moscow,/igor-leshchuk/profil/spieler/168527
+939068,Viktor Okishor,88,3,Midfield,Dynamo Moscow,/viktor-okishor/profil/spieler/939068
+864621,Dmitriy Aleksandrov,30,3,Midfield,Dynamo Moscow,/dmitriy-aleksandrov/profil/spieler/864621
+720930,Andrey Kudravets,47,1,Goalkeeper,Dynamo Moscow,/andrey-kudravets/profil/spieler/720930
+623553,Lechi Sadulaev,7,4,Forward,Akhmat Grozny,/lechi-sadulaev/profil/spieler/623553
+713071,Maksim Samorodov,20,4,Forward,Akhmat Grozny,/maksim-samorodov/profil/spieler/713071
+621436,Daniil Khlusevich,82,2,Defender,Akhmat Grozny,/daniil-khlusevich/profil/spieler/621436
+911400,Egas Cacintura,17,3,Midfield,Akhmat Grozny,/egas-cacintura/profil/spieler/911400
+810558,Turpal-Ali Ibishev,4,2,Defender,Akhmat Grozny,/turpal-ali-ibishev/profil/spieler/810558
+267383,Rifat Zhemaletdinov,10,3,Midfield,Akhmat Grozny,/rifat-zhemaletdinov/profil/spieler/267383
+373374,Brian Mansilla,9,4,Forward,Akhmat Grozny,/brian-mansilla/profil/spieler/373374
+457743,Mohamed Konaté,13,4,Forward,Akhmat Grozny,/mohamed-konate/profil/spieler/457743
+281552,Georgiy Melkadze,77,4,Forward,Akhmat Grozny,/georgiy-melkadze/profil/spieler/281552
+917402,Dzhamalutdin Abdulkadyrov,2,2,Defender,Akhmat Grozny,/dzhamalutdin-abdulkadyrov/profil/spieler/917402
+646894,Sergey Pryakhin,19,3,Midfield,Akhmat Grozny,/sergey-pryakhin/profil/spieler/646894
+273945,Miroslav Bogosavac,8,2,Defender,Akhmat Grozny,/miroslav-bogosavac/profil/spieler/273945
+253734,Ismael Silva,11,3,Midfield,Akhmat Grozny,/ismael-silva/profil/spieler/253734
+486204,Klisman Cake,5,2,Defender,Akhmat Grozny,/klisman-cake/profil/spieler/486204
+456814,Maksim Sidorov,81,2,Defender,Akhmat Grozny,/maksim-sidorov/profil/spieler/456814
+1107993,Mohammadmehdi Zare,22,2,Defender,Akhmat Grozny,/mohammadmehdi-zare/profil/spieler/1107993
+829380,Ousmane N'Dong,90,2,Defender,Akhmat Grozny,/ousmane-ndong/profil/spieler/829380
+1059814,Kelliano,42,3,Midfield,Akhmat Grozny,/kelliano/profil/spieler/1059814
+799095,Vadim Ulyanov,1,1,Goalkeeper,Akhmat Grozny,/vadim-ulyanov/profil/spieler/799095
+704593,Galymzhan Kenzhebek,23,4,Forward,Akhmat Grozny,/galymzhan-kenzhebek/profil/spieler/704593
+867082,Abakar Gadzhiev,70,3,Midfield,Akhmat Grozny,/abakar-gadzhiev/profil/spieler/867082
+1178485,Papa Amady Gadio,37,3,Midfield,Akhmat Grozny,/papa-amady-gadio/profil/spieler/1178485
+686862,Valeriy Tsarukyan,80,3,Midfield,Akhmat Grozny,/valeriy-tsarukyan/profil/spieler/686862
+58971,Giorgiy Shelia,88,1,Goalkeeper,Akhmat Grozny,/giorgiy-shelia/profil/spieler/58971
+51274,Rizvan Utsiev,40,2,Defender,Akhmat Grozny,/rizvan-utsiev/profil/spieler/51274
+1120351,Yakhya Magomedov,72,1,Goalkeeper,Akhmat Grozny,/yakhya-magomedov/profil/spieler/1120351
+866670,Ronaldo,7,4,Forward,FC Rostov,/ronaldo/profil/spieler/866670
+515050,Ilya Vakhania,40,2,Defender,FC Rostov,/ilya-vakhania/profil/spieler/515050
+866001,Viktor Melekhin,4,2,Defender,FC Rostov,/viktor-melekhin/profil/spieler/866001
+501769,Kirill Shchetinin,10,3,Midfield,FC Rostov,/kirill-shchetinin/profil/spieler/501769
+603149,Mohammad Mohebi,9,4,Forward,FC Rostov,/mohammad-mohebi/profil/spieler/603149
+640692,Oumar Sako,3,2,Defender,FC Rostov,/oumar-sako/profil/spieler/640692
+449722,Egor Golenkov,69,4,Forward,FC Rostov,/egor-golenkov/profil/spieler/449722
+381834,Konstantin Kuchaev,18,3,Midfield,FC Rostov,/konstantin-kuchaev/profil/spieler/381834
+424022,Rustam Yatimov,1,1,Goalkeeper,FC Rostov,/rustam-yatimov/profil/spieler/424022
+727569,Andrey Langovich,87,2,Defender,FC Rostov,/andrey-langovich/profil/spieler/727569
+787305,Ivan Komarov,62,3,Midfield,FC Rostov,/ivan-komarov/profil/spieler/787305
+402625,Aleksey Mironov,8,3,Midfield,FC Rostov,/aleksey-mironov/profil/spieler/402625
+582074,Timur Suleymanov,99,4,Forward,FC Rostov,/timur-suleymanov/profil/spieler/582074
+486083,Danila Prokhin,5,2,Defender,FC Rostov,/danila-prokhin/profil/spieler/486083
+817604,David Semenchuk,22,2,Defender,FC Rostov,/david-semenchuk/profil/spieler/817604
+817607,Daniil Shantaliy,58,3,Midfield,FC Rostov,/daniil-shantaliy/profil/spieler/817607
+235339,Dmitriy Chistyakov,78,2,Defender,FC Rostov,/dmitriy-chistyakov/profil/spieler/235339
+555135,Daniil Odoevskiy,71,1,Goalkeeper,FC Rostov,/daniil-odoevskiy/profil/spieler/555135
+918332,German Ignatov,67,2,Defender,FC Rostov,/german-ignatov/profil/spieler/918332
+189715,Khoren Bayramyan,19,3,Midfield,FC Rostov,/khoren-bayramyan/profil/spieler/189715
+1036407,Eyad El Askalany,34,2,Defender,FC Rostov,/eyad-el-askalany/profil/spieler/1036407
+917991,Anton Shamonin,91,4,Forward,FC Rostov,/anton-shamonin/profil/spieler/917991
+963720,Aleksandr Tarasov,6,2,Defender,FC Rostov,/aleksandr-tarasov/profil/spieler/963720
+187024,Evgeniy Chernov,28,2,Defender,FC Rostov,/evgeniy-chernov/profil/spieler/187024
+817830,Ilya Zhbanov,57,3,Midfield,FC Rostov,/ilya-zhbanov/profil/spieler/817830
+156680,Hidajet Hankic,13,1,Goalkeeper,FC Rostov,/hidajet-hankic/profil/spieler/156680
+1339250,Ibraheem Mahfus Ajasa,17,4,Forward,FC Rostov,/ibraheem-mahfus-ajasa/profil/spieler/1339250
+939879,Nikita Babakin,59,2,Defender,FC Rostov,/nikita-babakin/profil/spieler/939879
+501250,Stepan Melnikov,0,4,Forward,FC Rostov,/stepan-melnikov/profil/spieler/501250
+1037971,Dmitriy Pestryakov,71,4,Forward,Akron Tolyatti,/dmitriy-pestryakov/profil/spieler/1037971
+645880,Ifet Djakovac,35,3,Midfield,Akron Tolyatti,/ifet-djakovac/profil/spieler/645880
+375857,Kristijan Bistrovic,23,3,Midfield,Akron Tolyatti,/kristijan-bistrovic/profil/spieler/375857
+430488,Edgar Sevikyan,7,4,Forward,Akron Tolyatti,/edgar-sevikyan/profil/spieler/430488
+274694,Ionuț Nedelcearu,24,2,Defender,Akron Tolyatti,/ionut-nedelcearu/profil/spieler/274694
+352599,Stefan Loncar,15,3,Midfield,Akron Tolyatti,/stefan-loncar/profil/spieler/352599
+636601,Aleksa Djurasovic,5,3,Midfield,Akron Tolyatti,/aleksa-djurasovic/profil/spieler/636601
+598101,Roberto Fernández,21,2,Defender,Akron Tolyatti,/roberto-fernandez/profil/spieler/598101
+48067,Artem Dzyuba,22,4,Forward,Akron Tolyatti,/artem-dzyuba/profil/spieler/48067
+190188,Vitaliy Gudiev,88,1,Goalkeeper,Akron Tolyatti,/vitaliy-gudiev/profil/spieler/190188
+1033394,Maksim Boldyrev,91,3,Midfield,Akron Tolyatti,/maksim-boldyrev/profil/spieler/1033394
+700755,Marat Bokoev,19,2,Defender,Akron Tolyatti,/marat-bokoev/profil/spieler/700755
+391905,Khetag Khosonov,80,3,Midfield,Akron Tolyatti,/khetag-khosonov/profil/spieler/391905
+820252,Benchimol,11,4,Forward,Akron Tolyatti,/benchimol/profil/spieler/820252
+908807,Yomar Rocha,2,2,Defender,Akron Tolyatti,/yomar-rocha/profil/spieler/908807
+268427,Maksim Kuzmin,6,3,Midfield,Akron Tolyatti,/maksim-kuzmin/profil/spieler/268427
+396428,Rodrigo Escoval,26,2,Defender,Akron Tolyatti,/rodrigo-escoval/profil/spieler/396428
+215213,Aleksandr Vasyutin,78,1,Goalkeeper,Akron Tolyatti,/aleksandr-vasyutin/profil/spieler/215213
+535974,Konstantin Maradishvili,8,3,Midfield,Akron Tolyatti,/konstantin-maradishvili/profil/spieler/535974
+1385364,Kévin Arévalo,10,4,Forward,Akron Tolyatti,/kevin-arevalo/profil/spieler/1385364
+1160366,Arseniy Dmitriev,69,4,Forward,Akron Tolyatti,/arseniy-dmitriev/profil/spieler/1160366
+917457,Nikita Bazilevskiy,81,3,Midfield,Akron Tolyatti,/nikita-bazilevskiy/profil/spieler/917457
+1038622,Ignat Terekhovskiy,32,1,Goalkeeper,Akron Tolyatti,/ignat-terekhovskiy/profil/spieler/1038622
+1243089,Denis Popenkov,89,2,Defender,Akron Tolyatti,/denis-popenkov/profil/spieler/1243089
+1030739,Mohammadjavad Hosseinnejad,10,3,Midfield,Dinamo Makhachkala,/mohammadjavad-hosseinnejad/profil/spieler/1030739
+567023,Gamid Agalarov,25,4,Forward,Dinamo Makhachkala,/gamid-agalarov/profil/spieler/567023
+250907,Jemal Tabidze,5,2,Defender,Dinamo Makhachkala,/jemal-tabidze/profil/spieler/250907
+1043831,Miro,11,4,Forward,Dinamo Makhachkala,/miro/profil/spieler/1043831
+842780,Houssem Mrezigue,16,3,Midfield,Dinamo Makhachkala,/houssem-mrezigue/profil/spieler/842780
+702149,Idar Shumakhov,4,2,Defender,Dinamo Makhachkala,/idar-shumakhov/profil/spieler/702149
+654591,Temirkan Sundukov,77,2,Defender,Dinamo Makhachkala,/temirkan-sundukov/profil/spieler/654591
+593432,Mehdi Moubarik,6,3,Midfield,Dinamo Makhachkala,/mehdi-moubarik/profil/spieler/593432
+480139,Nikita Glushkov,47,3,Midfield,Dinamo Makhachkala,/nikita-glushkov/profil/spieler/480139
+451244,David Volk,27,1,Goalkeeper,Dinamo Makhachkala,/david-volk/profil/spieler/451244
+622477,Timur Magomedov,39,1,Goalkeeper,Dinamo Makhachkala,/timur-magomedov/profil/spieler/622477
+863190,Mohamed Azzi,22,2,Defender,Dinamo Makhachkala,/mohamed-azzi/profil/spieler/863190
+1102540,Andrés Alarcón,24,2,Defender,Dinamo Makhachkala,/andres-alarcon/profil/spieler/1102540
+334425,Mutalip Alibekov,99,2,Defender,Dinamo Makhachkala,/mutalip-alibekov/profil/spieler/334425
+953150,Hazem Mastouri,7,4,Forward,Dinamo Makhachkala,/hazem-mastouri/profil/spieler/953150
+438306,Soslan Kagermazov,13,2,Defender,Dinamo Makhachkala,/soslan-kagermazov/profil/spieler/438306
+622454,Razhab Magomedov,9,3,Midfield,Dinamo Makhachkala,/razhab-magomedov/profil/spieler/622454
+874950,Jan Dapo,71,2,Defender,Dinamo Makhachkala,/jan-dapo/profil/spieler/874950
+649301,Aleksandr Sandrachuk,72,2,Defender,Dinamo Makhachkala,/aleksandr-sandrachuk/profil/spieler/649301
+720936,Kirill Zinovich,19,3,Midfield,Dinamo Makhachkala,/kirill-zinovich/profil/spieler/720936
+1156870,Abdulpasha Dzhabrailov,21,3,Midfield,Dinamo Makhachkala,/abdulpasha-dzhabrailov/profil/spieler/1156870
+129103,Serder Serderov,28,4,Forward,Dinamo Makhachkala,/serder-serderov/profil/spieler/129103
+1317563,Ilyas Akhmedov,43,2,Defender,Dinamo Makhachkala,/ilyas-akhmedov/profil/spieler/1317563
+698931,Nikita Karabashev,33,1,Goalkeeper,Dinamo Makhachkala,/nikita-karabashev/profil/spieler/698931
+1404902,Diaa Eddine Mechid,55,4,Forward,Dinamo Makhachkala,/diaa-eddine-mechid/profil/spieler/1404902
+1317564,Gadzhi Budunov,98,4,Forward,Dinamo Makhachkala,/gadzhi-budunov/profil/spieler/1317564
+745284,Vadim Rakov,7,4,Forward,Krylya Sovetov Samara,/vadim-rakov/profil/spieler/745284
+524403,Fernando Costanza,22,3,Midfield,Krylya Sovetov Samara,/fernando-costanza/profil/spieler/524403
+1120902,Gonzalo Requena,31,2,Defender,Krylya Sovetov Samara,/gonzalo-requena/profil/spieler/1120902
+622461,Sergey Babkin,6,3,Midfield,Krylya Sovetov Samara,/sergey-babkin/profil/spieler/622461
+539469,Thomas Galdames,3,2,Defender,Krylya Sovetov Samara,/thomas-galdames/profil/spieler/539469
+585082,Mihajlo Banjac,14,3,Midfield,Krylya Sovetov Samara,/mihajlo-banjac/profil/spieler/585082
+371627,Ivan Oleynikov,19,4,Forward,Krylya Sovetov Samara,/ivan-oleynikov/profil/spieler/371627
+334440,Ilzat Akhmetov,77,3,Midfield,Krylya Sovetov Samara,/ilzat-akhmetov/profil/spieler/334440
+214238,Nikita Chernov,23,2,Defender,Krylya Sovetov Samara,/nikita-chernov/profil/spieler/214238
+285868,Nikolay Rasskazov,15,2,Defender,Krylya Sovetov Samara,/nikolay-rasskazov/profil/spieler/285868
+498015,Kirill Pechenin,2,2,Defender,Krylya Sovetov Samara,/kirill-pechenin/profil/spieler/498015
+353559,Dominik Oroz,5,2,Defender,Krylya Sovetov Samara,/dominik-oroz/profil/spieler/353559
+422838,Roman Evgenjev,24,2,Defender,Krylya Sovetov Samara,/roman-evgenjev/profil/spieler/422838
+538773,Chinedu Geoffrey,99,4,Forward,Krylya Sovetov Samara,/chinedu-geoffrey/profil/spieler/538773
+372730,Jimmy Marín,26,4,Forward,Krylya Sovetov Samara,/jimmy-marin/profil/spieler/372730
+697954,Ivan Lepskiy,18,2,Defender,Krylya Sovetov Samara,/ivan-lepskiy/profil/spieler/697954
+265282,Sergey Bozhin,47,2,Defender,Krylya Sovetov Samara,/sergey-bozhin/profil/spieler/265282
+898119,Artem Shumanskiy,70,4,Forward,Krylya Sovetov Samara,/artem-shumanskiy/profil/spieler/898119
+538954,Nikita Kokarev,80,1,Goalkeeper,Krylya Sovetov Samara,/nikita-kokarev/profil/spieler/538954
+166086,Amar Rahmanovic,11,3,Midfield,Krylya Sovetov Samara,/amar-rahmanovic/profil/spieler/166086
+447101,Maksim Vityugov,8,3,Midfield,Krylya Sovetov Samara,/maksim-vityugov/profil/spieler/447101
+403187,Dani Fernández,72,2,Defender,Krylya Sovetov Samara,/dani-fernandez/profil/spieler/403187
+217033,Aleksey Sutormin,9,4,Forward,Krylya Sovetov Samara,/aleksey-sutormin/profil/spieler/217033
+718763,Kirill Stolbov,20,3,Midfield,Krylya Sovetov Samara,/kirill-stolbov/profil/spieler/718763
+430484,Vladimir Khubulov,10,4,Forward,Krylya Sovetov Samara,/vladimir-khubulov/profil/spieler/430484
+1249173,Vladimir Ignatenko,91,4,Forward,Krylya Sovetov Samara,/vladimir-ignatenko/profil/spieler/1249173
+61397,Sergey Pesjakov,30,1,Goalkeeper,Krylya Sovetov Samara,/sergey-pesjakov/profil/spieler/61397
+177350,Evgeniy Frolov,39,1,Goalkeeper,Krylya Sovetov Samara,/evgeniy-frolov/profil/spieler/177350
+666616,Olakunle Olusegun,40,4,Forward,FC Pari Nizhniy Novgorod,/olakunle-olusegun/profil/spieler/666616
+315252,Daniil Lesovoy,88,4,Forward,FC Pari Nizhniy Novgorod,/daniil-lesovoy/profil/spieler/315252
+320864,Sven Karic,25,2,Defender,FC Pari Nizhniy Novgorod,/sven-karic/profil/spieler/320864
+939065,Andrey Ivlev,77,3,Midfield,FC Pari Nizhniy Novgorod,/andrey-ivlev/profil/spieler/939065
+365261,Vyacheslav Grulev,27,4,Forward,FC Pari Nizhniy Novgorod,/vyacheslav-grulev/profil/spieler/365261
+923177,Edgardo Fariña,24,2,Defender,FC Pari Nizhniy Novgorod,/edgardo-farina/profil/spieler/923177
+1021819,Alex Opoku Sarfo,6,3,Midfield,FC Pari Nizhniy Novgorod,/alex-opoku-sarfo/profil/spieler/1021819
+649261,Viktor Aleksandrov,2,2,Defender,FC Pari Nizhniy Novgorod,/viktor-aleksandrov/profil/spieler/649261
+879028,Renaldo Cephas,21,4,Forward,FC Pari Nizhniy Novgorod,/renaldo-cephas/profil/spieler/879028
+458387,Nikita Kakkoev,22,2,Defender,FC Pari Nizhniy Novgorod,/nikita-kakkoev/profil/spieler/458387
+637552,Maksim Shnaptsev,70,2,Defender,FC Pari Nizhniy Novgorod,/maksim-shnaptsev/profil/spieler/637552
+793509,Mamadou Maiga,8,3,Midfield,FC Pari Nizhniy Novgorod,/mamadou-maiga/profil/spieler/793509
+624030,Luka Vesner Ticic,29,3,Midfield,FC Pari Nizhniy Novgorod,/luka-vesner-ticic/profil/spieler/624030
+565171,Vadim Pigas,32,2,Defender,FC Pari Nizhniy Novgorod,/vadim-pigas/profil/spieler/565171
+296513,Nikita Medvedev,30,1,Goalkeeper,FC Pari Nizhniy Novgorod,/nikita-medvedev/profil/spieler/296513
+715359,Egor Smelov,17,3,Midfield,FC Pari Nizhniy Novgorod,/egor-smelov/profil/spieler/715359
+391907,Aleksandr Ektov,15,2,Defender,FC Pari Nizhniy Novgorod,/aleksandr-ektov/profil/spieler/391907
+637545,Ilya Kirsh,4,2,Defender,FC Pari Nizhniy Novgorod,/ilya-kirsh/profil/spieler/637545
+252209,Adrián Balboa,10,4,Forward,FC Pari Nizhniy Novgorod,/adrian-balboa/profil/spieler/252209
+146468,Nikolay Kalinskiy,78,3,Midfield,FC Pari Nizhniy Novgorod,/nikolay-kalinskiy/profil/spieler/146468
+621397,Nikita Ermakov,19,3,Midfield,FC Pari Nizhniy Novgorod,/nikita-ermakov/profil/spieler/621397
+817355,Matvey Urvantsev,14,4,Forward,FC Pari Nizhniy Novgorod,/matvey-urvantsev/profil/spieler/817355
+817386,Yuriy Koledin,3,2,Defender,FC Pari Nizhniy Novgorod,/yuriy-koledin/profil/spieler/817386
+660000,Juan Camilo Castillo,23,2,Defender,FC Pari Nizhniy Novgorod,/juan-camilo-castillo/profil/spieler/660000
+743231,Vadim Lukyanov,1,1,Goalkeeper,FC Pari Nizhniy Novgorod,/vadim-lukyanov/profil/spieler/743231
+718760,Yaroslav Krashevskiy,16,2,Defender,FC Pari Nizhniy Novgorod,/yaroslav-krashevskiy/profil/spieler/718760
+1052494,Artem Sidorenko,69,3,Midfield,FC Pari Nizhniy Novgorod,/artem-sidorenko/profil/spieler/1052494
+715384,Stanislav Lapinskiy,0,4,Forward,FC Pari Nizhniy Novgorod,/stanislav-lapinskiy/profil/spieler/715384
+1046215,Egor Koshkin,51,1,Goalkeeper,FC Pari Nizhniy Novgorod,/egor-koshkin/profil/spieler/1046215
+1106216,Damián Puebla,21,3,Midfield,FC Orenburg,/damian-puebla/profil/spieler/1106216
+906774,Du Queiroz,37,3,Midfield,FC Orenburg,/du-queiroz/profil/spieler/906774
+858259,Emircan Gürlük,7,4,Forward,FC Orenburg,/emircan-gurluk/profil/spieler/858259
+980773,Alexis Cantero,32,2,Defender,FC Orenburg,/alexis-cantero/profil/spieler/980773
+889462,Jordhy Thompson,16,4,Forward,FC Orenburg,/jordhy-thompson/profil/spieler/889462
+265589,Fahd Moufi,18,2,Defender,FC Orenburg,/fahd-moufi/profil/spieler/265589
+628049,Emil Tsenov,26,2,Defender,FC Orenburg,/emil-tsenov/profil/spieler/628049
+534477,Bogdan Ovsyannikov,1,1,Goalkeeper,FC Orenburg,/bogdan-ovsyannikov/profil/spieler/534477
+362572,Dmitriy Rybchinskiy,20,3,Midfield,FC Orenburg,/dmitriy-rybchinskiy/profil/spieler/362572
+751099,Artem Kasimov,38,2,Defender,FC Orenburg,/artem-kasimov/profil/spieler/751099
+529870,Danila Khotulev,4,2,Defender,FC Orenburg,/danila-khotulev/profil/spieler/529870
+574930,Danila Vedernikov,3,2,Defender,FC Orenburg,/danila-vedernikov/profil/spieler/574930
+312502,Aleksey Tataev,5,2,Defender,FC Orenburg,/aleksey-tataev/profil/spieler/312502
+501777,Maksim Saveljev,9,4,Forward,FC Orenburg,/maksim-saveljev/profil/spieler/501777
+787303,Pavel Gorelov,22,3,Midfield,FC Orenburg,/pavel-gorelov/profil/spieler/787303
+575408,Evgeniy Bolotov,57,3,Midfield,FC Orenburg,/evgeniy-bolotov/profil/spieler/575408
+520064,Tigran Avanesyan,59,3,Midfield,FC Orenburg,/tigran-avanesyan/profil/spieler/520064
+517821,Nikolay Sysuev,99,1,Goalkeeper,FC Orenburg,/nikolay-sysuev/profil/spieler/517821
+653408,Jhon Alex Palacios,6,2,Defender,FC Orenburg,/jhon-alex-palacios/profil/spieler/653408
+739439,Alexandre Jesus,19,4,Forward,FC Orenburg,/alexandre-jesus/profil/spieler/739439
+1203845,Anas El Mahraoui,29,4,Forward,FC Orenburg,/anas-el-mahraoui/profil/spieler/1203845
+601456,Ruslan Kul,78,4,Forward,FC Orenburg,/ruslan-kul/profil/spieler/601456
+515056,Stepan Oganesyan,11,4,Forward,FC Orenburg,/stepan-oganesyan/profil/spieler/515056
+447462,Gedeon Guzina,30,4,Forward,FC Orenburg,/gedeon-guzina/profil/spieler/447462
+817822,Stanislav Poroykov,2,2,Defender,FC Orenburg,/stanislav-poroykov/profil/spieler/817822
+919358,Renat Golybin,27,3,Midfield,FC Orenburg,/renat-golybin/profil/spieler/919358
+235347,Maksim Rudakov,88,1,Goalkeeper,FC Orenburg,/maksim-rudakov/profil/spieler/235347
+125755,Irakliy Kvekveskiri,33,3,Midfield,FC Orenburg,/irakliy-kvekveskiri/profil/spieler/125755
+790281,Ivan Gulko,65,4,Forward,FC Orenburg,/ivan-gulko/profil/spieler/790281
+951303,Andrey Khodanovich,95,1,Goalkeeper,FC Orenburg,/andrey-khodanovich/profil/spieler/951303
+263962,Anton Zinkovskiy,7,4,Forward,FC Sochi,/anton-zinkovskiy/profil/spieler/263962
+393858,Aleksandr Soldatenkov,3,2,Defender,FC Sochi,/aleksandr-soldatenkov/profil/spieler/393858
+585055,Nemanja Stojic,44,2,Defender,FC Sochi,/nemanja-stojic/profil/spieler/585055
+520060,Sergey Volkov,82,2,Defender,FC Sochi,/sergey-volkov/profil/spieler/520060
+333802,François Kamano,45,4,Forward,FC Sochi,/francois-kamano/profil/spieler/333802
+811544,Aleksandr Kovalenko,19,3,Midfield,FC Sochi,/aleksandr-kovalenko/profil/spieler/811544
+623274,Maksim Mukhin,16,3,Midfield,FC Sochi,/maksim-mukhin/profil/spieler/623274
+366746,Yahia Attiyat Allah,25,2,Defender,FC Sochi,/yahia-attiyat-allah/profil/spieler/366746
+419672,Mikhail Ignatov,8,3,Midfield,FC Sochi,/mikhail-ignatov/profil/spieler/419672
+607814,Kirill Kravtsov,14,3,Midfield,FC Sochi,/kirill-kravtsov/profil/spieler/607814
+284843,Roman Ezhov,29,4,Forward,FC Sochi,/roman-ezhov/profil/spieler/284843
+649343,Dmitriy Vasiljev,20,3,Midfield,FC Sochi,/dmitriy-vasiljev/profil/spieler/649343
+918827,Aleksandr Degtev,35,1,Goalkeeper,FC Sochi,/aleksandr-degtev/profil/spieler/918827
+380761,Artem Makarchuk,17,2,Defender,FC Sochi,/artem-makarchuk/profil/spieler/380761
+793774,Marcelo Alves,33,2,Defender,FC Sochi,/marcelo-alves/profil/spieler/793774
+318705,Martin Kramaric,10,4,Forward,FC Sochi,/martin-kramaric/profil/spieler/318705
+601852,Vyacheslav Litvinov,4,2,Defender,FC Sochi,/vyacheslav-litvinov/profil/spieler/601852
+549012,Gustavo Furtado,23,4,Forward,FC Sochi,/gustavo-furtado/profil/spieler/549012
+818025,Pavel Meleshin,11,4,Forward,FC Sochi,/pavel-meleshin/profil/spieler/818025
+623380,Aleksandr Osipov,34,3,Midfield,FC Sochi,/aleksandr-osipov/profil/spieler/623380
+220650,Vladimir Iljin,98,4,Forward,FC Sochi,/vladimir-iljin/profil/spieler/220650
+910740,Zakhar Fedorov,9,4,Forward,FC Sochi,/zakhar-fedorov/profil/spieler/910740
+918824,Ruslan Bart,59,4,Forward,FC Sochi,/ruslan-bart/profil/spieler/918824
+379181,Kirill Zaika,27,2,Defender,FC Sochi,/kirill-zaika/profil/spieler/379181
+228660,Yuriy Dyupin,99,1,Goalkeeper,FC Sochi,/yuriy-dyupin/profil/spieler/228660
+379637,Ruslan Magal,28,2,Defender,FC Sochi,/ruslan-magal/profil/spieler/379637
+937850,Makar Chirkov,37,2,Defender,FC Sochi,/makar-chirkov/profil/spieler/937850
+1021022,Artem Korneev,18,4,Forward,FC Sochi,/artem-korneev/profil/spieler/1021022

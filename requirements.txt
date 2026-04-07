@@ -1,5 +1,9 @@
 python-telegram-bot==12.7
-scrapy~>2.11.1
+scrapy~=2.11.1
 pandas>=1.2.4
+lxml>=5.0.0
+requests>=2.32.0
+python-dotenv>=1.0.1
+reportlab>=4.0.0
 rq>=1.10.0
 redis

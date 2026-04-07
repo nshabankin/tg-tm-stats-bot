@@ -1,5 +1,9 @@
 Procfile.windows
 access.py
+.env
+.venv/
+.DS_Store
+__pycache__/
 # tmstats/bundesliga
 # tmstats/epl
 # tmstats/la_liga

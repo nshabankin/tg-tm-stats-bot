@@ -1,0 +1,520 @@
+id,name,shirtNumber,positionId,position,club,link
+937958,Lamine Yamal,10,4,Forward,FC Barcelona,/lamine-yamal/profil/spieler/937958
+683840,Pedri,8,3,Midfield,FC Barcelona,/pedri/profil/spieler/683840
+636703,Fermín López,16,3,Midfield,FC Barcelona,/fermin-lopez/profil/spieler/636703
+962110,Pau Cubarsí,5,2,Defender,FC Barcelona,/pau-cubarsi/profil/spieler/962110
+411295,Raphinha,11,4,Forward,FC Barcelona,/raphinha/profil/spieler/411295
+411975,Jules Koundé,23,2,Defender,FC Barcelona,/jules-kounde/profil/spieler/411975
+293385,Dani Olmo,20,3,Midfield,FC Barcelona,/dani-olmo/profil/spieler/293385
+636688,Alejandro Balde,3,2,Defender,FC Barcelona,/alejandro-balde/profil/spieler/636688
+398184,Ferran Torres,7,4,Forward,FC Barcelona,/ferran-torres/profil/spieler/398184
+326330,Frenkie de Jong,21,3,Midfield,FC Barcelona,/frenkie-de-jong/profil/spieler/326330
+258923,Marcus Rashford,14,4,Forward,FC Barcelona,/marcus-rashford/profil/spieler/258923
+561613,Joan García,13,1,Goalkeeper,FC Barcelona,/joan-garcia/profil/spieler/561613
+466794,Eric García,24,2,Defender,FC Barcelona,/eric-garcia/profil/spieler/466794
+1018920,Marc Bernal,22,3,Midfield,FC Barcelona,/marc-bernal/profil/spieler/1018920
+646740,Gavi,6,3,Midfield,FC Barcelona,/gavi/profil/spieler/646740
+705395,Gerard Martín,18,2,Defender,FC Barcelona,/gerard-martin/profil/spieler/705395
+636695,Marc Casadó,17,3,Midfield,FC Barcelona,/marc-casado/profil/spieler/636695
+480267,Ronald Araujo,4,2,Defender,FC Barcelona,/ronald-araujo/profil/spieler/480267
+792331,Roony Bardghji,19,4,Forward,FC Barcelona,/roony-bardghji/profil/spieler/792331
+196948,Andreas Christensen,15,2,Defender,FC Barcelona,/andreas-christensen/profil/spieler/196948
+182712,João Cancelo,2,2,Defender,FC Barcelona,/joao-cancelo/profil/spieler/182712
+38253,Robert Lewandowski,9,4,Forward,FC Barcelona,/robert-lewandowski/profil/spieler/38253
+44058,Wojciech Szczęsny,25,1,Goalkeeper,FC Barcelona,/wojciech-szczesny/profil/spieler/44058
+938144,Diego Kochen,31,1,Goalkeeper,FC Barcelona,/diego-kochen/profil/spieler/938144
+342229,Kylian Mbappé,10,4,Forward,Real Madrid,/kylian-mbappe/profil/spieler/342229
+371998,Vinicius Junior,7,4,Forward,Real Madrid,/vinicius-junior/profil/spieler/371998
+581678,Jude Bellingham,5,3,Midfield,Real Madrid,/jude-bellingham/profil/spieler/581678
+369081,Federico Valverde,8,3,Midfield,Real Madrid,/federico-valverde/profil/spieler/369081
+861410,Arda Güler,15,3,Midfield,Real Madrid,/arda-guler/profil/spieler/861410
+413112,Aurélien Tchouaméni,14,3,Midfield,Real Madrid,/aurelien-tchouameni/profil/spieler/413112
+890290,Dean Huijsen,24,2,Defender,Real Madrid,/dean-huijsen/profil/spieler/890290
+314353,Trent Alexander-Arnold,12,2,Defender,Real Madrid,/trent-alexander-arnold/profil/spieler/314353
+811778,Álvaro Carreras,18,2,Defender,Real Madrid,/alvaro-carreras/profil/spieler/811778
+640428,Eduardo Camavinga,6,3,Midfield,Real Madrid,/eduardo-camavinga/profil/spieler/640428
+412363,Rodrygo,11,4,Forward,Real Madrid,/rodrygo/profil/spieler/412363
+1057316,Franco Mastantuono,30,4,Forward,Real Madrid,/franco-mastantuono/profil/spieler/1057316
+314678,Brahim Díaz,21,4,Forward,Real Madrid,/brahim-diaz/profil/spieler/314678
+935230,Gonzalo García,16,4,Forward,Real Madrid,/gonzalo-garcia/profil/spieler/935230
+401530,Éder Militão,3,2,Defender,Real Madrid,/eder-militao/profil/spieler/401530
+935245,Raúl Asencio,17,2,Defender,Real Madrid,/raul-asencio/profil/spieler/935245
+1375227,Thiago Pitarch,45,3,Midfield,Real Madrid,/thiago-pitarch/profil/spieler/1375227
+108390,Thibaut Courtois,1,1,Goalkeeper,Real Madrid,/thibaut-courtois/profil/spieler/108390
+404839,Andriy Lunin,13,1,Goalkeeper,Real Madrid,/andriy-lunin/profil/spieler/404839
+341264,Fran García,20,2,Defender,Real Madrid,/fran-garcia/profil/spieler/341264
+86202,Antonio Rüdiger,22,2,Defender,Real Madrid,/antonio-rudiger/profil/spieler/86202
+319745,Dani Ceballos,19,3,Midfield,Real Madrid,/dani-ceballos/profil/spieler/319745
+1186235,Jorge Cestero,28,3,Midfield,Real Madrid,/jorge-cestero/profil/spieler/1186235
+291417,Ferland Mendy,23,2,Defender,Real Madrid,/ferland-mendy/profil/spieler/291417
+138927,Daniel Carvajal,2,2,Defender,Real Madrid,/daniel-carvajal/profil/spieler/138927
+646824,Manuel Ángel,37,3,Midfield,Real Madrid,/manuel-angel/profil/spieler/646824
+59016,David Alaba,4,2,Defender,Real Madrid,/david-alaba/profil/spieler/59016
+1055220,Fran González,26,1,Goalkeeper,Real Madrid,/fran-gonzalez/profil/spieler/1055220
+733576,Alberto Moleiro,20,4,Forward,Villarreal CF,/alberto-moleiro/profil/spieler/733576
+485963,Pape Gueye,18,3,Midfield,Villarreal CF,/pape-gueye/profil/spieler/485963
+729814,Georges Mikautadze,9,4,Forward,Villarreal CF,/georges-mikautadze/profil/spieler/729814
+805714,Renato Veiga,12,2,Defender,Villarreal CF,/renato-veiga/profil/spieler/805714
+484988,Logan Costa,2,2,Defender,Villarreal CF,/logan-costa/profil/spieler/484988
+712107,Luiz Júnior,1,1,Goalkeeper,Villarreal CF,/luiz-junior/profil/spieler/712107
+662261,Rafa Marín,4,2,Defender,Villarreal CF,/rafa-marin/profil/spieler/662261
+638793,Tajon Buchanan,17,4,Forward,Villarreal CF,/tajon-buchanan/profil/spieler/638793
+480763,Juan Foyth,8,2,Defender,Villarreal CF,/juan-foyth/profil/spieler/480763
+953901,Santiago Mouriño,15,2,Defender,Villarreal CF,/santiago-mourino/profil/spieler/953901
+1061336,Pau Navarro,6,2,Defender,Villarreal CF,/pau-navarro/profil/spieler/1061336
+678406,Sergi Cardona,23,2,Defender,Villarreal CF,/sergi-cardona/profil/spieler/678406
+380598,Santi Comesaña,14,3,Midfield,Villarreal CF,/santi-comesana/profil/spieler/380598
+972465,Tani Oluwaseyi,21,4,Forward,Villarreal CF,/tani-oluwaseyi/profil/spieler/972465
+343052,Nicolas Pépé,19,4,Forward,Villarreal CF,/nicolas-pepe/profil/spieler/343052
+246968,Ayoze Pérez,22,4,Forward,Villarreal CF,/ayoze-perez/profil/spieler/246968
+466783,Arnau Tenas,25,1,Goalkeeper,Villarreal CF,/arnau-tenas/profil/spieler/466783
+341713,Diego Conde,13,1,Goalkeeper,Villarreal CF,/diego-conde/profil/spieler/341713
+780630,Willy Kambwala,5,2,Defender,Villarreal CF,/willy-kambwala/profil/spieler/780630
+985806,Alex Freeman,3,2,Defender,Villarreal CF,/alex-freeman/profil/spieler/985806
+1453066,Carlos Macià,37,3,Midfield,Villarreal CF,/carlos-macia/profil/spieler/1453066
+357628,Alfon González,11,4,Forward,Villarreal CF,/alfon-gonzalez/profil/spieler/357628
+177467,Gerard Moreno,7,4,Forward,Villarreal CF,/gerard-moreno/profil/spieler/177467
+356197,Alfonso Pedraza,24,2,Defender,Villarreal CF,/alfonso-pedraza/profil/spieler/356197
+230784,Thomas Partey,16,3,Midfield,Villarreal CF,/thomas-partey/profil/spieler/230784
+59561,Dani Parejo,10,3,Midfield,Villarreal CF,/dani-parejo/profil/spieler/59561
+1331450,Hugo López,32,4,Forward,Villarreal CF,/hugo-lopez/profil/spieler/1331450
+1063553,Pau Cabanes,33,4,Forward,Villarreal CF,/pau-cabanes/profil/spieler/1063553
+576024,Julián Alvarez,19,4,Forward,Atlético de Madrid,/julian-alvarez/profil/spieler/576024
+775605,Pablo Barrios,8,3,Midfield,Atlético de Madrid,/pablo-barrios/profil/spieler/775605
+548111,Álex Baena,10,4,Forward,Atlético de Madrid,/alex-baena/profil/spieler/548111
+742201,Giuliano Simeone,20,4,Forward,Atlético de Madrid,/giuliano-simeone/profil/spieler/742201
+406040,Ademola Lookman,22,4,Forward,Atlético de Madrid,/ademola-lookman/profil/spieler/406040
+404418,Dávid Hancko,17,2,Defender,Atlético de Madrid,/david-hancko/profil/spieler/404418
+844637,Marc Pubill,18,2,Defender,Atlético de Madrid,/marc-pubill/profil/spieler/844637
+351809,Robin Le Normand,24,2,Defender,Atlético de Madrid,/robin-le-normand/profil/spieler/351809
+486031,Nico González,23,4,Forward,Atlético de Madrid,/nico-gonzalez/profil/spieler/486031
+689505,Johnny Cardoso,5,3,Midfield,Atlético de Madrid,/johnny-cardoso/profil/spieler/689505
+282411,Marcos Llorente,14,2,Defender,Atlético de Madrid,/marcos-llorente/profil/spieler/282411
+961297,Rodrigo Mendoza,4,3,Midfield,Atlético de Madrid,/rodrigo-mendoza/profil/spieler/961297
+238407,Alexander Sørloth,9,4,Forward,Atlético de Madrid,/alexander-sorloth/profil/spieler/238407
+616631,Matteo Ruggeri,3,2,Defender,Atlético de Madrid,/matteo-ruggeri/profil/spieler/616631
+576028,Thiago Almada,11,4,Forward,Atlético de Madrid,/thiago-almada/profil/spieler/576028
+121483,Jan Oblak,13,1,Goalkeeper,Atlético de Madrid,/jan-oblak/profil/spieler/121483
+424042,Nahuel Molina,16,2,Defender,Atlético de Madrid,/nahuel-molina/profil/spieler/424042
+250845,José María Giménez,2,2,Defender,Atlético de Madrid,/jose-maria-gimenez/profil/spieler/250845
+125781,Antoine Griezmann,7,4,Forward,Atlético de Madrid,/antoine-griezmann/profil/spieler/125781
+889435,Obed Vargas,21,3,Midfield,Atlético de Madrid,/obed-vargas/profil/spieler/889435
+74229,Koke,6,3,Midfield,Atlético de Madrid,/koke/profil/spieler/74229
+182904,Clément Lenglet,15,2,Defender,Atlético de Madrid,/clement-lenglet/profil/spieler/182904
+242359,Juan Musso,1,1,Goalkeeper,Atlético de Madrid,/juan-musso/profil/spieler/242359
+602105,Antony,7,4,Forward,Real Betis Balompié,/antony/profil/spieler/602105
+724520,Abde Ezzalzouli,10,4,Forward,Real Betis Balompié,/abde-ezzalzouli/profil/spieler/724520
+735568,Natan,4,2,Defender,Real Betis Balompié,/natan/profil/spieler/735568
+466801,Sergi Altimira,6,3,Midfield,Real Betis Balompié,/sergi-altimira/profil/spieler/466801
+459463,Cucho Hernández,19,4,Forward,Real Betis Balompié,/cucho-hernandez/profil/spieler/459463
+985383,Valentín Gómez,16,2,Defender,Real Betis Balompié,/valentin-gomez/profil/spieler/985383
+287579,Sofyan Amrabat,14,3,Midfield,Real Betis Balompié,/sofyan-amrabat/profil/spieler/287579
+261503,Álvaro Fidalgo,15,3,Midfield,Real Betis Balompié,/alvaro-fidalgo/profil/spieler/261503
+348795,Giovani Lo Celso,20,3,Midfield,Real Betis Balompié,/giovani-lo-celso/profil/spieler/348795
+907559,Nelson Deossa,18,3,Midfield,Real Betis Balompié,/nelson-deossa/profil/spieler/907559
+357885,Pablo Fornals,8,3,Midfield,Real Betis Balompié,/pablo-fornals/profil/spieler/357885
+961087,Pablo García,52,4,Forward,Real Betis Balompié,/pablo-garcia/profil/spieler/961087
+417913,Álvaro Valles,1,1,Goalkeeper,Real Betis Balompié,/alvaro-valles/profil/spieler/417913
+461617,Rodrigo Riquelme,17,4,Forward,Real Betis Balompié,/rodrigo-riquelme/profil/spieler/461617
+374139,Junior Firpo,23,2,Defender,Real Betis Balompié,/junior-firpo/profil/spieler/374139
+336869,Marc Roca,21,3,Midfield,Real Betis Balompié,/marc-roca/profil/spieler/336869
+378139,Aitor Ruibal,24,4,Forward,Real Betis Balompié,/aitor-ruibal/profil/spieler/378139
+933908,Ángel Ortiz,40,2,Defender,Real Betis Balompié,/angel-ortiz/profil/spieler/933908
+85288,Isco,22,3,Midfield,Real Betis Balompié,/isco/profil/spieler/85288
+246291,Diego Llorente,3,2,Defender,Real Betis Balompié,/diego-llorente/profil/spieler/246291
+286415,Pau López,25,1,Goalkeeper,Real Betis Balompié,/pau-lopez/profil/spieler/286415
+191217,Héctor Bellerín,2,2,Defender,Real Betis Balompié,/hector-bellerin/profil/spieler/191217
+167721,Chimy Ávila,9,4,Forward,Real Betis Balompié,/chimy-avila/profil/spieler/167721
+86784,Ricardo Rodríguez,12,2,Defender,Real Betis Balompié,/ricardo-rodriguez/profil/spieler/86784
+127048,Cédric Bakambu,11,4,Forward,Real Betis Balompié,/cedric-bakambu/profil/spieler/127048
+99922,Marc Bartra,5,2,Defender,Real Betis Balompié,/marc-bartra/profil/spieler/99922
+71271,Adrián San Miguel,13,1,Goalkeeper,Real Betis Balompié,/adrian-san-miguel/profil/spieler/71271
+331505,Óscar Mingueza,3,2,Defender,Celta de Vigo,/oscar-mingueza/profil/spieler/331505
+1064471,Fer López,8,3,Midfield,Celta de Vigo,/fer-lopez/profil/spieler/1064471
+1076815,Javi Rodríguez,32,2,Defender,Celta de Vigo,/javi-rodriguez/profil/spieler/1076815
+892932,Miguel Román,16,3,Midfield,Celta de Vigo,/miguel-roman/profil/spieler/892932
+764859,Williot Swedberg,19,4,Forward,Celta de Vigo,/williot-swedberg/profil/spieler/764859
+617074,Ilaix Moriba,6,3,Midfield,Celta de Vigo,/ilaix-moriba/profil/spieler/617074
+303657,Ionuț Radu,13,1,Goalkeeper,Celta de Vigo,/ionut-radu/profil/spieler/303657
+960571,Jones El-Abdellaoui,39,4,Forward,Celta de Vigo,/jones-el-abdellaoui/profil/spieler/960571
+545647,Sergio Carreira,5,2,Defender,Celta de Vigo,/sergio-carreira/profil/spieler/545647
+892929,Hugo Álvarez,23,4,Forward,Celta de Vigo,/hugo-alvarez/profil/spieler/892929
+892221,Hugo Sotelo,22,3,Midfield,Celta de Vigo,/hugo-sotelo/profil/spieler/892221
+599231,Ferran Jutglà,9,4,Forward,Celta de Vigo,/ferran-jutgla/profil/spieler/599231
+626953,Álvaro Núñez,14,2,Defender,Celta de Vigo,/alvaro-nunez/profil/spieler/626953
+258987,Carl Starfelt,2,2,Defender,Celta de Vigo,/carl-starfelt/profil/spieler/258987
+905997,Pablo Durán,18,4,Forward,Celta de Vigo,/pablo-duran/profil/spieler/905997
+652331,Javi Rueda,17,2,Defender,Celta de Vigo,/javi-rueda/profil/spieler/652331
+278359,Borja Iglesias,7,4,Forward,Celta de Vigo,/borja-iglesias/profil/spieler/278359
+636093,Carlos Domínguez,24,2,Defender,Celta de Vigo,/carlos-dominguez/profil/spieler/636093
+939374,Yoel Lago,29,2,Defender,Celta de Vigo,/yoel-lago/profil/spieler/939374
+72047,Iago Aspas,10,4,Forward,Celta de Vigo,/iago-aspas/profil/spieler/72047
+638124,Manu Fernández,12,2,Defender,Celta de Vigo,/manu-fernandez/profil/spieler/638124
+143812,Matías Vecino,15,3,Midfield,Celta de Vigo,/matias-vecino/profil/spieler/143812
+112515,Marcos Alonso,20,2,Defender,Celta de Vigo,/marcos-alonso/profil/spieler/112515
+358250,Joseph Aidoo,4,2,Defender,Celta de Vigo,/joseph-aidoo/profil/spieler/358250
+297194,Iván Villar,1,1,Goalkeeper,Celta de Vigo,/ivan-villar/profil/spieler/297194
+271455,Mihailo Ristic,21,2,Defender,Celta de Vigo,/mihailo-ristic/profil/spieler/271455
+341110,Franco Cervi,11,4,Forward,Celta de Vigo,/franco-cervi/profil/spieler/341110
+541621,Marc Vidal,25,1,Goalkeeper,Celta de Vigo,/marc-vidal/profil/spieler/541621
+405398,Takefusa Kubo,14,4,Forward,Real Sociedad,/takefusa-kubo/profil/spieler/405398
+711374,Jon Gorrotxategi,4,3,Midfield,Real Sociedad,/jon-gorrotxategi/profil/spieler/711374
+351478,Mikel Oyarzabal,10,4,Forward,Real Sociedad,/mikel-oyarzabal/profil/spieler/351478
+1018938,Jon Martín,31,2,Defender,Real Sociedad,/jon-martin/profil/spieler/1018938
+616369,Ander Barrenetxea,7,4,Forward,Real Sociedad,/ander-barrenetxea/profil/spieler/616369
+661145,Jon Aramburu,2,2,Defender,Real Sociedad,/jon-aramburu/profil/spieler/661145
+366930,Sergio Gómez,17,2,Defender,Real Sociedad,/sergio-gomez/profil/spieler/366930
+212862,Álex Remiro,1,1,Goalkeeper,Real Sociedad,/alex-remiro/profil/spieler/212862
+660438,Orri Óskarsson,9,4,Forward,Real Sociedad,/orri-oskarsson/profil/spieler/660438
+309110,Brais Méndez,23,3,Midfield,Real Sociedad,/brais-mendez/profil/spieler/309110
+502722,Luka Sucic,24,3,Midfield,Real Sociedad,/luka-sucic/profil/spieler/502722
+634431,Beñat Turrientes,8,3,Midfield,Real Sociedad,/benat-turrientes/profil/spieler/634431
+555143,Arsen Zakharyan,21,3,Midfield,Real Sociedad,/arsen-zakharyan/profil/spieler/555143
+378293,Yangel Herrera,12,3,Midfield,Real Sociedad,/yangel-herrera/profil/spieler/378293
+355628,Igor Zubeldia,5,2,Defender,Real Sociedad,/igor-zubeldia/profil/spieler/355628
+372246,Carlos Soler,18,3,Midfield,Real Sociedad,/carlos-soler/profil/spieler/372246
+907813,Pablo Marín,15,3,Midfield,Real Sociedad,/pablo-marin/profil/spieler/907813
+225122,Gonçalo Guedes,11,4,Forward,Real Sociedad,/goncalo-guedes/profil/spieler/225122
+1007378,Wesley,22,4,Forward,Real Sociedad,/wesley/profil/spieler/1007378
+517842,Aihen Muñoz,3,2,Defender,Real Sociedad,/aihen-munoz/profil/spieler/517842
+238266,Duje Caleta-Car,16,2,Defender,Real Sociedad,/duje-caleta-car/profil/spieler/238266
+711382,Jon Karrikaburu,19,4,Forward,Real Sociedad,/jon-karrikaburu/profil/spieler/711382
+229804,Aritz Elustondo,6,2,Defender,Real Sociedad,/aritz-elustondo/profil/spieler/229804
+280730,Álvaro Odriozola,20,2,Defender,Real Sociedad,/alvaro-odriozola/profil/spieler/280730
+625657,Unai Marrero,13,1,Goalkeeper,Real Sociedad,/unai-marrero/profil/spieler/625657
+290249,Mauro Arambarri,8,3,Midfield,Getafe CF,/mauro-arambarri/profil/spieler/290249
+948273,Mario Martín,6,3,Midfield,Getafe CF,/mario-martin/profil/spieler/948273
+298976,Borja Mayoral,9,4,Forward,Getafe CF,/borja-mayoral/profil/spieler/298976
+1061122,Adrián Liso,23,4,Forward,Getafe CF,/adrian-liso/profil/spieler/1061122
+640109,Martín Satriano,10,4,Forward,Getafe CF,/martin-satriano/profil/spieler/640109
+390688,Juan Iglesias,21,2,Defender,Getafe CF,/juan-iglesias/profil/spieler/390688
+419648,Veljko Birmancevic,20,4,Forward,Getafe CF,/veljko-birmancevic/profil/spieler/419648
+559979,Abdel Abqar,3,2,Defender,Getafe CF,/abdel-abqar/profil/spieler/559979
+281989,Luis Milla,5,3,Midfield,Getafe CF,/luis-milla/profil/spieler/281989
+226012,David Soria,13,1,Goalkeeper,Getafe CF,/david-soria/profil/spieler/226012
+696764,Abu Kamara,11,4,Forward,Getafe CF,/abu-kamara/profil/spieler/696764
+898352,Sebastián Boselli,15,2,Defender,Getafe CF,/sebastian-boselli/profil/spieler/898352
+741142,Zaid Romero,24,2,Defender,Getafe CF,/zaid-romero/profil/spieler/741142
+844516,Luis Vázquez,19,4,Forward,Getafe CF,/luis-vazquez/profil/spieler/844516
+339079,Jiri Letacek,1,1,Goalkeeper,Getafe CF,/jiri-letacek/profil/spieler/339079
+560705,Álex Sancris,18,4,Forward,Getafe CF,/alex-sancris/profil/spieler/560705
+221150,Dakonam Djené,2,2,Defender,Getafe CF,/dakonam-djene/profil/spieler/221150
+282421,Javi Muñoz,14,3,Midfield,Getafe CF,/javi-munoz/profil/spieler/282421
+249513,Diego Rico,16,2,Defender,Getafe CF,/diego-rico/profil/spieler/249513
+126737,Juanmi,7,4,Forward,Getafe CF,/juanmi/profil/spieler/126737
+1268764,Davinchi,26,2,Defender,Getafe CF,/davinchi/profil/spieler/1268764
+257376,Domingos Duarte,22,2,Defender,Getafe CF,/domingos-duarte/profil/spieler/257376
+76467,Kiko Femenía,17,2,Defender,Getafe CF,/kiko-femenia/profil/spieler/76467
+1164331,Ismael Bekhoucha,31,2,Defender,Getafe CF,/ismael-bekhoucha/profil/spieler/1164331
+111508,Allan Nyom,12,2,Defender,Getafe CF,/allan-nyom/profil/spieler/111508
+935231,Víctor Muñoz,21,4,Forward,CA Osasuna,/victor-munoz/profil/spieler/935231
+541555,Enzo Boyomo,22,2,Defender,CA Osasuna,/enzo-boyomo/profil/spieler/541555
+634131,Aimar Oroz,10,3,Midfield,CA Osasuna,/aimar-oroz/profil/spieler/634131
+552425,Jon Moncayola,7,3,Midfield,CA Osasuna,/jon-moncayola/profil/spieler/552425
+624942,Raúl Moro,15,4,Forward,CA Osasuna,/raul-moro/profil/spieler/624942
+658115,Abel Bretones,23,2,Defender,CA Osasuna,/abel-bretones/profil/spieler/658115
+555500,Jorge Herrando,5,2,Defender,CA Osasuna,/jorge-herrando/profil/spieler/555500
+46413,Ante Budimir,17,4,Forward,CA Osasuna,/ante-budimir/profil/spieler/46413
+631002,Raúl García,9,4,Forward,CA Osasuna,/raul-garcia/profil/spieler/631002
+441170,Valentin Rosier,19,2,Defender,CA Osasuna,/valentin-rosier/profil/spieler/441170
+248738,Sergio Herrera,1,1,Goalkeeper,CA Osasuna,/sergio-herrera/profil/spieler/248738
+449796,Alejandro Catena,24,2,Defender,CA Osasuna,/alejandro-catena/profil/spieler/449796
+213670,Lucas Torró,6,3,Midfield,CA Osasuna,/lucas-torro/profil/spieler/213670
+448628,Javi Galán,20,2,Defender,CA Osasuna,/javi-galan/profil/spieler/448628
+710677,Iker Muñoz,8,3,Midfield,CA Osasuna,/iker-munoz/profil/spieler/710677
+213260,Rubén García,14,4,Forward,CA Osasuna,/ruben-garcia/profil/spieler/213260
+175449,Moi Gómez,16,3,Midfield,CA Osasuna,/moi-gomez/profil/spieler/175449
+298575,Kike Barja,11,4,Forward,CA Osasuna,/kike-barja/profil/spieler/298575
+710679,Iker Benito,2,4,Forward,CA Osasuna,/iker-benito/profil/spieler/710679
+169497,Juan Cruz,3,2,Defender,CA Osasuna,/juan-cruz/profil/spieler/169497
+1038512,Asier Osambela,29,3,Midfield,CA Osasuna,/asier-osambela/profil/spieler/1038512
+1065442,Iñigo Arguibide,41,2,Defender,CA Osasuna,/inigo-arguibide/profil/spieler/1065442
+118997,Aitor Fernández,13,1,Goalkeeper,CA Osasuna,/aitor-fernandez/profil/spieler/118997
+709372,Carlos Romero,22,2,Defender,RCD Espanyol Barcelona,/carlos-romero/profil/spieler/709372
+822331,Omar El Hilali,23,2,Defender,RCD Espanyol Barcelona,/omar-el-hilali/profil/spieler/822331
+625651,Urko González de Zárate,4,3,Midfield,RCD Espanyol Barcelona,/urko-gonzalez-de-zarate/profil/spieler/625651
+720518,Roberto Fernández,9,4,Forward,RCD Espanyol Barcelona,/roberto-fernandez/profil/spieler/720518
+647435,Tyrhys Dolan,24,4,Forward,RCD Espanyol Barcelona,/tyrhys-dolan/profil/spieler/647435
+358032,Cyril Ngonge,16,4,Forward,RCD Espanyol Barcelona,/cyril-ngonge/profil/spieler/358032
+408471,Javi Puado,7,4,Forward,RCD Espanyol Barcelona,/javi-puado/profil/spieler/408471
+412045,Pol Lozano,10,3,Midfield,RCD Espanyol Barcelona,/pol-lozano/profil/spieler/412045
+506248,Edu Expósito,8,3,Midfield,RCD Espanyol Barcelona,/edu-exposito/profil/spieler/506248
+692070,Clemens Riedel,38,2,Defender,RCD Espanyol Barcelona,/clemens-riedel/profil/spieler/692070
+783396,Ramón Terrats,14,3,Midfield,RCD Espanyol Barcelona,/ramon-terrats/profil/spieler/783396
+628498,Jofre Carreras,17,4,Forward,RCD Espanyol Barcelona,/jofre-carreras/profil/spieler/628498
+819590,José Salinas,12,2,Defender,RCD Espanyol Barcelona,/jose-salinas/profil/spieler/819590
+243879,Charles Pickel,18,3,Midfield,RCD Espanyol Barcelona,/charles-pickel/profil/spieler/243879
+357884,Fernando Calero,5,2,Defender,RCD Espanyol Barcelona,/fernando-calero/profil/spieler/357884
+583510,Miguel Rubio,15,2,Defender,RCD Espanyol Barcelona,/miguel-rubio/profil/spieler/583510
+834744,Antoniu Roca,20,4,Forward,RCD Espanyol Barcelona,/antoniu-roca/profil/spieler/834744
+705813,Rubén Sánchez,2,2,Defender,RCD Espanyol Barcelona,/ruben-sanchez/profil/spieler/705813
+225593,Pere Milla,11,4,Forward,RCD Espanyol Barcelona,/pere-milla/profil/spieler/225593
+102423,Leandro Cabrera,6,2,Defender,RCD Espanyol Barcelona,/leandro-cabrera/profil/spieler/102423
+94308,Marko Dmitrovic,13,1,Goalkeeper,RCD Espanyol Barcelona,/marko-dmitrovic/profil/spieler/94308
+93936,Kike García,19,4,Forward,RCD Espanyol Barcelona,/kike-garcia/profil/spieler/93936
+628487,Ángel Fortuño,1,1,Goalkeeper,RCD Espanyol Barcelona,/angel-fortuno/profil/spieler/628487
+709187,Nico Williams,10,4,Forward,Athletic Bilbao,/nico-williams/profil/spieler/709187
+938729,Mikel Jauregizar,18,3,Midfield,Athletic Bilbao,/mikel-jauregizar/profil/spieler/938729
+571020,Oihan Sancet,8,3,Midfield,Athletic Bilbao,/oihan-sancet/profil/spieler/571020
+262396,Unai Simón,1,1,Goalkeeper,Athletic Bilbao,/unai-simon/profil/spieler/262396
+524000,Dani Vivian,3,2,Defender,Athletic Bilbao,/dani-vivian/profil/spieler/524000
+625047,Beñat Prados,24,3,Midfield,Athletic Bilbao,/benat-prados/profil/spieler/625047
+591916,Aitor Paredes,4,2,Defender,Athletic Bilbao,/aitor-paredes/profil/spieler/591916
+255508,Iñaki Williams,9,4,Forward,Athletic Bilbao,/inaki-williams/profil/spieler/255508
+176553,Aymeric Laporte,14,2,Defender,Athletic Bilbao,/aymeric-laporte/profil/spieler/176553
+488626,Jesús Areso,12,2,Defender,Athletic Bilbao,/jesus-areso/profil/spieler/488626
+563137,Robert Navarro,23,4,Forward,Athletic Bilbao,/robert-navarro/profil/spieler/563137
+340205,Gorka Guruzeta,11,4,Forward,Athletic Bilbao,/gorka-guruzeta/profil/spieler/340205
+338425,Álex Berenguer,7,4,Forward,Athletic Bilbao,/alex-berenguer/profil/spieler/338425
+834752,Unai Gómez,20,3,Midfield,Athletic Bilbao,/unai-gomez/profil/spieler/834752
+1054934,Maroan Sannadi,21,4,Forward,Athletic Bilbao,/maroan-sannadi/profil/spieler/1054934
+289255,Andoni Gorosabel,2,2,Defender,Athletic Bilbao,/andoni-gorosabel/profil/spieler/289255
+1312698,Selton Sánchez,44,3,Midfield,Athletic Bilbao,/selton-sanchez/profil/spieler/1312698
+834491,Alejandro Rego,30,3,Midfield,Athletic Bilbao,/alejandro-rego/profil/spieler/834491
+834483,Álex Padilla,27,1,Goalkeeper,Athletic Bilbao,/alex-padilla/profil/spieler/834483
+710671,Adama Boiro,19,2,Defender,Athletic Bilbao,/adama-boiro/profil/spieler/710671
+126751,Iñigo Ruiz de Galarreta,16,3,Midfield,Athletic Bilbao,/inigo-ruiz-de-galarreta/profil/spieler/126751
+668183,Nico Serrano,22,4,Forward,Athletic Bilbao,/nico-serrano/profil/spieler/668183
+610622,Urko Izeta,25,4,Forward,Athletic Bilbao,/urko-izeta/profil/spieler/610622
+300168,Mikel Vesga,6,3,Midfield,Athletic Bilbao,/mikel-vesga/profil/spieler/300168
+255501,Iñigo Lekue,15,2,Defender,Athletic Bilbao,/inigo-lekue/profil/spieler/255501
+61812,Yuri Berchiche,17,2,Defender,Athletic Bilbao,/yuri-berchiche/profil/spieler/61812
+255488,Yeray Álvarez,5,2,Defender,Athletic Bilbao,/yeray-alvarez/profil/spieler/255488
+834485,Unai Egiluz,13,2,Defender,Athletic Bilbao,/unai-egiluz/profil/spieler/834485
+1005575,Vitor Reis,12,2,Defender,Girona FC,/vitor-reis/profil/spieler/1005575
+994536,Claudio Echeverri,14,3,Midfield,Girona FC,/claudio-echeverri/profil/spieler/994536
+631821,Vladyslav Vanat,19,4,Forward,Girona FC,/vladyslav-vanat/profil/spieler/631821
+264372,Viktor Tsygankov,15,4,Forward,Girona FC,/viktor-tsygankov/profil/spieler/264372
+537382,Bryan Gil,21,4,Forward,Girona FC,/bryan-gil/profil/spieler/537382
+593482,Azzedine Ounahi,18,3,Midfield,Girona FC,/azzedine-ounahi/profil/spieler/593482
+826224,Arnau Martínez,4,2,Defender,Girona FC,/arnau-martinez/profil/spieler/826224
+341278,Iván Martín,23,3,Midfield,Girona FC,/ivan-martin/profil/spieler/341278
+895326,Joel Roca,3,4,Forward,Girona FC,/joel-roca/profil/spieler/895326
+423444,Fran Beltrán,8,3,Midfield,Girona FC,/fran-beltran/profil/spieler/423444
+74857,Marc-André ter Stegen,22,1,Goalkeeper,Girona FC,/marc-andre-ter-stegen/profil/spieler/74857
+834487,Hugo Rincón,2,2,Defender,Girona FC,/hugo-rincon/profil/spieler/834487
+193098,Álex Moreno,24,2,Defender,Girona FC,/alex-moreno/profil/spieler/193098
+632896,Alejandro Francés,16,2,Defender,Girona FC,/alejandro-frances/profil/spieler/632896
+340376,Abel Ruiz,9,4,Forward,Girona FC,/abel-ruiz/profil/spieler/340376
+288255,Donny van de Beek,6,3,Midfield,Girona FC,/donny-van-de-beek/profil/spieler/288255
+205562,Thomas Lemar,11,3,Midfield,Girona FC,/thomas-lemar/profil/spieler/205562
+195488,Paulo Gazzaniga,13,1,Goalkeeper,Girona FC,/paulo-gazzaniga/profil/spieler/195488
+99353,Portu,0,4,Forward,Girona FC,/portu/profil/spieler/99353
+35047,Axel Witsel,20,3,Midfield,Girona FC,/axel-witsel/profil/spieler/35047
+12282,Daley Blind,17,2,Defender,Girona FC,/daley-blind/profil/spieler/12282
+199321,Rubén Blanco,1,1,Goalkeeper,Girona FC,/ruben-blanco/profil/spieler/199321
+129444,David López,5,2,Defender,Girona FC,/david-lopez/profil/spieler/129444
+59323,Cristhian Stuani,7,4,Forward,Girona FC,/cristhian-stuani/profil/spieler/59323
+974251,Lass Kourouma,29,3,Midfield,Girona FC,/lass-kourouma/profil/spieler/974251
+1169436,Vladyslav Krapyvtsov,25,1,Goalkeeper,Girona FC,/vladyslav-krapyvtsov/profil/spieler/1169436
+120705,Juan Carlos,0,1,Goalkeeper,Girona FC,/juan-carlos/profil/spieler/120705
+527966,Andrei Rațiu,2,2,Defender,Rayo Vallecano,/andrei-ratiu/profil/spieler/527966
+709969,Ilias Akhomach,12,4,Forward,Rayo Vallecano,/ilias-akhomach/profil/spieler/709969
+455181,Jorge de Frutos,19,4,Forward,Rayo Vallecano,/jorge-de-frutos/profil/spieler/455181
+596122,Pep Chavarría,3,2,Defender,Rayo Vallecano,/pep-chavarria/profil/spieler/596122
+1034853,Nobel Mendy,32,2,Defender,Rayo Vallecano,/nobel-mendy/profil/spieler/1034853
+275218,Augusto Batalla,13,1,Goalkeeper,Rayo Vallecano,/augusto-batalla/profil/spieler/275218
+451801,Abdul Mumin,16,2,Defender,Rayo Vallecano,/abdul-mumin/profil/spieler/451801
+362086,Isi Palazón,7,4,Forward,Rayo Vallecano,/isi-palazon/profil/spieler/362086
+363057,Pedro Díaz,4,3,Midfield,Rayo Vallecano,/pedro-diaz/profil/spieler/363057
+457931,Luiz Felipe,5,2,Defender,Rayo Vallecano,/luiz-felipe/profil/spieler/457931
+560417,Alemão,9,4,Forward,Rayo Vallecano,/alemao/profil/spieler/560417
+622988,Fran Pérez,21,4,Forward,Rayo Vallecano,/fran-perez/profil/spieler/622988
+765467,Jozhua Vertrouwd,33,2,Defender,Rayo Vallecano,/jozhua-vertrouwd/profil/spieler/765467
+192009,Unai López,17,3,Midfield,Rayo Vallecano,/unai-lopez/profil/spieler/192009
+517753,Óscar Valentín,23,3,Midfield,Rayo Vallecano,/oscar-valentin/profil/spieler/517753
+505674,Sergio Camello,10,4,Forward,Rayo Vallecano,/sergio-camello/profil/spieler/505674
+525578,Pathé Ciss,6,3,Midfield,Rayo Vallecano,/pathe-ciss/profil/spieler/525578
+127108,Florian Lejeune,24,2,Defender,Rayo Vallecano,/florian-lejeune/profil/spieler/127108
+618813,Carlos Martín,14,4,Forward,Rayo Vallecano,/carlos-martin/profil/spieler/618813
+397676,Dani Cárdenas,1,1,Goalkeeper,Rayo Vallecano,/dani-cardenas/profil/spieler/397676
+257062,Álvaro García,18,4,Forward,Rayo Vallecano,/alvaro-garcia/profil/spieler/257062
+268670,Gerard Gumbau,15,3,Midfield,Rayo Vallecano,/gerard-gumbau/profil/spieler/268670
+85295,Iván Balliu,20,2,Defender,Rayo Vallecano,/ivan-balliu/profil/spieler/85295
+560483,Randy Nteka,11,3,Midfield,Rayo Vallecano,/randy-nteka/profil/spieler/560483
+311044,Alfonso Espino,22,2,Defender,Rayo Vallecano,/alfonso-espino/profil/spieler/311044
+30321,Óscar Trejo,8,3,Midfield,Rayo Vallecano,/oscar-trejo/profil/spieler/30321
+1384911,Samu Becerra,28,3,Midfield,Rayo Vallecano,/samu-becerra/profil/spieler/1384911
+834764,Javi Guerra,8,3,Midfield,Valencia CF,/javi-guerra/profil/spieler/834764
+625014,Julen Agirrezabala,25,1,Goalkeeper,Valencia CF,/julen-agirrezabala/profil/spieler/625014
+573775,Hugo Duro,9,4,Forward,Valencia CF,/hugo-duro/profil/spieler/573775
+707274,César Tárrega,5,2,Defender,Valencia CF,/cesar-tarrega/profil/spieler/707274
+617081,Diego López,16,4,Forward,Valencia CF,/diego-lopez/profil/spieler/617081
+328480,Pepelu,18,3,Midfield,Valencia CF,/pepelu/profil/spieler/328480
+518644,Largie Ramazani,17,4,Forward,Valencia CF,/largie-ramazani/profil/spieler/518644
+628366,Lucas Beltrán,15,4,Forward,Valencia CF,/lucas-beltran/profil/spieler/628366
+375382,André Almeida,10,3,Midfield,Valencia CF,/andre-almeida/profil/spieler/375382
+394236,Filip Ugrinic,23,3,Midfield,Valencia CF,/filip-ugrinic/profil/spieler/394236
+342385,Guido Rodríguez,2,3,Midfield,Valencia CF,/guido-rodriguez/profil/spieler/342385
+221322,José Gayà,14,2,Defender,Valencia CF,/jose-gaya/profil/spieler/221322
+520840,José Copete,3,2,Defender,Valencia CF,/jose-copete/profil/spieler/520840
+623024,Jesús Vázquez,21,2,Defender,Valencia CF,/jesus-vazquez/profil/spieler/623024
+337715,Umar Sadiq,6,4,Forward,Valencia CF,/umar-sadiq/profil/spieler/337715
+355861,Arnaut Danjuma,7,4,Forward,Valencia CF,/arnaut-danjuma/profil/spieler/355861
+338285,Unai Núñez,4,2,Defender,Valencia CF,/unai-nunez/profil/spieler/338285
+367466,Thierry Correia,12,2,Defender,Valencia CF,/thierry-correia/profil/spieler/367466
+285323,Baptiste Santamaria,22,3,Midfield,Valencia CF,/baptiste-santamaria/profil/spieler/285323
+298583,Eray Cömert,24,2,Defender,Valencia CF,/eray-comert/profil/spieler/298583
+165467,Stole Dimitrievski,1,1,Goalkeeper,Valencia CF,/stole-dimitrievski/profil/spieler/165467
+346289,Mouctar Diakhaby,0,2,Defender,Valencia CF,/mouctar-diakhaby/profil/spieler/346289
+278837,Luis Rioja,11,4,Forward,Valencia CF,/luis-rioja/profil/spieler/278837
+413262,Dani Raba,19,4,Forward,Valencia CF,/dani-raba/profil/spieler/413262
+268642,Renzo Saravia,20,2,Defender,Valencia CF,/renzo-saravia/profil/spieler/268642
+170472,Dimitri Foulquier,0,2,Defender,Valencia CF,/dimitri-foulquier/profil/spieler/170472
+398131,Cristian Rivero,13,1,Goalkeeper,Valencia CF,/cristian-rivero/profil/spieler/398131
+495621,Antonio Blanco,8,3,Midfield,Deportivo Alavés,/antonio-blanco/profil/spieler/495621
+298197,Antonio Sivera,1,1,Goalkeeper,Deportivo Alavés,/antonio-sivera/profil/spieler/298197
+580560,Jon Pacheco,5,2,Defender,Deportivo Alavés,/jon-pacheco/profil/spieler/580560
+334222,Lucas Boyé,15,4,Forward,Deportivo Alavés,/lucas-boye/profil/spieler/334222
+741289,Youssef Enríquez,3,2,Defender,Deportivo Alavés,/youssef-enriquez/profil/spieler/741289
+302371,Toni Martínez,11,4,Forward,Deportivo Alavés,/toni-martinez/profil/spieler/302371
+785353,Pablo Ibáñez,19,3,Midfield,Deportivo Alavés,/pablo-ibanez/profil/spieler/785353
+284854,Carles Aleñá,10,3,Midfield,Deportivo Alavés,/carles-alena/profil/spieler/284854
+465967,Ander Guevara,6,3,Midfield,Deportivo Alavés,/ander-guevara/profil/spieler/465967
+533568,Nahuel Tenaglia,14,2,Defender,Deportivo Alavés,/nahuel-tenaglia/profil/spieler/533568
+175446,Jonny Otto,17,2,Defender,Deportivo Alavés,/jonny-otto/profil/spieler/175446
+798114,Calebe,20,3,Midfield,Deportivo Alavés,/calebe/profil/spieler/798114
+289257,Jon Guridi,18,3,Midfield,Deportivo Alavés,/jon-guridi/profil/spieler/289257
+591957,Victor Parada,24,2,Defender,Deportivo Alavés,/victor-parada/profil/spieler/591957
+718034,Abde Rebbach,21,4,Forward,Deportivo Alavés,/abde-rebbach/profil/spieler/718034
+620696,Ibrahim Diabate,22,4,Forward,Deportivo Alavés,/ibrahim-diabate/profil/spieler/620696
+581326,Ville Koski,16,2,Defender,Deportivo Alavés,/ville-koski/profil/spieler/581326
+165007,Denis Suárez,4,3,Midfield,Deportivo Alavés,/denis-suarez/profil/spieler/165007
+1124136,Ángel Pérez,7,4,Forward,Deportivo Alavés,/angel-perez/profil/spieler/1124136
+431190,Carlos Protesoni,23,3,Midfield,Deportivo Alavés,/carlos-protesoni/profil/spieler/431190
+935232,Aitor Mañas,34,4,Forward,Deportivo Alavés,/aitor-manas/profil/spieler/935232
+225020,Mariano Díaz,9,4,Forward,Deportivo Alavés,/mariano-diaz/profil/spieler/225020
+54217,Raúl Fernández,13,1,Goalkeeper,Deportivo Alavés,/raul-fernandez/profil/spieler/54217
+533354,Facundo Garcés,2,2,Defender,Deportivo Alavés,/facundo-garces/profil/spieler/533354
+1301775,Jan Virgili,17,4,Forward,RCD Mallorca,/jan-virgili/profil/spieler/1301775
+657430,Samú Costa,12,3,Midfield,RCD Mallorca,/samu-costa/profil/spieler/657430
+562742,Leo Román,1,1,Goalkeeper,RCD Mallorca,/leo-roman/profil/spieler/562742
+720038,Pablo Torre,20,3,Midfield,RCD Mallorca,/pablo-torre/profil/spieler/720038
+251876,Pablo Maffeo,23,2,Defender,RCD Mallorca,/pablo-maffeo/profil/spieler/251876
+256267,Vedat Muriqi,7,4,Forward,RCD Mallorca,/vedat-muriqi/profil/spieler/256267
+277384,Martin Valjent,24,2,Defender,RCD Mallorca,/martin-valjent/profil/spieler/277384
+371371,Marash Kumbulla,4,2,Defender,RCD Mallorca,/marash-kumbulla/profil/spieler/371371
+142021,Sergi Darder,10,3,Midfield,RCD Mallorca,/sergi-darder/profil/spieler/142021
+834742,Mateo Joseph,18,4,Forward,RCD Mallorca,/mateo-joseph/profil/spieler/834742
+666547,Zito Luvumbo,15,4,Forward,RCD Mallorca,/zito-luvumbo/profil/spieler/666547
+335225,Manu Morlanes,8,3,Midfield,RCD Mallorca,/manu-morlanes/profil/spieler/335225
+513031,Antonio Sánchez,6,3,Midfield,RCD Mallorca,/antonio-sanchez/profil/spieler/513031
+262939,Johan Mojica,22,2,Defender,RCD Mallorca,/johan-mojica/profil/spieler/262939
+245744,Takuma Asano,11,4,Forward,RCD Mallorca,/takuma-asano/profil/spieler/245744
+320271,Toni Lato,3,2,Defender,RCD Mallorca,/toni-lato/profil/spieler/320271
+388513,Mateu Morey,2,2,Defender,RCD Mallorca,/mateu-morey/profil/spieler/388513
+490606,Lucas Bergström,13,1,Goalkeeper,RCD Mallorca,/lucas-bergstrom/profil/spieler/490606
+278296,Antonio Raíllo,21,2,Defender,RCD Mallorca,/antonio-raillo/profil/spieler/278296
+947431,David López,27,2,Defender,RCD Mallorca,/david-lopez/profil/spieler/947431
+177452,Abdón Prats,9,4,Forward,RCD Mallorca,/abdon-prats/profil/spieler/177452
+706138,Javi Llabrés,19,4,Forward,RCD Mallorca,/javi-llabres/profil/spieler/706138
+142031,Omar Mascarell,5,3,Midfield,RCD Mallorca,/omar-mascarell/profil/spieler/142031
+1101641,Justin Kalumba,30,4,Forward,RCD Mallorca,/justin-kalumba/profil/spieler/1101641
+1063574,Jan Salas,41,3,Midfield,RCD Mallorca,/jan-salas/profil/spieler/1063574
+27493,Iván Cuéllar,25,1,Goalkeeper,RCD Mallorca,/ivan-cuellar/profil/spieler/27493
+676042,Juanlu Sánchez,16,2,Defender,Sevilla FC,/juanlu-sanchez/profil/spieler/676042
+711625,José Ángel Carmona,2,2,Defender,Sevilla FC,/jose-angel-carmona/profil/spieler/711625
+607034,Akor Adams,9,4,Forward,Sevilla FC,/akor-adams/profil/spieler/607034
+569384,Lucien Agoumé,18,3,Midfield,Sevilla FC,/lucien-agoume/profil/spieler/569384
+345886,Rubén Vargas,11,4,Forward,Sevilla FC,/ruben-vargas/profil/spieler/345886
+395234,Batista Mendy,19,3,Midfield,Sevilla FC,/batista-mendy/profil/spieler/395234
+766583,Kike Salas,4,2,Defender,Sevilla FC,/kike-salas/profil/spieler/766583
+212723,Djibril Sow,20,3,Midfield,Sevilla FC,/djibril-sow/profil/spieler/212723
+385105,Gabriel Suazo,12,2,Defender,Sevilla FC,/gabriel-suazo/profil/spieler/385105
+687609,Isaac Romero,7,4,Forward,Sevilla FC,/isaac-romero/profil/spieler/687609
+1032280,Oso,36,2,Defender,Sevilla FC,/osotm/profil/spieler/1032280
+217115,Neal Maupay,17,4,Forward,Sevilla FC,/neal-maupay/profil/spieler/217115
+124419,Odysseas Vlachodimos,1,1,Goalkeeper,Sevilla FC,/odysseas-vlachodimos/profil/spieler/124419
+500067,Chidera Ejuke,21,4,Forward,Sevilla FC,/chidera-ejuke/profil/spieler/500067
+639733,Peque Fernández,14,4,Forward,Sevilla FC,/peque-fernandez/profil/spieler/639733
+439022,Marcão,23,2,Defender,Sevilla FC,/marcao/profil/spieler/439022
+74294,Nemanja Gudelj,6,3,Midfield,Sevilla FC,/nemanja-gudelj/profil/spieler/74294
+155025,Fábio Cardoso,15,2,Defender,Sevilla FC,/fabio-cardoso/profil/spieler/155025
+263727,Joan Jordán,8,3,Midfield,Sevilla FC,/joan-jordan/profil/spieler/263727
+719999,Andrés Castrín,32,2,Defender,Sevilla FC,/andres-castrin/profil/spieler/719999
+766723,Manu Bueno,28,3,Midfield,Sevilla FC,/manu-bueno/profil/spieler/766723
+538996,Tanguy Nianzou,5,2,Defender,Sevilla FC,/tanguy-nianzou/profil/spieler/538996
+40433,Alexis Sánchez,10,4,Forward,Sevilla FC,/alexis-sanchez/profil/spieler/40433
+57500,César Azpilicueta,3,2,Defender,Sevilla FC,/cesar-azpilicueta/profil/spieler/57500
+177847,Adnan Januzaj,24,4,Forward,Sevilla FC,/adnan-januzaj/profil/spieler/177847
+660735,Federico Gattoni,22,2,Defender,Sevilla FC,/federico-gattoni/profil/spieler/660735
+73517,Ørjan Nyland,13,1,Goalkeeper,Sevilla FC,/orjan-nyland/profil/spieler/73517
+1064105,Miguel Ángel Sierra,29,4,Forward,Sevilla FC,/miguel-angel-sierra/profil/spieler/1064105
+937955,Héctor Fort,39,2,Defender,Elche CF,/hector-fort/profil/spieler/937955
+452483,David Affengruber,22,2,Defender,Elche CF,/david-affengruber/profil/spieler/452483
+548188,Germán Valera,11,4,Forward,Elche CF,/german-valera/profil/spieler/548188
+948275,Álvaro Rodríguez,20,4,Forward,Elche CF,/alvaro-rodriguez/profil/spieler/948275
+217144,Aleix Febas,14,3,Midfield,Elche CF,/aleix-febas/profil/spieler/217144
+283170,Iñaki Peña,13,1,Goalkeeper,Elche CF,/inaki-pena/profil/spieler/283170
+549027,Martim Neto,16,3,Midfield,Elche CF,/martim-neto/profil/spieler/549027
+361254,Rafa Mir,10,4,Forward,Elche CF,/rafa-mir/profil/spieler/361254
+495625,Víctor Chust,23,2,Defender,Elche CF,/victor-chust/profil/spieler/495625
+912392,Lucas Cepeda,24,4,Forward,Elche CF,/lucas-cepeda/profil/spieler/912392
+909758,Federico Redondo,5,3,Midfield,Elche CF,/federico-redondo/profil/spieler/909758
+531404,Marc Aguado,8,3,Midfield,Elche CF,/marc-aguado/profil/spieler/531404
+198008,André Silva,9,4,Forward,Elche CF,/andre-silva/profil/spieler/198008
+501418,Adrià Pedrosa,3,2,Defender,Elche CF,/adria-pedrosa/profil/spieler/501418
+342048,Grady Diangana,19,4,Forward,Elche CF,/grady-diangana/profil/spieler/342048
+398163,Gonzalo Villar,12,3,Midfield,Elche CF,/gonzalo-villar/profil/spieler/398163
+339816,Tete Morente,15,4,Forward,Elche CF,/tete-morente/profil/spieler/339816
+412829,Léo Pétrot,21,2,Defender,Elche CF,/leo-petrot/profil/spieler/412829
+618801,Alejandro Iturbe,45,1,Goalkeeper,Elche CF,/alejandro-iturbe/profil/spieler/618801
+627290,John Donald,18,2,Defender,Elche CF,/john-donald/profil/spieler/627290
+706947,Yago Santiago,7,4,Forward,Elche CF,/yago-santiago/profil/spieler/706947
+962125,Buba Sangaré,42,2,Defender,Elche CF,/buba-sangare/profil/spieler/962125
+1064506,Adam Boayar,32,4,Forward,Elche CF,/adam-boayar/profil/spieler/1064506
+203043,Pedro Bigas,6,2,Defender,Elche CF,/pedro-bigas/profil/spieler/203043
+144128,Matías Dituro,1,1,Goalkeeper,Elche CF,/matias-dituro/profil/spieler/144128
+277533,Josan,17,4,Forward,Elche CF,/josan/profil/spieler/277533
+1038950,Karl Etta Eyong,21,4,Forward,Levante UD,/karl-etta-eyong/profil/spieler/1038950
+668179,Carlos Álvarez,24,3,Midfield,Levante UD,/carlos-alvarez/profil/spieler/668179
+628886,Iván Romero,9,4,Forward,Levante UD,/ivan-romero/profil/spieler/628886
+618809,Manu Sánchez,23,2,Defender,Levante UD,/manu-sanchez/profil/spieler/618809
+1144700,Matías Moreno,2,2,Defender,Levante UD,/matias-moreno/profil/spieler/1144700
+861981,Alan Matturro,3,2,Defender,Levante UD,/alan-matturro/profil/spieler/861981
+341263,Adrián Dela,4,2,Defender,Levante UD,/adrian-dela/profil/spieler/341263
+707230,Ugo Raghouber,14,3,Midfield,Levante UD,/ugo-raghouber/profil/spieler/707230
+1063338,Carlos Espí,19,4,Forward,Levante UD,/carlos-espi/profil/spieler/1063338
+129674,Jeremy Toljan,22,2,Defender,Levante UD,/jeremy-toljan/profil/spieler/129674
+568835,Pablo Martínez,10,3,Midfield,Levante UD,/pablo-martinez/profil/spieler/568835
+557057,Roger Brugué,7,4,Forward,Levante UD,/roger-brugue/profil/spieler/557057
+128969,Mathew Ryan,13,1,Goalkeeper,Levante UD,/mathew-ryan/profil/spieler/128969
+610083,Unai Vencedor,12,3,Midfield,Levante UD,/unai-vencedor/profil/spieler/610083
+625660,Jon Ander Olasagasti,8,3,Midfield,Levante UD,/jon-ander-olasagasti/profil/spieler/625660
+293388,Oriol Rey,20,3,Midfield,Levante UD,/oriol-rey/profil/spieler/293388
+617059,Pablo Campos,1,1,Goalkeeper,Levante UD,/pablo-campos/profil/spieler/617059
+526050,Kervin Arriaga,16,3,Midfield,Levante UD,/kervin-arriaga/profil/spieler/526050
+632741,Iker Losada,18,4,Forward,Levante UD,/iker-losada/profil/spieler/632741
+1232057,Paco Cortés,27,4,Forward,Levante UD,/paco-cortes/profil/spieler/1232057
+590690,Víctor García,17,2,Defender,Levante UD,/victor-garcia/profil/spieler/590690
+1063340,Kareem Tunde,26,4,Forward,Levante UD,/kareem-tunde/profil/spieler/1063340
+505493,Diego Pampín,6,2,Defender,Levante UD,/diego-pampin/profil/spieler/505493
+921345,Tay Abed,55,4,Forward,Levante UD,/tay-abed/profil/spieler/921345
+255495,Unai Elgezabal,5,2,Defender,Levante UD,/unai-elgezabal/profil/spieler/255495
+252677,José Luis Morales,11,4,Forward,Levante UD,/jose-luis-morales/profil/spieler/252677
+939445,Álex Primo,32,1,Goalkeeper,Levante UD,/alex-primo/profil/spieler/939445
+498237,David Carmo,16,2,Defender,Real Oviedo,/david-carmo/profil/spieler/498237
+568158,Javi López,25,2,Defender,Real Oviedo,/javi-lopez/profil/spieler/568158
+1127730,Thiago Fernández,15,4,Forward,Real Oviedo,/thiago-fernandez/profil/spieler/1127730
+743951,Thiago Borbas,17,4,Forward,Real Oviedo,/thiago-borbas/profil/spieler/743951
+620164,Haissem Hassan,10,4,Forward,Real Oviedo,/haissem-hassan/profil/spieler/620164
+593412,Ilyas Chaira,7,4,Forward,Real Oviedo,/ilyas-chaira/profil/spieler/593412
+578419,Federico Viñas,9,4,Forward,Real Oviedo,/federico-vinas/profil/spieler/578419
+284430,Aarón Escandell,13,1,Goalkeeper,Real Oviedo,/aaron-escandell/profil/spieler/284430
+395122,Santiago Colombatto,11,3,Midfield,Real Oviedo,/santiago-colombatto/profil/spieler/395122
+462070,Nicolás Fonseca,23,3,Midfield,Real Oviedo,/nicolas-fonseca/profil/spieler/462070
+168157,Leander Dendoncker,20,3,Midfield,Real Oviedo,/leander-dendoncker/profil/spieler/168157
+929899,Rahim Alhassane,3,2,Defender,Real Oviedo,/rahim-alhassane/profil/spieler/929899
+603696,Alberto Reina,5,3,Midfield,Real Oviedo,/alberto-reina/profil/spieler/603696
+525438,Horațiu Moldovan,1,1,Goalkeeper,Real Oviedo,/horatiu-moldovan/profil/spieler/525438
+429790,Luka Ilic,21,3,Midfield,Real Oviedo,/luka-ilic/profil/spieler/429790
+216870,Nacho Vidal,22,2,Defender,Real Oviedo,/nacho-vidal/profil/spieler/216870
+538006,Kwasi Sibo,6,3,Midfield,Real Oviedo,/kwasi-sibo/profil/spieler/538006
+286384,Eric Bailly,2,2,Defender,Real Oviedo,/eric-bailly/profil/spieler/286384
+276111,David Costas,4,2,Defender,Real Oviedo,/david-costas/profil/spieler/276111
+326416,Dani Calvo,12,2,Defender,Real Oviedo,/dani-calvo/profil/spieler/326416
+709380,Álex Forés,19,4,Forward,Real Oviedo,/alex-fores/profil/spieler/709380
+1081496,Pablo Agudín,27,3,Midfield,Real Oviedo,/pablo-agudin/profil/spieler/1081496
+349884,Lucas Ahijado,24,2,Defender,Real Oviedo,/lucas-ahijado/profil/spieler/349884
+337284,Ovie Ejaria,14,4,Forward,Real Oviedo,/ovie-ejaria/profil/spieler/337284
+15799,Santi Cazorla,8,3,Midfield,Real Oviedo,/santi-cazorla/profil/spieler/15799
