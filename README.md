@@ -7,7 +7,6 @@ snapshots as downloadable files.
 It currently supports:
 
 - league table snapshots
-- team stats snapshots
 - player stats snapshots
 - CSV and PDF downloads from Telegram
 
@@ -16,12 +15,10 @@ It currently supports:
 ## What The Bot Does
 
 The bot shows a list of supported leagues. After a user picks a league, it
-offers six download options:
+offers four download options:
 
 - `League Table (CSV)`
 - `League Table (PDF)`
-- `Team Stats (CSV)`
-- `Team Stats (PDF)`
 - `Player Stats (CSV)`
 - `Player Stats (PDF)`
 
@@ -37,6 +34,7 @@ revived into a local-first workflow:
 - snapshots are refreshed manually with `refresh_data.py`
 - the bot serves the latest available local files
 - CSV and PDF exports are generated side by side
+- league tables now include recent five-match form when Transfermarkt exposes it
 
 This means the most reliable operating model right now is:
 
@@ -135,8 +133,6 @@ For example, an EPL refresh produces files like:
 
 - `tmstats/epl/epl_table_2025.csv`
 - `tmstats/epl/epl_table_2025.pdf`
-- `tmstats/epl/epl_teams_2025.csv`
-- `tmstats/epl/epl_teams_2025.pdf`
 - `tmstats/epl/epl_stats_2025.csv`
 - `tmstats/epl/epl_stats_2025.pdf`
 
@@ -184,12 +180,12 @@ Then in Telegram:
 `tmstats/refresh.py`
 
 - Main refresh pipeline
-- Pulls current standings, team data, and player data
-- Writes CSV and PDF snapshots
+- Pulls current standings, recent team form, and player data
+- Writes league table and player snapshot CSV/PDF files
 
 `tmstats/pdf_export.py`
 
-- PDF renderer for table, team, and player snapshots
+- PDF renderer for table and player snapshots
 
 `tmstats/<league>/`
 

@@ -1,21 +1,21 @@
-rank,club,played,wins,draws,losses,goals,diff,points
-1,FC Barcelona,30,25,1,4,80:29,51,76
-2,Real Madrid,30,22,3,5,64:28,36,69
-3,Villarreal CF,30,18,4,8,54:35,19,58
-4,Atlético de Madrid,30,17,6,7,50:30,20,57
-5,Real Betis Balompié,30,11,12,7,44:37,7,45
-6,Celta de Vigo,30,11,11,8,44:37,7,44
-7,Real Sociedad,30,11,8,11,46:45,1,41
-8,Getafe CF,30,12,5,13,27:31,-4,41
-9,CA Osasuna,30,10,8,12,36:37,-1,38
-10,RCD Espanyol Barcelona,30,10,8,12,36:44,-8,38
-11,Athletic Bilbao,30,11,5,14,32:43,-11,38
-12,Girona FC,30,9,10,11,32:44,-12,37
-13,Rayo Vallecano,30,8,11,11,29:35,-6,35
-14,Valencia CF,30,9,8,13,34:45,-11,35
-15,Deportivo Alavés,30,8,8,14,32:43,-11,32
-16,RCD Mallorca,30,8,7,15,36:48,-12,31
-17,Sevilla FC,30,8,7,15,37:50,-13,31
-18,Elche CF,30,6,11,13,38:47,-9,29
-19,Levante UD,30,6,8,16,34:50,-16,26
-20,Real Oviedo,30,5,9,16,21:48,-27,24
+rank,club,played,wins,draws,losses,goals,diff,points,form
+1,FC Barcelona,30,25,1,4,80:29,51,76,WWWWW
+2,Real Madrid,30,22,3,5,64:28,36,69,LWWWL
+3,Villarreal CF,30,18,4,8,54:35,19,58,LWDWL
+4,Atlético de Madrid,30,17,6,7,50:30,20,57,WWWLL
+5,Real Betis Balompié,30,11,12,7,44:37,7,45,DLDLD
+6,Celta de Vigo,30,11,11,8,44:37,7,44,WLDLW
+7,Real Sociedad,30,11,8,11,46:45,1,41,WLWLW
+8,Getafe CF,30,12,5,13,27:31,-4,41,WWLWW
+9,CA Osasuna,30,10,8,12,36:37,-1,38,LDLWD
+10,RCD Espanyol Barcelona,30,10,8,12,36:44,-8,38,DDLLD
+11,Athletic Bilbao,30,11,5,14,32:43,-11,38,DLLWL
+12,Girona FC,30,9,10,11,32:44,-12,37,LDWLW
+13,Rayo Vallecano,30,8,11,11,29:35,-6,35,DDDLW
+14,Valencia CF,30,9,8,13,34:45,-11,35,WWLWL
+15,Deportivo Alavés,30,8,8,14,32:43,-11,32,LLDWD
+16,RCD Mallorca,30,8,7,15,36:48,-12,31,LDWLW
+17,Sevilla FC,30,8,7,15,37:50,-13,31,DDLLL
+18,Elche CF,30,6,11,13,38:47,-9,29,DLLWL
+19,Levante UD,30,6,8,16,34:50,-16,26,WDDWL
+20,Real Oviedo,30,5,9,16,21:48,-27,24,LDWLW

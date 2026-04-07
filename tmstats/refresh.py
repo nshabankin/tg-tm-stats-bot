@@ -24,9 +24,6 @@ DEFAULT_DELAY = 0.25
 MAX_RETRIES = 3
 RETRY_STATUSES = {405, 429, 500, 502, 503, 504}
 
-TEAM_FIELDS = ['id', 'name', 'link',
-               'rank', 'played', 'wins', 'draws',
-               'losses', 'goals', 'diff', 'points']
 PLAYER_FIELDS = ['id', 'name', 'shirtNumber', 'positionId',
                  'position', 'club', 'link']
 STATS_FIELDS = ['player_name', 'number', 'position',
@@ -36,7 +33,7 @@ STATS_FIELDS = ['player_name', 'number', 'position',
                 'conceded', 'clean_sheets',
                 'minutes']
 TABLE_FIELDS = ['rank', 'club', 'played', 'wins', 'draws',
-                'losses', 'goals', 'diff', 'points']
+                'losses', 'goals', 'diff', 'points', 'form']
 
 REQUEST_HEADERS = {
     'User-Agent': (
@@ -209,6 +206,7 @@ def fetch_current_table(session: requests.Session, league_key: str,
             'goals': values[7],
             'diff': values[8],
             'points': values[9] if len(values) > 9 else '',
+            'form': '',
         }
         team_name = title or display_name
         team_link = build_team_link(href)
@@ -226,6 +224,42 @@ def fetch_current_table(session: requests.Session, league_key: str,
         })
 
     return teams, table_rows
+
+
+def extract_form_value(row: html.HtmlElement) -> str:
+    form_text = normalize_text(' '.join(row.xpath('./td[last()]//text()')))
+    return ''.join(character for character in form_text if character in 'WDL')
+
+
+def fetch_recent_form(session: requests.Session, league_key: str,
+                      season: int, timeout: int) -> Dict[str, str]:
+    league = LEAGUES[league_key]
+    url = (
+        f'https://www.transfermarkt.com/{league["table_slug"]}/'
+        f'formtabelle/wettbewerb/{league["site_id"]}/saison_id/{season}'
+    )
+    doc = html.fromstring(fetch_text(session, url, timeout))
+    rows = doc.xpath(
+        '//th[contains(normalize-space(.), "Form")]'
+        '/ancestor::table[1]/tbody/tr'
+    )
+    recent_form = {}
+
+    for row in rows:
+        hrefs = row.xpath('.//a[contains(@href, "/verein/")]/@href')
+        team_id = None
+        for href in hrefs:
+            team_id_match = re.search(r'/verein/(\d+)', href)
+            if team_id_match:
+                team_id = team_id_match.group(1)
+                break
+
+        if not team_id:
+            continue
+
+        recent_form[team_id] = extract_form_value(row)
+
+    return recent_form
 
 
 def fetch_players(session: requests.Session, teams: List[dict],
@@ -354,21 +388,28 @@ def refresh_league(league_key: str, season: int = None,
     print(f'Refreshing {league_key} for season {season}', flush=True)
 
     teams, table = fetch_current_table(session, league_key, season, timeout)
+    try:
+        recent_form = fetch_recent_form(session, league_key, season, timeout)
+    except Exception as error:
+        print(f'Warning: failed to refresh recent form for {league_key}: '
+              f'{error}', flush=True)
+        recent_form = {}
+
+    for team, table_row in zip(teams, table):
+        form_value = recent_form.get(team['id'], '')
+        team['form'] = form_value
+        table_row['form'] = form_value
     players = fetch_players(session, teams, timeout, delay)
     print(f'  fetched {len(teams)} teams and {len(players)} players',
           flush=True)
     stats = fetch_stats(session, league_key, players, season, timeout, delay)
 
-    write_csv(league_dir / f'{league_key}_teams_{season}.csv',
-              teams, TEAM_FIELDS)
     write_csv(league_dir / f'{league_key}_players_{season}.csv',
               players, PLAYER_FIELDS)
     write_csv(league_dir / f'{league_key}_stats_{season}.csv',
               stats, STATS_FIELDS)
     write_csv(league_dir / f'{league_key}_table_{season}.csv',
               table, TABLE_FIELDS)
-    render_pdf(league_dir / f'{league_key}_teams_{season}.pdf',
-               'teams', league_label, season, teams)
     render_pdf(league_dir / f'{league_key}_stats_{season}.pdf',
                'stats', league_label, season, stats)
     render_pdf(league_dir / f'{league_key}_table_{season}.pdf',
@@ -377,7 +418,7 @@ def refresh_league(league_key: str, season: int = None,
     return {
         'league': league_key,
         'season': season,
-        'teams': len(teams),
+        'clubs': len(teams),
         'players': len(players),
         'stats_rows': len(stats),
         'table_rows': len(table),
@@ -390,10 +431,9 @@ def render_league_pdfs(league_key: str, season: int = None) -> dict:
     league_label = LEAGUES[league_key]['label']
 
     table_csv = league_dir / f'{league_key}_table_{season}.csv'
-    teams_csv = league_dir / f'{league_key}_teams_{season}.csv'
     stats_csv = league_dir / f'{league_key}_stats_{season}.csv'
 
-    missing = [path.name for path in (table_csv, teams_csv, stats_csv)
+    missing = [path.name for path in (table_csv, stats_csv)
                if not path.exists()]
     if missing:
         raise FileNotFoundError(
@@ -402,20 +442,17 @@ def render_league_pdfs(league_key: str, season: int = None) -> dict:
         )
 
     table_rows = read_csv_rows(table_csv)
-    team_rows = read_csv_rows(teams_csv)
     stats_rows = read_csv_rows(stats_csv)
 
     render_pdf(league_dir / f'{league_key}_table_{season}.pdf',
                'table', league_label, season, table_rows)
-    render_pdf(league_dir / f'{league_key}_teams_{season}.pdf',
-               'teams', league_label, season, team_rows)
     render_pdf(league_dir / f'{league_key}_stats_{season}.pdf',
                'stats', league_label, season, stats_rows)
 
     return {
         'league': league_key,
         'season': season,
-        'teams': len(team_rows),
+        'clubs': len(table_rows),
         'players': len(stats_rows),
         'stats_rows': len(stats_rows),
         'table_rows': len(table_rows),
@@ -503,7 +540,7 @@ def main() -> None:
     for result in results:
         print(
             f'- {result["league"]}: '
-            f'{result["teams"]} teams, '
+            f'{result["clubs"]} clubs, '
             f'{result["players"]} players, '
             f'{result["stats_rows"]} stats rows, '
             f'{result["table_rows"]} table rows'

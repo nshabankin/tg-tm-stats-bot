@@ -1,19 +1,19 @@
-rank,club,played,wins,draws,losses,goals,diff,points
-1,Bayern Munich,28,23,4,1,100:27,73,73
-2,Borussia Dortmund,28,19,7,2,60:28,32,64
-3,RB Leipzig,28,16,5,7,55:36,19,53
-4,VfB Stuttgart,28,16,5,7,56:38,18,53
-5,TSG 1899 Hoffenheim,28,15,5,8,55:41,14,50
-6,Bayer 04 Leverkusen,28,14,7,7,58:39,19,49
-7,Eintracht Frankfurt,28,10,9,9,52:53,-1,39
-8,SC Freiburg,28,10,7,11,41:47,-6,37
-9,1.FSV Mainz 05,28,8,9,11,35:43,-8,33
-10,1.FC Union Berlin,28,8,8,12,32:47,-15,32
-11,FC Augsburg,28,9,5,14,34:51,-17,32
-12,Hamburger SV,28,7,10,11,32:41,-9,31
-13,Borussia Mönchengladbach,28,7,9,12,35:48,-13,30
-14,SV Werder Bremen,28,7,7,14,31:49,-18,28
-15,1.FC Köln,28,6,9,13,40:49,-9,27
-16,FC St. Pauli,28,6,7,15,25:45,-20,25
-17,VfL Wolfsburg,28,5,6,17,38:63,-25,21
-18,1.FC Heidenheim 1846,28,3,7,18,29:63,-34,16
+rank,club,played,wins,draws,losses,goals,diff,points,form
+1,Bayern Munich,28,23,4,1,100:27,73,73,WWDWW
+2,Borussia Dortmund,28,19,7,2,60:28,32,64,LWWWW
+3,RB Leipzig,28,16,5,7,55:36,19,53,WWLWW
+4,VfB Stuttgart,28,16,5,7,56:38,18,53,WDWWL
+5,TSG 1899 Hoffenheim,28,15,5,8,55:41,14,50,LWDLL
+6,Bayer 04 Leverkusen,28,14,7,7,58:39,19,49,DDDDW
+7,Eintracht Frankfurt,28,10,9,9,52:53,-1,39,WDWLD
+8,SC Freiburg,28,10,7,11,41:47,-6,37,LDLWL
+9,1.FSV Mainz 05,28,8,9,11,35:43,-8,33,DDWWW
+10,1.FC Union Berlin,28,8,8,12,32:47,-15,32,LLWLD
+11,FC Augsburg,28,9,5,14,34:51,-17,32,WLLLD
+12,Hamburger SV,28,7,10,11,32:41,-9,31,LWDLD
+13,Borussia Mönchengladbach,28,7,9,12,35:48,-13,30,WLWDD
+14,SV Werder Bremen,28,7,7,14,31:49,-18,28,WWLWL
+15,1.FC Köln,28,6,9,13,40:49,-9,27,LLDDD
+16,FC St. Pauli,28,6,7,15,25:45,-20,25,WDLLD
+17,VfL Wolfsburg,28,5,6,17,38:63,-25,21,LLDLL
+18,1.FC Heidenheim 1846,28,3,7,18,29:63,-34,16,LLLDD

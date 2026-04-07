@@ -18,15 +18,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 TMSTATS_DIR = BASE_DIR / 'tmstats'
 BACK_TO_LEAGUES_CALLBACK_DATA = 'back_to_leagues'
-BACK_TO_FORMATS_PREFIX = 'back_to_formats'
 FILE_TYPES = {
     'table': {
         'label': 'League Table',
         'suffix': 'table',
-    },
-    'teams': {
-        'label': 'Team Stats',
-        'suffix': 'teams',
     },
     'stats': {
         'label': 'Player Stats',
@@ -95,10 +90,6 @@ def build_file_options_keyboard(league: str) -> InlineKeyboardMarkup:
                               callback_data=f'file:{league}:table:csv'),
          InlineKeyboardButton('League Table (PDF)',
                               callback_data=f'file:{league}:table:pdf')],
-        [InlineKeyboardButton('Team Stats (CSV)',
-                              callback_data=f'file:{league}:teams:csv'),
-         InlineKeyboardButton('Team Stats (PDF)',
-                              callback_data=f'file:{league}:teams:pdf')],
         [InlineKeyboardButton('Player Stats (CSV)',
                               callback_data=f'file:{league}:stats:csv'),
          InlineKeyboardButton('Player Stats (PDF)',
@@ -129,7 +120,7 @@ def get_latest_snapshot_file(league: str, file_type: str,
 
 def extract_snapshot_year(filename: str) -> int:
     match = re.search(
-        r'_(stats|table|teams|players)_(\d{4})\.(csv|pdf)$',
+        r'_(stats|table|players)_(\d{4})\.(csv|pdf)$',
         filename
     )
     if not match:
@@ -149,8 +140,9 @@ def start(update: Update, _: CallbackContext):
     reply_markup = InlineKeyboardMarkup(league_keyboard)
     get_reply_target(update).reply_text(
         'Hi!\nI am GetFootballStats bot.\n'
-        'I can send you the latest local league table, team stats, '
-        'or player stats snapshot in CSV or PDF format.\n'
+        'I can send you the latest local league table '
+        '(with recent form) or player stats snapshot '
+        'in CSV or PDF format.\n'
         'Choose a league:',
         reply_markup=reply_markup)
 
@@ -196,7 +188,7 @@ def button(update: Update, context: CallbackContext):
 def help_command(update: Update, _: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
     get_reply_target(update).reply_text(
-        'Use /start to choose a league, then pick league table, team stats, '
+        'Use /start to choose a league, then pick league table '
         'or player stats in CSV or PDF format.')
 
 

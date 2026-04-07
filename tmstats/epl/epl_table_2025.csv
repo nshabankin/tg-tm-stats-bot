@@ -1,21 +1,21 @@
-rank,club,played,wins,draws,losses,goals,diff,points
-1,Arsenal FC,31,21,7,3,61:22,39,70
-2,Manchester City,30,18,7,5,60:28,32,61
-3,Manchester United,31,15,10,6,56:43,13,55
-4,Aston Villa,31,16,6,9,42:37,5,54
-5,Liverpool FC,31,14,7,10,50:42,8,49
-6,Chelsea FC,31,13,9,9,53:38,15,48
-7,Brentford FC,31,13,7,11,46:42,4,46
-8,Everton FC,31,13,7,11,37:35,2,46
-9,Fulham FC,31,13,5,13,43:44,-1,44
-10,Brighton & Hove Albion,31,11,10,10,41:37,4,43
-11,Sunderland AFC,31,11,10,10,32:36,-4,43
-12,Newcastle United,31,12,6,13,44:45,-1,42
-13,AFC Bournemouth,31,9,15,7,46:48,-2,42
-14,Crystal Palace,30,10,9,11,33:35,-2,39
-15,Leeds United,31,7,12,12,37:48,-11,33
-16,Nottingham Forest,31,8,8,15,31:43,-12,32
-17,Tottenham Hotspur,31,7,9,15,40:50,-10,30
-18,West Ham United,31,7,8,16,36:57,-21,29
-19,Burnley FC,31,4,8,19,33:61,-28,20
-20,Wolverhampton Wanderers,31,3,8,20,24:54,-30,17
+rank,club,played,wins,draws,losses,goals,diff,points,form
+1,Arsenal FC,31,21,7,3,61:22,39,70,WWWWD
+2,Manchester City,30,18,7,5,60:28,32,61,WWDD
+3,Manchester United,31,15,10,6,56:43,13,55,WWLWD
+4,Aston Villa,31,16,6,9,42:37,5,54,DLLLW
+5,Liverpool FC,31,14,7,10,50:42,8,49,WWLDL
+6,Chelsea FC,31,13,9,9,53:38,15,48,DLWLL
+7,Brentford FC,31,13,7,11,46:42,4,46,LWDDD
+8,Everton FC,31,13,7,11,37:35,2,46,LWWLW
+9,Fulham FC,31,13,5,13,43:44,-1,44,WWLDW
+10,Brighton & Hove Albion,31,11,10,10,41:37,4,43,WWLWW
+11,Sunderland AFC,31,11,10,10,32:36,-4,43,LDWLW
+12,Newcastle United,31,12,6,13,44:45,-1,42,LLWWL
+13,AFC Bournemouth,31,9,15,7,46:48,-2,42,DDDDD
+14,Crystal Palace,30,10,9,11,33:35,-2,39,WLWD
+15,Leeds United,31,7,12,12,37:48,-11,33,DLLDD
+16,Nottingham Forest,31,8,8,15,31:43,-12,32,LLDDW
+17,Tottenham Hotspur,31,7,9,15,40:50,-10,30,LLLDL
+18,West Ham United,31,7,8,16,36:57,-21,29,DLWDL
+19,Burnley FC,31,4,8,19,33:61,-28,20,DLLDL
+20,Wolverhampton Wanderers,31,3,8,20,24:54,-30,17,LWWDD
