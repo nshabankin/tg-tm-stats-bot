@@ -1,23 +1,17 @@
 import argparse
 import csv
-import os
 import re
 import time
 from datetime import date
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 
-import pandas as pd
 import requests
-from dotenv import load_dotenv
 from lxml import html
 
+from config import TMSTATS_DIR, get_env
+from .catalog import LEAGUES, LEAGUE_KEYS
 from .pdf_export import render_pdf
-
-
-BASE_DIR = Path(__file__).resolve().parent.parent
-TMSTATS_DIR = BASE_DIR / 'tmstats'
-load_dotenv(BASE_DIR / '.env')
 
 DEFAULT_TIMEOUT = 20
 DEFAULT_DELAY = 0.25
@@ -52,39 +46,6 @@ POSITION_LABELS = {
     4: 'Forward',
 }
 
-LEAGUES: Dict[str, Dict[str, str]] = {
-    'epl': {
-        'site_id': 'GB1',
-        'table_slug': 'premier-league',
-        'label': 'Premier League',
-    },
-    'serie_a': {
-        'site_id': 'IT1',
-        'table_slug': 'serie-a',
-        'label': 'Serie A',
-    },
-    'la_liga': {
-        'site_id': 'ES1',
-        'table_slug': 'laliga',
-        'label': 'La Liga',
-    },
-    'bundesliga': {
-        'site_id': 'L1',
-        'table_slug': 'bundesliga',
-        'label': 'Bundesliga',
-    },
-    'ligue_1': {
-        'site_id': 'FR1',
-        'table_slug': 'ligue-1',
-        'label': 'Ligue 1',
-    },
-    'rpl': {
-        'site_id': 'RU1',
-        'table_slug': 'premier-liga',
-        'label': 'Russian Premier League',
-    },
-}
-
 
 def current_season_start_year(today: date = None) -> int:
     today = today or date.today()
@@ -94,9 +55,9 @@ def current_season_start_year(today: date = None) -> int:
 def build_session() -> requests.Session:
     session = requests.Session()
     session.headers.update(REQUEST_HEADERS)
-    cookie = os.getenv('TM_COOKIE')
+    cookie = get_env('TM_COOKIE')
     if cookie:
-        session.headers['Cookie'] = cookie.strip()
+        session.headers['Cookie'] = cookie
     return session
 
 
@@ -172,8 +133,8 @@ def fetch_current_table(session: requests.Session, league_key: str,
                         season: int, timeout: int) -> Tuple[List[dict], List[dict]]:
     league = LEAGUES[league_key]
     url = (
-        f'https://www.transfermarkt.com/{league["table_slug"]}/'
-        f'tabelle/wettbewerb/{league["site_id"]}/saison_id/{season}'
+        f'https://www.transfermarkt.com/{league.table_slug}/'
+        f'tabelle/wettbewerb/{league.site_id}/saison_id/{season}'
     )
     doc = html.fromstring(fetch_text(session, url, timeout))
     rows = doc.xpath('//table[contains(@class, "items")]/tbody/tr')
@@ -235,8 +196,8 @@ def fetch_recent_form(session: requests.Session, league_key: str,
                       season: int, timeout: int) -> Dict[str, str]:
     league = LEAGUES[league_key]
     url = (
-        f'https://www.transfermarkt.com/{league["table_slug"]}/'
-        f'formtabelle/wettbewerb/{league["site_id"]}/saison_id/{season}'
+        f'https://www.transfermarkt.com/{league.table_slug}/'
+        f'formtabelle/wettbewerb/{league.site_id}/saison_id/{season}'
     )
     doc = html.fromstring(fetch_text(session, url, timeout))
     rows = doc.xpath(
@@ -344,7 +305,7 @@ def build_player_stats(player: dict, cells: List[str], league_label: str,
 def fetch_stats(session: requests.Session, league_key: str, players: List[dict],
                 season: int, timeout: int,
                 delay: float = DEFAULT_DELAY) -> List[dict]:
-    league_label = LEAGUES[league_key]['label']
+    league_label = LEAGUES[league_key].label
     stats_rows = []
 
     for index, player in enumerate(players, start=1):
@@ -383,7 +344,7 @@ def refresh_league(league_key: str, season: int = None,
     season = season or current_season_start_year()
     session = build_session()
     league_dir = TMSTATS_DIR / league_key
-    league_label = LEAGUES[league_key]['label']
+    league_label = LEAGUES[league_key].label
 
     print(f'Refreshing {league_key} for season {season}', flush=True)
 
@@ -428,7 +389,7 @@ def refresh_league(league_key: str, season: int = None,
 def render_league_pdfs(league_key: str, season: int = None) -> dict:
     season = season or current_season_start_year()
     league_dir = TMSTATS_DIR / league_key
-    league_label = LEAGUES[league_key]['label']
+    league_label = LEAGUES[league_key].label
 
     table_csv = league_dir / f'{league_key}_table_{season}.csv'
     stats_csv = league_dir / f'{league_key}_stats_{season}.csv'
@@ -484,7 +445,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         '--league',
         action='append',
-        choices=sorted(LEAGUES.keys()),
+        choices=sorted(LEAGUE_KEYS),
         help='League key to refresh. Repeat the flag to refresh multiple leagues.',
     )
     parser.add_argument(
@@ -523,7 +484,7 @@ def main() -> None:
     league_keys = args.league or []
 
     if args.all or not league_keys:
-        league_keys = list(LEAGUES.keys())
+        league_keys = list(LEAGUE_KEYS)
 
     if args.pdf_only:
         results = render_pdfs_for_leagues(league_keys, season=args.season)

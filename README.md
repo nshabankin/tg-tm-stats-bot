@@ -35,6 +35,7 @@ revived into a local-first workflow:
 - the bot serves the latest available local files
 - CSV and PDF exports are generated side by side
 - league tables now include recent five-match form when Transfermarkt exposes it
+- legacy Scrapy and queue-worker code has been removed from the active project
 
 This means the most reliable operating model right now is:
 
@@ -183,6 +184,14 @@ Then in Telegram:
 - Pulls current standings, recent team form, and player data
 - Writes league table and player snapshot CSV/PDF files
 
+`tmstats/catalog.py`
+
+- Shared league metadata used by both the bot and the refresh pipeline
+
+`tmstats/snapshots.py`
+
+- Shared snapshot discovery logic used by the bot
+
 `tmstats/pdf_export.py`
 
 - PDF renderer for table and player snapshots
@@ -258,5 +267,6 @@ verification issue.
 
 - The bot currently works best as a manually refreshed snapshot bot.
 - Player stats are considered current as of the moment you run refresh.
+- The live app no longer depends on Scrapy, Redis, RQ, or the old spider stack.
 - League tables are now pulled from the current standings page, not from
   Matchday 1.
