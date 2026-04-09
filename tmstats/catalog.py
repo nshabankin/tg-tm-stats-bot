@@ -10,9 +10,20 @@ class LeagueSpec:
     button_label: str
 
 
+ENGLAND_FLAG = (
+    '\U0001F3F4'
+    '\U000E0067'
+    '\U000E0062'
+    '\U000E0065'
+    '\U000E006E'
+    '\U000E0067'
+    '\U000E007F'
+)
+
+
 LEAGUES = {
     'epl': LeagueSpec('epl', 'GB1', 'premier-league',
-                      'Premier League', '🏴 Premier League'),
+                      'Premier League', f'{ENGLAND_FLAG} Premier League'),
     'la_liga': LeagueSpec('la_liga', 'ES1', 'laliga',
                           'La Liga', '🇪🇸 La Liga'),
     'serie_a': LeagueSpec('serie_a', 'IT1', 'serie-a',
