@@ -52,6 +52,30 @@ id,name,shirtNumber,positionId,position,club,link
 39918,Régis Gurtner,1,1,Goalkeeper,RC Lens,/regis-gurtner/profil/spieler/39918
 1047099,Alpha Diallo,31,3,Midfield,RC Lens,/alpha-diallo/profil/spieler/1047099
 1200424,Ilan Jourdren,60,1,Goalkeeper,RC Lens,/ilan-jourdren/profil/spieler/1200424
+532826,Mason Greenwood,10,4,Forward,Olympique Marseille,/mason-greenwood/profil/spieler/532826
+890719,Ethan Nwaneri,11,3,Midfield,Olympique Marseille,/ethan-nwaneri/profil/spieler/890719
+653610,Igor Paixão,14,4,Forward,Olympique Marseille,/igor-paixao/profil/spieler/653610
+418659,Amine Gouiri,9,4,Forward,Olympique Marseille,/amine-gouiri/profil/spieler/418659
+420213,Quinten Timber,27,3,Midfield,Olympique Marseille,/quinten-timber/profil/spieler/420213
+926694,Arthur Vermeeren,18,3,Midfield,Olympique Marseille,/arthur-vermeeren/profil/spieler/926694
+361914,Nayef Aguerd,21,2,Defender,Olympique Marseille,/nayef-aguerd/profil/spieler/361914
+370846,Timothy Weah,22,3,Midfield,Olympique Marseille,/timothy-weah/profil/spieler/370846
+474800,Facundo Medina,32,2,Defender,Olympique Marseille,/facundo-medina/profil/spieler/474800
+575998,Leonardo Balerdi,5,2,Defender,Olympique Marseille,/leonardo-balerdi/profil/spieler/575998
+167799,Pierre-Emile Højbjerg,23,3,Midfield,Olympique Marseille,/pierre-emile-hojbjerg/profil/spieler/167799
+391065,Hamed Traoré,20,4,Forward,Olympique Marseille,/hamed-traore/profil/spieler/391065
+353366,Benjamin Pavard,28,2,Defender,Olympique Marseille,/benjamin-pavard/profil/spieler/353366
+581669,CJ Egan-Riley,4,2,Defender,Olympique Marseille,/cj-egan-riley/profil/spieler/581669
+181778,Emerson,33,2,Defender,Olympique Marseille,/emerson/profil/spieler/181778
+659520,Bilal Nadir,26,3,Midfield,Olympique Marseille,/bilal-nadir/profil/spieler/659520
+229604,Gerónimo Rulli,1,1,Goalkeeper,Olympique Marseille,/geronimo-rulli/profil/spieler/229604
+592979,Himad Abdelli,8,3,Midfield,Olympique Marseille,/himad-abdelli/profil/spieler/592979
+127189,Geoffrey Kondogbia,19,3,Midfield,Olympique Marseille,/geoffrey-kondogbia/profil/spieler/127189
+58864,Pierre-Emerick Aubameyang,17,4,Forward,Olympique Marseille,/pierre-emerick-aubameyang/profil/spieler/58864
+315253,Jeffrey de Lange,12,1,Goalkeeper,Olympique Marseille,/jeffrey-de-lange/profil/spieler/315253
+920470,Tochukwu Nnadi,6,3,Midfield,Olympique Marseille,/tochukwu-nnadi/profil/spieler/920470
+620912,Théo Vermot,92,1,Goalkeeper,Olympique Marseille,/theo-vermot/profil/spieler/620912
+727086,Jelle Van Neck,40,1,Goalkeeper,Olympique Marseille,/jelle-van-neck/profil/spieler/727086
 1097139,Ayyoub Bouaddi,32,3,Midfield,LOSC Lille,/ayyoub-bouaddi/profil/spieler/1097139
 724129,Matías Fernández-Pardo,7,4,Forward,LOSC Lille,/matias-fernandez-pardo/profil/spieler/724129
 652275,Hákon Arnar Haraldsson,10,3,Midfield,LOSC Lille,/hakon-arnar-haraldsson/profil/spieler/652275
@@ -80,30 +104,29 @@ id,name,shirtNumber,positionId,position,club,link
 744074,Rafael Fernandes,0,2,Defender,LOSC Lille,/rafael-fernandes/profil/spieler/744074
 990732,Ousmane Touré,36,2,Defender,LOSC Lille,/ousmane-toure/profil/spieler/990732
 205465,Marc-Aurèle Caillard,30,1,Goalkeeper,LOSC Lille,/marc-aurele-caillard/profil/spieler/205465
-532826,Mason Greenwood,10,4,Forward,Olympique Marseille,/mason-greenwood/profil/spieler/532826
-890719,Ethan Nwaneri,11,3,Midfield,Olympique Marseille,/ethan-nwaneri/profil/spieler/890719
-653610,Igor Paixão,14,4,Forward,Olympique Marseille,/igor-paixao/profil/spieler/653610
-418659,Amine Gouiri,9,4,Forward,Olympique Marseille,/amine-gouiri/profil/spieler/418659
-420213,Quinten Timber,27,3,Midfield,Olympique Marseille,/quinten-timber/profil/spieler/420213
-926694,Arthur Vermeeren,18,3,Midfield,Olympique Marseille,/arthur-vermeeren/profil/spieler/926694
-361914,Nayef Aguerd,21,2,Defender,Olympique Marseille,/nayef-aguerd/profil/spieler/361914
-370846,Timothy Weah,22,3,Midfield,Olympique Marseille,/timothy-weah/profil/spieler/370846
-474800,Facundo Medina,32,2,Defender,Olympique Marseille,/facundo-medina/profil/spieler/474800
-575998,Leonardo Balerdi,5,2,Defender,Olympique Marseille,/leonardo-balerdi/profil/spieler/575998
-167799,Pierre-Emile Højbjerg,23,3,Midfield,Olympique Marseille,/pierre-emile-hojbjerg/profil/spieler/167799
-391065,Hamed Traoré,20,4,Forward,Olympique Marseille,/hamed-traore/profil/spieler/391065
-353366,Benjamin Pavard,28,2,Defender,Olympique Marseille,/benjamin-pavard/profil/spieler/353366
-581669,CJ Egan-Riley,4,2,Defender,Olympique Marseille,/cj-egan-riley/profil/spieler/581669
-181778,Emerson,33,2,Defender,Olympique Marseille,/emerson/profil/spieler/181778
-659520,Bilal Nadir,26,3,Midfield,Olympique Marseille,/bilal-nadir/profil/spieler/659520
-229604,Gerónimo Rulli,1,1,Goalkeeper,Olympique Marseille,/geronimo-rulli/profil/spieler/229604
-592979,Himad Abdelli,8,3,Midfield,Olympique Marseille,/himad-abdelli/profil/spieler/592979
-127189,Geoffrey Kondogbia,19,3,Midfield,Olympique Marseille,/geoffrey-kondogbia/profil/spieler/127189
-58864,Pierre-Emerick Aubameyang,17,4,Forward,Olympique Marseille,/pierre-emerick-aubameyang/profil/spieler/58864
-315253,Jeffrey de Lange,12,1,Goalkeeper,Olympique Marseille,/jeffrey-de-lange/profil/spieler/315253
-920470,Tochukwu Nnadi,6,3,Midfield,Olympique Marseille,/tochukwu-nnadi/profil/spieler/920470
-620912,Théo Vermot,92,1,Goalkeeper,Olympique Marseille,/theo-vermot/profil/spieler/620912
-727086,Jelle Van Neck,40,1,Goalkeeper,Olympique Marseille,/jelle-van-neck/profil/spieler/727086
+1004301,Jérémy Jacquet,97,2,Defender,Stade Rennais FC,/jeremy-jacquet/profil/spieler/1004301
+461607,Estéban Lepaul,9,4,Forward,Stade Rennais FC,/esteban-lepaul/profil/spieler/461607
+931160,Djaoui Cissé,6,3,Midfield,Stade Rennais FC,/djaoui-cisse/profil/spieler/931160
+237662,Breel Embolo,7,4,Forward,Stade Rennais FC,/breel-embolo/profil/spieler/237662
+320748,Sebastian Szymański,17,3,Midfield,Stade Rennais FC,/sebastian-szymanski/profil/spieler/320748
+485960,Lilian Brassier,3,2,Defender,Stade Rennais FC,/lilian-brassier/profil/spieler/485960
+557613,Quentin Merlin,26,2,Defender,Stade Rennais FC,/quentin-merlin/profil/spieler/557613
+690799,Anthony Rouault,24,2,Defender,Stade Rennais FC,/anthony-rouault/profil/spieler/690799
+1134251,Abdelhamid Ait Boudlal,48,2,Defender,Stade Rennais FC,/abdelhamid-ait-boudlal/profil/spieler/1134251
+288225,Ludovic Blas,10,3,Midfield,Stade Rennais FC,/ludovic-blas/profil/spieler/288225
+324795,Mahdi Camara,45,3,Midfield,Stade Rennais FC,/mahdi-camara/profil/spieler/324795
+1153105,Yassir Zabiri,77,4,Forward,Stade Rennais FC,/yassir-zabiri/profil/spieler/1153105
+332889,Valentin Rongier,21,3,Midfield,Stade Rennais FC,/valentin-rongier/profil/spieler/332889
+551505,Mousa Tamari,11,4,Forward,Stade Rennais FC,/mousa-tamari/profil/spieler/551505
+191056,Brice Samba,30,1,Goalkeeper,Stade Rennais FC,/brice-samba/profil/spieler/191056
+239743,Przemyslaw Frankowski,95,2,Defender,Stade Rennais FC,/przemyslaw-frankowski/profil/spieler/239743
+798404,Alidu Seidu,36,2,Defender,Stade Rennais FC,/alidu-seidu/profil/spieler/798404
+1176345,Mahamadou Nagida,18,2,Defender,Stade Rennais FC,/mahamadou-nagida/profil/spieler/1176345
+324811,Arnaud Nordin,70,4,Forward,Stade Rennais FC,/arnaud-nordin/profil/spieler/324811
+242632,Glen Kamara,4,3,Midfield,Stade Rennais FC,/glen-kamara/profil/spieler/242632
+1227106,Elías Legendre Quiñónez,35,4,Forward,Stade Rennais FC,/elias-legendre-quinonez/profil/spieler/1227106
+986285,Nordan Mukiele,65,4,Forward,Stade Rennais FC,/nordan-mukiele/profil/spieler/986285
+979761,Mathys Silistrie,50,1,Goalkeeper,Stade Rennais FC,/mathys-silistrie/profil/spieler/979761
 745200,Maghnes Akliouche,11,4,Forward,AS Monaco,/maghnes-akliouche/profil/spieler/745200
 918969,Lamine Camara,15,3,Midfield,AS Monaco,/lamine-camara/profil/spieler/918969
 503770,Folarin Balogun,9,4,Forward,AS Monaco,/folarin-balogun/profil/spieler/503770
@@ -161,29 +184,6 @@ id,name,shirtNumber,positionId,position,club,link
 118287,Rachid Ghezzal,18,4,Forward,Olympique Lyon,/rachid-ghezzal/profil/spieler/118287
 902862,Achraf Laâziri,36,2,Defender,Olympique Lyon,/achraf-laaziri/profil/spieler/902862
 1071430,Lassine Diarra,50,1,Goalkeeper,Olympique Lyon,/lassine-diarra/profil/spieler/1071430
-1004301,Jérémy Jacquet,97,2,Defender,Stade Rennais FC,/jeremy-jacquet/profil/spieler/1004301
-461607,Estéban Lepaul,9,4,Forward,Stade Rennais FC,/esteban-lepaul/profil/spieler/461607
-931160,Djaoui Cissé,6,3,Midfield,Stade Rennais FC,/djaoui-cisse/profil/spieler/931160
-237662,Breel Embolo,7,4,Forward,Stade Rennais FC,/breel-embolo/profil/spieler/237662
-320748,Sebastian Szymański,17,3,Midfield,Stade Rennais FC,/sebastian-szymanski/profil/spieler/320748
-485960,Lilian Brassier,3,2,Defender,Stade Rennais FC,/lilian-brassier/profil/spieler/485960
-557613,Quentin Merlin,26,2,Defender,Stade Rennais FC,/quentin-merlin/profil/spieler/557613
-690799,Anthony Rouault,24,2,Defender,Stade Rennais FC,/anthony-rouault/profil/spieler/690799
-1134251,Abdelhamid Ait Boudlal,48,2,Defender,Stade Rennais FC,/abdelhamid-ait-boudlal/profil/spieler/1134251
-288225,Ludovic Blas,10,3,Midfield,Stade Rennais FC,/ludovic-blas/profil/spieler/288225
-324795,Mahdi Camara,45,3,Midfield,Stade Rennais FC,/mahdi-camara/profil/spieler/324795
-1153105,Yassir Zabiri,77,4,Forward,Stade Rennais FC,/yassir-zabiri/profil/spieler/1153105
-332889,Valentin Rongier,21,3,Midfield,Stade Rennais FC,/valentin-rongier/profil/spieler/332889
-551505,Mousa Tamari,11,4,Forward,Stade Rennais FC,/mousa-tamari/profil/spieler/551505
-191056,Brice Samba,30,1,Goalkeeper,Stade Rennais FC,/brice-samba/profil/spieler/191056
-239743,Przemyslaw Frankowski,95,2,Defender,Stade Rennais FC,/przemyslaw-frankowski/profil/spieler/239743
-798404,Alidu Seidu,36,2,Defender,Stade Rennais FC,/alidu-seidu/profil/spieler/798404
-1176345,Mahamadou Nagida,18,2,Defender,Stade Rennais FC,/mahamadou-nagida/profil/spieler/1176345
-324811,Arnaud Nordin,70,4,Forward,Stade Rennais FC,/arnaud-nordin/profil/spieler/324811
-242632,Glen Kamara,4,3,Midfield,Stade Rennais FC,/glen-kamara/profil/spieler/242632
-1227106,Elías Legendre Quiñónez,35,4,Forward,Stade Rennais FC,/elias-legendre-quinonez/profil/spieler/1227106
-986285,Nordan Mukiele,65,4,Forward,Stade Rennais FC,/nordan-mukiele/profil/spieler/986285
-979761,Mathys Silistrie,50,1,Goalkeeper,Stade Rennais FC,/mathys-silistrie/profil/spieler/979761
 1064871,Joaquín Panichelli,9,4,Forward,RC Strasbourg Alsace,/joaquin-panichelli/profil/spieler/1064871
 849410,Valentín Barco,32,3,Midfield,RC Strasbourg Alsace,/valentin-barco/profil/spieler/849410
 559328,Emmanuel Emegha,10,4,Forward,RC Strasbourg Alsace,/emmanuel-emegha/profil/spieler/559328
@@ -281,30 +281,6 @@ id,name,shirtNumber,positionId,position,club,link
 1166473,Raphaël Le Guen,71,2,Defender,Stade Brestois 29,/raphael-le-guen/profil/spieler/1166473
 1237907,Saliou Diop,29,4,Forward,Stade Brestois 29,/saliou-diop/profil/spieler/1237907
 975438,Noah Jauny,50,1,Goalkeeper,Stade Brestois 29,/noah-jauny/profil/spieler/975438
-1103958,Prosper Peter,35,4,Forward,Angers SCO,/prosper-peter/profil/spieler/1103958
-804711,Ousmane Camara,4,2,Defender,Angers SCO,/ousmane-camara/profil/spieler/804711
-970279,Jacques Ekomié,3,2,Defender,Angers SCO,/jacques-ekomie/profil/spieler/970279
-807688,Yassin Belkhdim,14,3,Midfield,Angers SCO,/yassin-belkhdim/profil/spieler/807688
-415383,Hervé Koffi,12,1,Goalkeeper,Angers SCO,/herve-koffi/profil/spieler/415383
-904662,Louis Mouton,6,3,Midfield,Angers SCO,/louis-mouton/profil/spieler/904662
-829874,Lilian Raolisoa,27,2,Defender,Angers SCO,/lilian-raolisoa/profil/spieler/829874
-1071956,Emmanuel Biumla,24,2,Defender,Angers SCO,/emmanuel-biumla/profil/spieler/1071956
-1075575,Marius Courcoul,5,3,Midfield,Angers SCO,/marius-courcoul/profil/spieler/1075575
-203938,Branco van den Boomen,8,3,Midfield,Angers SCO,/branco-van-den-boomen/profil/spieler/203938
-525140,Goduine Koyalipou,9,4,Forward,Angers SCO,/goduine-koyalipou/profil/spieler/525140
-851220,Amine Sbaï,7,4,Forward,Angers SCO,/amine-sbai/profil/spieler/851220
-138055,Haris Belkebla,93,3,Midfield,Angers SCO,/haris-belkebla/profil/spieler/138055
-371686,Carlens Arcus,2,2,Defender,Angers SCO,/carlens-arcus/profil/spieler/371686
-1133929,Harouna Djibirin,31,4,Forward,Angers SCO,/harouna-djibirin/profil/spieler/1133929
-192492,Jordan Lefort,21,2,Defender,Angers SCO,/jordan-lefort/profil/spieler/192492
-1096744,Lanroy Machine,36,4,Forward,Angers SCO,/lanroy-machine/profil/spieler/1096744
-1103652,Marius Louër,20,2,Defender,Angers SCO,/marius-louer/profil/spieler/1103652
-548347,Melvin Zinga,16,1,Goalkeeper,Angers SCO,/melvin-zinga/profil/spieler/548347
-111811,Florent Hanin,26,2,Defender,Angers SCO,/florent-hanin/profil/spieler/111811
-62351,Abdoulaye Bamba,25,2,Defender,Angers SCO,/abdoulaye-bamba/profil/spieler/62351
-214532,Pierrick Capelle,15,3,Midfield,Angers SCO,/pierrick-capelle/profil/spieler/214532
-955354,Dan Sinaté,23,2,Defender,Angers SCO,/dan-sinate/profil/spieler/955354
-1073176,Oumar Pona,40,1,Goalkeeper,Angers SCO,/oumar-pona/profil/spieler/1073176
 1241211,Rudy Matondo,23,3,Midfield,Paris FC,/rudy-matondo/profil/spieler/1241211
 414908,Marshall Munetsi,18,3,Midfield,Paris FC,/marshall-munetsi/profil/spieler/414908
 739769,Ilan Kebbal,10,4,Forward,Paris FC,/ilan-kebbal/profil/spieler/739769
@@ -336,6 +312,30 @@ id,name,shirtNumber,positionId,position,club,link
 84085,Timothée Kolodziejczak,15,2,Defender,Paris FC,/timothee-kolodziejczak/profil/spieler/84085
 170506,Julien Lopez,20,4,Forward,Paris FC,/julien-lopez/profil/spieler/170506
 18940,Rémy Riou,1,1,Goalkeeper,Paris FC,/remy-riou/profil/spieler/18940
+1103958,Prosper Peter,35,4,Forward,Angers SCO,/prosper-peter/profil/spieler/1103958
+804711,Ousmane Camara,4,2,Defender,Angers SCO,/ousmane-camara/profil/spieler/804711
+970279,Jacques Ekomié,3,2,Defender,Angers SCO,/jacques-ekomie/profil/spieler/970279
+807688,Yassin Belkhdim,14,3,Midfield,Angers SCO,/yassin-belkhdim/profil/spieler/807688
+415383,Hervé Koffi,12,1,Goalkeeper,Angers SCO,/herve-koffi/profil/spieler/415383
+904662,Louis Mouton,6,3,Midfield,Angers SCO,/louis-mouton/profil/spieler/904662
+829874,Lilian Raolisoa,27,2,Defender,Angers SCO,/lilian-raolisoa/profil/spieler/829874
+1071956,Emmanuel Biumla,24,2,Defender,Angers SCO,/emmanuel-biumla/profil/spieler/1071956
+1075575,Marius Courcoul,5,3,Midfield,Angers SCO,/marius-courcoul/profil/spieler/1075575
+203938,Branco van den Boomen,8,3,Midfield,Angers SCO,/branco-van-den-boomen/profil/spieler/203938
+525140,Goduine Koyalipou,9,4,Forward,Angers SCO,/goduine-koyalipou/profil/spieler/525140
+851220,Amine Sbaï,7,4,Forward,Angers SCO,/amine-sbai/profil/spieler/851220
+138055,Haris Belkebla,93,3,Midfield,Angers SCO,/haris-belkebla/profil/spieler/138055
+371686,Carlens Arcus,2,2,Defender,Angers SCO,/carlens-arcus/profil/spieler/371686
+1133929,Harouna Djibirin,31,4,Forward,Angers SCO,/harouna-djibirin/profil/spieler/1133929
+192492,Jordan Lefort,21,2,Defender,Angers SCO,/jordan-lefort/profil/spieler/192492
+1096744,Lanroy Machine,36,4,Forward,Angers SCO,/lanroy-machine/profil/spieler/1096744
+1103652,Marius Louër,20,2,Defender,Angers SCO,/marius-louer/profil/spieler/1103652
+548347,Melvin Zinga,16,1,Goalkeeper,Angers SCO,/melvin-zinga/profil/spieler/548347
+111811,Florent Hanin,26,2,Defender,Angers SCO,/florent-hanin/profil/spieler/111811
+62351,Abdoulaye Bamba,25,2,Defender,Angers SCO,/abdoulaye-bamba/profil/spieler/62351
+214532,Pierrick Capelle,15,3,Midfield,Angers SCO,/pierrick-capelle/profil/spieler/214532
+955354,Dan Sinaté,23,2,Defender,Angers SCO,/dan-sinate/profil/spieler/955354
+1073176,Oumar Pona,40,1,Goalkeeper,Angers SCO,/oumar-pona/profil/spieler/1073176
 768380,Arouna Sangante,93,2,Defender,Le Havre AC,/arouna-sangante/profil/spieler/768380
 662242,Rassoul Ndiaye,14,3,Midfield,Le Havre AC,/rassoul-ndiaye/profil/spieler/662242
 568698,Issa Soumaré,45,4,Forward,Le Havre AC,/issa-soumare/profil/spieler/568698

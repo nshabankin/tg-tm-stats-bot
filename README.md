@@ -30,7 +30,7 @@ The current UX is browse-first:
 
 - open the Mini App from Telegram
 - pick a league
-- browse the table as compact standings rows
+- browse the table as dense standings rows
 - open teams as collapsible squad bubbles
 - open individual player stat cards
 
@@ -163,6 +163,10 @@ Refresh only team logo URLs inside existing table snapshots:
 ```bash
 python refresh_data.py --all --logos-only
 ```
+
+Use `--logos-only` as a light visual refresh for existing table snapshots. If
+standings and squads have moved materially since the last run, prefer a full
+refresh so clubs, logos, table positions, and players all stay aligned.
 
 The refresh writes files into `tmstats/<league>/`.
 

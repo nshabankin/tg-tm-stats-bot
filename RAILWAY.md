@@ -81,10 +81,11 @@ python main.py
 When you refresh snapshots locally:
 
 1. Run the refresh locally.
-2. Optionally run `python refresh_data.py --all --logos-only` to refresh team logos for the Mini App.
-3. Commit the updated `tmstats/<league>/` CSV/PDF files.
-4. Push to GitHub.
-5. Railway autodeploys the new commit.
+2. Optionally run `python refresh_data.py --all --logos-only` for a light logo-only visual refresh.
+3. Prefer a full refresh instead when the underlying standings and squads have changed.
+4. Commit the updated `tmstats/<league>/` CSV/PDF files.
+5. Push to GitHub.
+6. Railway autodeploys the new commit.
 
 ## Troubleshooting
 

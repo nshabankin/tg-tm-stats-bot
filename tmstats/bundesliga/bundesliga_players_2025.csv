@@ -18,7 +18,7 @@ id,name,shirtNumber,positionId,position,club,link
 353892,Hiroki Ito,21,2,Defender,Bayern Munich,/hiroki-ito/profil/spieler/353892
 607720,Jonas Urbig,40,1,Goalkeeper,Bayern Munich,/jonas-urbig/profil/spieler/607720
 153084,Leon Goretzka,8,3,Midfield,Bayern Munich,/leon-goretzka/profil/spieler/153084
-170986,Raphaël Guerreiro,22,2,Defender,Bayern Munich,/raphael-guerreiro/profil/spieler/170986
+170986,Raphaël Guerreiro,22,3,Midfield,Bayern Munich,/raphael-guerreiro/profil/spieler/170986
 17259,Manuel Neuer,1,1,Goalkeeper,Bayern Munich,/manuel-neuer/profil/spieler/17259
 40680,Sven Ulreich,26,1,Goalkeeper,Bayern Munich,/sven-ulreich/profil/spieler/40680
 1497653,Bara Sapoko Ndiaye,39,3,Midfield,Bayern Munich,/bara-sapoko-ndiaye/profil/spieler/1497653
@@ -109,6 +109,33 @@ id,name,shirtNumber,positionId,position,club,link
 195246,Pascal Stenzel,15,2,Defender,VfB Stuttgart,/pascal-stenzel/profil/spieler/195246
 187624,Fabian Bredlow,1,1,Goalkeeper,VfB Stuttgart,/fabian-bredlow/profil/spieler/187624
 388067,Stefan Drljaca,21,1,Goalkeeper,VfB Stuttgart,/stefan-drljaca/profil/spieler/388067
+632349,Jarell Quansah,4,2,Defender,Bayer 04 Leverkusen,/jarell-quansah/profil/spieler/632349
+1364454,Christian Kofane,35,4,Forward,Bayer 04 Leverkusen,/christian-kofane/profil/spieler/1364454
+905011,Ibrahim Maza,30,3,Midfield,Bayer 04 Leverkusen,/ibrahim-maza/profil/spieler/905011
+564545,Edmond Tapsoba,12,2,Defender,Bayer 04 Leverkusen,/edmond-tapsoba/profil/spieler/564545
+467437,Malik Tillman,10,3,Midfield,Bayer 04 Leverkusen,/malik-tillman/profil/spieler/467437
+401578,Exequiel Palacios,25,3,Midfield,Bayer 04 Leverkusen,/exequiel-palacios/profil/spieler/401578
+730581,Loïc Badé,5,2,Defender,Bayer 04 Leverkusen,/loic-bade/profil/spieler/730581
+718303,Ernest Poku,19,4,Forward,Bayer 04 Leverkusen,/ernest-poku/profil/spieler/718303
+193082,Alejandro Grimaldo,20,2,Defender,Bayer 04 Leverkusen,/alejandro-grimaldo/profil/spieler/193082
+664708,Equi Fernández,6,3,Midfield,Bayer 04 Leverkusen,/equi-fernandez/profil/spieler/664708
+242086,Patrik Schick,14,4,Forward,Bayer 04 Leverkusen,/patrik-schick/profil/spieler/242086
+810895,Eliesse Ben Seghir,17,4,Forward,Bayer 04 Leverkusen,/eliesse-ben-seghir/profil/spieler/810895
+261504,Aleix García,24,3,Midfield,Bayer 04 Leverkusen,/aleix-garcia/profil/spieler/261504
+340322,Nathan Tella,23,4,Forward,Bayer 04 Leverkusen,/nathan-tella/profil/spieler/340322
+442891,Martin Terrier,11,4,Forward,Bayer 04 Leverkusen,/martin-terrier/profil/spieler/442891
+125714,Mark Flekken,1,1,Goalkeeper,Bayer 04 Leverkusen,/mark-flekken/profil/spieler/125714
+1077670,Axel Tape,16,2,Defender,Bayer 04 Leverkusen,/axel-tape/profil/spieler/1077670
+159088,Robert Andrich,8,3,Midfield,Bayer 04 Leverkusen,/robert-andrich/profil/spieler/159088
+977464,Arthur,13,2,Defender,Bayer 04 Leverkusen,/arthur/profil/spieler/977464
+1058514,Montrell Culbreath,42,4,Forward,Bayer 04 Leverkusen,/montrell-culbreath/profil/spieler/1058514
+696164,Tim Oermann,15,2,Defender,Bayer 04 Leverkusen,/tim-oermann/profil/spieler/696164
+221316,Lucas Vázquez,21,2,Defender,Bayer 04 Leverkusen,/lucas-vazquez/profil/spieler/221316
+7161,Jonas Hofmann,7,3,Midfield,Bayer 04 Leverkusen,/jonas-hofmann/profil/spieler/7161
+247915,Jonas Omlin,18,1,Goalkeeper,Bayer 04 Leverkusen,/jonas-omlin/profil/spieler/247915
+1133977,Issa Traoré,41,2,Defender,Bayer 04 Leverkusen,/issa-traore/profil/spieler/1133977
+81173,Janis Blaswich,28,1,Goalkeeper,Bayer 04 Leverkusen,/janis-blaswich/profil/spieler/81173
+85543,Niklas Lomb,36,1,Goalkeeper,Bayer 04 Leverkusen,/niklas-lomb/profil/spieler/85543
 1067904,Bazoumana Touré,29,4,Forward,TSG 1899 Hoffenheim,/bazoumana-toure/profil/spieler/1067904
 524290,Fisnik Asllani,11,4,Forward,TSG 1899 Hoffenheim,/fisnik-asllani/profil/spieler/524290
 667457,Leon Avdullahu,7,3,Midfield,TSG 1899 Hoffenheim,/leon-avdullahu/profil/spieler/667457
@@ -138,33 +165,6 @@ id,name,shirtNumber,positionId,position,club,link
 718460,Lúkas Petersson,36,1,Goalkeeper,TSG 1899 Hoffenheim,/lukas-petersson/profil/spieler/718460
 685484,Luka Duric,48,3,Midfield,TSG 1899 Hoffenheim,/luka-duric/profil/spieler/685484
 934529,Kelven Frees,45,2,Defender,TSG 1899 Hoffenheim,/kelven-frees/profil/spieler/934529
-632349,Jarell Quansah,4,2,Defender,Bayer 04 Leverkusen,/jarell-quansah/profil/spieler/632349
-1364454,Christian Kofane,35,4,Forward,Bayer 04 Leverkusen,/christian-kofane/profil/spieler/1364454
-905011,Ibrahim Maza,30,3,Midfield,Bayer 04 Leverkusen,/ibrahim-maza/profil/spieler/905011
-564545,Edmond Tapsoba,12,2,Defender,Bayer 04 Leverkusen,/edmond-tapsoba/profil/spieler/564545
-467437,Malik Tillman,10,3,Midfield,Bayer 04 Leverkusen,/malik-tillman/profil/spieler/467437
-401578,Exequiel Palacios,25,3,Midfield,Bayer 04 Leverkusen,/exequiel-palacios/profil/spieler/401578
-730581,Loïc Badé,5,2,Defender,Bayer 04 Leverkusen,/loic-bade/profil/spieler/730581
-718303,Ernest Poku,19,4,Forward,Bayer 04 Leverkusen,/ernest-poku/profil/spieler/718303
-193082,Alejandro Grimaldo,20,2,Defender,Bayer 04 Leverkusen,/alejandro-grimaldo/profil/spieler/193082
-664708,Equi Fernández,6,3,Midfield,Bayer 04 Leverkusen,/equi-fernandez/profil/spieler/664708
-242086,Patrik Schick,14,4,Forward,Bayer 04 Leverkusen,/patrik-schick/profil/spieler/242086
-810895,Eliesse Ben Seghir,17,4,Forward,Bayer 04 Leverkusen,/eliesse-ben-seghir/profil/spieler/810895
-261504,Aleix García,24,3,Midfield,Bayer 04 Leverkusen,/aleix-garcia/profil/spieler/261504
-340322,Nathan Tella,23,4,Forward,Bayer 04 Leverkusen,/nathan-tella/profil/spieler/340322
-442891,Martin Terrier,11,4,Forward,Bayer 04 Leverkusen,/martin-terrier/profil/spieler/442891
-125714,Mark Flekken,1,1,Goalkeeper,Bayer 04 Leverkusen,/mark-flekken/profil/spieler/125714
-1077670,Axel Tape,16,2,Defender,Bayer 04 Leverkusen,/axel-tape/profil/spieler/1077670
-159088,Robert Andrich,8,3,Midfield,Bayer 04 Leverkusen,/robert-andrich/profil/spieler/159088
-977464,Arthur,13,2,Defender,Bayer 04 Leverkusen,/arthur/profil/spieler/977464
-1058514,Montrell Culbreath,42,4,Forward,Bayer 04 Leverkusen,/montrell-culbreath/profil/spieler/1058514
-696164,Tim Oermann,15,2,Defender,Bayer 04 Leverkusen,/tim-oermann/profil/spieler/696164
-221316,Lucas Vázquez,21,2,Defender,Bayer 04 Leverkusen,/lucas-vazquez/profil/spieler/221316
-7161,Jonas Hofmann,7,3,Midfield,Bayer 04 Leverkusen,/jonas-hofmann/profil/spieler/7161
-247915,Jonas Omlin,18,1,Goalkeeper,Bayer 04 Leverkusen,/jonas-omlin/profil/spieler/247915
-1133977,Issa Traoré,41,2,Defender,Bayer 04 Leverkusen,/issa-traore/profil/spieler/1133977
-81173,Janis Blaswich,28,1,Goalkeeper,Bayer 04 Leverkusen,/janis-blaswich/profil/spieler/81173
-85543,Niklas Lomb,36,1,Goalkeeper,Bayer 04 Leverkusen,/niklas-lomb/profil/spieler/85543
 816585,Can Uzun,42,3,Midfield,Eintracht Frankfurt,/can-uzun/profil/spieler/816585
 691892,Nathaniel Brown,21,2,Defender,Eintracht Frankfurt,/nathaniel-brown/profil/spieler/691892
 333647,Jonathan Burkardt,9,4,Forward,Eintracht Frankfurt,/jonathan-burkardt/profil/spieler/333647
@@ -250,32 +250,6 @@ id,name,shirtNumber,positionId,position,club,link
 90317,Daniel Batz,33,1,Goalkeeper,1.FSV Mainz 05,/daniel-batz/profil/spieler/90317
 906969,Daniel Gleiber,42,3,Midfield,1.FSV Mainz 05,/daniel-gleiber/profil/spieler/906969
 934317,Maxim Dal,47,2,Defender,1.FSV Mainz 05,/maxim-dal/profil/spieler/934317
-597432,Leopold Querfeld,14,2,Defender,1.FC Union Berlin,/leopold-querfeld/profil/spieler/597432
-387047,Danilho Doekhi,5,2,Defender,1.FC Union Berlin,/danilho-doekhi/profil/spieler/387047
-692737,Aljoscha Kemlein,6,3,Midfield,1.FC Union Berlin,/aljoscha-kemlein/profil/spieler/692737
-357156,Diogo Leite,4,2,Defender,1.FC Union Berlin,/diogo-leite/profil/spieler/357156
-1035765,Ilyas Ansah,10,4,Forward,1.FC Union Berlin,/ilyas-ansah/profil/spieler/1035765
-798043,Tom Rothe,15,2,Defender,1.FC Union Berlin,/tom-rothe/profil/spieler/798043
-583699,Andrej Ilic,23,4,Forward,1.FC Union Berlin,/andrej-ilic/profil/spieler/583699
-454863,András Schäfer,13,3,Midfield,1.FC Union Berlin,/andras-schafer/profil/spieler/454863
-519872,Livan Burcu,9,4,Forward,1.FC Union Berlin,/livan-burcu/profil/spieler/519872
-391780,Derrick Köhn,39,2,Defender,1.FC Union Berlin,/derrick-kohn/profil/spieler/391780
-341317,Oliver Burke,7,4,Forward,1.FC Union Berlin,/oliver-burke/profil/spieler/341317
-297583,Woo-yeong Jeong,11,3,Midfield,1.FC Union Berlin,/woo-yeong-jeong/profil/spieler/297583
-362977,Josip Juranovic,18,2,Defender,1.FC Union Berlin,/josip-juranovic/profil/spieler/362977
-337333,Alex Král,33,3,Midfield,1.FC Union Berlin,/alex-kral/profil/spieler/337333
-270393,Robert Skov,24,3,Midfield,1.FC Union Berlin,/robert-skov/profil/spieler/270393
-177779,Janik Haberer,19,3,Midfield,1.FC Union Berlin,/janik-haberer/profil/spieler/177779
-107775,Frederik Rönnow,1,1,Goalkeeper,1.FC Union Berlin,/frederik-ronnow/profil/spieler/107775
-371141,Stanley Nsoki,34,2,Defender,1.FC Union Berlin,/stanley-nsoki/profil/spieler/371141
-124410,Rani Khedira,8,3,Midfield,1.FC Union Berlin,/rani-khedira/profil/spieler/124410
-287920,Tim Skarke,21,4,Forward,1.FC Union Berlin,/tim-skarke/profil/spieler/287920
-1045446,Dmytro Bogdanov,30,4,Forward,1.FC Union Berlin,/dmytro-bogdanov/profil/spieler/1045446
-75921,Christopher Trimmel,28,2,Defender,1.FC Union Berlin,/christopher-trimmel/profil/spieler/75921
-386685,Matheo Raab,31,1,Goalkeeper,1.FC Union Berlin,/matheo-raab/profil/spieler/386685
-745075,David Preu,17,4,Forward,1.FC Union Berlin,/david-preu/profil/spieler/745075
-161057,Carl Klaus,25,1,Goalkeeper,1.FC Union Berlin,/carl-klaus/profil/spieler/161057
-1027870,Andrik Markgraf,3,2,Defender,1.FC Union Berlin,/andrik-markgraf/profil/spieler/1027870
 923945,Noahkai Banks,40,2,Defender,FC Augsburg,/noahkai-banks/profil/spieler/923945
 569383,Chrislain Matsima,5,2,Defender,FC Augsburg,/chrislain-matsima/profil/spieler/569383
 384593,Alexis Claude-Maurice,20,3,Midfield,FC Augsburg,/alexis-claude-maurice/profil/spieler/384593
@@ -305,6 +279,32 @@ id,name,shirtNumber,positionId,position,club,link
 392124,Daniel Klein,25,1,Goalkeeper,FC Augsburg,/daniel-klein/profil/spieler/392124
 730486,Mahmut Kücüksahin,42,3,Midfield,FC Augsburg,/mahmut-kucuksahin/profil/spieler/730486
 1069641,Felix Meiser,41,2,Defender,FC Augsburg,/felix-meiser/profil/spieler/1069641
+597432,Leopold Querfeld,14,2,Defender,1.FC Union Berlin,/leopold-querfeld/profil/spieler/597432
+387047,Danilho Doekhi,5,2,Defender,1.FC Union Berlin,/danilho-doekhi/profil/spieler/387047
+692737,Aljoscha Kemlein,6,3,Midfield,1.FC Union Berlin,/aljoscha-kemlein/profil/spieler/692737
+357156,Diogo Leite,4,2,Defender,1.FC Union Berlin,/diogo-leite/profil/spieler/357156
+1035765,Ilyas Ansah,10,4,Forward,1.FC Union Berlin,/ilyas-ansah/profil/spieler/1035765
+798043,Tom Rothe,15,2,Defender,1.FC Union Berlin,/tom-rothe/profil/spieler/798043
+583699,Andrej Ilic,23,4,Forward,1.FC Union Berlin,/andrej-ilic/profil/spieler/583699
+454863,András Schäfer,13,3,Midfield,1.FC Union Berlin,/andras-schafer/profil/spieler/454863
+519872,Livan Burcu,9,4,Forward,1.FC Union Berlin,/livan-burcu/profil/spieler/519872
+391780,Derrick Köhn,39,2,Defender,1.FC Union Berlin,/derrick-kohn/profil/spieler/391780
+341317,Oliver Burke,7,4,Forward,1.FC Union Berlin,/oliver-burke/profil/spieler/341317
+297583,Woo-yeong Jeong,11,3,Midfield,1.FC Union Berlin,/woo-yeong-jeong/profil/spieler/297583
+362977,Josip Juranovic,18,2,Defender,1.FC Union Berlin,/josip-juranovic/profil/spieler/362977
+337333,Alex Král,33,3,Midfield,1.FC Union Berlin,/alex-kral/profil/spieler/337333
+270393,Robert Skov,24,3,Midfield,1.FC Union Berlin,/robert-skov/profil/spieler/270393
+177779,Janik Haberer,19,3,Midfield,1.FC Union Berlin,/janik-haberer/profil/spieler/177779
+107775,Frederik Rönnow,1,1,Goalkeeper,1.FC Union Berlin,/frederik-ronnow/profil/spieler/107775
+371141,Stanley Nsoki,34,2,Defender,1.FC Union Berlin,/stanley-nsoki/profil/spieler/371141
+124410,Rani Khedira,8,3,Midfield,1.FC Union Berlin,/rani-khedira/profil/spieler/124410
+287920,Tim Skarke,21,4,Forward,1.FC Union Berlin,/tim-skarke/profil/spieler/287920
+1045446,Dmytro Bogdanov,30,4,Forward,1.FC Union Berlin,/dmytro-bogdanov/profil/spieler/1045446
+75921,Christopher Trimmel,28,2,Defender,1.FC Union Berlin,/christopher-trimmel/profil/spieler/75921
+386685,Matheo Raab,31,1,Goalkeeper,1.FC Union Berlin,/matheo-raab/profil/spieler/386685
+745075,David Preu,17,4,Forward,1.FC Union Berlin,/david-preu/profil/spieler/745075
+161057,Carl Klaus,25,1,Goalkeeper,1.FC Union Berlin,/carl-klaus/profil/spieler/161057
+1027870,Andrik Markgraf,3,2,Defender,1.FC Union Berlin,/andrik-markgraf/profil/spieler/1027870
 892160,Luka Vuskovic,44,2,Defender,Hamburger SV,/luka-vuskovic/profil/spieler/892160
 537598,Fábio Vieira,20,3,Midfield,Hamburger SV,/fabio-vieira/profil/spieler/537598
 381967,Albert Sambi Lokonga,6,3,Midfield,Hamburger SV,/albert-sambi-lokonga/profil/spieler/381967

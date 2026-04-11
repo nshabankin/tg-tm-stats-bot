@@ -136,6 +136,7 @@ id,name,shirtNumber,positionId,position,club,link
 1052489,Artem Serikov,88,4,Forward,CSKA Moscow,/artem-serikov/profil/spieler/1052489
 703581,Egor Ushakov,14,4,Forward,CSKA Moscow,/egor-ushakov/profil/spieler/703581
 864314,Egor Besaev,85,1,Goalkeeper,CSKA Moscow,/egor-besaev/profil/spieler/864314
+960578,Nikolay Barovskiy,99,1,Goalkeeper,CSKA Moscow,/nikolay-barovskiy/profil/spieler/960578
 337800,Gedson Fernandes,83,3,Midfield,Spartak Moscow,/gedson-fernandes/profil/spieler/337800
 645173,Manfred Ugalde,9,4,Forward,Spartak Moscow,/manfred-ugalde/profil/spieler/645173
 456623,Esequiel Barco,5,3,Midfield,Spartak Moscow,/esequiel-barco/profil/spieler/456623
@@ -195,6 +196,33 @@ id,name,shirtNumber,positionId,position,club,link
 16756,Oleg Ivanov,19,3,Midfield,Rubin Kazan,/oleg-ivanov/profil/spieler/16756
 995045,Nikita Vasiljev,96,3,Midfield,Rubin Kazan,/nikita-vasiljev/profil/spieler/995045
 1119146,Enri Mukba,87,4,Forward,Rubin Kazan,/enri-mukba/profil/spieler/1119146
+623553,Lechi Sadulaev,7,4,Forward,Akhmat Grozny,/lechi-sadulaev/profil/spieler/623553
+713071,Maksim Samorodov,20,4,Forward,Akhmat Grozny,/maksim-samorodov/profil/spieler/713071
+621436,Daniil Khlusevich,82,2,Defender,Akhmat Grozny,/daniil-khlusevich/profil/spieler/621436
+911400,Egas Cacintura,17,3,Midfield,Akhmat Grozny,/egas-cacintura/profil/spieler/911400
+810558,Turpal-Ali Ibishev,4,2,Defender,Akhmat Grozny,/turpal-ali-ibishev/profil/spieler/810558
+267383,Rifat Zhemaletdinov,10,3,Midfield,Akhmat Grozny,/rifat-zhemaletdinov/profil/spieler/267383
+373374,Brian Mansilla,9,4,Forward,Akhmat Grozny,/brian-mansilla/profil/spieler/373374
+457743,Mohamed Konaté,13,4,Forward,Akhmat Grozny,/mohamed-konate/profil/spieler/457743
+281552,Georgiy Melkadze,77,4,Forward,Akhmat Grozny,/georgiy-melkadze/profil/spieler/281552
+917402,Dzhamalutdin Abdulkadyrov,2,2,Defender,Akhmat Grozny,/dzhamalutdin-abdulkadyrov/profil/spieler/917402
+646894,Sergey Pryakhin,19,3,Midfield,Akhmat Grozny,/sergey-pryakhin/profil/spieler/646894
+273945,Miroslav Bogosavac,8,2,Defender,Akhmat Grozny,/miroslav-bogosavac/profil/spieler/273945
+253734,Ismael Silva,11,3,Midfield,Akhmat Grozny,/ismael-silva/profil/spieler/253734
+486204,Klisman Cake,5,2,Defender,Akhmat Grozny,/klisman-cake/profil/spieler/486204
+456814,Maksim Sidorov,81,2,Defender,Akhmat Grozny,/maksim-sidorov/profil/spieler/456814
+1107993,Mohammadmehdi Zare,22,2,Defender,Akhmat Grozny,/mohammadmehdi-zare/profil/spieler/1107993
+829380,Ousmane N'Dong,90,2,Defender,Akhmat Grozny,/ousmane-ndong/profil/spieler/829380
+1059814,Kelliano,42,3,Midfield,Akhmat Grozny,/kelliano/profil/spieler/1059814
+799095,Vadim Ulyanov,1,1,Goalkeeper,Akhmat Grozny,/vadim-ulyanov/profil/spieler/799095
+704593,Galymzhan Kenzhebek,23,4,Forward,Akhmat Grozny,/galymzhan-kenzhebek/profil/spieler/704593
+867082,Abakar Gadzhiev,70,3,Midfield,Akhmat Grozny,/abakar-gadzhiev/profil/spieler/867082
+1178485,Papa Amady Gadio,37,3,Midfield,Akhmat Grozny,/papa-amady-gadio/profil/spieler/1178485
+686862,Valeriy Tsarukyan,80,3,Midfield,Akhmat Grozny,/valeriy-tsarukyan/profil/spieler/686862
+58971,Giorgiy Shelia,88,1,Goalkeeper,Akhmat Grozny,/giorgiy-shelia/profil/spieler/58971
+51274,Rizvan Utsiev,40,2,Defender,Akhmat Grozny,/rizvan-utsiev/profil/spieler/51274
+1033039,Akhmed Davlitgereev,27,3,Midfield,Akhmat Grozny,/akhmed-davlitgereev/profil/spieler/1033039
+1120351,Yakhya Magomedov,72,1,Goalkeeper,Akhmat Grozny,/yakhya-magomedov/profil/spieler/1120351
 532676,Konstantin Tyukavin,70,4,Forward,Dynamo Moscow,/konstantin-tyukavin/profil/spieler/532676
 703497,Bitello,10,3,Midfield,Dynamo Moscow,/bitello/profil/spieler/703497
 843397,Rubens,44,2,Defender,Dynamo Moscow,/rubens/profil/spieler/843397
@@ -225,32 +253,6 @@ id,name,shirtNumber,positionId,position,club,link
 939068,Viktor Okishor,88,3,Midfield,Dynamo Moscow,/viktor-okishor/profil/spieler/939068
 864621,Dmitriy Aleksandrov,30,3,Midfield,Dynamo Moscow,/dmitriy-aleksandrov/profil/spieler/864621
 720930,Andrey Kudravets,47,1,Goalkeeper,Dynamo Moscow,/andrey-kudravets/profil/spieler/720930
-623553,Lechi Sadulaev,7,4,Forward,Akhmat Grozny,/lechi-sadulaev/profil/spieler/623553
-713071,Maksim Samorodov,20,4,Forward,Akhmat Grozny,/maksim-samorodov/profil/spieler/713071
-621436,Daniil Khlusevich,82,2,Defender,Akhmat Grozny,/daniil-khlusevich/profil/spieler/621436
-911400,Egas Cacintura,17,3,Midfield,Akhmat Grozny,/egas-cacintura/profil/spieler/911400
-810558,Turpal-Ali Ibishev,4,2,Defender,Akhmat Grozny,/turpal-ali-ibishev/profil/spieler/810558
-267383,Rifat Zhemaletdinov,10,3,Midfield,Akhmat Grozny,/rifat-zhemaletdinov/profil/spieler/267383
-373374,Brian Mansilla,9,4,Forward,Akhmat Grozny,/brian-mansilla/profil/spieler/373374
-457743,Mohamed Konaté,13,4,Forward,Akhmat Grozny,/mohamed-konate/profil/spieler/457743
-281552,Georgiy Melkadze,77,4,Forward,Akhmat Grozny,/georgiy-melkadze/profil/spieler/281552
-917402,Dzhamalutdin Abdulkadyrov,2,2,Defender,Akhmat Grozny,/dzhamalutdin-abdulkadyrov/profil/spieler/917402
-646894,Sergey Pryakhin,19,3,Midfield,Akhmat Grozny,/sergey-pryakhin/profil/spieler/646894
-273945,Miroslav Bogosavac,8,2,Defender,Akhmat Grozny,/miroslav-bogosavac/profil/spieler/273945
-253734,Ismael Silva,11,3,Midfield,Akhmat Grozny,/ismael-silva/profil/spieler/253734
-486204,Klisman Cake,5,2,Defender,Akhmat Grozny,/klisman-cake/profil/spieler/486204
-456814,Maksim Sidorov,81,2,Defender,Akhmat Grozny,/maksim-sidorov/profil/spieler/456814
-1107993,Mohammadmehdi Zare,22,2,Defender,Akhmat Grozny,/mohammadmehdi-zare/profil/spieler/1107993
-829380,Ousmane N'Dong,90,2,Defender,Akhmat Grozny,/ousmane-ndong/profil/spieler/829380
-1059814,Kelliano,42,3,Midfield,Akhmat Grozny,/kelliano/profil/spieler/1059814
-799095,Vadim Ulyanov,1,1,Goalkeeper,Akhmat Grozny,/vadim-ulyanov/profil/spieler/799095
-704593,Galymzhan Kenzhebek,23,4,Forward,Akhmat Grozny,/galymzhan-kenzhebek/profil/spieler/704593
-867082,Abakar Gadzhiev,70,3,Midfield,Akhmat Grozny,/abakar-gadzhiev/profil/spieler/867082
-1178485,Papa Amady Gadio,37,3,Midfield,Akhmat Grozny,/papa-amady-gadio/profil/spieler/1178485
-686862,Valeriy Tsarukyan,80,3,Midfield,Akhmat Grozny,/valeriy-tsarukyan/profil/spieler/686862
-58971,Giorgiy Shelia,88,1,Goalkeeper,Akhmat Grozny,/giorgiy-shelia/profil/spieler/58971
-51274,Rizvan Utsiev,40,2,Defender,Akhmat Grozny,/rizvan-utsiev/profil/spieler/51274
-1120351,Yakhya Magomedov,72,1,Goalkeeper,Akhmat Grozny,/yakhya-magomedov/profil/spieler/1120351
 866670,Ronaldo,7,4,Forward,FC Rostov,/ronaldo/profil/spieler/866670
 515050,Ilya Vakhania,40,2,Defender,FC Rostov,/ilya-vakhania/profil/spieler/515050
 866001,Viktor Melekhin,4,2,Defender,FC Rostov,/viktor-melekhin/profil/spieler/866001
@@ -280,30 +282,6 @@ id,name,shirtNumber,positionId,position,club,link
 1339250,Ibraheem Mahfus Ajasa,17,4,Forward,FC Rostov,/ibraheem-mahfus-ajasa/profil/spieler/1339250
 939879,Nikita Babakin,59,2,Defender,FC Rostov,/nikita-babakin/profil/spieler/939879
 501250,Stepan Melnikov,0,4,Forward,FC Rostov,/stepan-melnikov/profil/spieler/501250
-1037971,Dmitriy Pestryakov,71,4,Forward,Akron Tolyatti,/dmitriy-pestryakov/profil/spieler/1037971
-645880,Ifet Djakovac,35,3,Midfield,Akron Tolyatti,/ifet-djakovac/profil/spieler/645880
-375857,Kristijan Bistrovic,23,3,Midfield,Akron Tolyatti,/kristijan-bistrovic/profil/spieler/375857
-430488,Edgar Sevikyan,7,4,Forward,Akron Tolyatti,/edgar-sevikyan/profil/spieler/430488
-274694,Ionuț Nedelcearu,24,2,Defender,Akron Tolyatti,/ionut-nedelcearu/profil/spieler/274694
-352599,Stefan Loncar,15,3,Midfield,Akron Tolyatti,/stefan-loncar/profil/spieler/352599
-636601,Aleksa Djurasovic,5,3,Midfield,Akron Tolyatti,/aleksa-djurasovic/profil/spieler/636601
-598101,Roberto Fernández,21,2,Defender,Akron Tolyatti,/roberto-fernandez/profil/spieler/598101
-48067,Artem Dzyuba,22,4,Forward,Akron Tolyatti,/artem-dzyuba/profil/spieler/48067
-190188,Vitaliy Gudiev,88,1,Goalkeeper,Akron Tolyatti,/vitaliy-gudiev/profil/spieler/190188
-1033394,Maksim Boldyrev,91,3,Midfield,Akron Tolyatti,/maksim-boldyrev/profil/spieler/1033394
-700755,Marat Bokoev,19,2,Defender,Akron Tolyatti,/marat-bokoev/profil/spieler/700755
-391905,Khetag Khosonov,80,3,Midfield,Akron Tolyatti,/khetag-khosonov/profil/spieler/391905
-820252,Benchimol,11,4,Forward,Akron Tolyatti,/benchimol/profil/spieler/820252
-908807,Yomar Rocha,2,2,Defender,Akron Tolyatti,/yomar-rocha/profil/spieler/908807
-268427,Maksim Kuzmin,6,3,Midfield,Akron Tolyatti,/maksim-kuzmin/profil/spieler/268427
-396428,Rodrigo Escoval,26,2,Defender,Akron Tolyatti,/rodrigo-escoval/profil/spieler/396428
-215213,Aleksandr Vasyutin,78,1,Goalkeeper,Akron Tolyatti,/aleksandr-vasyutin/profil/spieler/215213
-535974,Konstantin Maradishvili,8,3,Midfield,Akron Tolyatti,/konstantin-maradishvili/profil/spieler/535974
-1385364,Kévin Arévalo,10,4,Forward,Akron Tolyatti,/kevin-arevalo/profil/spieler/1385364
-1160366,Arseniy Dmitriev,69,4,Forward,Akron Tolyatti,/arseniy-dmitriev/profil/spieler/1160366
-917457,Nikita Bazilevskiy,81,3,Midfield,Akron Tolyatti,/nikita-bazilevskiy/profil/spieler/917457
-1038622,Ignat Terekhovskiy,32,1,Goalkeeper,Akron Tolyatti,/ignat-terekhovskiy/profil/spieler/1038622
-1243089,Denis Popenkov,89,2,Defender,Akron Tolyatti,/denis-popenkov/profil/spieler/1243089
 1030739,Mohammadjavad Hosseinnejad,10,3,Midfield,Dinamo Makhachkala,/mohammadjavad-hosseinnejad/profil/spieler/1030739
 567023,Gamid Agalarov,25,4,Forward,Dinamo Makhachkala,/gamid-agalarov/profil/spieler/567023
 250907,Jemal Tabidze,5,2,Defender,Dinamo Makhachkala,/jemal-tabidze/profil/spieler/250907
@@ -358,6 +336,30 @@ id,name,shirtNumber,positionId,position,club,link
 1249173,Vladimir Ignatenko,91,4,Forward,Krylya Sovetov Samara,/vladimir-ignatenko/profil/spieler/1249173
 61397,Sergey Pesjakov,30,1,Goalkeeper,Krylya Sovetov Samara,/sergey-pesjakov/profil/spieler/61397
 177350,Evgeniy Frolov,39,1,Goalkeeper,Krylya Sovetov Samara,/evgeniy-frolov/profil/spieler/177350
+1037971,Dmitriy Pestryakov,71,4,Forward,Akron Tolyatti,/dmitriy-pestryakov/profil/spieler/1037971
+645880,Ifet Djakovac,35,3,Midfield,Akron Tolyatti,/ifet-djakovac/profil/spieler/645880
+375857,Kristijan Bistrovic,23,3,Midfield,Akron Tolyatti,/kristijan-bistrovic/profil/spieler/375857
+430488,Edgar Sevikyan,7,4,Forward,Akron Tolyatti,/edgar-sevikyan/profil/spieler/430488
+274694,Ionuț Nedelcearu,24,2,Defender,Akron Tolyatti,/ionut-nedelcearu/profil/spieler/274694
+352599,Stefan Loncar,15,3,Midfield,Akron Tolyatti,/stefan-loncar/profil/spieler/352599
+636601,Aleksa Djurasovic,5,3,Midfield,Akron Tolyatti,/aleksa-djurasovic/profil/spieler/636601
+598101,Roberto Fernández,21,2,Defender,Akron Tolyatti,/roberto-fernandez/profil/spieler/598101
+48067,Artem Dzyuba,22,4,Forward,Akron Tolyatti,/artem-dzyuba/profil/spieler/48067
+190188,Vitaliy Gudiev,88,1,Goalkeeper,Akron Tolyatti,/vitaliy-gudiev/profil/spieler/190188
+1033394,Maksim Boldyrev,91,3,Midfield,Akron Tolyatti,/maksim-boldyrev/profil/spieler/1033394
+700755,Marat Bokoev,19,2,Defender,Akron Tolyatti,/marat-bokoev/profil/spieler/700755
+391905,Khetag Khosonov,80,3,Midfield,Akron Tolyatti,/khetag-khosonov/profil/spieler/391905
+820252,Benchimol,11,4,Forward,Akron Tolyatti,/benchimol/profil/spieler/820252
+908807,Yomar Rocha,2,2,Defender,Akron Tolyatti,/yomar-rocha/profil/spieler/908807
+268427,Maksim Kuzmin,6,3,Midfield,Akron Tolyatti,/maksim-kuzmin/profil/spieler/268427
+396428,Rodrigo Escoval,26,2,Defender,Akron Tolyatti,/rodrigo-escoval/profil/spieler/396428
+215213,Aleksandr Vasyutin,78,1,Goalkeeper,Akron Tolyatti,/aleksandr-vasyutin/profil/spieler/215213
+535974,Konstantin Maradishvili,8,3,Midfield,Akron Tolyatti,/konstantin-maradishvili/profil/spieler/535974
+1385364,Kévin Arévalo,10,4,Forward,Akron Tolyatti,/kevin-arevalo/profil/spieler/1385364
+1160366,Arseniy Dmitriev,69,4,Forward,Akron Tolyatti,/arseniy-dmitriev/profil/spieler/1160366
+917457,Nikita Bazilevskiy,81,3,Midfield,Akron Tolyatti,/nikita-bazilevskiy/profil/spieler/917457
+1038622,Ignat Terekhovskiy,32,1,Goalkeeper,Akron Tolyatti,/ignat-terekhovskiy/profil/spieler/1038622
+1243089,Denis Popenkov,89,2,Defender,Akron Tolyatti,/denis-popenkov/profil/spieler/1243089
 666616,Olakunle Olusegun,40,4,Forward,FC Pari Nizhniy Novgorod,/olakunle-olusegun/profil/spieler/666616
 315252,Daniil Lesovoy,88,4,Forward,FC Pari Nizhniy Novgorod,/daniil-lesovoy/profil/spieler/315252
 320864,Sven Karic,25,2,Defender,FC Pari Nizhniy Novgorod,/sven-karic/profil/spieler/320864

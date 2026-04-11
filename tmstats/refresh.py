@@ -108,6 +108,11 @@ def normalize_text(value) -> str:
     return ' '.join(str(value).replace('\xa0', ' ').split())
 
 
+def club_identity(value: str) -> str:
+    normalized = normalize_text(value).lower()
+    return re.sub(r'[^a-z0-9]+', '', normalized)
+
+
 def build_team_link(href: str) -> str:
     match = re.search(r'/([^/]+)/[^/]+/verein/(\d+)', href)
     if not match:
@@ -477,12 +482,15 @@ def refresh_logos_only(league_key: str, season: int = None,
 
     session = build_session()
     _, latest_table = fetch_current_table(session, league_key, season, timeout)
+    latest_by_club = {club_identity(row['club']): row for row in latest_table}
     latest_by_rank = {row['rank']: row for row in latest_table}
     current_rows = read_csv_rows(table_csv)
 
     updated_rows = []
     for row in current_rows:
-        latest = latest_by_rank.get(row.get('rank', ''))
+        latest = latest_by_club.get(club_identity(row.get('club', '')))
+        if not latest:
+            latest = latest_by_rank.get(row.get('rank', ''))
         updated_rows.append({
             **row,
             'logo': latest.get('logo', '') if latest else row.get('logo', ''),

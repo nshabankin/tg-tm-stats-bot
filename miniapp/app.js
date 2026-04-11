@@ -101,53 +101,37 @@ function renderFormPills(form) {
 function renderTable() {
   tableViewEl.innerHTML = `
     <div class="table-shell">
-      <div class="table-head">
-        <span>#</span>
-        <span>Club</span>
-        <span>P</span>
-        <span>W-D-L</span>
-        <span>GD</span>
-        <span>Pts</span>
-        <span>Form</span>
-      </div>
-      ${state.snapshot.table
-        .map(
-          (row) => `
-          <article class="table-row">
-            <span class="table-rank">${row.rank}</span>
-            <div class="table-club-wrap">
-              ${renderTeamLogo(row, "table-logo")}
-              <span class="table-club-name">${row.club}</span>
-            </div>
-            <span class="table-stat">${row.played}</span>
-            <span class="table-stat">${row.wins}-${row.draws}-${row.losses}</span>
-            <span class="table-stat">${row.diff}</span>
-            <span class="table-points">${row.points}</span>
-            <div class="table-form-row">
-              ${renderFormPills(row.form || "")}
-            </div>
-          </article>
-          <article class="table-row-mobile">
-            <div class="table-row-mobile-main">
-              <div class="table-row-club">
-                <span class="rank-badge table-rank-badge">${row.rank}</span>
+      <div class="table-scroll">
+        <div class="table-head">
+          <span>#</span>
+          <span>Club</span>
+          <span>P</span>
+          <span>W-D-L</span>
+          <span>GD</span>
+          <span>Pts</span>
+          <span>Form</span>
+        </div>
+        ${state.snapshot.table
+          .map(
+            (row) => `
+            <article class="table-row">
+              <span class="table-rank">${row.rank}</span>
+              <div class="table-club-wrap">
                 ${renderTeamLogo(row, "table-logo")}
-                <h3 class="club-name table-club-name-mobile">${row.club}</h3>
+                <span class="table-club-name">${row.club}</span>
               </div>
-              <div class="points-cell">${row.points} <span>pts</span></div>
-            </div>
-            <div class="table-row-meta">
-              <span>P ${row.played}</span>
-              <span>${row.wins}-${row.draws}-${row.losses}</span>
-              <span>GD ${row.diff}</span>
-            </div>
-            <div class="form-row table-form-row-mobile">
-              ${renderFormPills(row.form || "")}
-            </div>
-          </article>
-        `
-        )
-        .join("")}
+              <span class="table-stat">${row.played}</span>
+              <span class="table-stat">${row.wins}-${row.draws}-${row.losses}</span>
+              <span class="table-stat">${row.diff}</span>
+              <span class="table-points">${row.points}</span>
+              <div class="table-form-row">
+                ${renderFormPills(row.form || "")}
+              </div>
+            </article>
+          `
+          )
+          .join("")}
+      </div>
     </div>
   `;
 }

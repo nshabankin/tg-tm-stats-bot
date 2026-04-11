@@ -209,6 +209,32 @@ id,name,shirtNumber,positionId,position,club,link
 126665,Idrissa Gueye,27,3,Midfield,Everton FC,/idrissa-gueye/profil/spieler/126665
 68390,Séamus Coleman,23,2,Defender,Everton FC,/seamus-coleman/profil/spieler/68390
 215810,Tom King,31,1,Goalkeeper,Everton FC,/tom-king/profil/spieler/215810
+973085,Carlos Baleba,17,3,Midfield,Brighton & Hove Albion,/carlos-baleba/profil/spieler/973085
+1012534,Yankuba Minteh,11,4,Forward,Brighton & Hove Albion,/yankuba-minteh/profil/spieler/1012534
+565093,Bart Verbruggen,1,1,Goalkeeper,Brighton & Hove Albion,/bart-verbruggen/profil/spieler/565093
+576314,Jan Paul van Hecke,6,2,Defender,Brighton & Hove Albion,/jan-paul-van-hecke/profil/spieler/576314
+667287,Yasin Ayari,26,3,Midfield,Brighton & Hove Albion,/yasin-ayari/profil/spieler/667287
+538977,Georginio Rutter,10,4,Forward,Brighton & Hove Albion,/georginio-rutter/profil/spieler/538977
+369316,Ferdi Kadıoğlu,24,2,Defender,Brighton & Hove Albion,/ferdi-kadioglu/profil/spieler/369316
+415381,Mats Wieffer,27,3,Midfield,Brighton & Hove Albion,/mats-wieffer/profil/spieler/415381
+1060087,Charalampos Kostoulas,19,4,Forward,Brighton & Hove Albion,/charalampos-kostoulas/profil/spieler/1060087
+996897,Diego Gómez,25,3,Midfield,Brighton & Hove Albion,/diego-gomez/profil/spieler/996897
+504849,Kaoru Mitoma,22,4,Forward,Brighton & Hove Albion,/kaoru-mitoma/profil/spieler/504849
+429915,Maxim De Cuyper,29,2,Defender,Brighton & Hove Albion,/maxim-de-cuyper/profil/spieler/429915
+867688,Jack Hinshelwood,13,3,Midfield,Brighton & Hove Albion,/jack-hinshelwood/profil/spieler/867688
+406634,Matt O'Riley,33,3,Midfield,Brighton & Hove Albion,/matt-oriley/profil/spieler/406634
+950091,Stefanos Tzimas,9,4,Forward,Brighton & Hove Albion,/stefanos-tzimas/profil/spieler/950091
+318508,Olivier Boscagli,21,2,Defender,Brighton & Hove Albion,/olivier-boscagli/profil/spieler/318508
+380350,Igor Julio,3,2,Defender,Brighton & Hove Albion,/igor-julio/profil/spieler/380350
+212847,Adam Webster,4,2,Defender,Brighton & Hove Albion,/adam-webster/profil/spieler/212847
+148153,Lewis Dunk,5,2,Defender,Brighton & Hove Albion,/lewis-dunk/profil/spieler/148153
+67063,Danny Welbeck,18,4,Forward,Brighton & Hove Albion,/danny-welbeck/profil/spieler/67063
+82873,Pascal Groß,30,3,Midfield,Brighton & Hove Albion,/pascal-gross/profil/spieler/82873
+111195,Joël Veltman,34,2,Defender,Brighton & Hove Albion,/joel-veltman/profil/spieler/111195
+209212,Solly March,7,4,Forward,Brighton & Hove Albion,/solly-march/profil/spieler/209212
+3333,James Milner,20,3,Midfield,Brighton & Hove Albion,/james-milner/profil/spieler/3333
+73564,Jason Steele,23,1,Goalkeeper,Brighton & Hove Albion,/jason-steele/profil/spieler/73564
+406556,Tom McGill,38,1,Goalkeeper,Brighton & Hove Albion,/tom-mcgill/profil/spieler/406556
 1012564,Rayan,37,4,Forward,AFC Bournemouth,/rayan/profil/spieler/1012564
 955357,Junior Kroupi,22,4,Forward,AFC Bournemouth,/junior-kroupi/profil/spieler/955357
 855256,Alex Scott,8,3,Midfield,AFC Bournemouth,/alex-scott/profil/spieler/855256
@@ -259,32 +285,6 @@ id,name,shirtNumber,positionId,position,club,link
 226973,Harrison Reed,6,3,Midfield,Fulham FC,/harrison-reed/profil/spieler/226973
 127181,Benjamin Lecomte,23,1,Goalkeeper,Fulham FC,/benjamin-lecomte/profil/spieler/127181
 123275,Tom Cairney,10,3,Midfield,Fulham FC,/tom-cairney/profil/spieler/123275
-973085,Carlos Baleba,17,3,Midfield,Brighton & Hove Albion,/carlos-baleba/profil/spieler/973085
-1012534,Yankuba Minteh,11,4,Forward,Brighton & Hove Albion,/yankuba-minteh/profil/spieler/1012534
-565093,Bart Verbruggen,1,1,Goalkeeper,Brighton & Hove Albion,/bart-verbruggen/profil/spieler/565093
-576314,Jan Paul van Hecke,6,2,Defender,Brighton & Hove Albion,/jan-paul-van-hecke/profil/spieler/576314
-667287,Yasin Ayari,26,3,Midfield,Brighton & Hove Albion,/yasin-ayari/profil/spieler/667287
-538977,Georginio Rutter,10,4,Forward,Brighton & Hove Albion,/georginio-rutter/profil/spieler/538977
-369316,Ferdi Kadıoğlu,24,2,Defender,Brighton & Hove Albion,/ferdi-kadioglu/profil/spieler/369316
-415381,Mats Wieffer,27,3,Midfield,Brighton & Hove Albion,/mats-wieffer/profil/spieler/415381
-1060087,Charalampos Kostoulas,19,4,Forward,Brighton & Hove Albion,/charalampos-kostoulas/profil/spieler/1060087
-996897,Diego Gómez,25,3,Midfield,Brighton & Hove Albion,/diego-gomez/profil/spieler/996897
-504849,Kaoru Mitoma,22,4,Forward,Brighton & Hove Albion,/kaoru-mitoma/profil/spieler/504849
-429915,Maxim De Cuyper,29,2,Defender,Brighton & Hove Albion,/maxim-de-cuyper/profil/spieler/429915
-867688,Jack Hinshelwood,13,3,Midfield,Brighton & Hove Albion,/jack-hinshelwood/profil/spieler/867688
-406634,Matt O'Riley,33,3,Midfield,Brighton & Hove Albion,/matt-oriley/profil/spieler/406634
-950091,Stefanos Tzimas,9,4,Forward,Brighton & Hove Albion,/stefanos-tzimas/profil/spieler/950091
-318508,Olivier Boscagli,21,2,Defender,Brighton & Hove Albion,/olivier-boscagli/profil/spieler/318508
-380350,Igor Julio,3,2,Defender,Brighton & Hove Albion,/igor-julio/profil/spieler/380350
-212847,Adam Webster,4,2,Defender,Brighton & Hove Albion,/adam-webster/profil/spieler/212847
-148153,Lewis Dunk,5,2,Defender,Brighton & Hove Albion,/lewis-dunk/profil/spieler/148153
-67063,Danny Welbeck,18,4,Forward,Brighton & Hove Albion,/danny-welbeck/profil/spieler/67063
-82873,Pascal Groß,30,3,Midfield,Brighton & Hove Albion,/pascal-gross/profil/spieler/82873
-111195,Joël Veltman,34,2,Defender,Brighton & Hove Albion,/joel-veltman/profil/spieler/111195
-209212,Solly March,7,4,Forward,Brighton & Hove Albion,/solly-march/profil/spieler/209212
-3333,James Milner,20,3,Midfield,Brighton & Hove Albion,/james-milner/profil/spieler/3333
-73564,Jason Steele,23,1,Goalkeeper,Brighton & Hove Albion,/jason-steele/profil/spieler/73564
-406556,Tom McGill,38,1,Goalkeeper,Brighton & Hove Albion,/tom-mcgill/profil/spieler/406556
 876631,Habib Diarra,19,3,Midfield,Sunderland AFC,/habib-diarra/profil/spieler/876631
 727089,Noah Sadiki,27,3,Midfield,Sunderland AFC,/noah-sadiki/profil/spieler/727089
 743384,Chemsdine Talbi,7,4,Forward,Sunderland AFC,/chemsdine-talbi/profil/spieler/743384
