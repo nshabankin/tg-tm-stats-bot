@@ -1,28 +1,28 @@
 
 # tg-tm-stats-bot
 
-A Telegram [bot](https://t.me/GetFootballStatsBot) that delivers football
-snapshots as downloadable files.
+A Telegram [bot](https://t.me/GetFootballStatsBot) that lets users browse
+football snapshots from local data files.
 
 It currently supports:
 
 - league table snapshots
 - player stats snapshots
-- CSV and PDF downloads from Telegram
+- in-chat browsing in Telegram
+- CSV and PDF snapshot generation in the local refresh pipeline
 
 ![tg-tm-stats-bot-logo](https://i.ibb.co/28zqyxC/photo-2022-06-15-13-54-05.jpg)
 
 ## What The Bot Does
 
-The bot shows a list of supported leagues. After a user picks a league, it
-offers four download options:
+The bot shows a list of supported leagues. After a user picks a league, it can:
 
-- `League Table (CSV)`
-- `League Table (PDF)`
-- `Player Stats (CSV)`
-- `Player Stats (PDF)`
+- show the current league table directly in Telegram
+- let the user browse teams ordered by table position
+- let the user browse players inside a team, sorted by shirt number
+- show an individual player's stats directly in Telegram
 
-The bot does not generate data on demand. It serves the newest local snapshot
+The bot does not generate data on demand. It reads the newest local snapshot
 already present in `tmstats/<league>/`.
 
 ## Current Status
@@ -35,13 +35,14 @@ revived into a local-first workflow:
 - the bot serves the latest available local files
 - CSV and PDF exports are generated side by side
 - league tables now include recent five-match form when Transfermarkt exposes it
+- the Telegram UX is optimized for in-chat browsing, not bulk file downloads
 - legacy Scrapy and queue-worker code has been removed from the active project
 
 This means the most reliable operating model right now is:
 
 1. refresh league data manually when you want fresh snapshots
 2. regenerate PDFs if needed
-3. run the bot so it serves the newest local files
+3. run the bot so it serves the newest local files in chat
 
 ## Supported Leagues
 
@@ -173,15 +174,16 @@ Then in Telegram:
 
 1. send `/start`
 2. choose a league
-3. choose dataset and format
-4. receive the newest local snapshot file
+3. choose `View Table` or `Browse Teams`
+4. if browsing teams, choose a club from the standings-ordered list
+5. choose a player to view their latest local stats
 
 ## Project Layout
 
 `bot.py`
 
 - Telegram bot entrypoint
-- Reads the latest local snapshot and sends it to the user
+- Reads the latest local snapshots and renders league, team, and player views
 
 `refresh_data.py`
 
@@ -200,6 +202,10 @@ Then in Telegram:
 `tmstats/snapshots.py`
 
 - Shared snapshot discovery logic used by the bot
+
+`tmstats/browse.py`
+
+- Local snapshot loading, team/player lookup, and Telegram text formatting
 
 `tmstats/pdf_export.py`
 

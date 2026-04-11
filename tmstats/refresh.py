@@ -20,7 +20,7 @@ RETRY_STATUSES = {405, 429, 500, 502, 503, 504}
 
 PLAYER_FIELDS = ['id', 'name', 'shirtNumber', 'positionId',
                  'position', 'club', 'link']
-STATS_FIELDS = ['player_name', 'number', 'position',
+STATS_FIELDS = ['player_id', 'player_name', 'number', 'position',
                 'club', 'league',
                 'played', 'goals', 'assists',
                 'yellow_cards', 'second_yellows', 'red_cards',
@@ -265,6 +265,7 @@ def build_player_stats(player: dict, cells: List[str], league_label: str,
                        position_label: str) -> dict:
     number = f'#{player["shirtNumber"]}' if player['shirtNumber'] else ''
     stats = {
+        'player_id': player['id'],
         'player_name': player['name'],
         'number': number,
         'position': position_label or player['position'],

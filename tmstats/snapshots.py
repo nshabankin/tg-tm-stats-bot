@@ -9,6 +9,10 @@ FILE_TYPES = {
         'label': 'League Table',
         'suffix': 'table',
     },
+    'players': {
+        'label': 'Players',
+        'suffix': 'players',
+    },
     'stats': {
         'label': 'Player Stats',
         'suffix': 'stats',
