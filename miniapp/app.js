@@ -179,6 +179,7 @@ function renderTeams() {
           <span class="team-card-subtitle">Recent form</span>
           ${renderFormPills(selected.form)}
         </div>
+        <p class="team-card-subtitle team-detail-note">Tap a player to open their stat card.</p>
         <div class="player-list">
           ${selected.players
             .map(
@@ -204,8 +205,11 @@ function renderTeams() {
 
   teamsViewEl.innerHTML = `
     <div class="team-list-shell">
-      <div class="team-list">${teamCards}</div>
       ${detailMarkup}
+      <div class="team-list-header">
+        <p class="team-card-subtitle">Choose a club from the standings list.</p>
+      </div>
+      <div class="team-list">${teamCards}</div>
     </div>
   `;
 
@@ -218,6 +222,10 @@ function renderTeams() {
       }
       state.selectedTeamSlug = teamSlug;
       renderTeams();
+      teamsViewEl.querySelector(".team-detail")?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
     });
   });
 }

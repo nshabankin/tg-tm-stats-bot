@@ -247,10 +247,13 @@ body {
 
 .team-card {
   cursor: pointer;
+  color: var(--text);
+  text-align: left;
 }
 
 .team-card.is-active {
   border-color: rgba(110, 231, 183, 0.48);
+  background: rgba(17, 31, 50, 0.98);
 }
 
 .team-card-subtitle,
@@ -261,6 +264,16 @@ body {
 
 .team-detail {
   padding: 18px;
+}
+
+.team-detail-note {
+  margin: 16px 0 0;
+}
+
+.team-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .player-list {
