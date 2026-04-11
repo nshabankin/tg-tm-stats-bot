@@ -93,30 +93,31 @@ function renderFormPills(form) {
 
 function renderTable() {
   tableViewEl.innerHTML = `
-    <div class="table-grid">
+    <div class="table-shell">
+      <div class="table-head">
+        <span>#</span>
+        <span>Club</span>
+        <span>P</span>
+        <span>W</span>
+        <span>D</span>
+        <span>L</span>
+        <span>GD</span>
+        <span>Pts</span>
+        <span>Form</span>
+      </div>
       ${state.snapshot.table
         .map(
           (row) => `
-          <article class="table-card">
-            <div class="table-card-header">
-              <div>
-                <span class="rank-badge">${row.rank}</span>
-                <h3 class="club-name">${row.club}</h3>
-              </div>
-              <div class="points">${row.points} pts</div>
-            </div>
-            <div class="meta-line">
-              <span>P ${row.played}</span>
-              <span>W ${row.wins}</span>
-              <span>D ${row.draws}</span>
-              <span>L ${row.losses}</span>
-              <span>GF:GA ${row.goals}</span>
-              <span>GD ${row.diff}</span>
-            </div>
-            <div class="form-row">
-              <span class="team-card-subtitle">Recent form</span>
-              ${renderFormPills(row.form)}
-            </div>
+          <article class="table-row">
+            <span class="cell rank-cell">${row.rank}</span>
+            <span class="cell club-cell">${row.club}</span>
+            <span class="cell">${row.played}</span>
+            <span class="cell">${row.wins}</span>
+            <span class="cell">${row.draws}</span>
+            <span class="cell">${row.losses}</span>
+            <span class="cell">${row.diff}</span>
+            <span class="cell points-cell">${row.points}</span>
+            <span class="cell form-cell">${renderFormPills(row.form)}</span>
           </article>
         `
         )
@@ -134,80 +135,57 @@ function renderTeams() {
   const teamCards = teams
     .map(
       (team) => `
-        <button
-          type="button"
-          class="team-card ${team.slug === state.selectedTeamSlug ? "is-active" : ""}"
-          data-team-slug="${team.slug}"
-        >
-          <div class="team-card-header">
-            <div>
+        <article class="team-card ${team.slug === state.selectedTeamSlug ? "is-active" : ""}">
+          <button
+            type="button"
+            class="team-card-toggle"
+            data-team-slug="${team.slug}"
+          >
+            <div class="team-card-header">
               <span class="rank-badge">${team.rank}</span>
-              <h3 class="club-name">${team.club}</h3>
+              <div>
+                <h3 class="club-name">${team.club}</h3>
+                <p class="team-card-subtitle">${team.playerCount} players</p>
+              </div>
+              <span class="team-toggle-indicator">${team.slug === state.selectedTeamSlug ? "−" : "+"}</span>
             </div>
-            <div class="points">${team.points} pts</div>
-          </div>
-          <div class="record-line">
-            <span>${team.wins}-${team.draws}-${team.losses}</span>
-            <span>GF:GA ${team.goals}</span>
-            <span>${team.playerCount} players</span>
-          </div>
-        </button>
+          </button>
+          ${
+            team.slug === state.selectedTeamSlug
+              ? `
+              <div class="team-card-body">
+                <div class="player-list">
+                  ${team.players
+                    .map(
+                      (player) => `
+                        <button
+                          type="button"
+                          class="player-button"
+                          data-team-slug="${team.slug}"
+                          data-player-id="${player.id}"
+                        >
+                          <p class="player-name">${
+                            player.shirtNumber ? `#${player.shirtNumber} ` : ""
+                          }${player.name}</p>
+                          <p class="player-position">${player.position || "Unknown role"}</p>
+                        </button>
+                      `
+                    )
+                    .join("")}
+                </div>
+              </div>
+            `
+              : ""
+          }
+        </article>
       `
     )
     .join("");
 
-  let detailMarkup = '<div class="empty-state">No team selected.</div>';
-  if (selected) {
-    detailMarkup = `
-      <section class="team-detail">
-        <div class="team-detail-header">
-          <div>
-            <span class="rank-badge">${selected.rank}</span>
-            <h3 class="club-name">${selected.club}</h3>
-          </div>
-          <div class="points">${selected.points} pts</div>
-        </div>
-        <div class="meta-line">
-          <span>Played ${selected.played}</span>
-          <span>W ${selected.wins}</span>
-          <span>D ${selected.draws}</span>
-          <span>L ${selected.losses}</span>
-          <span>GF:GA ${selected.goals}</span>
-          <span>GD ${selected.diff}</span>
-        </div>
-        <div class="form-row">
-          <span class="team-card-subtitle">Recent form</span>
-          ${renderFormPills(selected.form)}
-        </div>
-        <p class="team-card-subtitle team-detail-note">Tap a player to open their stat card.</p>
-        <div class="player-list">
-          ${selected.players
-            .map(
-              (player) => `
-                <button
-                  type="button"
-                  class="player-button"
-                  data-team-slug="${selected.slug}"
-                  data-player-id="${player.id}"
-                >
-                  <p class="player-name">${
-                    player.shirtNumber ? `#${player.shirtNumber} ` : ""
-                  }${player.name}</p>
-                  <p class="player-position">${player.position || "Unknown role"}</p>
-                </button>
-              `
-            )
-            .join("")}
-        </div>
-      </section>
-    `;
-  }
-
   teamsViewEl.innerHTML = `
     <div class="team-list-shell">
-      ${detailMarkup}
       <div class="team-list-header">
-        <p class="team-card-subtitle">Choose a club from the standings list.</p>
+        <p class="team-card-subtitle">Choose a club to expand its squad.</p>
       </div>
       <div class="team-list">${teamCards}</div>
     </div>
@@ -222,7 +200,7 @@ function renderTeams() {
       }
       state.selectedTeamSlug = teamSlug;
       renderTeams();
-      teamsViewEl.querySelector(".team-detail")?.scrollIntoView({
+      teamsViewEl.querySelector(`[data-team-slug="${teamSlug}"]`)?.scrollIntoView({
         behavior: "smooth",
         block: "start",
       });
@@ -236,6 +214,7 @@ function renderView() {
   });
   tableViewEl.classList.toggle("hidden", state.view !== "table");
   teamsViewEl.classList.toggle("hidden", state.view !== "teams");
+  leagueSummaryEl.classList.toggle("hidden", state.view !== "table");
 
   if (state.view === "table") {
     renderTable();
@@ -266,7 +245,7 @@ function openPlayer(teamSlug, playerId) {
 
   const stats = player.stats || {};
   dialogBodyEl.innerHTML = `
-    <div>
+    <div class="player-dialog-panel">
       <p class="eyebrow">${team.club}</p>
       <h2 class="club-name">${player.name}</h2>
       <p class="subtitle">
@@ -285,6 +264,11 @@ function openPlayer(teamSlug, playerId) {
           buildStatCard("Conceded", stats.conceded),
           buildStatCard("Clean Sheets", stats.cleanSheets),
         ].join("")}
+      </div>
+      <div class="dialog-actions">
+        <form method="dialog">
+          <button type="submit" class="secondary-button">Close</button>
+        </form>
       </div>
     </div>
   `;

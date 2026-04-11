@@ -124,11 +124,9 @@ body {
 }
 
 .summary-card,
-.table-card,
 .team-card,
-.team-detail,
 .empty-state,
-.player-dialog > div {
+.player-dialog-panel {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -153,26 +151,6 @@ body {
   font-weight: 800;
 }
 
-.table-grid,
-.team-list {
-  margin-bottom: 18px;
-}
-
-.table-card,
-.team-card,
-.team-detail {
-  padding: 16px 18px;
-}
-
-.table-card-header,
-.team-card-header,
-.team-detail-header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-}
-
 .rank-badge {
   display: inline-flex;
   align-items: center;
@@ -191,26 +169,11 @@ body {
   font-size: 20px;
 }
 
-.points {
-  color: var(--accent);
-  font-size: 24px;
-  font-weight: 800;
-}
-
-.meta-line,
-.record-line {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 14px;
-  margin-top: 12px;
-  color: var(--muted);
-}
-
 .form-row {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-top: 14px;
+  flex-wrap: wrap;
 }
 
 .form-pill {
@@ -246,14 +209,32 @@ body {
 }
 
 .team-card {
-  cursor: pointer;
-  color: var(--text);
-  text-align: left;
+  overflow: hidden;
 }
 
 .team-card.is-active {
   border-color: rgba(110, 231, 183, 0.48);
   background: rgba(17, 31, 50, 0.98);
+}
+
+.team-card-toggle {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  padding: 16px 18px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.team-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.team-card-body {
+  padding: 0 18px 18px;
 }
 
 .team-card-subtitle,
@@ -262,23 +243,84 @@ body {
   color: var(--muted);
 }
 
-.team-detail {
-  padding: 18px;
-}
-
-.team-detail-note {
-  margin: 16px 0 0;
-}
-
 .team-list-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.team-toggle-indicator {
+  margin-left: auto;
+  font-size: 28px;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.table-shell {
+  display: grid;
+  gap: 10px;
+}
+
+.table-head,
+.table-row {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1.9fr) repeat(5, 34px) 42px 48px 140px;
+  align-items: center;
+  gap: 6px;
+}
+
+.table-head {
+  padding: 0 14px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.table-row {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.cell {
+  font-weight: 600;
+}
+
+.rank-cell {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.club-cell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.points-cell {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.form-cell {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.form-cell .form-pill {
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+}
+
 .player-list {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  margin-top: 18px;
+  margin-top: 12px;
 }
 
 .player-button {
@@ -321,6 +363,7 @@ body {
   padding: 0;
   color: var(--text);
   background: transparent;
+  max-height: calc(100vh - 24px);
 }
 
 .player-dialog::backdrop {
@@ -328,12 +371,14 @@ body {
   backdrop-filter: blur(8px);
 }
 
-.player-dialog > div {
+.player-dialog-panel {
   padding: 22px;
+  max-height: calc(100vh - 48px);
+  overflow: auto;
 }
 
 .dialog-actions {
-  margin-top: 14px;
+  margin-top: 18px;
   display: flex;
   justify-content: flex-end;
 }
@@ -387,10 +432,24 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 
-  .table-card-header,
-  .team-card-header,
-  .team-detail-header {
-    flex-direction: column;
-    align-items: flex-start;
+  .table-head,
+  .table-row {
+    grid-template-columns: 24px minmax(0, 1.4fr) repeat(5, 24px) 32px 38px 112px;
+    gap: 4px;
+    font-size: 13px;
+  }
+
+  .table-head {
+    font-size: 10px;
+  }
+
+  .club-name {
+    font-size: 18px;
+  }
+
+  .form-cell .form-pill {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
   }
 }
