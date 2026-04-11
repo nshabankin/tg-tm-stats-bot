@@ -110,6 +110,15 @@ So on April 7, 2026, the current season is still labeled `2025`.
 
 The refresh script pulls the current Transfermarkt season dynamically.
 
+This project is intentionally run as a gentle, manual scraper:
+
+- refreshes are triggered manually, not in a tight unattended loop
+- requests are throttled with a configurable delay
+- if Transfermarkt asks for human verification, the expected response is to
+  stop, refresh your own browser session, and try again later
+- the project is meant to create occasional personal snapshot files, not to
+  mirror or hammer the source site
+
 Refresh one league:
 
 ```bash
@@ -268,5 +277,6 @@ verification issue.
 - The bot currently works best as a manually refreshed snapshot bot.
 - Player stats are considered current as of the moment you run refresh.
 - The live app no longer depends on Scrapy, Redis, RQ, or the old spider stack.
+- The scraper is intentionally conservative and should stay that way.
 - League tables are now pulled from the current standings page, not from
   Matchday 1.

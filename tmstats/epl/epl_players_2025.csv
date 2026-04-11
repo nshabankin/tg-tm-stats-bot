@@ -73,7 +73,6 @@ id,name,shirtNumber,positionId,position,club,link
 336077,Altay Bayındır,1,1,Goalkeeper,Manchester United,/altay-bayindir/profil/spieler/336077
 339340,Tyrell Malacia,12,2,Defender,Manchester United,/tyrell-malacia/profil/spieler/339340
 1042886,Chido Obi,32,4,Forward,Manchester United,/chido-obi/profil/spieler/1042886
-911424,Tyler Fredricson,33,2,Defender,Manchester United,/tyler-fredricson/profil/spieler/911424
 34130,Tom Heaton,22,1,Goalkeeper,Manchester United,/tom-heaton/profil/spieler/34130
 503743,Morgan Rogers,27,3,Midfield,Aston Villa,/morgan-rogers/profil/spieler/503743
 485706,Amadou Onana,24,3,Midfield,Aston Villa,/amadou-onana/profil/spieler/485706
@@ -210,6 +209,32 @@ id,name,shirtNumber,positionId,position,club,link
 126665,Idrissa Gueye,27,3,Midfield,Everton FC,/idrissa-gueye/profil/spieler/126665
 68390,Séamus Coleman,23,2,Defender,Everton FC,/seamus-coleman/profil/spieler/68390
 215810,Tom King,31,1,Goalkeeper,Everton FC,/tom-king/profil/spieler/215810
+1012564,Rayan,37,4,Forward,AFC Bournemouth,/rayan/profil/spieler/1012564
+955357,Junior Kroupi,22,4,Forward,AFC Bournemouth,/junior-kroupi/profil/spieler/955357
+855256,Alex Scott,8,3,Midfield,AFC Bournemouth,/alex-scott/profil/spieler/855256
+711337,Evanilson,9,4,Forward,AFC Bournemouth,/evanilson/profil/spieler/711337
+330659,Justin Kluivert,19,3,Midfield,AFC Bournemouth,/justin-kluivert/profil/spieler/330659
+463605,Bafodé Diakité,18,2,Defender,AFC Bournemouth,/bafode-diakite/profil/spieler/463605
+465555,Djordje Petrovic,1,1,Goalkeeper,AFC Bournemouth,/djordje-petrovic/profil/spieler/465555
+332705,Tyler Adams,12,3,Midfield,AFC Bournemouth,/tyler-adams/profil/spieler/332705
+654539,Adrien Truffert,3,2,Defender,AFC Bournemouth,/adrien-truffert/profil/spieler/654539
+399434,Marcus Tavernier,16,3,Midfield,AFC Bournemouth,/marcus-tavernier/profil/spieler/399434
+741257,Álex Jiménez,20,2,Defender,AFC Bournemouth,/alex-jimenez/profil/spieler/741257
+469781,Marcos Senesi,5,2,Defender,AFC Bournemouth,/marcos-senesi/profil/spieler/469781
+532776,Amine Adli,21,4,Forward,AFC Bournemouth,/amine-adli/profil/spieler/532776
+989112,Veljko Milosavljevic,44,2,Defender,AFC Bournemouth,/veljko-milosavljevic/profil/spieler/989112
+719673,Ben Gannon-Doak,11,4,Forward,AFC Bournemouth,/ben-gannon-doak/profil/spieler/719673
+611793,James Hill,23,2,Defender,AFC Bournemouth,/james-hill/profil/spieler/611793
+277033,David Brooks,7,4,Forward,AFC Bournemouth,/david-brooks/profil/spieler/277033
+249089,Lewis Cook,4,3,Midfield,AFC Bournemouth,/lewis-cook/profil/spieler/249089
+998101,Alex Tóth,27,3,Midfield,AFC Bournemouth,/alex-toth/profil/spieler/998101
+481675,Christos Mandas,29,1,Goalkeeper,AFC Bournemouth,/christos-mandas/profil/spieler/481675
+188077,Ryan Christie,10,3,Midfield,AFC Bournemouth,/ryan-christie/profil/spieler/188077
+251106,Enes Ünal,26,4,Forward,AFC Bournemouth,/enes-unal/profil/spieler/251106
+1009658,Julio Soler,6,2,Defender,AFC Bournemouth,/julio-soler/profil/spieler/1009658
+994604,Matai Akinmboni,45,2,Defender,AFC Bournemouth,/matai-akinmboni/profil/spieler/994604
+52570,Fraser Forster,17,1,Goalkeeper,AFC Bournemouth,/fraser-forster/profil/spieler/52570
+61841,Adam Smith,15,2,Defender,AFC Bournemouth,/adam-smith/profil/spieler/61841
 661207,Oscar Bobb,14,4,Forward,Fulham FC,/oscar-bobb/profil/spieler/661207
 900195,Kevin,22,4,Forward,Fulham FC,/kevin/profil/spieler/900195
 461883,Calvin Bassey,3,2,Defender,Fulham FC,/calvin-bassey/profil/spieler/461883
@@ -314,32 +339,6 @@ id,name,shirtNumber,positionId,position,club,link
 184528,Emil Krafth,17,2,Defender,Newcastle United,/emil-krafth/profil/spieler/184528
 142389,Mark Gillespie,29,1,Goalkeeper,Newcastle United,/mark-gillespie/profil/spieler/142389
 29712,John Ruddy,26,1,Goalkeeper,Newcastle United,/john-ruddy/profil/spieler/29712
-1012564,Rayan,37,4,Forward,AFC Bournemouth,/rayan/profil/spieler/1012564
-955357,Junior Kroupi,22,4,Forward,AFC Bournemouth,/junior-kroupi/profil/spieler/955357
-855256,Alex Scott,8,3,Midfield,AFC Bournemouth,/alex-scott/profil/spieler/855256
-711337,Evanilson,9,4,Forward,AFC Bournemouth,/evanilson/profil/spieler/711337
-330659,Justin Kluivert,19,3,Midfield,AFC Bournemouth,/justin-kluivert/profil/spieler/330659
-463605,Bafodé Diakité,18,2,Defender,AFC Bournemouth,/bafode-diakite/profil/spieler/463605
-465555,Djordje Petrovic,1,1,Goalkeeper,AFC Bournemouth,/djordje-petrovic/profil/spieler/465555
-332705,Tyler Adams,12,3,Midfield,AFC Bournemouth,/tyler-adams/profil/spieler/332705
-654539,Adrien Truffert,3,2,Defender,AFC Bournemouth,/adrien-truffert/profil/spieler/654539
-399434,Marcus Tavernier,16,3,Midfield,AFC Bournemouth,/marcus-tavernier/profil/spieler/399434
-741257,Álex Jiménez,20,2,Defender,AFC Bournemouth,/alex-jimenez/profil/spieler/741257
-469781,Marcos Senesi,5,2,Defender,AFC Bournemouth,/marcos-senesi/profil/spieler/469781
-532776,Amine Adli,21,4,Forward,AFC Bournemouth,/amine-adli/profil/spieler/532776
-989112,Veljko Milosavljevic,44,2,Defender,AFC Bournemouth,/veljko-milosavljevic/profil/spieler/989112
-719673,Ben Gannon-Doak,11,4,Forward,AFC Bournemouth,/ben-gannon-doak/profil/spieler/719673
-611793,James Hill,23,2,Defender,AFC Bournemouth,/james-hill/profil/spieler/611793
-277033,David Brooks,7,4,Forward,AFC Bournemouth,/david-brooks/profil/spieler/277033
-249089,Lewis Cook,4,3,Midfield,AFC Bournemouth,/lewis-cook/profil/spieler/249089
-998101,Alex Tóth,27,3,Midfield,AFC Bournemouth,/alex-toth/profil/spieler/998101
-481675,Christos Mandas,29,1,Goalkeeper,AFC Bournemouth,/christos-mandas/profil/spieler/481675
-188077,Ryan Christie,10,3,Midfield,AFC Bournemouth,/ryan-christie/profil/spieler/188077
-251106,Enes Ünal,26,4,Forward,AFC Bournemouth,/enes-unal/profil/spieler/251106
-1009658,Julio Soler,6,2,Defender,AFC Bournemouth,/julio-soler/profil/spieler/1009658
-994604,Matai Akinmboni,45,2,Defender,AFC Bournemouth,/matai-akinmboni/profil/spieler/994604
-52570,Fraser Forster,17,1,Goalkeeper,AFC Bournemouth,/fraser-forster/profil/spieler/52570
-61841,Adam Smith,15,2,Defender,AFC Bournemouth,/adam-smith/profil/spieler/61841
 744149,Adam Wharton,20,3,Midfield,Crystal Palace,/adam-wharton/profil/spieler/744149
 429983,Jørgen Strand Larsen,22,4,Forward,Crystal Palace,/jorgen-strand-larsen/profil/spieler/429983
 434224,Maxence Lacroix,5,2,Defender,Crystal Palace,/maxence-lacroix/profil/spieler/434224
@@ -423,6 +422,30 @@ id,name,shirtNumber,positionId,position,club,link
 201574,Angus Gunn,18,1,Goalkeeper,Nottingham Forest,/angus-gunn/profil/spieler/201574
 897481,Eric da Silva Moreira,17,2,Defender,Nottingham Forest,/eric-da-silva-moreira/profil/spieler/897481
 142310,Willy Boly,30,2,Defender,Nottingham Forest,/willy-boly/profil/spieler/142310
+880245,Mateus Fernandes,18,3,Midfield,West Ham United,/mateus-fernandes/profil/spieler/880245
+314875,Jarrod Bowen,20,4,Forward,West Ham United,/jarrod-bowen/profil/spieler/314875
+474701,Crysencio Summerville,7,4,Forward,West Ham United,/crysencio-summerville/profil/spieler/474701
+522784,Taty Castellanos,11,4,Forward,West Ham United,/taty-castellanos/profil/spieler/522784
+1111589,El Hadji Malick Diouf,12,2,Defender,West Ham United,/el-hadji-malick-diouf/profil/spieler/1111589
+605184,Jean-Clair Todibo,25,2,Defender,West Ham United,/jean-clair-todibo/profil/spieler/605184
+477758,Aaron Wan-Bissaka,29,2,Defender,West Ham United,/aaron-wan-bissaka/profil/spieler/477758
+817665,Pablo,19,4,Forward,West Ham United,/pablo/profil/spieler/817665
+745181,Soungoutou Magassa,27,3,Midfield,West Ham United,/soungoutou-magassa/profil/spieler/745181
+525247,Maximilian Kilman,3,2,Defender,West Ham United,/maximilian-kilman/profil/spieler/525247
+386047,Axel Disasi,4,2,Defender,West Ham United,/axel-disasi/profil/spieler/386047
+400536,Mads Hermansen,1,1,Goalkeeper,West Ham United,/mads-hermansen/profil/spieler/400536
+415912,Konstantinos Mavropanos,15,2,Defender,West Ham United,/konstantinos-mavropanos/profil/spieler/415912
+341051,Kyle Walker-Peters,2,2,Defender,West Ham United,/kyle-walker-peters/profil/spieler/341051
+283628,Tomáš Souček,28,3,Midfield,West Ham United,/tomas-soucek/profil/spieler/283628
+698164,Freddie Potts,32,3,Midfield,West Ham United,/freddie-potts/profil/spieler/698164
+922563,Oliver Scarles,30,2,Defender,West Ham United,/oliver-scarles/profil/spieler/922563
+204103,Adama Traoré,17,4,Forward,West Ham United,/adama-traore/profil/spieler/204103
+123682,Callum Wilson,9,4,Forward,West Ham United,/callum-wilson/profil/spieler/123682
+120629,Alphonse Areola,23,1,Goalkeeper,West Ham United,/alphonse-areola/profil/spieler/120629
+1004203,Keiber Lamadrid,21,4,Forward,West Ham United,/keiber-lamadrid/profil/spieler/1004203
+1107726,Ezra Mayers,63,2,Defender,West Ham United,/ezra-mayers/profil/spieler/1107726
+1081995,Mohamadou Kanté,55,3,Midfield,West Ham United,/mohamadou-kante/profil/spieler/1081995
+29692,Lukasz Fabianski,22,1,Goalkeeper,West Ham United,/lukasz-fabianski/profil/spieler/29692
 557459,Micky van de Ven,37,2,Defender,Tottenham Hotspur,/micky-van-de-ven/profil/spieler/557459
 543499,Mohammed Kudus,20,4,Forward,Tottenham Hotspur,/mohammed-kudus/profil/spieler/543499
 566931,Xavi Simons,7,3,Midfield,Tottenham Hotspur,/xavi-simons/profil/spieler/566931
@@ -451,30 +474,6 @@ id,name,shirtNumber,positionId,position,club,link
 1086258,Souza,38,2,Defender,Tottenham Hotspur,/souza/profil/spieler/1086258
 192765,Ben Davies,33,2,Defender,Tottenham Hotspur,/ben-davies/profil/spieler/192765
 428016,Brandon Austin,40,1,Goalkeeper,Tottenham Hotspur,/brandon-austin/profil/spieler/428016
-880245,Mateus Fernandes,18,3,Midfield,West Ham United,/mateus-fernandes/profil/spieler/880245
-314875,Jarrod Bowen,20,4,Forward,West Ham United,/jarrod-bowen/profil/spieler/314875
-474701,Crysencio Summerville,7,4,Forward,West Ham United,/crysencio-summerville/profil/spieler/474701
-522784,Taty Castellanos,11,4,Forward,West Ham United,/taty-castellanos/profil/spieler/522784
-1111589,El Hadji Malick Diouf,12,2,Defender,West Ham United,/el-hadji-malick-diouf/profil/spieler/1111589
-605184,Jean-Clair Todibo,25,2,Defender,West Ham United,/jean-clair-todibo/profil/spieler/605184
-477758,Aaron Wan-Bissaka,29,2,Defender,West Ham United,/aaron-wan-bissaka/profil/spieler/477758
-817665,Pablo,19,4,Forward,West Ham United,/pablo/profil/spieler/817665
-745181,Soungoutou Magassa,27,3,Midfield,West Ham United,/soungoutou-magassa/profil/spieler/745181
-525247,Maximilian Kilman,3,2,Defender,West Ham United,/maximilian-kilman/profil/spieler/525247
-386047,Axel Disasi,4,2,Defender,West Ham United,/axel-disasi/profil/spieler/386047
-400536,Mads Hermansen,1,1,Goalkeeper,West Ham United,/mads-hermansen/profil/spieler/400536
-415912,Konstantinos Mavropanos,15,2,Defender,West Ham United,/konstantinos-mavropanos/profil/spieler/415912
-341051,Kyle Walker-Peters,2,2,Defender,West Ham United,/kyle-walker-peters/profil/spieler/341051
-283628,Tomáš Souček,28,3,Midfield,West Ham United,/tomas-soucek/profil/spieler/283628
-698164,Freddie Potts,32,3,Midfield,West Ham United,/freddie-potts/profil/spieler/698164
-922563,Oliver Scarles,30,2,Defender,West Ham United,/oliver-scarles/profil/spieler/922563
-204103,Adama Traoré,17,4,Forward,West Ham United,/adama-traore/profil/spieler/204103
-123682,Callum Wilson,9,4,Forward,West Ham United,/callum-wilson/profil/spieler/123682
-120629,Alphonse Areola,23,1,Goalkeeper,West Ham United,/alphonse-areola/profil/spieler/120629
-1004203,Keiber Lamadrid,21,4,Forward,West Ham United,/keiber-lamadrid/profil/spieler/1004203
-1107726,Ezra Mayers,63,2,Defender,West Ham United,/ezra-mayers/profil/spieler/1107726
-1081995,Mohamadou Kanté,55,3,Midfield,West Ham United,/mohamadou-kante/profil/spieler/1081995
-29692,Lukasz Fabianski,22,1,Goalkeeper,West Ham United,/lukasz-fabianski/profil/spieler/29692
 842341,Maxime Estève,5,2,Defender,Burnley FC,/maxime-esteve/profil/spieler/842341
 711999,Lesley Ugochukwu,8,3,Midfield,Burnley FC,/lesley-ugochukwu/profil/spieler/711999
 357162,Florentino,16,3,Midfield,Burnley FC,/florentino/profil/spieler/357162
