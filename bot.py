@@ -1,10 +1,12 @@
 import logging
+from urllib.parse import urlencode
 
+import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import (CallbackContext, CallbackQueryHandler,
                           CommandHandler, Filters, MessageHandler, Updater)
 
-from config import get_bot_token
+from config import get_app_base_url, get_bot_token
 from tmstats.browse import (PLAYER_PAGE_SIZE, TEAM_PAGE_SIZE,
                             format_player_message, format_table_message,
                             format_team_summary, get_team_players,
@@ -20,6 +22,47 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 BACK_TO_LEAGUES_CALLBACK_DATA = 'nav:leagues'
+BROWSE_IN_CHAT_CALLBACK_DATA = 'nav:browse'
+
+
+def mini_app_url(league: str = '') -> str:
+    base_url = get_app_base_url()
+    if not base_url:
+        return ''
+
+    query = urlencode({'league': league}) if league else ''
+    suffix = f'?{query}' if query else ''
+    return f'{base_url}/mini/{suffix}'
+
+
+def telegram_api_request(method: str, payload: dict) -> dict:
+    response = requests.post(
+        f'https://api.telegram.org/bot{get_bot_token()}/{method}',
+        json=payload,
+        timeout=15,
+    )
+    response.raise_for_status()
+    return response.json()
+
+
+def render_raw_text(update: Update, text: str, reply_markup: dict):
+    query = update.callback_query
+    payload = {
+        'text': text,
+        'parse_mode': 'HTML',
+        'disable_web_page_preview': True,
+        'reply_markup': reply_markup,
+    }
+    if query:
+        payload.update({
+            'chat_id': query.message.chat_id,
+            'message_id': query.message.message_id,
+        })
+        telegram_api_request('editMessageText', payload)
+        return
+
+    payload['chat_id'] = update.effective_chat.id
+    telegram_api_request('sendMessage', payload)
 
 
 def render_text(update: Update, text: str, reply_markup: InlineKeyboardMarkup):
@@ -47,6 +90,15 @@ def build_league_keyboard() -> InlineKeyboardMarkup:
                               callback_data=f'league:{league_key}')]
         for league_key in LEAGUE_KEYS
     ])
+
+
+def build_start_webapp_keyboard() -> dict:
+    return {
+        'inline_keyboard': [
+            [{'text': 'Open Mini App', 'web_app': {'url': mini_app_url()}}],
+            [{'text': 'Browse in Chat', 'callback_data': BROWSE_IN_CHAT_CALLBACK_DATA}],
+        ]
+    }
 
 
 def build_league_action_keyboard(league: str) -> InlineKeyboardMarkup:
@@ -143,6 +195,19 @@ def build_player_detail_keyboard(league: str, rank: str, page: int) -> InlineKey
 
 
 def start(update: Update, _: CallbackContext):
+    if mini_app_url():
+        render_raw_text(
+            update,
+            (
+                'Hi!\n'
+                'I am <b>GetFootballStats bot</b>.\n'
+                'Open the Mini App for the best browsing experience, '
+                'or stay in chat if you prefer.'
+            ),
+            build_start_webapp_keyboard(),
+        )
+        return
+
     render_text(
         update,
         (
@@ -220,6 +285,15 @@ def button(update: Update, context: CallbackContext):
     if callback_data == BACK_TO_LEAGUES_CALLBACK_DATA:
         start(update, context)
         return
+    if callback_data == BROWSE_IN_CHAT_CALLBACK_DATA:
+        render_text(
+            update,
+            (
+                'Choose a league to browse the latest local snapshot.'
+            ),
+            build_league_keyboard(),
+        )
+        return
 
     parts = callback_data.split(':')
     action = parts[0]
@@ -237,6 +311,14 @@ def button(update: Update, context: CallbackContext):
 
 
 def help_command(update: Update, _: CallbackContext) -> None:
+    app_url = mini_app_url()
+    if app_url:
+        update.effective_message.reply_text(
+            'Use /start to open the Mini App, or choose Browse in Chat '
+            'if you want the lightweight inline flow.'
+        )
+        return
+
     update.effective_message.reply_text(
         'Use /start to choose a league, view the current table, '
         'browse teams, and inspect player stats from the latest local snapshot.'
@@ -251,11 +333,31 @@ def error(update: Update, context: CallbackContext):
     logger.warning('Update "%s" caused error "%s"', update, context.error)
 
 
-def main():
+def configure_menu_button():
+    app_url = mini_app_url()
+    if not app_url:
+        return
+
+    try:
+        telegram_api_request('setChatMenuButton', {
+            'menu_button': {
+                'type': 'web_app',
+                'text': 'Open Stats',
+                'web_app': {
+                    'url': app_url,
+                },
+            },
+        })
+    except requests.RequestException as exc:
+        logger.warning('Could not set Mini App menu button: %s', exc)
+
+
+def run_polling():
     updater = Updater(get_bot_token(), use_context=True)
     dispatcher = updater.dispatcher
 
     print('Your bot is --->', updater.bot.username)
+    configure_menu_button()
 
     dispatcher.add_handler(CommandHandler('start', start))
     dispatcher.add_handler(CommandHandler('help', help_command))
@@ -265,6 +367,10 @@ def main():
 
     updater.start_polling()
     updater.idle()
+
+
+def main():
+    run_polling()
 
 
 if __name__ == '__main__':

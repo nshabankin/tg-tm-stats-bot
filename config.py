@@ -26,3 +26,16 @@ def get_bot_token() -> str:
         'Telegram bot token is missing. Set TG_BOT_TOKEN in your shell '
         'or in a local .env file.'
     )
+
+
+def get_app_base_url() -> str:
+    """Return the public base URL used for the Mini App, if configured."""
+    explicit = get_env('APP_BASE_URL')
+    if explicit:
+        return explicit.rstrip('/')
+
+    railway_domain = get_env('RAILWAY_PUBLIC_DOMAIN')
+    if railway_domain:
+        return f'https://{railway_domain}'.rstrip('/')
+
+    return ''

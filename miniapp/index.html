@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>GetFootballStats</title>
+    <link rel="stylesheet" href="/mini/styles.css" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Telegram Mini App</p>
+          <h1>GetFootballStats</h1>
+          <p class="subtitle">
+            Browse the latest locally refreshed league table, teams, and player
+            cards.
+          </p>
+        </div>
+      </header>
+
+      <section id="league-picker" class="league-picker"></section>
+
+      <section id="league-content" class="hidden">
+        <div class="tabs">
+          <button type="button" class="tab is-active" data-view="table">
+            Table
+          </button>
+          <button type="button" class="tab" data-view="teams">
+            Teams
+          </button>
+        </div>
+
+        <div id="league-summary" class="summary-grid"></div>
+
+        <section id="table-view" class="view-panel"></section>
+        <section id="teams-view" class="view-panel hidden"></section>
+      </section>
+    </div>
+
+    <dialog id="player-dialog" class="player-dialog">
+      <div id="player-dialog-body"></div>
+      <form method="dialog" class="dialog-actions">
+        <button type="submit" class="secondary-button">Close</button>
+      </form>
+    </dialog>
+
+    <script src="/mini/app.js" defer></script>
+  </body>
+</html>
