@@ -1,4 +1,5 @@
 import logging
+from threading import Event
 from urllib.parse import urlencode
 
 import requests
@@ -23,6 +24,7 @@ logger = logging.getLogger(__name__)
 
 BACK_TO_LEAGUES_CALLBACK_DATA = 'nav:leagues'
 BROWSE_IN_CHAT_CALLBACK_DATA = 'nav:browse'
+KEEPALIVE_EVENT = Event()
 
 
 def mini_app_url(league: str = '') -> str:
@@ -366,7 +368,9 @@ def run_polling():
     dispatcher.add_error_handler(error)
 
     updater.start_polling()
-    updater.idle()
+    # The bot runs in a background thread when paired with the Mini App web
+    # server, so it must not try to install process-wide signal handlers here.
+    KEEPALIVE_EVENT.wait()
 
 
 def main():
