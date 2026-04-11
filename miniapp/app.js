@@ -94,30 +94,29 @@ function renderFormPills(form) {
 function renderTable() {
   tableViewEl.innerHTML = `
     <div class="table-shell">
-      <div class="table-head">
-        <span>#</span>
-        <span>Club</span>
-        <span>P</span>
-        <span>W</span>
-        <span>D</span>
-        <span>L</span>
-        <span>GD</span>
-        <span>Pts</span>
-        <span>Form</span>
-      </div>
       ${state.snapshot.table
         .map(
           (row) => `
           <article class="table-row">
-            <span class="cell rank-cell">${row.rank}</span>
-            <span class="cell club-cell">${row.club}</span>
-            <span class="cell">${row.played}</span>
-            <span class="cell">${row.wins}</span>
-            <span class="cell">${row.draws}</span>
-            <span class="cell">${row.losses}</span>
-            <span class="cell">${row.diff}</span>
-            <span class="cell points-cell">${row.points}</span>
-            <span class="cell form-cell">${renderFormPills(row.form)}</span>
+            <div class="table-row-top">
+              <div class="table-row-club">
+                <span class="rank-badge table-rank-badge">${row.rank}</span>
+                <h3 class="club-name table-club-name">${row.club}</h3>
+              </div>
+              <div class="points-cell">${row.points} <span>pts</span></div>
+            </div>
+            <div class="table-row-bottom">
+              <div class="table-row-meta">
+                <span>P ${row.played}</span>
+                <span>W ${row.wins}</span>
+                <span>D ${row.draws}</span>
+                <span>L ${row.losses}</span>
+                <span>GD ${row.diff}</span>
+              </div>
+              <div class="form-row table-form-row">
+                ${renderFormPills(row.form)}
+              </div>
+            </div>
           </article>
         `
         )

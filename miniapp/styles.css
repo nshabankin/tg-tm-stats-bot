@@ -261,23 +261,6 @@ body {
   gap: 10px;
 }
 
-.table-head,
-.table-row {
-  display: grid;
-  grid-template-columns: 28px minmax(0, 1.9fr) repeat(5, 34px) 42px 48px 140px;
-  align-items: center;
-  gap: 6px;
-}
-
-.table-head {
-  padding: 0 14px;
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
 .table-row {
   padding: 14px;
   border: 1px solid var(--line);
@@ -286,33 +269,68 @@ body {
   box-shadow: var(--shadow);
 }
 
-.cell {
-  font-weight: 600;
-}
-
-.rank-cell {
+.points-cell {
   color: var(--accent);
   font-weight: 800;
+  font-size: 28px;
+  white-space: nowrap;
 }
 
-.club-cell {
+.points-cell span {
+  font-size: 16px;
+}
+
+.table-row-top,
+.table-row-bottom,
+.table-row-club,
+.table-row-meta {
+  display: flex;
+  align-items: center;
+}
+
+.table-row-top,
+.table-row-bottom {
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.table-row-bottom {
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.table-row-club {
+  min-width: 0;
+  gap: 12px;
+}
+
+.table-club-name {
+  font-size: 28px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.points-cell {
-  color: var(--accent);
-  font-weight: 800;
+.table-rank-badge {
+  min-width: 36px;
+  height: 36px;
+  font-size: 18px;
 }
 
-.form-cell {
-  display: flex;
+.table-row-meta {
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.table-form-row {
+  margin-left: auto;
   justify-content: flex-end;
   gap: 4px;
 }
 
-.form-cell .form-pill {
+.table-form-row .form-pill {
   width: 22px;
   height: 22px;
   font-size: 11px;
@@ -432,22 +450,33 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 
-  .table-head,
-  .table-row {
-    grid-template-columns: 24px minmax(0, 1.4fr) repeat(5, 24px) 32px 38px 112px;
-    gap: 4px;
-    font-size: 13px;
-  }
-
-  .table-head {
-    font-size: 10px;
-  }
-
   .club-name {
     font-size: 18px;
   }
 
-  .form-cell .form-pill {
+  .table-club-name {
+    font-size: 18px;
+  }
+
+  .points-cell {
+    font-size: 20px;
+  }
+
+  .points-cell span {
+    font-size: 13px;
+  }
+
+  .table-row-meta {
+    gap: 6px 10px;
+    font-size: 13px;
+  }
+
+  .table-form-row {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .table-form-row .form-pill {
     width: 18px;
     height: 18px;
     font-size: 10px;
