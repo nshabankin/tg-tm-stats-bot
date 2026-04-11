@@ -1,21 +1,21 @@
-rank,club,played,wins,draws,losses,goals,diff,points,form
-1,Arsenal FC,32,21,7,4,62:24,38,70,WWWWDL
-2,Manchester City,30,18,7,5,60:28,32,61,WWDD
-3,Manchester United,31,15,10,6,56:43,13,55,WWLWD
-4,Aston Villa,31,16,6,9,42:37,5,54,DLLLW
-5,Liverpool FC,31,14,7,10,50:42,8,49,WWLDL
-6,Chelsea FC,31,13,9,9,53:38,15,48,DLWLL
-7,Brentford FC,31,13,7,11,46:42,4,46,LWDDD
-8,Everton FC,31,13,7,11,37:35,2,46,LWWLW
-9,AFC Bournemouth,32,10,15,7,48:49,-1,45,DDDDDW
-10,Fulham FC,31,13,5,13,43:44,-1,44,WWLDW
-11,Brighton & Hove Albion,31,11,10,10,41:37,4,43,WWLWW
-12,Sunderland AFC,31,11,10,10,32:36,-4,43,LDWLW
-13,Newcastle United,31,12,6,13,44:45,-1,42,LLWWL
-14,Crystal Palace,30,10,9,11,33:35,-2,39,WLWD
-15,Leeds United,31,7,12,12,37:48,-11,33,DLLDD
-16,Nottingham Forest,31,8,8,15,31:43,-12,32,LLDDW
-17,West Ham United,32,8,8,16,40:57,-17,32,DLWDLW
-18,Tottenham Hotspur,31,7,9,15,40:50,-10,30,LLLDL
-19,Burnley FC,31,4,8,19,33:61,-28,20,DLLDL
-20,Wolverhampton Wanderers,32,3,8,21,24:58,-34,17,LWWDDL
+rank,club,logo,played,wins,draws,losses,goals,diff,points,form
+1,Arsenal FC,https://tmssl.akamaized.net//images/wappen/tiny/11.png?lm=1489787850,32,21,7,4,62:24,38,70,WWWWDL
+2,Manchester City,https://tmssl.akamaized.net//images/wappen/tiny/281.png?lm=1467356331,30,18,7,5,60:28,32,61,WWDD
+3,Manchester United,https://tmssl.akamaized.net//images/wappen/tiny/985.png?lm=1457975903,31,15,10,6,56:43,13,55,WWLWD
+4,Aston Villa,https://tmssl.akamaized.net//images/wappen/tiny/405.png?lm=1717155982,31,16,6,9,42:37,5,54,DLLLW
+5,Liverpool FC,https://tmssl.akamaized.net//images/wappen/tiny/31.png?lm=1727873452,31,14,7,10,50:42,8,49,WWLDL
+6,Chelsea FC,https://tmssl.akamaized.net//images/wappen/tiny/631.png?lm=1682435911,31,13,9,9,53:38,15,48,DLWLL
+7,Brentford FC,https://tmssl.akamaized.net//images/wappen/tiny/1148.png?lm=1625150543,31,13,7,11,46:42,4,46,LWDDD
+8,Everton FC,https://tmssl.akamaized.net//images/wappen/tiny/29.png?lm=1445949846,31,13,7,11,37:35,2,46,LWWLW
+9,AFC Bournemouth,https://tmssl.akamaized.net//images/wappen/tiny/1237.png?lm=1492718902,32,10,15,7,48:49,-1,45,DDDDDW
+10,Fulham FC,https://tmssl.akamaized.net//images/wappen/tiny/989.png?lm=1457991811,31,13,5,13,43:44,-1,44,WWLDW
+11,Brighton & Hove Albion,https://tmssl.akamaized.net//images/wappen/tiny/931.png?lm=1556831687,31,11,10,10,41:37,4,43,WWLWW
+12,Sunderland AFC,https://tmssl.akamaized.net//images/wappen/tiny/289.png?lm=1485645633,31,11,10,10,32:36,-4,43,LDWLW
+13,Newcastle United,https://tmssl.akamaized.net//images/wappen/tiny/762.png?lm=1472921161,31,12,6,13,44:45,-1,42,LLWWL
+14,Crystal Palace,https://tmssl.akamaized.net//images/wappen/tiny/873.png?lm=1457723287,30,10,9,11,33:35,-2,39,WLWD
+15,Leeds United,https://tmssl.akamaized.net//images/wappen/tiny/399.png?lm=1645652224,31,7,12,12,37:48,-11,33,DLLDD
+16,Nottingham Forest,https://tmssl.akamaized.net//images/wappen/tiny/703.png?lm=1598890289,31,8,8,15,31:43,-12,32,LLDDW
+17,West Ham United,https://tmssl.akamaized.net//images/wappen/tiny/379.png?lm=1464675260,32,8,8,16,40:57,-17,32,DLWDLW
+18,Tottenham Hotspur,https://tmssl.akamaized.net//images/wappen/tiny/148.png?lm=1732011953,31,7,9,15,40:50,-10,30,LLLDL
+19,Burnley FC,https://tmssl.akamaized.net//images/wappen/tiny/1132.png?lm=1686818840,31,4,8,19,33:61,-28,20,DLLDL
+20,Wolverhampton Wanderers,https://tmssl.akamaized.net//images/wappen/tiny/543.png?lm=1467496784,32,3,8,21,24:58,-34,17,LWWDDL

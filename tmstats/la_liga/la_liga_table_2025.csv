@@ -1,21 +1,21 @@
-rank,club,played,wins,draws,losses,goals,diff,points,form
-1,FC Barcelona,30,25,1,4,80:29,51,76,WWWWW
-2,Real Madrid,30,22,3,5,64:28,36,69,LWWWL
-3,Villarreal CF,30,18,4,8,54:35,19,58,LWDWL
-4,Atlético de Madrid,30,17,6,7,50:30,20,57,WWWLL
-5,Real Betis Balompié,30,11,12,7,44:37,7,45,DLDLD
-6,Celta de Vigo,30,11,11,8,44:37,7,44,WLDLW
-7,Real Sociedad,30,11,8,11,46:45,1,41,WLWLW
-8,Getafe CF,30,12,5,13,27:31,-4,41,WWLWW
-9,CA Osasuna,30,10,8,12,36:37,-1,38,LDLWD
-10,RCD Espanyol Barcelona,30,10,8,12,36:44,-8,38,DDLLD
-11,Athletic Bilbao,30,11,5,14,32:43,-11,38,DLLWL
-12,Girona FC,30,9,10,11,32:44,-12,37,LDWLW
-13,Rayo Vallecano,30,8,11,11,29:35,-6,35,DDDLW
-14,Valencia CF,30,9,8,13,34:45,-11,35,WWLWL
-15,Deportivo Alavés,30,8,8,14,32:43,-11,32,LLDWD
-16,RCD Mallorca,30,8,7,15,36:48,-12,31,LDWLW
-17,Sevilla FC,30,8,7,15,37:50,-13,31,DDLLL
-18,Elche CF,30,6,11,13,38:47,-9,29,DLLWL
-19,Levante UD,30,6,8,16,34:50,-16,26,WDDWL
-20,Real Oviedo,30,5,9,16,21:48,-27,24,LDWLW
+rank,club,logo,played,wins,draws,losses,goals,diff,points,form
+1,FC Barcelona,https://tmssl.akamaized.net//images/wappen/tiny/131.png?lm=1406739548,30,25,1,4,80:29,51,76,WWWWW
+2,Real Madrid,https://tmssl.akamaized.net//images/wappen/tiny/418.png?lm=1729684474,30,22,3,5,64:28,36,69,LWWWL
+3,Villarreal CF,https://tmssl.akamaized.net//images/wappen/tiny/1050.png?lm=1408655310,30,18,4,8,54:35,19,58,LWDWL
+4,Atlético de Madrid,https://tmssl.akamaized.net//images/wappen/tiny/13.png?lm=1719915566,30,17,6,7,50:30,20,57,WWWLL
+5,Real Betis Balompié,https://tmssl.akamaized.net//images/wappen/tiny/150.png?lm=1663358526,30,11,12,7,44:37,7,45,DLDLD
+6,Celta de Vigo,https://tmssl.akamaized.net//images/wappen/tiny/940.png?lm=1406966406,30,11,11,8,44:37,7,44,WLDLW
+7,Real Sociedad,https://tmssl.akamaized.net//images/wappen/tiny/681.png?lm=1614795530,30,11,8,11,46:45,1,41,WLWLW
+8,Getafe CF,https://tmssl.akamaized.net//images/wappen/tiny/3709.png?lm=1408655116,30,12,5,13,27:31,-4,41,WWLWW
+9,CA Osasuna,https://tmssl.akamaized.net//images/wappen/tiny/331.png?lm=1686070937,30,10,8,12,36:37,-1,38,LDLWD
+10,RCD Espanyol Barcelona,https://tmssl.akamaized.net//images/wappen/tiny/714.png?lm=1406966369,30,10,8,12,36:44,-8,38,DDLLD
+11,Athletic Bilbao,https://tmssl.akamaized.net//images/wappen/tiny/621.png?lm=1695069038,30,11,5,14,32:43,-11,38,DLLWL
+12,Girona FC,https://tmssl.akamaized.net//images/wappen/tiny/12321.png?lm=1730455718,30,9,10,11,32:44,-12,37,LDWLW
+13,Rayo Vallecano,https://tmssl.akamaized.net//images/wappen/tiny/367.png?lm=1653488445,30,8,11,11,29:35,-6,35,DDDLW
+14,Valencia CF,https://tmssl.akamaized.net//images/wappen/tiny/1049.png?lm=1406966320,30,9,8,13,34:45,-11,35,WWLWL
+15,Deportivo Alavés,https://tmssl.akamaized.net//images/wappen/tiny/368.png?lm=1730896593,30,8,8,14,32:43,-11,32,LLDWD
+16,RCD Mallorca,https://tmssl.akamaized.net//images/wappen/tiny/1108.png?lm=1596131395,30,8,7,15,36:48,-12,31,LDWLW
+17,Sevilla FC,https://tmssl.akamaized.net//images/wappen/tiny/1531.png?lm=1421955260,30,8,7,15,37:50,-13,31,DDLLL
+18,Elche CF,https://tmssl.akamaized.net//images/wappen/tiny/237.png?lm=1407484750,30,6,11,13,38:47,-9,29,DLLWL
+19,Levante UD,https://tmssl.akamaized.net//images/wappen/tiny/3368.png?lm=1408655062,30,6,8,16,34:50,-16,26,WDDWL
+20,Real Oviedo,https://tmssl.akamaized.net//images/wappen/tiny/2497.png?lm=1417193316,30,5,9,16,21:48,-27,24,LDWLW

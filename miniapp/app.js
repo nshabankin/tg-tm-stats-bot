@@ -16,6 +16,13 @@ const teamsViewEl = document.getElementById("teams-view");
 const dialogEl = document.getElementById("player-dialog");
 const dialogBodyEl = document.getElementById("player-dialog-body");
 
+function renderTeamLogo(team, className) {
+  if (!team.logo) {
+    return "";
+  }
+  return `<img class="${className}" src="${team.logo}" alt="${team.club} logo" loading="lazy" />`;
+}
+
 function getQueryLeague() {
   const params = new URLSearchParams(window.location.search);
   return params.get("league");
@@ -94,28 +101,48 @@ function renderFormPills(form) {
 function renderTable() {
   tableViewEl.innerHTML = `
     <div class="table-shell">
+      <div class="table-head">
+        <span>#</span>
+        <span>Club</span>
+        <span>P</span>
+        <span>W-D-L</span>
+        <span>GD</span>
+        <span>Pts</span>
+        <span>Form</span>
+      </div>
       ${state.snapshot.table
         .map(
           (row) => `
           <article class="table-row">
-            <div class="table-row-top">
+            <span class="table-rank">${row.rank}</span>
+            <div class="table-club-wrap">
+              ${renderTeamLogo(row, "table-logo")}
+              <span class="table-club-name">${row.club}</span>
+            </div>
+            <span class="table-stat">${row.played}</span>
+            <span class="table-stat">${row.wins}-${row.draws}-${row.losses}</span>
+            <span class="table-stat">${row.diff}</span>
+            <span class="table-points">${row.points}</span>
+            <div class="table-form-row">
+              ${renderFormPills(row.form || "")}
+            </div>
+          </article>
+          <article class="table-row-mobile">
+            <div class="table-row-mobile-main">
               <div class="table-row-club">
                 <span class="rank-badge table-rank-badge">${row.rank}</span>
-                <h3 class="club-name table-club-name">${row.club}</h3>
+                ${renderTeamLogo(row, "table-logo")}
+                <h3 class="club-name table-club-name-mobile">${row.club}</h3>
               </div>
               <div class="points-cell">${row.points} <span>pts</span></div>
             </div>
-            <div class="table-row-bottom">
-              <div class="table-row-meta">
-                <span>P ${row.played}</span>
-                <span>W ${row.wins}</span>
-                <span>D ${row.draws}</span>
-                <span>L ${row.losses}</span>
-                <span>GD ${row.diff}</span>
-              </div>
-              <div class="form-row table-form-row">
-                ${renderFormPills(row.form)}
-              </div>
+            <div class="table-row-meta">
+              <span>P ${row.played}</span>
+              <span>${row.wins}-${row.draws}-${row.losses}</span>
+              <span>GD ${row.diff}</span>
+            </div>
+            <div class="form-row table-form-row-mobile">
+              ${renderFormPills(row.form || "")}
             </div>
           </article>
         `
@@ -128,7 +155,7 @@ function renderTable() {
 function renderTeams() {
   const teams = state.snapshot.teams;
   const selected =
-    teams.find((team) => team.slug === state.selectedTeamSlug) || teams[0] || null;
+    teams.find((team) => team.slug === state.selectedTeamSlug) || null;
   state.selectedTeamSlug = selected ? selected.slug : null;
 
   const teamCards = teams
@@ -143,7 +170,10 @@ function renderTeams() {
             <div class="team-card-header">
               <span class="rank-badge">${team.rank}</span>
               <div>
-                <h3 class="club-name">${team.club}</h3>
+                <div class="team-club-line">
+                  ${renderTeamLogo(team, "team-logo")}
+                  <h3 class="club-name">${team.club}</h3>
+                </div>
                 <p class="team-card-subtitle">${team.playerCount} players</p>
               </div>
               <span class="team-toggle-indicator">${team.slug === state.selectedTeamSlug ? "−" : "+"}</span>
@@ -197,12 +227,15 @@ function renderTeams() {
         openPlayer(teamSlug, playerId);
         return;
       }
-      state.selectedTeamSlug = teamSlug;
+      state.selectedTeamSlug =
+        state.selectedTeamSlug === teamSlug ? null : teamSlug;
       renderTeams();
-      teamsViewEl.querySelector(`[data-team-slug="${teamSlug}"]`)?.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
+      if (state.selectedTeamSlug) {
+        teamsViewEl.querySelector(`[data-team-slug="${teamSlug}"]`)?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
     });
   });
 }
@@ -280,7 +313,7 @@ async function selectLeague(leagueKey) {
 
   const snapshot = await apiFetch(`/api/leagues/${leagueKey}/snapshot`);
   state.snapshot = snapshot;
-  state.selectedTeamSlug = snapshot.teams[0]?.slug || null;
+  state.selectedTeamSlug = null;
   leagueContentEl.classList.remove("hidden");
   renderSummary();
   renderView();

@@ -30,8 +30,8 @@ The current UX is browse-first:
 
 - open the Mini App from Telegram
 - pick a league
-- browse the table as responsive cards
-- open teams ordered by the standings
+- browse the table as compact standings rows
+- open teams as collapsible squad bubbles
 - open individual player stat cards
 
 There is also a simpler in-chat fallback path for cases where the Mini App is
@@ -46,6 +46,7 @@ revived into a local-first workflow:
 - snapshots are refreshed manually with `refresh_data.py`
 - the bot reads the latest available local CSV snapshots
 - CSV and PDF exports can be generated alongside those snapshots
+- team logos can be refreshed into the table snapshots for Mini App display
 - league tables now include recent five-match form when Transfermarkt exposes it
 - the Telegram UX is optimized for the Mini App first, not bulk file downloads
 - legacy Scrapy and queue-worker code has been removed from the active project
@@ -157,6 +158,12 @@ Force a specific season:
 python refresh_data.py --league epl --season 2025
 ```
 
+Refresh only team logo URLs inside existing table snapshots:
+
+```bash
+python refresh_data.py --all --logos-only
+```
+
 The refresh writes files into `tmstats/<league>/`.
 
 For example, an EPL refresh produces files like:
@@ -196,7 +203,8 @@ Then in Telegram:
 2. tap `Open Mini App` for the full experience
 3. choose a league inside the Mini App
 4. switch between `Table` and `Teams`
-5. tap a player to open their stat card
+5. in `Teams`, expand a club bubble to see its squad
+6. tap a player to open their stat card
 
 If `APP_BASE_URL` is not configured yet, the bot falls back to the simpler
 inline chat flow.
@@ -226,6 +234,7 @@ inline chat flow.
 - Main refresh pipeline
 - Pulls current standings, recent team form, and player data
 - Writes player and table snapshot CSV files
+- Can refresh only team logo URLs with `--logos-only`
 - Optionally renders PDF exports from those snapshots
 
 `tmstats/catalog.py`

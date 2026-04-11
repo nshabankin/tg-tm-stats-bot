@@ -26,7 +26,7 @@ STATS_FIELDS = ['player_id', 'player_name', 'number', 'position',
                 'yellow_cards', 'second_yellows', 'red_cards',
                 'conceded', 'clean_sheets',
                 'minutes']
-TABLE_FIELDS = ['rank', 'club', 'played', 'wins', 'draws',
+TABLE_FIELDS = ['rank', 'club', 'logo', 'played', 'wins', 'draws',
                 'losses', 'goals', 'diff', 'points', 'form']
 
 REQUEST_HEADERS = {
@@ -116,6 +116,40 @@ def build_team_link(href: str) -> str:
     return f'/{slug}/startseite/verein/{team_id}'
 
 
+def normalize_asset_url(url: str) -> str:
+    normalized = normalize_text(url)
+    if not normalized:
+        return ''
+    if normalized.startswith('//'):
+        return f'https:{normalized}'
+    if normalized.startswith('/'):
+        return f'https://www.transfermarkt.com{normalized}'
+    return normalized
+
+
+def extract_logo_url(row: html.HtmlElement) -> str:
+    candidates = row.xpath(
+        './/img[contains(@class, "wappen")]/@data-src'
+        ' | .//img[contains(@class, "wappen")]/@src'
+        ' | .//img[contains(@class, "wappen")]/@data-srcset'
+        ' | .//img[contains(@class, "wappen")]/@srcset'
+        ' | .//img/@data-src'
+        ' | .//img/@src'
+        ' | .//img/@data-srcset'
+        ' | .//img/@srcset'
+    )
+    for candidate in candidates:
+        normalized = normalize_text(candidate)
+        if not normalized:
+            continue
+        if ' ' in normalized and ',' in normalized:
+            normalized = normalized.split(',')[0].strip().split(' ')[0]
+        elif ' ' in normalized:
+            normalized = normalized.split(' ')[0]
+        return normalize_asset_url(normalized)
+    return ''
+
+
 def write_csv(path: Path, rows: Iterable[dict], fieldnames: List[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', newline='', encoding='utf-8') as csv_file:
@@ -160,6 +194,7 @@ def fetch_current_table(session: requests.Session, league_key: str,
 
         team_stats = {
             'rank': values[0],
+            'logo': extract_logo_url(row),
             'played': values[3],
             'wins': values[4],
             'draws': values[5],
@@ -430,6 +465,58 @@ def refresh_leagues(league_keys: Iterable[str], season: int = None,
     return results
 
 
+def refresh_logos_only(league_key: str, season: int = None,
+                       timeout: int = DEFAULT_TIMEOUT) -> dict:
+    season = season or current_season_start_year()
+    table_csv = TMSTATS_DIR / league_key / f'{league_key}_table_{season}.csv'
+    if not table_csv.exists():
+        raise FileNotFoundError(
+            f'Missing table snapshot for {league_key} season {season}: '
+            f'{table_csv.name}'
+        )
+
+    session = build_session()
+    _, latest_table = fetch_current_table(session, league_key, season, timeout)
+    latest_by_rank = {row['rank']: row for row in latest_table}
+    current_rows = read_csv_rows(table_csv)
+
+    updated_rows = []
+    for row in current_rows:
+        latest = latest_by_rank.get(row.get('rank', ''))
+        updated_rows.append({
+            **row,
+            'logo': latest.get('logo', '') if latest else row.get('logo', ''),
+        })
+
+    write_csv(table_csv, updated_rows, TABLE_FIELDS)
+    render_pdf(
+        TMSTATS_DIR / league_key / f'{league_key}_table_{season}.pdf',
+        'table',
+        LEAGUES[league_key].label,
+        season,
+        updated_rows,
+    )
+
+    return {
+        'league': league_key,
+        'season': season,
+        'clubs': len(updated_rows),
+        'players': 0,
+        'stats_rows': 0,
+        'table_rows': len(updated_rows),
+    }
+
+
+def refresh_logos_for_leagues(league_keys: Iterable[str],
+                              season: int = None,
+                              timeout: int = DEFAULT_TIMEOUT) -> List[dict]:
+    results = []
+    for league_key in league_keys:
+        print(f'Refreshing logos for {league_key} season {season}', flush=True)
+        results.append(refresh_logos_only(league_key, season, timeout))
+    return results
+
+
 def render_pdfs_for_leagues(league_keys: Iterable[str],
                             season: int = None) -> List[dict]:
     results = []
@@ -477,6 +564,11 @@ def parse_args() -> argparse.Namespace:
         action='store_true',
         help='Generate PDFs from existing CSV snapshots without refreshing data.',
     )
+    parser.add_argument(
+        '--logos-only',
+        action='store_true',
+        help='Refresh only team logo URLs in existing table CSV snapshots.',
+    )
     return parser.parse_args()
 
 
@@ -487,7 +579,12 @@ def main() -> None:
     if args.all or not league_keys:
         league_keys = list(LEAGUE_KEYS)
 
-    if args.pdf_only:
+    if args.logos_only:
+        results = refresh_logos_for_leagues(league_keys,
+                                            season=args.season,
+                                            timeout=args.timeout)
+        completion_label = 'Logo refresh complete'
+    elif args.pdf_only:
         results = render_pdfs_for_leagues(league_keys, season=args.season)
         completion_label = 'PDF render complete'
     else:

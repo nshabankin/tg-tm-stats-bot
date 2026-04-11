@@ -249,11 +249,30 @@ body {
   justify-content: space-between;
 }
 
+.team-club-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .team-toggle-indicator {
   margin-left: auto;
   font-size: 28px;
   line-height: 1;
   color: var(--accent);
+}
+
+.table-head {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1.3fr) 28px 64px 38px 44px 118px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .table-shell {
@@ -262,6 +281,10 @@ body {
 }
 
 .table-row {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1.3fr) 28px 64px 38px 44px 118px;
+  align-items: center;
+  gap: 8px;
   padding: 14px;
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -269,52 +292,64 @@ body {
   box-shadow: var(--shadow);
 }
 
-.points-cell {
+.table-row-mobile {
+  display: none;
+}
+
+.table-rank {
   color: var(--accent);
   font-weight: 800;
-  font-size: 28px;
-  white-space: nowrap;
+  font-size: 24px;
 }
 
-.points-cell span {
-  font-size: 16px;
-}
-
-.table-row-top,
-.table-row-bottom,
+.table-club-wrap,
 .table-row-club,
-.table-row-meta {
+.table-row-mobile-main,
+.team-club-line {
   display: flex;
   align-items: center;
 }
 
-.table-row-top,
-.table-row-bottom {
-  justify-content: space-between;
-  gap: 14px;
-}
-
-.table-row-bottom {
-  margin-top: 12px;
-  flex-wrap: wrap;
-}
-
+.table-club-wrap,
 .table-row-club {
   min-width: 0;
-  gap: 12px;
+  gap: 10px;
 }
 
-.table-club-name {
-  font-size: 28px;
+.table-logo,
+.team-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 3px;
+  flex: 0 0 auto;
+}
+
+.table-club-name,
+.table-club-name-mobile {
+  font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  margin: 0;
 }
 
 .table-rank-badge {
   min-width: 36px;
   height: 36px;
   font-size: 18px;
+}
+
+.table-stat,
+.table-points {
+  font-weight: 700;
+}
+
+.table-points {
+  color: var(--accent);
+  font-size: 24px;
 }
 
 .table-row-meta {
@@ -325,7 +360,6 @@ body {
 }
 
 .table-form-row {
-  margin-left: auto;
   justify-content: flex-end;
   gap: 4px;
 }
@@ -450,15 +484,31 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 
-  .club-name {
+  .table-head,
+  .table-row {
+    display: none;
+  }
+
+  .table-row-mobile {
+    display: block;
+    padding: 14px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: var(--panel);
+    box-shadow: var(--shadow);
+  }
+
+  .table-row-mobile-main {
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .table-club-name-mobile {
     font-size: 18px;
   }
 
-  .table-club-name {
-    font-size: 18px;
-  }
-
-  .points-cell {
+  .points-cell,
+  .table-points {
     font-size: 20px;
   }
 
@@ -467,16 +517,18 @@ body {
   }
 
   .table-row-meta {
+    margin-top: 10px;
     gap: 6px 10px;
     font-size: 13px;
   }
 
-  .table-form-row {
+  .table-form-row-mobile {
+    margin-top: 10px;
     width: 100%;
     justify-content: flex-start;
   }
 
-  .table-form-row .form-pill {
+  .table-form-row-mobile .form-pill {
     width: 18px;
     height: 18px;
     font-size: 10px;

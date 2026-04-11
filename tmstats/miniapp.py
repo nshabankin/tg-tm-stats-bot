@@ -37,6 +37,7 @@ def serialize_team(team_row: dict, players: List[dict]) -> dict:
         'slug': slugify(team_row.get('club', '')),
         'rank': parse_int(team_row.get('rank')),
         'club': team_row.get('club', ''),
+        'logo': team_row.get('logo', ''),
         'played': parse_int(team_row.get('played')),
         'wins': parse_int(team_row.get('wins')),
         'draws': parse_int(team_row.get('draws')),
@@ -68,6 +69,7 @@ def build_league_payload(league: str) -> Dict[str, object]:
             {
                 'rank': team['rank'],
                 'club': team['club'],
+                'logo': team['logo'],
                 'played': team['played'],
                 'wins': team['wins'],
                 'draws': team['draws'],
