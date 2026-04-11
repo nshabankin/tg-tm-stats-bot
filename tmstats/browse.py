@@ -41,6 +41,51 @@ def sort_table_rows(rows: List[dict]) -> List[dict]:
     return sorted(rows, key=lambda row: parse_int(row.get('rank')))
 
 
+def compact_form(form: str, width: int = 5) -> str:
+    normalized = (form or '').strip()
+    if not normalized:
+        return '-'
+    if len(normalized) <= width:
+        return normalized
+    return normalized[-width:]
+
+
+def compact_club_name(name: str, width: int = 15) -> str:
+    compact = (name or '').strip()
+    replacements = [
+        ('Brighton & Hove Albion', 'Brighton'),
+        ('Nottingham Forest', 'Nottm Forest'),
+        ('Manchester United', 'Man United'),
+        ('Manchester City', 'Man City'),
+        ('Tottenham Hotspur', 'Tottenham'),
+        ('Crystal Palace', 'C Palace'),
+        ('Newcastle United', 'Newcastle'),
+        ('West Ham United', 'West Ham'),
+        ('Leicester City', 'Leicester'),
+        ('Aston Villa', 'A Villa'),
+        ('Wolverhampton Wanderers', 'Wolves'),
+        ('AFC Bournemouth', 'Bournemouth'),
+    ]
+    for original, shortened in replacements:
+        if compact == original:
+            compact = shortened
+            break
+
+    for suffix in (' FC', ' AFC', ' CF'):
+        if compact.endswith(suffix):
+            compact = compact[:-len(suffix)]
+            break
+
+    if len(compact) <= width:
+        return compact
+
+    words = compact.split()
+    if len(words) > 1:
+        compact = ' '.join(word[:3] if index == 0 else word
+                           for index, word in enumerate(words))
+    return compact[:width].rstrip()
+
+
 def build_stats_lookup(stats_rows: List[dict]) -> Tuple[Dict[str, dict], Dict[Tuple[str, ...], dict]]:
     by_player_id = {}
     by_fallback = {}
@@ -121,22 +166,22 @@ def format_table_message(snapshot: dict) -> str:
     league_label = snapshot['league'].label
     header = f'{league_label} table\nLatest local snapshot'
     lines = [
-        '# Club                 P  W  D  L  Goals    GD Pts Form',
+        '# Club            P  W  D  L GF:GA  GD Pts Form',
     ]
 
     for row in snapshot['table_rows']:
-        club = row.get('club', '')[:20]
+        club = compact_club_name(row.get('club', ''))
         lines.append(
             f'{parse_int(row.get("rank")):>2} '
-            f'{club:<20} '
+            f'{club:<15} '
             f'{parse_int(row.get("played")):>2} '
             f'{parse_int(row.get("wins")):>2} '
             f'{parse_int(row.get("draws")):>2} '
             f'{parse_int(row.get("losses")):>2} '
-            f'{row.get("goals", ""):<7} '
+            f'{row.get("goals", ""):<5} '
             f'{row.get("diff", ""):>3} '
             f'{row.get("points", ""):>3} '
-            f'{row.get("form", ""):<6}'
+            f'{compact_form(row.get("form", "")):<5}'
         )
 
     return f'<b>{escape(header)}</b>\n<pre>{escape(chr(10).join(lines))}</pre>'
