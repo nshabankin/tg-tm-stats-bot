@@ -126,9 +126,13 @@ def normalize_asset_url(url: str) -> str:
     if not normalized:
         return ''
     if normalized.startswith('//'):
-        return f'https:{normalized}'
+        normalized = f'https:{normalized}'
     if normalized.startswith('/'):
-        return f'https://www.transfermarkt.com{normalized}'
+        normalized = f'https://www.transfermarkt.com{normalized}'
+    # Standings pages usually expose only the low-res tiny badge. Club pages
+    # use the same asset path with the sharper head variant, which reads much
+    # better inside the Mini App.
+    normalized = normalized.replace('/images/wappen/tiny/', '/images/wappen/head/')
     return normalized
 
 
