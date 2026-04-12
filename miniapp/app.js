@@ -156,10 +156,10 @@ function renderTeams() {
               ${renderTeamLogo(team, "team-logo")}
               <div class="team-card-copy">
                 <h3 class="club-name">${team.club}</h3>
+                <p class="team-card-subtitle">${team.playerCount} players</p>
               </div>
               <span class="team-toggle-indicator">${team.slug === state.selectedTeamSlug ? "−" : "+"}</span>
             </div>
-            <p class="team-card-subtitle team-card-subtitle-offset">${team.playerCount} players</p>
           </button>
           ${
             team.slug === state.selectedTeamSlug
