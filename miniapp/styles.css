@@ -233,16 +233,16 @@ body {
 }
 
 .team-card-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr) auto;
   align-items: center;
   gap: 14px;
 }
 
 .team-card-copy {
   min-width: 0;
-  flex: 1;
-  display: grid;
-  gap: 8px;
+  display: flex;
+  align-items: center;
 }
 
 .team-card-body {
@@ -255,16 +255,18 @@ body {
   color: var(--muted);
 }
 
+.team-card-subtitle {
+  margin: 10px 0 0;
+}
+
+.team-card-subtitle-offset {
+  padding-left: 116px;
+}
+
 .team-list-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.team-club-line {
-  display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
 .team-toggle-indicator {
@@ -321,8 +323,7 @@ body {
 
 .table-club-wrap,
 .table-row-club,
-.table-row-mobile-main,
-.team-club-line {
+.table-row-mobile-main {
   display: flex;
   align-items: center;
 }
@@ -522,6 +523,10 @@ body {
   .league-chip {
     min-height: 78px;
     padding: 12px 14px;
+  }
+
+  .team-card-subtitle-offset {
+    padding-left: 102px;
   }
 
   .table-head,

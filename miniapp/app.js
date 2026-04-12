@@ -153,15 +153,13 @@ function renderTeams() {
           >
             <div class="team-card-header">
               <span class="rank-badge team-rank-badge">${team.rank}</span>
+              ${renderTeamLogo(team, "team-logo")}
               <div class="team-card-copy">
-                <div class="team-club-line">
-                  ${renderTeamLogo(team, "team-logo")}
-                  <h3 class="club-name">${team.club}</h3>
-                </div>
-                <p class="team-card-subtitle">${team.playerCount} players</p>
+                <h3 class="club-name">${team.club}</h3>
               </div>
               <span class="team-toggle-indicator">${team.slug === state.selectedTeamSlug ? "−" : "+"}</span>
             </div>
+            <p class="team-card-subtitle team-card-subtitle-offset">${team.playerCount} players</p>
           </button>
           ${
             team.slug === state.selectedTeamSlug
