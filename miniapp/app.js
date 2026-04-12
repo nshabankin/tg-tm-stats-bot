@@ -152,8 +152,8 @@ function renderTeams() {
             data-team-slug="${team.slug}"
           >
             <div class="team-card-header">
-              <span class="rank-badge">${team.rank}</span>
-              <div>
+              <span class="rank-badge team-rank-badge">${team.rank}</span>
+              <div class="team-card-copy">
                 <div class="team-club-line">
                   ${renderTeamLogo(team, "team-logo")}
                   <h3 class="club-name">${team.club}</h3>
