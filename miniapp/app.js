@@ -106,9 +106,9 @@ function renderTable() {
           <span>#</span>
           <span>Club</span>
           <span>P</span>
+          <span>Pts</span>
           <span>W-D-L</span>
           <span>GD</span>
-          <span>Pts</span>
           <span>Form</span>
         </div>
         ${state.snapshot.table
@@ -121,9 +121,9 @@ function renderTable() {
                 <span class="table-club-name">${row.club}</span>
               </div>
               <span class="table-stat">${row.played}</span>
+              <span class="table-points">${row.points}</span>
               <span class="table-stat">${row.wins}-${row.draws}-${row.losses}</span>
               <span class="table-stat">${row.diff}</span>
-              <span class="table-points">${row.points}</span>
               <div class="table-form-row">
                 ${renderFormPills(row.form || "")}
               </div>

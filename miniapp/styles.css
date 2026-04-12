@@ -234,7 +234,7 @@ body {
 
 .team-card-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 14px;
 }
 
@@ -289,7 +289,7 @@ body {
 
 .table-head {
   display: grid;
-  grid-template-columns: 40px minmax(180px, 1fr) 34px 76px 40px 48px 128px;
+  grid-template-columns: 40px minmax(180px, 1fr) 34px 48px 76px 40px 128px;
   align-items: center;
   gap: 10px;
   min-width: 620px;
@@ -304,7 +304,7 @@ body {
 
 .table-row {
   display: grid;
-  grid-template-columns: 40px minmax(180px, 1fr) 34px 76px 40px 48px 128px;
+  grid-template-columns: 40px minmax(180px, 1fr) 34px 48px 76px 40px 128px;
   align-items: center;
   gap: 10px;
   min-width: 620px;
@@ -335,19 +335,30 @@ body {
 
 .table-logo,
 .team-logo {
-  width: 32px;
-  height: 32px;
-  border-radius: 999px;
+  display: block;
   object-fit: contain;
   background: rgba(255, 255, 255, 0.95);
-  padding: 3px;
   flex: 0 0 auto;
 }
 
+.table-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  padding: 4px;
+}
+
+.team-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  padding: 6px;
+}
+
 .team-rank-badge {
-  min-width: 48px;
-  width: 48px;
-  height: 48px;
+  min-width: 44px;
+  width: 44px;
+  height: 44px;
   padding: 0;
   font-size: 18px;
   flex: 0 0 auto;
