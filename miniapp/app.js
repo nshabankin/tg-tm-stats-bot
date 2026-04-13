@@ -50,7 +50,10 @@ function renderLeaguePicker() {
     if (league.key === state.selectedLeague) {
       button.classList.add("is-active");
     }
-    button.textContent = league.buttonLabel;
+    button.innerHTML = `
+      ${league.logoUrl ? `<img class="league-chip-logo" src="${league.logoUrl}" alt="${league.label} logo" loading="lazy" />` : ""}
+      <span class="league-chip-label">${league.buttonLabel}</span>
+    `;
     button.addEventListener("click", () => selectLeague(league.key));
     leaguePickerEl.appendChild(button);
   });

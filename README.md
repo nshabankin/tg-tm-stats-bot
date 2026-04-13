@@ -33,6 +33,7 @@ The current UX is browse-first:
 - browse the table as dense standings rows
 - open teams as collapsible squad bubbles
 - open individual player stat cards
+- use league logos in the picker instead of flag-only chips
 
 There is also a simpler in-chat fallback path for cases where the Mini App is
 not configured yet.
@@ -135,6 +136,8 @@ This project is intentionally run as a gentle, manual scraper:
 
 - refreshes are triggered manually, not in a tight unattended loop
 - requests are throttled with a configurable delay
+- regular refreshes reuse the saved season roster by default, because
+  mid-season player lists rarely change compared with the player stat pages
 - if Transfermarkt asks for human verification, the expected response is to
   stop, refresh your own browser session, and try again later
 - the project is meant to create occasional personal snapshot files, not to
@@ -150,6 +153,13 @@ Refresh all leagues:
 
 ```bash
 python refresh_data.py --all
+```
+
+Force a fresh roster pull when you actually need to rebuild squads, for example
+around transfer windows:
+
+```bash
+python refresh_data.py --all --refresh-rosters
 ```
 
 Force a specific season:

@@ -102,6 +102,21 @@ body {
   transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
 }
 
+.league-chip {
+  gap: 10px;
+}
+
+.league-chip-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.league-chip-label {
+  display: inline-block;
+}
+
 .league-chip:hover,
 .league-chip.is-active,
 .tab:hover,
@@ -519,6 +534,12 @@ body {
   .league-chip {
     min-height: 78px;
     padding: 12px 14px;
+    gap: 8px;
+  }
+
+  .league-chip-logo {
+    width: 24px;
+    height: 24px;
   }
 
   .table-head,

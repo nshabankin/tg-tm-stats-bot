@@ -172,6 +172,26 @@ def read_csv_rows(path: Path) -> List[dict]:
         return list(csv.DictReader(csv_file))
 
 
+def load_existing_players(path: Path) -> List[dict]:
+    if not path.exists():
+        return []
+
+    players = read_csv_rows(path)
+    return [
+        {
+            'id': normalize_text(player.get('id')),
+            'name': normalize_text(player.get('name')),
+            'shirtNumber': normalize_text(player.get('shirtNumber')),
+            'positionId': normalize_text(player.get('positionId')),
+            'position': normalize_text(player.get('position')),
+            'club': normalize_text(player.get('club')),
+            'link': normalize_text(player.get('link')),
+        }
+        for player in players
+        if normalize_text(player.get('id')) and normalize_text(player.get('link'))
+    ]
+
+
 def fetch_current_table(session: requests.Session, league_key: str,
                         season: int, timeout: int) -> Tuple[List[dict], List[dict]]:
     league = LEAGUES[league_key]
@@ -385,11 +405,13 @@ def fetch_stats(session: requests.Session, league_key: str, players: List[dict],
 
 def refresh_league(league_key: str, season: int = None,
                    timeout: int = DEFAULT_TIMEOUT,
-                   delay: float = DEFAULT_DELAY) -> dict:
+                   delay: float = DEFAULT_DELAY,
+                   refresh_rosters: bool = False) -> dict:
     season = season or current_season_start_year()
     session = build_session()
     league_dir = TMSTATS_DIR / league_key
     league_label = LEAGUES[league_key].label
+    players_csv = league_dir / f'{league_key}_players_{season}.csv'
 
     print(f'Refreshing {league_key} for season {season}', flush=True)
 
@@ -405,13 +427,22 @@ def refresh_league(league_key: str, season: int = None,
         form_value = recent_form.get(team['id'], '')
         team['form'] = form_value
         table_row['form'] = form_value
-    players = fetch_players(session, teams, timeout, delay)
-    print(f'  fetched {len(teams)} teams and {len(players)} players',
-          flush=True)
+
+    players = []
+    if not refresh_rosters:
+        players = load_existing_players(players_csv)
+        if players:
+            print(f'  reusing {len(players)} players from saved roster',
+                  flush=True)
+
+    if not players:
+        players = fetch_players(session, teams, timeout, delay)
+        write_csv(players_csv, players, PLAYER_FIELDS)
+        print(f'  fetched {len(teams)} teams and {len(players)} players',
+              flush=True)
+
     stats = fetch_stats(session, league_key, players, season, timeout, delay)
 
-    write_csv(league_dir / f'{league_key}_players_{season}.csv',
-              players, PLAYER_FIELDS)
     write_csv(league_dir / f'{league_key}_stats_{season}.csv',
               stats, STATS_FIELDS)
     write_csv(league_dir / f'{league_key}_table_{season}.csv',
@@ -467,10 +498,12 @@ def render_league_pdfs(league_key: str, season: int = None) -> dict:
 
 def refresh_leagues(league_keys: Iterable[str], season: int = None,
                     timeout: int = DEFAULT_TIMEOUT,
-                    delay: float = DEFAULT_DELAY) -> List[dict]:
+                    delay: float = DEFAULT_DELAY,
+                    refresh_rosters: bool = False) -> List[dict]:
     results = []
     for league_key in league_keys:
-        results.append(refresh_league(league_key, season, timeout, delay))
+        results.append(refresh_league(league_key, season, timeout, delay,
+                                      refresh_rosters))
     return results
 
 
@@ -581,6 +614,11 @@ def parse_args() -> argparse.Namespace:
         action='store_true',
         help='Refresh only team logo URLs in existing table CSV snapshots.',
     )
+    parser.add_argument(
+        '--refresh-rosters',
+        action='store_true',
+        help='Force a fresh roster pull instead of reusing the saved players CSV.',
+    )
     return parser.parse_args()
 
 
@@ -603,7 +641,8 @@ def main() -> None:
         results = refresh_leagues(league_keys,
                                   season=args.season,
                                   timeout=args.timeout,
-                                  delay=args.delay)
+                                  delay=args.delay,
+                                  refresh_rosters=args.refresh_rosters)
         completion_label = 'Refresh complete'
 
     print()

@@ -64,6 +64,7 @@ def build_league_payload(league: str) -> Dict[str, object]:
             'key': snapshot['league'].key,
             'label': snapshot['league'].label,
             'buttonLabel': snapshot['league'].button_label,
+            'logoUrl': snapshot['league'].logo_url,
         },
         'table': [
             {

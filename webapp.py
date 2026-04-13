@@ -33,6 +33,7 @@ def create_app() -> Flask:
                     'key': league.key,
                     'label': league.label,
                     'buttonLabel': league.button_label,
+                    'logoUrl': league.logo_url,
                 }
                 for league in (LEAGUES[key] for key in LEAGUE_KEYS)
             ]

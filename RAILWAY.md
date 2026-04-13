@@ -81,11 +81,14 @@ python main.py
 When you refresh snapshots locally:
 
 1. Run the refresh locally.
-2. Optionally run `python refresh_data.py --all --logos-only` for a light logo-only visual refresh.
-3. Prefer a full refresh instead when the underlying standings and squads have changed.
-4. Commit the updated `tmstats/<league>/` CSV/PDF files.
-5. Push to GitHub.
-6. Railway autodeploys the new commit.
+   By default, the refresh reuses the saved season roster and only refreshes
+   the current table plus player stat pages.
+2. If you need to rebuild squad lists too, run with `--refresh-rosters`.
+3. Optionally run `python refresh_data.py --all --logos-only` for a light logo-only visual refresh.
+4. Prefer a full refresh instead when the underlying standings and squads have changed.
+5. Commit the updated `tmstats/<league>/` CSV/PDF files.
+6. Push to GitHub.
+7. Railway autodeploys the new commit.
 
 ## Troubleshooting
 
