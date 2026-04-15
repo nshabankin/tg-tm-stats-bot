@@ -109,7 +109,7 @@ body {
 .league-chip {
   width: 100%;
   gap: 10px;
-  padding-right: 46px;
+  padding: 14px 16px 14px 40px;
 }
 
 .league-chip-logo {
@@ -134,15 +134,17 @@ body {
 
 .favorite-chip {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 30px;
-  height: 30px;
+  top: 8px;
+  left: 8px;
+  width: 22px;
+  height: 22px;
   border-radius: 999px;
   border: 1px solid var(--line);
   background: rgba(7, 17, 31, 0.82);
   color: var(--muted);
   cursor: pointer;
+  font-size: 12px;
+  line-height: 1;
   transition: transform 160ms ease, color 160ms ease, border-color 160ms ease;
 }
 
@@ -169,7 +171,7 @@ body {
 }
 
 .summary-grid {
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-bottom: 18px;
 }
 
@@ -216,7 +218,7 @@ body {
 }
 
 .summary-card {
-  padding: 16px;
+  padding: 14px 16px;
 }
 
 .summary-label {
@@ -229,14 +231,15 @@ body {
 
 .summary-value {
   margin: 0;
-  font-size: 28px;
+  font-size: clamp(22px, 3vw, 28px);
   font-weight: 800;
+  line-height: 1.1;
 }
 
 .summary-caption {
-  margin: 8px 0 0;
+  margin: 6px 0 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4;
 }
 
@@ -353,12 +356,13 @@ body {
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(180px, 1fr) auto;
   gap: 12px;
-  align-items: end;
+  align-items: start;
 }
 
 .field-shell {
   display: grid;
   gap: 8px;
+  align-content: start;
 }
 
 .field-label {
@@ -385,10 +389,7 @@ body {
 
 .team-results-copy {
   min-width: 108px;
-  padding: 14px 16px;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  background: rgba(12, 20, 35, 0.94);
+  padding: 2px 4px 0;
 }
 
 .team-results-value {
@@ -608,6 +609,12 @@ body {
   line-height: 1.4;
 }
 
+.modal-empty-state {
+  margin-top: 18px;
+  padding: 16px 18px;
+  text-align: left;
+}
+
 .view-panel.hidden,
 .hidden {
   display: none;
@@ -695,7 +702,7 @@ body {
 
   .league-chip {
     min-height: 78px;
-    padding: 12px 14px;
+    padding: 12px 14px 12px 36px;
     gap: 8px;
   }
 
@@ -732,5 +739,6 @@ body {
 
   .team-results-copy {
     min-width: 0;
+    padding: 0;
   }
 }

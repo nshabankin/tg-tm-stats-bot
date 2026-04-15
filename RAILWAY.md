@@ -86,9 +86,12 @@ When you refresh snapshots locally:
 2. If you need to rebuild squad lists too, run with `--refresh-rosters`.
 3. Optionally run `python refresh_data.py --all --logos-only` for a light logo-only visual refresh.
 4. Prefer a full refresh instead when the underlying standings and squads have changed.
-5. Commit the updated `tmstats/<league>/` CSV/PDF files.
-6. Push to GitHub.
-7. Railway autodeploys the new commit.
+5. If the refresh prints many player-level human-verification warnings, stop
+   and refresh `TM_COOKIE` before trusting those regenerated snapshots.
+6. Only commit the updated `tmstats/<league>/` CSV/PDF files after spot-checking
+   that the affected stats snapshots are not full of blank player rows.
+7. Push to GitHub.
+8. Railway autodeploys the new commit.
 
 ## Troubleshooting
 

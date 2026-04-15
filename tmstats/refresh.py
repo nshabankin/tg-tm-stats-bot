@@ -322,9 +322,72 @@ def extract_position_label(doc: html.HtmlElement) -> str:
     return normalize_text(' '.join(labels))
 
 
-def extract_stats_cells(doc: html.HtmlElement) -> List[str]:
-    row = doc.xpath('//*[@id="yw1"]/table/tbody/tr[1]/td')
-    return [normalize_text(' '.join(cell.xpath('.//text()'))) for cell in row]
+def extract_stats_rows(doc: html.HtmlElement) -> List[List[str]]:
+    rows = doc.xpath(
+        '//table['
+        './/th[contains(normalize-space(.), "Competition")]'
+        ' or .//th[contains(normalize-space(.), "Wettbewerb")]'
+        ']//tbody/tr[td]'
+    )
+    return [
+        [normalize_text(' '.join(cell.xpath('.//text()'))) for cell in row.xpath('./td')]
+        for row in rows
+    ]
+
+
+def competition_identity(value: str) -> str:
+    return re.sub(r'[^a-z0-9]+', '', normalize_text(value).casefold())
+
+
+LEAGUE_ROW_ALIASES = {
+    'epl': {'premierleague'},
+    'la_liga': {'laliga'},
+    'serie_a': {'seriea'},
+    'bundesliga': {'bundesliga'},
+    'ligue_1': {'ligue1'},
+    'rpl': {'premierliga', 'russianpremierleague'},
+}
+
+
+def pick_stats_row(doc: html.HtmlElement, league_key: str) -> List[str]:
+    league = LEAGUES[league_key]
+    target_site_id = league.site_id.casefold()
+    target_names = {
+        competition_identity(league.label),
+        competition_identity(league.button_label),
+        competition_identity(league.table_slug.replace('-', ' ')),
+        *LEAGUE_ROW_ALIASES.get(league_key, set()),
+    }
+
+    parsed_rows = []
+    rows = doc.xpath(
+        '//table['
+        './/th[contains(normalize-space(.), "Competition")]'
+        ' or .//th[contains(normalize-space(.), "Wettbewerb")]'
+        ']//tbody/tr[td]'
+    )
+    parsed_cells = extract_stats_rows(doc)
+
+    for row, cells in zip(rows, parsed_cells):
+        hrefs = [
+            href.casefold()
+            for href in row.xpath('.//a[contains(@href, "/wettbewerb/")]/@href')
+        ]
+        parsed_rows.append((cells, hrefs))
+
+        if any(f'/wettbewerb/{target_site_id}' in href for href in hrefs):
+            return cells
+
+    for cells, _hrefs in parsed_rows:
+        identities = {
+            competition_identity(cells[index])
+            for index in range(min(2, len(cells)))
+            if cells[index]
+        }
+        if identities & target_names:
+            return cells
+
+    return []
 
 
 def build_player_stats(player: dict, cells: List[str], league_label: str,
@@ -383,9 +446,15 @@ def fetch_stats(session: requests.Session, league_key: str, players: List[dict],
         )
         try:
             doc = html.fromstring(fetch_text(session, url, timeout))
-            cells = extract_stats_cells(doc)
+            cells = pick_stats_row(doc, league_key)
             position_label = extract_position_label(doc)
-        except requests.RequestException as error:
+            if not cells:
+                print(
+                    f'Warning: no {league_key} competition row found for '
+                    f'{player["name"]} ({player["id"]})',
+                    flush=True,
+                )
+        except (requests.RequestException, RuntimeError) as error:
             print(f'Warning: failed to refresh stats for {player["name"]}: '
                   f'{error}', flush=True)
             cells = []

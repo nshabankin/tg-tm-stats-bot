@@ -112,21 +112,19 @@ function toggleFavoriteLeague(leagueKey) {
   if (isFavoriteLeague(leagueKey)) {
     state.favoriteLeagues = state.favoriteLeagues.filter((key) => key !== leagueKey);
   } else {
-    state.favoriteLeagues = [leagueKey, ...state.favoriteLeagues];
+    state.favoriteLeagues = [...state.favoriteLeagues, leagueKey];
   }
   saveFavoriteLeagues();
   renderLeaguePicker();
 }
 
 function sortedLeagues() {
-  return [...state.leagues].sort((left, right) => {
-    const leftFavorite = isFavoriteLeague(left.key) ? 0 : 1;
-    const rightFavorite = isFavoriteLeague(right.key) ? 0 : 1;
-    if (leftFavorite !== rightFavorite) {
-      return leftFavorite - rightFavorite;
-    }
-    return left.label.localeCompare(right.label);
-  });
+  const leaguesByKey = new Map(state.leagues.map((league) => [league.key, league]));
+  const favorites = state.favoriteLeagues
+    .map((key) => leaguesByKey.get(key))
+    .filter(Boolean);
+  const remaining = state.leagues.filter((league) => !isFavoriteLeague(league.key));
+  return [...favorites, ...remaining];
 }
 
 function renderLeaguePicker() {
@@ -216,6 +214,18 @@ function summaryCard(label, value, caption = "") {
   `;
 }
 
+function compactName(fullName) {
+  const name = `${fullName || ""}`.trim();
+  if (!name) {
+    return "";
+  }
+  const parts = name.split(/\s+/);
+  if (parts.length === 1) {
+    return parts[0];
+  }
+  return parts[parts.length - 1];
+}
+
 function renderSummary() {
   if (!state.snapshot) {
     leagueSummaryEl.innerHTML = "";
@@ -235,14 +245,14 @@ function renderSummary() {
       "Top Scorer",
       highlights.topScorer?.name,
       highlights.topScorer?.value
-        ? `${highlights.topScorer.value} goals · ${highlights.topScorer.club}`
+        ? `${highlights.topScorer.value} goals · ${compactName(highlights.topScorer.club)}`
         : ""
     ),
     summaryCard(
       "Top Assister",
       highlights.topAssister?.name,
       highlights.topAssister?.value
-        ? `${highlights.topAssister.value} assists · ${highlights.topAssister.club}`
+        ? `${highlights.topAssister.value} assists · ${compactName(highlights.topAssister.club)}`
         : ""
     ),
     summaryCard(
@@ -256,7 +266,7 @@ function renderSummary() {
       "Most Used",
       highlights.ironMan?.name,
       highlights.ironMan?.value
-        ? `${highlights.ironMan.value} minutes · ${highlights.ironMan.club}`
+        ? `${highlights.ironMan.value} minutes · ${compactName(highlights.ironMan.club)}`
         : `${highlights.players || 0} players`
     ),
   ].join("");
@@ -346,6 +356,77 @@ function filteredTeams() {
   });
 }
 
+function statText(value, label) {
+  const normalized = `${value || ""}`.trim();
+  if (!normalized || normalized === "-") {
+    return "";
+  }
+  return `${normalized} ${label}`;
+}
+
+function playerPreviewStats(player) {
+  const stats = player.stats || {};
+  const isGoalkeeper =
+    `${player.position || ""}`.toLowerCase().includes("goalkeeper") ||
+    Boolean(`${stats.cleanSheets || ""}`.trim()) ||
+    Boolean(`${stats.conceded || ""}`.trim());
+
+  const items = isGoalkeeper
+    ? [
+        statText(stats.cleanSheets, "clean sheets"),
+        statText(stats.conceded, "conceded"),
+        statText(stats.minutes, "mins"),
+      ]
+    : [
+        statText(stats.goals, "goals"),
+        statText(stats.assists, "assists"),
+        statText(stats.minutes, "mins"),
+      ];
+
+  return items.filter(Boolean);
+}
+
+function playerModalStats(player) {
+  const stats = player.stats || {};
+  const isGoalkeeper = `${player.position || ""}`
+    .toLowerCase()
+    .includes("goalkeeper");
+
+  const items = [
+    ["Played", stats.played],
+    ["Minutes", stats.minutes],
+  ];
+
+  if (isGoalkeeper) {
+    items.push(["Clean Sheets", stats.cleanSheets]);
+    items.push(["Conceded", stats.conceded]);
+    items.push(["Yellow", stats.yellowCards]);
+    items.push(["Red", stats.redCards]);
+  } else {
+    items.push(["Goals", stats.goals]);
+    items.push(["Assists", stats.assists]);
+    items.push(["Yellow", stats.yellowCards]);
+    items.push(["Red", stats.redCards]);
+  }
+
+  return items.filter(([, value]) => {
+    const normalized = `${value || ""}`.trim();
+    return normalized && normalized !== "-";
+  });
+}
+
+function teamSearchPlaceholder() {
+  if (!state.snapshot) {
+    return "Search clubs or players...";
+  }
+  const teamHint = compactName(state.snapshot.table?.[0]?.club || "");
+  const scorerHint = compactName(state.snapshot.highlights?.topScorer?.name || "");
+  const assisterHint = compactName(state.snapshot.highlights?.topAssister?.name || "");
+  return [teamHint, scorerHint, assisterHint]
+    .filter(Boolean)
+    .join(", ");
+}
+
 function sortedPlayers(players) {
   const items = [...players];
   const sorters = {
@@ -378,7 +459,7 @@ function renderTeamControls(count) {
         <input
           type="search"
           class="text-input"
-          placeholder="Arsenal, Saka, Zenit..."
+          placeholder="${teamSearchPlaceholder() || "Search clubs or players..."}"
           value="${state.teamQuery}"
           id="team-search"
         />
@@ -449,7 +530,11 @@ function renderTeams() {
                               player.shirtNumber ? `#${player.shirtNumber} ` : ""
                             }${player.name}</p>
                             <p class="player-position">${player.position || "Unknown role"}</p>
-                            <p class="player-meta">${player.stats?.goals || "-"} goals · ${player.stats?.assists || "-"} assists · ${player.stats?.minutes || "-"} mins</p>
+                            ${
+                              playerPreviewStats(player).length
+                                ? `<p class="player-meta">${playerPreviewStats(player).join(" · ")}</p>`
+                                : '<p class="player-meta">No detailed stats in current snapshot</p>'
+                            }
                           </button>
                         `
                       )
@@ -552,11 +637,10 @@ function openPlayer(teamSlug, playerId) {
     return;
   }
 
-  const stats = player.stats || {};
-  const goalShare =
-    parseStatNumber(stats.goals) && team.goalsFor
-      ? `${Math.round((parseStatNumber(stats.goals) / team.goalsFor) * 100)}%`
-      : "";
+  const statCards = playerModalStats(player)
+    .map(([label, value]) => buildStatCard(label, value))
+    .join("");
+  const hasDetailedStats = Boolean(statCards);
 
   dialogBodyEl.innerHTML = `
     <div class="player-dialog-panel">
@@ -567,24 +651,11 @@ function openPlayer(teamSlug, playerId) {
           player.shirtNumber ? ` · #${player.shirtNumber}` : ""
         }
       </p>
-      <div class="player-context-row">
-        <span class="team-insight-pill">Rank #${team.rank}</span>
-        <span class="team-insight-pill">${team.points} pts</span>
-        <span class="team-insight-pill">Form ${team.form || "-"}</span>
-      </div>
-      <div class="stats-grid">
-        ${[
-          buildStatCard("Played", stats.played),
-          buildStatCard("Goals", stats.goals),
-          buildStatCard("Assists", stats.assists),
-          buildStatCard("Minutes", stats.minutes),
-          buildStatCard("Goal Share", goalShare),
-          buildStatCard("Yellow", stats.yellowCards),
-          buildStatCard("Red", stats.redCards),
-          buildStatCard("Clean Sheets", stats.cleanSheets),
-          buildStatCard("Conceded", stats.conceded),
-        ].join("")}
-      </div>
+      ${
+        hasDetailedStats
+          ? `<div class="stats-grid">${statCards}</div>`
+          : '<div class="empty-state modal-empty-state">No detailed stat row is available in the current snapshot for this player.</div>'
+      }
       <div class="dialog-actions">
         <form method="dialog">
           <button type="submit" class="secondary-button">Close</button>

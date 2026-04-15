@@ -105,6 +105,8 @@ python main.py
 - Optional, but often needed for live refreshes
 - Browser cookie string copied from an authenticated / human-verified
   Transfermarkt session
+- If player-page refreshes start printing many human-verification warnings,
+  refresh this cookie before trusting or committing the regenerated snapshots
 
 `PDF_FONT_PATH`
 
@@ -140,6 +142,8 @@ This project is intentionally run as a gentle, manual scraper:
   mid-season player lists rarely change compared with the player stat pages
 - if Transfermarkt asks for human verification, the expected response is to
   stop, refresh your own browser session, and try again later
+- if a refresh starts printing many player-level warnings, do not commit those
+  regenerated CSV/PDF files until you verify the affected league snapshots
 - the project is meant to create occasional personal snapshot files, not to
   mirror or hammer the source site
 
@@ -179,6 +183,11 @@ standings and squads have moved materially since the last run, prefer a full
 refresh so clubs, logos, table positions, and players all stay aligned.
 
 The refresh writes files into `tmstats/<league>/`.
+
+The stats refresh now tries to match the domestic-league competition row on
+each player page. If Transfermarkt serves a challenge page or the competition
+row is missing, the script will warn for that player. Treat repeated warnings
+as a failed refresh signal rather than as valid zero-stat data.
 
 For example, an EPL refresh produces files like:
 
@@ -323,6 +332,14 @@ If refresh fails with a human-verification or CAPTCHA-style error:
 4. copy the full `Cookie` request header value
 5. put it into `TM_COOKIE` in `.env`
 6. rerun the refresh command
+
+If the refresh prints many player-level warnings and still completes:
+
+1. do not commit the regenerated snapshot files yet
+2. spot-check a few affected players in `tmstats/<league>/<league>_stats_<season>.csv`
+3. refresh your browser cookie again
+4. rerun the league refresh
+5. only commit the snapshot once the blank stat rows are gone or understood
 
 ### PDF character issues
 
