@@ -1,12 +1,68 @@
 import re
-from typing import Dict, List
+from datetime import datetime, timezone
+from typing import Dict, List, Optional
 
 from .browse import get_team_players, load_league_snapshot, parse_int
+from .snapshots import extract_snapshot_year
 
 
 def slugify(value: str) -> str:
     normalized = re.sub(r'[^a-z0-9]+', '-', (value or '').casefold())
     return normalized.strip('-')
+
+
+def parse_stat_int(value: object) -> int:
+    normalized = str(value or '').strip()
+    if not normalized or normalized == '-':
+        return 0
+    digits = re.sub(r'[^0-9]', '', normalized)
+    return int(digits) if digits else 0
+
+
+def parse_goals_pair(value: str) -> tuple[int, int]:
+    parts = (value or '').split(':', 1)
+    if len(parts) != 2:
+        return 0, 0
+    return parse_int(parts[0]), parse_int(parts[1])
+
+
+def season_label(start_year: int) -> str:
+    if not start_year:
+        return ''
+    return f'{start_year}/{(start_year + 1) % 100:02d}'
+
+
+def player_highlight(player: Optional[dict], stat_key: str = '') -> dict:
+    if not player:
+        return {}
+
+    stats = player.get('stats') or {}
+    return {
+        'id': player.get('id', ''),
+        'name': player.get('name', ''),
+        'club': player.get('club', ''),
+        'position': player.get('position', ''),
+        'shirtNumber': player.get('shirtNumber', ''),
+        'value': stats.get(stat_key, '') if stat_key else '',
+    }
+
+
+def best_player(players: List[dict], stat_key: str) -> Optional[dict]:
+    ranked = sorted(
+        players,
+        key=lambda player: (
+            parse_stat_int((player.get('stats') or {}).get(stat_key, '')),
+            parse_stat_int((player.get('stats') or {}).get('minutes', '')),
+            player.get('name', ''),
+        ),
+        reverse=True,
+    )
+    if not ranked:
+        return None
+    top_player = ranked[0]
+    if parse_stat_int((top_player.get('stats') or {}).get(stat_key, '')) <= 0:
+        return None
+    return top_player
 
 
 def serialize_player(player: dict) -> dict:
@@ -33,6 +89,7 @@ def serialize_player(player: dict) -> dict:
 
 
 def serialize_team(team_row: dict, players: List[dict]) -> dict:
+    goals_for, goals_against = parse_goals_pair(team_row.get('goals', ''))
     return {
         'slug': slugify(team_row.get('club', '')),
         'rank': parse_int(team_row.get('rank')),
@@ -43,11 +100,58 @@ def serialize_team(team_row: dict, players: List[dict]) -> dict:
         'draws': parse_int(team_row.get('draws')),
         'losses': parse_int(team_row.get('losses')),
         'goals': team_row.get('goals', ''),
+        'goalsFor': goals_for,
+        'goalsAgainst': goals_against,
         'diff': parse_int(team_row.get('diff')),
         'points': parse_int(team_row.get('points')),
         'form': team_row.get('form', ''),
         'playerCount': len(players),
         'players': [serialize_player(player) for player in players],
+    }
+
+
+def build_snapshot_meta(snapshot: dict) -> dict:
+    paths = snapshot['paths']
+    season_start_year = extract_snapshot_year(paths['table'].name)
+    updated_at = max(path.stat().st_mtime for path in paths.values())
+    return {
+        'seasonStartYear': season_start_year,
+        'seasonLabel': season_label(season_start_year),
+        'updatedAt': datetime.fromtimestamp(
+            updated_at, tz=timezone.utc
+        ).isoformat().replace('+00:00', 'Z'),
+        'source': 'Local CSV snapshot',
+    }
+
+
+def build_highlights(teams: List[dict]) -> dict:
+    all_players = [
+        player
+        for team in teams
+        for player in team.get('players', [])
+    ]
+    leader = teams[0] if teams else None
+    top_scoring_club = max(
+        teams,
+        key=lambda team: (team.get('goalsFor', 0), team.get('points', 0)),
+        default=None,
+    )
+    return {
+        'leader': {
+            'club': leader.get('club', ''),
+            'points': leader.get('points', 0),
+        } if leader else {},
+        'topScoringClub': {
+            'club': top_scoring_club.get('club', ''),
+            'goals': top_scoring_club.get('goalsFor', 0),
+        } if top_scoring_club else {},
+        'topScorer': player_highlight(best_player(all_players, 'goals'), 'goals'),
+        'topAssister': player_highlight(
+            best_player(all_players, 'assists'), 'assists'
+        ),
+        'ironMan': player_highlight(best_player(all_players, 'minutes'), 'minutes'),
+        'clubs': len(teams),
+        'players': len(all_players),
     }
 
 
@@ -66,6 +170,8 @@ def build_league_payload(league: str) -> Dict[str, object]:
             'buttonLabel': snapshot['league'].button_label,
             'logoUrl': snapshot['league'].logo_url,
         },
+        'meta': build_snapshot_meta(snapshot),
+        'highlights': build_highlights(teams),
         'table': [
             {
                 'rank': team['rank'],

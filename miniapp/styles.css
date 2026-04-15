@@ -78,6 +78,10 @@ body {
   margin-bottom: 18px;
 }
 
+.league-chip-card {
+  position: relative;
+}
+
 .league-chip,
 .tab,
 .secondary-button,
@@ -103,7 +107,9 @@ body {
 }
 
 .league-chip {
+  width: 100%;
   gap: 10px;
+  padding-right: 46px;
 }
 
 .league-chip-logo {
@@ -117,13 +123,37 @@ body {
   display: inline-block;
 }
 
+.league-chip-card.is-active .league-chip,
 .league-chip:hover,
-.league-chip.is-active,
 .tab:hover,
 .tab.is-active {
   transform: translateY(-1px);
   border-color: rgba(110, 231, 183, 0.4);
   background: rgba(17, 31, 50, 0.95);
+}
+
+.favorite-chip {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(7, 17, 31, 0.82);
+  color: var(--muted);
+  cursor: pointer;
+  transition: transform 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.favorite-chip.is-active {
+  color: #ffd978;
+  border-color: rgba(255, 217, 120, 0.44);
+}
+
+.favorite-chip:hover {
+  transform: translateY(-1px);
+  color: #ffe59a;
 }
 
 .tabs {
@@ -141,6 +171,38 @@ body {
 .summary-grid {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   margin-bottom: 18px;
+}
+
+.snapshot-meta {
+  margin-bottom: 16px;
+}
+
+.snapshot-meta-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background:
+    linear-gradient(135deg, rgba(110, 231, 183, 0.08), transparent 35%),
+    rgba(11, 22, 38, 0.9);
+  box-shadow: var(--shadow);
+}
+
+.snapshot-meta-value,
+.snapshot-meta-copy {
+  margin: 0;
+}
+
+.snapshot-meta-value {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.snapshot-meta-copy {
+  color: var(--text);
+  font-size: 15px;
 }
 
 .summary-card,
@@ -169,6 +231,13 @@ body {
   margin: 0;
   font-size: 28px;
   font-weight: 800;
+}
+
+.summary-caption {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
 }
 
 .rank-badge {
@@ -280,6 +349,54 @@ body {
   justify-content: space-between;
 }
 
+.team-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(180px, 1fr) auto;
+  gap: 12px;
+  align-items: end;
+}
+
+.field-shell {
+  display: grid;
+  gap: 8px;
+}
+
+.field-label {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.text-input,
+.select-input {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(12, 20, 35, 0.94);
+  color: var(--text);
+  padding: 14px 16px;
+  font: inherit;
+}
+
+.text-input::placeholder {
+  color: rgba(164, 179, 198, 0.7);
+}
+
+.team-results-copy {
+  min-width: 108px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(12, 20, 35, 0.94);
+}
+
+.team-results-value {
+  margin: 4px 0 0;
+  font-size: 20px;
+  font-weight: 800;
+}
+
 .team-toggle-indicator {
   margin-left: auto;
   font-size: 28px;
@@ -323,6 +440,20 @@ body {
   min-width: 620px;
   padding: 12px 16px;
   border-bottom: 1px solid var(--line);
+}
+
+.table-row-button {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+  transition: background 160ms ease;
+}
+
+.table-row-button:hover {
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .table-rank {
@@ -419,6 +550,30 @@ body {
   margin-top: 12px;
 }
 
+.team-insight-row,
+.player-context-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.team-insight-row {
+  margin-bottom: 14px;
+}
+
+.team-insight-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--line);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .player-button {
   width: 100%;
   padding: 14px 16px;
@@ -444,6 +599,13 @@ body {
   margin: 0;
   font-size: 13px;
   line-height: 1.3;
+}
+
+.player-meta {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .view-panel.hidden,
@@ -562,5 +724,13 @@ body {
 
   .table-points {
     font-size: 17px;
+  }
+
+  .team-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .team-results-copy {
+    min-width: 0;
   }
 }

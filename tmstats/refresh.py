@@ -205,7 +205,7 @@ def fetch_current_table(session: requests.Session, league_key: str,
     teams = []
     table_rows = []
 
-    for row in rows:
+    for rank_index, row in enumerate(rows, start=1):
         href = normalize_text(''.join(row.xpath('.//td[3]//a/@href')))
         title = normalize_text(''.join(row.xpath('.//td[3]//a/@title')))
         display_name = normalize_text(''.join(row.xpath('.//td[3]//a//text()')))
@@ -222,7 +222,9 @@ def fetch_current_table(session: requests.Session, league_key: str,
             continue
 
         team_stats = {
-            'rank': values[0],
+            # Trust the table row order from Transfermarkt and normalize the
+            # exported rank to a strict 1..N sequence for downstream consumers.
+            'rank': str(rank_index),
             'logo': extract_logo_url(row),
             'played': values[3],
             'wins': values[4],

@@ -1,6 +1,7 @@
 Procfile.windows
 access.py
 .env
+.agents/
 .venv/
 .DS_Store
 __pycache__/
