@@ -1,6 +1,7 @@
 import logging
 from threading import Event
 from urllib.parse import urlencode
+from urllib.parse import urlparse
 
 import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
@@ -21,10 +22,20 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
+telegram_updater_logger = logging.getLogger('telegram.ext.updater')
 
 BACK_TO_LEAGUES_CALLBACK_DATA = 'nav:leagues'
 BROWSE_IN_CHAT_CALLBACK_DATA = 'nav:browse'
 KEEPALIVE_EVENT = Event()
+
+
+class TelegramConflictFilter(logging.Filter):
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        return 'terminated by other getUpdates request' not in record.getMessage()
+
+
+telegram_updater_logger.addFilter(TelegramConflictFilter())
 
 
 def mini_app_url(league: str = '') -> str:
@@ -45,6 +56,13 @@ def telegram_api_request(method: str, payload: dict) -> dict:
     )
     response.raise_for_status()
     return response.json()
+
+
+def is_valid_mini_app_url(url: str) -> bool:
+    if not url:
+        return False
+    parsed = urlparse(url)
+    return parsed.scheme == 'https' and bool(parsed.netloc)
 
 
 def render_raw_text(update: Update, text: str, reply_markup: dict):
@@ -332,12 +350,22 @@ def echo(update: Update, _: CallbackContext):
 
 
 def error(update: Update, context: CallbackContext):
+    if 'terminated by other getUpdates request' in str(context.error):
+        logger.info(
+            'Polling overlap detected during startup or deploy; waiting for the active bot instance to release getUpdates.'
+        )
+        return
     logger.warning('Update "%s" caused error "%s"', update, context.error)
 
 
 def configure_menu_button():
     app_url = mini_app_url()
-    if not app_url:
+    if not is_valid_mini_app_url(app_url):
+        if app_url:
+            logger.warning(
+                'Skipping Mini App menu button setup because APP_BASE_URL is not a valid public HTTPS URL: %s',
+                app_url,
+            )
         return
 
     try:
@@ -350,8 +378,23 @@ def configure_menu_button():
                 },
             },
         })
+        logger.info('Mini App menu button configured for %s', app_url)
+    except requests.HTTPError as exc:
+        details = ''
+        response = getattr(exc, 'response', None)
+        if response is not None:
+            try:
+                details = response.text
+            except Exception:
+                details = ''
+        logger.warning(
+            'Could not set Mini App menu button for %s: %s %s',
+            app_url,
+            exc,
+            details,
+        )
     except requests.RequestException as exc:
-        logger.warning('Could not set Mini App menu button: %s', exc)
+        logger.warning('Could not set Mini App menu button for %s: %s', app_url, exc)
 
 
 def run_polling():
@@ -360,6 +403,10 @@ def run_polling():
 
     print('Your bot is --->', updater.bot.username)
     configure_menu_button()
+    try:
+        updater.bot.delete_webhook(drop_pending_updates=False)
+    except Exception as exc:
+        logger.info('Could not clear webhook before polling: %s', exc)
 
     dispatcher.add_handler(CommandHandler('start', start))
     dispatcher.add_handler(CommandHandler('help', help_command))
@@ -367,7 +414,7 @@ def run_polling():
     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
     dispatcher.add_error_handler(error)
 
-    updater.start_polling()
+    updater.start_polling(clean=True)
     # The bot runs in a background thread when paired with the Mini App web
     # server, so it must not try to install process-wide signal handlers here.
     KEEPALIVE_EVENT.wait()

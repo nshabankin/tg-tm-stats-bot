@@ -226,6 +226,31 @@ function compactName(fullName) {
   return parts[parts.length - 1];
 }
 
+function compactClubName(fullName) {
+  const name = `${fullName || ""}`.trim();
+  if (!name) {
+    return "";
+  }
+
+  const parts = name
+    .split(/\s+/)
+    .filter((part) => !["fc", "cf", "afc", "sc"].includes(part.toLowerCase()));
+
+  if (!parts.length) {
+    return name;
+  }
+
+  if (parts.length === 1) {
+    return parts[0];
+  }
+
+  if (parts[0].length <= 3) {
+    return parts.slice(0, 2).join(" ");
+  }
+
+  return parts[0];
+}
+
 function renderSummary() {
   if (!state.snapshot) {
     leagueSummaryEl.innerHTML = "";
@@ -419,7 +444,7 @@ function teamSearchPlaceholder() {
   if (!state.snapshot) {
     return "Search clubs or players...";
   }
-  const teamHint = compactName(state.snapshot.table?.[0]?.club || "");
+  const teamHint = compactClubName(state.snapshot.table?.[0]?.club || "");
   const scorerHint = compactName(state.snapshot.highlights?.topScorer?.name || "");
   const assisterHint = compactName(state.snapshot.highlights?.topAssister?.name || "");
   return [teamHint, scorerHint, assisterHint]
