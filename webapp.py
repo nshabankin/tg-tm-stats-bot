@@ -4,6 +4,7 @@ from flask import Flask, abort, jsonify, redirect, send_from_directory
 
 from tmstats.catalog import LEAGUES, LEAGUE_KEYS
 from tmstats.miniapp import build_league_payload
+from tmstats.snapshots import available_league_keys
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -27,6 +28,7 @@ def create_app() -> Flask:
 
     @app.get('/api/leagues')
     def leagues():
+        visible_keys = available_league_keys(LEAGUE_KEYS)
         return jsonify({
             'leagues': [
                 {
@@ -34,14 +36,17 @@ def create_app() -> Flask:
                     'label': league.label,
                     'buttonLabel': league.button_label,
                     'logoUrl': league.logo_url,
+                    'family': league.family,
+                    'tableLabel': league.table_label,
+                    'supportsBracket': league.supports_bracket,
                 }
-                for league in (LEAGUES[key] for key in LEAGUE_KEYS)
+                for league in (LEAGUES[key] for key in visible_keys)
             ]
         })
 
     @app.get('/api/leagues/<league>/snapshot')
     def league_snapshot(league: str):
-        if league not in LEAGUES:
+        if league not in LEAGUES or league not in available_league_keys(LEAGUE_KEYS):
             abort(404)
         return jsonify(build_league_payload(league))
 

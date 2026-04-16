@@ -7,6 +7,8 @@ football snapshots from local data files.
 It currently supports:
 
 - league table snapshots
+- UEFA league-phase snapshots
+- UEFA knockout bracket snapshots
 - player stats snapshots
 - Telegram Mini App browsing
 - in-chat fallback browsing in Telegram
@@ -32,6 +34,7 @@ The current UX is browse-first:
 - pick a league
 - browse the table as dense standings rows
 - open teams as collapsible squad bubbles
+- open knockout brackets for UEFA competitions
 - open individual player stat cards
 - use league logos in the picker instead of flag-only chips
 
@@ -66,6 +69,13 @@ This means the most reliable operating model right now is:
 - `bundesliga`
 - `ligue_1`
 - `rpl`
+- `ucl`
+- `uel`
+- `uecl`
+
+New competitions only show up in Telegram once their local snapshots exist.
+That keeps the picker honest and avoids exposing empty competitions before their
+first refresh.
 
 ## Quick Start
 
@@ -153,6 +163,12 @@ Refresh one league:
 python refresh_data.py --league epl
 ```
 
+Refresh one UEFA competition:
+
+```bash
+python refresh_data.py --league ucl
+```
+
 Refresh all leagues:
 
 ```bash
@@ -227,7 +243,8 @@ Then in Telegram:
 3. choose a league inside the Mini App
 4. switch between `Table` and `Teams`
 5. in `Teams`, expand a club bubble to see its squad
-6. tap a player to open their stat card
+6. for UEFA competitions, open `Bracket` to browse the knockout rounds
+7. tap a player to open their stat card
 
 If `APP_BASE_URL` is not configured yet, the bot falls back to the simpler
 inline chat flow.

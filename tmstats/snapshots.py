@@ -55,3 +55,21 @@ def get_latest_snapshot_file(league: str, file_type: str,
         )
 
     return snapshot_files[0]
+
+
+def league_has_snapshots(league: str,
+                         required_file_types=('table', 'players', 'stats')) -> bool:
+    try:
+        for file_type in required_file_types:
+            get_latest_snapshot_file(league, file_type, 'csv')
+    except FileNotFoundError:
+        return False
+    return True
+
+
+def available_league_keys(league_keys) -> list:
+    return [
+        league_key
+        for league_key in league_keys
+        if league_has_snapshots(league_key)
+    ]

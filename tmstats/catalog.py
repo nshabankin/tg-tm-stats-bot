@@ -9,6 +9,10 @@ class LeagueSpec:
     label: str
     button_label: str
     logo_url: str
+    tm_scope: str = 'wettbewerb'
+    family: str = 'domestic'
+    table_label: str = 'Table'
+    supports_bracket: bool = False
 
 def competition_logo_url(site_id: str) -> str:
     return (
@@ -36,6 +40,27 @@ LEAGUES = {
     'rpl': LeagueSpec('rpl', 'RU1', 'premier-liga',
                       'Russian Premier League', 'Russian Premier League',
                       competition_logo_url('RU1')),
+    'ucl': LeagueSpec('ucl', 'CL', 'champions-league',
+                      'Champions League', 'Champions League',
+                      competition_logo_url('CL'),
+                      tm_scope='pokalwettbewerb',
+                      family='uefa',
+                      table_label='League Phase',
+                      supports_bracket=True),
+    'uel': LeagueSpec('uel', 'EL', 'europa-league',
+                      'Europa League', 'Europa League',
+                      competition_logo_url('EL'),
+                      tm_scope='pokalwettbewerb',
+                      family='uefa',
+                      table_label='League Phase',
+                      supports_bracket=True),
+    'uecl': LeagueSpec('uecl', 'UCOL', 'uefa-conference-league',
+                       'Conference League', 'Conference League',
+                       competition_logo_url('UCOL'),
+                       tm_scope='pokalwettbewerb',
+                       family='uefa',
+                       table_label='League Phase',
+                       supports_bracket=True),
 }
 
 LEAGUE_KEYS = tuple(LEAGUES.keys())

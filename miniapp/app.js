@@ -1,7 +1,7 @@
 const tg = window.Telegram?.WebApp;
 
 const FAVORITES_STORAGE_KEY = "gfs.favoriteLeagues";
-const VALID_VIEWS = new Set(["table", "teams"]);
+const VALID_VIEWS = new Set(["table", "teams", "bracket"]);
 
 const state = {
   leagues: [],
@@ -20,6 +20,7 @@ const snapshotMetaEl = document.getElementById("snapshot-meta");
 const leagueSummaryEl = document.getElementById("league-summary");
 const tableViewEl = document.getElementById("table-view");
 const teamsViewEl = document.getElementById("teams-view");
+const bracketViewEl = document.getElementById("bracket-view");
 const dialogEl = document.getElementById("player-dialog");
 const dialogBodyEl = document.getElementById("player-dialog-body");
 
@@ -28,6 +29,14 @@ function renderTeamLogo(team, className) {
     return "";
   }
   return `<img class="${className}" src="${team.logo}" alt="${team.club} logo" loading="lazy" />`;
+}
+
+function leagueFamily() {
+  return state.snapshot?.league?.family || "domestic";
+}
+
+function hasBracket() {
+  return Boolean(state.snapshot?.bracket?.rounds?.length);
 }
 
 function parseRoute() {
@@ -323,35 +332,73 @@ function openTeamFromTable(teamSlug) {
   });
 }
 
+function tableColumns() {
+  if (leagueFamily() === "uefa") {
+    return [
+      { key: "rank", label: "#" , className: "table-rank"},
+      { key: "club", label: "Club", className: "table-club"},
+      { key: "played", label: "P", className: "table-stat" },
+      { key: "points", label: "Pts", className: "table-points" },
+      { key: "goals", label: "Goals", className: "table-stat" },
+      { key: "diff", label: "GD", className: "table-stat" },
+    ];
+  }
+
+  return [
+    { key: "rank", label: "#", className: "table-rank" },
+    { key: "club", label: "Club", className: "table-club" },
+    { key: "played", label: "P", className: "table-stat" },
+    { key: "points", label: "Pts", className: "table-points" },
+    { key: "wdl", label: "W-D-L", className: "table-stat" },
+    { key: "diff", label: "GD", className: "table-stat" },
+    { key: "form", label: "Form", className: "table-form" },
+  ];
+}
+
+function tableColumnTemplate() {
+  return leagueFamily() === "uefa"
+    ? "40px minmax(180px, 1fr) 34px 48px 68px 40px"
+    : "40px minmax(180px, 1fr) 34px 48px 76px 40px 128px";
+}
+
+function renderTableCell(row, column) {
+  if (column.key === "rank") {
+    return `<span class="table-rank">${row.rank}</span>`;
+  }
+  if (column.key === "club") {
+    return `
+      <div class="table-club-wrap">
+        ${renderTeamLogo(row, "table-logo")}
+        <span class="table-club-name">${row.club}</span>
+      </div>
+    `;
+  }
+  if (column.key === "points") {
+    return `<span class="table-points">${row.points}</span>`;
+  }
+  if (column.key === "wdl") {
+    return `<span class="table-stat">${row.wins}-${row.draws}-${row.losses}</span>`;
+  }
+  if (column.key === "form") {
+    return `<div class="table-form-row">${renderFormPills(row.form || "")}</div>`;
+  }
+  return `<span class="table-stat">${row[column.key] ?? "-"}</span>`;
+}
+
 function renderTable() {
+  const columns = tableColumns();
+  const columnTemplate = tableColumnTemplate();
   tableViewEl.innerHTML = `
-    <div class="table-shell">
-      <div class="table-scroll">
+    <div class="table-shell ${leagueFamily() === "uefa" ? "is-uefa" : ""}">
+      <div class="table-scroll" style="--table-columns: ${columnTemplate}">
         <div class="table-head">
-          <span>#</span>
-          <span>Club</span>
-          <span>P</span>
-          <span>Pts</span>
-          <span>W-D-L</span>
-          <span>GD</span>
-          <span>Form</span>
+          ${columns.map((column) => `<span>${column.label}</span>`).join("")}
         </div>
         ${state.snapshot.table
           .map(
             (row) => `
               <button type="button" class="table-row table-row-button" data-table-team="${row.slug}">
-                <span class="table-rank">${row.rank}</span>
-                <div class="table-club-wrap">
-                  ${renderTeamLogo(row, "table-logo")}
-                  <span class="table-club-name">${row.club}</span>
-                </div>
-                <span class="table-stat">${row.played}</span>
-                <span class="table-points">${row.points}</span>
-                <span class="table-stat">${row.wins}-${row.draws}-${row.losses}</span>
-                <span class="table-stat">${row.diff}</span>
-                <div class="table-form-row">
-                  ${renderFormPills(row.form || "")}
-                </div>
+                ${columns.map((column) => renderTableCell(row, column)).join("")}
               </button>
             `
           )
@@ -537,9 +584,19 @@ function renderTeams() {
               ? `
                 <div class="team-card-body">
                   <div class="team-insight-row">
-                    <span class="team-insight-pill">Record ${team.wins}-${team.draws}-${team.losses}</span>
+                    ${
+                      team.wins || team.draws || team.losses
+                        ? `<span class="team-insight-pill">Record ${team.wins}-${team.draws}-${team.losses}</span>`
+                        : `<span class="team-insight-pill">Played ${team.played}</span>`
+                    }
+                    <span class="team-insight-pill">Pts ${team.points}</span>
                     <span class="team-insight-pill">Goals ${team.goals}</span>
-                    <span class="team-insight-pill">Form ${team.form || "-"}</span>
+                    <span class="team-insight-pill">GD ${team.diff}</span>
+                    ${
+                      team.form
+                        ? `<span class="team-insight-pill">Form ${team.form}</span>`
+                        : ""
+                    }
                   </div>
                   <div class="player-list">
                     ${players
@@ -627,18 +684,101 @@ function renderTeams() {
   });
 }
 
+function bracketTeamMarkup(teamName, logoByClub) {
+  const logo = logoByClub.get(teamName);
+  return `
+    <div class="bracket-team">
+      ${logo ? `<img class="bracket-team-logo" src="${logo}" alt="${teamName} logo" loading="lazy" />` : ""}
+      <span class="bracket-team-name">${teamName}</span>
+    </div>
+  `;
+}
+
+function renderBracket() {
+  if (!hasBracket()) {
+    bracketViewEl.innerHTML = '<div class="empty-state">No knockout bracket is available in the current snapshot.</div>';
+    return;
+  }
+
+  const logoByClub = new Map(
+    (state.snapshot.teams || []).map((team) => [team.club, team.logo])
+  );
+
+  bracketViewEl.innerHTML = `
+    <div class="bracket-shell">
+      ${state.snapshot.bracket.rounds
+        .map(
+          (round) => `
+            <section class="bracket-round">
+              <div class="bracket-round-head">
+                <p class="summary-label">${round.label}</p>
+                <p class="summary-caption">${round.ties.length} ${
+                  round.ties.length === 1 ? "tie" : "ties"
+                }</p>
+              </div>
+              <div class="bracket-ties">
+                ${round.ties
+                  .map(
+                    (tie) => `
+                      <article class="bracket-tie-card">
+                        <div class="bracket-tie-head">
+                          <span class="team-insight-pill">${tie.code}</span>
+                        </div>
+                        <div class="bracket-match-list">
+                          ${tie.matches
+                            .map(
+                              (match) => `
+                                <div class="bracket-match">
+                                  <div class="bracket-match-meta">
+                                    <span>${match.leg || "Match"}</span>
+                                    <span>${match.date || ""}${match.time ? ` · ${match.time}` : ""}</span>
+                                  </div>
+                                  <div class="bracket-match-row">
+                                    ${bracketTeamMarkup(match.homeTeam, logoByClub)}
+                                    <span class="bracket-result">${match.result || "-"}</span>
+                                  </div>
+                                  <div class="bracket-match-row">
+                                    ${bracketTeamMarkup(match.awayTeam, logoByClub)}
+                                  </div>
+                                </div>
+                              `
+                            )
+                            .join("")}
+                        </div>
+                      </article>
+                    `
+                  )
+                  .join("")}
+              </div>
+            </section>
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
 function renderView() {
   document.querySelectorAll(".tab").forEach((tab) => {
+    if (tab.dataset.view === "bracket") {
+      tab.classList.toggle("hidden", !hasBracket());
+      if (!hasBracket() && state.view === "bracket") {
+        state.view = "table";
+      }
+    }
     tab.classList.toggle("is-active", tab.dataset.view === state.view);
   });
 
   tableViewEl.classList.toggle("hidden", state.view !== "table");
   teamsViewEl.classList.toggle("hidden", state.view !== "teams");
+  bracketViewEl.classList.toggle("hidden", state.view !== "bracket");
 
   if (state.view === "table") {
     renderTable();
-  } else {
+  } else if (state.view === "teams") {
     renderTeams();
+  } else {
+    renderBracket();
   }
 }
 

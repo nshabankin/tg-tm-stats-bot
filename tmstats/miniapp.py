@@ -1,3 +1,4 @@
+import json
 import re
 from datetime import datetime, timezone
 from typing import Dict, List, Optional
@@ -124,6 +125,20 @@ def build_snapshot_meta(snapshot: dict) -> dict:
     }
 
 
+def load_bracket_snapshot(table_path, league: str, season_start_year: int) -> dict:
+    if not season_start_year or not table_path:
+        return {'rounds': []}
+
+    # Reuse the league directory already selected by the latest table snapshot so
+    # bracket files stay season-aligned with the payload users are viewing.
+    bracket_path = table_path.with_name(f'{league}_bracket_{season_start_year}.json')
+    if not bracket_path.exists():
+        return {'rounds': []}
+
+    with bracket_path.open(encoding='utf-8') as json_file:
+        return json.load(json_file)
+
+
 def build_highlights(teams: List[dict]) -> dict:
     all_players = [
         player
@@ -158,6 +173,12 @@ def build_highlights(teams: List[dict]) -> dict:
 def build_league_payload(league: str) -> Dict[str, object]:
     snapshot = load_league_snapshot(league)
     teams = []
+    meta = build_snapshot_meta(snapshot)
+    bracket = load_bracket_snapshot(
+        snapshot['paths']['table'],
+        league,
+        meta['seasonStartYear'],
+    )
 
     for row in snapshot['table_rows']:
         players = get_team_players(snapshot, row)
@@ -169,8 +190,11 @@ def build_league_payload(league: str) -> Dict[str, object]:
             'label': snapshot['league'].label,
             'buttonLabel': snapshot['league'].button_label,
             'logoUrl': snapshot['league'].logo_url,
+            'family': snapshot['league'].family,
+            'tableLabel': snapshot['league'].table_label,
+            'supportsBracket': snapshot['league'].supports_bracket,
         },
-        'meta': build_snapshot_meta(snapshot),
+        'meta': meta,
         'highlights': build_highlights(teams),
         'table': [
             {
@@ -190,4 +214,5 @@ def build_league_payload(league: str) -> Dict[str, object]:
             for team in teams
         ],
         'teams': teams,
+        'bracket': bracket,
     }

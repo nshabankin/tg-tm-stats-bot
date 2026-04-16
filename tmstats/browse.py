@@ -164,6 +164,25 @@ def get_team_players(snapshot: dict, team_row: dict) -> List[dict]:
 
 def format_table_message(snapshot: dict) -> str:
     league_label = snapshot['league'].label
+    if snapshot['league'].family == 'uefa':
+        header = f'{league_label} league phase\nLatest local snapshot'
+        lines = [
+            '# Club            P Pts GF:GA  GD',
+        ]
+
+        for row in snapshot['table_rows']:
+            club = compact_club_name(row.get('club', ''))
+            lines.append(
+                f'{parse_int(row.get("rank")):>2} '
+                f'{club:<15} '
+                f'{parse_int(row.get("played")):>2} '
+                f'{row.get("points", ""):>3} '
+                f'{row.get("goals", ""):<5} '
+                f'{row.get("diff", ""):>3}'
+            )
+
+        return f'<b>{escape(header)}</b>\n<pre>{escape(chr(10).join(lines))}</pre>'
+
     header = f'{league_label} table\nLatest local snapshot'
     lines = [
         '# Club            P  W  D  L GF:GA  GD Pts Form',
@@ -188,15 +207,25 @@ def format_table_message(snapshot: dict) -> str:
 
 
 def format_team_summary(team_row: dict, players: List[dict]) -> str:
+    record_line = (
+        'Record: '
+        f'{escape(team_row.get("wins", "-"))}-'
+        f'{escape(team_row.get("draws", "-"))}-'
+        f'{escape(team_row.get("losses", "-"))}'
+    )
+    if not any(team_row.get(key) for key in ('wins', 'draws', 'losses')):
+        record_line = (
+            'Played: '
+            f'{escape(team_row.get("played", "-"))} | '
+            f'Goals: {escape(team_row.get("goals", "-"))} | '
+            f'GD: {escape(team_row.get("diff", "-"))} | '
+            f'Pts: {escape(team_row.get("points", "-"))}'
+        )
+
     return '\n'.join([
         f'<b>{escape(team_row.get("club", ""))}</b>',
         f'Position: {escape(team_row.get("rank", "-"))}',
-        (
-            'Record: '
-            f'{escape(team_row.get("wins", "-"))}-'
-            f'{escape(team_row.get("draws", "-"))}-'
-            f'{escape(team_row.get("losses", "-"))}'
-        ),
+        record_line,
         (
             'Played: '
             f'{escape(team_row.get("played", "-"))} | '

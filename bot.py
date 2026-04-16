@@ -14,6 +14,7 @@ from tmstats.browse import (PLAYER_PAGE_SIZE, TEAM_PAGE_SIZE,
                             format_team_summary, get_team_players,
                             get_team_row, load_league_snapshot)
 from tmstats.catalog import LEAGUES, LEAGUE_KEYS
+from tmstats.snapshots import available_league_keys
 
 
 logging.basicConfig(
@@ -105,10 +106,11 @@ def render_text(update: Update, text: str, reply_markup: InlineKeyboardMarkup):
 
 
 def build_league_keyboard() -> InlineKeyboardMarkup:
+    visible_keys = available_league_keys(LEAGUE_KEYS)
     return InlineKeyboardMarkup([
         [InlineKeyboardButton(LEAGUES[league_key].button_label,
                               callback_data=f'league:{league_key}')]
-        for league_key in LEAGUE_KEYS
+        for league_key in visible_keys
     ])
 
 

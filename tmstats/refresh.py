@@ -1,10 +1,12 @@
 import argparse
 import csv
+import json
 import re
 import time
+from collections import OrderedDict
 from datetime import date
 from pathlib import Path
-from typing import Dict, Iterable, List, Tuple
+from typing import Dict, Iterable, List, Optional, Tuple
 
 import requests
 from lxml import html
@@ -46,10 +48,45 @@ POSITION_LABELS = {
     4: 'Forward',
 }
 
+KNOCKOUT_STAGE_ORDER = {
+    'playoffs': 1,
+    'round_of_16': 2,
+    'quarter_finals': 3,
+    'semi_finals': 4,
+    'final': 5,
+}
+
+KNOCKOUT_STAGE_LABELS = {
+    'intermediate stage': ('playoffs', 'Knockout Play-offs'),
+    'last 16': ('round_of_16', 'Round of 16'),
+    'quarter-finals': ('quarter_finals', 'Quarter-finals'),
+    'semi-finals': ('semi_finals', 'Semi-finals'),
+    'final': ('final', 'Final'),
+}
+
 
 def current_season_start_year(today: date = None) -> int:
     today = today or date.today()
     return today.year if today.month >= 7 else today.year - 1
+
+
+def competition_path(league_key: str, page: str, season: int) -> str:
+    league = LEAGUES[league_key]
+    if league.tm_scope == 'pokalwettbewerb':
+        if page == 'startseite':
+            return (
+                f'https://www.transfermarkt.com/{league.table_slug}/{page}/'
+                f'{league.tm_scope}/{league.site_id}?saison_id={season}'
+            )
+        return (
+            f'https://www.transfermarkt.com/{league.table_slug}/{page}/'
+            f'{league.tm_scope}/{league.site_id}/saison_id/{season}'
+        )
+
+    return (
+        f'https://www.transfermarkt.com/{league.table_slug}/{page}/'
+        f'{league.tm_scope}/{league.site_id}/saison_id/{season}'
+    )
 
 
 def build_session() -> requests.Session:
@@ -167,6 +204,12 @@ def write_csv(path: Path, rows: Iterable[dict], fieldnames: List[str]) -> None:
         writer.writerows(rows)
 
 
+def write_json(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open('w', encoding='utf-8') as json_file:
+        json.dump(payload, json_file, ensure_ascii=False, indent=2)
+
+
 def read_csv_rows(path: Path) -> List[dict]:
     with path.open(newline='', encoding='utf-8') as csv_file:
         return list(csv.DictReader(csv_file))
@@ -192,14 +235,7 @@ def load_existing_players(path: Path) -> List[dict]:
     ]
 
 
-def fetch_current_table(session: requests.Session, league_key: str,
-                        season: int, timeout: int) -> Tuple[List[dict], List[dict]]:
-    league = LEAGUES[league_key]
-    url = (
-        f'https://www.transfermarkt.com/{league.table_slug}/'
-        f'tabelle/wettbewerb/{league.site_id}/saison_id/{season}'
-    )
-    doc = html.fromstring(fetch_text(session, url, timeout))
+def parse_domestic_table(doc: html.HtmlElement) -> Tuple[List[dict], List[dict]]:
     rows = doc.xpath('//table[contains(@class, "items")]/tbody/tr')
 
     teams = []
@@ -253,6 +289,76 @@ def fetch_current_table(session: requests.Session, league_key: str,
     return teams, table_rows
 
 
+def parse_uefa_table(doc: html.HtmlElement) -> Tuple[List[dict], List[dict]]:
+    table = doc.xpath(
+        '//h2[contains(normalize-space(.), "Group GP")]'
+        '/following-sibling::div[contains(@class, "grid-view")][1]'
+        '//table[.//th[contains(normalize-space(.), "Pts")]'
+        ' and .//th[contains(normalize-space(.), "Goals")]]'
+    )
+    if not table:
+        table = doc.xpath(
+            '//table[.//th[contains(normalize-space(.), "Pts")]'
+            ' and .//th[contains(normalize-space(.), "Goals")]]'
+        )
+    if not table:
+        return [], []
+
+    teams = []
+    table_rows = []
+
+    for row in table[0].xpath('.//tbody/tr[td]'):
+        cells = row.xpath('./td')
+        if len(cells) < 7:
+            continue
+
+        href = normalize_text(''.join(row.xpath('.//a[contains(@href, "/verein/")]/@href')))
+        team_id_match = re.search(r'/verein/(\d+)', href)
+        if not team_id_match:
+            continue
+
+        team_name = normalize_text(' '.join(cells[2].xpath('.//text()')))
+        team_stats = {
+            'rank': normalize_text(' '.join(cells[0].xpath('.//text()'))),
+            'logo': extract_logo_url(row),
+            'played': normalize_text(' '.join(cells[3].xpath('.//text()'))),
+            'wins': '',
+            'draws': '',
+            'losses': '',
+            'goals': normalize_text(' '.join(cells[5].xpath('.//text()'))),
+            'diff': normalize_text(' '.join(cells[4].xpath('.//text()'))),
+            'points': normalize_text(' '.join(cells[6].xpath('.//text()'))),
+            'form': '',
+        }
+        team_link = build_team_link(href)
+        team_id = team_id_match.group(1)
+
+        teams.append({
+            'id': team_id,
+            'name': team_name,
+            'link': team_link,
+            **team_stats,
+        })
+        table_rows.append({
+            'club': team_name,
+            **team_stats,
+        })
+
+    return teams, table_rows
+
+
+def fetch_current_table(session: requests.Session, league_key: str,
+                        season: int, timeout: int) -> Tuple[List[dict], List[dict]]:
+    league = LEAGUES[league_key]
+    page = 'tabelle' if league.family == 'domestic' else 'gesamtspielplan'
+    doc = html.fromstring(fetch_text(session, competition_path(league_key, page, season), timeout))
+
+    if league.family == 'uefa':
+        return parse_uefa_table(doc)
+
+    return parse_domestic_table(doc)
+
+
 def extract_form_value(row: html.HtmlElement) -> str:
     form_text = normalize_text(' '.join(row.xpath('./td[last()]//text()')))
     return ''.join(character for character in form_text if character in 'WDL')
@@ -260,12 +366,15 @@ def extract_form_value(row: html.HtmlElement) -> str:
 
 def fetch_recent_form(session: requests.Session, league_key: str,
                       season: int, timeout: int) -> Dict[str, str]:
+    if LEAGUES[league_key].family != 'domestic':
+        return {}
+
     league = LEAGUES[league_key]
-    url = (
-        f'https://www.transfermarkt.com/{league.table_slug}/'
-        f'formtabelle/wettbewerb/{league.site_id}/saison_id/{season}'
-    )
-    doc = html.fromstring(fetch_text(session, url, timeout))
+    doc = html.fromstring(fetch_text(
+        session,
+        competition_path(league_key, 'formtabelle', season),
+        timeout,
+    ))
     rows = doc.xpath(
         '//th[contains(normalize-space(.), "Form")]'
         '/ancestor::table[1]/tbody/tr'
@@ -346,6 +455,9 @@ LEAGUE_ROW_ALIASES = {
     'bundesliga': {'bundesliga'},
     'ligue_1': {'ligue1'},
     'rpl': {'premierliga', 'russianpremierleague'},
+    'ucl': {'championsleague'},
+    'uel': {'europaleague'},
+    'uecl': {'conferenceleague', 'uefaconferenceleague'},
 }
 
 
@@ -432,6 +544,122 @@ def build_player_stats(player: dict, cells: List[str], league_label: str,
     return stats
 
 
+def normalize_stage_label(label: str) -> Tuple[Optional[str], str, str, int]:
+    normalized = normalize_text(label).casefold()
+    for prefix, (stage_key, stage_label) in KNOCKOUT_STAGE_LABELS.items():
+        if normalized.startswith(prefix):
+            leg_label = ''
+            if '1st leg' in normalized:
+                leg_label = '1st leg'
+            elif '2nd leg' in normalized:
+                leg_label = '2nd leg'
+            elif 'final' in normalized:
+                leg_label = 'Final'
+            return (
+                stage_key,
+                stage_label,
+                leg_label,
+                KNOCKOUT_STAGE_ORDER[stage_key],
+            )
+    return None, normalize_text(label), '', 999
+
+
+def knockout_match_label(index: int) -> str:
+    return f'Match {index}'
+
+
+def fetch_knockout_bracket(session: requests.Session, league_key: str,
+                           season: int, timeout: int) -> dict:
+    league = LEAGUES[league_key]
+    if not league.supports_bracket:
+        return {'rounds': []}
+
+    doc = html.fromstring(fetch_text(
+        session,
+        competition_path(league_key, 'gesamtspielplan', season),
+        timeout,
+    ))
+    table = doc.xpath(
+        '//h2[contains(normalize-space(.), "Knockout stage")]'
+        '/following-sibling::table[1]'
+    )
+    if not table:
+        return {'rounds': []}
+
+    rounds: "OrderedDict[str, dict]" = OrderedDict()
+    current_round = None
+    current_leg = ''
+
+    for row in table[0].xpath('.//tr'):
+        row_class = normalize_text(row.get('class', ''))
+        cells = row.xpath('./td')
+        if not cells:
+            continue
+
+        if 'bg_sturm' in row_class.casefold():
+            stage_key, stage_label, leg_label, order = normalize_stage_label(
+                normalize_text(' '.join(row.xpath('.//text()')))
+            )
+            if not stage_key:
+                current_round = None
+                current_leg = ''
+                continue
+
+            current_round = rounds.setdefault(
+                stage_key,
+                {
+                    'key': stage_key,
+                    'label': stage_label,
+                    'order': order,
+                    'ties_by_code': OrderedDict(),
+                },
+            )
+            current_leg = leg_label
+            continue
+
+        if len(cells) < 8 or current_round is None:
+            continue
+
+        values = [
+            normalize_text(' '.join(cell.xpath('.//text()')))
+            for cell in cells
+        ]
+        if not values[3] or not values[7]:
+            continue
+
+        tie_code = values[2] or knockout_match_label(
+            len(current_round['ties_by_code']) + 1
+        )
+        tie = current_round['ties_by_code'].setdefault(
+            tie_code,
+            {
+                'code': tie_code,
+                'matches': [],
+            },
+        )
+        tie['matches'].append({
+            'leg': current_leg,
+            'date': values[0],
+            'time': values[1],
+            'homeTeam': values[3],
+            'result': values[5],
+            'awayTeam': values[7],
+        })
+
+    serialized_rounds = []
+    for round_data in rounds.values():
+        serialized_rounds.append({
+            'key': round_data['key'],
+            'label': round_data['label'],
+            'order': round_data['order'],
+            'ties': list(round_data['ties_by_code'].values()),
+        })
+
+    return {
+        'rounds': serialized_rounds,
+    }
+
+
 def fetch_stats(session: requests.Session, league_key: str, players: List[dict],
                 season: int, timeout: int,
                 delay: float = DEFAULT_DELAY) -> List[dict]:
@@ -481,8 +709,10 @@ def refresh_league(league_key: str, season: int = None,
     season = season or current_season_start_year()
     session = build_session()
     league_dir = TMSTATS_DIR / league_key
-    league_label = LEAGUES[league_key].label
+    league = LEAGUES[league_key]
+    league_label = league.label
     players_csv = league_dir / f'{league_key}_players_{season}.csv'
+    bracket_json = league_dir / f'{league_key}_bracket_{season}.json'
 
     print(f'Refreshing {league_key} for season {season}', flush=True)
 
@@ -518,6 +748,15 @@ def refresh_league(league_key: str, season: int = None,
               stats, STATS_FIELDS)
     write_csv(league_dir / f'{league_key}_table_{season}.csv',
               table, TABLE_FIELDS)
+    if league.supports_bracket:
+        try:
+            write_json(
+                bracket_json,
+                fetch_knockout_bracket(session, league_key, season, timeout),
+            )
+        except Exception as error:
+            print(f'Warning: failed to refresh knockout bracket for {league_key}: '
+                  f'{error}', flush=True)
     render_pdf(league_dir / f'{league_key}_stats_{season}.pdf',
                'stats', league_label, season, stats)
     render_pdf(league_dir / f'{league_key}_table_{season}.pdf',

@@ -17,8 +17,8 @@
           <p class="eyebrow">Telegram Mini App</p>
           <h1>GetFootballStats</h1>
           <p class="subtitle">
-            Browse the latest locally refreshed league table, teams, and player
-            cards.
+            Browse the latest locally refreshed domestic tables, UEFA league
+            phases, knockout brackets, teams, and player cards.
           </p>
         </div>
       </header>
@@ -33,6 +33,9 @@
           <button type="button" class="tab" data-view="teams">
             Teams
           </button>
+          <button type="button" class="tab hidden" data-view="bracket">
+            Bracket
+          </button>
         </div>
 
         <section id="snapshot-meta" class="snapshot-meta"></section>
@@ -40,6 +43,7 @@
 
         <section id="table-view" class="view-panel"></section>
         <section id="teams-view" class="view-panel hidden"></section>
+        <section id="bracket-view" class="view-panel hidden"></section>
       </section>
     </div>
 
