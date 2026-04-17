@@ -101,7 +101,6 @@ body {
   border: 1px solid rgba(var(--league-accent), 0.28);
   border-radius: 18px;
   padding: 14px 16px;
-  text-align: center;
   min-height: 72px;
   display: flex;
   align-items: center;
@@ -114,6 +113,8 @@ body {
   width: 100%;
   gap: 10px;
   padding: 14px 16px 14px 40px;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .league-chip-logo {
@@ -128,7 +129,10 @@ body {
 }
 
 .league-chip-label {
-  display: inline-block;
+  display: block;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  text-align: left;
 }
 
 .league-chip-card.is-active .league-chip,
@@ -143,6 +147,14 @@ body {
   box-shadow:
     0 14px 28px rgba(0, 0, 0, 0.22),
     0 0 0 1px rgba(var(--league-accent), 0.08) inset;
+}
+
+.league-chip-card.is-active .league-chip {
+  border-color: rgba(var(--league-accent), 0.82);
+  box-shadow:
+    0 18px 36px rgba(0, 0, 0, 0.26),
+    0 0 0 1px rgba(var(--league-accent), 0.14) inset,
+    0 0 0 4px rgba(var(--league-accent), 0.06);
 }
 
 .favorite-chip {
@@ -409,7 +421,7 @@ body {
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(180px, 1fr) auto;
   gap: 12px;
-  align-items: start;
+  align-items: end;
 }
 
 .field-shell {
@@ -442,8 +454,14 @@ body {
 
 .team-results-copy {
   min-width: 108px;
-  padding: 2px 4px 0;
-  align-self: end;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(12, 20, 35, 0.94);
+  padding: 12px 14px;
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  min-height: 52px;
 }
 
 .team-results-value {
@@ -626,12 +644,13 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   padding: 18px 16px;
+  scroll-snap-type: x mandatory;
 }
 
 .bracket-columns {
   position: relative;
   display: flex;
-  gap: 26px;
+  gap: 18px;
   align-items: flex-start;
   min-width: max-content;
 }
@@ -644,9 +663,10 @@ body {
 }
 
 .bracket-round {
-  width: 260px;
+  width: 220px;
   display: grid;
   gap: 12px;
+  scroll-snap-align: start;
 }
 
 .bracket-round-head {

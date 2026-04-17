@@ -699,17 +699,84 @@ function bracketRoundSizeLabel(round) {
   return `${count} ${count === 1 ? "tie" : "ties"}`;
 }
 
-function bracketConnectIndex(currentIndex, currentCount, nextCount) {
-  if (nextCount <= 0) {
+function parseScore(value) {
+  const text = `${value || ""}`;
+  const main = text.match(/(\d+)\s*:\s*(\d+)/);
+  if (!main) {
     return null;
   }
-  if (nextCount === currentCount) {
-    return currentIndex;
+  const after = text.slice(main.index + main[0].length);
+  const pen = after.match(/\((\d+)\s*:\s*(\d+)\)/);
+  return {
+    home: Number(main[1]),
+    away: Number(main[2]),
+    penHome: pen ? Number(pen[1]) : null,
+    penAway: pen ? Number(pen[2]) : null,
+  };
+}
+
+function aggregateTie(tie) {
+  const matches = Array.isArray(tie?.matches) ? tie.matches : [];
+  const first = matches[0] || {};
+  const teamA = first.homeTeam || "";
+  const teamB = first.awayTeam || "";
+
+  const totals = new Map([
+    [teamA, 0],
+    [teamB, 0],
+  ]);
+
+  matches.forEach((match) => {
+    const score = parseScore(match.result);
+    if (!score) {
+      return;
+    }
+    const home = match.homeTeam || "";
+    const away = match.awayTeam || "";
+    if (!totals.has(home)) {
+      totals.set(home, 0);
+    }
+    if (!totals.has(away)) {
+      totals.set(away, 0);
+    }
+    totals.set(home, (totals.get(home) || 0) + score.home);
+    totals.set(away, (totals.get(away) || 0) + score.away);
+  });
+
+  const goalsA = totals.get(teamA) ?? 0;
+  const goalsB = totals.get(teamB) ?? 0;
+
+  let winner = "";
+  if (matches.length) {
+    if (goalsA > goalsB) {
+      winner = teamA;
+    } else if (goalsB > goalsA) {
+      winner = teamB;
+    } else {
+      const lastScore = parseScore(matches[matches.length - 1].result);
+      if (lastScore?.penHome != null && lastScore?.penAway != null) {
+        // Penalties decide the winner (home/away refer to the last match teams).
+        const lastHome = matches[matches.length - 1].homeTeam || "";
+        const lastAway = matches[matches.length - 1].awayTeam || "";
+        if (lastScore.penHome > lastScore.penAway) {
+          winner = lastHome;
+        } else if (lastScore.penAway > lastScore.penHome) {
+          winner = lastAway;
+        }
+      }
+    }
   }
-  if (nextCount * 2 === currentCount) {
-    return Math.floor(currentIndex / 2);
+
+  const display = `${goalsA}:${goalsB}`;
+  const teams = new Set([teamA, teamB].filter(Boolean));
+  return { teamA, teamB, goalsA, goalsB, winner, display, teams };
+}
+
+function tieContainsTeam(tieAgg, teamName) {
+  if (!teamName) {
+    return false;
   }
-  return Math.min(nextCount - 1, Math.floor((currentIndex / currentCount) * nextCount));
+  return tieAgg.teams.has(teamName);
 }
 
 function drawBracketLines(viewportEl) {
@@ -750,18 +817,28 @@ function drawBracketLines(viewportEl) {
   stroke.setAttribute("stroke-linejoin", "round");
   svg.appendChild(stroke);
 
+  // Precompute tie aggregates per round so we can infer winner -> next round tie.
+  const roundAgg = rounds.map((roundEl) =>
+    Array.from(roundEl.querySelectorAll("[data-bracket-tie]")).map((tieEl) => tieEl)
+  );
+
   for (let roundIndex = 0; roundIndex < rounds.length - 1; roundIndex += 1) {
     const currentRound = rounds[roundIndex];
     const nextRound = rounds[roundIndex + 1];
     const currentTies = Array.from(currentRound.querySelectorAll("[data-bracket-tie]"));
     const nextTies = Array.from(nextRound.querySelectorAll("[data-bracket-tie]"));
 
-    const currentCount = currentTies.length;
-    const nextCount = nextTies.length;
-
-    currentTies.forEach((tieEl, tieIndex) => {
-      const nextIndex = bracketConnectIndex(tieIndex, currentCount, nextCount);
-      if (nextIndex === null || !nextTies[nextIndex]) {
+    currentTies.forEach((tieEl) => {
+      const winner = tieEl.getAttribute("data-bracket-winner") || "";
+      if (!winner) {
+        return;
+      }
+      const nextIndex = nextTies.findIndex((nextTie) =>
+        (nextTie.getAttribute("data-bracket-teams") || "")
+          .split("|")
+          .includes(winner)
+      );
+      if (nextIndex < 0) {
         return;
       }
       const fromRect = tieEl.getBoundingClientRect();
@@ -806,13 +883,14 @@ function renderBracket() {
                   <div class="bracket-ties">
                     ${round.ties
                       .map((tie, tieIndex) => {
-                        const firstMatch = tie.matches?.[0] || {};
-                        const lastMatch = tie.matches?.[tie.matches.length - 1] || {};
-                        const home = firstMatch.homeTeam || "";
-                        const away = firstMatch.awayTeam || "";
-                        const result = lastMatch.result || "";
+                        const agg = aggregateTie(tie);
+                        const home = agg.teamA;
+                        const away = agg.teamB;
+                        const result = agg.display;
+                        const winner = agg.winner;
+                        const teamsAttr = [home, away].filter(Boolean).join("|");
                         return `
-                          <article class="bracket-tie-card" data-bracket-tie="${tieIndex}">
+                          <article class="bracket-tie-card" data-bracket-tie="${tieIndex}" data-bracket-winner="${winner}" data-bracket-teams="${teamsAttr}">
                             <div class="bracket-tie-rows">
                               <div class="bracket-tie-row">
                                 ${bracketTeamMarkup(home, logoByClub)}
