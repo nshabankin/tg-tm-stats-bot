@@ -694,6 +694,92 @@ function bracketTeamMarkup(teamName, logoByClub) {
   `;
 }
 
+function bracketRoundSizeLabel(round) {
+  const count = round.ties?.length || 0;
+  return `${count} ${count === 1 ? "tie" : "ties"}`;
+}
+
+function bracketConnectIndex(currentIndex, currentCount, nextCount) {
+  if (nextCount <= 0) {
+    return null;
+  }
+  if (nextCount === currentCount) {
+    return currentIndex;
+  }
+  if (nextCount * 2 === currentCount) {
+    return Math.floor(currentIndex / 2);
+  }
+  return Math.min(nextCount - 1, Math.floor((currentIndex / currentCount) * nextCount));
+}
+
+function drawBracketLines(viewportEl) {
+  const scrollEl = viewportEl.querySelector(".bracket-scroll");
+  const svg = viewportEl.querySelector(".bracket-lines");
+  if (!scrollEl || !svg) {
+    return;
+  }
+
+  const rounds = Array.from(viewportEl.querySelectorAll("[data-bracket-round]"));
+  if (rounds.length < 2) {
+    svg.innerHTML = "";
+    return;
+  }
+
+  const scrollRect = scrollEl.getBoundingClientRect();
+  const width = scrollEl.scrollWidth;
+  const height = Math.max(scrollEl.clientHeight, scrollEl.scrollHeight);
+  svg.setAttribute("width", `${width}`);
+  svg.setAttribute("height", `${height}`);
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.innerHTML = "";
+
+  const mkPoint = (rect) => ({
+    x: rect.right - scrollRect.left + scrollEl.scrollLeft,
+    y: rect.top - scrollRect.top + scrollEl.scrollTop + rect.height / 2,
+  });
+  const mkPointLeft = (rect) => ({
+    x: rect.left - scrollRect.left + scrollEl.scrollLeft,
+    y: rect.top - scrollRect.top + scrollEl.scrollTop + rect.height / 2,
+  });
+
+  const stroke = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  stroke.setAttribute("fill", "none");
+  stroke.setAttribute("stroke", "rgba(255,255,255,0.35)");
+  stroke.setAttribute("stroke-width", "2");
+  stroke.setAttribute("stroke-linecap", "round");
+  stroke.setAttribute("stroke-linejoin", "round");
+  svg.appendChild(stroke);
+
+  for (let roundIndex = 0; roundIndex < rounds.length - 1; roundIndex += 1) {
+    const currentRound = rounds[roundIndex];
+    const nextRound = rounds[roundIndex + 1];
+    const currentTies = Array.from(currentRound.querySelectorAll("[data-bracket-tie]"));
+    const nextTies = Array.from(nextRound.querySelectorAll("[data-bracket-tie]"));
+
+    const currentCount = currentTies.length;
+    const nextCount = nextTies.length;
+
+    currentTies.forEach((tieEl, tieIndex) => {
+      const nextIndex = bracketConnectIndex(tieIndex, currentCount, nextCount);
+      if (nextIndex === null || !nextTies[nextIndex]) {
+        return;
+      }
+      const fromRect = tieEl.getBoundingClientRect();
+      const toRect = nextTies[nextIndex].getBoundingClientRect();
+      const from = mkPoint(fromRect);
+      const to = mkPointLeft(toRect);
+      const midX = from.x + Math.max(28, (to.x - from.x) * 0.5);
+
+      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      path.setAttribute(
+        "d",
+        `M ${from.x} ${from.y} L ${midX} ${from.y} L ${midX} ${to.y} L ${to.x} ${to.y}`
+      );
+      stroke.appendChild(path);
+    });
+  }
+}
+
 function renderBracket() {
   if (!hasBracket()) {
     bracketViewEl.innerHTML = '<div class="empty-state">No knockout bracket is available in the current snapshot.</div>';
@@ -705,57 +791,56 @@ function renderBracket() {
   );
 
   bracketViewEl.innerHTML = `
-    <div class="bracket-shell">
-      ${state.snapshot.bracket.rounds
-        .map(
-          (round) => `
-            <section class="bracket-round">
-              <div class="bracket-round-head">
-                <p class="summary-label">${round.label}</p>
-                <p class="summary-caption">${round.ties.length} ${
-                  round.ties.length === 1 ? "tie" : "ties"
-                }</p>
-              </div>
-              <div class="bracket-ties">
-                ${round.ties
-                  .map(
-                    (tie) => `
-                      <article class="bracket-tie-card">
-                        <div class="bracket-tie-head">
-                          <span class="team-insight-pill">${tie.code}</span>
-                        </div>
-                        <div class="bracket-match-list">
-                          ${tie.matches
-                            .map(
-                              (match) => `
-                                <div class="bracket-match">
-                                  <div class="bracket-match-meta">
-                                    <span>${match.leg || "Match"}</span>
-                                    <span>${match.date || ""}${match.time ? ` · ${match.time}` : ""}</span>
-                                  </div>
-                                  <div class="bracket-match-row">
-                                    ${bracketTeamMarkup(match.homeTeam, logoByClub)}
-                                    <span class="bracket-result">${match.result || "-"}</span>
-                                  </div>
-                                  <div class="bracket-match-row">
-                                    ${bracketTeamMarkup(match.awayTeam, logoByClub)}
-                                  </div>
-                                </div>
-                              `
-                            )
-                            .join("")}
-                        </div>
-                      </article>
-                    `
-                  )
-                  .join("")}
-              </div>
-            </section>
-          `
-        )
-        .join("")}
+    <div class="bracket-viewport">
+      <div class="bracket-scroll">
+        <svg class="bracket-lines" aria-hidden="true"></svg>
+        <div class="bracket-columns">
+          ${state.snapshot.bracket.rounds
+            .map(
+              (round, roundIndex) => `
+                <section class="bracket-round" data-bracket-round="${roundIndex}">
+                  <div class="bracket-round-head">
+                    <p class="bracket-round-title">${round.label}</p>
+                    <p class="bracket-round-sub">${bracketRoundSizeLabel(round)}</p>
+                  </div>
+                  <div class="bracket-ties">
+                    ${round.ties
+                      .map((tie, tieIndex) => {
+                        const firstMatch = tie.matches?.[0] || {};
+                        const lastMatch = tie.matches?.[tie.matches.length - 1] || {};
+                        const home = firstMatch.homeTeam || "";
+                        const away = firstMatch.awayTeam || "";
+                        const result = lastMatch.result || "";
+                        return `
+                          <article class="bracket-tie-card" data-bracket-tie="${tieIndex}">
+                            <div class="bracket-tie-rows">
+                              <div class="bracket-tie-row">
+                                ${bracketTeamMarkup(home, logoByClub)}
+                              </div>
+                              <div class="bracket-tie-row">
+                                ${bracketTeamMarkup(away, logoByClub)}
+                              </div>
+                            </div>
+                            <div class="bracket-tie-foot">
+                              <span class="bracket-tie-code">${tie.code || ""}</span>
+                              <span class="bracket-result">${result || "-"}</span>
+                            </div>
+                          </article>
+                        `;
+                      })
+                      .join("")}
+                  </div>
+                </section>
+              `
+            )
+            .join("")}
+        </div>
+      </div>
     </div>
   `;
+
+  // Let the layout settle, then draw connector lines.
+  requestAnimationFrame(() => drawBracketLines(bracketViewEl));
 }
 
 function renderView() {
@@ -772,6 +857,7 @@ function renderView() {
   tableViewEl.classList.toggle("hidden", state.view !== "table");
   teamsViewEl.classList.toggle("hidden", state.view !== "teams");
   bracketViewEl.classList.toggle("hidden", state.view !== "bracket");
+  leagueSummaryEl.classList.toggle("hidden", state.view !== "table");
 
   if (state.view === "table") {
     renderTable();

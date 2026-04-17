@@ -32,6 +32,9 @@ def get_app_base_url() -> str:
     """Return the public base URL used for the Mini App, if configured."""
     explicit = get_env('APP_BASE_URL')
     if explicit:
+        explicit = explicit.rstrip('/')
+        if explicit and not explicit.startswith(('http://', 'https://')):
+            explicit = f'https://{explicit}'
         return explicit.rstrip('/')
 
     railway_domain = get_env('RAILWAY_PUBLIC_DOMAIN')

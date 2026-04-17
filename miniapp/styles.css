@@ -121,6 +121,10 @@ body {
   height: 28px;
   object-fit: contain;
   flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
 }
 
 .league-chip-label {
@@ -439,6 +443,7 @@ body {
 .team-results-copy {
   min-width: 108px;
   padding: 2px 4px 0;
+  align-self: end;
 }
 
 .team-results-value {
@@ -608,16 +613,59 @@ body {
   gap: 16px;
 }
 
+.bracket-viewport {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(7, 17, 31, 0.72);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.bracket-scroll {
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 18px 16px;
+}
+
+.bracket-columns {
+  position: relative;
+  display: flex;
+  gap: 26px;
+  align-items: flex-start;
+  min-width: max-content;
+}
+
+.bracket-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
 .bracket-round {
+  width: 260px;
   display: grid;
   gap: 12px;
 }
 
 .bracket-round-head {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 12px;
+  display: grid;
+  gap: 4px;
+}
+
+.bracket-round-title {
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+}
+
+.bracket-round-sub {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .bracket-ties {
@@ -629,39 +677,37 @@ body {
   background: rgba(13, 25, 42, 0.82);
   border: 1px solid var(--line);
   border-radius: 18px;
-  padding: 14px 16px;
+  padding: 12px 12px 10px;
 }
 
-.bracket-tie-head {
-  margin-bottom: 10px;
-}
-
-.bracket-match-list {
+.bracket-tie-rows {
   display: grid;
+  gap: 8px;
+}
+
+.bracket-tie-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 10px;
 }
 
-.bracket-match {
-  padding: 12px;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--line);
-}
-
-.bracket-match-meta {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 10px;
-  color: var(--muted);
-  font-size: 12px;
-}
-
-.bracket-match-row {
+.bracket-tie-foot {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.bracket-tie-code {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .bracket-team {
