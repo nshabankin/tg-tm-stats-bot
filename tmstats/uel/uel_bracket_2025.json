@@ -1,0 +1,514 @@
+{
+  "rounds": [
+    {
+      "key": "playoffs",
+      "label": "Knockout Play-offs",
+      "order": 1,
+      "ties": [
+        {
+          "code": "IR 3",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Thu 19/02/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Dinamo Zagreb",
+              "result": "1:3",
+              "awayTeam": "Genk"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Genk",
+              "result": "3:3 AET",
+              "awayTeam": "Dinamo Zagreb"
+            }
+          ]
+        },
+        {
+          "code": "IR 4",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "PAOK",
+              "result": "1:2",
+              "awayTeam": "Celta de Vigo"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Celta de Vigo",
+              "result": "1:0",
+              "awayTeam": "PAOK"
+            }
+          ]
+        },
+        {
+          "code": "IR 6",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Fenerbahçe",
+              "result": "0:3",
+              "awayTeam": "Nott'm Forest"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Nott'm Forest",
+              "result": "1:2",
+              "awayTeam": "Fenerbahçe"
+            }
+          ]
+        },
+        {
+          "code": "IR 7",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "SK Brann",
+              "result": "0:1",
+              "awayTeam": "Bologna"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Bologna",
+              "result": "1:0",
+              "awayTeam": "SK Brann"
+            }
+          ]
+        },
+        {
+          "code": "IR 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Ludogorets",
+              "result": "2:1",
+              "awayTeam": "Ferencváros"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Thu 26/02/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Ferencváros",
+              "result": "2:0",
+              "awayTeam": "Ludogorets"
+            }
+          ]
+        },
+        {
+          "code": "IR 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Panathinaikos",
+              "result": "2:2",
+              "awayTeam": "Viktoria Plzeň"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Viktoria Plzeň",
+              "result": "4:5 on pens",
+              "awayTeam": "Panathinaikos"
+            }
+          ]
+        },
+        {
+          "code": "IR 5",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Celtic",
+              "result": "1:4",
+              "awayTeam": "Stuttgart"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Stuttgart",
+              "result": "0:1",
+              "awayTeam": "Celtic"
+            }
+          ]
+        },
+        {
+          "code": "IR 8",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Lille",
+              "result": "0:1",
+              "awayTeam": "Red Star"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Red Star",
+              "result": "0:2 AET",
+              "awayTeam": "Lille"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "round_of_16",
+      "label": "Round of 16",
+      "order": 2,
+      "ties": [
+        {
+          "code": "Ro16 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Thu 12/03/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Panathinaikos",
+              "result": "1:0",
+              "awayTeam": "Real Betis"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Real Betis",
+              "result": "4:0",
+              "awayTeam": "Panathinaikos"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 5",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Stuttgart",
+              "result": "1:2",
+              "awayTeam": "Porto"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Porto",
+              "result": "2:0",
+              "awayTeam": "Stuttgart"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 7",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Bologna",
+              "result": "1:1",
+              "awayTeam": "Roma"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Roma",
+              "result": "3:4 AET",
+              "awayTeam": "Bologna"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 8",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Lille",
+              "result": "0:1",
+              "awayTeam": "Aston Villa"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Aston Villa",
+              "result": "2:0",
+              "awayTeam": "Lille"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Ferencváros",
+              "result": "2:0",
+              "awayTeam": "Braga"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Wed 18/03/2026",
+              "time": "4:30 PM",
+              "homeTeam": "Braga",
+              "result": "4:0",
+              "awayTeam": "Ferencváros"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 3",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Genk",
+              "result": "1:0",
+              "awayTeam": "Freiburg"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Thu 19/03/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Freiburg",
+              "result": "5:1",
+              "awayTeam": "Genk"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 4",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Celta de Vigo",
+              "result": "1:1",
+              "awayTeam": "Lyon"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Lyon",
+              "result": "0:2",
+              "awayTeam": "Celta de Vigo"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 6",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Nott'm Forest",
+              "result": "0:1",
+              "awayTeam": "Midtjylland"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Midtjylland",
+              "result": "1:5 on pens",
+              "awayTeam": "Nott'm Forest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "quarter_finals",
+      "label": "Quarter-finals",
+      "order": 3,
+      "ties": [
+        {
+          "code": "QF 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Wed 08/04/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Braga",
+              "result": "1:1",
+              "awayTeam": "Real Betis"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Real Betis",
+              "result": "2:4",
+              "awayTeam": "Braga"
+            }
+          ]
+        },
+        {
+          "code": "QF 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Thu 09/04/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Freiburg",
+              "result": "3:0",
+              "awayTeam": "Celta de Vigo"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Thu 16/04/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Celta de Vigo",
+              "result": "1:3",
+              "awayTeam": "Freiburg"
+            }
+          ]
+        },
+        {
+          "code": "QF 3",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Porto",
+              "result": "1:1",
+              "awayTeam": "Nott'm Forest"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Nott'm Forest",
+              "result": "1:0",
+              "awayTeam": "Porto"
+            }
+          ]
+        },
+        {
+          "code": "QF 4",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Bologna",
+              "result": "1:3",
+              "awayTeam": "Aston Villa"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Aston Villa",
+              "result": "4:0",
+              "awayTeam": "Bologna"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "semi_finals",
+      "label": "Semi-finals",
+      "order": 4,
+      "ties": [
+        {
+          "code": "SF 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Thu 30/04/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Braga",
+              "result": "-:-",
+              "awayTeam": "Freiburg"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Thu 07/05/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Freiburg",
+              "result": "-:-",
+              "awayTeam": "Braga"
+            }
+          ]
+        },
+        {
+          "code": "SF 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Nott'm Forest",
+              "result": "-:-",
+              "awayTeam": "Aston Villa"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Aston Villa",
+              "result": "-:-",
+              "awayTeam": "Nott'm Forest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "final",
+      "label": "Final",
+      "order": 5,
+      "ties": [
+        {
+          "code": "FI",
+          "matches": [
+            {
+              "leg": "Final",
+              "date": "Wed 20/05/2026",
+              "time": "Unknown",
+              "homeTeam": "Winner SF 1",
+              "result": "-:-",
+              "awayTeam": "Winner SF 2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

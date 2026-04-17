@@ -398,11 +398,41 @@ def fetch_recent_form(session: requests.Session, league_key: str,
     return recent_form
 
 
+def progress_bar(current: int, total: int, width: int = 22) -> str:
+    if total <= 0:
+        return '[' + ('-' * width) + ']'
+
+    filled = min(width, round((current / total) * width))
+    return '[' + ('#' * filled) + ('-' * (width - filled)) + ']'
+
+
+def format_progress(prefix: str, current: int, total: int,
+                    team_name: str = '', team_index: int = None,
+                    team_total: int = None) -> str:
+    percent = 0 if total <= 0 else round((current / total) * 100)
+    line = (
+        f'  {prefix} {progress_bar(current, total)} '
+        f'{current}/{total} ({percent}%)'
+    )
+    if team_name:
+        if team_index is not None and team_total:
+            line += f' | club {team_index}/{team_total}: {team_name}'
+        else:
+            line += f' | club: {team_name}'
+    return line
+
+
 def fetch_players(session: requests.Session, teams: List[dict],
                   timeout: int, delay: float = DEFAULT_DELAY) -> List[dict]:
     players = []
+    total_teams = len(teams)
 
-    for team in teams:
+    for index, team in enumerate(teams, start=1):
+        print(
+            format_progress('roster', index, total_teams, team['name'], index,
+                            total_teams),
+            flush=True,
+        )
         url = f'https://www.transfermarkt.com/quickselect/players/{team["id"]}'
         team_players = fetch_json(session, url, timeout)
         for player in team_players:
@@ -418,6 +448,12 @@ def fetch_players(session: requests.Session, teams: List[dict],
             })
         if delay:
             time.sleep(delay)
+
+    print(
+        f'  roster complete | collected {len(players)} players from '
+        f'{total_teams} clubs',
+        flush=True,
+    )
 
     return players
 
@@ -662,11 +698,34 @@ def fetch_knockout_bracket(session: requests.Session, league_key: str,
 
 def fetch_stats(session: requests.Session, league_key: str, players: List[dict],
                 season: int, timeout: int,
+                teams: List[dict] = None,
                 delay: float = DEFAULT_DELAY) -> List[dict]:
     league_label = LEAGUES[league_key].label
     stats_rows = []
+    team_order = {
+        team['name']: index
+        for index, team in enumerate(teams or [], start=1)
+    }
+    team_total = len(teams or [])
+    last_team = None
 
     for index, player in enumerate(players, start=1):
+        current_team = player['club']
+        current_team_index = team_order.get(current_team)
+        if current_team != last_team:
+            print(
+                format_progress(
+                    'stats',
+                    index - 1,
+                    len(players),
+                    current_team,
+                    current_team_index,
+                    team_total,
+                ),
+                flush=True,
+            )
+            last_team = current_team
+
         slug = player['link'].split('/')[1]
         url = (
             f'https://www.transfermarkt.com/{slug}/leistungsdaten/'
@@ -692,12 +751,27 @@ def fetch_stats(session: requests.Session, league_key: str, players: List[dict],
             build_player_stats(player, cells, league_label, position_label)
         )
 
-        if index % 50 == 0 or index == len(players):
-            print(f'  processed {index}/{len(players)} player pages',
-                  flush=True)
+        if index % 25 == 0 or index == len(players):
+            print(
+                format_progress(
+                    'stats',
+                    index,
+                    len(players),
+                    current_team,
+                    current_team_index,
+                    team_total,
+                ),
+                flush=True,
+            )
 
         if delay:
             time.sleep(delay)
+
+    print(
+        f'  stats complete | wrote {len(stats_rows)} player rows for '
+        f'{league_key}',
+        flush=True,
+    )
 
     return stats_rows
 
@@ -742,7 +816,15 @@ def refresh_league(league_key: str, season: int = None,
         print(f'  fetched {len(teams)} teams and {len(players)} players',
               flush=True)
 
-    stats = fetch_stats(session, league_key, players, season, timeout, delay)
+    stats = fetch_stats(
+        session,
+        league_key,
+        players,
+        season,
+        timeout,
+        teams=teams,
+        delay=delay,
+    )
 
     write_csv(league_dir / f'{league_key}_stats_{season}.csv',
               stats, STATS_FIELDS)

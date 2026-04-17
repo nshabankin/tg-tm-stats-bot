@@ -1,0 +1,514 @@
+{
+  "rounds": [
+    {
+      "key": "playoffs",
+      "label": "Knockout Play-offs",
+      "order": 1,
+      "ties": [
+        {
+          "code": "IR 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Thu 19/02/2026",
+              "time": "6:45 PM",
+              "homeTeam": "KuPS",
+              "result": "0:2",
+              "awayTeam": "Lech Poznan"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Lech Poznan",
+              "result": "1:0",
+              "awayTeam": "KuPS"
+            }
+          ]
+        },
+        {
+          "code": "IR 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "FC Noah",
+              "result": "1:0",
+              "awayTeam": "AZ Alkmaar"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "AZ Alkmaar",
+              "result": "4:0",
+              "awayTeam": "FC Noah"
+            }
+          ]
+        },
+        {
+          "code": "IR 3",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Zrinjski Mostar",
+              "result": "1:1",
+              "awayTeam": "Crystal Palace"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Crystal Palace",
+              "result": "2:0",
+              "awayTeam": "Zrinjski Mostar"
+            }
+          ]
+        },
+        {
+          "code": "IR 7",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Sigma Olomouc",
+              "result": "1:1",
+              "awayTeam": "Lausanne-Sport"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Lausanne-Sport",
+              "result": "1:2",
+              "awayTeam": "Sigma Olomouc"
+            }
+          ]
+        },
+        {
+          "code": "IR 4",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Jagiellonia",
+              "result": "0:3",
+              "awayTeam": "Fiorentina"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Thu 26/02/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Fiorentina",
+              "result": "2:4 AET",
+              "awayTeam": "Jagiellonia"
+            }
+          ]
+        },
+        {
+          "code": "IR 5",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Shkendija",
+              "result": "0:1",
+              "awayTeam": "Samsunspor"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Samsunspor",
+              "result": "4:0",
+              "awayTeam": "Shkendija"
+            }
+          ]
+        },
+        {
+          "code": "IR 6",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "FC Drita",
+              "result": "2:3",
+              "awayTeam": "NK Celje"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "NK Celje",
+              "result": "3:2",
+              "awayTeam": "FC Drita"
+            }
+          ]
+        },
+        {
+          "code": "IR 8",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Omonia Nicosia",
+              "result": "0:1",
+              "awayTeam": "HNK Rijeka"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "HNK Rijeka",
+              "result": "3:1",
+              "awayTeam": "Omonia Nicosia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "round_of_16",
+      "label": "Round of 16",
+      "order": 2,
+      "ties": [
+        {
+          "code": "Ro16 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Thu 12/03/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Lech Poznan",
+              "result": "1:3",
+              "awayTeam": "Shakhtar D."
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Shakhtar D.",
+              "result": "1:2",
+              "awayTeam": "Lech Poznan"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "AZ Alkmaar",
+              "result": "2:1",
+              "awayTeam": "Sparta Prague"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Sparta Prague",
+              "result": "0:4",
+              "awayTeam": "AZ Alkmaar"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 5",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Samsunspor",
+              "result": "1:3",
+              "awayTeam": "Rayo Vallecano"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Rayo Vallecano",
+              "result": "0:1",
+              "awayTeam": "Samsunspor"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 8",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "HNK Rijeka",
+              "result": "1:2",
+              "awayTeam": "R. Strasbourg"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "R. Strasbourg",
+              "result": "1:1",
+              "awayTeam": "HNK Rijeka"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 3",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Crystal Palace",
+              "result": "0:0",
+              "awayTeam": "AEK Larnaca"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Thu 19/03/2026",
+              "time": "6:45 PM",
+              "homeTeam": "AEK Larnaca",
+              "result": "1:2 AET",
+              "awayTeam": "Crystal Palace"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 4",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Fiorentina",
+              "result": "2:1",
+              "awayTeam": "Raków"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Raków",
+              "result": "1:2",
+              "awayTeam": "Fiorentina"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 6",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "NK Celje",
+              "result": "0:4",
+              "awayTeam": "AEK Athens"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "AEK Athens",
+              "result": "0:2",
+              "awayTeam": "NK Celje"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 7",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Sigma Olomouc",
+              "result": "0:0",
+              "awayTeam": "Mainz"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Mainz",
+              "result": "2:0",
+              "awayTeam": "Sigma Olomouc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "quarter_finals",
+      "label": "Quarter-finals",
+      "order": 3,
+      "ties": [
+        {
+          "code": "QF 3",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Thu 09/04/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Rayo Vallecano",
+              "result": "3:0",
+              "awayTeam": "AEK Athens"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "AEK Athens",
+              "result": "3:1",
+              "awayTeam": "Rayo Vallecano"
+            }
+          ]
+        },
+        {
+          "code": "QF 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Shakhtar D.",
+              "result": "3:0",
+              "awayTeam": "AZ Alkmaar"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Thu 16/04/2026",
+              "time": "6:45 PM",
+              "homeTeam": "AZ Alkmaar",
+              "result": "2:2",
+              "awayTeam": "Shakhtar D."
+            }
+          ]
+        },
+        {
+          "code": "QF 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Crystal Palace",
+              "result": "3:0",
+              "awayTeam": "Fiorentina"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Fiorentina",
+              "result": "2:1",
+              "awayTeam": "Crystal Palace"
+            }
+          ]
+        },
+        {
+          "code": "QF 4",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Mainz",
+              "result": "2:0",
+              "awayTeam": "R. Strasbourg"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "R. Strasbourg",
+              "result": "4:0",
+              "awayTeam": "Mainz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "semi_finals",
+      "label": "Semi-finals",
+      "order": 4,
+      "ties": [
+        {
+          "code": "SF 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Thu 30/04/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Shakhtar D.",
+              "result": "-:-",
+              "awayTeam": "Crystal Palace"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Thu 07/05/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Crystal Palace",
+              "result": "-:-",
+              "awayTeam": "Shakhtar D."
+            }
+          ]
+        },
+        {
+          "code": "SF 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Rayo Vallecano",
+              "result": "-:-",
+              "awayTeam": "R. Strasbourg"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "R. Strasbourg",
+              "result": "-:-",
+              "awayTeam": "Rayo Vallecano"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "final",
+      "label": "Final",
+      "order": 5,
+      "ties": [
+        {
+          "code": "FI",
+          "matches": [
+            {
+              "leg": "Final",
+              "date": "Wed 27/05/2026",
+              "time": "Unknown",
+              "homeTeam": "Winner SF 1",
+              "result": "-:-",
+              "awayTeam": "Winner SF 2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

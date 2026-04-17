@@ -80,6 +80,8 @@ body {
 
 .league-chip-card {
   position: relative;
+  --league-accent: 110, 231, 183;
+  --league-accent-strong: #6ee7b7;
 }
 
 .league-chip,
@@ -93,8 +95,10 @@ body {
 .league-chip,
 .tab {
   color: var(--text);
-  background: var(--panel);
-  border: 1px solid var(--line);
+  background:
+    linear-gradient(135deg, rgba(var(--league-accent), 0.18), rgba(13, 25, 42, 0.92) 34%),
+    rgba(13, 25, 42, 0.82);
+  border: 1px solid rgba(var(--league-accent), 0.28);
   border-radius: 18px;
   padding: 14px 16px;
   text-align: center;
@@ -128,8 +132,13 @@ body {
 .tab:hover,
 .tab.is-active {
   transform: translateY(-1px);
-  border-color: rgba(110, 231, 183, 0.4);
-  background: rgba(17, 31, 50, 0.95);
+  border-color: rgba(var(--league-accent), 0.56);
+  background:
+    linear-gradient(135deg, rgba(var(--league-accent), 0.28), rgba(17, 31, 50, 0.96) 38%),
+    rgba(17, 31, 50, 0.95);
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.22),
+    0 0 0 1px rgba(var(--league-accent), 0.08) inset;
 }
 
 .favorite-chip {
@@ -160,6 +169,42 @@ body {
 .favorite-chip:hover {
   transform: translateY(-1px);
   color: #ffe59a;
+}
+
+.league-chip[data-league-key="epl"] {
+  --league-accent: 55, 0, 60;
+}
+
+.league-chip[data-league-key="la_liga"] {
+  --league-accent: 239, 51, 64;
+}
+
+.league-chip[data-league-key="serie_a"] {
+  --league-accent: 0, 87, 184;
+}
+
+.league-chip[data-league-key="bundesliga"] {
+  --league-accent: 210, 5, 21;
+}
+
+.league-chip[data-league-key="ligue_1"] {
+  --league-accent: 0, 85, 164;
+}
+
+.league-chip[data-league-key="rpl"] {
+  --league-accent: 27, 138, 96;
+}
+
+.league-chip[data-league-key="ucl"] {
+  --league-accent: 14, 30, 91;
+}
+
+.league-chip[data-league-key="uel"] {
+  --league-accent: 255, 105, 0;
+}
+
+.league-chip[data-league-key="uecl"] {
+  --league-accent: 0, 195, 137;
 }
 
 .tabs {

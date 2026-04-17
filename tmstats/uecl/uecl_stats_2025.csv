@@ -1,0 +1,1050 @@
+player_id,player_name,number,position,club,league,played,goals,assists,yellow_cards,second_yellows,red_cards,conceded,clean_sheets,minutes
+1064871,Joaquín Panichelli,#9,Centre-Forward,R. Strasbourg,Conference League,6,2,-,-,-,-,,,319'
+849410,Valentín Barco,#32,Central Midfield,R. Strasbourg,Conference League,9,1,-,2,-,-,,,576'
+559328,Emmanuel Emegha,#10,Centre-Forward,R. Strasbourg,Conference League,4,2,-,-,-,-,,,151'
+655006,Diego Moreira,#7,Left Midfield,R. Strasbourg,Conference League,8,-,1,2,-,-,,,334'
+660867,Julio Enciso,#19,Attacking Midfield,R. Strasbourg,Conference League,8,3,3,-,-,-,,,510'
+834397,Mike Penders,#39,Goalkeeper,R. Strasbourg,Conference League,10,-,,-,-,-,9,2,900'
+786436,Ismaël Doukouré,#6,Centre-Back,R. Strasbourg,Conference League,9,-,-,1,-,-,,,617'
+1130514,Samir El Mourabet,#29,Central Midfield,R. Strasbourg,Conference League,8,1,-,2,-,-,,,597'
+992686,Martial Godo,#20,Left Winger,R. Strasbourg,Conference League,9,4,3,2,-,-,,,659'
+711980,Guéla Doué,#22,Right-Back,R. Strasbourg,Conference League,7,-,1,4,-,-,,,486'
+991487,Abdoul Ouattara,#42,Right Winger,R. Strasbourg,Conference League,6,2,-,-,-,-,,,372'
+926978,Lucas Høgsberg,#24,Centre-Back,R. Strasbourg,Conference League,9,-,-,-,-,-,,,640'
+316125,Ben Chilwell,#3,Left-Back,R. Strasbourg,Conference League,7,-,1,-,-,-,,,530'
+1145504,Aarón Anselmino,#5,Centre-Back,R. Strasbourg,Conference League,,,,,,,,,
+579928,Sebastian Nanasi,#11,Left Midfield,R. Strasbourg,Conference League,8,2,3,1,-,-,,,453'
+1010854,Mathis Amougou,#17,Central Midfield,R. Strasbourg,Conference League,5,-,-,1,-,-,,,357'
+1151929,Gessime Yassine,#80,Right Winger,R. Strasbourg,Conference League,4,-,-,-,-,-,,,169'
+933900,Samuel Amo-Ameyaw,#27,Right Winger,R. Strasbourg,Conference League,5,-,2,1,-,-,,,397'
+621993,Andrew Omobamidele,#2,Centre-Back,R. Strasbourg,Conference League,10,-,-,2,-,-,,,766'
+1011200,Junior Mwanga,#18,Defensive Midfield,R. Strasbourg,Conference League,,,,,,,,,
+787232,David Datro Fofana,#15,Centre-Forward,R. Strasbourg,Conference League,1,-,-,-,-,-,,,13'
+863204,Maxi Oyedele,#8,Defensive Midfield,R. Strasbourg,Conference League,3,-,-,-,-,-,,,83'
+637803,Rafael Luís,#83,Defensive Midfield,R. Strasbourg,Conference League,5,-,-,1,-,-,,,273'
+465836,Stefan Bajic,#50,Goalkeeper,R. Strasbourg,Conference League,-,-,,-,-,-,-,-,-
+112822,Karl-Johan Johnsson,#1,Goalkeeper,R. Strasbourg,Conference League,-,-,,-,-,-,-,-,-
+435587,Jonatan Braut Brunes,#18,Centre-Forward,Raków,Conference League,8,3,1,1,-,-,,,667'
+318257,Stratos Svarnas,#4,Centre-Back,Raków,Conference League,8,1,-,-,-,-,,,720'
+720120,Kacper Trelowski,#1,Goalkeeper,Raków,Conference League,2,-,,-,-,-,1,1,180'
+555062,Tomasz Pieńko,#8,Attacking Midfield,Raków,Conference League,7,1,1,-,-,-,,,350'
+555074,Oliwier Zych,#48,Goalkeeper,Raków,Conference League,6,-,,1,-,-,5,3,540'
+384823,Oskar Repka,#6,Defensive Midfield,Raków,Conference League,8,2,-,-,-,-,,,699'
+495669,Lamine Diaby-Fadiga,#80,Attacking Midfield,Raków,Conference League,8,3,-,1,-,-,,,379'
+491039,Marko Bulat,#5,Defensive Midfield,Raków,Conference League,6,-,1,-,-,-,,,226'
+248932,Vladyslav Kochergin,#30,Defensive Midfield,Raków,Conference League,,,,,,,,,
+822074,Mitja Ilenic,#35,Right Midfield,Raków,Conference League,-,-,-,-,-,-,,,-
+804134,Bogdan Racovițan,#25,Centre-Back,Raków,Conference League,8,-,-,1,-,-,,,720'
+553562,Karol Struski,#23,Defensive Midfield,Raków,Conference League,7,1,1,1,-,-,,,497'
+528414,Michael Ameyaw,#19,Right Midfield,Raków,Conference League,8,-,1,1,-,-,,,703'
+343158,Fran Tudor,#7,Right Midfield,Raków,Conference League,8,-,-,2,-,-,,,604'
+940548,Bogdan Mirčetić,#44,Attacking Midfield,Raków,Conference League,3,-,-,-,-,-,,,10'
+282434,Jean Carlos Silva,#20,Left Midfield,Raków,Conference League,4,-,-,-,-,-,,,108'
+248732,Paweł Dawidowicz,#27,Centre-Back,Raków,Conference League,,,,,,,,,
+1046580,Adriano,#11,Left Midfield,Raków,Conference League,7,-,1,-,-,-,,,432'
+479675,Leonardo Rocha,#17,Centre-Forward,Raków,Conference League,2,-,-,1,-,-,,,21'
+282371,Ivi López,#10,Attacking Midfield,Raków,Conference League,4,-,1,-,-,-,,,166'
+442118,Erick Otieno,#26,Left Midfield,Raków,Conference League,,,,,,,,,
+554288,Ariel Mosór,#2,Centre-Back,Raków,Conference League,1,-,-,-,-,-,,,71'
+453639,Patryk Makuch,#9,Attacking Midfield,Raków,Conference League,8,-,2,1,-,-,,,483'
+1150520,Isak Brusberg,#39,Centre-Forward,Raków,Conference League,5,1,-,1,-,-,,,271'
+280312,Zoran Arsenic,#24,Centre-Back,Raków,Conference League,1,-,-,-,-,-,,,30'
+1366314,Abraham Ojo,#22,Defensive Midfield,Raków,Conference League,,,,,,,,,
+1048759,Jerzy Napieraj,#21,Centre-Back,Raków,Conference League,-,-,-,-,-,-,,,-
+1284269,Wiktor Żołneczko,#29,Goalkeeper,Raków,Conference League,,,,,,,,,
+1511247,Dominik Czeremski,#31,Goalkeeper,Raków,Conference League,-,-,,-,-,-,-,-,-
+334042,Orbelín Pineda,#13,Central Midfield,AEK Athens,Conference League,10,-,2,2,-,-,,,883'
+257462,Luka Jović,#9,Centre-Forward,AEK Athens,Conference League,9,3,1,3,-,-,,,731'
+272636,Harold Moukoudi,#2,Centre-Back,AEK Athens,Conference League,8,1,-,-,-,-,,,675'
+422377,Aboubakary Koita,#11,Left Winger,AEK Athens,Conference League,10,4,-,2,-,-,,,725'
+237669,Dereck Kutesa,#7,Left Winger,AEK Athens,Conference League,8,3,1,1,-,-,,,319'
+483916,Lazaros Rota,#12,Right-Back,AEK Athens,Conference League,10,-,2,2,-,-,,,886'
+328573,Barnabás Varga,#25,Centre-Forward,AEK Athens,Conference League,3,1,-,2,-,-,,,247'
+251813,Niclas Eliasson,#19,Right Midfield,AEK Athens,Conference League,6,1,2,-,-,-,,,234'
+567497,Filipe Relvas,#44,Centre-Back,AEK Athens,Conference League,10,-,-,2,-,-,,,900'
+295183,Răzvan Marin,#18,Central Midfield,AEK Athens,Conference League,10,3,2,2,-,-,,,755'
+222209,Thomas Strakosha,#1,Goalkeeper,AEK Athens,Conference League,10,-,,1,-,-,13,3,900'
+353634,Robert Ljubicic,#23,Central Midfield,AEK Athens,Conference League,1,-,1,-,-,-,,,22'
+222813,Marko Grujić,#4,Defensive Midfield,AEK Athens,Conference League,5,-,-,-,-,-,,,97'
+363227,James Penrice,#29,Left-Back,AEK Athens,Conference League,5,-,-,-,-,-,,,116'
+877118,Martin Georgiev,#15,Centre-Back,AEK Athens,Conference League,-,-,-,-,-,-,,,-
+215864,Mijat Gacinovic,#8,Attacking Midfield,AEK Athens,Conference League,8,2,1,1,-,-,,,359'
+149729,João Mário,#10,Attacking Midfield,AEK Athens,Conference League,,,,,,,,,
+895905,Dimitrios Kaloskamis,#17,Attacking Midfield,AEK Athens,Conference League,1,-,-,-,-,-,,,4'
+990731,Hakim Sahabo,#80,Defensive Midfield,AEK Athens,Conference League,,,,,,,,,
+572879,Stavro Pilo,#3,Left-Back,AEK Athens,Conference League,9,-,2,1,-,-,,,781'
+718115,Zini,#90,Centre-Forward,AEK Athens,Conference League,4,2,-,-,-,-,,,131'
+148355,Jens Jönsson,#6,Defensive Midfield,AEK Athens,Conference League,,,,,,,,,
+128011,Petros Mantalos,#20,Attacking Midfield,AEK Athens,Conference League,9,-,-,2,-,-,,,463'
+146799,Alberto Brignoli,#91,Goalkeeper,AEK Athens,Conference League,-,-,,-,-,-,-,-,-
+112302,Roberto Pereyra,#37,Central Midfield,AEK Athens,Conference League,7,-,-,1,-,-,,,315'
+46083,Domagoj Vida,#21,Centre-Back,AEK Athens,Conference League,4,1,1,2,-,-,,,226'
+147462,Alexander Callens,#22,Centre-Back,AEK Athens,Conference League,,,,,,,,,
+990259,Christos Kosidis,#34,Centre-Back,AEK Athens,Conference League,-,-,-,-,-,-,,,-
+724031,Angelos Angelopoulos,#81,Goalkeeper,AEK Athens,Conference League,-,-,,-,-,-,-,-,-
+990258,Marios Balamotis,#41,Goalkeeper,AEK Athens,Conference League,,,,,,,,,
+655300,Patrik Vydra,#26,Defensive Midfield,Sparta Prague,Conference League,6,-,-,-,-,-,,,413'
+903706,Albion Rrahmani,#9,Centre-Forward,Sparta Prague,Conference League,7,1,1,2,-,-,,,388'
+239941,Lukas Haraslin,#22,Left Winger,Sparta Prague,Conference League,7,2,1,-,-,-,,,431'
+322989,Kaan Kairinen,#6,Central Midfield,Sparta Prague,Conference League,6,-,-,1,-,-,,,486'
+1118150,Emmanuel Uchenna,#16,Centre-Back,Sparta Prague,Conference League,4,-,-,-,-,-,,,269'
+430310,Andrew Irving,#18,Central Midfield,Sparta Prague,Conference League,2,-,1,-,-,-,,,144'
+929887,Adam Sevinsky,#19,Centre-Back,Sparta Prague,Conference League,7,-,-,2,-,-,,,630'
+539197,Matej Rynes,#11,Left Midfield,Sparta Prague,Conference League,5,1,-,-,-,-,,,271'
+659804,John Mercado,#7,Left Winger,Sparta Prague,Conference League,7,1,-,-,-,-,,,380'
+541628,Oliver Sonne,#17,Right-Back,Sparta Prague,Conference League,2,-,-,-,-,-,,,180'
+510310,Sivert Mannsverk,#20,Defensive Midfield,Sparta Prague,Conference League,5,-,1,2,-,-,,,323'
+836196,Matyas Vojta,#29,Centre-Forward,Sparta Prague,Conference League,2,1,-,-,-,-,,,143'
+713787,Jhoanner Chávez,#14,Left-Back,Sparta Prague,Conference League,,,,,,,,,
+395421,Peter Vindahl,#1,Goalkeeper,Sparta Prague,Conference League,6,-,,-,-,-,3,3,540'
+334802,Jan Kuchta,#10,Centre-Forward,Sparta Prague,Conference League,8,-,2,2,-,-,,,382'
+615618,Santiago Eneme,#5,Attacking Midfield,Sparta Prague,Conference League,6,-,-,1,-,-,,,157'
+260846,Asger Sörensen,#25,Centre-Back,Sparta Prague,Conference League,4,1,-,2,-,-,,,329'
+488784,Magnus Kofod Andersen,#8,Central Midfield,Sparta Prague,Conference League,,,,,,,,,
+331963,Filip Panák,#27,Centre-Back,Sparta Prague,Conference League,2,-,-,-,-,-,,,67'
+143798,Pavel Kaderabek,#3,Right Midfield,Sparta Prague,Conference League,6,-,1,1,-,-,,,428'
+1206877,Hugo Sochurek,#38,Central Midfield,Sparta Prague,Conference League,1,-,-,-,-,-,,,90'
+610607,Jakub Surovcik,#44,Goalkeeper,Sparta Prague,Conference League,2,-,,-,-,-,6,-,180'
+293360,Jakub Martinec,#4,Centre-Back,Sparta Prague,Conference League,,,,,,,,,
+967948,Garang Kuol,#36,Left Winger,Sparta Prague,Conference League,6,1,-,1,-,-,,,141'
+662701,Joao Grimaldo,#21,Left Winger,Sparta Prague,Conference League,,,,,,,,,
+142219,Jaroslav Zelený,#30,Centre-Back,Sparta Prague,Conference League,7,-,-,1,-,-,,,611'
+1013797,Ondrej Penxa,#52,Left Winger,Sparta Prague,Conference League,-,-,-,-,-,-,,,-
+419723,Elias Cobbaut,#33,Centre-Back,Sparta Prague,Conference League,,,,,,,,,
+854085,Ivan Mensah,#50,Centre-Back,Sparta Prague,Conference League,,,,,,,,,
+668571,Daniel Kerl,#61,Goalkeeper,Sparta Prague,Conference League,-,-,,-,-,-,-,-,-
+527966,Andrei Rațiu,#2,Right-Back,Rayo Vallecano,Conference League,9,1,-,1,-,-,,,642'
+709969,Ilias Akhomach,#12,Right Winger,Rayo Vallecano,Conference League,3,1,-,2,-,-,,,176'
+455181,Jorge de Frutos,#19,Right Winger,Rayo Vallecano,Conference League,9,1,-,1,-,-,,,469'
+596122,Pep Chavarría,#3,Left-Back,Rayo Vallecano,Conference League,5,-,1,2,-,-,,,450'
+1034853,Nobel Mendy,#32,Centre-Back,Rayo Vallecano,Conference League,2,-,-,-,-,-,,,11'
+275218,Augusto Batalla,#13,Goalkeeper,Rayo Vallecano,Conference League,10,-,,1,-,-,12,3,900'
+451801,Abdul Mumin,#16,Centre-Back,Rayo Vallecano,Conference League,,,,,,,,,
+362086,Isi Palazón,#7,Second Striker,Rayo Vallecano,Conference League,10,3,2,2,-,-,,,610'
+363057,Pedro Díaz,#4,Central Midfield,Rayo Vallecano,Conference League,8,-,2,2,-,-,,,249'
+457931,Luiz Felipe,#5,Centre-Back,Rayo Vallecano,Conference League,6,-,-,1,-,-,,,505'
+560417,Alemão,#9,Centre-Forward,Rayo Vallecano,Conference League,7,2,-,1,-,-,,,381'
+622988,Fran Pérez,#21,Right Winger,Rayo Vallecano,Conference League,6,2,1,-,-,-,,,365'
+765467,Jozhua Vertrouwd,#33,Centre-Back,Rayo Vallecano,Conference League,4,-,-,1,-,-,,,318'
+192009,Unai López,#17,Central Midfield,Rayo Vallecano,Conference League,8,2,-,1,-,-,,,524'
+517753,Óscar Valentín,#23,Central Midfield,Rayo Vallecano,Conference League,8,-,1,2,-,-,,,227'
+505674,Sergio Camello,#10,Centre-Forward,Rayo Vallecano,Conference League,8,1,1,2,-,-,,,384'
+525578,Pathé Ciss,#6,Central Midfield,Rayo Vallecano,Conference League,9,-,1,3,-,-,,,687'
+127108,Florian Lejeune,#24,Centre-Back,Rayo Vallecano,Conference League,10,1,1,1,-,-,,,900'
+618813,Carlos Martín,#14,Left Winger,Rayo Vallecano,Conference League,,,,,,,,,
+397676,Dani Cárdenas,#1,Goalkeeper,Rayo Vallecano,Conference League,-,-,,-,-,-,-,-,-
+257062,Álvaro García,#18,Left Winger,Rayo Vallecano,Conference League,10,3,3,1,-,-,,,624'
+268670,Gerard Gumbau,#15,Defensive Midfield,Rayo Vallecano,Conference League,7,1,-,1,-,-,,,353'
+85295,Iván Balliu,#20,Right-Back,Rayo Vallecano,Conference League,7,-,-,-,-,-,,,443'
+560483,Randy Nteka,#11,Attacking Midfield,Rayo Vallecano,Conference League,,,,,,,,,
+311044,Alfonso Espino,#22,Left-Back,Rayo Vallecano,Conference League,9,2,1,-,-,-,,,495'
+30321,Óscar Trejo,#8,Attacking Midfield,Rayo Vallecano,Conference League,4,-,-,2,-,-,,,175'
+1384911,Samu Becerra,#28,Central Midfield,Rayo Vallecano,Conference League,1,-,-,-,-,-,,,13'
+289059,Mykola Matvienko,#22,Centre-Back,Shakhtar D.,Conference League,6,-,-,2,-,-,,,540'
+1119009,Kauã Elias,#19,Centre-Forward,Shakhtar D.,Conference League,8,2,2,-,-,-,,,578'
+668235,Marlon Gomes,#6,Central Midfield,Shakhtar D.,Conference League,5,1,2,2,-,-,,,255'
+1220143,Luca Meirelles,#49,Centre-Forward,Shakhtar D.,Conference League,7,3,-,-,-,-,,,289'
+515208,Pedrinho,#10,Right Winger,Shakhtar D.,Conference League,6,1,1,-,-,-,,,499'
+1083070,Alisson,#30,Right Winger,Shakhtar D.,Conference League,4,3,-,-,-,-,,,305'
+396394,Valeriy Bondar,#5,Centre-Back,Shakhtar D.,Conference League,8,-,-,2,-,-,,,720'
+1219752,Isaque,#14,Attacking Midfield,Shakhtar D.,Conference League,10,2,1,2,-,-,,,504'
+537854,Artem Bondarenko,#21,Attacking Midfield,Shakhtar D.,Conference League,6,1,-,-,-,-,,,255'
+1219849,Lucas Ferreira,#37,Right Winger,Shakhtar D.,Conference League,9,1,1,-,-,-,,,490'
+597880,Dmytro Riznyk,#31,Goalkeeper,Shakhtar D.,Conference League,6,-,,1,-,-,7,2,540'
+858712,Pedro Henrique,#13,Left-Back,Shakhtar D.,Conference League,7,1,-,2,-,-,,,556'
+743587,Vinícius Tobias,#17,Right-Back,Shakhtar D.,Conference League,10,-,1,2,-,-,,,771'
+708241,Oleg Ocheretko,#27,Attacking Midfield,Shakhtar D.,Conference League,8,-,-,1,-,-,,,600'
+1082823,Newerton,#11,Left Winger,Shakhtar D.,Conference League,7,1,1,1,-,-,,,503'
+551695,Lassina Traoré,#2,Centre-Forward,Shakhtar D.,Conference League,2,-,-,-,-,-,,,26'
+537852,Dmytro Kryskiv,#8,Central Midfield,Shakhtar D.,Conference League,3,-,-,-,-,-,,,102'
+467250,Yukhym Konoplya,#26,Right-Back,Shakhtar D.,Conference League,5,-,1,2,-,-,,,144'
+1033963,Eguinaldo,#7,Left Winger,Shakhtar D.,Conference League,6,-,1,2,-,-,,,221'
+1041630,Prosper Obah,#68,Right Winger,Shakhtar D.,Conference League,1,-,-,-,-,-,,,1'
+273236,Marlon,#4,Centre-Back,Shakhtar D.,Conference League,2,-,-,-,-,-,,,180'
+530696,Irakli Azarovi,#16,Left-Back,Shakhtar D.,Conference League,4,-,1,-,-,-,,,343'
+751977,Kiril Fesyun,#23,Goalkeeper,Shakhtar D.,Conference League,4,-,,-,-,-,3,2,360'
+430190,Yegor Nazaryna,#29,Central Midfield,Shakhtar D.,Conference League,10,2,1,1,-,-,,,632'
+657796,Alaa Ghram,#18,Centre-Back,Shakhtar D.,Conference League,5,-,-,-,1,-,,,361'
+359247,Maryan Shved,#9,Right Winger,Shakhtar D.,Conference League,2,-,-,-,-,-,,,73'
+1057222,Viktor Tsukanov,#24,Central Midfield,Shakhtar D.,Conference League,,,,,,,,,
+1098098,Diego Arroyo,#3,Centre-Back,Shakhtar D.,Conference League,-,-,-,-,-,-,,,-
+467243,Viktor Korniyenko,#99,Left-Back,Shakhtar D.,Conference League,,,,,,,,,
+935048,Denys Tvardovskyi,#48,Goalkeeper,Shakhtar D.,Conference League,-,-,,-,-,-,-,-,-
+717198,Danylo Udod,#46,Centre-Back,Shakhtar D.,Conference League,,,,,,,,,
+203074,Ivan Petryak,#34,Left Winger,Shakhtar D.,Conference League,,,,,,,,,
+935046,Roman Savchenko,#0,Centre-Back,Shakhtar D.,Conference League,,,,,,,,,
+935047,Kyrylo Sigeev,#0,Central Midfield,Shakhtar D.,Conference League,,,,,,,,,
+643574,Kaishu Sano,#6,Defensive Midfield,Mainz,Conference League,10,1,2,-,-,-,,,744'
+232454,Nadiem Amiri,#10,Central Midfield,Mainz,Conference League,5,2,-,2,-,1,,,395'
+503160,Paul Nebel,#8,Attacking Midfield,Mainz,Conference League,10,-,2,1,-,-,,,744'
+1073748,Kacper Potulski,#48,Centre-Back,Mainz,Conference League,8,-,-,-,-,-,,,482'
+796213,Nelson Weiper,#44,Centre-Forward,Mainz,Conference League,8,1,-,-,-,-,,,509'
+453870,Benedict Hollerbach,#17,Centre-Forward,Mainz,Conference League,4,1,1,-,-,-,,,151'
+453016,Anthony Caci,#19,Right-Back,Mainz,Conference League,1,-,-,-,-,-,,,18'
+223974,Stefan Posch,#4,Centre-Back,Mainz,Conference League,4,2,-,2,-,-,,,360'
+370683,Andreas Hanche-Olsen,#25,Centre-Back,Mainz,Conference League,5,-,-,1,-,-,,,386'
+610400,William Bøving,#14,Centre-Forward,Mainz,Conference League,8,-,-,-,-,-,,,289'
+288340,Phillip Tietz,#20,Centre-Forward,Mainz,Conference League,4,-,-,1,-,-,,,352'
+569033,Armindo Sieb,#11,Second Striker,Mainz,Conference League,7,1,-,2,-,-,,,218'
+160963,Robin Zentner,#27,Goalkeeper,Mainz,Conference League,4,-,,1,-,-,1,3,294'
+612826,Silas,#26,Right Winger,Mainz,Conference League,1,-,-,-,-,-,,,65'
+392710,Lennard Maloney,#15,Defensive Midfield,Mainz,Conference League,8,-,-,1,-,-,,,230'
+314398,Jae-sung Lee,#7,Attacking Midfield,Mainz,Conference League,7,1,2,-,-,-,,,336'
+118847,Dominik Kohr,#31,Centre-Back,Mainz,Conference League,9,-,-,2,-,-,,,802'
+188888,Sheraldo Becker,#23,Left Winger,Mainz,Conference League,,,,,,,,,
+733371,Sota Kawasaki,#24,Defensive Midfield,Mainz,Conference League,7,1,1,1,-,-,,,371'
+127573,Phillipp Mwene,#2,Left-Back,Mainz,Conference League,7,-,-,-,-,-,,,478'
+601143,Nikolas Veratschnig,#22,Right Midfield,Mainz,Conference League,6,-,-,1,1,-,,,265'
+85906,Danny da Costa,#21,Centre-Back,Mainz,Conference League,8,-,1,-,-,-,,,717'
+334207,Maxim Leitsch,#5,Centre-Back,Mainz,Conference League,-,-,-,-,-,-,,,-
+168989,Silvan Widmer,#30,Right-Back,Mainz,Conference League,10,1,-,-,-,-,,,558'
+82350,Stefan Bell,#16,Centre-Back,Mainz,Conference League,2,-,-,1,-,-,,,135'
+490609,Lasse Rieß,#1,Goalkeeper,Mainz,Conference League,1,-,,-,-,-,1,-,66'
+1154876,Kasey Bos,#18,Left-Back,Mainz,Conference League,,,,,,,,,
+470815,Niklas Tauer,#28,Defensive Midfield,Mainz,Conference League,,,,,,,,,
+90317,Daniel Batz,#33,Goalkeeper,Mainz,Conference League,6,-,,1,-,-,5,4,540'
+906969,Daniel Gleiber,#42,Central Midfield,Mainz,Conference League,1,-,-,-,-,-,,,24'
+934317,Maxim Dal,#47,Centre-Back,Mainz,Conference League,,,,,,,,,
+366707,Yahav Gurfinkel,#13,Left-Back,AEK Larnaca,Conference League,2,-,-,-,-,-,,,63'
+223727,Godswill Ekpolo,#22,Right-Back,AEK Larnaca,Conference League,7,-,1,2,-,-,,,554'
+358845,Djordje Ivanovic,#9,Left Winger,AEK Larnaca,Conference League,8,1,-,-,-,-,,,596'
+538527,Enzo Cabrera,#30,Centre-Forward,AEK Larnaca,Conference League,5,-,-,-,-,-,,,111'
+339584,Robert Mudrazija,#32,Attacking Midfield,AEK Larnaca,Conference League,2,-,-,-,-,-,,,18'
+633724,Yerson Chacón,#18,Left Winger,AEK Larnaca,Conference League,2,-,1,-,-,-,,,103'
+242497,Pere Pons,#17,Central Midfield,AEK Larnaca,Conference League,7,-,-,3,-,-,,,611'
+684307,Youssef Amyn,#20,Left Winger,AEK Larnaca,Conference League,,,,,,,,,
+157167,Hrvoje Milicevic,#15,Centre-Back,AEK Larnaca,Conference League,8,-,1,2,-,-,,,750'
+203970,Charalampos Kyriakou,#25,Defensive Midfield,AEK Larnaca,Conference League,2,-,-,-,-,-,,,34'
+404688,Waldo Rubio,#10,Left Winger,AEK Larnaca,Conference League,6,1,-,1,-,-,,,312'
+139352,Gus Ledes,#7,Defensive Midfield,AEK Larnaca,Conference League,8,-,1,-,-,-,,,750'
+337946,Jairo Izquierdo,#23,Left-Back,AEK Larnaca,Conference League,,,,,,,,,
+719737,Álex Cardero,#86,Attacking Midfield,AEK Larnaca,Conference League,,,,,,,,,
+263267,Riad Bajic,#11,Centre-Forward,AEK Larnaca,Conference League,8,2,-,1,-,-,,,585'
+595781,Jimmy Suárez,#6,Central Midfield,AEK Larnaca,Conference League,4,-,-,-,-,-,,,131'
+205809,Marcus Rohdén,#8,Central Midfield,AEK Larnaca,Conference League,4,1,2,1,-,-,,,356'
+507160,Petros Ioannou,#2,Right-Back,AEK Larnaca,Conference League,3,-,-,-,-,1,,,182'
+511876,Giorgos Naoum,#29,Attacking Midfield,AEK Larnaca,Conference League,5,-,-,2,-,-,,,271'
+85372,Enric Saborit,#4,Centre-Back,AEK Larnaca,Conference League,6,1,-,1,1,-,,,434'
+246278,Ángel García,#14,Left-Back,AEK Larnaca,Conference League,4,-,-,-,-,-,,,240'
+605779,Kewin Komar,#12,Goalkeeper,AEK Larnaca,Conference League,,,,,,,,,
+47594,Zlatan Alomerovic,#1,Goalkeeper,AEK Larnaca,Conference League,8,-,,-,-,-,3,6,750'
+399664,Dimitris Dimitriou,#99,Goalkeeper,AEK Larnaca,Conference League,-,-,,-,-,-,-,-,-
+228917,Jorge Miramón,#21,Right Midfield,AEK Larnaca,Conference League,7,-,-,1,-,-,,,505'
+341023,Andreas Paraskevas,#51,Goalkeeper,AEK Larnaca,Conference League,-,-,,-,-,-,-,-,-
+1015621,Mathias Gonzalez,#41,Second Striker,AEK Larnaca,Conference League,3,-,-,1,-,-,,,33'
+87422,Valentin Roberge,#27,Centre-Back,AEK Larnaca,Conference League,6,-,-,1,-,-,,,313'
+1078685,Christos Loukaidis,#36,Centre-Forward,AEK Larnaca,Conference League,-,-,-,-,-,-,,,-
+1112133,Maximos Petousis,#42,Right-Back,AEK Larnaca,Conference League,,,,,,,,,
+1197100,Christodoulos Thoma,#35,Central Midfield,AEK Larnaca,Conference League,-,-,-,-,-,-,,,-
+1374131,David Gerasimou,#37,Left Winger,AEK Larnaca,Conference League,1,-,-,1,-,-,,,6'
+707657,Karim Sow,#71,Centre-Back,Lausanne-Sport,Conference League,5,-,-,2,-,-,,,450'
+1060454,Omar Janneh,#78,Centre-Forward,Lausanne-Sport,Conference League,2,1,1,-,-,-,,,146'
+667870,Jamie Roche,#8,Defensive Midfield,Lausanne-Sport,Conference League,6,-,-,1,-,-,,,540'
+1227723,Gaoussou Diakité,#70,Centre-Forward,Lausanne-Sport,Conference League,7,2,-,-,-,-,,,535'
+900486,Gabriel Sigua,#38,Central Midfield,Lausanne-Sport,Conference League,6,1,1,1,-,-,,,388'
+501709,Theo Bair,#9,Centre-Forward,Lausanne-Sport,Conference League,6,2,-,-,-,-,,,506'
+318707,Karlo Letica,#25,Goalkeeper,Lausanne-Sport,Conference League,8,-,,-,-,-,6,4,720'
+970137,Beyatt Lekoueiry,#27,Attacking Midfield,Lausanne-Sport,Conference League,7,1,-,3,-,-,,,433'
+546880,Brandon Soppy,#2,Right Midfield,Lausanne-Sport,Conference League,8,-,1,1,-,-,,,720'
+629637,Kévin Mouanga,#14,Centre-Back,Lausanne-Sport,Conference League,8,-,1,1,-,-,,,720'
+668941,Sékou Fofana,#93,Left-Back,Lausanne-Sport,Conference League,6,-,1,1,-,-,,,329'
+1020507,Theo Bergvall,#6,Right-Back,Lausanne-Sport,Conference League,1,-,-,-,-,-,,,9'
+638964,Nathan Butler-Oyedeji,#11,Centre-Forward,Lausanne-Sport,Conference League,8,1,-,1,-,-,,,453'
+382774,Nicky Beloko,#16,Central Midfield,Lausanne-Sport,Conference League,7,-,-,2,-,-,,,318'
+272640,Morgan Poaty,#18,Left-Back,Lausanne-Sport,Conference League,7,-,-,-,-,-,,,398'
+511801,Alban Ajdini,#7,Right Winger,Lausanne-Sport,Conference League,6,-,-,-,-,-,,,179'
+847262,Seydou Traoré,#17,Centre-Forward,Lausanne-Sport,Conference League,2,-,-,-,-,-,,,51'
+1194813,Enzo Kana-Biyik,#22,Centre-Forward,Lausanne-Sport,Conference League,3,-,1,-,-,-,,,84'
+668259,Hamza Abdallah,#20,Right-Back,Lausanne-Sport,Conference League,2,-,-,1,-,-,,,8'
+923809,Dircssi Ngonzo,#5,Centre-Back,Lausanne-Sport,Conference League,-,-,-,-,-,-,,,-
+222859,Florent Mollet,#91,Attacking Midfield,Lausanne-Sport,Conference League,2,-,-,-,-,-,,,103'
+1133978,Sékou Koné,#80,Defensive Midfield,Lausanne-Sport,Conference League,,,,,,,,,
+183312,Olivier Custodio,#10,Defensive Midfield,Lausanne-Sport,Conference League,7,-,-,2,-,-,,,433'
+866282,Souleymane N'Diaye,#47,Central Midfield,Lausanne-Sport,Conference League,1,-,-,-,-,-,,,18'
+1177907,Ethan Bruchez,#19,Attacking Midfield,Lausanne-Sport,Conference League,-,-,-,-,-,-,,,-
+1060759,Rodolfo Lippo,#54,Centre-Back,Lausanne-Sport,Conference League,-,-,-,-,-,-,,,-
+165435,Thomas Castella,#1,Goalkeeper,Lausanne-Sport,Conference League,-,-,,-,-,-,-,-,-
+744149,Adam Wharton,#20,Defensive Midfield,Crystal Palace,Conference League,11,-,1,2,-,-,,,713'
+429983,Jørgen Strand Larsen,#22,Centre-Forward,Crystal Palace,Conference League,5,-,1,3,-,-,,,402'
+434224,Maxence Lacroix,#5,Centre-Back,Crystal Palace,Conference League,11,2,-,2,-,-,,,945'
+568157,Yéremy Pino,#10,Right Winger,Crystal Palace,Conference League,10,1,2,1,-,-,,,519'
+410225,Ismaïla Sarr,#7,Right Winger,Crystal Palace,Conference League,10,7,-,2,-,-,,,833'
+420002,Jean-Philippe Mateta,#14,Centre-Forward,Crystal Palace,Conference League,9,1,2,1,-,-,,,475'
+470607,Brennan Johnson,#11,Right Winger,Crystal Palace,Conference League,5,-,1,-,-,-,,,228'
+258919,Dean Henderson,#1,Goalkeeper,Crystal Palace,Conference League,9,-,,-,-,-,7,4,810'
+500689,Evann Guessand,#29,Right Winger,Crystal Palace,Conference League,5,1,-,-,-,-,,,325'
+493003,Daniel Muñoz,#2,Right-Back,Crystal Palace,Conference League,9,1,1,-,-,-,,,774'
+730893,Tyrick Mitchell,#3,Left-Back,Crystal Palace,Conference League,10,2,1,-,-,-,,,780'
+578539,Chris Richards,#26,Centre-Back,Crystal Palace,Conference League,10,-,-,2,-,-,,,841'
+1006411,Jaydee Canvot,#23,Centre-Back,Crystal Palace,Conference League,9,-,-,2,-,-,,,709'
+1124005,Christantus Uche,#12,Centre-Forward,Crystal Palace,Conference League,4,2,-,-,-,-,,,173'
+340324,Eddie Nketiah,#9,Centre-Forward,Crystal Palace,Conference League,5,2,1,1,-,-,,,184'
+543387,Cheick Doucouré,#28,Defensive Midfield,Crystal Palace,Conference League,,,,,,,,,
+356141,Daichi Kamada,#18,Attacking Midfield,Crystal Palace,Conference League,11,-,3,-,-,-,,,736'
+689637,Chadi Riad,#34,Centre-Back,Crystal Palace,Conference League,2,-,-,1,-,-,,,136'
+747009,Justin Devenny,#55,Attacking Midfield,Crystal Palace,Conference League,4,1,1,-,-,-,,,210'
+262980,Jefferson Lerma,#8,Defensive Midfield,Crystal Palace,Conference League,9,-,-,-,-,-,,,501'
+207014,Will Hughes,#19,Central Midfield,Crystal Palace,Conference League,10,-,-,1,-,-,,,360'
+296802,Walter Benítez,#44,Goalkeeper,Crystal Palace,Conference League,3,-,,-,-,-,3,1,300'
+293194,Borna Sosa,#24,Left-Back,Crystal Palace,Conference League,4,-,-,1,1,-,,,319'
+1047261,Caleb Kporha,#58,Right-Back,Crystal Palace,Conference League,,,,,,,,,
+85177,Nathaniel Clyne,#17,Right-Back,Crystal Palace,Conference League,2,-,-,-,-,-,,,27'
+196722,Remi Matthews,#31,Goalkeeper,Crystal Palace,Conference League,-,-,,-,-,-,-,-,-
+1047257,Rio Cardines,#59,Left-Back,Crystal Palace,Conference League,1,-,-,-,-,-,,,2'
+860078,Kaden Rodney,#42,Defensive Midfield,Crystal Palace,Conference League,1,-,-,-,-,-,,,90'
+555057,Antoni Kozubal,#43,Defensive Midfield,Lech Poznan,Conference League,10,2,-,1,-,-,,,706'
+1007295,Wojciech Mońka,#27,Centre-Back,Lech Poznan,Conference League,7,-,-,-,-,-,,,630'
+539043,Luis Palma,#77,Left Winger,Lech Poznan,Conference League,10,2,4,-,-,-,,,734'
+991779,Michał Gurgul,#15,Left-Back,Lech Poznan,Conference League,8,-,1,1,-,-,,,642'
+345452,Bartosz Mrozek,#41,Goalkeeper,Lech Poznan,Conference League,10,-,,1,-,-,12,3,900'
+225165,Joel Pereira,#2,Right-Back,Lech Poznan,Conference League,10,-,2,2,-,-,,,777'
+721470,Patrik Wålemark,#10,Attacking Midfield,Lech Poznan,Conference League,4,-,-,-,-,-,,,130'
+294772,Ali Gholizadeh,#8,Right Winger,Lech Poznan,Conference League,6,-,-,1,-,-,,,258'
+537765,Pablo Rodríguez,#99,Attacking Midfield,Lech Poznan,Conference League,9,1,3,-,-,-,,,696'
+926954,Yannick Agnero,#7,Centre-Forward,Lech Poznan,Conference League,10,1,-,1,-,-,,,170'
+859218,Plamen Andreev,#1,Goalkeeper,Lech Poznan,Conference League,-,-,,-,-,-,-,-,-
+676476,Taofeek Ismaheel,#88,Right Winger,Lech Poznan,Conference League,10,3,3,-,-,-,,,528'
+448284,Daniel Håkans,#11,Left Winger,Lech Poznan,Conference League,1,-,-,1,-,-,,,30'
+323325,Leo Bengtsson,#14,Left Winger,Lech Poznan,Conference League,8,1,-,-,-,-,,,268'
+952979,Timothy Ouma,#6,Defensive Midfield,Lech Poznan,Conference League,6,-,-,2,-,-,,,450'
+539008,Alex Douglas,#3,Centre-Back,Lech Poznan,Conference League,2,-,-,-,-,-,,,110'
+345454,Mateusz Skrzypczak,#72,Centre-Back,Lech Poznan,Conference League,8,-,-,1,-,-,,,590'
+242813,Filip Jagiełło,#24,Attacking Midfield,Lech Poznan,Conference League,5,-,1,-,-,-,,,269'
+461906,João Moutinho,#4,Left-Back,Lech Poznan,Conference League,5,-,-,-,-,-,,,258'
+353826,Robert Gumny,#20,Right-Back,Lech Poznan,Conference League,5,-,-,1,-,-,,,131'
+153637,Mikael Ishak,#9,Centre-Forward,Lech Poznan,Conference League,10,8,1,1,-,-,,,741'
+825960,Gísli Thórdarson,#23,Defensive Midfield,Lech Poznan,Conference League,5,-,-,-,-,-,,,230'
+179896,Antonio Milic,#16,Centre-Back,Lech Poznan,Conference League,6,-,-,2,-,-,,,470'
+1148082,Kornel Lisman,#56,Left Winger,Lech Poznan,Conference League,3,-,-,-,-,-,,,116'
+220969,Radosław Murawski,#22,Defensive Midfield,Lech Poznan,Conference League,,,,,,,,,
+1073752,Kamil Jakóbczyk,#54,Centre-Forward,Lech Poznan,Conference League,-,-,-,-,-,-,,,-
+1018353,Mateusz Pruchniewski,#33,Goalkeeper,Lech Poznan,Conference League,-,-,,-,-,-,-,-,-
+1137026,Sammy Dudek,#53,Defensive Midfield,Lech Poznan,Conference League,-,-,-,-,-,-,,,-
+1207415,Wojciech Szymczak,#17,Centre-Forward,Lech Poznan,Conference League,,,,,,,,,
+1295659,Hubert Janyszka,#90,Centre-Back,Lech Poznan,Conference League,,,,,,,,,
+345577,Carlo Holse,#21,Attacking Midfield,Samsunspor,Conference League,10,2,5,2,-,-,,,876'
+480705,Cherif Ndiaye,#19,Centre-Forward,Samsunspor,Conference League,4,2,-,-,-,-,,,245'
+598399,Marius Mouandilmadji,#9,Centre-Forward,Samsunspor,Conference League,10,8,3,2,-,-,,,820'
+354340,Rick van Drongelen,#4,Centre-Back,Samsunspor,Conference League,10,-,-,3,-,-,,,900'
+460651,Antoine Makoumbou,#29,Defensive Midfield,Samsunspor,Conference League,10,-,1,1,-,-,,,783'
+375378,Afonso Sousa,#77,Attacking Midfield,Samsunspor,Conference League,-,-,-,-,-,-,,,-
+224088,Olivier Ntcham,#10,Central Midfield,Samsunspor,Conference League,6,1,-,1,-,-,,,465'
+579284,Joe Mendes,#2,Right-Back,Samsunspor,Conference League,9,-,-,1,-,-,,,341'
+472873,Logi Tómasson,#17,Left-Back,Samsunspor,Conference League,10,-,-,-,-,-,,,861'
+396342,Toni Borevković,#24,Centre-Back,Samsunspor,Conference League,5,-,-,1,-,-,,,114'
+204189,Okan Kocuk,#1,Goalkeeper,Samsunspor,Conference League,10,-,,-,-,-,9,6,900'
+1066904,Jaurès Assoumou,#47,Left Winger,Samsunspor,Conference League,2,-,2,-,-,-,,,168'
+168408,Lubomir Satka,#37,Centre-Back,Samsunspor,Conference League,9,-,-,1,-,-,,,810'
+322873,İrfan Can Eğribayat,#71,Goalkeeper,Samsunspor,Conference League,-,-,,-,-,-,-,-,-
+462086,Elayis Tavsan,#7,Right Winger,Samsunspor,Conference League,,,,,,,,,
+208848,Emre Kılınç,#11,Left Winger,Samsunspor,Conference League,7,1,1,1,-,-,,,415'
+618425,Tanguy Coulibaly,#70,Right Winger,Samsunspor,Conference League,4,-,-,-,-,-,,,171'
+336074,Celil Yüksel,#5,Central Midfield,Samsunspor,Conference League,7,-,1,3,-,-,,,424'
+605266,Yalçın Kayan,#20,Central Midfield,Samsunspor,Conference League,,,,,,,,,
+340967,Soner Gönül,#28,Left-Back,Samsunspor,Conference League,5,-,-,-,-,-,,,35'
+821622,Yunus Emre Çift,#55,Defensive Midfield,Samsunspor,Conference League,8,-,-,2,-,-,,,312'
+98131,Zeki Yavru,#18,Right-Back,Samsunspor,Conference League,9,-,2,-,1,-,,,645'
+1142144,Tahsin Bülbül,#16,Left Winger,Samsunspor,Conference League,2,-,-,-,-,-,,,49'
+1017551,Bedirhan Çetin,#96,Centre-Back,Samsunspor,Conference League,,,,,,,,,
+1072260,Enes Albak,#23,Left-Back,Samsunspor,Conference League,-,-,-,-,-,-,,,-
+1457367,Ali Badra Diabaté,#15,Centre-Back,Samsunspor,Conference League,,,,,,,,,
+1432633,Ebrima Ceesay,#99,Centre-Forward,Samsunspor,Conference League,3,-,-,1,-,-,,,17'
+928352,Muhammet Özbaskıcı,#0,Central Midfield,Samsunspor,Conference League,,,,,,,,,
+1070009,Efe Berat Törüz,#48,Goalkeeper,Samsunspor,Conference League,-,-,,-,-,-,-,-,-
+1015607,Alper Efe Pazar,#0,Central Midfield,Samsunspor,Conference League,,,,,,,,,
+1237420,Efe Yiğit Üstün,#33,Goalkeeper,Samsunspor,Conference League,,,,,,,,,
+1303364,Eyüp Değirmenci,#73,Defensive Midfield,Samsunspor,Conference League,,,,,,,,,
+1435403,Franck Atoen,#25,Defensive Midfield,Samsunspor,Conference League,-,-,-,-,-,-,,,-
+1494766,Saikuba Jarju,#30,Left Winger,Samsunspor,Conference League,,,,,,,,,
+603368,Svit Seslar,#10,Attacking Midfield,NK Celje,Conference League,4,2,1,-,-,-,,,327'
+614464,Nikita Iosifov,#20,Left Winger,NK Celje,Conference League,10,2,1,-,-,-,,,855'
+647701,Artemijus Tutyskinas,#6,Centre-Back,NK Celje,Conference League,8,-,-,-,-,1,,,629'
+507403,Zan Karnicnik,#23,Right-Back,NK Celje,Conference League,6,1,-,-,-,-,,,463'
+668433,Armandas Kucys,#47,Centre-Forward,NK Celje,Conference League,4,1,1,-,-,-,,,266'
+605757,Zan-Luk Leban,#1,Goalkeeper,NK Celje,Conference League,9,-,,1,-,-,15,2,810'
+577785,Mark Zabukovnik,#19,Defensive Midfield,NK Celje,Conference League,,,,,,,,,
+168152,Rudi Pozeg Vancas,#94,Attacking Midfield,NK Celje,Conference League,6,1,1,-,-,-,,,225'
+1170713,Florjan Jevsenak,#7,Attacking Midfield,NK Celje,Conference League,4,-,-,-,-,-,,,115'
+653719,Jakov Pranjic,#22,Attacking Midfield,NK Celje,Conference League,5,-,-,-,-,-,,,329'
+636756,Milot Avdyli,#11,Right Winger,NK Celje,Conference League,10,1,1,-,-,-,,,415'
+554969,Łukasz Bejger,#44,Centre-Back,NK Celje,Conference League,10,-,1,1,-,-,,,889'
+513526,David Castro,#15,Centre-Back,NK Celje,Conference League,2,-,-,1,-,-,,,47'
+382007,Andrej Kotnik,#17,Attacking Midfield,NK Celje,Conference League,6,-,-,-,-,-,,,95'
+327207,Juanjo Nieto,#2,Right-Back,NK Celje,Conference League,10,-,-,2,-,-,,,855'
+188201,Simon Sluga,#21,Goalkeeper,NK Celje,Conference League,1,-,,-,-,-,-,1,90'
+587507,Ivica Vidovic,#16,Attacking Midfield,NK Celje,Conference League,7,1,-,-,-,-,,,269'
+183843,Damjan Vuklisevic,#3,Centre-Back,NK Celje,Conference League,5,-,-,1,-,-,,,344'
+543836,Darko Hrka,#4,Defensive Midfield,NK Celje,Conference League,9,1,1,4,-,-,,,541'
+491032,Nino Vukasovic,#14,Left-Back,NK Celje,Conference League,,,,,,,,,
+641060,Ivan Calusic,#27,Defensive Midfield,NK Celje,Conference League,3,-,-,1,-,-,,,255'
+166173,Mario Kvesic,#8,Attacking Midfield,NK Celje,Conference League,10,-,1,2,-,-,,,750'
+235360,Matej Poplatnik,#99,Centre-Forward,NK Celje,Conference League,5,1,-,1,-,-,,,107'
+860297,Papa Daniel,#13,Central Midfield,NK Celje,Conference League,7,-,-,1,-,-,,,291'
+842336,Gasper Vodeb,#5,Centre-Back,NK Celje,Conference League,1,-,-,-,-,-,,,31'
+981082,Luka Kolar,#12,Goalkeeper,NK Celje,Conference League,-,-,,-,-,-,-,-,-
+859035,Kees Smit,#26,Central Midfield,AZ Alkmaar,Conference League,10,-,4,1,-,-,,,754'
+552655,Troy Parrott,#9,Centre-Forward,AZ Alkmaar,Conference League,10,3,1,1,-,-,,,775'
+646707,Wouter Goes,#3,Centre-Back,AZ Alkmaar,Conference League,10,-,-,3,-,-,,,872'
+578804,Sven Mijnans,#10,Attacking Midfield,AZ Alkmaar,Conference League,11,6,-,1,-,-,,,909'
+361074,Peer Koopmeiners,#6,Defensive Midfield,AZ Alkmaar,Conference League,10,-,2,-,-,-,,,888'
+678546,Mexx Meerdink,#35,Centre-Forward,AZ Alkmaar,Conference League,6,-,-,-,-,-,,,212'
+479643,Alexandre Penetra,#5,Centre-Back,AZ Alkmaar,Conference League,10,-,-,1,-,1,,,812'
+704772,Rome-Jayden Owusu-Oduro,#1,Goalkeeper,AZ Alkmaar,Conference League,8,-,,-,-,-,8,5,720'
+959106,Weslley Patati,#7,Right Winger,AZ Alkmaar,Conference League,10,-,-,2,-,-,,,629'
+577394,Denso Kasius,#30,Right-Back,AZ Alkmaar,Conference League,4,-,2,2,-,-,,,287'
+315254,Mees de Wit,#34,Left-Back,AZ Alkmaar,Conference League,11,1,1,1,-,-,,,848'
+1078350,Ayoub Oufkir,#24,Right Winger,AZ Alkmaar,Conference League,3,-,-,-,-,-,,,69'
+1066953,Mateo Chávez,#15,Left-Back,AZ Alkmaar,Conference League,7,-,-,4,-,-,,,453'
+724025,Matej Sin,#33,Attacking Midfield,AZ Alkmaar,Conference League,7,1,-,-,-,-,,,197'
+801886,Isak Jensen,#17,Left Winger,AZ Alkmaar,Conference League,11,5,1,3,-,-,,,573'
+543501,Ibrahim Sadiq,#11,Right Winger,AZ Alkmaar,Conference League,9,1,-,3,-,-,,,421'
+733438,Seiya Maikuma,#2,Right-Back,AZ Alkmaar,Conference League,2,-,-,-,-,-,,,90'
+185817,Jizz Hornkamp,#19,Centre-Forward,AZ Alkmaar,Conference League,-,-,-,-,-,-,,,-
+988406,Kasper Boogaard,#20,Defensive Midfield,AZ Alkmaar,Conference League,4,-,-,2,-,-,,,211'
+957241,Elijah Dijkstra,#22,Right-Back,AZ Alkmaar,Conference League,10,-,-,1,-,-,,,436'
+800995,Ro-Zangelo Daal,#27,Left Winger,AZ Alkmaar,Conference League,9,2,3,-,-,-,,,454'
+936294,Rion Ichihara,#18,Centre-Back,AZ Alkmaar,Conference League,1,-,-,-,-,-,,,90'
+104223,Jordy Clasie,#8,Defensive Midfield,AZ Alkmaar,Conference League,,,,,,,,,
+646704,Maxim Dekker,#4,Centre-Back,AZ Alkmaar,Conference League,3,-,-,-,-,-,,,190'
+1008564,Billy van Duijl,#23,Centre-Back,AZ Alkmaar,Conference League,4,-,-,1,-,-,,,244'
+990008,Wassim Bouziane,#75,Left Winger,AZ Alkmaar,Conference League,1,-,-,-,-,-,,,66'
+79045,Jeroen Zoet,#41,Goalkeeper,AZ Alkmaar,Conference League,4,-,,-,-,-,6,1,360'
+116471,Hobie Verhulst,#12,Goalkeeper,AZ Alkmaar,Conference League,-,-,,-,-,-,-,-,-
+635371,Daniël Deen,#31,Goalkeeper,AZ Alkmaar,Conference League,-,-,,-,-,-,-,-,-
+364135,Moise Kean,#20,Centre-Forward,Fiorentina,Conference League,6,1,1,1,-,-,,,263'
+746712,Pietro Comuzzo,#15,Centre-Back,Fiorentina,Conference League,11,-,-,3,-,-,,,763'
+401529,Dodô,#2,Right-Back,Fiorentina,Conference League,9,-,1,3,-,-,,,588'
+432090,Nicolò Fagioli,#44,Central Midfield,Fiorentina,Conference League,9,1,-,2,-,-,,,454'
+432092,Roberto Piccoli,#91,Centre-Forward,Fiorentina,Conference League,10,3,1,2,-,-,,,780'
+305947,Albert Gudmundsson,#10,Second Striker,Fiorentina,Conference League,10,4,2,2,-,-,,,381'
+308279,Rolando Mandragora,#8,Defensive Midfield,Fiorentina,Conference League,12,1,1,2,-,-,,,569'
+984964,Niccolò Fortini,#29,Left-Back,Fiorentina,Conference League,9,-,1,1,-,-,,,592'
+651005,Cher Ndour,#27,Central Midfield,Fiorentina,Conference League,11,4,2,5,-,-,,,901'
+633668,Giovanni Fabbian,#80,Attacking Midfield,Fiorentina,Conference League,6,-,-,-,-,-,,,495'
+691482,Jacopo Fazzini,#22,Central Midfield,Fiorentina,Conference League,9,-,1,1,-,-,,,431'
+396638,Manor Solomon,#19,Left Winger,Fiorentina,Conference League,2,-,1,-,-,-,,,113'
+459128,Marco Brescianini,#4,Central Midfield,Fiorentina,Conference League,,,,,,,,,
+417346,Jack Harrison,#17,Left Winger,Fiorentina,Conference League,6,-,-,-,-,-,,,432'
+282144,Marin Pongracic,#5,Centre-Back,Fiorentina,Conference League,10,1,-,5,-,-,,,762'
+346561,Luca Ranieri,#6,Centre-Back,Fiorentina,Conference League,8,1,-,2,-,-,,,687'
+547985,Fabiano Parisi,#65,Left-Back,Fiorentina,Conference League,7,-,-,1,-,-,,,406'
+504148,Tariq Lamptey,#48,Right-Back,Fiorentina,Conference League,,,,,,,,,
+273132,Robin Gosens,#21,Left-Back,Fiorentina,Conference League,7,-,-,-,-,-,,,505'
+59377,David de Gea,#43,Goalkeeper,Fiorentina,Conference League,7,-,,1,-,-,8,2,615'
+957822,Eddy Kouadio,#60,Centre-Back,Fiorentina,Conference League,5,-,1,1,-,-,,,137'
+162959,Daniele Rugani,#3,Centre-Back,Fiorentina,Conference League,,,,,,,,,
+1015822,Eman Košpo,#23,Centre-Back,Fiorentina,Conference League,-,-,-,-,-,-,,,-
+471936,Oliver Christensen,#53,Goalkeeper,Fiorentina,Conference League,2,-,,-,-,-,2,-,180'
+340394,Abdelhamid Sabiri,#11,Attacking Midfield,Fiorentina,Conference League,-,-,-,-,-,-,,,-
+1012731,Luis Balbo,#62,Left-Back,Fiorentina,Conference League,3,-,-,-,-,-,,,38'
+135747,Luca Lezzerini,#1,Goalkeeper,Fiorentina,Conference League,2,-,,1,-,-,2,1,135'
+432758,Toni Fruk,#10,Attacking Midfield,HNK Rijeka,Conference League,10,5,-,1,-,-,,,849'
+429987,Tiago Dantas,#26,Central Midfield,HNK Rijeka,Conference League,10,-,3,-,-,-,,,687'
+384568,Stjepan Radeljic,#6,Centre-Back,HNK Rijeka,Conference League,7,-,3,2,-,-,,,623'
+650966,Samuele Vignato,#19,Attacking Midfield,HNK Rijeka,Conference League,7,-,1,-,-,-,,,396'
+495320,Martin Zlomislic,#13,Goalkeeper,HNK Rijeka,Conference League,10,-,,-,-,-,6,5,900'
+320859,Dejan Petrovic,#8,Central Midfield,HNK Rijeka,Conference League,7,1,-,3,-,-,,,466'
+745248,Ante Orec,#22,Right-Back,HNK Rijeka,Conference League,10,-,1,2,-,-,,,842'
+376452,Mladen Devetak,#34,Left-Back,HNK Rijeka,Conference League,9,-,-,1,-,-,,,724'
+365107,Anel Husic,#51,Centre-Back,HNK Rijeka,Conference League,6,-,-,2,-,-,,,529'
+963878,Daniel Adu-Adjei,#18,Centre-Forward,HNK Rijeka,Conference League,10,4,1,-,-,-,,,603'
+927331,Ante Matej Juric,#77,Centre-Forward,HNK Rijeka,Conference League,7,-,-,1,-,-,,,219'
+743567,Gabriel Rukavina,#11,Left Winger,HNK Rijeka,Conference League,1,-,-,-,-,-,,,10'
+345311,Justas Lasickas,#23,Right-Back,HNK Rijeka,Conference League,10,-,-,-,-,-,,,554'
+207025,Ante Majstorovic,#45,Centre-Back,HNK Rijeka,Conference League,7,1,-,3,-,-,,,630'
+671538,Alfonso Barco,#55,Defensive Midfield,HNK Rijeka,Conference League,4,-,-,2,-,-,,,340'
+927847,Bruno Burcul,#24,Defensive Midfield,HNK Rijeka,Conference League,,,,,,,,,
+847256,Dimitri Legbo,#24,Left Winger,HNK Rijeka,Conference League,,,,,,,,,
+927834,Noel Bodetic,#91,Left-Back,HNK Rijeka,Conference League,-,-,-,-,-,-,,,-
+1009485,Branko Pavic,#66,Defensive Midfield,HNK Rijeka,Conference League,,,,,,,,,
+293210,Amer Gojak,#14,Attacking Midfield,HNK Rijeka,Conference League,7,-,1,-,-,-,,,349'
+1277268,Dominik Thaqi,#25,Right Winger,HNK Rijeka,Conference League,2,-,1,-,-,-,,,133'
+658713,Tornike Morchiladze,#7,Left Winger,HNK Rijeka,Conference League,2,-,-,-,1,-,,,17'
+398886,Merveil Ndockyt,#20,Attacking Midfield,HNK Rijeka,Conference League,8,-,-,3,-,-,,,446'
+1373497,Cherno Saho,#37,Centre-Forward,HNK Rijeka,Conference League,,,,,,,,,
+358195,David Nwolokor,#31,Goalkeeper,HNK Rijeka,Conference League,,,,,,,,,
+979773,Téo Barišić,#28,Right-Back,HNK Rijeka,Conference League,2,-,-,1,-,-,,,91'
+71594,Mile Skoric,#5,Centre-Back,HNK Rijeka,Conference League,,,,,,,,,
+46415,Duje Cop,#9,Centre-Forward,HNK Rijeka,Conference League,4,-,-,-,-,-,,,99'
+1056494,Rajan Zlibanovic,#70,Central Midfield,HNK Rijeka,Conference League,,,,,,,,,
+750003,Aleksa Todorovic,#99,Goalkeeper,HNK Rijeka,Conference League,-,-,,-,-,-,-,-,-
+610163,Florent Shehu,#0,Attacking Midfield,HNK Rijeka,Conference League,,,,,,,,,
+985103,Matej Momcilovski,#0,Right Winger,HNK Rijeka,Conference League,,,,,,,,,
+1056490,Roko Valincic,#0,Centre-Back,HNK Rijeka,Conference League,,,,,,,,,
+1124807,Niko Vucetic,#0,Goalkeeper,HNK Rijeka,Conference League,,,,,,,,,
+410649,Afimico Pululu,#10,Centre-Forward,Jagiellonia,Conference League,7,1,3,2,-,1,,,621'
+805834,Sławomir Abramowicz,#50,Goalkeeper,Jagiellonia,Conference League,6,-,,-,-,-,7,3,570'
+1118873,Bartosz Mazurek,#86,Attacking Midfield,Jagiellonia,Conference League,6,3,-,-,-,-,,,353'
+690273,Bernardo Vital,#13,Centre-Back,Jagiellonia,Conference League,8,-,-,1,1,-,,,750'
+607435,Norbert Wojtuszek,#15,Right-Back,Jagiellonia,Conference League,8,-,-,-,-,-,,,695'
+494236,Andy Pelmard,#70,Centre-Back,Jagiellonia,Conference League,2,-,1,-,-,-,,,210'
+710969,Samed Bazdar,#14,Centre-Forward,Jagiellonia,Conference League,2,-,-,1,-,-,,,143'
+341272,Álex Pozo,#7,Right Winger,Jagiellonia,Conference League,8,-,-,2,-,-,,,614'
+341277,Sergio Lozano,#21,Defensive Midfield,Jagiellonia,Conference League,3,1,-,-,-,-,,,80'
+391929,Leon Flach,#31,Defensive Midfield,Jagiellonia,Conference League,8,-,-,-,-,-,,,464'
+589013,Bartlomiej Wdowik,#27,Left-Back,Jagiellonia,Conference League,8,-,-,2,-,-,,,750'
+469688,Dusan Stojinovic,#3,Centre-Back,Jagiellonia,Conference League,6,1,-,-,-,-,,,454'
+965043,Miłosz Piekutowski,#22,Goalkeeper,Jagiellonia,Conference League,2,-,,-,-,-,2,-,180'
+263843,Matías Nahuel,#19,Left Winger,Jagiellonia,Conference League,,,,,,,,,
+554393,Apostolos Konstantopoulos,#44,Centre-Back,Jagiellonia,Conference League,3,-,-,-,-,-,,,57'
+747953,Dimitris Rallis,#9,Centre-Forward,Jagiellonia,Conference League,7,-,-,-,-,-,,,126'
+658730,Kajetan Szmyt,#77,Left Winger,Jagiellonia,Conference League,,,,,,,,,
+895298,Dawid Drachal,#8,Attacking Midfield,Jagiellonia,Conference League,7,-,1,1,-,-,,,226'
+289167,Kamil Jóźwiak,#72,Left Winger,Jagiellonia,Conference League,2,-,-,1,-,-,,,104'
+575717,Guilherme Montóia,#23,Left-Back,Jagiellonia,Conference League,,,,,,,,,
+667903,Youssuf Sylla,#17,Centre-Forward,Jagiellonia,Conference League,2,-,-,1,-,-,,,8'
+405386,Yuki Kobayashi,#4,Centre-Back,Jagiellonia,Conference League,2,-,-,-,-,-,,,89'
+176423,Jesús Imaz,#11,Attacking Midfield,Jagiellonia,Conference League,7,3,-,-,1,-,,,588'
+280939,Taras Romanczuk,#6,Defensive Midfield,Jagiellonia,Conference League,7,-,1,4,-,-,,,578'
+1325371,Zachary Zalewski,#80,Right Winger,Jagiellonia,Conference League,,,,,,,,,
+1046873,Bartłomiej Krasiewicz,#53,Centre-Back,Jagiellonia,Conference League,-,-,-,-,-,-,,,-
+1066230,Eryk Kozłowski,#85,Defensive Midfield,Jagiellonia,Conference League,1,-,-,-,-,-,,,1'
+1118876,Maciej Kuczyński,#90,Right Winger,Jagiellonia,Conference League,,,,,,,,,
+1205033,Adrian Damasiewicz,#66,Goalkeeper,Jagiellonia,Conference League,-,-,,-,-,-,-,-,-
+1212054,Jakub Rabiczko,#67,Goalkeeper,Jagiellonia,Conference League,,,,,,,,,
+198513,Muamer Tankovic,#22,Attacking Midfield,Omonia Nicosia,Conference League,2,1,-,-,-,-,,,174'
+249543,Ryan Mmaee,#19,Centre-Forward,Omonia Nicosia,Conference League,6,-,1,-,-,-,,,293'
+315128,Carel Eiting,#6,Central Midfield,Omonia Nicosia,Conference League,6,-,-,-,-,-,,,277'
+455494,Mateo Maric,#14,Defensive Midfield,Omonia Nicosia,Conference League,6,-,-,3,-,-,,,404'
+531450,Willy Semedo,#7,Left Winger,Omonia Nicosia,Conference League,8,1,-,1,-,-,,,539'
+288499,Ewandro Costa,#11,Attacking Midfield,Omonia Nicosia,Conference League,7,-,1,2,-,-,,,422'
+562665,Nikolas Panagiotou,#30,Centre-Back,Omonia Nicosia,Conference League,2,-,-,-,-,-,,,135'
+402887,Anastasios Chatzigiovanis,#10,Left Winger,Omonia Nicosia,Conference League,8,-,-,-,-,-,,,247'
+346095,Mihlali Mayambela,#18,Right Winger,Omonia Nicosia,Conference League,,,,,,,,,
+181410,Jure Balkovec,#29,Left-Back,Omonia Nicosia,Conference League,2,-,-,1,-,-,,,180'
+596240,Senou Coulibaly,#5,Centre-Back,Omonia Nicosia,Conference League,5,-,-,1,-,-,,,413'
+554175,Alpha Diounkou,#2,Right-Back,Omonia Nicosia,Conference League,6,-,1,1,-,-,,,280'
+669531,Fotis Kitsos,#3,Left-Back,Omonia Nicosia,Conference League,4,-,-,-,-,-,,,360'
+295780,Giannis Masouras,#21,Right-Back,Omonia Nicosia,Conference League,7,1,-,2,-,-,,,468'
+542824,Novica Erakovic,#44,Central Midfield,Omonia Nicosia,Conference League,6,-,-,-,-,-,,,374'
+302525,Ioannis Kousoulos,#31,Defensive Midfield,Omonia Nicosia,Conference League,5,-,-,2,-,-,,,311'
+556865,Saad Agouzoul,#17,Centre-Back,Omonia Nicosia,Conference League,6,-,-,1,-,-,,,442'
+163738,Moses Odubajo,#28,Right-Back,Omonia Nicosia,Conference League,2,-,-,1,-,-,,,133'
+613967,Evangelos Andreou,#20,Right Winger,Omonia Nicosia,Conference League,6,-,1,1,-,-,,,402'
+295360,Francis Uzoho,#23,Goalkeeper,Omonia Nicosia,Conference League,5,-,,2,-,-,5,2,450'
+995234,Panagiotis Andreou,#74,Central Midfield,Omonia Nicosia,Conference League,4,-,-,1,-,-,,,349'
+950111,Angelos Neofytou,#85,Centre-Forward,Omonia Nicosia,Conference League,7,3,-,-,-,-,,,295'
+46104,Stevan Jovetić,#8,Second Striker,Omonia Nicosia,Conference League,3,-,-,-,-,-,,,85'
+950123,Andreas Christou,#82,Left-Back,Omonia Nicosia,Conference League,2,-,-,1,-,-,,,92'
+198613,Stefan Simic,#27,Centre-Back,Omonia Nicosia,Conference League,4,-,-,2,-,-,,,349'
+570469,Mateusz Musiałowski,#33,Attacking Midfield,Omonia Nicosia,Conference League,,,,,,,,,
+52848,Fabiano,#40,Goalkeeper,Omonia Nicosia,Conference League,3,-,,-,-,-,3,-,270'
+690891,Charalampos Kyriakidis,#98,Goalkeeper,Omonia Nicosia,Conference League,-,-,,-,-,-,-,-,-
+833379,Pantelis Michail,#78,Goalkeeper,Omonia Nicosia,Conference League,,,,,,,,,
+1110135,Chrysis Evangelou,#88,Right Winger,Omonia Nicosia,Conference League,-,-,-,-,-,-,,,-
+1112115,Konstantinos Panagi,#91,Left Winger,Omonia Nicosia,Conference League,-,-,-,-,-,-,,,-
+1197113,Vladimiros Savva,#87,Left Winger,Omonia Nicosia,Conference League,,,,,,,,,
+1197124,Christos Konstantinidis,#90,Centre-Back,Omonia Nicosia,Conference League,-,-,-,-,-,-,,,-
+1527254,Michalis Antoniou,#0,Left-Back,Omonia Nicosia,Conference League,,,,,,,,,
+541420,Timothy Fayulu,#16,Goalkeeper,FC Noah,Conference League,5,-,,-,-,-,5,1,450'
+775886,Takuto Oshima,#14,Defensive Midfield,FC Noah,Conference League,8,-,2,-,-,-,,,641'
+341391,Valentin Costache,#20,Right Midfield,FC Noah,Conference League,,,,,,,,,
+350311,Hélder Ferreira,#7,Right Winger,FC Noah,Conference League,8,-,1,1,-,-,,,695'
+641152,Gustavo Sangaré,#17,Defensive Midfield,FC Noah,Conference League,7,-,-,-,-,-,,,500'
+397771,Nardin Mulahusejnovic,#32,Centre-Forward,FC Noah,Conference League,8,5,1,1,-,-,,,601'
+297784,Yan Eteki,#88,Defensive Midfield,FC Noah,Conference League,8,-,-,1,-,-,,,532'
+261963,Marin Jakolis,#47,Left Winger,FC Noah,Conference League,6,-,-,1,-,-,,,276'
+342704,Imran Oulad Omar,#11,Attacking Midfield,FC Noah,Conference League,3,-,-,1,-,-,,,52'
+268875,Eric Boakye,#6,Right-Back,FC Noah,Conference League,8,-,-,-,-,-,,,545'
+404156,Gonçalo Gregório,#8,Centre-Forward,FC Noah,Conference League,,,,,,,,,
+817388,Sergey Muradyan,#3,Centre-Back,FC Noah,Conference League,8,-,-,2,-,-,,,556'
+585950,Nathanaël Saintini,#39,Centre-Back,FC Noah,Conference League,8,-,-,1,-,-,,,718'
+369706,Matheus Aiás,#9,Centre-Forward,FC Noah,Conference League,8,1,1,1,-,-,,,380'
+339980,Hovhannes Harutyunyan,#99,Central Midfield,FC Noah,Conference League,2,-,-,-,-,-,,,3'
+344540,David Sualehe,#33,Left-Back,FC Noah,Conference League,8,-,1,2,-,-,,,720'
+773795,Gor Manvelyan,#10,Attacking Midfield,FC Noah,Conference League,5,-,-,-,-,-,,,75'
+131740,Nermin Zolotic,#44,Centre-Back,FC Noah,Conference League,2,-,-,1,-,-,,,180'
+496871,Rob Nizet,#4,Left-Back,FC Noah,Conference League,,,,,,,,,
+461705,Artem Avanesyan,#18,Right Winger,FC Noah,Conference League,1,-,-,-,-,-,,,2'
+116565,Hovhannes Hambardzumyan,#19,Right-Back,FC Noah,Conference League,5,1,-,-,-,-,,,161'
+194214,Gonçalo Silva,#37,Centre-Back,FC Noah,Conference League,3,-,-,-,-,-,,,157'
+719163,Misak Hakobyan,#22,Left Winger,FC Noah,Conference League,,,,,,,,,
+1130532,Zaven Khudaverdyan,#24,Second Striker,FC Noah,Conference League,,,,,,,,,
+816474,Aleksey Ploshchadnyi,#92,Goalkeeper,FC Noah,Conference League,2,-,,-,-,-,4,1,180'
+471095,Aram Khamoyan,#23,Defensive Midfield,FC Noah,Conference League,-,-,-,-,-,-,,,-
+994280,Bilal Fofana,#71,Left Winger,FC Noah,Conference League,,,,,,,,,
+997489,Arthur Coneglian,#29,Goalkeeper,FC Noah,Conference League,,,,,,,,,
+354711,Arb Manaj,#9,Centre-Forward,FC Drita,Conference League,5,2,-,-,-,-,,,387'
+575309,Raddy Ovouka,#26,Left-Back,FC Drita,Conference League,8,-,1,-,-,-,,,711'
+497191,Albert Dabiqaj,#14,Defensive Midfield,FC Drita,Conference League,8,2,-,1,-,-,,,720'
+378255,Rron Broja,#4,Defensive Midfield,FC Drita,Conference League,4,-,-,-,-,-,,,193'
+204664,Egzon Bejtulai,#15,Centre-Back,FC Drita,Conference League,8,-,-,2,-,-,,,720'
+497192,Almir Ajzeraj,#7,Left Winger,FC Drita,Conference League,8,1,-,-,-,-,,,468'
+454293,Jorgo Pellumbi,#32,Centre-Back,FC Drita,Conference League,8,-,-,2,-,-,,,720'
+227092,Vesel Limaj,#8,Central Midfield,FC Drita,Conference League,7,-,1,1,-,-,,,515'
+624919,Juan Camilo Mesa,#5,Centre-Back,FC Drita,Conference League,,,,,,,,,
+820336,Kemehlo Nguena,#93,Central Midfield,FC Drita,Conference League,2,-,-,-,-,-,,,81'
+268868,Blerim Krasniqi,#19,Centre-Forward,FC Drita,Conference League,5,2,-,1,-,-,,,299'
+699165,Blerton Sheji,#3,Left-Back,FC Drita,Conference League,7,-,1,3,-,-,,,579'
+636752,Veton Tusha,#25,Left Winger,FC Drita,Conference League,3,-,-,-,-,-,,,193'
+481795,Kristal Abazaj,#77,Right Winger,FC Drita,Conference League,6,-,-,-,-,-,,,136'
+607937,Ilir Mustafa,#36,Central Midfield,FC Drita,Conference League,5,-,-,1,-,-,,,141'
+542470,Liridon Balaj,#10,Right Winger,FC Drita,Conference League,7,1,2,-,-,-,,,326'
+542937,Florent Ramadani,#11,Attacking Midfield,FC Drita,Conference League,4,-,-,-,-,-,,,43'
+401979,Abdoul Karim Danté,#21,Centre-Back,FC Drita,Conference League,,,,,,,,,
+1278607,Ben Zidane,#27,Central Midfield,FC Drita,Conference League,5,-,-,3,-,-,,,224'
+144860,Faton Maloku,#1,Goalkeeper,FC Drita,Conference League,7,-,,-,-,-,11,2,630'
+285559,Besnik Krasniqi,#2,Right-Back,FC Drita,Conference League,8,-,2,1,-,-,,,720'
+1339628,Oniks Grezda,#37,Left Winger,FC Drita,Conference League,2,-,-,-,-,-,,,16'
+1468361,Mike Arthur,#99,Right Winger,FC Drita,Conference League,3,-,-,-,-,-,,,11'
+601211,Laurit Behluli,#22,Goalkeeper,FC Drita,Conference League,1,-,,-,-,-,3,-,90'
+1153539,Hasan Gomda,#6,Centre-Back,FC Drita,Conference League,,,,,,,,,
+1050516,Engjëll Sylejmani,#66,Central Midfield,FC Drita,Conference League,1,-,-,-,-,-,,,1'
+593422,Leutrim Rexhepi,#94,Goalkeeper,FC Drita,Conference League,-,-,,-,-,-,-,-,-
+1056190,Morris Fuseini,#44,Right-Back,FC Drita,Conference League,,,,,,,,,
+901877,Otto Ruoppi,#34,Attacking Midfield,KuPS,Conference League,8,-,-,-,-,-,,,720'
+223783,Johannes Kreidl,#1,Goalkeeper,KuPS,Conference League,8,-,,-,-,-,8,2,720'
+263801,Kasim Adams,#4,Centre-Back,KuPS,Conference League,,,,,,,,,
+950405,Calvin Kabuye,#19,Left Winger,KuPS,Conference League,,,,,,,,,
+459716,Saku Heiskanen,#3,Right-Back,KuPS,Conference League,,,,,,,,,
+491703,Valentín Gasc,#10,Central Midfield,KuPS,Conference League,2,-,-,-,-,-,,,180'
+587302,Clinton Antwi,#25,Left-Back,KuPS,Conference League,7,1,1,-,-,1,,,497'
+274746,Saku Savolainen,#6,Right Winger,KuPS,Conference League,4,-,1,-,-,-,,,305'
+740837,Joslyn Luyeye-Lutumba,#21,Right Winger,KuPS,Conference League,4,-,-,-,-,1,,,104'
+567485,Taneli Hämäläinen,#33,Centre-Back,KuPS,Conference League,6,-,-,-,-,-,,,466'
+190456,Jerry Voutilainen,#7,Central Midfield,KuPS,Conference League,4,-,1,-,-,-,,,120'
+1147796,Bob Nii Armah,#24,Right-Back,KuPS,Conference League,6,-,1,-,-,-,,,386'
+716895,Niilo Kujasalo,#13,Central Midfield,KuPS,Conference League,2,-,-,-,-,-,,,180'
+309923,Jaime Moreno,#11,Centre-Forward,KuPS,Conference League,,,,,,,,,
+511780,Arttu Heinonen,#17,Attacking Midfield,KuPS,Conference League,1,-,-,-,-,-,,,11'
+937939,Akseli Puukko,#29,Right-Back,KuPS,Conference League,2,-,-,-,-,-,,,99'
+937985,Samuel Pasanen,#14,Central Midfield,KuPS,Conference League,3,-,-,-,-,-,,,89'
+1032012,Brahima Magassa,#28,Centre-Back,KuPS,Conference League,,,,,,,,,
+248024,Gustav Engvall,#9,Centre-Forward,KuPS,Conference League,2,-,-,-,-,-,,,180'
+660581,Arttu Lötjönen,#23,Centre-Back,KuPS,Conference League,3,-,-,-,-,-,,,181'
+741585,Aaro Toivonen,#26,Central Midfield,KuPS,Conference League,,,,,,,,,
+47703,Petteri Pennanen,#8,Central Midfield,KuPS,Conference League,8,-,-,2,-,-,,,587'
+586591,Hemmo Riihimäki,#12,Goalkeeper,KuPS,Conference League,-,-,,-,-,-,-,-,-
+1150689,Rasmus Tikkanen,#32,Left-Back,KuPS,Conference League,1,-,-,-,-,-,,,70'
+1046213,Eemil Tanninen,#18,Attacking Midfield,KuPS,Conference League,,,,,,,,,
+1120423,Tatu Hukkanen,#31,Centre-Back,KuPS,Conference League,,,,,,,,,
+1211943,Karl Ward,#2,Centre-Back,KuPS,Conference League,,,,,,,,,
+1271200,Kasperi Silen,#37,Goalkeeper,KuPS,Conference League,,,,,,,,,
+1509301,Souleymane Soumahoro,#20,Central Midfield,KuPS,Conference League,,,,,,,,,
+893187,Reshat Ramadani,#4,Defensive Midfield,Shkendija,Conference League,8,-,-,2,-,-,,,566'
+882003,Ronaldo Webster,#11,Left-Back,Shkendija,Conference League,8,-,3,1,-,-,,,720'
+1008877,Fabrice Tamba,#29,Right Winger,Shkendija,Conference League,7,-,-,1,-,-,,,544'
+676121,Imran Fetai,#15,Centre-Back,Shkendija,Conference League,8,-,-,-,-,-,,,707'
+834018,Aleksander Trumci,#2,Right-Back,Shkendija,Conference League,7,-,-,3,-,-,,,630'
+292154,Baboucarr Gaye,#24,Goalkeeper,Shkendija,Conference League,8,-,,-,-,-,10,2,720'
+427336,Arbin Zejnullai,#17,Central Midfield,Shkendija,Conference League,8,-,-,2,-,-,,,511'
+647957,Adamu Alhassan,#6,Defensive Midfield,Shkendija,Conference League,7,-,-,3,-,-,,,332'
+944520,Anes Meljichi,#26,Centre-Back,Shkendija,Conference League,3,-,-,-,-,-,,,181'
+458362,Endrit Krasniqi,#10,Attacking Midfield,Shkendija,Conference League,7,-,-,1,-,-,,,301'
+226190,Liridon Latifi,#77,Left Winger,Shkendija,Conference League,7,1,1,2,-,1,,,487'
+507733,Sebastjan Spahiu,#49,Attacking Midfield,Shkendija,Conference League,8,1,-,-,-,-,,,547'
+690872,Drilon Islami,#5,Defensive Midfield,Shkendija,Conference League,2,-,-,-,-,-,,,135'
+427953,Fahd Ndzengue,#9,Centre-Forward,Shkendija,Conference League,2,-,-,-,-,-,,,100'
+66472,Besart Ibraimi,#7,Centre-Forward,Shkendija,Conference League,8,-,-,2,-,-,,,437'
+723701,Atdhe Mazari,#20,Right Winger,Shkendija,Conference League,3,-,-,-,-,-,,,23'
+821577,Vane Krstevski,#19,Left Winger,Shkendija,Conference League,4,-,-,1,-,-,,,46'
+1072848,Numan Ajetovikj,#22,Left-Back,Shkendija,Conference League,-,-,-,-,-,-,,,-
+720498,Astrit Amzai,#25,Goalkeeper,Shkendija,Conference League,-,-,,-,-,-,-,-,-
+190295,Mevlan Murati,#16,Right-Back,Shkendija,Conference League,3,-,-,-,-,-,,,92'
+948529,Lorik Kaba,#27,Right Winger,Shkendija,Conference League,1,-,-,-,-,-,,,1'
+865639,Ferat Ramani,#30,Goalkeeper,Shkendija,Conference League,-,-,,-,-,-,-,-,-
+651773,Matej Sakota,#14,Right Winger,Zrinjski Mostar,Conference League,7,-,1,1,-,-,,,251'
+454888,Igor Savic,#21,Defensive Midfield,Zrinjski Mostar,Conference League,7,-,-,1,-,1,,,577'
+895531,Duje Dujmovic,#55,Centre-Back,Zrinjski Mostar,Conference League,8,1,-,2,-,-,,,720'
+376445,Mario Cuze,#25,Left Winger,Zrinjski Mostar,Conference League,6,1,-,-,-,-,,,379'
+307697,Stefano Surdanovic,#23,Defensive Midfield,Zrinjski Mostar,Conference League,3,-,-,-,-,-,,,132'
+419255,Marijan Cavar,#42,Central Midfield,Zrinjski Mostar,Conference League,5,-,-,-,-,-,,,64'
+701391,Karlo Abramovic,#77,Left Winger,Zrinjski Mostar,Conference League,5,1,1,2,-,-,,,267'
+731965,Dan Lagumdzija,#5,Defensive Midfield,Zrinjski Mostar,Conference League,2,-,-,-,-,-,,,4'
+341424,Neven Djurasek,#30,Defensive Midfield,Zrinjski Mostar,Conference League,7,-,1,4,-,-,,,512'
+243679,Goran Karacic,#18,Goalkeeper,Zrinjski Mostar,Conference League,6,-,,-,-,-,6,1,540'
+307098,Kerim Memija,#50,Right-Back,Zrinjski Mostar,Conference League,6,-,-,2,-,-,,,348'
+332875,Adi Nalic,#22,Attacking Midfield,Zrinjski Mostar,Conference League,-,-,-,-,-,-,,,-
+540938,Marko Vranjkovic,#19,Right-Back,Zrinjski Mostar,Conference League,5,-,1,1,-,-,,,450'
+388145,Antonio Ivancic,#20,Attacking Midfield,Zrinjski Mostar,Conference League,7,-,-,-,-,-,,,381'
+205936,Darick Kobie Morris,#37,Centre-Back,Zrinjski Mostar,Conference League,,,,,,,,,
+226082,Petar Mamic,#12,Left-Back,Zrinjski Mostar,Conference League,7,-,-,-,-,-,,,626'
+473296,Leo Mikic,#9,Left Winger,Zrinjski Mostar,Conference League,8,1,1,1,-,-,,,366'
+892166,Toni Majic,#90,Centre-Forward,Zrinjski Mostar,Conference League,2,-,-,-,-,-,,,93'
+532772,Marin Ljubic,#40,Goalkeeper,Zrinjski Mostar,Conference League,2,-,,-,-,-,7,-,180'
+179899,Tomislav Kis,#10,Centre-Forward,Zrinjski Mostar,Conference League,,,,,,,,,
+109212,Nemanja Bilbija,#99,Centre-Forward,Zrinjski Mostar,Conference League,5,2,-,1,-,-,,,367'
+917857,Antonio Ilic,#17,Attacking Midfield,Zrinjski Mostar,Conference League,,,,,,,,,
+430159,Milan Sikanjic,#8,Centre-Forward,Zrinjski Mostar,Conference League,,,,,,,,,
+171820,Tomi Juric,#11,Centre-Forward,Zrinjski Mostar,Conference League,2,-,-,-,-,-,,,12'
+889801,Toma Palic,#24,Left-Back,Zrinjski Mostar,Conference League,,,,,,,,,
+145994,Slobodan Jakovljevic,#27,Centre-Back,Zrinjski Mostar,Conference League,3,1,-,-,-,-,,,270'
+109000,Hrvoje Barisic,#4,Centre-Back,Zrinjski Mostar,Conference League,3,-,-,-,-,-,,,259'
+902989,Tin Sajko,#32,Goalkeeper,Zrinjski Mostar,Conference League,-,-,,-,-,-,-,-,-
+909390,David Karacic,#6,Centre-Back,Zrinjski Mostar,Conference League,-,-,-,-,-,-,,,-
+83287,Mateo Susic,#16,Right-Back,Zrinjski Mostar,Conference League,,,,,,,,,
+935447,Jan Koutny,#91,Goalkeeper,Sigma Olomouc,Conference League,10,-,,-,-,-,13,1,900'
+664456,Michal Beran,#47,Central Midfield,Sigma Olomouc,Conference League,9,-,-,1,-,-,,,791'
+616948,Péter Baráth,#88,Defensive Midfield,Sigma Olomouc,Conference League,10,-,1,2,1,-,,,579'
+807648,Abdoulaye Sylla,#2,Centre-Back,Sigma Olomouc,Conference League,9,1,-,3,-,-,,,726'
+421758,Danijel Sturm,#7,Left Winger,Sigma Olomouc,Conference League,10,1,2,-,-,-,,,892'
+499324,Louis Lurvink,#3,Centre-Back,Sigma Olomouc,Conference League,,,,,,,,,
+619300,Dario Grgic,#20,Attacking Midfield,Sigma Olomouc,Conference League,,,,,,,,,
+946974,Fabijan Krivak,#23,Attacking Midfield,Sigma Olomouc,Conference League,,,,,,,,,
+698812,Ahmad Ghali,#70,Left Midfield,Sigma Olomouc,Conference League,8,2,-,-,-,-,,,495'
+751681,Matej Mikulenka,#25,Right Midfield,Sigma Olomouc,Conference League,6,-,-,1,-,-,,,218'
+652050,Matej Hadas,#22,Right-Back,Sigma Olomouc,Conference League,8,-,-,1,-,-,,,677'
+629777,Vaclav Sejk,#10,Centre-Forward,Sigma Olomouc,Conference League,,,,,,,,,
+724169,Filip Slavicek,#16,Right-Back,Sigma Olomouc,Conference League,9,1,-,2,-,-,,,566'
+622254,Jachym Sip,#6,Left Winger,Sigma Olomouc,Conference League,10,1,1,2,-,-,,,474'
+358132,Jan Kral,#21,Centre-Back,Sigma Olomouc,Conference League,5,2,-,-,-,-,,,450'
+522993,Dominik Janosek,#39,Attacking Midfield,Sigma Olomouc,Conference League,2,-,-,-,-,-,,,64'
+495829,Matus Maly,#33,Centre-Back,Sigma Olomouc,Conference League,4,-,-,-,-,-,,,360'
+673450,Jakub Elbel,#4,Left-Back,Sigma Olomouc,Conference League,,,,,,,,,
+503963,Jiri Slama,#13,Left-Back,Sigma Olomouc,Conference League,6,-,-,1,-,-,,,532'
+825994,Jakub Jezierski,#19,Defensive Midfield,Sigma Olomouc,Conference League,,,,,,,,,
+622212,Jiri Spacil,#8,Central Midfield,Sigma Olomouc,Conference League,4,-,-,-,-,-,,,179'
+218299,Jan Kliment,#9,Centre-Forward,Sigma Olomouc,Conference League,5,-,-,2,-,-,,,327'
+318112,Antonin Rusek,#14,Second Striker,Sigma Olomouc,Conference League,4,1,-,-,-,-,,,319'
+975321,Mohamed Yasser,#35,Centre-Forward,Sigma Olomouc,Conference League,2,-,-,1,-,-,,,42'
+430540,Artūr Dolžnikov,#77,Right Winger,Sigma Olomouc,Conference League,7,-,-,1,-,-,,,197'
+1111684,John Paul Dembe,#18,Centre-Forward,Sigma Olomouc,Conference League,4,1,-,-,-,-,,,196'
+580120,David Tkac,#24,Central Midfield,Sigma Olomouc,Conference League,1,-,-,-,-,-,,,45'
+728649,Tadeas Stoppen,#29,Goalkeeper,Sigma Olomouc,Conference League,-,-,,-,-,-,-,-,-
+361001,Matus Hruska,#98,Goalkeeper,Sigma Olomouc,Conference League,-,-,,-,-,-,-,-,-
+624087,Yunusa Muritala,#11,Centre-Forward,Sigma Olomouc,Conference League,,,,,,,,,
+652048,Filip Urica,#27,Left Winger,Sigma Olomouc,Conference League,,,,,,,,,
+571587,Tomas Digana,#1,Goalkeeper,Sigma Olomouc,Conference League,,,,,,,,,
+686232,Ștefan Baiaram,#10,Left Winger,CS U Craiova,Conference League,5,1,-,2,-,-,,,306'
+295810,Alexandru Cicâldău,#20,Attacking Midfield,CS U Craiova,Conference League,6,1,-,-,-,-,,,463'
+418219,Vladimir Screciu,#6,Centre-Back,CS U Craiova,Conference League,4,-,-,-,-,1,,,242'
+553772,Oleksandr Romanchuk,#3,Centre-Back,CS U Craiova,Conference League,6,1,-,1,-,-,,,481'
+502671,Anzor Mekvabishvili,#5,Defensive Midfield,CS U Craiova,Conference League,6,-,1,-,-,-,,,410'
+433976,Tudor Băluță,#8,Defensive Midfield,CS U Craiova,Conference League,4,-,-,-,-,-,,,198'
+518451,Assad Al-Hamlawi,#9,Centre-Forward,CS U Craiova,Conference League,5,1,1,1,-,-,,,351'
+740789,Carlos Mora,#17,Right Midfield,CS U Craiova,Conference League,4,-,1,2,-,-,,,284'
+421927,Adrian Rus,#28,Centre-Back,CS U Craiova,Conference League,5,-,-,2,-,-,,,450'
+726033,Pavlo Isenko,#77,Goalkeeper,CS U Craiova,Conference League,6,-,,2,-,-,8,2,540'
+213195,Nicușor Bancu,#11,Left-Back,CS U Craiova,Conference League,5,-,-,4,-,-,,,450'
+1052377,Juraj Badelj,#15,Centre-Back,CS U Craiova,Conference League,4,-,-,-,-,-,,,360'
+271289,Laurențiu Popescu,#21,Goalkeeper,CS U Craiova,Conference League,-,-,,-,-,-,-,-,-
+1112690,David Matei,#30,Central Midfield,CS U Craiova,Conference League,-,-,-,-,-,-,,,-
+597165,Samuel Teles,#23,Central Midfield,CS U Craiova,Conference League,6,-,-,2,-,-,,,378'
+830113,Steven Nsimba,#7,Centre-Forward,CS U Craiova,Conference League,5,1,-,-,-,-,,,212'
+425733,Nikola Stevanovic,#24,Centre-Back,CS U Craiova,Conference League,4,-,-,-,-,-,,,90'
+1017320,Mihnea Rădulescu,#18,Right Winger,CS U Craiova,Conference League,,,,,,,,,
+320637,Florin Ștefan,#2,Left-Back,CS U Craiova,Conference League,-,-,-,-,-,-,,,-
+229007,Lyes Houri,#14,Attacking Midfield,CS U Craiova,Conference League,5,-,-,-,-,-,,,71'
+505999,Monday Etim,#12,Centre-Forward,CS U Craiova,Conference League,4,1,-,-,-,-,,,244'
+937066,Luca Băsceanu,#29,Left Winger,CS U Craiova,Conference League,2,-,-,-,-,-,,,20'
+324214,Vasile Mogoș,#19,Centre-Back,CS U Craiova,Conference League,4,-,-,-,-,-,,,191'
+216661,Alexandru Crețu,#4,Defensive Midfield,CS U Craiova,Conference League,5,-,1,1,-,-,,,167'
+1040566,David Barbu,#27,Centre-Forward,CS U Craiova,Conference League,,,,,,,,,
+937042,Darius Fălcușan,#25,Centre-Back,CS U Craiova,Conference League,,,,,,,,,
+972439,Alexandru Iamandache,#22,Left Winger,CS U Craiova,Conference League,,,,,,,,,
+73731,Silviu Lung Jr.,#1,Goalkeeper,CS U Craiova,Conference League,-,-,,-,-,-,-,-,-
+1158577,Matei Goga,#31,Goalkeeper,CS U Craiova,Conference League,,,,,,,,,
+1002053,Sebastian Șerban,#39,Attacking Midfield,CS U Craiova,Conference League,,,,,,,,,
+1179005,Denys Muntean,#38,Right Winger,CS U Craiova,Conference League,-,-,-,-,-,-,,,-
+1197481,Alexandru Glodean,#33,Goalkeeper,CS U Craiova,Conference League,,,,,,,,,
+242295,Álex Mula,#37,Left Winger,Lincoln FC,Conference League,,,,,,,,,
+376663,Tjay De Barr,#10,Centre-Forward,Lincoln FC,Conference League,6,1,1,1,-,-,,,540'
+462809,Christian Rutjens,#3,Centre-Back,Lincoln FC,Conference League,4,1,-,-,-,-,,,331'
+532770,Toni Kolega,#24,Left Winger,Lincoln FC,Conference League,6,-,1,-,-,-,,,470'
+340906,Ethan Britto,#20,Left-Back,Lincoln FC,Conference League,,,,,,,,,
+344827,Bernardo Lopes,#6,Centre-Back,Lincoln FC,Conference League,6,1,2,-,-,-,,,540'
+203616,Juanje Argüez,#11,Left Winger,Lincoln FC,Conference League,6,-,1,-,-,-,,,152'
+454542,Kike Gómez,#9,Centre-Forward,Lincoln FC,Conference League,6,2,-,-,-,-,,,332'
+405559,Jaylan Hankins,#13,Goalkeeper,Lincoln FC,Conference League,5,-,,2,-,-,10,-,450'
+1155231,Yussef Flalhi Idrissi,#30,Left Winger,Lincoln FC,Conference League,,,,,,,,,
+915890,Nicholas Pozo,#4,Central Midfield,Lincoln FC,Conference League,5,1,-,-,-,-,,,250'
+593822,Julliani Eersteling,#66,Right-Back,Lincoln FC,Conference League,,,,,,,,,
+399011,Graeme Torrilla,#22,Central Midfield,Lincoln FC,Conference League,4,-,-,1,1,-,,,222'
+294334,Nauzet García,#1,Goalkeeper,Lincoln FC,Conference League,1,-,,-,-,-,5,-,90'
+171979,Toni García,#18,Left Winger,Lincoln FC,Conference League,6,-,-,-,-,-,,,479'
+280018,Jesús Toscano,#2,Left-Back,Lincoln FC,Conference League,3,-,-,-,-,-,,,89'
+270611,Joe,#23,Defensive Midfield,Lincoln FC,Conference League,3,-,1,1,-,-,,,200'
+538450,Ayman El Ghobashy,#99,Centre-Forward,Lincoln FC,Conference League,3,-,-,2,-,-,,,40'
+670377,Kyle Clinton,#19,Left Midfield,Lincoln FC,Conference League,1,-,-,-,-,-,,,9'
+934941,Liam Jessop,#17,Left Winger,Lincoln FC,Conference League,,,,,,,,,
+942310,Jonathan Sciortino,#31,Centre-Forward,Lincoln FC,Conference League,,,,,,,,,
+974433,Kaleem Smith,#33,Left Midfield,Lincoln FC,Conference League,,,,,,,,,
+69789,Mandi,#8,Central Midfield,Lincoln FC,Conference League,5,-,-,3,-,-,,,442'
+299116,Lee Casciaro,#7,Centre-Forward,Lincoln FC,Conference League,1,-,-,-,-,-,,,9'
+108104,Ibrahim Ayew,#5,Right-Back,Lincoln FC,Conference League,1,-,-,-,-,-,,,33'
+58018,Nano,#21,Left Midfield,Lincoln FC,Conference League,5,-,-,-,-,-,,,450'
+1061280,Rubén García,#77,Right Winger,Lincoln FC,Conference League,,,,,,,,,
+1420881,Curro,#27,Goalkeeper,Lincoln FC,Conference League,,,,,,,,,
+669306,Volodymyr Brazhko,#6,Defensive Midfield,Dynamo Kyiv,Conference League,2,-,-,-,-,-,,,104'
+1067225,Taras Mykhavko,#32,Centre-Back,Dynamo Kyiv,Conference League,5,-,-,2,-,-,,,327'
+368611,Mykola Shaparenko,#10,Central Midfield,Dynamo Kyiv,Conference League,4,-,2,-,-,-,,,254'
+1074053,Matviy Ponomarenko,#11,Centre-Forward,Dynamo Kyiv,Conference League,2,1,-,1,-,-,,,101'
+726034,Nazar Voloshyn,#9,Right Winger,Dynamo Kyiv,Conference League,6,-,1,-,-,-,,,435'
+287792,Oleksandr Tymchyk,#18,Right-Back,Dynamo Kyiv,Conference League,4,-,-,-,-,-,,,269'
+404841,Denys Popov,#4,Centre-Back,Dynamo Kyiv,Conference League,3,1,-,1,-,-,,,226'
+417242,Ruslan Neshcheret,#35,Goalkeeper,Dynamo Kyiv,Conference League,6,-,,-,-,-,9,2,540'
+167722,Vitaliy Buyalskyi,#29,Attacking Midfield,Dynamo Kyiv,Conference League,3,1,1,-,-,-,,,180'
+210689,Vladyslav Kabaev,#22,Left Winger,Dynamo Kyiv,Conference League,4,2,1,2,-,-,,,311'
+294780,Oleksandr Pikhalyonok,#8,Central Midfield,Dynamo Kyiv,Conference League,6,-,2,-,-,-,,,348'
+502842,Eduardo Guerrero,#39,Centre-Forward,Dynamo Kyiv,Conference League,5,1,-,1,-,-,,,346'
+366723,Vladyslav Dubinchak,#44,Left-Back,Dynamo Kyiv,Conference League,4,-,1,1,-,-,,,296'
+626475,Mykola Mykhaylenko,#91,Defensive Midfield,Dynamo Kyiv,Conference League,5,1,-,1,-,-,,,436'
+636237,Kostyantyn Vivcharenko,#2,Left-Back,Dynamo Kyiv,Conference League,2,-,-,2,-,-,,,86'
+1138725,Bogdan Redushko,#70,Left Winger,Dynamo Kyiv,Conference League,1,-,-,-,-,-,,,26'
+706166,Vladislav Blănuță,#77,Centre-Forward,Dynamo Kyiv,Conference League,3,1,-,-,-,-,,,45'
+539436,Kristian Bilovar,#40,Centre-Back,Dynamo Kyiv,Conference League,1,-,-,-,-,-,,,90'
+949111,Aliou Thiaré,#66,Centre-Back,Dynamo Kyiv,Conference League,5,-,-,3,-,-,,,450'
+69015,Andriy Yarmolenko,#7,Right Winger,Dynamo Kyiv,Conference League,4,1,-,-,-,-,,,123'
+59322,Oleksandr Karavaev,#20,Right-Back,Dynamo Kyiv,Conference League,4,-,-,-,-,-,,,271'
+726019,Oleksandr Yatsyk,#5,Central Midfield,Dynamo Kyiv,Conference League,5,-,-,-,-,-,,,126'
+998742,Shola Ogundana,#16,Left Winger,Dynamo Kyiv,Conference League,5,-,-,-,-,-,,,220'
+1074045,Maksym Korobov,#13,Right-Back,Dynamo Kyiv,Conference League,,,,,,,,,
+539425,Valentyn Morgun,#51,Goalkeeper,Dynamo Kyiv,Conference League,-,-,,-,-,-,-,-,-
+1074060,Vladyslav Zakharchenko,#34,Centre-Back,Dynamo Kyiv,Conference League,2,-,-,-,-,-,,,180'
+726012,Denys Ignatenko,#74,Goalkeeper,Dynamo Kyiv,Conference League,-,-,,-,-,-,-,-,-
+699442,Kacper Urbański,#82,Attacking Midfield,Legia Warszawa,Conference League,6,1,1,1,-,-,,,325'
+607057,Juergen Elitim,#22,Defensive Midfield,Legia Warszawa,Conference League,3,-,-,-,-,-,,,123'
+345449,Kamil Piątkowski,#91,Centre-Back,Legia Warszawa,Conference League,4,-,-,1,-,-,,,360'
+357158,Rúben Vinagre,#19,Left Midfield,Legia Warszawa,Conference League,5,-,-,1,-,-,,,349'
+525919,Mileta Rajović,#29,Centre-Forward,Legia Warszawa,Conference League,6,2,-,1,-,-,,,259'
+744075,Otto Hindrich,#89,Goalkeeper,Legia Warszawa,Conference League,,,,,,,,,
+246579,Bartosz Kapustka,#67,Attacking Midfield,Legia Warszawa,Conference League,5,1,2,1,-,-,,,315'
+658111,Kacper Tobiasz,#1,Goalkeeper,Legia Warszawa,Conference League,5,-,,-,-,-,7,-,450'
+259881,Damian Szymański,#44,Defensive Midfield,Legia Warszawa,Conference League,2,-,-,1,-,-,,,180'
+618424,Wojciech Urbański,#53,Attacking Midfield,Legia Warszawa,Conference League,4,-,-,-,-,-,,,231'
+606893,Ermal Krasniqi,#77,Right Midfield,Legia Warszawa,Conference League,5,-,-,1,-,-,,,352'
+399348,Vahan Bichakhchyan,#21,Attacking Midfield,Legia Warszawa,Conference League,4,1,-,1,-,-,,,85'
+905345,Henrique Arreiol,#6,Defensive Midfield,Legia Warszawa,Conference League,,,,,,,,,
+322798,Radovan Pankov,#12,Centre-Back,Legia Warszawa,Conference League,2,-,-,1,-,-,,,180'
+160668,Antonio Colak,#14,Centre-Forward,Legia Warszawa,Conference League,6,1,-,-,-,-,,,283'
+1132797,Jakub Żewłakow,#20,Attacking Midfield,Legia Warszawa,Conference League,4,-,1,1,-,-,,,93'
+268178,Arkadiusz Reca,#13,Left Midfield,Legia Warszawa,Conference League,4,-,-,-,-,-,,,264'
+225055,Jean-Pierre Nsame,#18,Centre-Forward,Legia Warszawa,Conference League,,,,,,,,,
+183841,Petar Stojanović,#30,Right Midfield,Legia Warszawa,Conference League,5,-,-,-,-,-,,,305'
+320733,Kacper Chodyna,#11,Right Midfield,Legia Warszawa,Conference League,4,-,-,-,-,-,,,189'
+549982,Rafał Adamski,#9,Centre-Forward,Legia Warszawa,Conference League,,,,,,,,,
+264796,Rafał Augustyniak,#8,Centre-Back,Legia Warszawa,Conference League,5,2,-,2,-,-,,,373'
+1138091,Samuel Kovacik,#99,Attacking Midfield,Legia Warszawa,Conference League,,,,,,,,,
+559998,Gabriel Kobylak,#27,Goalkeeper,Legia Warszawa,Conference League,1,-,,-,-,-,1,-,90'
+280178,Claude Gonçalves,#5,Defensive Midfield,Legia Warszawa,Conference League,2,-,-,-,-,-,,,91'
+1118874,Jan Leszczyński,#56,Centre-Back,Legia Warszawa,Conference League,,,,,,,,,
+1163767,Pascal Mozie,#51,Defensive Midfield,Legia Warszawa,Conference League,,,,,,,,,
+252608,Patryk Kun,#23,Left Midfield,Legia Warszawa,Conference League,,,,,,,,,
+164759,Paweł Wszołek,#7,Right Midfield,Legia Warszawa,Conference League,4,-,-,-,-,-,,,360'
+42401,Artur Jędrzejczyk,#55,Centre-Back,Legia Warszawa,Conference League,1,-,-,1,-,-,,,90'
+726661,Nino Marcelli,#18,Left Winger,Slo. Bratislava,Conference League,6,1,1,-,-,-,,,514'
+403760,Niko Jankovic,#10,Attacking Midfield,Slo. Bratislava,Conference League,3,-,-,-,-,1,,,42'
+471164,Dominik Takac,#71,Goalkeeper,Slo. Bratislava,Conference League,5,-,,1,-,-,9,-,450'
+440383,César Blackman,#28,Right-Back,Slo. Bratislava,Conference League,6,1,-,2,-,-,,,520'
+470790,Svetozar Markovic,#15,Centre-Back,Slo. Bratislava,Conference League,,,,,,,,,
+711597,Rahim Ibrahim,#5,Central Midfield,Slo. Bratislava,Conference League,5,1,-,2,-,-,,,294'
+179860,Andraz Sporar,#99,Centre-Forward,Slo. Bratislava,Conference League,3,-,1,-,-,-,,,219'
+226793,Kenan Bajric,#12,Centre-Back,Slo. Bratislava,Conference League,6,-,-,2,-,-,,,528'
+376082,Danylo Ignatenko,#77,Central Midfield,Slo. Bratislava,Conference League,5,-,-,3,-,-,,,386'
+730126,Mykola Kukharevych,#9,Centre-Forward,Slo. Bratislava,Conference League,1,-,-,-,-,-,,,26'
+270605,Tigran Barseghyan,#11,Right Winger,Slo. Bratislava,Conference League,5,-,1,1,-,-,,,353'
+481627,Sandro Cruz,#57,Left-Back,Slo. Bratislava,Conference League,4,-,-,-,-,1,,,357'
+1231655,Alasana Yirajang,#14,Left Winger,Slo. Bratislava,Conference League,6,1,-,-,-,-,,,216'
+576449,Daiki Matsuoka,#41,Central Midfield,Slo. Bratislava,Conference League,,,,,,,,,
+490595,Peter Pokorný,#3,Defensive Midfield,Slo. Bratislava,Conference League,3,-,-,1,-,-,,,149'
+641657,Artur Gajdos,#8,Attacking Midfield,Slo. Bratislava,Conference League,3,-,-,-,-,-,,,63'
+641676,Adam Griger,#30,Centre-Forward,Slo. Bratislava,Conference League,,,,,,,,,
+122675,Kevin Wimmer,#6,Centre-Back,Slo. Bratislava,Conference League,5,-,-,1,-,-,,,386'
+1077729,Maxim Mateas,#16,Central Midfield,Slo. Bratislava,Conference League,,,,,,,,,
+1234104,Sidoine Fogning,#19,Centre-Back,Slo. Bratislava,Conference League,1,-,-,-,-,-,,,1'
+92180,Robert Mak,#21,Left Winger,Slo. Bratislava,Conference League,6,-,-,1,-,-,,,273'
+579631,Sharani Zuberu,#23,Left-Back,Slo. Bratislava,Conference League,,,,,,,,,
+434073,Martin Trnovsky,#31,Goalkeeper,Slo. Bratislava,Conference League,1,-,,-,-,-,-,1,90'
+92701,Vladimír Weiss,#7,Left Winger,Slo. Bratislava,Conference League,2,-,1,-,-,-,,,173'
+55972,Guram Kashia,#4,Centre-Back,Slo. Bratislava,Conference League,6,1,1,-,-,-,,,497'
+381477,Matus Macik,#44,Goalkeeper,Slo. Bratislava,Conference League,-,-,,-,-,-,-,-,-
+183365,Höskuldur Gunnlaugsson,#7,Central Midfield,Breidablik,Conference League,6,1,-,-,-,-,,,519'
+665192,Anton Logi Lúdvíksson,#13,Defensive Midfield,Breidablik,Conference League,3,-,-,-,-,-,,,214'
+576739,Valgeir Valgeirsson,#17,Right-Back,Breidablik,Conference League,4,-,-,-,-,-,,,314'
+229194,Aron Bjarnason,#11,Left Winger,Breidablik,Conference League,5,-,-,-,-,-,,,204'
+282095,Viktor Karl Einarsson,#8,Central Midfield,Breidablik,Conference League,6,-,1,1,-,-,,,436'
+313342,Viktor Örn Margeirsson,#21,Centre-Back,Breidablik,Conference League,6,1,-,1,-,-,,,540'
+325087,Anton Ari Einarsson,#1,Goalkeeper,Breidablik,Conference League,6,-,,-,-,-,11,1,540'
+630752,Óli Valur Ómarsson,#9,Right Winger,Breidablik,Conference League,6,1,2,-,-,-,,,341'
+908857,Ágúst Orri Thorsteinsson,#15,Left Winger,Breidablik,Conference League,6,-,1,2,-,-,,,514'
+317575,Ívar Örn Árnason,#5,Centre-Back,Breidablik,Conference League,,,,,,,,,
+652274,Arnór Gauti Jónsson,#6,Defensive Midfield,Breidablik,Conference League,5,-,-,1,-,-,,,342'
+90044,Kristinn Steindórsson,#10,Attacking Midfield,Breidablik,Conference League,6,-,-,2,-,-,,,144'
+941544,Ásgeir Helgi Orrason,#4,Centre-Back,Breidablik,Conference League,2,-,-,-,-,-,,,115'
+429892,Davíd Ingvarsson,#18,Left-Back,Breidablik,Conference League,5,1,-,-,-,-,,,405'
+400174,Kristófer Kristinsson,#23,Centre-Forward,Breidablik,Conference League,4,1,-,-,-,-,,,106'
+110170,Andri Rafn Yeoman,#30,Central Midfield,Breidablik,Conference League,3,-,-,-,-,-,,,167'
+1055663,Gabríel Snaer Hallsson,#29,Right-Back,Breidablik,Conference League,5,-,1,-,-,-,,,69'
+1107823,Dagur Fjeldsted,#16,Left Winger,Breidablik,Conference League,,,,,,,,,
+90035,Kristinn Jónsson,#19,Left-Back,Breidablik,Conference League,5,1,-,-,-,-,,,343'
+1130619,Jónatan Gudni Arnarsson,#22,Right Winger,Breidablik,Conference League,,,,,,,,,
+1072744,Gylfi Berg Snaehólm,#12,Goalkeeper,Breidablik,Conference League,-,-,,-,-,-,-,-,-
+1373511,Breki Freyr Ágústsson,#39,Attacking Midfield,Breidablik,Conference League,-,-,-,-,-,-,,,-
+586628,Matthew Healy,#8,Central Midfield,Shamrock Rovers,Conference League,5,-,1,-,-,-,,,437'
+1134231,Michael Noonan,#31,Centre-Forward,Shamrock Rovers,Conference League,4,-,-,-,-,-,,,80'
+217757,Jack Byrne,#29,Attacking Midfield,Shamrock Rovers,Conference League,,,,,,,,,
+264193,Dan Cleary,#6,Centre-Back,Shamrock Rovers,Conference League,6,-,-,3,-,-,,,510'
+264206,Jake Mulraney,#11,Right Winger,Shamrock Rovers,Conference League,,,,,,,,,
+293783,Daniel Mandroiu,#14,Attacking Midfield,Shamrock Rovers,Conference League,3,1,-,-,-,-,,,110'
+177892,Graham Burke,#10,Second Striker,Shamrock Rovers,Conference League,6,3,2,2,-,-,,,290'
+957295,Naj Razi,#28,Attacking Midfield,Shamrock Rovers,Conference League,,,,,,,,,
+478712,Ed McGinty,#1,Goalkeeper,Shamrock Rovers,Conference League,6,-,,-,-,-,13,-,540'
+166158,Roberto Lopes,#4,Centre-Back,Shamrock Rovers,Conference League,6,-,-,2,-,-,,,540'
+458633,Tunmise Sobowale,#22,Right-Back,Shamrock Rovers,Conference League,,,,,,,,,
+365201,Dylan Watts,#7,Central Midfield,Shamrock Rovers,Conference League,6,-,-,1,-,-,,,399'
+713240,John McGovern,#88,Centre-Forward,Shamrock Rovers,Conference League,6,1,1,-,-,-,,,228'
+577557,Danny Grant,#21,Right Midfield,Shamrock Rovers,Conference League,5,1,-,1,-,-,,,384'
+939272,Maleace Asamoah,#15,Right Winger,Shamrock Rovers,Conference League,,,,,,,,,
+957327,Cory O'Sullivan,#27,Centre-Back,Shamrock Rovers,Conference League,6,-,-,2,-,-,,,540'
+1260393,Victor Ozhianvuna,#36,Attacking Midfield,Shamrock Rovers,Conference League,2,-,-,-,-,-,,,162'
+108878,Adam Matthews,#2,Right-Back,Shamrock Rovers,Conference League,3,-,1,1,-,-,,,193'
+485998,Connor Malley,#23,Central Midfield,Shamrock Rovers,Conference League,6,1,-,-,-,-,,,193'
+307513,Gary O'Neill,#16,Defensive Midfield,Shamrock Rovers,Conference League,-,-,-,-,-,-,,,-
+365180,Lee Grace,#5,Centre-Back,Shamrock Rovers,Conference League,4,-,-,-,-,-,,,273'
+340920,Trevor Clarke,#18,Left-Back,Shamrock Rovers,Conference League,1,-,-,-,-,-,,,18'
+85706,Enda Stevens,#3,Left-Back,Shamrock Rovers,Conference League,,,,,,,,,
+184007,Rory Gaffney,#20,Centre-Forward,Shamrock Rovers,Conference League,5,-,-,1,-,-,,,379'
+217752,Lee Steacy,#25,Goalkeeper,Shamrock Rovers,Conference League,-,-,,-,-,-,-,-,-
+1061560,John O'Sullivan,#27,Central Midfield,Shamrock Rovers,Conference League,,,,,,,,,
+1134229,Max Kovalevskis,#38,Right Winger,Shamrock Rovers,Conference League,2,-,-,1,-,-,,,59'
+122407,Aaron Greene,#9,Centre-Forward,Shamrock Rovers,Conference League,2,-,-,-,-,-,,,15'
+1109570,Egor Vassenin,#24,Left-Back,Shamrock Rovers,Conference League,,,,,,,,,
+1134233,Alex Noonan,#41,Goalkeeper,Shamrock Rovers,Conference League,-,-,,-,-,-,-,-,-
+1226933,Zak Reddy,#0,Central Midfield,Shamrock Rovers,Conference League,,,,,,,,,
+1259889,Adam Brennan,#19,Attacking Midfield,Shamrock Rovers,Conference League,,,,,,,,,
+1366903,Todd Bazunu,#35,Goalkeeper,Shamrock Rovers,Conference League,-,-,,-,-,-,-,-,-
+1380362,Ben Mahon,#0,Centre-Forward,Shamrock Rovers,Conference League,,,,,,,,,
+1057820,Jeremy Agbonifo,#14,Right Winger,Häcken,Conference League,,,,,,,,,
+1065043,Pontus Dahbo,#16,Attacking Midfield,Häcken,Conference League,4,-,-,2,-,-,,,213'
+685657,Silas Andersen,#8,Defensive Midfield,Häcken,Conference League,6,1,1,-,-,-,,,517'
+1018784,Adrian Svanbäck,#20,Centre-Forward,Häcken,Conference League,6,-,-,-,-,-,,,401'
+728722,Julius Lindberg,#11,Attacking Midfield,Häcken,Conference League,6,1,1,2,-,-,,,524'
+309439,Leo Väisänen,#15,Centre-Back,Häcken,Conference League,,,,,,,,,
+331214,Brice Wembangomo,#5,Right-Back,Häcken,Conference League,5,-,-,-,-,-,,,23'
+1172422,Filip Öhman,#28,Right-Back,Häcken,Conference League,-,-,-,-,-,-,,,-
+875631,Sanders Ngabo,#7,Central Midfield,Häcken,Conference League,3,-,-,-,-,-,,,62'
+866082,Danilo Al-Saed,#18,Left Winger,Häcken,Conference League,1,-,-,-,-,-,,,45'
+1125081,David Andersson,#35,Goalkeeper,Häcken,Conference League,,,,,,,,,
+225676,Adam Lundkvist,#21,Left-Back,Häcken,Conference League,6,-,-,2,-,-,,,535'
+208880,Amor Layouni,#24,Right Winger,Häcken,Conference League,5,-,-,1,-,-,,,361'
+900199,Gustav Lindgren,#9,Centre-Forward,Häcken,Conference League,,,,,,,,,
+198067,Filip Helander,#22,Centre-Back,Häcken,Conference League,6,-,-,3,-,-,,,540'
+665582,David Seger,#19,Central Midfield,Häcken,Conference League,,,,,,,,,
+944095,Olle Samuelsson,#23,Centre-Back,Häcken,Conference League,3,-,-,-,-,-,,,261'
+156937,Johan Hammar,#3,Centre-Back,Häcken,Conference League,4,1,-,-,-,-,,,95'
+51349,Mikkel Rygaard,#10,Central Midfield,Häcken,Conference League,6,-,1,2,-,-,,,526'
+199221,Andreas Linde,#1,Goalkeeper,Häcken,Conference League,1,-,,-,-,-,1,-,90'
+77825,Etrit Berisha,#99,Goalkeeper,Häcken,Conference League,5,-,,1,-,-,7,1,450'
+692608,Ben Engdahl,#17,Right-Back,Häcken,Conference League,,,,,,,,,
+1177723,Harry Hilvenius,#44,Centre-Back,Häcken,Conference League,1,-,-,-,-,-,,,45'
+1519157,Abdoulaye Doumbia,#6,Defensive Midfield,Häcken,Conference League,,,,,,,,,
+1138039,Malte Ljungkull,#40,Central Midfield,Häcken,Conference League,,,,,,,,,
+1270792,Christ Wawa,#27,Right Winger,Häcken,Conference League,-,-,-,-,-,-,,,-
+1433084,Sabri Kondo,#25,Right Winger,Häcken,Conference League,,,,,,,,,
+309472,Matthew Guillaumier,#6,Defensive Midfield,Hamrun Spart.,Conference League,,,,,,,,,
+324380,Joseph Mbong,#10,Right Winger,Hamrun Spart.,Conference League,5,-,-,2,-,2,,,324'
+395697,Kléri Serber,#17,Central Midfield,Hamrun Spart.,Conference League,,,,,,,,,
+462223,Vincenzo Polito,#13,Right-Back,Hamrun Spart.,Conference League,5,-,-,1,1,-,,,434'
+274326,Ognjen Bjelicic,#27,Defensive Midfield,Hamrun Spart.,Conference League,6,-,-,1,-,-,,,540'
+355903,Matías García,#8,Defensive Midfield,Hamrun Spart.,Conference League,4,-,-,1,-,-,,,252'
+1366690,Rafael Compri,#2,Right-Back,Hamrun Spart.,Conference League,6,-,1,-,-,-,,,521'
+191723,Ryan Camenzuli,#94,Left Midfield,Hamrun Spart.,Conference League,5,-,-,-,-,-,,,450'
+235793,Danilo Bulevardi,#31,Central Midfield,Hamrun Spart.,Conference League,,,,,,,,,
+348229,Blessing Eleke,#30,Centre-Forward,Hamrun Spart.,Conference League,,,,,,,,,
+460898,Damir Céter,#24,Centre-Forward,Hamrun Spart.,Conference League,,,,,,,,,
+863078,Sven Xerri,#5,Centre-Back,Hamrun Spart.,Conference League,3,-,-,-,-,-,,,35'
+776915,Sayha Seha,#11,Left Winger,Hamrun Spart.,Conference League,,,,,,,,,
+889992,Jonny Robert,#49,Left Winger,Hamrun Spart.,Conference League,,,,,,,,,
+813973,Michele Carboni,#32,Attacking Midfield,Hamrun Spart.,Conference League,,,,,,,,,
+727091,Mouad El Fanis,#47,Attacking Midfield,Hamrun Spart.,Conference League,5,1,-,1,-,-,,,187'
+125033,Henry Bonello,#1,Goalkeeper,Hamrun Spart.,Conference League,6,-,,1,-,-,11,-,540'
+903185,Shaisen Attard,#7,Central Midfield,Hamrun Spart.,Conference League,2,-,-,-,-,-,,,26'
+169049,Emerson,#91,Defensive Midfield,Hamrun Spart.,Conference League,5,-,-,1,-,-,,,435'
+543560,Kairou Amoustapha,#29,Centre-Forward,Hamrun Spart.,Conference League,,,,,,,,,
+873597,Célio,#98,Goalkeeper,Hamrun Spart.,Conference League,-,-,,-,-,-,-,-,-
+344870,Ivan Inzoudine,#93,Left-Back,Hamrun Spart.,Conference League,,,,,,,,,
+74585,Ederson,#25,Right Winger,Hamrun Spart.,Conference League,5,-,-,2,-,-,,,277'
+580483,Christopher Galea,#0,Central Midfield,Hamrun Spart.,Conference League,,,,,,,,,
+1510225,Essien Borg,#14,Defender,Hamrun Spart.,Conference League,,,,,,,,,
+746613,Will Jarvis,#36,Left Winger,Shelbourne,Conference League,,,,,,,,,
+423757,Kerr McInroy,#23,Central Midfield,Shelbourne,Conference League,6,-,-,1,-,-,,,532'
+746622,Harry Wood,#7,Attacking Midfield,Shelbourne,Conference League,6,-,-,2,-,-,,,436'
+796024,Jack Henry-Francis,#21,Defensive Midfield,Shelbourne,Conference League,6,-,-,1,-,-,,,448'
+122736,Paddy Barrett,#29,Centre-Back,Shelbourne,Conference League,6,-,-,2,-,-,,,540'
+1005113,Maill Lundgren,#28,Right Winger,Shelbourne,Conference League,,,,,,,,,
+854959,Milan Mbeng,#25,Right-Back,Shelbourne,Conference League,5,-,-,-,-,-,,,428'
+630884,Odhran Casey,#16,Centre-Back,Shelbourne,Conference League,,,,,,,,,
+618495,James Norris,#18,Left-Back,Shelbourne,Conference League,3,-,-,2,-,1,,,180'
+508343,Ellis Chapman,#5,Attacking Midfield,Shelbourne,Conference League,2,-,-,-,-,-,,,22'
+504115,John Martin,#10,Centre-Forward,Shelbourne,Conference League,6,-,-,1,-,-,,,177'
+434221,Kameron Ledwidge,#4,Centre-Back,Shelbourne,Conference League,6,-,-,-,-,-,,,446'
+285282,Ali Coote,#14,Attacking Midfield,Shelbourne,Conference League,3,-,-,-,-,-,,,79'
+596142,Wessel Speel,#1,Goalkeeper,Shelbourne,Conference League,6,-,,-,-,-,7,2,540'
+655880,Mipo Odubeko,#11,Centre-Forward,Shelbourne,Conference League,5,-,-,-,-,-,,,399'
+745722,Evan Caffrey,#27,Right Midfield,Shelbourne,Conference League,6,-,-,1,-,-,,,228'
+379347,Sean Boyd,#9,Centre-Forward,Shelbourne,Conference League,4,-,-,1,-,-,,,198'
+567749,Daniel Kelly,#17,Right Winger,Shelbourne,Conference League,6,-,-,-,-,-,,,217'
+655177,Zeno Ibsen Rossi,#24,Centre-Back,Shelbourne,Conference League,,,,,,,,,
+955724,Sean Moore,#22,Right Winger,Shelbourne,Conference League,,,,,,,,,
+293782,JJ Lunney,#6,Defensive Midfield,Shelbourne,Conference League,5,-,-,2,-,-,,,315'
+495178,Sam Bone,#15,Centre-Back,Shelbourne,Conference League,,,,,,,,,
+184670,Sean Gannon,#2,Right-Back,Shelbourne,Conference League,4,-,-,1,-,-,,,183'
+741226,Conor Walsh,#31,Goalkeeper,Shelbourne,Conference League,,,,,,,,,
+1461853,Alex Flynn,#52,Central Midfield,Shelbourne,Conference League,-,-,-,-,-,-,,,-
+1442225,Joey Wuna,#56,Centre-Forward,Shelbourne,Conference League,,,,,,,,,
+1365582,Finn Moylan,#0,Goalkeeper,Shelbourne,Conference League,-,-,,-,-,-,-,-,-
+1365581,James Bailey,#0,Attacking Midfield,Shelbourne,Conference League,,,,,,,,,
+1284436,Cillian Campion,#0,Goalkeeper,Shelbourne,Conference League,,,,,,,,,
+1165133,Cillian Ryan,#60,Right Midfield,Shelbourne,Conference League,,,,,,,,,
+1134234,Ali Topcu,#50,Goalkeeper,Shelbourne,Conference League,-,-,,-,-,-,-,-,-
+1005770,James Roche,#55,Centre-Back,Shelbourne,Conference League,,,,,,,,,
+681724,Rodrigo Freitas,#20,Centre-Forward,Shelbourne,Conference League,,,,,,,,,
+624751,Lyall Cameron,#25,Central Midfield,Aberdeen FC,Conference League,,,,,,,,,
+251309,Dennis Geiger,#8,Central Midfield,Aberdeen FC,Conference League,,,,,,,,,
+646189,Topi Keskinen,#81,Left Winger,Aberdeen FC,Conference League,5,-,1,1,-,-,,,271'
+503865,Alexander Jensen,#28,Right-Back,Aberdeen FC,Conference League,4,-,-,-,-,-,,,346'
+808452,Jack Milne,#22,Centre-Back,Aberdeen FC,Conference League,6,-,-,1,-,-,,,540'
+360661,Kevin Nisbet,#15,Centre-Forward,Aberdeen FC,Conference League,5,1,-,-,-,-,,,145'
+567114,Liam Morrison,#23,Centre-Back,Aberdeen FC,Conference League,,,,,,,,,
+264302,Dimitar Mitov,#1,Goalkeeper,Aberdeen FC,Conference League,6,-,,-,-,-,14,1,540'
+448883,Kristers Tobers,#24,Centre-Back,Aberdeen FC,Conference League,,,,,,,,,
+698548,Marko Lazetić,#27,Centre-Forward,Aberdeen FC,Conference League,6,-,1,1,-,-,,,386'
+315138,Mats Knoester,#5,Centre-Back,Aberdeen FC,Conference League,6,-,-,2,-,-,,,503'
+226410,Per Kristian Bråtveit,#99,Goalkeeper,Aberdeen FC,Conference League,,,,,,,,,
+794777,Nicolas Milanovic,#11,Right Winger,Aberdeen FC,Conference League,3,-,-,1,-,-,,,60'
+728478,Gavin Molloy,#21,Centre-Back,Aberdeen FC,Conference League,-,-,-,-,-,-,,,-
+562409,Afeez Aremu,#32,Defensive Midfield,Aberdeen FC,Conference League,,,,,,,,,
+371003,Ante Palaversa,#18,Defensive Midfield,Aberdeen FC,Conference League,3,-,-,-,-,-,,,113'
+434981,Toyosi Olusanya,#20,Centre-Forward,Aberdeen FC,Conference League,,,,,,,,,
+339235,Tom McIntyre,#26,Centre-Back,Aberdeen FC,Conference League,,,,,,,,,
+1073397,Kenan Bilalovic,#14,Left Winger,Aberdeen FC,Conference League,,,,,,,,,
+130765,Stuart Armstrong,#16,Central Midfield,Aberdeen FC,Conference League,5,-,-,-,-,-,,,300'
+148215,Nicky Devlin,#2,Right-Back,Aberdeen FC,Conference League,6,1,-,1,-,-,,,459'
+924858,Dylan Lobban,#38,Right-Back,Aberdeen FC,Conference League,4,-,-,1,-,-,,,340'
+796216,Emmanuel Gyamfi,#77,Left-Back,Aberdeen FC,Conference League,2,-,-,-,-,-,,,39'
+95950,Graeme Shinnie,#4,Defensive Midfield,Aberdeen FC,Conference League,6,-,-,2,-,-,,,208'
+1015874,Kjartan Már Kjartansson,#29,Defensive Midfield,Aberdeen FC,Conference League,,,,,,,,,
+531840,Elvis Bwomono,#42,Centre-Back,Aberdeen FC,Conference League,,,,,,,,,
+948938,Mitchel Frame,#3,Left-Back,Aberdeen FC,Conference League,,,,,,,,,
+477136,Nick Suman,#13,Goalkeeper,Aberdeen FC,Conference League,-,-,,-,-,-,-,-,-
+803052,Nikolaus Wurmbrand,#15,Right Winger,Rapid Vienna,Conference League,6,-,-,1,-,-,,,366'
+961937,Romeo Amane,#29,Central Midfield,Rapid Vienna,Conference League,6,-,-,-,-,-,,,453'
+683891,Serge-Philippe Raux-Yao,#6,Centre-Back,Rapid Vienna,Conference League,2,-,-,-,-,-,,,180'
+619657,Tobias Gulliksen,#17,Attacking Midfield,Rapid Vienna,Conference League,6,-,-,1,-,-,,,315'
+526895,Matthias Seidl,#18,Attacking Midfield,Rapid Vienna,Conference League,4,-,-,3,-,-,,,256'
+912078,Petter Nosa Dahl,#10,Left Winger,Rapid Vienna,Conference League,1,-,-,-,-,-,,,11'
+439351,Bendegúz Bolla,#77,Right-Back,Rapid Vienna,Conference League,3,-,-,-,-,-,,,242'
+847257,Ange Ahoussou,#20,Centre-Back,Rapid Vienna,Conference League,6,-,-,1,-,-,,,540'
+319482,Nenad Cvetkovic,#55,Centre-Back,Rapid Vienna,Conference League,4,-,-,-,-,-,,,271'
+526785,Claudy Mbuyi,#71,Centre-Forward,Rapid Vienna,Conference League,3,-,-,-,-,-,,,108'
+976234,Martin Ndzie,#14,Defensive Midfield,Rapid Vienna,Conference League,3,-,-,1,-,-,,,106'
+404881,Niklas Hedl,#1,Goalkeeper,Rapid Vienna,Conference League,4,-,,-,-,-,9,-,360'
+231586,Jannes Horn,#38,Left-Back,Rapid Vienna,Conference League,3,-,1,1,-,-,,,259'
+538974,Janis Antiste,#90,Centre-Forward,Rapid Vienna,Conference League,5,1,-,-,-,-,,,245'
+692598,Furkan Demir,#61,Right-Back,Rapid Vienna,Conference League,6,-,1,2,-,-,,,390'
+548031,Yusuf Demir,#22,Right Winger,Rapid Vienna,Conference League,,,,,,,,,
+320701,Ercan Kara,#9,Centre-Forward,Rapid Vienna,Conference League,6,-,-,2,-,-,,,402'
+475412,Jean Marcelin,#24,Centre-Back,Rapid Vienna,Conference League,,,,,,,,,
+565531,Marco Tilio,#7,Right Winger,Rapid Vienna,Conference League,1,-,-,-,-,-,,,45'
+224871,Lukas Grgic,#8,Defensive Midfield,Rapid Vienna,Conference League,4,-,-,-,-,-,,,280'
+715893,Jakob Schöller,#4,Centre-Back,Rapid Vienna,Conference League,2,-,-,1,-,-,,,116'
+393766,Jonas Auer,#23,Left-Back,Rapid Vienna,Conference League,4,-,1,-,-,-,,,224'
+1312171,Daniel Nunoo,#54,Right Winger,Rapid Vienna,Conference League,,,,,,,,,
+601089,Dominik Weixelbraun,#41,Left Winger,Rapid Vienna,Conference League,3,-,-,-,-,-,,,37'
+458537,Tobias Børkeeiet,#16,Defensive Midfield,Rapid Vienna,Conference League,,,,,,,,,
+223957,Paul Gartler,#25,Goalkeeper,Rapid Vienna,Conference League,2,-,,-,-,-,5,-,180'
+147485,Louis Schaub,#21,Right Midfield,Rapid Vienna,Conference League,6,1,-,1,-,-,,,256'
+49693,Andreas Weimann,#26,Centre-Forward,Rapid Vienna,Conference League,,,,,,,,,
+803046,Amin-Elias Gröller,#47,Centre-Back,Rapid Vienna,Conference League,3,-,-,-,-,-,,,153'
+658130,Laurenz Orgler,#50,Goalkeeper,Rapid Vienna,Conference League,-,-,,-,-,-,-,-,-
+692605,Benjamin Göschl,#51,Goalkeeper,Rapid Vienna,Conference League,-,-,,-,-,-,-,-,-

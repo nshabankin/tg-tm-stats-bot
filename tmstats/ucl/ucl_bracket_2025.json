@@ -1,0 +1,514 @@
+{
+  "rounds": [
+    {
+      "key": "playoffs",
+      "label": "Knockout Play-offs",
+      "order": 1,
+      "ties": [
+        {
+          "code": "IR 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Tue 17/02/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Galatasaray",
+              "result": "5:2",
+              "awayTeam": "Juventus"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Juventus",
+              "result": "3:2 AET",
+              "awayTeam": "Galatasaray"
+            }
+          ]
+        },
+        {
+          "code": "IR 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Monaco",
+              "result": "2:3",
+              "awayTeam": "PSG"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "PSG",
+              "result": "2:2",
+              "awayTeam": "Monaco"
+            }
+          ]
+        },
+        {
+          "code": "IR 3",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Benfica",
+              "result": "0:1",
+              "awayTeam": "Real Madrid"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Real Madrid",
+              "result": "2:1",
+              "awayTeam": "Benfica"
+            }
+          ]
+        },
+        {
+          "code": "IR 4",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Dortmund",
+              "result": "2:0",
+              "awayTeam": "Atalanta"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Wed 25/02/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Atalanta",
+              "result": "4:1",
+              "awayTeam": "Dortmund"
+            }
+          ]
+        },
+        {
+          "code": "IR 5",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Wed 18/02/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Qarabağ",
+              "result": "1:6",
+              "awayTeam": "Newcastle"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Newcastle",
+              "result": "3:2",
+              "awayTeam": "Qarabağ"
+            }
+          ]
+        },
+        {
+          "code": "IR 6",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Club Brugge",
+              "result": "3:3",
+              "awayTeam": "Atlético"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Tue 24/02/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Atlético",
+              "result": "4:1",
+              "awayTeam": "Club Brugge"
+            }
+          ]
+        },
+        {
+          "code": "IR 7",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Bodø/Glimt",
+              "result": "3:1",
+              "awayTeam": "Inter"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Inter",
+              "result": "1:2",
+              "awayTeam": "Bodø/Glimt"
+            }
+          ]
+        },
+        {
+          "code": "IR 8",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Olympiacos",
+              "result": "0:2",
+              "awayTeam": "Leverkusen"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Leverkusen",
+              "result": "0:0",
+              "awayTeam": "Olympiacos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "round_of_16",
+      "label": "Round of 16",
+      "order": 2,
+      "ties": [
+        {
+          "code": "Ro16 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Tue 10/03/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Galatasaray",
+              "result": "1:0",
+              "awayTeam": "Liverpool"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Liverpool",
+              "result": "4:0",
+              "awayTeam": "Galatasaray"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 4",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Atalanta",
+              "result": "1:6",
+              "awayTeam": "Bayern Munich"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Bayern Munich",
+              "result": "4:1",
+              "awayTeam": "Atalanta"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 5",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Newcastle",
+              "result": "1:1",
+              "awayTeam": "Barcelona"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Wed 18/03/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Barcelona",
+              "result": "7:2",
+              "awayTeam": "Newcastle"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 6",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Atlético",
+              "result": "5:2",
+              "awayTeam": "Tottenham"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Tottenham",
+              "result": "3:2",
+              "awayTeam": "Atlético"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 8",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Wed 11/03/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Leverkusen",
+              "result": "1:1",
+              "awayTeam": "Arsenal"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Arsenal",
+              "result": "2:0",
+              "awayTeam": "Leverkusen"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "PSG",
+              "result": "5:2",
+              "awayTeam": "Chelsea"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Chelsea",
+              "result": "0:3",
+              "awayTeam": "PSG"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 3",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Real Madrid",
+              "result": "3:0",
+              "awayTeam": "Man City"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Man City",
+              "result": "1:2",
+              "awayTeam": "Real Madrid"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 7",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Bodø/Glimt",
+              "result": "3:0",
+              "awayTeam": "Sporting"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Tue 17/03/2026",
+              "time": "6:45 PM",
+              "homeTeam": "Sporting",
+              "result": "5:0 AET",
+              "awayTeam": "Bodø/Glimt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "quarter_finals",
+      "label": "Quarter-finals",
+      "order": 3,
+      "ties": [
+        {
+          "code": "QF 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Tue 07/04/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Real Madrid",
+              "result": "1:2",
+              "awayTeam": "Bayern Munich"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Wed 15/04/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Bayern Munich",
+              "result": "4:3",
+              "awayTeam": "Real Madrid"
+            }
+          ]
+        },
+        {
+          "code": "QF 4",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Sporting",
+              "result": "0:1",
+              "awayTeam": "Arsenal"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Arsenal",
+              "result": "0:0",
+              "awayTeam": "Sporting"
+            }
+          ]
+        },
+        {
+          "code": "QF 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Wed 08/04/2026",
+              "time": "9:00 PM",
+              "homeTeam": "PSG",
+              "result": "2:0",
+              "awayTeam": "Liverpool"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Tue 14/04/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Liverpool",
+              "result": "0:2",
+              "awayTeam": "PSG"
+            }
+          ]
+        },
+        {
+          "code": "QF 3",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Barcelona",
+              "result": "0:2",
+              "awayTeam": "Atlético"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "",
+              "time": "",
+              "homeTeam": "Atlético",
+              "result": "1:2",
+              "awayTeam": "Barcelona"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "semi_finals",
+      "label": "Semi-finals",
+      "order": 4,
+      "ties": [
+        {
+          "code": "SF 1",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Tue 28/04/2026",
+              "time": "9:00 PM",
+              "homeTeam": "PSG",
+              "result": "-:-",
+              "awayTeam": "Bayern Munich"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Wed 06/05/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Bayern Munich",
+              "result": "-:-",
+              "awayTeam": "PSG"
+            }
+          ]
+        },
+        {
+          "code": "SF 2",
+          "matches": [
+            {
+              "leg": "1st leg",
+              "date": "Wed 29/04/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Atlético",
+              "result": "-:-",
+              "awayTeam": "Arsenal"
+            },
+            {
+              "leg": "2nd leg",
+              "date": "Tue 05/05/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Arsenal",
+              "result": "-:-",
+              "awayTeam": "Atlético"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "final",
+      "label": "Final",
+      "order": 5,
+      "ties": [
+        {
+          "code": "FI",
+          "matches": [
+            {
+              "leg": "Final",
+              "date": "Sat 30/05/2026",
+              "time": "Unknown",
+              "homeTeam": "Winner SF 1",
+              "result": "-:-",
+              "awayTeam": "Winner SF 2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
