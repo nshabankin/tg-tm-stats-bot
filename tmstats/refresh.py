@@ -292,6 +292,17 @@ def extract_score_from_row_cells(cells: List[html.HtmlElement],
     return ''
 
 
+def is_club_abbreviation(value: str) -> bool:
+    """Heuristic filter for 3-4 letter uppercase abbreviations (e.g. LIV)."""
+    text = normalize_text(value)
+    if not text or ' ' in text:
+        return False
+    letters = re.sub(r'[^A-Za-z]', '', text)
+    if not letters:
+        return False
+    return len(letters) <= 4 and letters.isupper()
+
+
 def parse_fixture_table(table: html.HtmlElement) -> List[dict]:
     matches: List[dict] = []
     for row in table.xpath('.//tr[td]'):
@@ -341,7 +352,12 @@ def parse_spieltag_matches(doc: html.HtmlElement) -> List[dict]:
             if name and (not unique or unique[-1] != name):
                 unique.append(name)
 
-        if len(unique) < 2:
+        full_names = [name for name in unique if not is_club_abbreviation(name)]
+        if len(full_names) >= 2:
+            home_name, away_name = full_names[0], full_names[1]
+        elif len(unique) >= 2:
+            home_name, away_name = unique[0], unique[1]
+        else:
             continue
 
         cells = row.xpath('./td')
@@ -364,8 +380,8 @@ def parse_spieltag_matches(doc: html.HtmlElement) -> List[dict]:
         matches.append({
             'date': date_value,
             'time': time_value,
-            'homeTeam': unique[0],
-            'awayTeam': unique[1],
+            'homeTeam': home_name,
+            'awayTeam': away_name,
             'score': score,
         })
 

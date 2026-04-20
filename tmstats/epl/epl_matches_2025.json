@@ -8,35 +8,35 @@
           "date": "Fri 15/08/2025",
           "time": "9:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Bournemouth",
           "score": "4:2"
         },
         {
           "date": "Sat 16/08/2025",
           "time": "1:30 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Newcastle",
           "score": "0:0"
         },
         {
           "date": "Sat 16/08/2025",
           "time": "4:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Fulham",
           "score": "1:1"
         },
         {
           "date": "Sat 16/08/2025",
           "time": "4:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "West Ham",
           "score": "3:0"
         },
         {
           "date": "Sat 16/08/2025",
           "time": "4:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Burnley",
           "score": "3:0"
         },
         {
@@ -50,28 +50,28 @@
           "date": "Sun 17/08/2025",
           "time": "3:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Brentford",
           "score": "3:1"
         },
         {
           "date": "Sun 17/08/2025",
           "time": "3:00 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Crystal Palace",
           "score": "0:0"
         },
         {
           "date": "Sun 17/08/2025",
           "time": "5:30 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Arsenal",
           "score": "0:1"
         },
         {
           "date": "Mon 18/08/2025",
           "time": "9:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Everton",
           "score": "1:0"
         }
       ]
@@ -84,70 +84,70 @@
           "date": "Fri 22/08/2025",
           "time": "9:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Chelsea",
           "score": "1:5"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "1:30 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Tottenham",
           "score": "0:2"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "4:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Wolves",
           "score": "1:0"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "4:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Aston Villa",
           "score": "1:0"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "4:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Sunderland",
           "score": "2:0"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "6:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Leeds",
           "score": "5:0"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "3:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Brighton",
           "score": "2:0"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "3:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Nott'm Forest",
           "score": "1:1"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "5:30 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Man Utd",
           "score": "1:1"
         },
         {
           "date": "Mon 25/08/2025",
           "time": "9:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Liverpool",
           "score": "2:3"
         }
       ]
@@ -160,28 +160,28 @@
           "date": "Sat 30/08/2025",
           "time": "1:30 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Fulham",
           "score": "2:0"
         },
         {
           "date": "Sat 30/08/2025",
           "time": "4:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Burnley",
           "score": "3:2"
         },
         {
           "date": "Sat 30/08/2025",
           "time": "4:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Brentford",
           "score": "2:1"
         },
         {
           "date": "Sat 30/08/2025",
           "time": "4:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Bournemouth",
           "score": "0:1"
         },
         {
@@ -195,35 +195,35 @@
           "date": "Sat 30/08/2025",
           "time": "6:30 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Newcastle",
           "score": "0:0"
         },
         {
           "date": "Sun 31/08/2025",
           "time": "3:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Man City",
           "score": "2:1"
         },
         {
           "date": "Sun 31/08/2025",
           "time": "3:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "West Ham",
           "score": "0:3"
         },
         {
           "date": "Sun 31/08/2025",
           "time": "5:30 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Arsenal",
           "score": "1:0"
         },
         {
           "date": "Sun 31/08/2025",
           "time": "8:00 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Crystal Palace",
           "score": "0:3"
         }
       ]
@@ -236,70 +236,70 @@
           "date": "Sat 13/09/2025",
           "time": "1:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Nott'm Forest",
           "score": "3:0"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Brighton",
           "score": "2:1"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Sunderland",
           "score": "0:0"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Aston Villa",
           "score": "0:0"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Leeds",
           "score": "1:0"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Wolves",
           "score": "1:0"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "6:30 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Tottenham",
           "score": "0:3"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "9:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Chelsea",
           "score": "2:2"
         },
         {
           "date": "Sun 14/09/2025",
           "time": "3:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Liverpool",
           "score": "0:1"
         },
         {
           "date": "Sun 14/09/2025",
           "time": "5:30 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Man Utd",
           "score": "3:0"
         }
       ]
@@ -312,28 +312,28 @@
           "date": "Sat 20/09/2025",
           "time": "1:30 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Everton",
           "score": "2:1"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Tottenham",
           "score": "2:2"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Nott'm Forest",
           "score": "1:1"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "4:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Crystal Palace",
           "score": "1:2"
         },
         {
@@ -347,35 +347,35 @@
           "date": "Sat 20/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Chelsea",
           "score": "2:1"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "9:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Brentford",
           "score": "3:1"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "3:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Newcastle",
           "score": "0:0"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "3:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Aston Villa",
           "score": "1:1"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "5:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Man City",
           "score": "1:1"
         }
       ]
@@ -388,70 +388,70 @@
           "date": "Sat 27/09/2025",
           "time": "1:30 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Man Utd",
           "score": "3:1"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Brighton",
           "score": "1:3"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Liverpool",
           "score": "2:1"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Bournemouth",
           "score": "2:2"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Burnley",
           "score": "5:1"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Sunderland",
           "score": "0:1"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "9:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Wolves",
           "score": "1:1"
         },
         {
           "date": "Sun 28/09/2025",
           "time": "3:00 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Fulham",
           "score": "3:1"
         },
         {
           "date": "Sun 28/09/2025",
           "time": "5:30 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Arsenal",
           "score": "1:2"
         },
         {
           "date": "Mon 29/09/2025",
           "time": "9:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "West Ham",
           "score": "1:1"
         }
       ]
@@ -464,56 +464,56 @@
           "date": "Fri 03/10/2025",
           "time": "9:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Fulham",
           "score": "3:1"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "1:30 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Tottenham",
           "score": "1:2"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "4:00 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "West Ham",
           "score": "2:0"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "4:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Sunderland",
           "score": "2:0"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Liverpool",
           "score": "2:1"
         },
         {
           "date": "Sun 05/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Burnley",
           "score": "2:1"
         },
         {
           "date": "Sun 05/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Crystal Palace",
           "score": "2:1"
         },
         {
           "date": "Sun 05/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Nott'm Forest",
           "score": "2:0"
         },
         {
@@ -527,7 +527,7 @@
           "date": "Sun 05/10/2025",
           "time": "5:30 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Man City",
           "score": "0:1"
         }
       ]
@@ -540,70 +540,70 @@
           "date": "Sat 18/10/2025",
           "time": "1:30 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Chelsea",
           "score": "0:3"
         },
         {
           "date": "Sat 18/10/2025",
           "time": "4:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Newcastle",
           "score": "2:1"
         },
         {
           "date": "Sat 18/10/2025",
           "time": "4:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Leeds",
           "score": "2:0"
         },
         {
           "date": "Sat 18/10/2025",
           "time": "4:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Bournemouth",
           "score": "3:3"
         },
         {
           "date": "Sat 18/10/2025",
           "time": "4:00 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Everton",
           "score": "2:0"
         },
         {
           "date": "Sat 18/10/2025",
           "time": "4:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Wolves",
           "score": "2:0"
         },
         {
           "date": "Sat 18/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Arsenal",
           "score": "0:1"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Aston Villa",
           "score": "1:2"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "5:30 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Man Utd",
           "score": "1:2"
         },
         {
           "date": "Mon 20/10/2025",
           "time": "9:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Brentford",
           "score": "0:2"
         }
       ]
@@ -616,56 +616,56 @@
           "date": "Fri 24/10/2025",
           "time": "9:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "West Ham",
           "score": "2:1"
         },
         {
           "date": "Sat 25/10/2025",
           "time": "4:00 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Sunderland",
           "score": "1:2"
         },
         {
           "date": "Sat 25/10/2025",
           "time": "4:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Fulham",
           "score": "2:1"
         },
         {
           "date": "Sat 25/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Brighton",
           "score": "4:2"
         },
         {
           "date": "Sat 25/10/2025",
           "time": "9:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Liverpool",
           "score": "3:2"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Crystal Palace",
           "score": "1:0"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Man City",
           "score": "1:0"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Nott'm Forest",
           "score": "2:0"
         },
         {
@@ -679,7 +679,7 @@
           "date": "Sun 26/10/2025",
           "time": "5:30 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Tottenham",
           "score": "0:3"
         }
       ]
@@ -692,70 +692,70 @@
           "date": "Sat 01/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Leeds",
           "score": "3:0"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Arsenal",
           "score": "0:2"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Brentford",
           "score": "2:0"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Wolves",
           "score": "3:0"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Man Utd",
           "score": "2:2"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "6:30 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Chelsea",
           "score": "0:1"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "9:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Aston Villa",
           "score": "2:0"
         },
         {
           "date": "Sun 02/11/2025",
           "time": "3:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Newcastle",
           "score": "3:1"
         },
         {
           "date": "Sun 02/11/2025",
           "time": "5:30 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Bournemouth",
           "score": "3:1"
         },
         {
           "date": "Mon 03/11/2025",
           "time": "9:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Everton",
           "score": "1:1"
         }
       ]
@@ -768,70 +768,70 @@
           "date": "Sat 08/11/2025",
           "time": "1:30 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Man Utd",
           "score": "2:2"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Fulham",
           "score": "2:0"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "4:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Burnley",
           "score": "3:2"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "6:30 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Arsenal",
           "score": "2:2"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "9:00 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Wolves",
           "score": "3:0"
         },
         {
           "date": "Sun 09/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Bournemouth",
           "score": "4:0"
         },
         {
           "date": "Sun 09/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Newcastle",
           "score": "3:1"
         },
         {
           "date": "Sun 09/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Brighton",
           "score": "0:0"
         },
         {
           "date": "Sun 09/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Leeds",
           "score": "3:1"
         },
         {
           "date": "Sun 09/11/2025",
           "time": "5:30 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Liverpool",
           "score": "3:0"
         }
       ]
@@ -844,35 +844,35 @@
           "date": "Sat 22/11/2025",
           "time": "1:30 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Chelsea",
           "score": "0:2"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "West Ham",
           "score": "2:2"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Brentford",
           "score": "2:1"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Sunderland",
           "score": "1:0"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Nott'm Forest",
           "score": "0:3"
         },
         {
@@ -886,28 +886,28 @@
           "date": "Sat 22/11/2025",
           "time": "6:30 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Man City",
           "score": "2:1"
         },
         {
           "date": "Sun 23/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Aston Villa",
           "score": "1:2"
         },
         {
           "date": "Sun 23/11/2025",
           "time": "5:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Tottenham",
           "score": "4:1"
         },
         {
           "date": "Mon 24/11/2025",
           "time": "9:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Everton",
           "score": "0:1"
         }
       ]
@@ -920,70 +920,70 @@
           "date": "Sat 29/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Burnley",
           "score": "3:1"
         },
         {
           "date": "Sat 29/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Leeds",
           "score": "3:2"
         },
         {
           "date": "Sat 29/11/2025",
           "time": "4:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Bournemouth",
           "score": "3:2"
         },
         {
           "date": "Sat 29/11/2025",
           "time": "6:30 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Newcastle",
           "score": "1:4"
         },
         {
           "date": "Sat 29/11/2025",
           "time": "9:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Fulham",
           "score": "1:2"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "1:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Man Utd",
           "score": "1:2"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "3:05 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Wolves",
           "score": "1:0"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "3:05 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Brighton",
           "score": "0:2"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "3:05 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Liverpool",
           "score": "0:2"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "5:30 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Arsenal",
           "score": "1:1"
         }
       ]
@@ -996,56 +996,56 @@
           "date": "Tue 02/12/2025",
           "time": "8:30 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Everton",
           "score": "0:1"
         },
         {
           "date": "Tue 02/12/2025",
           "time": "8:30 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Man City",
           "score": "4:5"
         },
         {
           "date": "Tue 02/12/2025",
           "time": "9:15 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Tottenham",
           "score": "2:2"
         },
         {
           "date": "Wed 03/12/2025",
           "time": "8:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Brentford",
           "score": "2:0"
         },
         {
           "date": "Wed 03/12/2025",
           "time": "8:30 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Crystal Palace",
           "score": "0:1"
         },
         {
           "date": "Wed 03/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Aston Villa",
           "score": "3:4"
         },
         {
           "date": "Wed 03/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Chelsea",
           "score": "3:1"
         },
         {
           "date": "Wed 03/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Sunderland",
           "score": "1:1"
         },
         {
@@ -1059,7 +1059,7 @@
           "date": "Thu 04/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "West Ham",
           "score": "1:1"
         }
       ]
@@ -1072,63 +1072,63 @@
           "date": "Sat 06/12/2025",
           "time": "1:30 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Arsenal",
           "score": "2:1"
         },
         {
           "date": "Sat 06/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Chelsea",
           "score": "0:0"
         },
         {
           "date": "Sat 06/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Nott'm Forest",
           "score": "3:0"
         },
         {
           "date": "Sat 06/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Sunderland",
           "score": "3:0"
         },
         {
           "date": "Sat 06/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Burnley",
           "score": "2:1"
         },
         {
           "date": "Sat 06/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Brentford",
           "score": "2:0"
         },
         {
           "date": "Sat 06/12/2025",
           "time": "6:30 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Liverpool",
           "score": "3:3"
         },
         {
           "date": "Sun 07/12/2025",
           "time": "3:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "West Ham",
           "score": "1:1"
         },
         {
           "date": "Sun 07/12/2025",
           "time": "5:30 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Crystal Palace",
           "score": "1:2"
         },
         {
@@ -1148,70 +1148,70 @@
           "date": "Sat 13/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Everton",
           "score": "2:0"
         },
         {
           "date": "Sat 13/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Brighton",
           "score": "2:0"
         },
         {
           "date": "Sat 13/12/2025",
           "time": "6:30 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Fulham",
           "score": "2:3"
         },
         {
           "date": "Sat 13/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Wolves",
           "score": "2:1"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "3:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Man City",
           "score": "0:3"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "3:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Tottenham",
           "score": "3:0"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "3:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Newcastle",
           "score": "1:0"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "3:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Aston Villa",
           "score": "2:3"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "5:30 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Leeds",
           "score": "1:1"
         },
         {
           "date": "Mon 15/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Bournemouth",
           "score": "4:4"
         }
       ]
@@ -1224,28 +1224,28 @@
           "date": "Sat 20/12/2025",
           "time": "1:30 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Chelsea",
           "score": "2:2"
         },
         {
           "date": "Sat 20/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Burnley",
           "score": "1:1"
         },
         {
           "date": "Sat 20/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Sunderland",
           "score": "0:0"
         },
         {
           "date": "Sat 20/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "West Ham",
           "score": "3:0"
         },
         {
@@ -1259,35 +1259,35 @@
           "date": "Sat 20/12/2025",
           "time": "6:30 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Liverpool",
           "score": "1:2"
         },
         {
           "date": "Sat 20/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Arsenal",
           "score": "0:1"
         },
         {
           "date": "Sat 20/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Crystal Palace",
           "score": "4:1"
         },
         {
           "date": "Sun 21/12/2025",
           "time": "5:30 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Man Utd",
           "score": "2:1"
         },
         {
           "date": "Mon 22/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Nott'm Forest",
           "score": "1:0"
         }
       ]
@@ -1300,70 +1300,70 @@
           "date": "Fri 26/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Newcastle",
           "score": "1:0"
         },
         {
           "date": "Sat 27/12/2025",
           "time": "1:30 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Man City",
           "score": "1:2"
         },
         {
           "date": "Sat 27/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Brighton",
           "score": "2:1"
         },
         {
           "date": "Sat 27/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Bournemouth",
           "score": "4:1"
         },
         {
           "date": "Sat 27/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Everton",
           "score": "0:0"
         },
         {
           "date": "Sat 27/12/2025",
           "time": "4:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Wolves",
           "score": "2:1"
         },
         {
           "date": "Sat 27/12/2025",
           "time": "4:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Fulham",
           "score": "0:1"
         },
         {
           "date": "Sat 27/12/2025",
           "time": "6:30 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Aston Villa",
           "score": "1:2"
         },
         {
           "date": "Sun 28/12/2025",
           "time": "3:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Leeds",
           "score": "1:1"
         },
         {
           "date": "Sun 28/12/2025",
           "time": "5:30 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Tottenham",
           "score": "0:1"
         }
       ]
@@ -1376,70 +1376,70 @@
           "date": "Tue 30/12/2025",
           "time": "8:30 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Newcastle",
           "score": "1:3"
         },
         {
           "date": "Tue 30/12/2025",
           "time": "8:30 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Bournemouth",
           "score": "2:2"
         },
         {
           "date": "Tue 30/12/2025",
           "time": "8:30 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Everton",
           "score": "0:2"
         },
         {
           "date": "Tue 30/12/2025",
           "time": "8:30 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Brighton",
           "score": "2:2"
         },
         {
           "date": "Tue 30/12/2025",
           "time": "9:15 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Aston Villa",
           "score": "4:1"
         },
         {
           "date": "Tue 30/12/2025",
           "time": "9:15 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Wolves",
           "score": "1:1"
         },
         {
           "date": "Thu 01/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Fulham",
           "score": "1:1"
         },
         {
           "date": "Thu 01/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Leeds",
           "score": "0:0"
         },
         {
           "date": "Thu 01/01/2026",
           "time": "9:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Tottenham",
           "score": "0:0"
         },
         {
           "date": "Thu 01/01/2026",
           "time": "9:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Man City",
           "score": "0:0"
         }
       ]
@@ -1452,14 +1452,14 @@
           "date": "Sat 03/01/2026",
           "time": "1:30 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Nott'm Forest",
           "score": "3:1"
         },
         {
           "date": "Sat 03/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Burnley",
           "score": "2:0"
         },
         {
@@ -1473,49 +1473,49 @@
           "date": "Sat 03/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Arsenal",
           "score": "2:3"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "1:30 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Man Utd",
           "score": "1:1"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Brentford",
           "score": "2:4"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Liverpool",
           "score": "2:2"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Crystal Palace",
           "score": "2:0"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Sunderland",
           "score": "1:1"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Chelsea",
           "score": "1:1"
         }
       ]
@@ -1528,70 +1528,70 @@
           "date": "Tue 06/01/2026",
           "time": "9:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Nott'm Forest",
           "score": "1:2"
         },
         {
           "date": "Wed 07/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Tottenham",
           "score": "3:2"
         },
         {
           "date": "Wed 07/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Sunderland",
           "score": "3:0"
         },
         {
           "date": "Wed 07/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Aston Villa",
           "score": "0:0"
         },
         {
           "date": "Wed 07/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Wolves",
           "score": "1:1"
         },
         {
           "date": "Wed 07/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Chelsea",
           "score": "2:1"
         },
         {
           "date": "Wed 07/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Brighton",
           "score": "1:1"
         },
         {
           "date": "Wed 07/01/2026",
           "time": "9:15 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Man Utd",
           "score": "2:2"
         },
         {
           "date": "Wed 07/01/2026",
           "time": "9:15 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Leeds",
           "score": "4:3"
         },
         {
           "date": "Thu 08/01/2026",
           "time": "9:00 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Liverpool",
           "score": "0:0"
         }
       ]
@@ -1604,49 +1604,49 @@
           "date": "Sat 17/01/2026",
           "time": "1:30 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Man City",
           "score": "2:0"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Brentford",
           "score": "2:0"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Fulham",
           "score": "1:0"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Burnley",
           "score": "1:1"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Crystal Palace",
           "score": "2:1"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "West Ham",
           "score": "1:2"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Arsenal",
           "score": "0:0"
         },
         {
@@ -1660,14 +1660,14 @@
           "date": "Sun 18/01/2026",
           "time": "5:30 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Everton",
           "score": "0:1"
         },
         {
           "date": "Mon 19/01/2026",
           "time": "9:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Bournemouth",
           "score": "1:1"
         }
       ]
@@ -1680,70 +1680,70 @@
           "date": "Sat 24/01/2026",
           "time": "1:30 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Sunderland",
           "score": "3:1"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Tottenham",
           "score": "2:2"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Brighton",
           "score": "2:1"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Wolves",
           "score": "2:0"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Liverpool",
           "score": "3:2"
         },
         {
           "date": "Sun 25/01/2026",
           "time": "3:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Nott'm Forest",
           "score": "0:2"
         },
         {
           "date": "Sun 25/01/2026",
           "time": "3:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Chelsea",
           "score": "1:3"
         },
         {
           "date": "Sun 25/01/2026",
           "time": "3:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Aston Villa",
           "score": "0:2"
         },
         {
           "date": "Sun 25/01/2026",
           "time": "5:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Man Utd",
           "score": "2:3"
         },
         {
           "date": "Mon 26/01/2026",
           "time": "9:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Leeds",
           "score": "1:1"
         }
       ]
@@ -1756,14 +1756,14 @@
           "date": "Sat 31/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Everton",
           "score": "1:1"
         },
         {
           "date": "Sat 31/01/2026",
           "time": "4:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Arsenal",
           "score": "0:4"
         },
         {
@@ -1777,49 +1777,49 @@
           "date": "Sat 31/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "West Ham",
           "score": "3:2"
         },
         {
           "date": "Sat 31/01/2026",
           "time": "9:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Newcastle",
           "score": "4:1"
         },
         {
           "date": "Sun 01/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Brentford",
           "score": "0:1"
         },
         {
           "date": "Sun 01/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Fulham",
           "score": "3:2"
         },
         {
           "date": "Sun 01/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Crystal Palace",
           "score": "1:1"
         },
         {
           "date": "Sun 01/02/2026",
           "time": "5:30 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Man City",
           "score": "2:2"
         },
         {
           "date": "Mon 02/02/2026",
           "time": "9:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Burnley",
           "score": "3:0"
         }
       ]
@@ -1832,42 +1832,42 @@
           "date": "Fri 06/02/2026",
           "time": "9:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Nott'm Forest",
           "score": "3:1"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "1:30 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Tottenham",
           "score": "2:0"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "4:00 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Sunderland",
           "score": "3:0"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "4:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Aston Villa",
           "score": "1:1"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "4:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "West Ham",
           "score": "0:2"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "4:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Everton",
           "score": "1:2"
         },
         {
@@ -1881,21 +1881,21 @@
           "date": "Sat 07/02/2026",
           "time": "6:30 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Brentford",
           "score": "2:3"
         },
         {
           "date": "Sun 08/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Crystal Palace",
           "score": "0:1"
         },
         {
           "date": "Sun 08/02/2026",
           "time": "5:30 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Man City",
           "score": "1:2"
         }
       ]
@@ -1908,70 +1908,70 @@
           "date": "Tue 10/02/2026",
           "time": "8:30 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Leeds",
           "score": "2:2"
         },
         {
           "date": "Tue 10/02/2026",
           "time": "8:30 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Bournemouth",
           "score": "1:2"
         },
         {
           "date": "Tue 10/02/2026",
           "time": "8:30 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Newcastle",
           "score": "1:2"
         },
         {
           "date": "Tue 10/02/2026",
           "time": "9:15 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Man Utd",
           "score": "1:1"
         },
         {
           "date": "Wed 11/02/2026",
           "time": "8:30 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Brighton",
           "score": "1:0"
         },
         {
           "date": "Wed 11/02/2026",
           "time": "8:30 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Burnley",
           "score": "2:3"
         },
         {
           "date": "Wed 11/02/2026",
           "time": "8:30 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Fulham",
           "score": "3:0"
         },
         {
           "date": "Wed 11/02/2026",
           "time": "8:30 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Wolves",
           "score": "0:0"
         },
         {
           "date": "Wed 11/02/2026",
           "time": "9:15 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Liverpool",
           "score": "0:1"
         },
         {
           "date": "Thu 12/02/2026",
           "time": "9:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Arsenal",
           "score": "1:1"
         }
       ]
@@ -1984,70 +1984,70 @@
           "date": "Sat 21/02/2026",
           "time": "4:00 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Leeds",
           "score": "1:1"
         },
         {
           "date": "Sat 21/02/2026",
           "time": "4:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Brighton",
           "score": "0:2"
         },
         {
           "date": "Sat 21/02/2026",
           "time": "4:00 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Burnley",
           "score": "1:1"
         },
         {
           "date": "Sat 21/02/2026",
           "time": "6:30 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Bournemouth",
           "score": "0:0"
         },
         {
           "date": "Sat 21/02/2026",
           "time": "9:00 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Newcastle",
           "score": "2:1"
         },
         {
           "date": "Sun 22/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Wolves",
           "score": "1:0"
         },
         {
           "date": "Sun 22/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Liverpool",
           "score": "0:1"
         },
         {
           "date": "Sun 22/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Fulham",
           "score": "1:3"
         },
         {
           "date": "Sun 22/02/2026",
           "time": "5:30 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Arsenal",
           "score": "1:4"
         },
         {
           "date": "Mon 23/02/2026",
           "time": "9:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Man Utd",
           "score": "0:1"
         }
       ]
@@ -2067,63 +2067,63 @@
           "date": "Sat 28/02/2026",
           "time": "1:30 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Sunderland",
           "score": "1:1"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "4:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Brentford",
           "score": "3:4"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "4:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "West Ham",
           "score": "5:2"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "4:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Everton",
           "score": "2:3"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "6:30 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Man City",
           "score": "0:1"
         },
         {
           "date": "Sun 01/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Nott'm Forest",
           "score": "2:1"
         },
         {
           "date": "Sun 01/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Tottenham",
           "score": "2:1"
         },
         {
           "date": "Sun 01/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Crystal Palace",
           "score": "2:1"
         },
         {
           "date": "Sun 01/03/2026",
           "time": "5:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Chelsea",
           "score": "2:1"
         }
       ]
@@ -2136,21 +2136,21 @@
           "date": "Tue 03/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Brentford",
           "score": "0:0"
         },
         {
           "date": "Tue 03/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Burnley",
           "score": "2:0"
         },
         {
           "date": "Tue 03/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Sunderland",
           "score": "0:1"
         },
         {
@@ -2164,42 +2164,42 @@
           "date": "Wed 04/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Chelsea",
           "score": "1:4"
         },
         {
           "date": "Wed 04/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Arsenal",
           "score": "0:1"
         },
         {
           "date": "Wed 04/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "West Ham",
           "score": "0:1"
         },
         {
           "date": "Wed 04/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Nott'm Forest",
           "score": "2:2"
         },
         {
           "date": "Wed 04/03/2026",
           "time": "9:15 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Man Utd",
           "score": "2:1"
         },
         {
           "date": "Thu 05/03/2026",
           "time": "9:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Crystal Palace",
           "score": "1:3"
         }
       ]
@@ -2212,70 +2212,70 @@
           "date": "Sat 14/03/2026",
           "time": "4:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Bournemouth",
           "score": "0:0"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "4:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Brighton",
           "score": "0:1"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "6:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Everton",
           "score": "2:0"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "6:30 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Newcastle",
           "score": "0:1"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "9:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Man City",
           "score": "1:1"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Leeds",
           "score": "0:0"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Aston Villa",
           "score": "3:1"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Fulham",
           "score": "0:0"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "5:30 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Tottenham",
           "score": "1:1"
         },
         {
           "date": "Mon 16/03/2026",
           "time": "9:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Wolves",
           "score": "2:2"
         }
       ]
@@ -2295,63 +2295,63 @@
           "date": "Fri 20/03/2026",
           "time": "9:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Man Utd",
           "score": "2:2"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "1:30 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Liverpool",
           "score": "2:1"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "4:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Burnley",
           "score": "3:1"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "6:30 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Chelsea",
           "score": "3:0"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "9:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Brentford",
           "score": "0:0"
         },
         {
           "date": "Sun 22/03/2026",
           "time": "1:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Sunderland",
           "score": "1:2"
         },
         {
           "date": "Sun 22/03/2026",
           "time": "3:15 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "West Ham",
           "score": "2:0"
         },
         {
           "date": "Sun 22/03/2026",
           "time": "3:15 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Nott'm Forest",
           "score": "0:3"
         },
         {
           "date": "Fri 22/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Crystal Palace",
           "score": ""
         }
       ]
@@ -2364,70 +2364,70 @@
           "date": "Fri 10/04/2026",
           "time": "9:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Wolves",
           "score": "4:0"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "1:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Bournemouth",
           "score": "1:2"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "4:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Everton",
           "score": "2:2"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "4:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Brighton",
           "score": "0:2"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Fulham",
           "score": "2:0"
         },
         {
           "date": "Sun 12/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Newcastle",
           "score": "2:1"
         },
         {
           "date": "Sun 12/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Aston Villa",
           "score": "1:1"
         },
         {
           "date": "Sun 12/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Tottenham",
           "score": "1:0"
         },
         {
           "date": "Sun 12/04/2026",
           "time": "5:30 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Man City",
           "score": "0:3"
         },
         {
           "date": "Mon 13/04/2026",
           "time": "9:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Leeds",
           "score": "1:2"
         }
       ]
@@ -2440,64 +2440,71 @@
           "date": "Sat 18/04/2026",
           "time": "1:30 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Fulham",
           "score": "0:0"
         },
         {
           "date": "Sat 18/04/2026",
           "time": "4:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Wolves",
           "score": "3:0"
         },
         {
           "date": "Sat 18/04/2026",
           "time": "4:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Bournemouth",
           "score": "1:2"
         },
         {
           "date": "Sat 18/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Brighton",
           "score": "2:2"
         },
         {
           "date": "Sat 18/04/2026",
           "time": "9:00 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Man Utd",
           "score": "0:1"
         },
         {
           "date": "Sun 19/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Sunderland",
           "score": "4:3"
         },
         {
           "date": "Sun 19/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Liverpool",
           "score": "1:2"
         },
         {
           "date": "Sun 19/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Burnley",
           "score": "4:1"
         },
         {
           "date": "Sun 19/04/2026",
           "time": "5:30 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Arsenal",
           "score": "2:1"
+        },
+        {
+          "date": "Mon 20/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Crystal Palace",
+          "awayTeam": "West Ham",
+          "score": "0:0"
         }
       ]
     },
@@ -2509,49 +2516,49 @@
           "date": "Tue 21/04/2026",
           "time": "9:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Chelsea",
           "score": ""
         },
         {
           "date": "Wed 22/04/2026",
           "time": "9:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Leeds",
           "score": ""
         },
         {
           "date": "Wed 22/04/2026",
           "time": "9:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Man City",
           "score": ""
         },
         {
           "date": "Fri 24/04/2026",
           "time": "9:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Nott'm Forest",
           "score": ""
         },
         {
           "date": "Sat 25/04/2026",
           "time": "1:30 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Aston Villa",
           "score": ""
         },
         {
           "date": "Sat 25/04/2026",
           "time": "4:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Crystal Palace",
           "score": ""
         },
         {
           "date": "Sat 25/04/2026",
           "time": "4:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Everton",
           "score": ""
         },
         {
@@ -2565,14 +2572,14 @@
           "date": "Sat 25/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Newcastle",
           "score": ""
         },
         {
           "date": "Mon 27/04/2026",
           "time": "9:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Brentford",
           "score": ""
         }
       ]
@@ -2585,21 +2592,21 @@
           "date": "Fri 01/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Burnley",
           "score": ""
         },
         {
           "date": "Sat 02/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "West Ham",
           "score": ""
         },
         {
           "date": "Sat 02/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "Brighton",
           "score": ""
         },
         {
@@ -2613,42 +2620,42 @@
           "date": "Sat 02/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Fulham",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "3:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Crystal Palace",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "4:30 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Liverpool",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "8:00 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Tottenham",
           "score": ""
         },
         {
           "date": "Mon 04/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Nott'm Forest",
           "score": ""
         },
         {
           "date": "Mon 04/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Man City",
           "score": ""
         }
       ]
@@ -2661,70 +2668,70 @@
           "date": "Sat 09/05/2026",
           "time": "1:30 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Chelsea",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Wolves",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Bournemouth",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Man Utd",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Brentford",
           "score": ""
         },
         {
           "date": "Sun 10/05/2026",
           "time": "3:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Aston Villa",
           "score": ""
         },
         {
           "date": "Sun 10/05/2026",
           "time": "3:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Everton",
           "score": ""
         },
         {
           "date": "Sun 10/05/2026",
           "time": "3:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Newcastle",
           "score": ""
         },
         {
           "date": "Sun 10/05/2026",
           "time": "5:30 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Arsenal",
           "score": ""
         },
         {
           "date": "Mon 11/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Leeds",
           "score": ""
         }
       ]
@@ -2737,63 +2744,63 @@
           "date": "Sun 17/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Arsenal",
-          "awayTeam": "ARS",
+          "awayTeam": "Burnley",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Aston Villa",
-          "awayTeam": "AVL",
+          "awayTeam": "Liverpool",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Bournemouth",
-          "awayTeam": "BOU",
+          "awayTeam": "Man City",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Brentford",
-          "awayTeam": "BRE",
+          "awayTeam": "Crystal Palace",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Chelsea",
-          "awayTeam": "CHE",
+          "awayTeam": "Tottenham",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Everton",
-          "awayTeam": "EVE",
+          "awayTeam": "Sunderland",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Leeds",
-          "awayTeam": "LEE",
+          "awayTeam": "Brighton",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Man Utd",
-          "awayTeam": "MUN",
+          "awayTeam": "Nott'm Forest",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Newcastle",
-          "awayTeam": "NEW",
+          "awayTeam": "West Ham",
           "score": ""
         },
         {
@@ -2813,70 +2820,70 @@
           "date": "Sun 24/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Brighton",
-          "awayTeam": "BHA",
+          "awayTeam": "Man Utd",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Burnley",
-          "awayTeam": "BUR",
+          "awayTeam": "Wolves",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "CRY",
+          "awayTeam": "Arsenal",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Fulham",
-          "awayTeam": "FUL",
+          "awayTeam": "Newcastle",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "LIV",
+          "awayTeam": "Brentford",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Man City",
-          "awayTeam": "MCI",
+          "awayTeam": "Aston Villa",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Nott'm Forest",
-          "awayTeam": "FOR",
+          "awayTeam": "Bournemouth",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Sunderland",
-          "awayTeam": "SUN",
+          "awayTeam": "Chelsea",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Tottenham",
-          "awayTeam": "TOT",
+          "awayTeam": "Everton",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "5:00 PM",
           "homeTeam": "West Ham",
-          "awayTeam": "WHU",
+          "awayTeam": "Leeds",
           "score": ""
         }
       ]

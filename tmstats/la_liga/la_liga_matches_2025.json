@@ -15,14 +15,14 @@
           "date": "Fri 15/08/2025",
           "time": "9:30 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Real Oviedo",
           "score": "2:0"
         },
         {
           "date": "Sat 16/08/2025",
           "time": "7:30 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Barcelona",
           "score": "0:3"
         },
         {
@@ -36,7 +36,7 @@
           "date": "Sat 16/08/2025",
           "time": "9:30 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Real Sociedad",
           "score": "1:1"
         },
         {
@@ -71,7 +71,7 @@
           "date": "Tue 19/08/2025",
           "time": "9:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "CA Osasuna",
           "score": "1:0"
         }
       ]
@@ -91,7 +91,7 @@
           "date": "Sat 23/08/2025",
           "time": "5:00 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Celta de Vigo",
           "score": "1:1"
         },
         {
@@ -105,21 +105,21 @@
           "date": "Sat 23/08/2025",
           "time": "9:30 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Barcelona",
           "score": "2:3"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "5:00 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Valencia",
           "score": "1:0"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "7:30 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Girona",
           "score": "5:0"
         },
         {
@@ -167,7 +167,7 @@
           "date": "Fri 29/08/2025",
           "time": "9:30 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Getafe",
           "score": "3:0"
         },
         {
@@ -195,7 +195,7 @@
           "date": "Sat 30/08/2025",
           "time": "9:30 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "RCD Mallorca",
           "score": "2:1"
         },
         {
@@ -278,14 +278,14 @@
           "date": "Sun 14/09/2025",
           "time": "4:15 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Real Betis",
           "score": "2:2"
         },
         {
           "date": "Sun 14/09/2025",
           "time": "6:30 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Rayo Vallecano",
           "score": "2:0"
         },
         {
@@ -326,7 +326,7 @@
           "date": "Sat 20/09/2025",
           "time": "4:15 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Espanyol",
           "score": "2:0"
         },
         {
@@ -340,14 +340,14 @@
           "date": "Sat 20/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "CA Osasuna",
           "score": "2:1"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "9:00 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Athletic Club",
           "score": "2:0"
         },
         {
@@ -361,7 +361,7 @@
           "date": "Sun 21/09/2025",
           "time": "4:15 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Atlético",
           "score": "1:1"
         },
         {
@@ -409,7 +409,7 @@
           "date": "Tue 23/09/2025",
           "time": "9:30 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Real Madrid",
           "score": "1:4"
         },
         {
@@ -444,7 +444,7 @@
           "date": "Thu 25/09/2025",
           "time": "7:30 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Elche CF",
           "score": "1:1"
         },
         {
@@ -485,14 +485,14 @@
           "date": "Sat 27/09/2025",
           "time": "6:30 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Alavés",
           "score": "1:0"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "9:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Athletic Club",
           "score": "1:0"
         },
         {
@@ -527,7 +527,7 @@
           "date": "Tue 30/09/2025",
           "time": "8:00 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Real Oviedo",
           "score": "1:2"
         }
       ]
@@ -540,7 +540,7 @@
           "date": "Fri 03/10/2025",
           "time": "9:00 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Getafe",
           "score": "2:1"
         },
         {
@@ -568,7 +568,7 @@
           "date": "Sat 04/10/2025",
           "time": "9:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Villarreal",
           "score": "3:1"
         },
         {
@@ -637,7 +637,7 @@
           "date": "Sat 18/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Real Betis",
           "score": "2:2"
         },
         {
@@ -665,7 +665,7 @@
           "date": "Sun 19/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Rayo Vallecano",
           "score": "0:3"
         },
         {
@@ -720,28 +720,28 @@
           "date": "Sat 25/10/2025",
           "time": "9:00 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Villarreal",
           "score": "0:2"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "2:00 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Levante",
           "score": "1:1"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "4:15 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Barcelona",
           "score": "2:1"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "6:30 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Celta de Vigo",
           "score": "2:3"
         },
         {
@@ -775,7 +775,7 @@
           "date": "Sat 01/11/2025",
           "time": "2:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Rayo Vallecano",
           "score": "4:0"
         },
         {
@@ -796,14 +796,14 @@
           "date": "Sat 01/11/2025",
           "time": "9:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Valencia",
           "score": "4:0"
         },
         {
           "date": "Sun 02/11/2025",
           "time": "2:00 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Celta de Vigo",
           "score": "1:2"
         },
         {
@@ -893,14 +893,14 @@
           "date": "Sun 09/11/2025",
           "time": "6:30 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Real Betis",
           "score": "1:1"
         },
         {
           "date": "Sun 09/11/2025",
           "time": "6:30 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Getafe",
           "score": "1:0"
         },
         {
@@ -920,7 +920,7 @@
           "date": "Fri 21/11/2025",
           "time": "9:00 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Levante",
           "score": "1:0"
         },
         {
@@ -941,14 +941,14 @@
           "date": "Sat 22/11/2025",
           "time": "6:30 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Real Sociedad",
           "score": "1:3"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "9:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "RCD Mallorca",
           "score": "2:1"
         },
         {
@@ -1003,7 +1003,7 @@
           "date": "Sat 29/11/2025",
           "time": "2:00 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "CA Osasuna",
           "score": "2:2"
         },
         {
@@ -1017,7 +1017,7 @@
           "date": "Sat 29/11/2025",
           "time": "6:30 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Athletic Club",
           "score": "0:2"
         },
         {
@@ -1079,7 +1079,7 @@
           "date": "Sat 06/12/2025",
           "time": "2:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Getafe",
           "score": "2:0"
         },
         {
@@ -1114,7 +1114,7 @@
           "date": "Sun 07/12/2025",
           "time": "4:15 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Sevilla FC",
           "score": "1:1"
         },
         {
@@ -1128,14 +1128,14 @@
           "date": "Sun 07/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Celta de Vigo",
           "score": "0:2"
         },
         {
           "date": "Mon 08/12/2025",
           "time": "9:00 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Levante",
           "score": "2:0"
         }
       ]
@@ -1162,7 +1162,7 @@
           "date": "Sat 13/12/2025",
           "time": "4:15 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Elche CF",
           "score": "3:1"
         },
         {
@@ -1211,7 +1211,7 @@
           "date": "Wed 18/02/2026",
           "time": "8:00 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Villarreal",
           "score": "0:1"
         }
       ]
@@ -1224,7 +1224,7 @@
           "date": "Fri 19/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "RCD Mallorca",
           "score": "1:1"
         },
         {
@@ -1238,21 +1238,21 @@
           "date": "Sat 20/12/2025",
           "time": "4:15 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Real Sociedad",
           "score": "1:1"
         },
         {
           "date": "Sat 20/12/2025",
           "time": "6:30 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Alavés",
           "score": "3:0"
         },
         {
           "date": "Sat 20/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Sevilla FC",
           "score": "2:0"
         },
         {
@@ -1266,7 +1266,7 @@
           "date": "Sun 21/12/2025",
           "time": "4:15 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Barcelona",
           "score": "0:2"
         },
         {
@@ -1314,7 +1314,7 @@
           "date": "Sat 03/01/2026",
           "time": "4:15 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Athletic Club",
           "score": "1:1"
         },
         {
@@ -1342,14 +1342,14 @@
           "date": "Sun 04/01/2026",
           "time": "4:15 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Real Betis",
           "score": "5:1"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "6:30 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Girona",
           "score": "1:2"
         },
         {
@@ -1404,7 +1404,7 @@
           "date": "Sat 10/01/2026",
           "time": "4:15 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Alavés",
           "score": "3:1"
         },
         {
@@ -1418,7 +1418,7 @@
           "date": "Sat 10/01/2026",
           "time": "9:00 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Elche CF",
           "score": "1:1"
         },
         {
@@ -1432,7 +1432,7 @@
           "date": "Sun 11/01/2026",
           "time": "4:15 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Espanyol",
           "score": "1:1"
         },
         {
@@ -1459,21 +1459,21 @@
           "date": "Sat 17/01/2026",
           "time": "2:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Levante",
           "score": "2:0"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "4:15 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Athletic Club",
           "score": "3:2"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "6:30 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Real Oviedo",
           "score": "3:2"
         },
         {
@@ -1528,7 +1528,7 @@
           "date": "Fri 23/01/2026",
           "time": "9:00 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Elche CF",
           "score": "3:2"
         },
         {
@@ -1542,7 +1542,7 @@
           "date": "Sat 24/01/2026",
           "time": "4:15 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Espanyol",
           "score": "3:2"
         },
         {
@@ -1556,7 +1556,7 @@
           "date": "Sat 24/01/2026",
           "time": "9:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Real Madrid",
           "score": "0:2"
         },
         {
@@ -1618,14 +1618,14 @@
           "date": "Sat 31/01/2026",
           "time": "4:15 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Villarreal",
           "score": "2:2"
         },
         {
           "date": "Sat 31/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Atlético",
           "score": "0:0"
         },
         {
@@ -1639,7 +1639,7 @@
           "date": "Sun 01/02/2026",
           "time": "2:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Rayo Vallecano",
           "score": "2:1"
         },
         {
@@ -1667,7 +1667,7 @@
           "date": "Mon 02/02/2026",
           "time": "9:00 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Sevilla FC",
           "score": "4:1"
         }
       ]
@@ -1729,14 +1729,14 @@
           "date": "Sun 08/02/2026",
           "time": "9:00 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Real Madrid",
           "score": "0:2"
         },
         {
           "date": "Mon 09/02/2026",
           "time": "9:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Espanyol",
           "score": "4:1"
         },
         {
@@ -1784,7 +1784,7 @@
           "date": "Sat 14/02/2026",
           "time": "9:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Real Sociedad",
           "score": "4:1"
         },
         {
@@ -1805,14 +1805,14 @@
           "date": "Sun 15/02/2026",
           "time": "6:30 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Valencia",
           "score": "0:2"
         },
         {
           "date": "Sun 15/02/2026",
           "time": "9:00 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Real Betis",
           "score": "1:2"
         },
         {
@@ -1853,7 +1853,7 @@
           "date": "Sat 21/02/2026",
           "time": "6:30 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Real Madrid",
           "score": "2:1"
         },
         {
@@ -1888,7 +1888,7 @@
           "date": "Sun 22/02/2026",
           "time": "9:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Valencia",
           "score": "2:1"
         },
         {
@@ -1908,7 +1908,7 @@
           "date": "Fri 27/02/2026",
           "time": "9:00 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Alavés",
           "score": "2:0"
         },
         {
@@ -1929,7 +1929,7 @@
           "date": "Sat 28/02/2026",
           "time": "6:30 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Real Sociedad",
           "score": "0:1"
         },
         {
@@ -1950,7 +1950,7 @@
           "date": "Sun 01/03/2026",
           "time": "4:15 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "CA Osasuna",
           "score": "1:0"
         },
         {
@@ -1971,7 +1971,7 @@
           "date": "Mon 02/03/2026",
           "time": "9:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Getafe",
           "score": "0:1"
         }
       ]
@@ -1991,14 +1991,14 @@
           "date": "Sat 07/03/2026",
           "time": "2:00 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "RCD Mallorca",
           "score": "2:2"
         },
         {
           "date": "Sat 07/03/2026",
           "time": "4:15 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Girona",
           "score": "1:1"
         },
         {
@@ -2019,7 +2019,7 @@
           "date": "Sun 08/03/2026",
           "time": "2:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Elche CF",
           "score": "2:1"
         },
         {
@@ -2040,7 +2040,7 @@
           "date": "Sun 08/03/2026",
           "time": "9:00 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Alavés",
           "score": "3:2"
         },
         {
@@ -2088,14 +2088,14 @@
           "date": "Sat 14/03/2026",
           "time": "9:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Elche CF",
           "score": "4:1"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "2:00 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Espanyol",
           "score": "2:1"
         },
         {
@@ -2136,7 +2136,7 @@
           "date": "Fri 20/03/2026",
           "time": "9:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Real Sociedad",
           "score": "3:1"
         },
         {
@@ -2157,14 +2157,14 @@
           "date": "Sat 21/03/2026",
           "time": "6:30 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Girona",
           "score": "1:0"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "6:30 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Real Oviedo",
           "score": "4:2"
         },
         {
@@ -2199,7 +2199,7 @@
           "date": "Sun 22/03/2026",
           "time": "9:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Atlético",
           "score": "3:2"
         }
       ]
@@ -2226,7 +2226,7 @@
           "date": "Sat 04/04/2026",
           "time": "4:15 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Real Madrid",
           "score": "2:1"
         },
         {
@@ -2254,7 +2254,7 @@
           "date": "Sun 05/04/2026",
           "time": "4:15 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Celta de Vigo",
           "score": "2:3"
         },
         {
@@ -2288,7 +2288,7 @@
           "date": "Fri 10/04/2026",
           "time": "9:00 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Girona",
           "score": "1:1"
         },
         {
@@ -2323,14 +2323,14 @@
           "date": "Sun 12/04/2026",
           "time": "2:00 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Real Betis",
           "score": "1:1"
         },
         {
           "date": "Sun 12/04/2026",
           "time": "4:15 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Rayo Vallecano",
           "score": "3:0"
         },
         {
@@ -2351,7 +2351,7 @@
           "date": "Mon 13/04/2026",
           "time": "9:00 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Getafe",
           "score": "1:0"
         }
       ]
@@ -2385,7 +2385,7 @@
           "date": "Sat 25/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Girona",
           "score": ""
         },
         {
@@ -2413,14 +2413,14 @@
           "date": "Sun 26/04/2026",
           "time": "6:30 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Sevilla FC",
           "score": ""
         },
         {
           "date": "Sun 26/04/2026",
           "time": "9:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Celta de Vigo",
           "score": ""
         },
         {
@@ -2447,14 +2447,14 @@
           "date": "Tue 21/04/2026",
           "time": "7:00 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Valencia",
           "score": ""
         },
         {
           "date": "Tue 21/04/2026",
           "time": "9:30 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Alavés",
           "score": ""
         },
         {
@@ -2489,7 +2489,7 @@
           "date": "Thu 23/04/2026",
           "time": "7:00 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "Sevilla FC",
           "score": ""
         },
         {
@@ -2523,14 +2523,14 @@
           "date": "Sat 02/05/2026",
           "time": "2:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Levante",
           "score": ""
         },
         {
           "date": "Sat 02/05/2026",
           "time": "4:15 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Atlético",
           "score": ""
         },
         {
@@ -2544,7 +2544,7 @@
           "date": "Sat 02/05/2026",
           "time": "9:00 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Barcelona",
           "score": ""
         },
         {
@@ -2592,7 +2592,7 @@
           "date": "Fri 08/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "CA Osasuna",
           "score": ""
         },
         {
@@ -2627,7 +2627,7 @@
           "date": "Sun 10/05/2026",
           "time": "2:00 PM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Villarreal",
           "score": ""
         },
         {
@@ -2682,7 +2682,7 @@
           "date": "Tue 12/05/2026",
           "time": "9:30 PM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Atlético",
           "score": ""
         },
         {
@@ -2696,7 +2696,7 @@
           "date": "Wed 13/05/2026",
           "time": "7:00 PM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Sevilla FC",
           "score": ""
         },
         {
@@ -2717,7 +2717,7 @@
           "date": "Thu 14/05/2026",
           "time": "7:00 PM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Rayo Vallecano",
           "score": ""
         },
         {
@@ -2731,7 +2731,7 @@
           "date": "Thu 14/05/2026",
           "time": "9:30 PM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Real Oviedo",
           "score": ""
         }
       ]
@@ -2772,7 +2772,7 @@
           "date": "Sun 17/05/2026",
           "time": "12:00 AM",
           "homeTeam": "Levante",
-          "awayTeam": "LEV",
+          "awayTeam": "RCD Mallorca",
           "score": ""
         },
         {
@@ -2800,7 +2800,7 @@
           "date": "Sun 17/05/2026",
           "time": "12:00 AM",
           "homeTeam": "CA Osasuna",
-          "awayTeam": "CAO",
+          "awayTeam": "Espanyol",
           "score": ""
         },
         {
@@ -2855,28 +2855,28 @@
           "date": "Sun 24/05/2026",
           "time": "12:00 AM",
           "homeTeam": "RCD Mallorca",
-          "awayTeam": "RCDM",
+          "awayTeam": "Real Oviedo",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "12:00 AM",
           "homeTeam": "Real Madrid",
-          "awayTeam": "RMCF",
+          "awayTeam": "Athletic Club",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "12:00 AM",
           "homeTeam": "Villarreal",
-          "awayTeam": "VIL",
+          "awayTeam": "Atlético",
           "score": ""
         },
         {
           "date": "Sun 24/05/2026",
           "time": "12:00 AM",
           "homeTeam": "Valencia",
-          "awayTeam": "VAL",
+          "awayTeam": "Barcelona",
           "score": ""
         },
         {

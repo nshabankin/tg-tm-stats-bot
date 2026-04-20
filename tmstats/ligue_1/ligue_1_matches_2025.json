@@ -8,21 +8,21 @@
           "date": "Fri 15/08/2025",
           "time": "8:45 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Marseille",
           "score": "1:0"
         },
         {
           "date": "Sat 16/08/2025",
           "time": "5:00 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Lyon",
           "score": "0:1"
         },
         {
           "date": "Sat 16/08/2025",
           "time": "7:00 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Le Havre AC",
           "score": "3:1"
         },
         {
@@ -36,14 +36,14 @@
           "date": "Sun 17/08/2025",
           "time": "3:00 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Lille",
           "score": "3:3"
         },
         {
           "date": "Sun 17/08/2025",
           "time": "5:15 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "FC Lorient",
           "score": "1:0"
         },
         {
@@ -76,15 +76,15 @@
         {
           "date": "Fri 22/08/2025",
           "time": "8:45 PM",
-          "homeTeam": "PSG",
-          "awayTeam": "Angers SCO",
+          "homeTeam": "Angers SCO",
+          "awayTeam": "Angers",
           "score": "1:0"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "5:00 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Paris FC",
           "score": "5:2"
         },
         {
@@ -98,42 +98,42 @@
           "date": "Sat 23/08/2025",
           "time": "9:05 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "FC Metz",
           "score": "3:0"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "3:00 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Stade Rennais",
           "score": "4:0"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Lens",
           "score": "1:2"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "5:15 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Stade Brestois",
           "score": "2:0"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "5:15 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "FC Nantes",
           "score": "1:0"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "8:45 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Monaco",
           "score": "1:0"
         }
       ]
@@ -146,21 +146,21 @@
           "date": "Fri 29/08/2025",
           "time": "8:45 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Stade Brestois",
           "score": "3:1"
         },
         {
           "date": "Sat 30/08/2025",
           "time": "5:00 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Lille",
           "score": "1:7"
         },
         {
           "date": "Sat 30/08/2025",
           "time": "7:00 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "AJ Auxerre",
           "score": "1:0"
         },
         {
@@ -181,28 +181,28 @@
           "date": "Sun 31/08/2025",
           "time": "5:15 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "R. Strasbourg",
           "score": "3:2"
         },
         {
           "date": "Sun 31/08/2025",
           "time": "5:15 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "FC Metz",
           "score": "3:2"
         },
         {
           "date": "Sun 31/08/2025",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Nice",
           "score": "3:1"
         },
         {
           "date": "Sun 31/08/2025",
           "time": "8:45 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Marseille",
           "score": "1:0"
         }
       ]
@@ -215,7 +215,7 @@
           "date": "Fri 12/09/2025",
           "time": "8:45 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "FC Lorient",
           "score": "4:0"
         },
         {
@@ -229,14 +229,14 @@
           "date": "Sat 13/09/2025",
           "time": "9:05 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Monaco",
           "score": "1:2"
         },
         {
           "date": "Sun 14/09/2025",
           "time": "3:00 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Toulouse",
           "score": "2:1"
         },
         {
@@ -257,21 +257,21 @@
           "date": "Sun 14/09/2025",
           "time": "5:15 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Paris FC",
           "score": "1:2"
         },
         {
           "date": "Sun 14/09/2025",
           "time": "5:15 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Le Havre AC",
           "score": "1:0"
         },
         {
           "date": "Sun 14/09/2025",
           "time": "8:45 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Lyon",
           "score": "3:1"
         }
       ]
@@ -284,56 +284,56 @@
           "date": "Fri 19/09/2025",
           "time": "8:45 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Angers SCO",
           "score": "1:0"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "5:00 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Stade Rennais",
           "score": "2:2"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "7:00 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Nice",
           "score": "4:1"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "9:05 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Lille",
           "score": "3:0"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "3:00 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "R. Strasbourg",
           "score": "2:3"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "5:15 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Toulouse",
           "score": "1:0"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "FC Lorient",
           "score": "1:1"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "5:15 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "FC Metz",
           "score": "5:2"
         },
         {
@@ -353,21 +353,21 @@
           "date": "Fri 26/09/2025",
           "time": "8:45 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Marseille",
           "score": "1:2"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "5:00 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Monaco",
           "score": "3:1"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "7:00 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "FC Nantes",
           "score": "2:2"
         },
         {
@@ -402,14 +402,14 @@
           "date": "Sun 28/09/2025",
           "time": "5:15 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Lyon",
           "score": "0:1"
         },
         {
           "date": "Sun 28/09/2025",
           "time": "8:45 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Lens",
           "score": "0:0"
         }
       ]
@@ -422,7 +422,7 @@
           "date": "Fri 03/10/2025",
           "time": "8:45 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "FC Lorient",
           "score": "2:0"
         },
         {
@@ -436,42 +436,42 @@
           "date": "Sat 04/10/2025",
           "time": "7:00 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "FC Nantes",
           "score": "0:0"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "9:05 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Lens",
           "score": "1:2"
         },
         {
           "date": "Sun 05/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Toulouse",
           "score": "1:2"
         },
         {
           "date": "Sun 05/10/2025",
           "time": "5:15 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Nice",
           "score": "2:2"
         },
         {
           "date": "Sun 05/10/2025",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Stade Rennais",
           "score": "2:2"
         },
         {
           "date": "Sun 05/10/2025",
           "time": "5:15 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Angers SCO",
           "score": "5:0"
         },
         {
@@ -512,42 +512,42 @@
           "date": "Sat 18/10/2025",
           "time": "9:05 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Le Havre AC",
           "score": "6:2"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Paris FC",
           "score": "2:1"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "5:15 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "FC Metz",
           "score": "4:0"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "5:15 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Stade Brestois",
           "score": "3:3"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "5:15 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "AJ Auxerre",
           "score": "2:2"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "8:45 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Lille",
           "score": "0:2"
         }
       ]
@@ -560,7 +560,7 @@
           "date": "Fri 24/10/2025",
           "time": "8:45 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "FC Nantes",
           "score": "1:2"
         },
         {
@@ -574,21 +574,21 @@
           "date": "Sat 25/10/2025",
           "time": "7:00 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Toulouse",
           "score": "1:0"
         },
         {
           "date": "Sat 25/10/2025",
           "time": "9:05 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Marseille",
           "score": "2:1"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "FC Metz",
           "score": "6:1"
         },
         {
@@ -602,21 +602,21 @@
           "date": "Sun 26/10/2025",
           "time": "5:15 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Nice",
           "score": "1:2"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "5:15 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Le Havre AC",
           "score": "0:1"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "8:45 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "R. Strasbourg",
           "score": "2:1"
         }
       ]
@@ -636,7 +636,7 @@
           "date": "Wed 29/10/2025",
           "time": "7:00 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Stade Brestois",
           "score": "1:0"
         },
         {
@@ -657,35 +657,35 @@
           "date": "Wed 29/10/2025",
           "time": "9:05 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Angers SCO",
           "score": "2:2"
         },
         {
           "date": "Wed 29/10/2025",
           "time": "9:05 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Monaco",
           "score": "3:5"
         },
         {
           "date": "Wed 29/10/2025",
           "time": "9:05 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "AJ Auxerre",
           "score": "3:0"
         },
         {
           "date": "Wed 29/10/2025",
           "time": "9:05 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Lyon",
           "score": "3:3"
         },
         {
           "date": "Wed 29/10/2025",
           "time": "9:05 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Stade Rennais",
           "score": "2:2"
         }
       ]
@@ -705,56 +705,56 @@
           "date": "Sat 01/11/2025",
           "time": "7:00 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Paris FC",
           "score": "0:1"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "9:05 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Marseille",
           "score": "0:1"
         },
         {
           "date": "Sun 02/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "R. Strasbourg",
           "score": "4:1"
         },
         {
           "date": "Sun 02/11/2025",
           "time": "5:15 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Le Havre AC",
           "score": "0:0"
         },
         {
           "date": "Sun 02/11/2025",
           "time": "5:15 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Angers SCO",
           "score": "1:0"
         },
         {
           "date": "Sun 02/11/2025",
           "time": "5:15 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "FC Lorient",
           "score": "3:0"
         },
         {
           "date": "Sun 02/11/2025",
           "time": "5:15 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "FC Metz",
           "score": "0:2"
         },
         {
           "date": "Sun 02/11/2025",
           "time": "8:45 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Lyon",
           "score": "0:0"
         }
       ]
@@ -767,35 +767,35 @@
           "date": "Fri 07/11/2025",
           "time": "8:45 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Stade Rennais",
           "score": "0:1"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "5:00 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Stade Brestois",
           "score": "3:0"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "7:00 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "FC Nantes",
           "score": "1:1"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "9:05 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Lens",
           "score": "1:4"
         },
         {
           "date": "Sun 09/11/2025",
           "time": "3:00 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Toulouse",
           "score": "1:1"
         },
         {
@@ -816,7 +816,7 @@
           "date": "Sun 09/11/2025",
           "time": "5:15 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Lille",
           "score": "2:0"
         },
         {
@@ -843,14 +843,14 @@
           "date": "Sat 22/11/2025",
           "time": "5:00 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "R. Strasbourg",
           "score": "1:0"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "7:00 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Monaco",
           "score": "4:1"
         },
         {
@@ -864,35 +864,35 @@
           "date": "Sun 23/11/2025",
           "time": "3:00 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Lyon",
           "score": "0:0"
         },
         {
           "date": "Sun 23/11/2025",
           "time": "5:15 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "FC Lorient",
           "score": "1:1"
         },
         {
           "date": "Sun 23/11/2025",
           "time": "5:15 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Angers SCO",
           "score": "0:1"
         },
         {
           "date": "Sun 23/11/2025",
           "time": "5:15 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "FC Metz",
           "score": "3:2"
         },
         {
           "date": "Sun 23/11/2025",
           "time": "8:45 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Paris FC",
           "score": "4:2"
         }
       ]
@@ -919,21 +919,21 @@
           "date": "Sat 29/11/2025",
           "time": "7:00 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "AJ Auxerre",
           "score": "1:1"
         },
         {
           "date": "Sat 29/11/2025",
           "time": "9:05 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Toulouse",
           "score": "2:2"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "3:00 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Stade Brestois",
           "score": "1:2"
         },
         {
@@ -947,21 +947,21 @@
           "date": "Sun 30/11/2025",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Lille",
           "score": "0:1"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "5:15 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Nice",
           "score": "3:1"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "8:45 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "FC Nantes",
           "score": "3:0"
         }
       ]
@@ -974,28 +974,28 @@
           "date": "Fri 05/12/2025",
           "time": "7:00 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Monaco",
           "score": "1:0"
         },
         {
           "date": "Fri 05/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Marseille",
           "score": "1:0"
         },
         {
           "date": "Sat 06/12/2025",
           "time": "5:00 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Lens",
           "score": "1:2"
         },
         {
           "date": "Sat 06/12/2025",
           "time": "7:00 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "R. Strasbourg",
           "score": "1:0"
         },
         {
@@ -1016,21 +1016,21 @@
           "date": "Sun 07/12/2025",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Paris FC",
           "score": "0:0"
         },
         {
           "date": "Sun 07/12/2025",
           "time": "5:15 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "FC Metz",
           "score": "3:1"
         },
         {
           "date": "Sun 07/12/2025",
           "time": "8:45 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Lyon",
           "score": "1:0"
         }
       ]
@@ -1050,7 +1050,7 @@
           "date": "Sat 13/12/2025",
           "time": "5:00 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Stade Brestois",
           "score": "3:1"
         },
         {
@@ -1064,42 +1064,42 @@
           "date": "Sat 13/12/2025",
           "time": "9:05 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Toulouse",
           "score": "0:3"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "3:00 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Le Havre AC",
           "score": "1:0"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "5:15 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Lille",
           "score": "3:4"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "5:15 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "FC Lorient",
           "score": "0:0"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "5:15 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Nice",
           "score": "2:0"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "8:45 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Monaco",
           "score": "1:0"
         }
       ]
@@ -1112,14 +1112,14 @@
           "date": "Fri 02/01/2026",
           "time": "8:45 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Lens",
           "score": "0:3"
         },
         {
           "date": "Sat 03/01/2026",
           "time": "5:00 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Lyon",
           "score": "1:3"
         },
         {
@@ -1133,35 +1133,35 @@
           "date": "Sat 03/01/2026",
           "time": "9:05 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Stade Rennais",
           "score": "0:2"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "3:00 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "FC Nantes",
           "score": "0:2"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Angers SCO",
           "score": "2:1"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "5:15 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "FC Metz",
           "score": "1:1"
         },
         {
           "date": "Sun 04/01/2026",
           "time": "5:15 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "AJ Auxerre",
           "score": "2:0"
         },
         {
@@ -1181,7 +1181,7 @@
           "date": "Fri 16/01/2026",
           "time": "7:00 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "FC Lorient",
           "score": "1:3"
         },
         {
@@ -1195,14 +1195,14 @@
           "date": "Sat 17/01/2026",
           "time": "5:00 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "AJ Auxerre",
           "score": "1:0"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "7:00 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Nice",
           "score": "5:1"
         },
         {
@@ -1216,28 +1216,28 @@
           "date": "Sun 18/01/2026",
           "time": "3:00 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "FC Metz",
           "score": "2:1"
         },
         {
           "date": "Sun 18/01/2026",
           "time": "5:15 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Le Havre AC",
           "score": "1:1"
         },
         {
           "date": "Sun 18/01/2026",
           "time": "5:15 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Paris FC",
           "score": "1:2"
         },
         {
           "date": "Sun 18/01/2026",
           "time": "8:45 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Stade Brestois",
           "score": "2:1"
         }
       ]
@@ -1257,42 +1257,42 @@
           "date": "Sat 24/01/2026",
           "time": "5:00 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "FC Lorient",
           "score": "0:2"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "7:00 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Monaco",
           "score": "0:0"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "9:05 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Lens",
           "score": "3:1"
         },
         {
           "date": "Sun 25/01/2026",
           "time": "3:00 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Nice",
           "score": "1:4"
         },
         {
           "date": "Sun 25/01/2026",
           "time": "5:15 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Toulouse",
           "score": "0:2"
         },
         {
           "date": "Sun 25/01/2026",
           "time": "5:15 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Angers SCO",
           "score": "0:0"
         },
         {
@@ -1306,7 +1306,7 @@
           "date": "Sun 25/01/2026",
           "time": "8:45 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "R. Strasbourg",
           "score": "1:4"
         }
       ]
@@ -1319,42 +1319,42 @@
           "date": "Fri 30/01/2026",
           "time": "8:45 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Le Havre AC",
           "score": "1:0"
         },
         {
           "date": "Sat 31/01/2026",
           "time": "5:00 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Marseille",
           "score": "2:2"
         },
         {
           "date": "Sat 31/01/2026",
           "time": "7:00 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "FC Nantes",
           "score": "2:1"
         },
         {
           "date": "Sat 31/01/2026",
           "time": "9:05 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Stade Rennais",
           "score": "4:0"
         },
         {
           "date": "Sun 01/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Lille",
           "score": "1:0"
         },
         {
           "date": "Sun 01/02/2026",
           "time": "5:15 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "AJ Auxerre",
           "score": "0:0"
         },
         {
@@ -1395,21 +1395,21 @@
           "date": "Sat 07/02/2026",
           "time": "5:00 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Stade Rennais",
           "score": "3:1"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "7:00 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "FC Lorient",
           "score": "2:0"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "9:05 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Lyon",
           "score": "0:1"
         },
         {
@@ -1423,14 +1423,14 @@
           "date": "Sun 08/02/2026",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "R. Strasbourg",
           "score": "2:1"
         },
         {
           "date": "Sun 08/02/2026",
           "time": "5:15 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Paris FC",
           "score": "0:0"
         },
         {
@@ -1464,35 +1464,35 @@
           "date": "Fri 13/02/2026",
           "time": "9:05 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "FC Nantes",
           "score": "3:1"
         },
         {
           "date": "Sat 14/02/2026",
           "time": "5:00 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "R. Strasbourg",
           "score": "2:2"
         },
         {
           "date": "Sat 14/02/2026",
           "time": "7:00 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Stade Brestois",
           "score": "1:1"
         },
         {
           "date": "Sat 14/02/2026",
           "time": "9:05 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Lens",
           "score": "0:5"
         },
         {
           "date": "Sun 15/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Toulouse",
           "score": "2:1"
         },
         {
@@ -1506,14 +1506,14 @@
           "date": "Sun 15/02/2026",
           "time": "5:15 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Angers SCO",
           "score": "2:0"
         },
         {
           "date": "Sun 15/02/2026",
           "time": "8:45 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Nice",
           "score": "2:0"
         }
       ]
@@ -1526,35 +1526,35 @@
           "date": "Fri 20/02/2026",
           "time": "8:45 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Marseille",
           "score": "2:0"
         },
         {
           "date": "Sat 21/02/2026",
           "time": "5:00 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Monaco",
           "score": "2:3"
         },
         {
           "date": "Sat 21/02/2026",
           "time": "7:00 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Paris FC",
           "score": "1:1"
         },
         {
           "date": "Sat 21/02/2026",
           "time": "9:05 PM",
-          "homeTeam": "PSG",
-          "awayTeam": "FC Metz",
+          "homeTeam": "FC Metz",
+          "awayTeam": "Metz",
           "score": "3:0"
         },
         {
           "date": "Sun 22/02/2026",
           "time": "3:00 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Stade Rennais",
           "score": "0:3"
         },
         {
@@ -1568,7 +1568,7 @@
           "date": "Sun 22/02/2026",
           "time": "5:15 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Le Havre AC",
           "score": "2:0"
         },
         {
@@ -1582,7 +1582,7 @@
           "date": "Sun 22/02/2026",
           "time": "8:45 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Lyon",
           "score": "3:1"
         }
       ]
@@ -1595,21 +1595,21 @@
           "date": "Fri 27/02/2026",
           "time": "8:45 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Lens",
           "score": "1:1"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "5:00 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Toulouse",
           "score": "1:0"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "7:00 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Angers SCO",
           "score": "2:0"
         },
         {
@@ -1623,14 +1623,14 @@
           "date": "Sun 01/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Nice",
           "score": "1:0"
         },
         {
           "date": "Sun 01/03/2026",
           "time": "5:15 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "AJ Auxerre",
           "score": "2:2"
         },
         {
@@ -1644,14 +1644,14 @@
           "date": "Sun 01/03/2026",
           "time": "5:15 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "FC Nantes",
           "score": "1:0"
         },
         {
           "date": "Sun 01/03/2026",
           "time": "8:45 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Lyon",
           "score": "3:2"
         }
       ]
@@ -1671,35 +1671,35 @@
           "date": "Sat 07/03/2026",
           "time": "5:00 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Angers SCO",
           "score": "0:1"
         },
         {
           "date": "Sat 07/03/2026",
           "time": "7:00 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "R. Strasbourg",
           "score": "0:0"
         },
         {
           "date": "Sat 07/03/2026",
           "time": "9:05 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Marseille",
           "score": "0:1"
         },
         {
           "date": "Sun 08/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "FC Metz",
           "score": "3:0"
         },
         {
           "date": "Sun 08/03/2026",
           "time": "5:15 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Le Havre AC",
           "score": "2:0"
         },
         {
@@ -1713,14 +1713,14 @@
           "date": "Sun 08/03/2026",
           "time": "5:15 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "FC Lorient",
           "score": "1:1"
         },
         {
           "date": "Sun 08/03/2026",
           "time": "8:45 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Paris FC",
           "score": "1:1"
         }
       ]
@@ -1733,14 +1733,14 @@
           "date": "Fri 13/03/2026",
           "time": "8:45 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "AJ Auxerre",
           "score": "1:0"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "5:00 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Lens",
           "score": "2:1"
         },
         {
@@ -1754,21 +1754,21 @@
           "date": "Sat 14/03/2026",
           "time": "9:05 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Stade Brestois",
           "score": "2:0"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "3:00 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Paris FC",
           "score": "0:0"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Lyon",
           "score": "0:0"
         },
         {
@@ -1782,7 +1782,7 @@
           "date": "Sun 15/03/2026",
           "time": "8:45 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Lille",
           "score": "1:2"
         },
         {
@@ -1802,21 +1802,21 @@
           "date": "Fri 20/03/2026",
           "time": "8:45 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Angers SCO",
           "score": "5:1"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "5:00 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "FC Lorient",
           "score": "1:0"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "7:00 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Stade Brestois",
           "score": "3:0"
         },
         {
@@ -1830,35 +1830,35 @@
           "date": "Sun 22/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Monaco",
           "score": "1:2"
         },
         {
           "date": "Sun 22/03/2026",
           "time": "5:15 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "FC Metz",
           "score": "0:0"
         },
         {
           "date": "Sun 22/03/2026",
           "time": "5:15 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Le Havre AC",
           "score": "3:2"
         },
         {
           "date": "Sun 22/03/2026",
           "time": "5:15 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Lille",
           "score": "1:2"
         },
         {
           "date": "Sun 22/03/2026",
           "time": "8:45 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "R. Strasbourg",
           "score": "2:3"
         }
       ]
@@ -1878,21 +1878,21 @@
           "date": "Sat 04/04/2026",
           "time": "5:00 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Nice",
           "score": "3:1"
         },
         {
           "date": "Sat 04/04/2026",
           "time": "7:00 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Stade Rennais",
           "score": "3:4"
         },
         {
           "date": "Sat 04/04/2026",
           "time": "9:05 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Lens",
           "score": "3:0"
         },
         {
@@ -1913,21 +1913,21 @@
           "date": "Sun 05/04/2026",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "AJ Auxerre",
           "score": "1:1"
         },
         {
           "date": "Sun 05/04/2026",
           "time": "5:15 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Paris FC",
           "score": "1:1"
         },
         {
           "date": "Sun 05/04/2026",
           "time": "8:45 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Marseille",
           "score": "2:1"
         }
       ]
@@ -1940,28 +1940,28 @@
           "date": "Fri 10/04/2026",
           "time": "7:00 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Monaco",
           "score": "4:1"
         },
         {
           "date": "Fri 10/04/2026",
           "time": "9:05 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "FC Metz",
           "score": "3:1"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "7:00 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "FC Nantes",
           "score": "0:0"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "9:05 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Angers SCO",
           "score": "2:1"
         },
         {
@@ -1975,21 +1975,21 @@
           "date": "Sun 12/04/2026",
           "time": "5:15 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Lille",
           "score": "0:4"
         },
         {
           "date": "Sun 12/04/2026",
           "time": "8:45 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "FC Lorient",
           "score": "2:0"
         },
         {
           "date": "Wed 13/05/2026",
           "time": "7:00 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "R. Strasbourg",
           "score": ""
         },
         {
@@ -2009,14 +2009,14 @@
           "date": "Fri 17/04/2026",
           "time": "8:45 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "Toulouse",
           "score": "3:2"
         },
         {
           "date": "Sat 18/04/2026",
           "time": "5:00 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Marseille",
           "score": "2:0"
         },
         {
@@ -2030,21 +2030,21 @@
           "date": "Sat 18/04/2026",
           "time": "9:05 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Nice",
           "score": "0:0"
         },
         {
           "date": "Sun 19/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "AJ Auxerre",
           "score": "2:2"
         },
         {
           "date": "Sun 19/04/2026",
           "time": "5:15 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Stade Rennais",
           "score": "0:3"
         },
         {
@@ -2058,7 +2058,7 @@
           "date": "Sun 19/04/2026",
           "time": "5:15 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Stade Brestois",
           "score": "1:1"
         },
         {
@@ -2078,14 +2078,14 @@
           "date": "Fri 24/04/2026",
           "time": "8:45 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Lens",
           "score": ""
         },
         {
           "date": "Sat 25/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "AJ Auxerre",
           "score": ""
         },
         {
@@ -2099,42 +2099,42 @@
           "date": "Sat 25/04/2026",
           "time": "9:05 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Monaco",
           "score": ""
         },
         {
           "date": "Sun 26/04/2026",
           "time": "3:00 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "R. Strasbourg",
           "score": ""
         },
         {
           "date": "Sun 26/04/2026",
           "time": "5:15 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "FC Nantes",
           "score": ""
         },
         {
           "date": "Sun 26/04/2026",
           "time": "5:15 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "FC Metz",
           "score": ""
         },
         {
           "date": "Sun 26/04/2026",
           "time": "5:15 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Lille",
           "score": ""
         },
         {
           "date": "Sun 26/04/2026",
           "time": "8:45 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Nice",
           "score": ""
         }
       ]
@@ -2147,7 +2147,7 @@
           "date": "Fri 01/05/2026",
           "time": "8:45 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Marseille",
           "score": ""
         },
         {
@@ -2175,35 +2175,35 @@
           "date": "Sun 03/05/2026",
           "time": "3:00 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "Le Havre AC",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "5:15 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Toulouse",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "5:15 PM",
           "homeTeam": "Paris FC",
-          "awayTeam": "PFC",
+          "awayTeam": "Stade Brestois",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "5:15 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Angers SCO",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "8:45 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Stade Rennais",
           "score": ""
         }
       ]
@@ -2223,35 +2223,35 @@
           "date": "Sat 09/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Le Havre AC",
-          "awayTeam": "HAC",
+          "awayTeam": "Marseille",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Toulouse",
-          "awayTeam": "TFC",
+          "awayTeam": "Lyon",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Lens",
-          "awayTeam": "RCL",
+          "awayTeam": "FC Nantes",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "9:00 PM",
           "homeTeam": "AJ Auxerre",
-          "awayTeam": "AJA",
+          "awayTeam": "Nice",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Stade Rennais",
-          "awayTeam": "SRFC",
+          "awayTeam": "Paris FC",
           "score": ""
         },
         {
@@ -2272,7 +2272,7 @@
           "date": "Sat 09/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Monaco",
-          "awayTeam": "ASM",
+          "awayTeam": "Lille",
           "score": ""
         }
       ]
@@ -2285,28 +2285,28 @@
           "date": "Sat 16/05/2026",
           "time": "9:00 PM",
           "homeTeam": "FC Nantes",
-          "awayTeam": "FCN",
+          "awayTeam": "Toulouse",
           "score": ""
         },
         {
           "date": "Sat 16/05/2026",
           "time": "9:00 PM",
           "homeTeam": "FC Lorient",
-          "awayTeam": "FCL",
+          "awayTeam": "Le Havre AC",
           "score": ""
         },
         {
           "date": "Sat 16/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Stade Brestois",
-          "awayTeam": "SB29",
+          "awayTeam": "Angers SCO",
           "score": ""
         },
         {
           "date": "Sat 16/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Lille",
-          "awayTeam": "LOSC",
+          "awayTeam": "AJ Auxerre",
           "score": ""
         },
         {
@@ -2327,21 +2327,21 @@
           "date": "Sat 16/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Marseille",
-          "awayTeam": "OM",
+          "awayTeam": "Stade Rennais",
           "score": ""
         },
         {
           "date": "Sat 16/05/2026",
           "time": "9:00 PM",
           "homeTeam": "R. Strasbourg",
-          "awayTeam": "RCSA",
+          "awayTeam": "Monaco",
           "score": ""
         },
         {
           "date": "Sat 16/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Lyon",
-          "awayTeam": "OL",
+          "awayTeam": "Lens",
           "score": ""
         }
       ]

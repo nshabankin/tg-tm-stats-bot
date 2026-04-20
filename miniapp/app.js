@@ -44,6 +44,20 @@ function hasMatches() {
   return Boolean(state.snapshot?.matches?.groups?.length);
 }
 
+function findCurrentMatchesGroupIndex(groups) {
+  if (!Array.isArray(groups) || !groups.length) {
+    return 0;
+  }
+  let best = 0;
+  for (let idx = 0; idx < groups.length; idx += 1) {
+    const matches = groups[idx]?.matches || [];
+    if (matches.some((match) => Boolean(matchScoreLabel(match)))) {
+      best = idx;
+    }
+  }
+  return best;
+}
+
 function parseRoute() {
   const params = new URLSearchParams(window.location.search);
   const view = params.get("view");
@@ -1015,8 +1029,44 @@ function renderMatches() {
     teams.map((team) => [normalizeClubKey(team.club), team.logo])
   );
 
-  const resolveLogo = (teamName) =>
-    logoByName.get(teamName) || logoByKey.get(normalizeClubKey(teamName));
+  const resolveLogo = (teamName) => {
+    const name = `${teamName || ""}`.trim();
+    if (!name) {
+      return "";
+    }
+    const direct = logoByName.get(name) || logoByKey.get(normalizeClubKey(name));
+    if (direct) {
+      return direct;
+    }
+    const key = normalizeClubKey(name);
+    if (key.length < 5) {
+      return "";
+    }
+    for (const [clubKey, logo] of logoByKey.entries()) {
+      if (!logo) {
+        continue;
+      }
+      if (clubKey.startsWith(key) || key.startsWith(clubKey)) {
+        return logo;
+      }
+    }
+    return "";
+  };
+
+  const matchMeta = (match) => {
+    const datePart = `${match?.date || ""}`.trim();
+    const timePart = `${match?.time || ""}`.trim();
+    if (datePart && timePart) {
+      return `${datePart} · ${timePart}`;
+    }
+    if (datePart) {
+      return datePart;
+    }
+    if (timePart) {
+      return timePart;
+    }
+    return "Date TBD";
+  };
 
   matchesViewEl.innerHTML = `
     <div class="matches-shell">
@@ -1037,7 +1087,7 @@ function renderMatches() {
             return `
               <article class="match-card">
                 <div class="match-meta">
-                  <span>${match.date || ""}${match.time ? ` · ${match.time}` : ""}</span>
+                  <span>${matchMeta(match)}</span>
                 </div>
                 <div class="match-row">
                   <div class="match-team match-team-home">
@@ -1159,7 +1209,7 @@ async function selectLeague(leagueKey, options = {}) {
 
   const snapshot = await apiFetch(`/api/leagues/${leagueKey}/snapshot`);
   state.snapshot = snapshot;
-  state.matchesGroupIndex = 0;
+  state.matchesGroupIndex = findCurrentMatchesGroupIndex(snapshot?.matches?.groups || []);
   state.selectedTeamSlug = options.teamSlug || null;
   leagueContentEl.classList.remove("hidden");
   renderSnapshotMeta();

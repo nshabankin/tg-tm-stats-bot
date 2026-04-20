@@ -8,28 +8,28 @@
           "date": "Fri 22/08/2025",
           "time": "8:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Leipzig",
           "score": "6:0"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "3:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Werder Bremen",
           "score": "4:1"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Hoffenheim",
           "score": "1:2"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Augsburg",
           "score": "1:3"
         },
         {
@@ -43,28 +43,28 @@
           "date": "Sat 23/08/2025",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Wolfsburg",
           "score": "1:3"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "6:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Dortmund",
           "score": "3:3"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "1.FC Köln",
           "score": "0:1"
         },
         {
           "date": "Sun 24/08/2025",
           "time": "5:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Hamburg",
           "score": "0:0"
         }
       ]
@@ -77,14 +77,14 @@
           "date": "Fri 29/08/2025",
           "time": "8:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "St. Pauli",
           "score": "0:2"
         },
         {
           "date": "Sat 30/08/2025",
           "time": "3:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Heidenheim",
           "score": "2:0"
         },
         {
@@ -105,28 +105,28 @@
           "date": "Sat 30/08/2025",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Frankfurt",
           "score": "1:3"
         },
         {
           "date": "Sat 30/08/2025",
           "time": "6:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Bayern Munich",
           "score": "2:3"
         },
         {
           "date": "Sun 31/08/2025",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Mainz",
           "score": "1:1"
         },
         {
           "date": "Sun 31/08/2025",
           "time": "5:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Union Berlin",
           "score": "3:0"
         },
         {
@@ -146,28 +146,28 @@
           "date": "Fri 12/09/2025",
           "time": "8:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Frankfurt",
           "score": "3:1"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Stuttgart",
           "score": "3:1"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Leipzig",
           "score": "0:1"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "1.FC Köln",
           "score": "3:3"
         },
         {
@@ -181,28 +181,28 @@
           "date": "Sat 13/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Dortmund",
           "score": "0:2"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Hamburg",
           "score": "5:0"
         },
         {
           "date": "Sun 14/09/2025",
           "time": "3:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Augsburg",
           "score": "2:1"
         },
         {
           "date": "Sun 14/09/2025",
           "time": "5:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Werder Bremen",
           "score": "0:4"
         }
       ]
@@ -229,49 +229,49 @@
           "date": "Sat 20/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Mainz",
           "score": "1:4"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Bayern Munich",
           "score": "1:4"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Heidenheim",
           "score": "2:1"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "1.FC Köln",
           "score": "3:1"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Union Berlin",
           "score": "3:4"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "5:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Mönchengladbach",
           "score": "1:1"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "7:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Wolfsburg",
           "score": "1:0"
         }
       ]
@@ -284,49 +284,49 @@
           "date": "Fri 26/09/2025",
           "time": "8:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Werder Bremen",
           "score": "4:0"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Dortmund",
           "score": "0:2"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Leipzig",
           "score": "0:1"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "3:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Leverkusen",
           "score": "1:2"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Augsburg",
           "score": "2:1"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Frankfurt",
           "score": "4:6"
         },
         {
           "date": "Sun 28/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Hoffenheim",
           "score": "1:1"
         },
         {
@@ -353,21 +353,21 @@
           "date": "Fri 03/10/2025",
           "time": "8:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "1.FC Köln",
           "score": "0:1"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Union Berlin",
           "score": "2:0"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Leipzig",
           "score": "1:1"
         },
         {
@@ -381,14 +381,14 @@
           "date": "Sat 04/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Wolfsburg",
           "score": "3:1"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Bayern Munich",
           "score": "0:3"
         },
         {
@@ -402,14 +402,14 @@
           "date": "Sun 05/10/2025",
           "time": "5:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Mainz",
           "score": "4:0"
         },
         {
           "date": "Sun 05/10/2025",
           "time": "7:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Freiburg",
           "score": "0:0"
         }
       ]
@@ -429,28 +429,28 @@
           "date": "Sat 18/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Leverkusen",
           "score": "3:4"
         },
         {
           "date": "Sat 18/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Hamburg",
           "score": "2:1"
         },
         {
           "date": "Sat 18/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Stuttgart",
           "score": "0:3"
         },
         {
           "date": "Sat 18/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Werder Bremen",
           "score": "2:2"
         },
         {
@@ -464,21 +464,21 @@
           "date": "Sat 18/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Dortmund",
           "score": "2:1"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Frankfurt",
           "score": "2:2"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "5:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Hoffenheim",
           "score": "0:3"
         }
       ]
@@ -498,49 +498,49 @@
           "date": "Sat 25/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "St. Pauli",
           "score": "2:0"
         },
         {
           "date": "Sat 25/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Bayern Munich",
           "score": "0:3"
         },
         {
           "date": "Sat 25/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Leipzig",
           "score": "0:6"
         },
         {
           "date": "Sat 25/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Heidenheim",
           "score": "3:1"
         },
         {
           "date": "Sat 25/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Wolfsburg",
           "score": "0:1"
         },
         {
           "date": "Sat 25/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "1.FC Köln",
           "score": "1:0"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Freiburg",
           "score": "2:0"
         },
         {
@@ -560,21 +560,21 @@
           "date": "Fri 31/10/2025",
           "time": "8:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Dortmund",
           "score": "0:1"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Werder Bremen",
           "score": "1:1"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Stuttgart",
           "score": "3:1"
         },
         {
@@ -588,21 +588,21 @@
           "date": "Sat 01/11/2025",
           "time": "3:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Mönchengladbach",
           "score": "0:4"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Frankfurt",
           "score": "1:1"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "6:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Leverkusen",
           "score": "3:0"
         },
         {
@@ -616,7 +616,7 @@
           "date": "Sun 02/11/2025",
           "time": "5:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Hoffenheim",
           "score": "2:3"
         }
       ]
@@ -636,7 +636,7 @@
           "date": "Sat 08/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Heidenheim",
           "score": "6:0"
         },
         {
@@ -650,28 +650,28 @@
           "date": "Sat 08/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Leipzig",
           "score": "3:1"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Dortmund",
           "score": "1:1"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "6:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "1.FC Köln",
           "score": "3:1"
         },
         {
           "date": "Sun 09/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "St. Pauli",
           "score": "2:1"
         },
         {
@@ -685,7 +685,7 @@
           "date": "Sun 09/11/2025",
           "time": "7:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Mainz",
           "score": "1:0"
         }
       ]
@@ -698,42 +698,42 @@
           "date": "Fri 21/11/2025",
           "time": "8:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Hoffenheim",
           "score": "1:1"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Freiburg",
           "score": "6:2"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Stuttgart",
           "score": "3:3"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Leverkusen",
           "score": "1:3"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Hamburg",
           "score": "1:0"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Mönchengladbach",
           "score": "0:3"
         },
         {
@@ -747,14 +747,14 @@
           "date": "Sun 23/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Werder Bremen",
           "score": "2:0"
         },
         {
           "date": "Sun 23/11/2025",
           "time": "5:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Union Berlin",
           "score": "0:1"
         }
       ]
@@ -767,14 +767,14 @@
           "date": "Fri 28/11/2025",
           "time": "8:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Leipzig",
           "score": "0:0"
         },
         {
           "date": "Sat 29/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "St. Pauli",
           "score": "3:1"
         },
         {
@@ -795,35 +795,35 @@
           "date": "Sat 29/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Augsburg",
           "score": "3:0"
         },
         {
           "date": "Sat 29/11/2025",
           "time": "6:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Dortmund",
           "score": "1:2"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Stuttgart",
           "score": "2:1"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "5:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Wolfsburg",
           "score": "1:1"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "7:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Mainz",
           "score": "4:0"
         }
       ]
@@ -836,7 +836,7 @@
           "date": "Fri 05/12/2025",
           "time": "8:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Mönchengladbach",
           "score": "0:1"
         },
         {
@@ -850,21 +850,21 @@
           "date": "Sat 06/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Union Berlin",
           "score": "3:1"
         },
         {
           "date": "Sat 06/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Leverkusen",
           "score": "2:0"
         },
         {
           "date": "Sat 06/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Freiburg",
           "score": "2:1"
         },
         {
@@ -878,21 +878,21 @@
           "date": "Sat 06/12/2025",
           "time": "6:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Frankfurt",
           "score": "6:0"
         },
         {
           "date": "Sun 07/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Werder Bremen",
           "score": "3:2"
         },
         {
           "date": "Sun 07/12/2025",
           "time": "5:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Hoffenheim",
           "score": "2:0"
         }
       ]
@@ -912,49 +912,49 @@
           "date": "Sat 13/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Augsburg",
           "score": "1:0"
         },
         {
           "date": "Sat 13/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Wolfsburg",
           "score": "1:3"
         },
         {
           "date": "Sat 13/12/2025",
           "time": "3:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Heidenheim",
           "score": "2:1"
         },
         {
           "date": "Sat 13/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Hamburg",
           "score": "4:1"
         },
         {
           "date": "Sat 13/12/2025",
           "time": "6:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "1.FC Köln",
           "score": "2:0"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Dortmund",
           "score": "1:1"
         },
         {
           "date": "Sun 14/12/2025",
           "time": "5:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Mainz",
           "score": "2:2"
         },
         {
@@ -974,7 +974,7 @@
           "date": "Fri 19/12/2025",
           "time": "8:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Mönchengladbach",
           "score": "2:0"
         },
         {
@@ -988,14 +988,14 @@
           "date": "Sat 20/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Freiburg",
           "score": "3:4"
         },
         {
           "date": "Sat 20/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Werder Bremen",
           "score": "0:0"
         },
         {
@@ -1009,28 +1009,28 @@
           "date": "Sat 20/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Frankfurt",
           "score": "1:1"
         },
         {
           "date": "Sat 20/12/2025",
           "time": "6:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Leverkusen",
           "score": "1:3"
         },
         {
           "date": "Sun 21/12/2025",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "St. Pauli",
           "score": "0:0"
         },
         {
           "date": "Sun 21/12/2025",
           "time": "5:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Bayern Munich",
           "score": "0:4"
         }
       ]
@@ -1043,14 +1043,14 @@
           "date": "Fri 09/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Dortmund",
           "score": "3:3"
         },
         {
           "date": "Sat 10/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Hamburg",
           "score": "2:1"
         },
         {
@@ -1064,28 +1064,28 @@
           "date": "Sat 10/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "1.FC Köln",
           "score": "2:2"
         },
         {
           "date": "Sat 10/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Stuttgart",
           "score": "1:4"
         },
         {
           "date": "Sun 11/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Augsburg",
           "score": "4:0"
         },
         {
           "date": "Sun 11/01/2026",
           "time": "5:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Wolfsburg",
           "score": "8:1"
         },
         {
@@ -1099,7 +1099,7 @@
           "date": "Tue 27/01/2026",
           "time": "8:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Leipzig",
           "score": "1:1"
         }
       ]
@@ -1119,35 +1119,35 @@
           "date": "Tue 13/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Werder Bremen",
           "score": "3:0"
         },
         {
           "date": "Tue 13/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Heidenheim",
           "score": "2:1"
         },
         {
           "date": "Wed 14/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "St. Pauli",
           "score": "2:1"
         },
         {
           "date": "Wed 14/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Freiburg",
           "score": "2:0"
         },
         {
           "date": "Wed 14/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Mönchengladbach",
           "score": "5:1"
         },
         {
@@ -1161,14 +1161,14 @@
           "date": "Thu 15/01/2026",
           "time": "8:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Union Berlin",
           "score": "1:1"
         },
         {
           "date": "Wed 04/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Leverkusen",
           "score": "0:1"
         }
       ]
@@ -1188,21 +1188,21 @@
           "date": "Sat 17/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "St. Pauli",
           "score": "3:2"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Heidenheim",
           "score": "1:1"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Leverkusen",
           "score": "1:0"
         },
         {
@@ -1216,14 +1216,14 @@
           "date": "Sat 17/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Mönchengladbach",
           "score": "0:0"
         },
         {
           "date": "Sat 17/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Bayern Munich",
           "score": "1:5"
         },
         {
@@ -1237,7 +1237,7 @@
           "date": "Sun 18/01/2026",
           "time": "5:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Freiburg",
           "score": "2:2"
         }
       ]
@@ -1250,42 +1250,42 @@
           "date": "Fri 23/01/2026",
           "time": "8:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Hamburg",
           "score": "0:0"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Augsburg",
           "score": "1:2"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Werder Bremen",
           "score": "1:0"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Hoffenheim",
           "score": "1:3"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Wolfsburg",
           "score": "3:1"
         },
         {
           "date": "Sat 24/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Leipzig",
           "score": "0:3"
         },
         {
@@ -1299,14 +1299,14 @@
           "date": "Sun 25/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Stuttgart",
           "score": "0:3"
         },
         {
           "date": "Sun 25/01/2026",
           "time": "5:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "1.FC Köln",
           "score": "2:1"
         }
       ]
@@ -1326,14 +1326,14 @@
           "date": "Sat 31/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Leverkusen",
           "score": "1:3"
         },
         {
           "date": "Sat 31/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Mainz",
           "score": "1:2"
         },
         {
@@ -1347,21 +1347,21 @@
           "date": "Sat 31/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "St. Pauli",
           "score": "2:1"
         },
         {
           "date": "Sat 31/01/2026",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Union Berlin",
           "score": "3:1"
         },
         {
           "date": "Sat 31/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Bayern Munich",
           "score": "2:2"
         },
         {
@@ -1375,7 +1375,7 @@
           "date": "Sun 01/02/2026",
           "time": "5:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Heidenheim",
           "score": "3:2"
         }
       ]
@@ -1395,42 +1395,42 @@
           "date": "Sat 07/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Werder Bremen",
           "score": "1:0"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Augsburg",
           "score": "2:0"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Dortmund",
           "score": "1:2"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "3:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Stuttgart",
           "score": "2:1"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Hamburg",
           "score": "0:2"
         },
         {
           "date": "Sat 07/02/2026",
           "time": "6:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Leverkusen",
           "score": "1:1"
         },
         {
@@ -1444,7 +1444,7 @@
           "date": "Sun 08/02/2026",
           "time": "5:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Hoffenheim",
           "score": "5:1"
         }
       ]
@@ -1457,21 +1457,21 @@
           "date": "Fri 13/02/2026",
           "time": "8:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Mainz",
           "score": "4:0"
         },
         {
           "date": "Sat 14/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "St. Pauli",
           "score": "4:0"
         },
         {
           "date": "Sat 14/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Mönchengladbach",
           "score": "3:0"
         },
         {
@@ -1485,14 +1485,14 @@
           "date": "Sat 14/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Freiburg",
           "score": "3:0"
         },
         {
           "date": "Sat 14/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Union Berlin",
           "score": "3:2"
         },
         {
@@ -1506,14 +1506,14 @@
           "date": "Sun 15/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Heidenheim",
           "score": "1:0"
         },
         {
           "date": "Sun 15/02/2026",
           "time": "5:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Wolfsburg",
           "score": "2:2"
         }
       ]
@@ -1526,21 +1526,21 @@
           "date": "Fri 20/02/2026",
           "time": "8:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Hamburg",
           "score": "1:1"
         },
         {
           "date": "Sat 21/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Frankfurt",
           "score": "3:2"
         },
         {
           "date": "Sat 21/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Augsburg",
           "score": "2:3"
         },
         {
@@ -1561,28 +1561,28 @@
           "date": "Sat 21/02/2026",
           "time": "6:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Dortmund",
           "score": "2:2"
         },
         {
           "date": "Sun 22/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Mönchengladbach",
           "score": "2:1"
         },
         {
           "date": "Sun 22/02/2026",
           "time": "5:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Werder Bremen",
           "score": "2:1"
         },
         {
           "date": "Sun 22/02/2026",
           "time": "7:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Stuttgart",
           "score": "3:3"
         }
       ]
@@ -1595,14 +1595,14 @@
           "date": "Fri 27/02/2026",
           "time": "8:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "1.FC Köln",
           "score": "2:0"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Mainz",
           "score": "1:1"
         },
         {
@@ -1616,21 +1616,21 @@
           "date": "Sat 28/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Union Berlin",
           "score": "1:0"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "St. Pauli",
           "score": "0:1"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "6:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Bayern Munich",
           "score": "2:3"
         },
         {
@@ -1644,14 +1644,14 @@
           "date": "Sun 01/03/2026",
           "time": "5:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Freiburg",
           "score": "2:0"
         },
         {
           "date": "Sun 01/03/2026",
           "time": "7:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Leipzig",
           "score": "1:2"
         }
       ]
@@ -1664,42 +1664,42 @@
           "date": "Fri 06/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Mönchengladbach",
           "score": "4:1"
         },
         {
           "date": "Sat 07/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Leverkusen",
           "score": "3:3"
         },
         {
           "date": "Sat 07/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Stuttgart",
           "score": "2:2"
         },
         {
           "date": "Sat 07/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Augsburg",
           "score": "2:1"
         },
         {
           "date": "Sat 07/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Hamburg",
           "score": "1:2"
         },
         {
           "date": "Sat 07/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Hoffenheim",
           "score": "2:4"
         },
         {
@@ -1713,7 +1713,7 @@
           "date": "Sun 08/03/2026",
           "time": "3:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Frankfurt",
           "score": "0:0"
         },
         {
@@ -1733,42 +1733,42 @@
           "date": "Fri 13/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "St. Pauli",
           "score": "2:0"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Bayern Munich",
           "score": "1:1"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Heidenheim",
           "score": "1:0"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Augsburg",
           "score": "2:0"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Wolfsburg",
           "score": "1:1"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "6:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "1.FC Köln",
           "score": "1:1"
         },
         {
@@ -1782,7 +1782,7 @@
           "date": "Sun 15/03/2026",
           "time": "5:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Union Berlin",
           "score": "0:1"
         },
         {
@@ -1802,28 +1802,28 @@
           "date": "Fri 20/03/2026",
           "time": "8:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Hoffenheim",
           "score": "5:0"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Union Berlin",
           "score": "4:0"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Werder Bremen",
           "score": "0:1"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Leverkusen",
           "score": "3:3"
         },
         {
@@ -1837,28 +1837,28 @@
           "date": "Sat 21/03/2026",
           "time": "6:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Hamburg",
           "score": "3:2"
         },
         {
           "date": "Sun 22/03/2026",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Frankfurt",
           "score": "2:1"
         },
         {
           "date": "Sun 22/03/2026",
           "time": "5:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Freiburg",
           "score": "1:2"
         },
         {
           "date": "Sun 22/03/2026",
           "time": "7:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Stuttgart",
           "score": "2:5"
         }
       ]
@@ -1871,14 +1871,14 @@
           "date": "Sat 04/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Wolfsburg",
           "score": "6:3"
         },
         {
           "date": "Sat 04/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Bayern Munich",
           "score": "2:3"
         },
         {
@@ -1892,21 +1892,21 @@
           "date": "Sat 04/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Heidenheim",
           "score": "2:2"
         },
         {
           "date": "Sat 04/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Mainz",
           "score": "1:2"
         },
         {
           "date": "Sat 04/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Augsburg",
           "score": "1:1"
         },
         {
@@ -1927,7 +1927,7 @@
           "date": "Sun 05/04/2026",
           "time": "5:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "1.FC Köln",
           "score": "2:2"
         }
       ]
@@ -1940,42 +1940,42 @@
           "date": "Fri 10/04/2026",
           "time": "8:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Hoffenheim",
           "score": "2:2"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Leverkusen",
           "score": "0:1"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Mönchengladbach",
           "score": "1:0"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Frankfurt",
           "score": "1:2"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Union Berlin",
           "score": "3:1"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "6:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Bayern Munich",
           "score": "0:5"
         },
         {
@@ -1996,7 +1996,7 @@
           "date": "Sun 12/04/2026",
           "time": "7:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Freiburg",
           "score": "0:1"
         }
       ]
@@ -2009,14 +2009,14 @@
           "date": "Fri 17/04/2026",
           "time": "8:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "1.FC Köln",
           "score": "1:1"
         },
         {
           "date": "Sat 18/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Augsburg",
           "score": "1:2"
         },
         {
@@ -2037,35 +2037,35 @@
           "date": "Sat 18/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Dortmund",
           "score": "2:1"
         },
         {
           "date": "Sat 18/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Leipzig",
           "score": "1:3"
         },
         {
           "date": "Sun 19/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Heidenheim",
           "score": "2:1"
         },
         {
           "date": "Sun 19/04/2026",
           "time": "5:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Stuttgart",
           "score": "4:2"
         },
         {
           "date": "Sun 19/04/2026",
           "time": "7:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Mainz",
           "score": "1:1"
         }
       ]
@@ -2078,35 +2078,35 @@
           "date": "Fri 24/04/2026",
           "time": "8:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "Union Berlin",
           "score": ""
         },
         {
           "date": "Sat 25/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Bayern Munich",
           "score": ""
         },
         {
           "date": "Sat 25/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Mönchengladbach",
           "score": ""
         },
         {
           "date": "Sat 25/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Frankfurt",
           "score": ""
         },
         {
           "date": "Sat 25/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "St. Pauli",
           "score": ""
         },
         {
@@ -2120,7 +2120,7 @@
           "date": "Sat 25/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Hoffenheim",
           "score": ""
         },
         {
@@ -2134,7 +2134,7 @@
           "date": "Sun 26/04/2026",
           "time": "5:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Freiburg",
           "score": ""
         }
       ]
@@ -2147,14 +2147,14 @@
           "date": "Sat 02/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "Heidenheim",
           "score": ""
         },
         {
           "date": "Sat 02/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Hamburg",
           "score": ""
         },
         {
@@ -2175,35 +2175,35 @@
           "date": "Sat 02/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Stuttgart",
           "score": ""
         },
         {
           "date": "Sat 02/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Leipzig",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "3:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Mainz",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "5:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Dortmund",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "7:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Wolfsburg",
           "score": ""
         }
       ]
@@ -2216,14 +2216,14 @@
           "date": "Fri 08/05/2026",
           "time": "8:30 PM",
           "homeTeam": "Dortmund",
-          "awayTeam": "BVB",
+          "awayTeam": "Frankfurt",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Leipzig",
-          "awayTeam": "RBL",
+          "awayTeam": "St. Pauli",
           "score": ""
         },
         {
@@ -2237,28 +2237,28 @@
           "date": "Sat 09/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Augsburg",
-          "awayTeam": "FCA",
+          "awayTeam": "Mönchengladbach",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Hoffenheim",
-          "awayTeam": "TSG",
+          "awayTeam": "Werder Bremen",
           "score": ""
         },
         {
           "date": "Sat 09/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Wolfsburg",
-          "awayTeam": "WOB",
+          "awayTeam": "Bayern Munich",
           "score": ""
         },
         {
           "date": "Sun 10/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Hamburg",
-          "awayTeam": "HSV",
+          "awayTeam": "Freiburg",
           "score": ""
         },
         {
@@ -2272,7 +2272,7 @@
           "date": "Sun 10/05/2026",
           "time": "7:30 PM",
           "homeTeam": "Mainz",
-          "awayTeam": "M05",
+          "awayTeam": "Union Berlin",
           "score": ""
         }
       ]
@@ -2285,28 +2285,28 @@
           "date": "Sat 16/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Bayern Munich",
-          "awayTeam": "FCB",
+          "awayTeam": "1.FC Köln",
           "score": ""
         },
         {
           "date": "Sat 16/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Leverkusen",
-          "awayTeam": "B04",
+          "awayTeam": "Hamburg",
           "score": ""
         },
         {
           "date": "Sat 16/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Frankfurt",
-          "awayTeam": "SGE",
+          "awayTeam": "Stuttgart",
           "score": ""
         },
         {
           "date": "Sat 16/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "SCF",
+          "awayTeam": "Leipzig",
           "score": ""
         },
         {
@@ -2320,7 +2320,7 @@
           "date": "Sat 16/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Mönchengladbach",
-          "awayTeam": "BMG",
+          "awayTeam": "Hoffenheim",
           "score": ""
         },
         {
@@ -2334,14 +2334,14 @@
           "date": "Sat 16/05/2026",
           "time": "3:30 PM",
           "homeTeam": "St. Pauli",
-          "awayTeam": "FCSP",
+          "awayTeam": "Wolfsburg",
           "score": ""
         },
         {
           "date": "Sat 16/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Heidenheim",
-          "awayTeam": "FCH",
+          "awayTeam": "Mainz",
           "score": ""
         }
       ]
