@@ -1,3 +1,2892 @@
 {
-  "groups": []
+  "groups": [
+    {
+      "key": "md-1",
+      "label": "Matchday 1",
+      "matches": [
+        {
+          "date": "Sat 23/08/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Lecce",
+          "score": "0:0"
+        },
+        {
+          "date": "Sat 23/08/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "0:2"
+        },
+        {
+          "date": "Sat 23/08/2025",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "1:2"
+        },
+        {
+          "date": "Sat 23/08/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Bologna",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 24/08/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 24/08/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Lazio",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 24/08/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 24/08/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "2:0"
+        },
+        {
+          "date": "Mon 25/08/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "1:1"
+        },
+        {
+          "date": "Mon 25/08/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Torino",
+          "score": "5:0"
+        }
+      ]
+    },
+    {
+      "key": "md-2",
+      "label": "Matchday 2",
+      "matches": [
+        {
+          "date": "Fri 29/08/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "3:2"
+        },
+        {
+          "date": "Fri 29/08/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "AC Milan",
+          "score": "0:2"
+        },
+        {
+          "date": "Sat 30/08/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 30/08/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Atalanta",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 30/08/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Cagliari",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 30/08/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Roma",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 31/08/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Juventus",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 31/08/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Fiorentina",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 31/08/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Udinese",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 31/08/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Hellas Verona",
+          "score": "4:0"
+        }
+      ]
+    },
+    {
+      "key": "md-3",
+      "label": "Matchday 3",
+      "matches": [
+        {
+          "date": "Sat 13/09/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "2:0"
+        },
+        {
+          "date": "Sat 13/09/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "4:3"
+        },
+        {
+          "date": "Sat 13/09/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:3"
+        },
+        {
+          "date": "Sun 14/09/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Torino",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 14/09/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "4:1"
+        },
+        {
+          "date": "Sun 14/09/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Udinese",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 14/09/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 14/09/2025",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "1:0"
+        },
+        {
+          "date": "Mon 15/09/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "0:0"
+        },
+        {
+          "date": "Mon 15/09/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Genoa",
+          "score": "1:1"
+        }
+      ]
+    },
+    {
+      "key": "md-4",
+      "label": "Matchday 4",
+      "matches": [
+        {
+          "date": "Fri 19/09/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Cagliari",
+          "score": "1:2"
+        },
+        {
+          "date": "Sat 20/09/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "2:1"
+        },
+        {
+          "date": "Sat 20/09/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 20/09/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "0:3"
+        },
+        {
+          "date": "Sun 21/09/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Roma",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 21/09/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 21/09/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Atalanta",
+          "score": "0:3"
+        },
+        {
+          "date": "Sun 21/09/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 21/09/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Sassuolo",
+          "score": "2:1"
+        },
+        {
+          "date": "Mon 22/09/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Pisa",
+          "score": "3:2"
+        }
+      ]
+    },
+    {
+      "key": "md-5",
+      "label": "Matchday 5",
+      "matches": [
+        {
+          "date": "Sat 27/09/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Cremonese",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 27/09/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 27/09/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 28/09/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "3:1"
+        },
+        {
+          "date": "Sun 28/09/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Fiorentina",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 28/09/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Hellas Verona",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 28/09/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Bologna",
+          "score": "2:2"
+        },
+        {
+          "date": "Sun 28/09/2025",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "2:1"
+        },
+        {
+          "date": "Mon 29/09/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Torino",
+          "score": "2:1"
+        },
+        {
+          "date": "Mon 29/09/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Lazio",
+          "score": "0:3"
+        }
+      ]
+    },
+    {
+      "key": "md-6",
+      "label": "Matchday 6",
+      "matches": [
+        {
+          "date": "Fri 03/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "0:1"
+        },
+        {
+          "date": "Sat 04/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Torino",
+          "score": "3:3"
+        },
+        {
+          "date": "Sat 04/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Lecce",
+          "score": "0:1"
+        },
+        {
+          "date": "Sat 04/10/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Cremonese",
+          "score": "4:1"
+        },
+        {
+          "date": "Sat 04/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 05/10/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 05/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "4:0"
+        },
+        {
+          "date": "Sun 05/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 05/10/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Genoa",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 05/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "0:0"
+        }
+      ]
+    },
+    {
+      "key": "md-7",
+      "label": "Matchday 7",
+      "matches": [
+        {
+          "date": "Sat 18/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Sassuolo",
+          "score": "0:0"
+        },
+        {
+          "date": "Sat 18/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Hellas Verona",
+          "score": "0:0"
+        },
+        {
+          "date": "Sat 18/10/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Napoli",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 18/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Inter",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 19/10/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Juventus",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 19/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 19/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Parma",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 19/10/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 19/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "2:1"
+        },
+        {
+          "date": "Mon 20/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "1:1"
+        }
+      ]
+    },
+    {
+      "key": "md-8",
+      "label": "Matchday 8",
+      "matches": [
+        {
+          "date": "Fri 24/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "2:2"
+        },
+        {
+          "date": "Sat 25/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Como",
+          "score": "0:0"
+        },
+        {
+          "date": "Sat 25/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "3:2"
+        },
+        {
+          "date": "Sat 25/10/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Inter",
+          "score": "3:1"
+        },
+        {
+          "date": "Sat 25/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 26/10/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Genoa",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 26/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 26/10/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "2:2"
+        },
+        {
+          "date": "Sun 26/10/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "2:2"
+        },
+        {
+          "date": "Sun 26/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Juventus",
+          "score": "1:0"
+        }
+      ]
+    },
+    {
+      "key": "md-9",
+      "label": "Matchday 9",
+      "matches": [
+        {
+          "date": "Tue 28/10/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Napoli",
+          "score": "0:1"
+        },
+        {
+          "date": "Tue 28/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "1:1"
+        },
+        {
+          "date": "Wed 29/10/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Hellas Verona",
+          "score": "3:1"
+        },
+        {
+          "date": "Wed 29/10/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "3:1"
+        },
+        {
+          "date": "Wed 29/10/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Parma",
+          "score": "2:1"
+        },
+        {
+          "date": "Wed 29/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 29/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Cremonese",
+          "score": "0:2"
+        },
+        {
+          "date": "Wed 29/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Fiorentina",
+          "score": "3:0"
+        },
+        {
+          "date": "Thu 30/10/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 30/10/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Lazio",
+          "score": "0:0"
+        }
+      ]
+    },
+    {
+      "key": "md-10",
+      "label": "Matchday 10",
+      "matches": [
+        {
+          "date": "Sat 01/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 01/11/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Como",
+          "score": "0:0"
+        },
+        {
+          "date": "Sat 01/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 02/11/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 02/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 02/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Pisa",
+          "score": "2:2"
+        },
+        {
+          "date": "Sun 02/11/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Bologna",
+          "score": "1:3"
+        },
+        {
+          "date": "Sun 02/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "1:0"
+        },
+        {
+          "date": "Mon 03/11/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "1:2"
+        },
+        {
+          "date": "Mon 03/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Cagliari",
+          "score": "2:0"
+        }
+      ]
+    },
+    {
+      "key": "md-11",
+      "label": "Matchday 11",
+      "matches": [
+        {
+          "date": "Fri 07/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Cremonese",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 08/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Cagliari",
+          "score": "0:0"
+        },
+        {
+          "date": "Sat 08/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Hellas Verona",
+          "score": "0:0"
+        },
+        {
+          "date": "Sat 08/11/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "0:0"
+        },
+        {
+          "date": "Sat 08/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "AC Milan",
+          "score": "2:2"
+        },
+        {
+          "date": "Sun 09/11/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "0:3"
+        },
+        {
+          "date": "Sun 09/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 09/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Fiorentina",
+          "score": "2:2"
+        },
+        {
+          "date": "Sun 09/11/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Udinese",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 09/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Lazio",
+          "score": "2:0"
+        }
+      ]
+    },
+    {
+      "key": "md-12",
+      "label": "Matchday 12",
+      "matches": [
+        {
+          "date": "Sat 22/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "3:3"
+        },
+        {
+          "date": "Sat 22/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "0:3"
+        },
+        {
+          "date": "Sat 22/11/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 22/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Atalanta",
+          "score": "3:1"
+        },
+        {
+          "date": "Sun 23/11/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 23/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "1:3"
+        },
+        {
+          "date": "Sun 23/11/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Lecce",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 23/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "AC Milan",
+          "score": "0:1"
+        },
+        {
+          "date": "Mon 24/11/2025",
+          "time": "6:30 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Como",
+          "score": "1:5"
+        },
+        {
+          "date": "Mon 24/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "2:2"
+        }
+      ]
+    },
+    {
+      "key": "md-13",
+      "label": "Matchday 13",
+      "matches": [
+        {
+          "date": "Fri 28/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Sassuolo",
+          "score": "2:0"
+        },
+        {
+          "date": "Sat 29/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Hellas Verona",
+          "score": "2:1"
+        },
+        {
+          "date": "Sat 29/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Udinese",
+          "score": "0:2"
+        },
+        {
+          "date": "Sat 29/11/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "2:1"
+        },
+        {
+          "date": "Sat 29/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 30/11/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Torino",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 30/11/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Inter",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 30/11/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 30/11/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Napoli",
+          "score": "0:1"
+        },
+        {
+          "date": "Mon 01/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "1:3"
+        }
+      ]
+    },
+    {
+      "key": "md-14",
+      "label": "Matchday 14",
+      "matches": [
+        {
+          "date": "Sat 06/12/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "3:1"
+        },
+        {
+          "date": "Sat 06/12/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Como",
+          "score": "4:0"
+        },
+        {
+          "date": "Sat 06/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "3:1"
+        },
+        {
+          "date": "Sun 07/12/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 07/12/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 07/12/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Bologna",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 07/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Juventus",
+          "score": "2:1"
+        },
+        {
+          "date": "Mon 08/12/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Parma",
+          "score": "0:1"
+        },
+        {
+          "date": "Mon 08/12/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "1:2"
+        },
+        {
+          "date": "Mon 08/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "AC Milan",
+          "score": "2:3"
+        }
+      ]
+    },
+    {
+      "key": "md-15",
+      "label": "Matchday 15",
+      "matches": [
+        {
+          "date": "Fri 12/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Pisa",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 13/12/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Cremonese",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 13/12/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Lazio",
+          "score": "0:1"
+        },
+        {
+          "date": "Sat 13/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 14/12/2025",
+          "time": "12:30 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "2:2"
+        },
+        {
+          "date": "Sun 14/12/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 14/12/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 14/12/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Inter",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 14/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "0:1"
+        },
+        {
+          "date": "Mon 15/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Como",
+          "score": "1:0"
+        }
+      ]
+    },
+    {
+      "key": "md-16",
+      "label": "Matchday 16",
+      "matches": [
+        {
+          "date": "Sat 20/12/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Cremonese",
+          "score": "0:0"
+        },
+        {
+          "date": "Sat 20/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 21/12/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "2:2"
+        },
+        {
+          "date": "Sun 21/12/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 21/12/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "5:1"
+        },
+        {
+          "date": "Sun 21/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Atalanta",
+          "score": "0:1"
+        },
+        {
+          "date": "Wed 14/01/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Parma",
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 14/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Lecce",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 15/01/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "2:3"
+        },
+        {
+          "date": "Thu 15/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Como",
+          "awayTeam": "AC Milan",
+          "score": "1:3"
+        }
+      ]
+    },
+    {
+      "key": "md-17",
+      "label": "Matchday 17",
+      "matches": [
+        {
+          "date": "Sat 27/12/2025",
+          "time": "12:30 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Fiorentina",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 27/12/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Como",
+          "score": "0:3"
+        },
+        {
+          "date": "Sat 27/12/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Cagliari",
+          "score": "1:2"
+        },
+        {
+          "date": "Sat 27/12/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 27/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Juventus",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 28/12/2025",
+          "time": "12:30 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "3:0"
+        },
+        {
+          "date": "Sun 28/12/2025",
+          "time": "3:00 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 28/12/2025",
+          "time": "6:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 28/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "0:1"
+        },
+        {
+          "date": "Mon 29/12/2025",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Genoa",
+          "score": "3:1"
+        }
+      ]
+    },
+    {
+      "key": "md-18",
+      "label": "Matchday 18",
+      "matches": [
+        {
+          "date": "Fri 02/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "0:1"
+        },
+        {
+          "date": "Sat 03/01/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Udinese",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 03/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Pisa",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 03/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 03/01/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 03/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 04/01/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Napoli",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 04/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 04/01/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "0:3"
+        },
+        {
+          "date": "Sun 04/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Bologna",
+          "score": "3:1"
+        }
+      ]
+    },
+    {
+      "key": "md-19",
+      "label": "Matchday 19",
+      "matches": [
+        {
+          "date": "Tue 06/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Como",
+          "score": "0:3"
+        },
+        {
+          "date": "Tue 06/01/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Roma",
+          "score": "0:2"
+        },
+        {
+          "date": "Tue 06/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "0:3"
+        },
+        {
+          "date": "Wed 07/01/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "0:2"
+        },
+        {
+          "date": "Wed 07/01/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Hellas Verona",
+          "score": "2:2"
+        },
+        {
+          "date": "Wed 07/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Fiorentina",
+          "score": "2:2"
+        },
+        {
+          "date": "Wed 07/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Inter",
+          "score": "0:2"
+        },
+        {
+          "date": "Wed 07/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Udinese",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 08/01/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "2:2"
+        },
+        {
+          "date": "Thu 08/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "1:1"
+        }
+      ]
+    },
+    {
+      "key": "md-20",
+      "label": "Matchday 20",
+      "matches": [
+        {
+          "date": "Sat 10/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Bologna",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 10/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "2:2"
+        },
+        {
+          "date": "Sat 10/01/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Sassuolo",
+          "score": "2:0"
+        },
+        {
+          "date": "Sat 10/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 11/01/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Parma",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 11/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 11/01/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 11/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Napoli",
+          "score": "2:2"
+        },
+        {
+          "date": "Mon 12/01/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Cagliari",
+          "score": "3:0"
+        },
+        {
+          "date": "Mon 12/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "5:0"
+        }
+      ]
+    },
+    {
+      "key": "md-21",
+      "label": "Matchday 21",
+      "matches": [
+        {
+          "date": "Fri 16/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Atalanta",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 17/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "0:1"
+        },
+        {
+          "date": "Sat 17/01/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Sassuolo",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 17/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 18/01/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Genoa",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 18/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 18/01/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Roma",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 18/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "1:0"
+        },
+        {
+          "date": "Mon 19/01/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "0:0"
+        },
+        {
+          "date": "Mon 19/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Como",
+          "score": "0:3"
+        }
+      ]
+    },
+    {
+      "key": "md-22",
+      "label": "Matchday 22",
+      "matches": [
+        {
+          "date": "Fri 23/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Pisa",
+          "score": "6:2"
+        },
+        {
+          "date": "Sat 24/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Torino",
+          "score": "6:0"
+        },
+        {
+          "date": "Sat 24/01/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:2"
+        },
+        {
+          "date": "Sat 24/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Lazio",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 25/01/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 25/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "4:0"
+        },
+        {
+          "date": "Sun 25/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Bologna",
+          "score": "3:2"
+        },
+        {
+          "date": "Sun 25/01/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "3:0"
+        },
+        {
+          "date": "Sun 25/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "AC Milan",
+          "score": "1:1"
+        },
+        {
+          "date": "Mon 26/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "1:3"
+        }
+      ]
+    },
+    {
+      "key": "md-23",
+      "label": "Matchday 23",
+      "matches": [
+        {
+          "date": "Fri 30/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Genoa",
+          "score": "3:2"
+        },
+        {
+          "date": "Sat 31/01/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Sassuolo",
+          "score": "1:3"
+        },
+        {
+          "date": "Sat 31/01/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Fiorentina",
+          "score": "2:1"
+        },
+        {
+          "date": "Sat 31/01/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "4:0"
+        },
+        {
+          "date": "Sun 01/02/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Lecce",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 01/02/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Atalanta",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 01/02/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 01/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Juventus",
+          "score": "1:4"
+        },
+        {
+          "date": "Mon 02/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "1:0"
+        },
+        {
+          "date": "Tue 03/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "0:3"
+        }
+      ]
+    },
+    {
+      "key": "md-24",
+      "label": "Matchday 24",
+      "matches": [
+        {
+          "date": "Fri 06/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "0:0"
+        },
+        {
+          "date": "Sat 07/02/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Napoli",
+          "score": "2:3"
+        },
+        {
+          "date": "Sat 07/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "2:2"
+        },
+        {
+          "date": "Sun 08/02/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 08/02/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Udinese",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 08/02/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "0:5"
+        },
+        {
+          "date": "Sun 08/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "2:2"
+        },
+        {
+          "date": "Mon 09/02/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "2:1"
+        },
+        {
+          "date": "Mon 09/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Cagliari",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 18/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "1:1"
+        }
+      ]
+    },
+    {
+      "key": "md-25",
+      "label": "Matchday 25",
+      "matches": [
+        {
+          "date": "Fri 13/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "AC Milan",
+          "score": "1:2"
+        },
+        {
+          "date": "Sat 14/02/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Fiorentina",
+          "score": "1:2"
+        },
+        {
+          "date": "Sat 14/02/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Atalanta",
+          "score": "0:2"
+        },
+        {
+          "date": "Sat 14/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Juventus",
+          "score": "3:2"
+        },
+        {
+          "date": "Sun 15/02/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 15/02/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 15/02/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Hellas Verona",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 15/02/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Bologna",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 15/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Roma",
+          "score": "2:2"
+        },
+        {
+          "date": "Mon 16/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "0:2"
+        }
+      ]
+    },
+    {
+      "key": "md-26",
+      "label": "Matchday 26",
+      "matches": [
+        {
+          "date": "Fri 20/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "3:0"
+        },
+        {
+          "date": "Sat 21/02/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "0:2"
+        },
+        {
+          "date": "Sat 21/02/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Inter",
+          "score": "0:2"
+        },
+        {
+          "date": "Sat 21/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 22/02/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Torino",
+          "score": "3:0"
+        },
+        {
+          "date": "Sun 22/02/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 22/02/2026",
+          "time": "6:00 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 22/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Cremonese",
+          "score": "3:0"
+        },
+        {
+          "date": "Mon 23/02/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:0"
+        },
+        {
+          "date": "Mon 23/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "1:0"
+        }
+      ]
+    },
+    {
+      "key": "md-27",
+      "label": "Matchday 27",
+      "matches": [
+        {
+          "date": "Fri 27/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Cagliari",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 28/02/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Lecce",
+          "score": "3:1"
+        },
+        {
+          "date": "Sat 28/02/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "1:2"
+        },
+        {
+          "date": "Sat 28/02/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Genoa",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 01/03/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 01/03/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 01/03/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Lazio",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 01/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Juventus",
+          "score": "3:3"
+        },
+        {
+          "date": "Mon 02/03/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Bologna",
+          "score": "0:1"
+        },
+        {
+          "date": "Mon 02/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "3:0"
+        }
+      ]
+    },
+    {
+      "key": "md-28",
+      "label": "Matchday 28",
+      "matches": [
+        {
+          "date": "Fri 06/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Torino",
+          "score": "2:1"
+        },
+        {
+          "date": "Sat 07/03/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "1:2"
+        },
+        {
+          "date": "Sat 07/03/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "2:2"
+        },
+        {
+          "date": "Sat 07/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "4:0"
+        },
+        {
+          "date": "Sun 08/03/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Cremonese",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 08/03/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 08/03/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 08/03/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Roma",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 08/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "1:0"
+        },
+        {
+          "date": "Mon 09/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Sassuolo",
+          "score": "2:1"
+        }
+      ]
+    },
+    {
+      "key": "md-29",
+      "label": "Matchday 29",
+      "matches": [
+        {
+          "date": "Fri 13/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Parma",
+          "score": "4:1"
+        },
+        {
+          "date": "Sat 14/03/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Atalanta",
+          "score": "1:1"
+        },
+        {
+          "date": "Sat 14/03/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Lecce",
+          "score": "2:1"
+        },
+        {
+          "date": "Sat 14/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 15/03/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 15/03/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Cagliari",
+          "score": "3:1"
+        },
+        {
+          "date": "Sun 15/03/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 15/03/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Roma",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 15/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "AC Milan",
+          "score": "1:0"
+        },
+        {
+          "date": "Mon 16/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "1:4"
+        }
+      ]
+    },
+    {
+      "key": "md-30",
+      "label": "Matchday 30",
+      "matches": [
+        {
+          "date": "Fri 20/03/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "0:1"
+        },
+        {
+          "date": "Fri 20/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Udinese",
+          "score": "0:2"
+        },
+        {
+          "date": "Sat 21/03/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Cremonese",
+          "score": "0:2"
+        },
+        {
+          "date": "Sat 21/03/2026",
+          "time": "6:00 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "3:2"
+        },
+        {
+          "date": "Sat 21/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 22/03/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Pisa",
+          "score": "5:0"
+        },
+        {
+          "date": "Sun 22/03/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 22/03/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "0:2"
+        },
+        {
+          "date": "Sun 22/03/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Lecce",
+          "score": "1:0"
+        },
+        {
+          "date": "Sun 22/03/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:1"
+        }
+      ]
+    },
+    {
+      "key": "md-31",
+      "label": "Matchday 31",
+      "matches": [
+        {
+          "date": "Sat 04/04/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "2:1"
+        },
+        {
+          "date": "Sat 04/04/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "0:1"
+        },
+        {
+          "date": "Sat 04/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Parma",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 05/04/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 05/04/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Torino",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 05/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Roma",
+          "score": "5:2"
+        },
+        {
+          "date": "Mon 06/04/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "0:0"
+        },
+        {
+          "date": "Mon 06/04/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Atalanta",
+          "score": "0:3"
+        },
+        {
+          "date": "Mon 06/04/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "2:0"
+        },
+        {
+          "date": "Mon 06/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "AC Milan",
+          "score": "1:0"
+        }
+      ]
+    },
+    {
+      "key": "md-32",
+      "label": "Matchday 32",
+      "matches": [
+        {
+          "date": "Fri 10/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Pisa",
+          "score": "3:0"
+        },
+        {
+          "date": "Sat 11/04/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": "1:0"
+        },
+        {
+          "date": "Sat 11/04/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Hellas Verona",
+          "score": "2:1"
+        },
+        {
+          "date": "Sat 11/04/2026",
+          "time": "6:00 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": "0:3"
+        },
+        {
+          "date": "Sat 11/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 12/04/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Sassuolo",
+          "score": "2:1"
+        },
+        {
+          "date": "Sun 12/04/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Napoli",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 12/04/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": "2:0"
+        },
+        {
+          "date": "Sun 12/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Inter",
+          "score": "3:4"
+        },
+        {
+          "date": "Mon 13/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": "1:0"
+        }
+      ]
+    },
+    {
+      "key": "md-33",
+      "label": "Matchday 33",
+      "matches": [
+        {
+          "date": "Fri 17/04/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": "2:1"
+        },
+        {
+          "date": "Fri 17/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Cagliari",
+          "score": "3:0"
+        },
+        {
+          "date": "Sat 18/04/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": "0:1"
+        },
+        {
+          "date": "Sat 18/04/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Lazio",
+          "score": "0:2"
+        },
+        {
+          "date": "Sat 18/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Atalanta",
+          "score": "1:1"
+        },
+        {
+          "date": "Sun 19/04/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": "0:0"
+        },
+        {
+          "date": "Sun 19/04/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": "0:1"
+        },
+        {
+          "date": "Sun 19/04/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Genoa",
+          "score": "1:2"
+        },
+        {
+          "date": "Sun 19/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": "2:0"
+        },
+        {
+          "date": "Mon 20/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Lecce",
+          "awayTeam": "Fiorentina",
+          "score": "1:1"
+        }
+      ]
+    },
+    {
+      "key": "md-34",
+      "label": "Matchday 34",
+      "matches": [
+        {
+          "date": "Fri 24/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Cremonese",
+          "score": ""
+        },
+        {
+          "date": "Sat 25/04/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Parma",
+          "awayTeam": "Pisa",
+          "score": ""
+        },
+        {
+          "date": "Sat 25/04/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": ""
+        },
+        {
+          "date": "Sat 25/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": ""
+        },
+        {
+          "date": "Sun 26/04/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": ""
+        },
+        {
+          "date": "Sun 26/04/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Genoa",
+          "awayTeam": "Como",
+          "score": ""
+        },
+        {
+          "date": "Sun 26/04/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Torino",
+          "awayTeam": "Inter",
+          "score": ""
+        },
+        {
+          "date": "Sun 26/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": ""
+        },
+        {
+          "date": "Mon 27/04/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": ""
+        },
+        {
+          "date": "Mon 27/04/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Lazio",
+          "awayTeam": "Udinese",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-35",
+      "label": "Matchday 35",
+      "matches": [
+        {
+          "date": "Fri 01/05/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Pisa",
+          "awayTeam": "Lecce",
+          "score": ""
+        },
+        {
+          "date": "Sat 02/05/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": ""
+        },
+        {
+          "date": "Sat 02/05/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Como",
+          "awayTeam": "Napoli",
+          "score": ""
+        },
+        {
+          "date": "Sat 02/05/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": ""
+        },
+        {
+          "date": "Sun 03/05/2026",
+          "time": "12:30 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": ""
+        },
+        {
+          "date": "Sun 03/05/2026",
+          "time": "3:00 PM",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": ""
+        },
+        {
+          "date": "Sun 03/05/2026",
+          "time": "6:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": ""
+        },
+        {
+          "date": "Sun 03/05/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Parma",
+          "score": ""
+        },
+        {
+          "date": "Mon 04/05/2026",
+          "time": "6:30 PM",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": ""
+        },
+        {
+          "date": "Mon 04/05/2026",
+          "time": "8:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Fiorentina",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-36",
+      "label": "Matchday 36",
+      "matches": [
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Lazio",
+          "awayTeam": "Inter",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Lecce",
+          "awayTeam": "Juventus",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Napoli",
+          "awayTeam": "Bologna",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Parma",
+          "awayTeam": "Roma",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Torino",
+          "awayTeam": "Sassuolo",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-37",
+      "label": "Matchday 37",
+      "matches": [
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Atalanta",
+          "awayTeam": "ABC",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Cagliari",
+          "awayTeam": "Caglia",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Como",
+          "awayTeam": "Parma",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Genoa",
+          "awayTeam": "AC Milan",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Inter",
+          "awayTeam": "Hellas Verona",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Juventus",
+          "awayTeam": "Juve",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Pisa",
+          "awayTeam": "Napoli",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Roma",
+          "awayTeam": "Lazio",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Sassuolo",
+          "awayTeam": "Sassuo",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Udinese",
+          "awayTeam": "Udine",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-38",
+      "label": "Matchday 38",
+      "matches": [
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Bologna",
+          "awayTeam": "Bolo",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Cremonese",
+          "awayTeam": "USC",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "ACF",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Lazio",
+          "awayTeam": "Pisa",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Lecce",
+          "awayTeam": "Genoa",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Milan",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Napoli",
+          "awayTeam": "Udinese",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Parma",
+          "awayTeam": "Sassuolo",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Torino",
+          "awayTeam": "Juventus",
+          "score": ""
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Hellas Verona",
+          "awayTeam": "Hellas",
+          "score": ""
+        }
+      ]
+    }
+  ]
 }

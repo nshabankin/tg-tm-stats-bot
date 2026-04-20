@@ -92,6 +92,14 @@ function normalizeSearch(value) {
   return `${value || ""}`.trim().toLowerCase();
 }
 
+function normalizeClubKey(value) {
+  return `${value || ""}`
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function parseStatNumber(value) {
   const normalized = `${value || ""}`.trim();
   if (!normalized || normalized === "-") {
@@ -175,6 +183,23 @@ function renderLeaguePicker() {
       toggleFavoriteLeague(button.dataset.favoriteKey);
     });
   });
+}
+
+function applyLeagueTheme() {
+  if (!state.selectedLeague) {
+    return;
+  }
+  const chip = document.querySelector(
+    `.league-chip[data-league-key="${state.selectedLeague}"]`
+  );
+  if (!chip) {
+    return;
+  }
+  const computed = getComputedStyle(chip);
+  const accent = `${computed.getPropertyValue("--league-accent") || ""}`.trim();
+  if (accent) {
+    document.documentElement.style.setProperty("--page-accent", accent);
+  }
 }
 
 function formatDateLabel(value) {
@@ -732,10 +757,34 @@ function aggregateTie(tie) {
   ]);
   let hasScore = false;
 
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const parseMatchDate = (value) => {
+    const text = `${value || ""}`;
+    const match = text.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+    if (!match) {
+      return null;
+    }
+    const day = parseInt(match[1], 10);
+    const month = parseInt(match[2], 10);
+    const year = parseInt(match[3], 10);
+    const date = new Date(year, month - 1, day);
+    return Number.isNaN(date.getTime()) ? null : date;
+  };
+
   matches.forEach((match) => {
     const score = parseScore(match.result);
     if (!score) {
       return;
+    }
+    // Transfermarkt can show "0:0" placeholders before kick-off. Hide those until
+    // the match date has passed to avoid confusing empty fixtures as results.
+    if (score.home === 0 && score.away === 0) {
+      const when = parseMatchDate(match.date);
+      if (when && when.getTime() >= today.getTime()) {
+        return;
+      }
     }
     hasScore = true;
     const home = match.homeTeam || "";
@@ -824,11 +873,6 @@ function drawBracketLines(viewportEl) {
   stroke.setAttribute("stroke-linejoin", "round");
   svg.appendChild(stroke);
 
-  // Precompute tie aggregates per round so we can infer winner -> next round tie.
-  const roundAgg = rounds.map((roundEl) =>
-    Array.from(roundEl.querySelectorAll("[data-bracket-tie]")).map((tieEl) => tieEl)
-  );
-
   for (let roundIndex = 0; roundIndex < rounds.length - 1; roundIndex += 1) {
     const currentRound = rounds[roundIndex];
     const nextRound = rounds[roundIndex + 1];
@@ -916,7 +960,7 @@ function renderBracket() {
                             </div>
                             <div class="bracket-tie-foot">
                               <span class="bracket-tie-code">${tie.code || ""}</span>
-                              <span class="bracket-result">${result || "-"}</span>
+                              <span class="bracket-result">${result || "TBD"}</span>
                             </div>
                           </article>
                         `;
@@ -945,6 +989,10 @@ function matchScoreLabel(match) {
   if (!score || score === "-:-") {
     return "";
   }
+  // Guardrail: the scraper occasionally picks up kickoff times (e.g. "6:45", "9:00").
+  if (/^\d{1,2}:\d{2}$/.test(score)) {
+    return "";
+  }
   return score;
 }
 
@@ -961,6 +1009,14 @@ function renderMatches() {
   state.matchesGroupIndex = Math.min(groups.length - 1, state.matchesGroupIndex);
   const group = groups[state.matchesGroupIndex];
   const matches = group?.matches || [];
+  const teams = Array.isArray(state.snapshot.teams) ? state.snapshot.teams : [];
+  const logoByName = new Map(teams.map((team) => [team.club, team.logo]));
+  const logoByKey = new Map(
+    teams.map((team) => [normalizeClubKey(team.club), team.logo])
+  );
+
+  const resolveLogo = (teamName) =>
+    logoByName.get(teamName) || logoByKey.get(normalizeClubKey(teamName));
 
   matchesViewEl.innerHTML = `
     <div class="matches-shell">
@@ -976,16 +1032,23 @@ function renderMatches() {
         ${matches
           .map((match) => {
             const score = matchScoreLabel(match);
+            const homeLogo = resolveLogo(match.homeTeam);
+            const awayLogo = resolveLogo(match.awayTeam);
             return `
               <article class="match-card">
                 <div class="match-meta">
                   <span>${match.date || ""}${match.time ? ` · ${match.time}` : ""}</span>
-                  <span class="match-score">${score || "TBD"}</span>
                 </div>
                 <div class="match-row">
-                  <span class="match-team">${match.homeTeam || "-"}</span>
-                  <span class="match-vs">vs</span>
-                  <span class="match-team">${match.awayTeam || "-"}</span>
+                  <div class="match-team match-team-home">
+                    ${homeLogo ? `<img class="match-team-logo" src="${homeLogo}" alt="${match.homeTeam || "Home"} logo" loading="lazy" />` : ""}
+                    <span class="match-team-name">${match.homeTeam || "-"}</span>
+                  </div>
+                  <div class="match-scoreline">${score || "TBD"}</div>
+                  <div class="match-team match-team-away">
+                    <span class="match-team-name">${match.awayTeam || "-"}</span>
+                    ${awayLogo ? `<img class="match-team-logo" src="${awayLogo}" alt="${match.awayTeam || "Away"} logo" loading="lazy" />` : ""}
+                  </div>
                 </div>
               </article>
             `;
@@ -1092,6 +1155,7 @@ async function selectLeague(leagueKey, options = {}) {
   state.selectedLeague = leagueKey;
   state.teamQuery = "";
   renderLeaguePicker();
+  applyLeagueTheme();
 
   const snapshot = await apiFetch(`/api/leagues/${leagueKey}/snapshot`);
   state.snapshot = snapshot;

@@ -8,6 +8,7 @@
   --line: rgba(255, 255, 255, 0.08);
   --accent: #6ee7b7;
   --accent-strong: #10b981;
+  --page-accent: 110, 231, 183;
   --danger: #fda4af;
   --shadow: 0 20px 40px rgba(0, 0, 0, 0.24);
   --radius: 22px;
@@ -21,8 +22,8 @@ body {
   margin: 0;
   font-family: "Inter", "SF Pro Display", system-ui, sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(110, 231, 183, 0.14), transparent 30%),
-    radial-gradient(circle at top right, rgba(125, 211, 252, 0.14), transparent 24%),
+    radial-gradient(circle at top left, rgba(var(--page-accent), 0.16), transparent 30%),
+    radial-gradient(circle at top right, rgba(var(--page-accent), 0.11), transparent 26%),
     linear-gradient(180deg, #09111c 0%, #07111f 48%, #091725 100%);
   color: var(--text);
   min-height: 100vh;
@@ -112,7 +113,7 @@ body {
 .league-chip {
   width: 100%;
   gap: 10px;
-  padding: 14px 16px 14px 40px;
+  padding: 14px 16px;
   justify-content: flex-start;
   text-align: left;
 }
@@ -151,6 +152,7 @@ body {
 
 .league-chip-card.is-active .league-chip {
   border-color: rgba(var(--league-accent), 0.82);
+  filter: brightness(1.06);
   box-shadow:
     0 18px 36px rgba(0, 0, 0, 0.26),
     0 0 0 1px rgba(var(--league-accent), 0.14) inset,
@@ -233,6 +235,18 @@ body {
   flex: 1;
   text-align: center;
   font-weight: 700;
+  position: relative;
+}
+
+.tab.is-active::after {
+  content: "";
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 10px;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(var(--page-accent), 0.9);
 }
 
 .summary-grid {
@@ -252,7 +266,7 @@ body {
   border: 1px solid var(--line);
   border-radius: 20px;
   background:
-    linear-gradient(135deg, rgba(110, 231, 183, 0.08), transparent 35%),
+    linear-gradient(135deg, rgba(var(--page-accent), 0.08), transparent 35%),
     rgba(11, 22, 38, 0.9);
   box-shadow: var(--shadow);
 }
@@ -419,9 +433,9 @@ body {
 
 .team-controls {
   display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(180px, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
   gap: 12px;
-  align-items: end;
+  align-items: start;
 }
 
 .field-shell {
@@ -653,6 +667,7 @@ body {
   gap: 18px;
   align-items: flex-start;
   min-width: max-content;
+  z-index: 1;
 }
 
 .bracket-lines {
@@ -660,10 +675,11 @@ body {
   top: 0;
   left: 0;
   pointer-events: none;
+  z-index: 0;
 }
 
 .bracket-round {
-  width: 220px;
+  width: 200px;
   display: grid;
   gap: 12px;
   scroll-snap-align: start;
@@ -741,17 +757,42 @@ body {
 }
 
 .match-team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
   font-weight: 800;
+}
+
+.match-team-away {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.match-team-logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  padding: 3px;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.95);
+  flex: 0 0 auto;
+}
+
+.match-team-name {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.match-vs {
-  color: var(--muted);
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+.match-scoreline {
+  color: var(--accent);
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(7, 17, 31, 0.72);
 }
 
 .bracket-ties {
@@ -764,6 +805,8 @@ body {
   border: 1px solid var(--line);
   border-radius: 18px;
   padding: 12px 12px 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .bracket-tie-rows {

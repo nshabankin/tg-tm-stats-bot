@@ -7,6 +7,7 @@ from collections import OrderedDict
 from datetime import date
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
+from urllib.parse import urlparse
 
 import requests
 from lxml import html
@@ -250,6 +251,10 @@ def normalize_match_group(header: str) -> Tuple[str, str, int]:
 def extract_score(text: str) -> str:
     """Extract a score like 2:1 or 2:1 (4:3) from raw row text."""
     normalized = normalize_text(text)
+    # Avoid treating kickoff times like "6:45 PM" as scores.
+    lowered = normalized.casefold()
+    if re.search(r'\b(am|pm)\b', lowered):
+        return ''
     main = re.search(r'(\d+)\s*:\s*(\d+)', normalized)
     if not main:
         return ''
@@ -259,6 +264,32 @@ def extract_score(text: str) -> str:
     if pens:
         score += f' ({pens.group(1)}:{pens.group(2)})'
     return score
+
+
+def team_slug_from_link(link: str) -> str:
+    """Extract the team slug (first URL path segment) from a Transfermarkt link."""
+    normalized = normalize_text(link)
+    if not normalized:
+        return ''
+    try:
+        path = urlparse(normalized).path
+    except Exception:
+        path = normalized
+    parts = [part for part in path.split('/') if part]
+    return parts[0] if parts else ''
+
+
+def extract_score_from_row_cells(cells: List[html.HtmlElement],
+                                 skip_prefix: int = 2) -> str:
+    """Prefer extracting the score from dedicated result cells (not date/time)."""
+    if not cells:
+        return ''
+    for cell in reversed(cells[skip_prefix:]):
+        value = normalize_text(' '.join(cell.xpath('.//text()')))
+        score = extract_score(value)
+        if score:
+            return score
+    return ''
 
 
 def parse_fixture_table(table: html.HtmlElement) -> List[dict]:
@@ -276,7 +307,7 @@ def parse_fixture_table(table: html.HtmlElement) -> List[dict]:
         cells = row.xpath('./td')
         date_value = normalize_text(' '.join(cells[0].xpath('.//text()'))) if cells else ''
         time_value = normalize_text(' '.join(cells[1].xpath('.//text()'))) if len(cells) > 1 else ''
-        score = extract_score(' '.join(row.xpath('.//text()')))
+        score = extract_score_from_row_cells(cells)
 
         matches.append({
             'date': date_value,
@@ -288,38 +319,225 @@ def parse_fixture_table(table: html.HtmlElement) -> List[dict]:
     return matches
 
 
+def parse_spieltag_matches(doc: html.HtmlElement) -> List[dict]:
+    """Parse fixture rows from a 'spieltag' page (domestic league matchday)."""
+    matches: List[dict] = []
+    # Transfermarkt renders each match as a "table-grosse-schrift" row, followed
+    # by separate metadata rows (kickoff, referee, attendance, events). We only
+    # want the main match rows plus the kickoff metadata.
+    for row in doc.xpath(
+        '//a[contains(@href, "/spielbericht/index/spielbericht")]'
+        '/ancestor::tr[contains(@class, "table-grosse-schrift")][1]'
+    ):
+        team_links = row.xpath('.//a[contains(@href, "/verein/")]')
+        teams: List[str] = []
+        for link in team_links:
+            name = normalize_text(' '.join(link.xpath('.//text()')))
+            if name and (not teams or teams[-1] != name):
+                teams.append(name)
+
+        unique = []
+        for name in teams:
+            if name and (not unique or unique[-1] != name):
+                unique.append(name)
+
+        if len(unique) < 2:
+            continue
+
+        cells = row.xpath('./td')
+        score = extract_score_from_row_cells(cells, skip_prefix=0)
+
+        date_value = ''
+        time_value = ''
+        meta_row = row.xpath('following-sibling::tr[1]')
+        if meta_row:
+            meta_text = normalize_text(' '.join(meta_row[0].xpath('.//text()')))
+            match = re.search(
+                r'([A-Za-z]{3}\s+\d{2}/\d{2}/\d{4})\s*-\s*(\d{1,2}:\d{2}\s*(?:AM|PM))',
+                meta_text,
+                re.IGNORECASE,
+            )
+            if match:
+                date_value = match.group(1)
+                time_value = match.group(2).upper()
+
+        matches.append({
+            'date': date_value,
+            'time': time_value,
+            'homeTeam': unique[0],
+            'awayTeam': unique[1],
+            'score': score,
+        })
+
+    return matches
+
+
+def parse_team_schedule_matches(doc: html.HtmlElement, table_title: str,
+                                club_name: str) -> List[dict]:
+    """Parse matches from a club schedule table (e.g. UEFA Champions League)."""
+    matches: List[dict] = []
+    tables = doc.xpath(
+        f'//h2[contains(normalize-space(.), "{table_title}")]/following::table[1]'
+    )
+    if not tables:
+        return matches
+    table = tables[0]
+
+    for row in table.xpath('.//tbody/tr[td]'):
+        cells = [
+            normalize_text(' '.join(td.xpath('.//text()')))
+            for td in row.xpath('./td')
+        ]
+        if len(cells) < 9:
+            continue
+
+        stage = cells[0]
+        date_value = cells[1]
+        time_value = cells[2]
+        venue = cells[3]
+        opponent = cells[6] if len(cells) > 6 else ''
+        result = cells[-1]
+
+        # Only keep the league phase / group stage fixtures here.
+        stage_norm = normalize_text(stage).casefold()
+        if stage_norm not in {'group stage', 'league phase', 'league stage'}:
+            continue
+
+        home = club_name
+        away = opponent
+        if venue == 'A':
+            home, away = opponent, club_name
+
+        matches.append({
+            'date': date_value,
+            'time': time_value,
+            'homeTeam': home,
+            'awayTeam': away,
+            'score': extract_score(result),
+        })
+
+    return matches
+
+
+def parse_ddmmyyyy(date_value: str) -> Optional[date]:
+    match = re.search(r'(\d{1,2})/(\d{1,2})/(\d{4})', date_value or '')
+    if not match:
+        return None
+    day, month, year = (int(match.group(1)), int(match.group(2)),
+                        int(match.group(3)))
+    try:
+        return date(year, month, day)
+    except ValueError:
+        return None
+
+
+def group_matches_into_matchdays(matches: List[dict]) -> List[dict]:
+    """Infer matchdays by clustering Tue/Wed matchweeks into sequential buckets."""
+    dated = []
+    for match in matches:
+        dt = parse_ddmmyyyy(match.get('date', ''))
+        if not dt:
+            continue
+        dated.append((dt, match))
+
+    if not dated:
+        return []
+
+    dated.sort(key=lambda item: item[0])
+    buckets: List[List[dict]] = []
+    current: List[dict] = []
+    current_anchor = dated[0][0]
+
+    for dt, match in dated:
+        # New matchday when we're more than 3 days away from the first date.
+        if (dt - current_anchor).days > 3:
+            buckets.append(current)
+            current = []
+            current_anchor = dt
+        current.append(match)
+
+    if current:
+        buckets.append(current)
+
+    groups = []
+    for index, bucket in enumerate(buckets, start=1):
+        groups.append({
+            'key': f'md-{index}',
+            'label': f'Matchday {index}',
+            'order': index,
+            'matches': bucket,
+        })
+    return groups
+
+
 def fetch_match_groups(session: requests.Session, league_key: str,
                        season: int, timeout: int,
-                       bracket: Optional[dict] = None) -> dict:
-    doc = html.fromstring(fetch_text(
-        session,
-        competition_path(league_key, 'gesamtspielplan', season),
-        timeout,
-    ))
+                       bracket: Optional[dict] = None,
+                       teams: Optional[List[dict]] = None,
+                       club_count: Optional[int] = None,
+                       delay: float = 0.0) -> dict:
+    league = LEAGUES[league_key]
     groups: "OrderedDict[str, dict]" = OrderedDict()
 
-    for box in doc.xpath('//div[contains(@class, "box")]'):
-        header = normalize_text(' '.join(box.xpath('.//h2[1]//text()')))
-        if not header:
-            continue
-        tables = box.xpath('.//table[.//a[contains(@href, "/verein/")]]')
-        if not tables:
-            continue
-        matches = parse_fixture_table(tables[0])
-        if not matches:
-            continue
+    if league.family == 'domestic':
+        # Domestic competitions expose a clean matchday URL. Use club_count (from the
+        # current table) to infer how many matchdays exist.
+        matchdays = None
+        if club_count:
+            matchdays = max(1, (club_count - 1) * 2)
+        if matchdays:
+            for matchday in range(1, matchdays + 1):
+                url = (
+                    f'https://www.transfermarkt.com/{league.table_slug}/spieltag/'
+                    f'wettbewerb/{league.site_id}/saison_id/{season}/spieltag/{matchday}'
+                )
+                doc = html.fromstring(fetch_text(session, url, timeout))
+                matches = parse_spieltag_matches(doc)
+                if not matches:
+                    # Stop early if Transfermarkt stops returning fixture rows.
+                    break
+                key = f'md-{matchday}'
+                groups[key] = {
+                    'key': key,
+                    'label': f'Matchday {matchday}',
+                    'order': matchday,
+                    'matches': matches,
+                }
+                if delay:
+                    time.sleep(delay)
+    else:
+        # UEFA competitions: infer league-phase matchdays by scraping each club's
+        # schedule and clustering matchweeks.
+        league_phase_matches: List[dict] = []
+        if teams:
+            seen = set()
+            for team in teams:
+                team_id = team.get('id')
+                club_name = team.get('name')
+                if not team_id or not club_name:
+                    continue
+                slug = team.get('slug') or team_slug_from_link(team.get('link', ''))
+                if not slug:
+                    continue
+                url = f'https://www.transfermarkt.com/{slug}/spielplan/verein/{team_id}/saison_id/{season}'
+                doc = html.fromstring(fetch_text(session, url, timeout))
+                team_matches = parse_team_schedule_matches(doc, league.label, club_name)
+                for match in team_matches:
+                    sig = (
+                        match.get('date', ''),
+                        match.get('time', ''),
+                        match.get('homeTeam', ''),
+                        match.get('awayTeam', ''),
+                    )
+                    if sig in seen:
+                        continue
+                    seen.add(sig)
+                    league_phase_matches.append(match)
+                if delay:
+                    time.sleep(delay)
 
-        key, label, order = normalize_match_group(header)
-        group = groups.setdefault(
-            key,
-            {
-                'key': key,
-                'label': label,
-                'order': order,
-                'matches': [],
-            },
-        )
-        group['matches'].extend(matches)
+        for group in group_matches_into_matchdays(league_phase_matches):
+            groups[group['key']] = group
 
     # Add explicit knockout matches for UEFA competitions to make playoff
     # browsing easier than fishing them out of the full schedule.
@@ -327,6 +545,8 @@ def fetch_match_groups(session: requests.Session, league_key: str,
         base_order = 1000
         for round_data in bracket.get('rounds', []):
             round_label = round_data.get('label', 'Playoffs')
+            if normalize_text(round_label).casefold() == 'knockout stage':
+                continue
             matches_by_leg: "OrderedDict[str, List[dict]]" = OrderedDict()
             for tie in round_data.get('ties', []):
                 for match in tie.get('matches', []):
@@ -1000,6 +1220,9 @@ def refresh_league(league_key: str, season: int = None,
                 season,
                 timeout,
                 bracket=bracket_payload,
+                teams=teams,
+                club_count=len(table),
+                delay=delay,
             ),
         )
     except Exception as error:
@@ -1062,6 +1285,62 @@ def refresh_leagues(league_keys: Iterable[str], season: int = None,
     for league_key in league_keys:
         results.append(refresh_league(league_key, season, timeout, delay,
                                       refresh_rosters))
+    return results
+
+
+def refresh_matches_only(league_key: str, season: int = None,
+                         timeout: int = DEFAULT_TIMEOUT,
+                         delay: float = DEFAULT_DELAY) -> dict:
+    """Refresh only match/bracket JSON snapshots (no roster or player stats)."""
+    season = season or current_season_start_year()
+    session = build_session()
+    league_dir = TMSTATS_DIR / league_key
+
+    teams, table = fetch_current_table(session, league_key, season, timeout)
+
+    bracket_payload = None
+    if LEAGUES[league_key].supports_bracket:
+        try:
+            bracket_payload = fetch_knockout_bracket(session, league_key, season, timeout)
+            write_json(league_dir / f'{league_key}_bracket_{season}.json', bracket_payload)
+        except Exception as error:
+            print(f'Warning: failed to refresh knockout bracket for {league_key}: {error}', flush=True)
+            bracket_payload = None
+
+    try:
+        write_json(
+            league_dir / f'{league_key}_matches_{season}.json',
+            fetch_match_groups(
+                session,
+                league_key,
+                season,
+                timeout,
+                bracket=bracket_payload,
+                teams=teams,
+                club_count=len(table),
+                delay=delay,
+            ),
+        )
+    except Exception as error:
+        print(f'Warning: failed to refresh match list for {league_key}: {error}', flush=True)
+
+    return {
+        'league': league_key,
+        'season': season,
+        'clubs': len(table),
+        'players': 0,
+        'stats_rows': 0,
+        'table_rows': len(table),
+    }
+
+
+def refresh_matches_for_leagues(league_keys: Iterable[str], season: int = None,
+                                timeout: int = DEFAULT_TIMEOUT,
+                                delay: float = DEFAULT_DELAY) -> List[dict]:
+    results = []
+    for league_key in league_keys:
+        print(f'Refreshing match snapshots for {league_key} season {season}', flush=True)
+        results.append(refresh_matches_only(league_key, season, timeout, delay))
     return results
 
 
@@ -1168,6 +1447,11 @@ def parse_args() -> argparse.Namespace:
         help='Generate PDFs from existing CSV snapshots without refreshing data.',
     )
     parser.add_argument(
+        '--matches-only',
+        action='store_true',
+        help='Refresh match/bracket JSON snapshots without scraping players.',
+    )
+    parser.add_argument(
         '--logos-only',
         action='store_true',
         help='Refresh only team logo URLs in existing table CSV snapshots.',
@@ -1195,6 +1479,12 @@ def main() -> None:
     elif args.pdf_only:
         results = render_pdfs_for_leagues(league_keys, season=args.season)
         completion_label = 'PDF render complete'
+    elif args.matches_only:
+        results = refresh_matches_for_leagues(league_keys,
+                                              season=args.season,
+                                              timeout=args.timeout,
+                                              delay=args.delay)
+        completion_label = 'Match snapshot refresh complete'
     else:
         results = refresh_leagues(league_keys,
                                   season=args.season,

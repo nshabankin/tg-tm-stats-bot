@@ -1,316 +1,1058 @@
 {
   "groups": [
     {
-      "key": "stage-knockout-stage",
-      "label": "Knockout stage",
+      "key": "md-1",
+      "label": "Matchday 1",
       "matches": [
         {
-          "date": "Thu 19/02/2026",
+          "date": "Wed 24/09/2025",
           "time": "6:45 PM",
-          "homeTeam": "Dinamo Zagreb",
-          "awayTeam": "Genk",
-          "score": "6:45"
+          "homeTeam": "Midtjylland",
+          "awayTeam": "Sturm Graz",
+          "score": "2:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "PAOK",
-          "awayTeam": "Celta de Vigo",
-          "score": "1:2"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Fenerbahçe",
-          "awayTeam": "Nott'm Forest",
-          "score": "0:3"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "SK Brann",
-          "awayTeam": "Bologna",
-          "score": "0:1"
-        },
-        {
-          "date": "",
+          "date": "Wed 24/09/2025",
           "time": "9:00 PM",
-          "homeTeam": "Ludogorets",
-          "awayTeam": "Ferencváros",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Panathinaikos",
-          "awayTeam": "Viktoria Plzeň",
+          "homeTeam": "Real Betis",
+          "awayTeam": "Nott'm Forest",
           "score": "2:2"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Celtic",
-          "awayTeam": "Stuttgart",
+          "date": "Wed 24/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Braga",
+          "awayTeam": "Feyenoord",
+          "score": "1:0"
+        },
+        {
+          "date": "Wed 24/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Freiburg",
+          "awayTeam": "Basel",
+          "score": "2:1"
+        },
+        {
+          "date": "Wed 24/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Nice",
+          "awayTeam": "Roma",
+          "score": "1:2"
+        },
+        {
+          "date": "Wed 24/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Red Star",
+          "awayTeam": "Celtic",
+          "score": "1:1"
+        },
+        {
+          "date": "Wed 24/09/2025",
+          "time": "6:45 PM",
+          "homeTeam": "PAOK",
+          "awayTeam": "M. Tel Aviv",
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 24/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Dinamo Zagreb",
+          "awayTeam": "Fenerbahçe",
+          "score": "3:1"
+        },
+        {
+          "date": "Wed 24/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Malmö",
+          "awayTeam": "Ludogorets",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 25/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Utrecht",
+          "awayTeam": "Lyon",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 25/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Aston Villa",
+          "awayTeam": "Bologna",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 25/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Salzburg",
+          "awayTeam": "Porto",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 25/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Rangers",
+          "awayTeam": "Genk",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 25/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Stuttgart",
+          "awayTeam": "Celta de Vigo",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 25/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Ferencváros",
+          "awayTeam": "Viktoria Plzeň",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 25/09/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Lille",
+          "awayTeam": "SK Brann",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 25/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Young Boys",
+          "awayTeam": "Panathinaikos",
           "score": "1:4"
         },
         {
-          "date": "",
-          "time": "",
+          "date": "Thu 25/09/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Go Ahead Eagles",
+          "awayTeam": "FCSB",
+          "score": "0:1"
+        }
+      ]
+    },
+    {
+      "key": "md-2",
+      "label": "Matchday 2",
+      "matches": [
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Lyon",
+          "awayTeam": "Salzburg",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Feyenoord",
+          "awayTeam": "Aston Villa",
+          "score": "0:2"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Nott'm Forest",
+          "awayTeam": "Midtjylland",
+          "score": "2:3"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Ludogorets",
+          "awayTeam": "Real Betis",
+          "score": "0:2"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Porto",
+          "awayTeam": "Red Star",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Celtic",
+          "awayTeam": "Braga",
+          "score": "0:2"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Freiburg",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Lille",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Genk",
+          "awayTeam": "Ferencváros",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Basel",
+          "awayTeam": "Stuttgart",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Viktoria Plzeň",
+          "awayTeam": "Malmö",
+          "score": "3:0"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Celta de Vigo",
+          "awayTeam": "PAOK",
+          "score": "3:1"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Fenerbahçe",
+          "awayTeam": "Nice",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Panathinaikos",
+          "awayTeam": "Go Ahead Eagles",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "M. Tel Aviv",
+          "awayTeam": "Dinamo Zagreb",
+          "score": "1:3"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "SK Brann",
+          "awayTeam": "Utrecht",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "FCSB",
+          "awayTeam": "Young Boys",
+          "score": "0:2"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Sturm Graz",
+          "awayTeam": "Rangers",
+          "score": "2:1"
+        }
+      ]
+    },
+    {
+      "key": "md-3",
+      "label": "Matchday 3",
+      "matches": [
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Lyon",
+          "awayTeam": "Basel",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Go Ahead Eagles",
+          "awayTeam": "Aston Villa",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "M. Tel Aviv",
+          "awayTeam": "Midtjylland",
+          "score": "0:3"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Genk",
+          "awayTeam": "Real Betis",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Nott'm Forest",
+          "awayTeam": "Porto",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Braga",
+          "awayTeam": "Red Star",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Freiburg",
+          "awayTeam": "Utrecht",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Viktoria Plzeň",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "FCSB",
+          "awayTeam": "Bologna",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Fenerbahçe",
+          "awayTeam": "Stuttgart",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Salzburg",
+          "awayTeam": "Ferencváros",
+          "score": "2:3"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Celta de Vigo",
+          "awayTeam": "Nice",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
           "homeTeam": "Lille",
+          "awayTeam": "PAOK",
+          "score": "3:4"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Feyenoord",
+          "awayTeam": "Panathinaikos",
+          "score": "3:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Celtic",
+          "awayTeam": "Sturm Graz",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Young Boys",
+          "awayTeam": "Ludogorets",
+          "score": "3:2"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Malmö",
+          "awayTeam": "Dinamo Zagreb",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "SK Brann",
+          "awayTeam": "Rangers",
+          "score": "3:0"
+        }
+      ]
+    },
+    {
+      "key": "md-4",
+      "label": "Matchday 4",
+      "matches": [
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Real Betis",
+          "awayTeam": "Lyon",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Aston Villa",
+          "awayTeam": "M. Tel Aviv",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Midtjylland",
+          "awayTeam": "Celtic",
+          "score": "3:1"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Utrecht",
+          "awayTeam": "Porto",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Braga",
+          "awayTeam": "Genk",
+          "score": "3:4"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Nice",
+          "awayTeam": "Freiburg",
+          "score": "1:3"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Rangers",
+          "awayTeam": "Roma",
+          "score": "0:2"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "SK Brann",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Stuttgart",
+          "awayTeam": "Feyenoord",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Ferencváros",
+          "awayTeam": "Ludogorets",
+          "score": "3:1"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Sturm Graz",
+          "awayTeam": "Nott'm Forest",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Viktoria Plzeň",
+          "awayTeam": "Fenerbahçe",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Red Star",
+          "awayTeam": "Lille",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Dinamo Zagreb",
+          "awayTeam": "Celta de Vigo",
+          "score": "0:3"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "PAOK",
+          "awayTeam": "Young Boys",
+          "score": "4:0"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Malmö",
+          "awayTeam": "Panathinaikos",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Basel",
+          "awayTeam": "FCSB",
+          "score": "3:1"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Salzburg",
+          "awayTeam": "Go Ahead Eagles",
+          "score": "2:0"
+        }
+      ]
+    },
+    {
+      "key": "md-5",
+      "label": "Matchday 5",
+      "matches": [
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "M. Tel Aviv",
+          "awayTeam": "Lyon",
+          "score": "0:6"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Aston Villa",
+          "awayTeam": "Young Boys",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Roma",
+          "awayTeam": "Midtjylland",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Real Betis",
+          "awayTeam": "Utrecht",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Porto",
+          "awayTeam": "Nice",
+          "score": "3:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Rangers",
+          "awayTeam": "Braga",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Viktoria Plzeň",
+          "awayTeam": "Freiburg",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Genk",
+          "awayTeam": "Basel",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Salzburg",
+          "score": "4:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Go Ahead Eagles",
+          "awayTeam": "Stuttgart",
+          "score": "0:4"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Fenerbahçe",
+          "awayTeam": "Ferencváros",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Nott'm Forest",
+          "awayTeam": "Malmö",
+          "score": "3:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Red Star",
+          "awayTeam": "FCSB",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Ludogorets",
+          "awayTeam": "Celta de Vigo",
+          "score": "3:2"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "PAOK",
+          "awayTeam": "SK Brann",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Lille",
+          "awayTeam": "Dinamo Zagreb",
+          "score": "4:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Panathinaikos",
+          "awayTeam": "Sturm Graz",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Feyenoord",
+          "awayTeam": "Celtic",
+          "score": "1:3"
+        }
+      ]
+    },
+    {
+      "key": "md-6",
+      "label": "Matchday 6",
+      "matches": [
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Lyon",
+          "awayTeam": "Go Ahead Eagles",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Basel",
+          "awayTeam": "Aston Villa",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Midtjylland",
+          "awayTeam": "Genk",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Dinamo Zagreb",
+          "awayTeam": "Real Betis",
+          "score": "1:3"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Porto",
+          "awayTeam": "Malmö",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Nice",
+          "awayTeam": "Braga",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Freiburg",
+          "awayTeam": "Salzburg",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Celtic",
+          "awayTeam": "Roma",
+          "score": "0:3"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Celta de Vigo",
+          "awayTeam": "Bologna",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Stuttgart",
+          "awayTeam": "M. Tel Aviv",
+          "score": "4:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Ferencváros",
+          "awayTeam": "Rangers",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Utrecht",
+          "awayTeam": "Nott'm Forest",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Panathinaikos",
+          "awayTeam": "Viktoria Plzeň",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Sturm Graz",
           "awayTeam": "Red Star",
           "score": "0:1"
         },
         {
-          "date": "Thu 26/02/2026",
+          "date": "Thu 11/12/2025",
           "time": "6:45 PM",
-          "homeTeam": "Ferencváros",
-          "awayTeam": "Ludogorets",
-          "score": "6:45"
+          "homeTeam": "Ludogorets",
+          "awayTeam": "PAOK",
+          "score": "3:3"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Viktoria Plzeň",
-          "awayTeam": "Panathinaikos",
-          "score": "4:5"
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Young Boys",
+          "awayTeam": "Lille",
+          "score": "1:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Stuttgart",
-          "awayTeam": "Celtic",
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "SK Brann",
+          "awayTeam": "Fenerbahçe",
+          "score": "0:4"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "FCSB",
+          "awayTeam": "Feyenoord",
+          "score": "4:3"
+        }
+      ]
+    },
+    {
+      "key": "md-7",
+      "label": "Matchday 7",
+      "matches": [
+        {
+          "date": "Thu 22/01/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Young Boys",
+          "awayTeam": "Lyon",
           "score": "0:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Red Star",
-          "awayTeam": "Lille",
-          "score": "0:2"
-        },
-        {
-          "date": "",
-          "time": "9:00 PM",
-          "homeTeam": "Genk",
-          "awayTeam": "Dinamo Zagreb",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Celta de Vigo",
-          "awayTeam": "PAOK",
-          "score": "1:0"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Nott'm Forest",
-          "awayTeam": "Fenerbahçe",
-          "score": "1:2"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Bologna",
-          "awayTeam": "SK Brann",
-          "score": "1:0"
-        },
-        {
-          "date": "Thu 12/03/2026",
+          "date": "Thu 22/01/2026",
           "time": "6:45 PM",
-          "homeTeam": "Panathinaikos",
-          "awayTeam": "Real Betis",
-          "score": "6:45"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Stuttgart",
-          "awayTeam": "Porto",
-          "score": "1:2"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Bologna",
-          "awayTeam": "Roma",
-          "score": "1:1"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Lille",
+          "homeTeam": "Fenerbahçe",
           "awayTeam": "Aston Villa",
           "score": "0:1"
         },
         {
-          "date": "",
-          "time": "9:00 PM",
-          "homeTeam": "Ferencváros",
-          "awayTeam": "Braga",
-          "score": "9:00"
+          "date": "Thu 22/01/2026",
+          "time": "6:45 PM",
+          "homeTeam": "SK Brann",
+          "awayTeam": "Midtjylland",
+          "score": "3:3"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Genk",
-          "awayTeam": "Freiburg",
-          "score": "1:0"
+          "date": "Thu 22/01/2026",
+          "time": "6:45 PM",
+          "homeTeam": "PAOK",
+          "awayTeam": "Real Betis",
+          "score": "2:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Celta de Vigo",
-          "awayTeam": "Lyon",
+          "date": "Thu 22/01/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Viktoria Plzeň",
+          "awayTeam": "Porto",
           "score": "1:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Nott'm Forest",
-          "awayTeam": "Midtjylland",
-          "score": "0:1"
-        },
-        {
-          "date": "Wed 18/03/2026",
-          "time": "4:30 PM",
+          "date": "Thu 22/01/2026",
+          "time": "9:00 PM",
           "homeTeam": "Braga",
-          "awayTeam": "Ferencváros",
-          "score": "4:30"
+          "awayTeam": "Nott'm Forest",
+          "score": "1:0"
         },
         {
-          "date": "Thu 19/03/2026",
+          "date": "Thu 22/01/2026",
           "time": "6:45 PM",
           "homeTeam": "Freiburg",
-          "awayTeam": "Genk",
-          "score": "6:45"
+          "awayTeam": "M. Tel Aviv",
+          "score": "1:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Lyon",
-          "awayTeam": "Celta de Vigo",
-          "score": "0:2"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Midtjylland",
-          "awayTeam": "Nott'm Forest",
-          "score": "1:5"
-        },
-        {
-          "date": "",
+          "date": "Thu 22/01/2026",
           "time": "9:00 PM",
-          "homeTeam": "Real Betis",
-          "awayTeam": "Panathinaikos",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Porto",
+          "homeTeam": "Roma",
           "awayTeam": "Stuttgart",
           "score": "2:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Roma",
-          "awayTeam": "Bologna",
-          "score": "3:4"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Aston Villa",
-          "awayTeam": "Lille",
-          "score": "2:0"
-        },
-        {
-          "date": "Wed 08/04/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Braga",
-          "awayTeam": "Real Betis",
-          "score": "6:45"
-        },
-        {
-          "date": "Thu 09/04/2026",
+          "date": "Thu 22/01/2026",
           "time": "9:00 PM",
-          "homeTeam": "Freiburg",
-          "awayTeam": "Celta de Vigo",
-          "score": "9:00"
+          "homeTeam": "Utrecht",
+          "awayTeam": "Genk",
+          "score": "0:2"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Porto",
-          "awayTeam": "Nott'm Forest",
+          "date": "Thu 22/01/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Bologna",
+          "awayTeam": "Celtic",
+          "score": "2:2"
+        },
+        {
+          "date": "Thu 22/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Ferencváros",
+          "awayTeam": "Panathinaikos",
           "score": "1:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Bologna",
-          "awayTeam": "Aston Villa",
-          "score": "1:3"
-        },
-        {
-          "date": "Thu 16/04/2026",
+          "date": "Thu 22/01/2026",
           "time": "6:45 PM",
-          "homeTeam": "Celta de Vigo",
-          "awayTeam": "Freiburg",
-          "score": "6:45"
+          "homeTeam": "Malmö",
+          "awayTeam": "Red Star",
+          "score": "0:1"
         },
         {
-          "date": "",
+          "date": "Thu 22/01/2026",
           "time": "9:00 PM",
-          "homeTeam": "Real Betis",
-          "awayTeam": "Braga",
-          "score": "9:00"
+          "homeTeam": "Celta de Vigo",
+          "awayTeam": "Lille",
+          "score": "2:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Nott'm Forest",
-          "awayTeam": "Porto",
+          "date": "Thu 22/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Rangers",
+          "awayTeam": "Ludogorets",
           "score": "1:0"
         },
         {
-          "date": "",
-          "time": "",
+          "date": "Thu 22/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Dinamo Zagreb",
+          "awayTeam": "FCSB",
+          "score": "4:1"
+        },
+        {
+          "date": "Thu 22/01/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Feyenoord",
+          "awayTeam": "Sturm Graz",
+          "score": "3:0"
+        },
+        {
+          "date": "Thu 22/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Nice",
+          "awayTeam": "Go Ahead Eagles",
+          "score": "3:1"
+        },
+        {
+          "date": "Thu 22/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Salzburg",
+          "awayTeam": "Basel",
+          "score": "3:1"
+        }
+      ]
+    },
+    {
+      "key": "md-8",
+      "label": "Matchday 8",
+      "matches": [
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Lyon",
+          "awayTeam": "PAOK",
+          "score": "4:2"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
           "homeTeam": "Aston Villa",
+          "awayTeam": "Salzburg",
+          "score": "3:2"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Midtjylland",
+          "awayTeam": "Dinamo Zagreb",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Real Betis",
+          "awayTeam": "Feyenoord",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Porto",
+          "awayTeam": "Rangers",
+          "score": "3:1"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Go Ahead Eagles",
+          "awayTeam": "Braga",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Lille",
+          "awayTeam": "Freiburg",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Panathinaikos",
+          "awayTeam": "Roma",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Genk",
+          "awayTeam": "Malmö",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "M. Tel Aviv",
           "awayTeam": "Bologna",
+          "score": "0:3"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Stuttgart",
+          "awayTeam": "Young Boys",
+          "score": "3:2"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Nott'm Forest",
+          "awayTeam": "Ferencváros",
           "score": "4:0"
         },
         {
-          "date": "Thu 30/04/2026",
+          "date": "Thu 29/01/2026",
           "time": "9:00 PM",
-          "homeTeam": "Braga",
-          "awayTeam": "Freiburg",
-          "score": "9:00"
+          "homeTeam": "Basel",
+          "awayTeam": "Viktoria Plzeň",
+          "score": "0:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Nott'm Forest",
-          "awayTeam": "Aston Villa",
-          "score": ""
-        },
-        {
-          "date": "Thu 07/05/2026",
+          "date": "Thu 29/01/2026",
           "time": "9:00 PM",
-          "homeTeam": "Freiburg",
-          "awayTeam": "Braga",
-          "score": "9:00"
+          "homeTeam": "Red Star",
+          "awayTeam": "Celta de Vigo",
+          "score": "1:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Aston Villa",
-          "awayTeam": "Nott'm Forest",
-          "score": ""
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "FCSB",
+          "awayTeam": "Fenerbahçe",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Celtic",
+          "awayTeam": "Utrecht",
+          "score": "4:2"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Ludogorets",
+          "awayTeam": "Nice",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 29/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sturm Graz",
+          "awayTeam": "SK Brann",
+          "score": "1:0"
         }
       ]
     },

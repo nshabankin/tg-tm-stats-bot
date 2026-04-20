@@ -1,316 +1,794 @@
 {
   "groups": [
     {
-      "key": "stage-knockout-stage",
-      "label": "Knockout stage",
+      "key": "md-1",
+      "label": "Matchday 1",
       "matches": [
         {
-          "date": "Thu 19/02/2026",
-          "time": "6:45 PM",
-          "homeTeam": "KuPS",
-          "awayTeam": "Lech Poznan",
-          "score": "6:45"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "FC Noah",
-          "awayTeam": "AZ Alkmaar",
-          "score": "1:0"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Zrinjski Mostar",
-          "awayTeam": "Crystal Palace",
-          "score": "1:1"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Sigma Olomouc",
-          "awayTeam": "Lausanne-Sport",
-          "score": "1:1"
-        },
-        {
-          "date": "",
+          "date": "Thu 02/10/2025",
           "time": "9:00 PM",
-          "homeTeam": "Jagiellonia",
-          "awayTeam": "Fiorentina",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Shkendija",
-          "awayTeam": "Samsunspor",
-          "score": "0:1"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "FC Drita",
-          "awayTeam": "NK Celje",
-          "score": "2:3"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Omonia Nicosia",
-          "awayTeam": "HNK Rijeka",
-          "score": "0:1"
-        },
-        {
-          "date": "Thu 26/02/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Fiorentina",
-          "awayTeam": "Jagiellonia",
-          "score": "6:45"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Samsunspor",
-          "awayTeam": "Shkendija",
-          "score": "4:0"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "NK Celje",
-          "awayTeam": "FC Drita",
-          "score": "3:2"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "HNK Rijeka",
-          "awayTeam": "Omonia Nicosia",
-          "score": "3:1"
-        },
-        {
-          "date": "",
-          "time": "9:00 PM",
-          "homeTeam": "Lech Poznan",
-          "awayTeam": "KuPS",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "AZ Alkmaar",
-          "awayTeam": "FC Noah",
-          "score": "4:0"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Crystal Palace",
-          "awayTeam": "Zrinjski Mostar",
-          "score": "2:0"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Lausanne-Sport",
-          "awayTeam": "Sigma Olomouc",
-          "score": "1:2"
-        },
-        {
-          "date": "Thu 12/03/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Lech Poznan",
-          "awayTeam": "Shakhtar D.",
-          "score": "6:45"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "AZ Alkmaar",
-          "awayTeam": "Sparta Prague",
-          "score": "2:1"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Samsunspor",
-          "awayTeam": "Rayo Vallecano",
-          "score": "1:3"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "HNK Rijeka",
+          "homeTeam": "Slo. Bratislava",
           "awayTeam": "R. Strasbourg",
           "score": "1:2"
         },
         {
-          "date": "",
+          "date": "Thu 02/10/2025",
           "time": "9:00 PM",
-          "homeTeam": "Crystal Palace",
-          "awayTeam": "AEK Larnaca",
-          "score": "9:00"
+          "homeTeam": "Raków",
+          "awayTeam": "CS U Craiova",
+          "score": "2:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Fiorentina",
-          "awayTeam": "Raków",
-          "score": "2:1"
-        },
-        {
-          "date": "",
-          "time": "",
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
           "homeTeam": "NK Celje",
           "awayTeam": "AEK Athens",
-          "score": "0:4"
+          "score": "3:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Sigma Olomouc",
-          "awayTeam": "Mainz",
-          "score": "0:0"
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Sparta Prague",
+          "awayTeam": "Shamrock Rovers",
+          "score": "4:1"
         },
         {
-          "date": "Thu 19/03/2026",
+          "date": "Thu 02/10/2025",
           "time": "6:45 PM",
-          "homeTeam": "AEK Larnaca",
-          "awayTeam": "Crystal Palace",
-          "score": "6:45"
+          "homeTeam": "Rayo Vallecano",
+          "awayTeam": "Shkendija",
+          "score": "2:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Raków",
-          "awayTeam": "Fiorentina",
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Aberdeen FC",
+          "awayTeam": "Shakhtar D.",
+          "score": "2:3"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Omonia Nicosia",
+          "awayTeam": "Mainz",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "AEK Larnaca",
+          "awayTeam": "AZ Alkmaar",
+          "score": "4:0"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Lausanne-Sport",
+          "awayTeam": "Breidablik",
+          "score": "3:0"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Dynamo Kyiv",
+          "awayTeam": "Crystal Palace",
+          "score": "0:2"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Lech Poznan",
+          "awayTeam": "Rapid Vienna",
+          "score": "4:1"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Legia Warszawa",
+          "awayTeam": "Samsunspor",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "Sigma Olomouc",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "FC Noah",
+          "awayTeam": "HNK Rijeka",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Jagiellonia",
+          "awayTeam": "Hamrun Spart.",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "KuPS",
+          "awayTeam": "FC Drita",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Zrinjski Mostar",
+          "awayTeam": "Lincoln FC",
+          "score": "5:0"
+        },
+        {
+          "date": "Thu 02/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Shelbourne",
+          "awayTeam": "Häcken",
+          "score": "0:0"
+        }
+      ]
+    },
+    {
+      "key": "md-2",
+      "label": "Matchday 2",
+      "matches": [
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "R. Strasbourg",
+          "awayTeam": "Jagiellonia",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Sigma Olomouc",
+          "awayTeam": "Raków",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "AEK Athens",
+          "awayTeam": "Aberdeen FC",
+          "score": "6:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Häcken",
+          "awayTeam": "Rayo Vallecano",
+          "score": "2:2"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Shakhtar D.",
+          "awayTeam": "Legia Warszawa",
           "score": "1:2"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "AEK Athens",
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Mainz",
+          "awayTeam": "Zrinjski Mostar",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Crystal Palace",
+          "awayTeam": "AEK Larnaca",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Hamrun Spart.",
+          "awayTeam": "Lausanne-Sport",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Lincoln FC",
+          "awayTeam": "Lech Poznan",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Samsunspor",
+          "awayTeam": "Dynamo Kyiv",
+          "score": "3:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Shamrock Rovers",
           "awayTeam": "NK Celje",
           "score": "0:2"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Mainz",
-          "awayTeam": "Sigma Olomouc",
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "AZ Alkmaar",
+          "awayTeam": "Slo. Bratislava",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Rapid Vienna",
+          "awayTeam": "Fiorentina",
+          "score": "0:3"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "FC Drita",
+          "awayTeam": "Omonia Nicosia",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "CS U Craiova",
+          "awayTeam": "FC Noah",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Breidablik",
+          "awayTeam": "KuPS",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 23/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Shkendija",
+          "awayTeam": "Shelbourne",
+          "score": "1:0"
+        },
+        {
+          "date": "Fri 24/10/2025",
+          "time": "4:00 PM",
+          "homeTeam": "HNK Rijeka",
+          "awayTeam": "Sparta Prague",
+          "score": "1:0"
+        }
+      ]
+    },
+    {
+      "key": "md-3",
+      "label": "Matchday 3",
+      "matches": [
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Häcken",
+          "awayTeam": "R. Strasbourg",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Sparta Prague",
+          "awayTeam": "Raków",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "AEK Athens",
+          "awayTeam": "Shamrock Rovers",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Rayo Vallecano",
+          "awayTeam": "Lech Poznan",
+          "score": "3:2"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Shakhtar D.",
+          "awayTeam": "Breidablik",
           "score": "2:0"
         },
         {
-          "date": "",
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Mainz",
+          "awayTeam": "Fiorentina",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "AEK Larnaca",
+          "awayTeam": "Aberdeen FC",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 06/11/2025",
           "time": "9:00 PM",
-          "homeTeam": "Shakhtar D.",
-          "awayTeam": "Lech Poznan",
-          "score": "9:00"
+          "homeTeam": "Lausanne-Sport",
+          "awayTeam": "Omonia Nicosia",
+          "score": "1:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Sparta Prague",
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Crystal Palace",
           "awayTeam": "AZ Alkmaar",
-          "score": "0:4"
+          "score": "3:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Rayo Vallecano",
-          "awayTeam": "Samsunspor",
-          "score": "0:1"
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Samsunspor",
+          "awayTeam": "Hamrun Spart.",
+          "score": "3:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "R. Strasbourg",
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "NK Celje",
+          "awayTeam": "Legia Warszawa",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Lincoln FC",
           "awayTeam": "HNK Rijeka",
           "score": "1:1"
         },
         {
-          "date": "Thu 09/04/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Rayo Vallecano",
-          "awayTeam": "AEK Athens",
-          "score": "6:45"
-        },
-        {
-          "date": "",
+          "date": "Thu 06/11/2025",
           "time": "9:00 PM",
-          "homeTeam": "Shakhtar D.",
-          "awayTeam": "AZ Alkmaar",
-          "score": "9:00"
+          "homeTeam": "Shkendija",
+          "awayTeam": "Jagiellonia",
+          "score": "1:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Crystal Palace",
-          "awayTeam": "Fiorentina",
-          "score": "3:0"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Mainz",
-          "awayTeam": "R. Strasbourg",
-          "score": "2:0"
-        },
-        {
-          "date": "Thu 16/04/2026",
+          "date": "Thu 06/11/2025",
           "time": "6:45 PM",
-          "homeTeam": "AZ Alkmaar",
-          "awayTeam": "Shakhtar D.",
-          "score": "6:45"
+          "homeTeam": "FC Noah",
+          "awayTeam": "Sigma Olomouc",
+          "score": "1:2"
         },
         {
-          "date": "",
+          "date": "Thu 06/11/2025",
           "time": "9:00 PM",
-          "homeTeam": "Fiorentina",
-          "awayTeam": "Crystal Palace",
-          "score": "9:00"
+          "homeTeam": "Shelbourne",
+          "awayTeam": "FC Drita",
+          "score": "0:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "AEK Athens",
-          "awayTeam": "Rayo Vallecano",
+          "date": "Thu 06/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "KuPS",
+          "awayTeam": "Slo. Bratislava",
           "score": "3:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "R. Strasbourg",
-          "awayTeam": "Mainz",
-          "score": "4:0"
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Dynamo Kyiv",
+          "awayTeam": "Zrinjski Mostar",
+          "score": "6:0"
         },
         {
-          "date": "Thu 30/04/2026",
+          "date": "Thu 06/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Rapid Vienna",
+          "awayTeam": "CS U Craiova",
+          "score": "0:1"
+        }
+      ]
+    },
+    {
+      "key": "md-4",
+      "label": "Matchday 4",
+      "matches": [
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "R. Strasbourg",
+          "awayTeam": "Crystal Palace",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Raków",
+          "awayTeam": "Rapid Vienna",
+          "score": "4:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "AEK Athens",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Legia Warszawa",
+          "awayTeam": "Sparta Prague",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Slo. Bratislava",
+          "awayTeam": "Rayo Vallecano",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Shamrock Rovers",
+          "awayTeam": "Shakhtar D.",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "CS U Craiova",
+          "awayTeam": "Mainz",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "HNK Rijeka",
+          "awayTeam": "AEK Larnaca",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Lech Poznan",
+          "awayTeam": "Lausanne-Sport",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Breidablik",
+          "awayTeam": "Samsunspor",
+          "score": "2:2"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Sigma Olomouc",
+          "awayTeam": "NK Celje",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "AZ Alkmaar",
+          "awayTeam": "Shelbourne",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Jagiellonia",
+          "awayTeam": "KuPS",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Omonia Nicosia",
+          "awayTeam": "Dynamo Kyiv",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Aberdeen FC",
+          "awayTeam": "FC Noah",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "FC Drita",
+          "awayTeam": "Shkendija",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Zrinjski Mostar",
+          "awayTeam": "Häcken",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 27/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Hamrun Spart.",
+          "awayTeam": "Lincoln FC",
+          "score": "3:1"
+        }
+      ]
+    },
+    {
+      "key": "md-5",
+      "label": "Matchday 5",
+      "matches": [
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Aberdeen FC",
+          "awayTeam": "R. Strasbourg",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Raków",
+          "awayTeam": "Zrinjski Mostar",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Samsunspor",
+          "awayTeam": "AEK Athens",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "CS U Craiova",
+          "awayTeam": "Sparta Prague",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Jagiellonia",
+          "awayTeam": "Rayo Vallecano",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Hamrun Spart.",
+          "awayTeam": "Shakhtar D.",
+          "score": "0:2"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Lech Poznan",
+          "awayTeam": "Mainz",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Häcken",
+          "awayTeam": "AEK Larnaca",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "KuPS",
+          "awayTeam": "Lausanne-Sport",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Shelbourne",
+          "awayTeam": "Crystal Palace",
+          "score": "0:3"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "HNK Rijeka",
+          "awayTeam": "NK Celje",
+          "score": "3:0"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "FC Drita",
+          "awayTeam": "AZ Alkmaar",
+          "score": "0:3"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Fiorentina",
+          "awayTeam": "Dynamo Kyiv",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Rapid Vienna",
+          "awayTeam": "Omonia Nicosia",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "FC Noah",
+          "awayTeam": "Legia Warszawa",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Shkendija",
+          "awayTeam": "Slo. Bratislava",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Lincoln FC",
+          "awayTeam": "Sigma Olomouc",
+          "score": "2:1"
+        },
+        {
+          "date": "Thu 11/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Breidablik",
+          "awayTeam": "Shamrock Rovers",
+          "score": "3:1"
+        }
+      ]
+    },
+    {
+      "key": "md-6",
+      "label": "Matchday 6",
+      "matches": [
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "R. Strasbourg",
+          "awayTeam": "Breidablik",
+          "score": "3:1"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Omonia Nicosia",
+          "awayTeam": "Raków",
+          "score": "0:1"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "AEK Athens",
+          "awayTeam": "CS U Craiova",
+          "score": "3:2"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Sparta Prague",
+          "awayTeam": "Aberdeen FC",
+          "score": "3:0"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Rayo Vallecano",
+          "awayTeam": "FC Drita",
+          "score": "3:0"
+        },
+        {
+          "date": "Thu 18/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Shakhtar D.",
-          "awayTeam": "Crystal Palace",
-          "score": "9:00"
+          "awayTeam": "HNK Rijeka",
+          "score": "0:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Rayo Vallecano",
-          "awayTeam": "R. Strasbourg",
-          "score": ""
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Mainz",
+          "awayTeam": "Samsunspor",
+          "score": "2:0"
         },
         {
-          "date": "Thu 07/05/2026",
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "AEK Larnaca",
+          "awayTeam": "Shkendija",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Lausanne-Sport",
+          "awayTeam": "Fiorentina",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 18/12/2025",
           "time": "9:00 PM",
           "homeTeam": "Crystal Palace",
-          "awayTeam": "Shakhtar D.",
-          "score": "9:00"
+          "awayTeam": "KuPS",
+          "score": "2:2"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "R. Strasbourg",
-          "awayTeam": "Rayo Vallecano",
-          "score": ""
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Sigma Olomouc",
+          "awayTeam": "Lech Poznan",
+          "score": "1:2"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "NK Celje",
+          "awayTeam": "Shelbourne",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "AZ Alkmaar",
+          "awayTeam": "Jagiellonia",
+          "score": "0:0"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Dynamo Kyiv",
+          "awayTeam": "FC Noah",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Zrinjski Mostar",
+          "awayTeam": "Rapid Vienna",
+          "score": "1:1"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Legia Warszawa",
+          "awayTeam": "Lincoln FC",
+          "score": "4:1"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Slo. Bratislava",
+          "awayTeam": "Häcken",
+          "score": "1:0"
+        },
+        {
+          "date": "Thu 18/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Shamrock Rovers",
+          "awayTeam": "Hamrun Spart.",
+          "score": "3:1"
         }
       ]
     },

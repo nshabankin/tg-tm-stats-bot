@@ -1,316 +1,1058 @@
 {
   "groups": [
     {
-      "key": "stage-knockout-stage",
-      "label": "Knockout stage",
+      "key": "md-1",
+      "label": "Matchday 1",
       "matches": [
         {
-          "date": "Tue 17/02/2026",
+          "date": "Tue 16/09/2025",
           "time": "6:45 PM",
-          "homeTeam": "Galatasaray",
-          "awayTeam": "Juventus",
-          "score": "6:45"
-        },
-        {
-          "date": "",
-          "time": "9:00 PM",
-          "homeTeam": "Monaco",
-          "awayTeam": "PSG",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Benfica",
-          "awayTeam": "Real Madrid",
-          "score": "0:1"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Dortmund",
-          "awayTeam": "Atalanta",
-          "score": "2:0"
-        },
-        {
-          "date": "Wed 18/02/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Qarabağ",
-          "awayTeam": "Newcastle",
-          "score": "6:45"
-        },
-        {
-          "date": "",
-          "time": "9:00 PM",
-          "homeTeam": "Club Brugge",
-          "awayTeam": "Atlético",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Bodø/Glimt",
-          "awayTeam": "Inter",
-          "score": "3:1"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Olympiacos",
-          "awayTeam": "Leverkusen",
+          "homeTeam": "Athletic Club",
+          "awayTeam": "Arsenal",
           "score": "0:2"
         },
         {
-          "date": "Tue 24/02/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Atlético",
-          "awayTeam": "Club Brugge",
-          "score": "6:45"
-        },
-        {
-          "date": "",
+          "date": "Tue 16/09/2025",
           "time": "9:00 PM",
-          "homeTeam": "Newcastle",
-          "awayTeam": "Qarabağ",
-          "score": "9:00"
+          "homeTeam": "Tottenham",
+          "awayTeam": "Villarreal",
+          "score": "1:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Inter",
-          "awayTeam": "Bodø/Glimt",
-          "score": "1:2"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Leverkusen",
-          "awayTeam": "Olympiacos",
-          "score": "0:0"
-        },
-        {
-          "date": "Wed 25/02/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Atalanta",
-          "awayTeam": "Dortmund",
-          "score": "6:45"
-        },
-        {
-          "date": "",
+          "date": "Tue 16/09/2025",
           "time": "9:00 PM",
-          "homeTeam": "PSG",
-          "awayTeam": "Monaco",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Juventus",
-          "awayTeam": "Galatasaray",
-          "score": "3:2"
-        },
-        {
-          "date": "",
-          "time": "",
           "homeTeam": "Real Madrid",
-          "awayTeam": "Benfica",
+          "awayTeam": "Marseille",
           "score": "2:1"
         },
         {
-          "date": "Tue 10/03/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Galatasaray",
-          "awayTeam": "Liverpool",
-          "score": "6:45"
-        },
-        {
-          "date": "",
+          "date": "Tue 16/09/2025",
           "time": "9:00 PM",
-          "homeTeam": "Atalanta",
-          "awayTeam": "Bayern Munich",
-          "score": "9:00"
+          "homeTeam": "Juventus",
+          "awayTeam": "Dortmund",
+          "score": "4:4"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Newcastle",
-          "awayTeam": "Barcelona",
-          "score": "1:1"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Atlético",
-          "awayTeam": "Tottenham",
-          "score": "5:2"
-        },
-        {
-          "date": "Wed 11/03/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Leverkusen",
-          "awayTeam": "Arsenal",
-          "score": "6:45"
-        },
-        {
-          "date": "",
+          "date": "Tue 16/09/2025",
           "time": "9:00 PM",
-          "homeTeam": "PSG",
+          "homeTeam": "Benfica",
+          "awayTeam": "Qarabağ",
+          "score": "2:3"
+        },
+        {
+          "date": "Tue 16/09/2025",
+          "time": "6:45 PM",
+          "homeTeam": "PSV",
+          "awayTeam": "Union SG",
+          "score": "1:3"
+        },
+        {
+          "date": "Wed 17/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Bayern Munich",
           "awayTeam": "Chelsea",
-          "score": "9:00"
+          "score": "3:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Real Madrid",
-          "awayTeam": "Man City",
-          "score": "3:0"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Bodø/Glimt",
-          "awayTeam": "Sporting",
-          "score": "3:0"
-        },
-        {
-          "date": "Tue 17/03/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Sporting",
-          "awayTeam": "Bodø/Glimt",
-          "score": "6:45"
-        },
-        {
-          "date": "",
-          "time": "9:00 PM",
-          "homeTeam": "Chelsea",
-          "awayTeam": "PSG",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Man City",
-          "awayTeam": "Real Madrid",
-          "score": "1:2"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Arsenal",
-          "awayTeam": "Leverkusen",
-          "score": "2:0"
-        },
-        {
-          "date": "Wed 18/03/2026",
-          "time": "6:45 PM",
-          "homeTeam": "Barcelona",
-          "awayTeam": "Newcastle",
-          "score": "6:45"
-        },
-        {
-          "date": "",
+          "date": "Wed 17/09/2025",
           "time": "9:00 PM",
           "homeTeam": "Liverpool",
-          "awayTeam": "Galatasaray",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Bayern Munich",
-          "awayTeam": "Atalanta",
-          "score": "4:1"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Tottenham",
           "awayTeam": "Atlético",
           "score": "3:2"
         },
         {
-          "date": "Tue 07/04/2026",
+          "date": "Wed 17/09/2025",
           "time": "9:00 PM",
-          "homeTeam": "Real Madrid",
-          "awayTeam": "Bayern Munich",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Sporting",
-          "awayTeam": "Arsenal",
-          "score": "0:1"
-        },
-        {
-          "date": "Wed 08/04/2026",
-          "time": "9:00 PM",
-          "homeTeam": "PSG",
-          "awayTeam": "Liverpool",
-          "score": "9:00"
-        },
-        {
-          "date": "",
-          "time": "",
-          "homeTeam": "Barcelona",
-          "awayTeam": "Atlético",
+          "homeTeam": "Ajax",
+          "awayTeam": "Inter",
           "score": "0:2"
         },
         {
-          "date": "Tue 14/04/2026",
+          "date": "Wed 17/09/2025",
           "time": "9:00 PM",
-          "homeTeam": "Liverpool",
-          "awayTeam": "PSG",
-          "score": "9:00"
+          "homeTeam": "PSG",
+          "awayTeam": "Atalanta",
+          "score": "4:0"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Atlético",
+          "date": "Wed 17/09/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Olympiacos",
+          "awayTeam": "Pafos",
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 17/09/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Slavia Praha",
+          "awayTeam": "Bodø/Glimt",
+          "score": "2:2"
+        },
+        {
+          "date": "Thu 18/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Newcastle",
           "awayTeam": "Barcelona",
           "score": "1:2"
         },
         {
-          "date": "Wed 15/04/2026",
+          "date": "Thu 18/09/2025",
           "time": "9:00 PM",
-          "homeTeam": "Bayern Munich",
-          "awayTeam": "Real Madrid",
-          "score": "9:00"
+          "homeTeam": "Sporting",
+          "awayTeam": "Kairat Almaty",
+          "score": "4:1"
         },
         {
-          "date": "",
-          "time": "",
-          "homeTeam": "Arsenal",
-          "awayTeam": "Sporting",
-          "score": "0:0"
+          "date": "Thu 18/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Man City",
+          "awayTeam": "Napoli",
+          "score": "2:0"
         },
         {
-          "date": "Tue 28/04/2026",
+          "date": "Thu 18/09/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Copenhagen",
+          "awayTeam": "Leverkusen",
+          "score": "2:2"
+        },
+        {
+          "date": "Thu 18/09/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Club Brugge",
+          "awayTeam": "Monaco",
+          "score": "4:1"
+        },
+        {
+          "date": "Thu 18/09/2025",
           "time": "9:00 PM",
-          "homeTeam": "PSG",
+          "homeTeam": "Frankfurt",
+          "awayTeam": "Galatasaray",
+          "score": "5:1"
+        }
+      ]
+    },
+    {
+      "key": "md-2",
+      "label": "Matchday 2",
+      "matches": [
+        {
+          "date": "Tue 30/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Pafos",
           "awayTeam": "Bayern Munich",
-          "score": "9:00"
+          "score": "1:5"
         },
         {
-          "date": "Wed 29/04/2026",
+          "date": "Tue 30/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Galatasaray",
+          "awayTeam": "Liverpool",
+          "score": "1:0"
+        },
+        {
+          "date": "Tue 30/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Bodø/Glimt",
+          "awayTeam": "Tottenham",
+          "score": "2:2"
+        },
+        {
+          "date": "Tue 30/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Chelsea",
+          "awayTeam": "Benfica",
+          "score": "1:0"
+        },
+        {
+          "date": "Tue 30/09/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Kairat Almaty",
+          "awayTeam": "Real Madrid",
+          "score": "0:5"
+        },
+        {
+          "date": "Tue 30/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Slavia Praha",
+          "score": "3:0"
+        },
+        {
+          "date": "Tue 30/09/2025",
           "time": "9:00 PM",
           "homeTeam": "Atlético",
-          "awayTeam": "Arsenal",
-          "score": "9:00"
+          "awayTeam": "Frankfurt",
+          "score": "5:1"
         },
         {
-          "date": "Tue 05/05/2026",
+          "date": "Tue 30/09/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Club Brugge",
+          "score": "2:1"
+        },
+        {
+          "date": "Tue 30/09/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Marseille",
+          "awayTeam": "Ajax",
+          "score": "4:0"
+        },
+        {
+          "date": "Wed 01/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Arsenal",
+          "awayTeam": "Olympiacos",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 01/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Barcelona",
+          "awayTeam": "PSG",
+          "score": "1:2"
+        },
+        {
+          "date": "Wed 01/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Sporting",
+          "score": "2:1"
+        },
+        {
+          "date": "Wed 01/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Monaco",
+          "awayTeam": "Man City",
+          "score": "2:2"
+        },
+        {
+          "date": "Wed 01/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Union SG",
+          "awayTeam": "Newcastle",
+          "score": "0:4"
+        },
+        {
+          "date": "Wed 01/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Villarreal",
+          "awayTeam": "Juventus",
+          "score": "2:2"
+        },
+        {
+          "date": "Wed 01/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "PSV",
+          "score": "1:1"
+        },
+        {
+          "date": "Wed 01/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Dortmund",
+          "awayTeam": "Athletic Club",
+          "score": "4:1"
+        },
+        {
+          "date": "Wed 01/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Qarabağ",
+          "awayTeam": "Copenhagen",
+          "score": "2:0"
+        }
+      ]
+    },
+    {
+      "key": "md-3",
+      "label": "Matchday 3",
+      "matches": [
+        {
+          "date": "Tue 21/10/2025",
           "time": "9:00 PM",
           "homeTeam": "Arsenal",
           "awayTeam": "Atlético",
-          "score": "9:00"
+          "score": "4:0"
         },
         {
-          "date": "Wed 06/05/2026",
+          "date": "Tue 21/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Barcelona",
+          "awayTeam": "Olympiacos",
+          "score": "6:1"
+        },
+        {
+          "date": "Tue 21/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Villarreal",
+          "awayTeam": "Man City",
+          "score": "0:2"
+        },
+        {
+          "date": "Tue 21/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Union SG",
+          "awayTeam": "Inter",
+          "score": "0:4"
+        },
+        {
+          "date": "Tue 21/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "PSG",
+          "score": "2:7"
+        },
+        {
+          "date": "Tue 21/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Newcastle",
+          "awayTeam": "Benfica",
+          "score": "3:0"
+        },
+        {
+          "date": "Tue 21/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Copenhagen",
+          "awayTeam": "Dortmund",
+          "score": "2:4"
+        },
+        {
+          "date": "Tue 21/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Kairat Almaty",
+          "awayTeam": "Pafos",
+          "score": "0:0"
+        },
+        {
+          "date": "Tue 21/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "PSV",
+          "awayTeam": "Napoli",
+          "score": "6:2"
+        },
+        {
+          "date": "Wed 22/10/2025",
           "time": "9:00 PM",
           "homeTeam": "Bayern Munich",
+          "awayTeam": "Club Brugge",
+          "score": "4:0"
+        },
+        {
+          "date": "Wed 22/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Frankfurt",
+          "awayTeam": "Liverpool",
+          "score": "1:5"
+        },
+        {
+          "date": "Wed 22/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Monaco",
+          "awayTeam": "Tottenham",
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 22/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Chelsea",
+          "awayTeam": "Ajax",
+          "score": "5:1"
+        },
+        {
+          "date": "Wed 22/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Sporting",
+          "awayTeam": "Marseille",
+          "score": "2:1"
+        },
+        {
+          "date": "Wed 22/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Real Madrid",
+          "awayTeam": "Juventus",
+          "score": "1:0"
+        },
+        {
+          "date": "Wed 22/10/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Slavia Praha",
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 22/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Galatasaray",
+          "awayTeam": "Bodø/Glimt",
+          "score": "3:1"
+        },
+        {
+          "date": "Wed 22/10/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Athletic Club",
+          "awayTeam": "Qarabağ",
+          "score": "3:1"
+        }
+      ]
+    },
+    {
+      "key": "md-4",
+      "label": "Matchday 4",
+      "matches": [
+        {
+          "date": "Tue 04/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Slavia Praha",
+          "awayTeam": "Arsenal",
+          "score": "0:3"
+        },
+        {
+          "date": "Tue 04/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Bayern Munich",
+          "score": "1:2"
+        },
+        {
+          "date": "Tue 04/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Liverpool",
+          "awayTeam": "Real Madrid",
+          "score": "1:0"
+        },
+        {
+          "date": "Tue 04/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Tottenham",
+          "awayTeam": "Copenhagen",
+          "score": "4:0"
+        },
+        {
+          "date": "Tue 04/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Sporting",
+          "score": "1:1"
+        },
+        {
+          "date": "Tue 04/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Atlético",
+          "awayTeam": "Union SG",
+          "score": "3:1"
+        },
+        {
+          "date": "Tue 04/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Olympiacos",
+          "awayTeam": "PSV",
+          "score": "1:1"
+        },
+        {
+          "date": "Tue 04/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Bodø/Glimt",
+          "awayTeam": "Monaco",
+          "score": "0:1"
+        },
+        {
+          "date": "Tue 04/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Frankfurt",
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 05/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Club Brugge",
+          "awayTeam": "Barcelona",
+          "score": "3:3"
+        },
+        {
+          "date": "Wed 05/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Qarabağ",
+          "awayTeam": "Chelsea",
+          "score": "2:2"
+        },
+        {
+          "date": "Wed 05/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Man City",
+          "awayTeam": "Dortmund",
+          "score": "4:1"
+        },
+        {
+          "date": "Wed 05/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Kairat Almaty",
+          "score": "2:1"
+        },
+        {
+          "date": "Wed 05/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Newcastle",
+          "awayTeam": "Athletic Club",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 05/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Marseille",
+          "awayTeam": "Atalanta",
+          "score": "0:1"
+        },
+        {
+          "date": "Wed 05/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Benfica",
+          "awayTeam": "Leverkusen",
+          "score": "0:1"
+        },
+        {
+          "date": "Wed 05/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Ajax",
+          "awayTeam": "Galatasaray",
+          "score": "0:3"
+        },
+        {
+          "date": "Wed 05/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Pafos",
+          "awayTeam": "Villarreal",
+          "score": "1:0"
+        }
+      ]
+    },
+    {
+      "key": "md-5",
+      "label": "Matchday 5",
+      "matches": [
+        {
+          "date": "Tue 25/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Chelsea",
+          "awayTeam": "Barcelona",
+          "score": "3:0"
+        },
+        {
+          "date": "Tue 25/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Man City",
+          "awayTeam": "Leverkusen",
+          "score": "0:2"
+        },
+        {
+          "date": "Tue 25/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Marseille",
+          "awayTeam": "Newcastle",
+          "score": "2:1"
+        },
+        {
+          "date": "Tue 25/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Bodø/Glimt",
+          "awayTeam": "Juventus",
+          "score": "2:3"
+        },
+        {
+          "date": "Tue 25/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Dortmund",
+          "awayTeam": "Villarreal",
+          "score": "4:0"
+        },
+        {
+          "date": "Tue 25/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Galatasaray",
+          "awayTeam": "Union SG",
+          "score": "0:1"
+        },
+        {
+          "date": "Tue 25/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Qarabağ",
+          "score": "2:0"
+        },
+        {
+          "date": "Tue 25/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Ajax",
+          "awayTeam": "Benfica",
+          "score": "0:2"
+        },
+        {
+          "date": "Tue 25/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Slavia Praha",
+          "awayTeam": "Athletic Club",
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 26/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Arsenal",
+          "awayTeam": "Bayern Munich",
+          "score": "3:1"
+        },
+        {
+          "date": "Wed 26/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Liverpool",
+          "awayTeam": "PSV",
+          "score": "1:4"
+        },
+        {
+          "date": "Wed 26/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Tottenham",
+          "score": "5:3"
+        },
+        {
+          "date": "Wed 26/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Sporting",
+          "awayTeam": "Club Brugge",
+          "score": "3:0"
+        },
+        {
+          "date": "Wed 26/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Olympiacos",
+          "awayTeam": "Real Madrid",
+          "score": "3:4"
+        },
+        {
+          "date": "Wed 26/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Atlético",
+          "awayTeam": "Inter",
+          "score": "2:1"
+        },
+        {
+          "date": "Wed 26/11/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Frankfurt",
+          "awayTeam": "Atalanta",
+          "score": "0:3"
+        },
+        {
+          "date": "Wed 26/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Pafos",
+          "awayTeam": "Monaco",
+          "score": "2:2"
+        },
+        {
+          "date": "Wed 26/11/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Copenhagen",
+          "awayTeam": "Kairat Almaty",
+          "score": "3:2"
+        }
+      ]
+    },
+    {
+      "key": "md-6",
+      "label": "Matchday 6",
+      "matches": [
+        {
+          "date": "Tue 09/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Bayern Munich",
+          "awayTeam": "Sporting",
+          "score": "3:1"
+        },
+        {
+          "date": "Tue 09/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Liverpool",
+          "score": "0:1"
+        },
+        {
+          "date": "Tue 09/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Tottenham",
+          "awayTeam": "Slavia Praha",
+          "score": "3:0"
+        },
+        {
+          "date": "Tue 09/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Barcelona",
+          "awayTeam": "Frankfurt",
+          "score": "2:1"
+        },
+        {
+          "date": "Tue 09/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Chelsea",
+          "score": "2:1"
+        },
+        {
+          "date": "Tue 09/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "PSV",
+          "awayTeam": "Atlético",
+          "score": "2:3"
+        },
+        {
+          "date": "Tue 09/12/2025",
+          "time": "4:30 PM",
+          "homeTeam": "Kairat Almaty",
+          "awayTeam": "Olympiacos",
+          "score": "0:1"
+        },
+        {
+          "date": "Tue 09/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Monaco",
+          "awayTeam": "Galatasaray",
+          "score": "1:0"
+        },
+        {
+          "date": "Tue 09/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Union SG",
+          "awayTeam": "Marseille",
+          "score": "2:3"
+        },
+        {
+          "date": "Wed 10/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Club Brugge",
+          "awayTeam": "Arsenal",
+          "score": "0:3"
+        },
+        {
+          "date": "Wed 10/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Real Madrid",
+          "awayTeam": "Man City",
+          "score": "1:2"
+        },
+        {
+          "date": "Wed 10/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Athletic Club",
           "awayTeam": "PSG",
-          "score": "9:00"
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 10/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "Newcastle",
+          "score": "2:2"
+        },
+        {
+          "date": "Wed 10/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Pafos",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 10/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Dortmund",
+          "awayTeam": "Bodø/Glimt",
+          "score": "2:2"
+        },
+        {
+          "date": "Wed 10/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Qarabağ",
+          "awayTeam": "Ajax",
+          "score": "2:4"
+        },
+        {
+          "date": "Wed 10/12/2025",
+          "time": "9:00 PM",
+          "homeTeam": "Benfica",
+          "awayTeam": "Napoli",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 10/12/2025",
+          "time": "6:45 PM",
+          "homeTeam": "Villarreal",
+          "awayTeam": "Copenhagen",
+          "score": "2:3"
+        }
+      ]
+    },
+    {
+      "key": "md-7",
+      "label": "Matchday 7",
+      "matches": [
+        {
+          "date": "Tue 20/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Inter",
+          "awayTeam": "Arsenal",
+          "score": "1:3"
+        },
+        {
+          "date": "Tue 20/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Tottenham",
+          "awayTeam": "Dortmund",
+          "score": "2:0"
+        },
+        {
+          "date": "Tue 20/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sporting",
+          "awayTeam": "PSG",
+          "score": "2:1"
+        },
+        {
+          "date": "Tue 20/01/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Bodø/Glimt",
+          "awayTeam": "Man City",
+          "score": "3:1"
+        },
+        {
+          "date": "Tue 20/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Real Madrid",
+          "awayTeam": "Monaco",
+          "score": "6:1"
+        },
+        {
+          "date": "Tue 20/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Olympiacos",
+          "awayTeam": "Leverkusen",
+          "score": "2:0"
+        },
+        {
+          "date": "Tue 20/01/2026",
+          "time": "4:30 PM",
+          "homeTeam": "Kairat Almaty",
+          "awayTeam": "Club Brugge",
+          "score": "1:4"
+        },
+        {
+          "date": "Tue 20/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Copenhagen",
+          "awayTeam": "Napoli",
+          "score": "1:1"
+        },
+        {
+          "date": "Tue 20/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Villarreal",
+          "awayTeam": "Ajax",
+          "score": "1:2"
+        },
+        {
+          "date": "Wed 21/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Bayern Munich",
+          "awayTeam": "Union SG",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 21/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Marseille",
+          "awayTeam": "Liverpool",
+          "score": "0:3"
+        },
+        {
+          "date": "Wed 21/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Slavia Praha",
+          "awayTeam": "Barcelona",
+          "score": "2:4"
+        },
+        {
+          "date": "Wed 21/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Chelsea",
+          "awayTeam": "Pafos",
+          "score": "1:0"
+        },
+        {
+          "date": "Wed 21/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Newcastle",
+          "awayTeam": "PSV",
+          "score": "3:0"
+        },
+        {
+          "date": "Wed 21/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Benfica",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 21/01/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Galatasaray",
+          "awayTeam": "Atlético",
+          "score": "1:1"
+        },
+        {
+          "date": "Wed 21/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Athletic Club",
+          "score": "2:3"
+        },
+        {
+          "date": "Wed 21/01/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Qarabağ",
+          "awayTeam": "Frankfurt",
+          "score": "3:2"
+        }
+      ]
+    },
+    {
+      "key": "md-8",
+      "label": "Matchday 8",
+      "matches": [
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Arsenal",
+          "awayTeam": "Kairat Almaty",
+          "score": "3:2"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "PSV",
+          "awayTeam": "Bayern Munich",
+          "score": "1:2"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Liverpool",
+          "awayTeam": "Qarabağ",
+          "score": "6:0"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Frankfurt",
+          "awayTeam": "Tottenham",
+          "score": "0:2"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Barcelona",
+          "awayTeam": "Copenhagen",
+          "score": "4:1"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Napoli",
+          "awayTeam": "Chelsea",
+          "score": "2:3"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Athletic Club",
+          "awayTeam": "Sporting",
+          "score": "2:3"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Man City",
+          "awayTeam": "Galatasaray",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Benfica",
+          "awayTeam": "Real Madrid",
+          "score": "4:2"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Dortmund",
+          "awayTeam": "Inter",
+          "score": "0:2"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Newcastle",
+          "score": "1:1"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Monaco",
+          "awayTeam": "Juventus",
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Atlético",
+          "awayTeam": "Bodø/Glimt",
+          "score": "1:2"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Union SG",
+          "awayTeam": "Atalanta",
+          "score": "1:0"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "Villarreal",
+          "score": "3:0"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Ajax",
+          "awayTeam": "Olympiacos",
+          "score": "1:2"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Club Brugge",
+          "awayTeam": "Marseille",
+          "score": "3:0"
+        },
+        {
+          "date": "Wed 28/01/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Pafos",
+          "awayTeam": "Slavia Praha",
+          "score": "4:1"
         }
       ]
     },
