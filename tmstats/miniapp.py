@@ -139,6 +139,18 @@ def load_bracket_snapshot(table_path, league: str, season_start_year: int) -> di
         return json.load(json_file)
 
 
+def load_matches_snapshot(table_path, league: str, season_start_year: int) -> dict:
+    if not season_start_year or not table_path:
+        return {'groups': []}
+
+    matches_path = table_path.with_name(f'{league}_matches_{season_start_year}.json')
+    if not matches_path.exists():
+        return {'groups': []}
+
+    with matches_path.open(encoding='utf-8') as json_file:
+        return json.load(json_file)
+
+
 def build_highlights(teams: List[dict]) -> dict:
     all_players = [
         player
@@ -179,6 +191,11 @@ def build_league_payload(league: str) -> Dict[str, object]:
         league,
         meta['seasonStartYear'],
     )
+    matches = load_matches_snapshot(
+        snapshot['paths']['table'],
+        league,
+        meta['seasonStartYear'],
+    )
 
     for row in snapshot['table_rows']:
         players = get_team_players(snapshot, row)
@@ -215,4 +232,5 @@ def build_league_payload(league: str) -> Dict[str, object]:
         ],
         'teams': teams,
         'bracket': bracket,
+        'matches': matches,
     }

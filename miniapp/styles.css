@@ -680,8 +680,74 @@ body {
   letter-spacing: 0.01em;
 }
 
-.bracket-round-sub {
+
+.matches-shell {
+  display: grid;
+  gap: 14px;
+}
+
+.matches-controls {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.matches-title {
+  display: grid;
+  gap: 6px;
+  justify-items: center;
+}
+
+.matches-title-value {
   margin: 0;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.matches-list {
+  display: grid;
+  gap: 10px;
+}
+
+.match-card {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 14px 16px;
+  background: rgba(13, 25, 42, 0.82);
+}
+
+.match-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+
+.match-score {
+  color: var(--accent);
+  font-weight: 900;
+}
+
+.match-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+
+.match-team {
+  font-weight: 800;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.match-vs {
   color: var(--muted);
   font-size: 12px;
   text-transform: uppercase;

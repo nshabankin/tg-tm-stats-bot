@@ -1,0 +1,687 @@
+{
+  "groups": [
+    {
+      "key": "stage-knockout-stage",
+      "label": "Knockout stage",
+      "matches": [
+        {
+          "date": "Tue 17/02/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Galatasaray",
+          "awayTeam": "Juventus",
+          "score": "6:45"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Monaco",
+          "awayTeam": "PSG",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Benfica",
+          "awayTeam": "Real Madrid",
+          "score": "0:1"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Dortmund",
+          "awayTeam": "Atalanta",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 18/02/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Qarabağ",
+          "awayTeam": "Newcastle",
+          "score": "6:45"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Club Brugge",
+          "awayTeam": "Atlético",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Bodø/Glimt",
+          "awayTeam": "Inter",
+          "score": "3:1"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Olympiacos",
+          "awayTeam": "Leverkusen",
+          "score": "0:2"
+        },
+        {
+          "date": "Tue 24/02/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Atlético",
+          "awayTeam": "Club Brugge",
+          "score": "6:45"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Newcastle",
+          "awayTeam": "Qarabağ",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Inter",
+          "awayTeam": "Bodø/Glimt",
+          "score": "1:2"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "Olympiacos",
+          "score": "0:0"
+        },
+        {
+          "date": "Wed 25/02/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Dortmund",
+          "score": "6:45"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Monaco",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Juventus",
+          "awayTeam": "Galatasaray",
+          "score": "3:2"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Real Madrid",
+          "awayTeam": "Benfica",
+          "score": "2:1"
+        },
+        {
+          "date": "Tue 10/03/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Galatasaray",
+          "awayTeam": "Liverpool",
+          "score": "6:45"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Bayern Munich",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Newcastle",
+          "awayTeam": "Barcelona",
+          "score": "1:1"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Atlético",
+          "awayTeam": "Tottenham",
+          "score": "5:2"
+        },
+        {
+          "date": "Wed 11/03/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "Arsenal",
+          "score": "6:45"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Chelsea",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Real Madrid",
+          "awayTeam": "Man City",
+          "score": "3:0"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Bodø/Glimt",
+          "awayTeam": "Sporting",
+          "score": "3:0"
+        },
+        {
+          "date": "Tue 17/03/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Sporting",
+          "awayTeam": "Bodø/Glimt",
+          "score": "6:45"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Chelsea",
+          "awayTeam": "PSG",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Man City",
+          "awayTeam": "Real Madrid",
+          "score": "1:2"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Arsenal",
+          "awayTeam": "Leverkusen",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 18/03/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Barcelona",
+          "awayTeam": "Newcastle",
+          "score": "6:45"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Liverpool",
+          "awayTeam": "Galatasaray",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Bayern Munich",
+          "awayTeam": "Atalanta",
+          "score": "4:1"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Tottenham",
+          "awayTeam": "Atlético",
+          "score": "3:2"
+        },
+        {
+          "date": "Tue 07/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Real Madrid",
+          "awayTeam": "Bayern Munich",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Sporting",
+          "awayTeam": "Arsenal",
+          "score": "0:1"
+        },
+        {
+          "date": "Wed 08/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Liverpool",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Barcelona",
+          "awayTeam": "Atlético",
+          "score": "0:2"
+        },
+        {
+          "date": "Tue 14/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Liverpool",
+          "awayTeam": "PSG",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Atlético",
+          "awayTeam": "Barcelona",
+          "score": "1:2"
+        },
+        {
+          "date": "Wed 15/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Bayern Munich",
+          "awayTeam": "Real Madrid",
+          "score": "9:00"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Arsenal",
+          "awayTeam": "Sporting",
+          "score": "0:0"
+        },
+        {
+          "date": "Tue 28/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Bayern Munich",
+          "score": "9:00"
+        },
+        {
+          "date": "Wed 29/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Atlético",
+          "awayTeam": "Arsenal",
+          "score": "9:00"
+        },
+        {
+          "date": "Tue 05/05/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Arsenal",
+          "awayTeam": "Atlético",
+          "score": "9:00"
+        },
+        {
+          "date": "Wed 06/05/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Bayern Munich",
+          "awayTeam": "PSG",
+          "score": "9:00"
+        }
+      ]
+    },
+    {
+      "key": "ko-knockout-play-offs-1st-leg",
+      "label": "Knockout Play-offs · 1st leg",
+      "matches": [
+        {
+          "date": "Tue 17/02/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Galatasaray",
+          "awayTeam": "Juventus",
+          "score": "5:2"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Monaco",
+          "awayTeam": "PSG",
+          "score": "2:3"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Benfica",
+          "awayTeam": "Real Madrid",
+          "score": "0:1"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Dortmund",
+          "awayTeam": "Atalanta",
+          "score": "2:0"
+        },
+        {
+          "date": "Wed 18/02/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Qarabağ",
+          "awayTeam": "Newcastle",
+          "score": "1:6"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Club Brugge",
+          "awayTeam": "Atlético",
+          "score": "3:3"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Bodø/Glimt",
+          "awayTeam": "Inter",
+          "score": "3:1"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Olympiacos",
+          "awayTeam": "Leverkusen",
+          "score": "0:2"
+        }
+      ]
+    },
+    {
+      "key": "ko-knockout-play-offs-2nd-leg",
+      "label": "Knockout Play-offs · 2nd leg",
+      "matches": [
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Juventus",
+          "awayTeam": "Galatasaray",
+          "score": "3:2"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Monaco",
+          "score": "2:2"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Real Madrid",
+          "awayTeam": "Benfica",
+          "score": "2:1"
+        },
+        {
+          "date": "Wed 25/02/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Dortmund",
+          "score": "4:1"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Newcastle",
+          "awayTeam": "Qarabağ",
+          "score": "3:2"
+        },
+        {
+          "date": "Tue 24/02/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Atlético",
+          "awayTeam": "Club Brugge",
+          "score": "4:1"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Inter",
+          "awayTeam": "Bodø/Glimt",
+          "score": "1:2"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "Olympiacos",
+          "score": "0:0"
+        }
+      ]
+    },
+    {
+      "key": "ko-round-of-16-1st-leg",
+      "label": "Round of 16 · 1st leg",
+      "matches": [
+        {
+          "date": "Tue 10/03/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Galatasaray",
+          "awayTeam": "Liverpool",
+          "score": "1:0"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Bayern Munich",
+          "score": "1:6"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Newcastle",
+          "awayTeam": "Barcelona",
+          "score": "1:1"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Atlético",
+          "awayTeam": "Tottenham",
+          "score": "5:2"
+        },
+        {
+          "date": "Wed 11/03/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "Arsenal",
+          "score": "1:1"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Chelsea",
+          "score": "5:2"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Real Madrid",
+          "awayTeam": "Man City",
+          "score": "3:0"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Bodø/Glimt",
+          "awayTeam": "Sporting",
+          "score": "3:0"
+        }
+      ]
+    },
+    {
+      "key": "ko-round-of-16-2nd-leg",
+      "label": "Round of 16 · 2nd leg",
+      "matches": [
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Liverpool",
+          "awayTeam": "Galatasaray",
+          "score": "4:0"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Bayern Munich",
+          "awayTeam": "Atalanta",
+          "score": "4:1"
+        },
+        {
+          "date": "Wed 18/03/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Barcelona",
+          "awayTeam": "Newcastle",
+          "score": "7:2"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Tottenham",
+          "awayTeam": "Atlético",
+          "score": "3:2"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Arsenal",
+          "awayTeam": "Leverkusen",
+          "score": "2:0"
+        },
+        {
+          "date": "",
+          "time": "9:00 PM",
+          "homeTeam": "Chelsea",
+          "awayTeam": "PSG",
+          "score": "0:3"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Man City",
+          "awayTeam": "Real Madrid",
+          "score": "1:2"
+        },
+        {
+          "date": "Tue 17/03/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Sporting",
+          "awayTeam": "Bodø/Glimt",
+          "score": "5:0"
+        }
+      ]
+    },
+    {
+      "key": "ko-quarter-finals-1st-leg",
+      "label": "Quarter-finals · 1st leg",
+      "matches": [
+        {
+          "date": "Tue 07/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Real Madrid",
+          "awayTeam": "Bayern Munich",
+          "score": "1:2"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Sporting",
+          "awayTeam": "Arsenal",
+          "score": "0:1"
+        },
+        {
+          "date": "Wed 08/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Liverpool",
+          "score": "2:0"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Barcelona",
+          "awayTeam": "Atlético",
+          "score": "0:2"
+        }
+      ]
+    },
+    {
+      "key": "ko-quarter-finals-2nd-leg",
+      "label": "Quarter-finals · 2nd leg",
+      "matches": [
+        {
+          "date": "Wed 15/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Bayern Munich",
+          "awayTeam": "Real Madrid",
+          "score": "4:3"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Arsenal",
+          "awayTeam": "Sporting",
+          "score": "0:0"
+        },
+        {
+          "date": "Tue 14/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Liverpool",
+          "awayTeam": "PSG",
+          "score": "0:2"
+        },
+        {
+          "date": "",
+          "time": "",
+          "homeTeam": "Atlético",
+          "awayTeam": "Barcelona",
+          "score": "1:2"
+        }
+      ]
+    },
+    {
+      "key": "ko-semi-finals-1st-leg",
+      "label": "Semi-finals · 1st leg",
+      "matches": [
+        {
+          "date": "Tue 28/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Bayern Munich",
+          "score": ""
+        },
+        {
+          "date": "Wed 29/04/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Atlético",
+          "awayTeam": "Arsenal",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "ko-semi-finals-2nd-leg",
+      "label": "Semi-finals · 2nd leg",
+      "matches": [
+        {
+          "date": "Wed 06/05/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Bayern Munich",
+          "awayTeam": "PSG",
+          "score": ""
+        },
+        {
+          "date": "Tue 05/05/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Arsenal",
+          "awayTeam": "Atlético",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "ko-final-final",
+      "label": "Final · Final",
+      "matches": [
+        {
+          "date": "Sat 30/05/2026",
+          "time": "Unknown",
+          "homeTeam": "Winner SF 1",
+          "awayTeam": "Winner SF 2",
+          "score": ""
+        }
+      ]
+    }
+  ]
+}

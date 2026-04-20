@@ -1,7 +1,7 @@
 const tg = window.Telegram?.WebApp;
 
 const FAVORITES_STORAGE_KEY = "gfs.favoriteLeagues";
-const VALID_VIEWS = new Set(["table", "teams", "bracket"]);
+const VALID_VIEWS = new Set(["table", "teams", "matches", "bracket"]);
 
 const state = {
   leagues: [],
@@ -20,6 +20,7 @@ const snapshotMetaEl = document.getElementById("snapshot-meta");
 const leagueSummaryEl = document.getElementById("league-summary");
 const tableViewEl = document.getElementById("table-view");
 const teamsViewEl = document.getElementById("teams-view");
+const matchesViewEl = document.getElementById("matches-view");
 const bracketViewEl = document.getElementById("bracket-view");
 const dialogEl = document.getElementById("player-dialog");
 const dialogBodyEl = document.getElementById("player-dialog-body");
@@ -37,6 +38,10 @@ function leagueFamily() {
 
 function hasBracket() {
   return Boolean(state.snapshot?.bracket?.rounds?.length);
+}
+
+function hasMatches() {
+  return Boolean(state.snapshot?.matches?.groups?.length);
 }
 
 function parseRoute() {
@@ -725,12 +730,14 @@ function aggregateTie(tie) {
     [teamA, 0],
     [teamB, 0],
   ]);
+  let hasScore = false;
 
   matches.forEach((match) => {
     const score = parseScore(match.result);
     if (!score) {
       return;
     }
+    hasScore = true;
     const home = match.homeTeam || "";
     const away = match.awayTeam || "";
     if (!totals.has(home)) {
@@ -767,9 +774,9 @@ function aggregateTie(tie) {
     }
   }
 
-  const display = `${goalsA}:${goalsB}`;
+  const display = hasScore ? `${goalsA}:${goalsB}` : "";
   const teams = new Set([teamA, teamB].filter(Boolean));
-  return { teamA, teamB, goalsA, goalsB, winner, display, teams };
+  return { teamA, teamB, goalsA, goalsB, winner, display, teams, hasScore };
 }
 
 function tieContainsTeam(tieAgg, teamName) {
@@ -828,18 +835,27 @@ function drawBracketLines(viewportEl) {
     const currentTies = Array.from(currentRound.querySelectorAll("[data-bracket-tie]"));
     const nextTies = Array.from(nextRound.querySelectorAll("[data-bracket-tie]"));
 
-    currentTies.forEach((tieEl) => {
+    currentTies.forEach((tieEl, tieIndex) => {
       const winner = tieEl.getAttribute("data-bracket-winner") || "";
-      if (!winner) {
-        return;
+      let nextIndex = -1;
+      if (winner) {
+        nextIndex = nextTies.findIndex((nextTie) =>
+          (nextTie.getAttribute("data-bracket-teams") || "")
+            .split("|")
+            .includes(winner)
+        );
       }
-      const nextIndex = nextTies.findIndex((nextTie) =>
-        (nextTie.getAttribute("data-bracket-teams") || "")
-          .split("|")
-          .includes(winner)
-      );
       if (nextIndex < 0) {
-        return;
+        // Fallback to structural pairing when teams are still placeholders.
+        const currentCount = currentTies.length || 1;
+        const nextCount = nextTies.length || 1;
+        if (nextCount === currentCount) {
+          nextIndex = tieIndex;
+        } else if (nextCount * 2 === currentCount) {
+          nextIndex = Math.floor(tieIndex / 2);
+        } else {
+          nextIndex = Math.min(nextCount - 1, Math.floor((tieIndex / currentCount) * nextCount));
+        }
       }
       const fromRect = tieEl.getBoundingClientRect();
       const toRect = nextTies[nextIndex].getBoundingClientRect();
@@ -878,7 +894,6 @@ function renderBracket() {
                 <section class="bracket-round" data-bracket-round="${roundIndex}">
                   <div class="bracket-round-head">
                     <p class="bracket-round-title">${round.label}</p>
-                    <p class="bracket-round-sub">${bracketRoundSizeLabel(round)}</p>
                   </div>
                   <div class="bracket-ties">
                     ${round.ties
@@ -921,6 +936,75 @@ function renderBracket() {
   requestAnimationFrame(() => drawBracketLines(bracketViewEl));
 }
 
+function matchGroupLabel(group) {
+  return group?.label || "Matches";
+}
+
+function matchScoreLabel(match) {
+  const score = `${match?.score || ""}`.trim();
+  if (!score || score === "-:-") {
+    return "";
+  }
+  return score;
+}
+
+function renderMatches() {
+  if (!hasMatches()) {
+    matchesViewEl.innerHTML = '<div class="empty-state">No match snapshot is available yet. Run a refresh to generate match results.</div>';
+    return;
+  }
+
+  const groups = state.snapshot.matches.groups || [];
+  if (!state.matchesGroupIndex || state.matchesGroupIndex < 0) {
+    state.matchesGroupIndex = 0;
+  }
+  state.matchesGroupIndex = Math.min(groups.length - 1, state.matchesGroupIndex);
+  const group = groups[state.matchesGroupIndex];
+  const matches = group?.matches || [];
+
+  matchesViewEl.innerHTML = `
+    <div class="matches-shell">
+      <div class="matches-controls">
+        <button type="button" class="secondary-button" data-matches-nav="-1" ${state.matchesGroupIndex === 0 ? "disabled" : ""}>Prev</button>
+        <div class="matches-title">
+          <p class="summary-label">Stage</p>
+          <p class="matches-title-value">${matchGroupLabel(group)}</p>
+        </div>
+        <button type="button" class="secondary-button" data-matches-nav="1" ${state.matchesGroupIndex === groups.length - 1 ? "disabled" : ""}>Next</button>
+      </div>
+      <div class="matches-list">
+        ${matches
+          .map((match) => {
+            const score = matchScoreLabel(match);
+            return `
+              <article class="match-card">
+                <div class="match-meta">
+                  <span>${match.date || ""}${match.time ? ` · ${match.time}` : ""}</span>
+                  <span class="match-score">${score || "TBD"}</span>
+                </div>
+                <div class="match-row">
+                  <span class="match-team">${match.homeTeam || "-"}</span>
+                  <span class="match-vs">vs</span>
+                  <span class="match-team">${match.awayTeam || "-"}</span>
+                </div>
+              </article>
+            `;
+          })
+          .join("")}
+      </div>
+    </div>
+  `;
+
+  matchesViewEl.querySelectorAll("[data-matches-nav]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const delta = Number(button.dataset.matchesNav || "0");
+      state.matchesGroupIndex = Math.min(groups.length - 1, Math.max(0, state.matchesGroupIndex + delta));
+      renderMatches();
+      updateRoute();
+    });
+  });
+}
+
 function renderView() {
   document.querySelectorAll(".tab").forEach((tab) => {
     if (tab.dataset.view === "bracket") {
@@ -929,11 +1013,18 @@ function renderView() {
         state.view = "table";
       }
     }
+    if (tab.dataset.view === "matches") {
+      tab.classList.toggle("hidden", !hasMatches());
+      if (!hasMatches() && state.view === "matches") {
+        state.view = "table";
+      }
+    }
     tab.classList.toggle("is-active", tab.dataset.view === state.view);
   });
 
   tableViewEl.classList.toggle("hidden", state.view !== "table");
   teamsViewEl.classList.toggle("hidden", state.view !== "teams");
+  matchesViewEl.classList.toggle("hidden", state.view !== "matches");
   bracketViewEl.classList.toggle("hidden", state.view !== "bracket");
   leagueSummaryEl.classList.toggle("hidden", state.view !== "table");
 
@@ -941,6 +1032,8 @@ function renderView() {
     renderTable();
   } else if (state.view === "teams") {
     renderTeams();
+  } else if (state.view === "matches") {
+    renderMatches();
   } else {
     renderBracket();
   }
@@ -1002,6 +1095,7 @@ async function selectLeague(leagueKey, options = {}) {
 
   const snapshot = await apiFetch(`/api/leagues/${leagueKey}/snapshot`);
   state.snapshot = snapshot;
+  state.matchesGroupIndex = 0;
   state.selectedTeamSlug = options.teamSlug || null;
   leagueContentEl.classList.remove("hidden");
   renderSnapshotMeta();

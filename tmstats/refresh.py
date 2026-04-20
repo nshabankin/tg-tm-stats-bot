@@ -33,12 +33,25 @@ TABLE_FIELDS = ['rank', 'club', 'logo', 'played', 'wins', 'draws',
 
 REQUEST_HEADERS = {
     'User-Agent': (
-        'Mozilla/5.0 (X11; Linux x86_64; rv:128.0) '
-        'Gecko/20100101 Firefox/128.0'
+        # A mainstream desktop UA seems to reduce Transfermarkt WAF challenges
+        # when paired with a freshly-copied browser cookie.
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+        'AppleWebKit/537.36 (KHTML, like Gecko) '
+        'Chrome/123.0.0.0 Safari/537.36'
     ),
     'Accept-Language': 'en-US,en;q=0.9',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept': (
+        'text/html,application/xhtml+xml,application/xml;q=0.9,'
+        'image/avif,image/webp,image/apng,*/*;q=0.8,'
+        'application/signed-exchange;v=b3;q=0.7'
+    ),
     'Referer': 'https://www.transfermarkt.com/',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Site': 'none',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-User': '?1',
+    'Sec-Fetch-Dest': 'document',
+    'Cache-Control': 'max-age=0',
 }
 
 POSITION_LABELS = {
@@ -208,6 +221,141 @@ def write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', encoding='utf-8') as json_file:
         json.dump(payload, json_file, ensure_ascii=False, indent=2)
+
+
+def slugify_key(value: str) -> str:
+    normalized = re.sub(r'[^a-z0-9]+', '-', normalize_text(value).casefold())
+    return normalized.strip('-')
+
+
+def normalize_match_group(header: str) -> Tuple[str, str, int]:
+    """Return (key, label, order) for a match group header."""
+    text = normalize_text(header)
+    lowered = text.casefold()
+
+    matchday = re.search(r'(matchday|spieltag)\s*(\d+)', lowered)
+    if matchday:
+        day = int(matchday.group(2))
+        return f'md-{day:02d}', f'Matchday {day}', day
+
+    round_number = re.search(r'(round)\s*(\d+)', lowered)
+    if round_number:
+        number = int(round_number.group(2))
+        return f'round-{number:02d}', f'Round {number}', 100 + number
+
+    key = slugify_key(lowered)
+    return f'stage-{key}' if key else 'stage', text or 'Stage', 200
+
+
+def extract_score(text: str) -> str:
+    """Extract a score like 2:1 or 2:1 (4:3) from raw row text."""
+    normalized = normalize_text(text)
+    main = re.search(r'(\d+)\s*:\s*(\d+)', normalized)
+    if not main:
+        return ''
+    score = f'{main.group(1)}:{main.group(2)}'
+    after = normalized[main.end():]
+    pens = re.search(r'\((\d+)\s*:\s*(\d+)\)', after)
+    if pens:
+        score += f' ({pens.group(1)}:{pens.group(2)})'
+    return score
+
+
+def parse_fixture_table(table: html.HtmlElement) -> List[dict]:
+    matches: List[dict] = []
+    for row in table.xpath('.//tr[td]'):
+        team_links = row.xpath('.//a[contains(@href, "/verein/")]')
+        team_names: List[str] = []
+        for link in team_links:
+            name = normalize_text(' '.join(link.xpath('.//text()')))
+            if name and (not team_names or team_names[-1] != name):
+                team_names.append(name)
+        if len(team_names) < 2:
+            continue
+
+        cells = row.xpath('./td')
+        date_value = normalize_text(' '.join(cells[0].xpath('.//text()'))) if cells else ''
+        time_value = normalize_text(' '.join(cells[1].xpath('.//text()'))) if len(cells) > 1 else ''
+        score = extract_score(' '.join(row.xpath('.//text()')))
+
+        matches.append({
+            'date': date_value,
+            'time': time_value,
+            'homeTeam': team_names[0],
+            'awayTeam': team_names[1],
+            'score': score,
+        })
+    return matches
+
+
+def fetch_match_groups(session: requests.Session, league_key: str,
+                       season: int, timeout: int,
+                       bracket: Optional[dict] = None) -> dict:
+    doc = html.fromstring(fetch_text(
+        session,
+        competition_path(league_key, 'gesamtspielplan', season),
+        timeout,
+    ))
+    groups: "OrderedDict[str, dict]" = OrderedDict()
+
+    for box in doc.xpath('//div[contains(@class, "box")]'):
+        header = normalize_text(' '.join(box.xpath('.//h2[1]//text()')))
+        if not header:
+            continue
+        tables = box.xpath('.//table[.//a[contains(@href, "/verein/")]]')
+        if not tables:
+            continue
+        matches = parse_fixture_table(tables[0])
+        if not matches:
+            continue
+
+        key, label, order = normalize_match_group(header)
+        group = groups.setdefault(
+            key,
+            {
+                'key': key,
+                'label': label,
+                'order': order,
+                'matches': [],
+            },
+        )
+        group['matches'].extend(matches)
+
+    # Add explicit knockout matches for UEFA competitions to make playoff
+    # browsing easier than fishing them out of the full schedule.
+    if bracket and bracket.get('rounds'):
+        base_order = 1000
+        for round_data in bracket.get('rounds', []):
+            round_label = round_data.get('label', 'Playoffs')
+            matches_by_leg: "OrderedDict[str, List[dict]]" = OrderedDict()
+            for tie in round_data.get('ties', []):
+                for match in tie.get('matches', []):
+                    leg = match.get('leg') or ''
+                    matches_by_leg.setdefault(leg, []).append({
+                        'date': match.get('date', ''),
+                        'time': match.get('time', ''),
+                        'homeTeam': match.get('homeTeam', ''),
+                        'awayTeam': match.get('awayTeam', ''),
+                        'score': extract_score(match.get('result', '')),
+                    })
+            for leg, matches in matches_by_leg.items():
+                suffix = f' · {leg}' if leg else ''
+                key = f'ko-{slugify_key(round_label)}{("-" + slugify_key(leg)) if leg else ""}'
+                groups[key] = {
+                    'key': key,
+                    'label': f'{round_label}{suffix}',
+                    'order': base_order,
+                    'matches': matches,
+                }
+                base_order += 1
+
+    ordered = sorted(
+        groups.values(),
+        key=lambda item: (item.get('order', 9999), item.get('label', '')),
+    )
+    for item in ordered:
+        item.pop('order', None)
+    return {'groups': ordered}
 
 
 def read_csv_rows(path: Path) -> List[dict]:
@@ -787,6 +935,7 @@ def refresh_league(league_key: str, season: int = None,
     league_label = league.label
     players_csv = league_dir / f'{league_key}_players_{season}.csv'
     bracket_json = league_dir / f'{league_key}_bracket_{season}.json'
+    matches_json = league_dir / f'{league_key}_matches_{season}.json'
 
     print(f'Refreshing {league_key} for season {season}', flush=True)
 
@@ -830,15 +979,32 @@ def refresh_league(league_key: str, season: int = None,
               stats, STATS_FIELDS)
     write_csv(league_dir / f'{league_key}_table_{season}.csv',
               table, TABLE_FIELDS)
+    bracket_payload = None
     if league.supports_bracket:
         try:
-            write_json(
-                bracket_json,
-                fetch_knockout_bracket(session, league_key, season, timeout),
+            bracket_payload = fetch_knockout_bracket(
+                session, league_key, season, timeout
             )
+            write_json(bracket_json, bracket_payload)
         except Exception as error:
             print(f'Warning: failed to refresh knockout bracket for {league_key}: '
                   f'{error}', flush=True)
+            bracket_payload = None
+
+    try:
+        write_json(
+            matches_json,
+            fetch_match_groups(
+                session,
+                league_key,
+                season,
+                timeout,
+                bracket=bracket_payload,
+            ),
+        )
+    except Exception as error:
+        print(f'Warning: failed to refresh match list for {league_key}: '
+              f'{error}', flush=True)
     render_pdf(league_dir / f'{league_key}_stats_{season}.pdf',
                'stats', league_label, season, stats)
     render_pdf(league_dir / f'{league_key}_table_{season}.pdf',
