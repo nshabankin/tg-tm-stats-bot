@@ -8,21 +8,21 @@
           "date": "Fri 18/07/2025",
           "time": "7:30 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Baltika",
           "score": "1:1"
         },
         {
           "date": "Sat 19/07/2025",
           "time": "2:30 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "KS Samara",
           "score": "1:1"
         },
         {
           "date": "Sat 19/07/2025",
           "time": "5:00 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "FK Sochi",
           "score": "3:0"
         },
         {
@@ -36,21 +36,21 @@
           "date": "Sun 20/07/2025",
           "time": "2:30 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Krasnodar",
           "score": "0:3"
         },
         {
           "date": "Sun 20/07/2025",
           "time": "5:00 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Rostov",
           "score": "2:1"
         },
         {
           "date": "Sun 20/07/2025",
           "time": "7:30 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Rubin Kazan",
           "score": "0:2"
         },
         {
@@ -84,21 +84,21 @@
           "date": "Sat 26/07/2025",
           "time": "4:30 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Rostov",
           "score": "1:0"
         },
         {
           "date": "Sat 26/07/2025",
           "time": "6:00 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Loko Moscow",
           "score": "1:2"
         },
         {
           "date": "Sat 26/07/2025",
           "time": "7:30 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Akron Tolyatti",
           "score": "0:4"
         },
         {
@@ -119,7 +119,7 @@
           "date": "Sun 27/07/2025",
           "time": "7:00 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Zenit S-Pb",
           "score": "2:2"
         }
       ]
@@ -139,49 +139,49 @@
           "date": "Sat 02/08/2025",
           "time": "7:30 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Dynamo Moscow",
           "score": "1:0"
         },
         {
           "date": "Sat 02/08/2025",
           "time": "7:30 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Loko Moscow",
           "score": "2:3"
         },
         {
           "date": "Sun 03/08/2025",
           "time": "12:30 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Spartak Moscow",
           "score": "1:1"
         },
         {
           "date": "Sun 03/08/2025",
           "time": "2:45 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Orenburg",
           "score": "3:2"
         },
         {
           "date": "Sun 03/08/2025",
           "time": "5:00 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "CSKA Moscow",
           "score": "1:1"
         },
         {
           "date": "Sun 03/08/2025",
           "time": "7:30 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Akhmat Grozny",
           "score": "1:0"
         },
         {
           "date": "Mon 04/08/2025",
           "time": "7:00 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "FK Sochi",
           "score": "2:1"
         }
       ]
@@ -194,7 +194,7 @@
           "date": "Fri 08/08/2025",
           "time": "7:00 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Akron Tolyatti",
           "score": "1:1"
         },
         {
@@ -215,14 +215,14 @@
           "date": "Sat 09/08/2025",
           "time": "5:00 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Spartak Moscow",
           "score": "4:2"
         },
         {
           "date": "Sat 09/08/2025",
           "time": "7:30 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Zenit S-Pb",
           "score": "1:0"
         },
         {
@@ -236,7 +236,7 @@
           "date": "Sun 10/08/2025",
           "time": "5:00 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Dynamo Moscow",
           "score": "1:1"
         },
         {
@@ -256,7 +256,7 @@
           "date": "Sat 16/08/2025",
           "time": "2:00 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Loko Moscow",
           "score": "1:1"
         },
         {
@@ -270,42 +270,42 @@
           "date": "Sat 16/08/2025",
           "time": "7:30 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "KS Samara",
           "score": "3:1"
         },
         {
           "date": "Sun 17/08/2025",
           "time": "12:30 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Orenburg",
           "score": "1:2"
         },
         {
           "date": "Sun 17/08/2025",
           "time": "2:45 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Rostov",
           "score": "1:0"
         },
         {
           "date": "Sun 17/08/2025",
           "time": "5:00 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "CSKA Moscow",
           "score": "1:3"
         },
         {
           "date": "Sun 17/08/2025",
           "time": "7:30 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "FK Sochi",
           "score": "5:1"
         },
         {
           "date": "Mon 18/08/2025",
           "time": "7:00 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Dinamo Makhach.",
           "score": "2:0"
         }
       ]
@@ -325,28 +325,28 @@
           "date": "Sat 23/08/2025",
           "time": "1:00 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Spartak Moscow",
           "score": "0:2"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "3:15 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Dinamo Makhach.",
           "score": "4:0"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "5:30 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Rostov",
           "score": "3:3"
         },
         {
           "date": "Sat 23/08/2025",
           "time": "7:45 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Pari NN",
           "score": "3:0"
         },
         {
@@ -367,7 +367,7 @@
           "date": "Sun 24/08/2025",
           "time": "7:00 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Baltika",
           "score": "0:2"
         }
       ]
@@ -387,7 +387,7 @@
           "date": "Sat 30/08/2025",
           "time": "3:15 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Pari NN",
           "score": "2:0"
         },
         {
@@ -408,14 +408,14 @@
           "date": "Sun 31/08/2025",
           "time": "12:30 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Baltika",
           "score": "0:2"
         },
         {
           "date": "Sun 31/08/2025",
           "time": "2:45 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "KS Samara",
           "score": "2:2"
         },
         {
@@ -429,7 +429,7 @@
           "date": "Sun 31/08/2025",
           "time": "7:30 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Dynamo Moscow",
           "score": "1:0"
         }
       ]
@@ -442,35 +442,35 @@
           "date": "Fri 12/09/2025",
           "time": "6:00 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Dinamo Makhach.",
           "score": "1:0"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "1:00 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Orenburg",
           "score": "3:1"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "3:45 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Spartak Moscow",
           "score": "2:2"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "3:45 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Loko Moscow",
           "score": "1:1"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Akron Tolyatti",
           "score": "2:1"
         },
         {
@@ -484,7 +484,7 @@
           "date": "Sun 14/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Zenit S-Pb",
           "score": "0:0"
         },
         {
@@ -504,21 +504,21 @@
           "date": "Sat 20/09/2025",
           "time": "1:30 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Akhmat Grozny",
           "score": "1:2"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "3:45 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Rubin Kazan",
           "score": "2:2"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Loko Moscow",
           "score": "1:1"
         },
         {
@@ -539,21 +539,21 @@
           "date": "Sun 21/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Rostov",
           "score": "0:0"
         },
         {
           "date": "Sun 21/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Zenit S-Pb",
           "score": "0:2"
         },
         {
           "date": "Mon 22/09/2025",
           "time": "6:00 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "CSKA Moscow",
           "score": "1:3"
         }
       ]
@@ -573,14 +573,14 @@
           "date": "Sat 27/09/2025",
           "time": "1:00 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Akron Tolyatti",
           "score": "3:0"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "3:30 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Rubin Kazan",
           "score": "1:0"
         },
         {
@@ -594,7 +594,7 @@
           "date": "Sat 27/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Orenburg",
           "score": "5:2"
         },
         {
@@ -608,7 +608,7 @@
           "date": "Sun 28/09/2025",
           "time": "4:00 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "FK Sochi",
           "score": "0:0"
         },
         {
@@ -628,28 +628,28 @@
           "date": "Sat 04/10/2025",
           "time": "12:00 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Zenit S-Pb",
           "score": "1:1"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "2:15 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "KS Samara",
           "score": "2:0"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "4:30 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Akhmat Grozny",
           "score": "2:0"
         },
         {
           "date": "Sat 04/10/2025",
           "time": "6:45 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Loko Moscow",
           "score": "3:5"
         },
         {
@@ -663,7 +663,7 @@
           "date": "Sun 05/10/2025",
           "time": "1:15 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Pari NN",
           "score": "2:1"
         },
         {
@@ -677,7 +677,7 @@
           "date": "Sun 05/10/2025",
           "time": "6:00 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Dinamo Makhach.",
           "score": "2:0"
         }
       ]
@@ -697,7 +697,7 @@
           "date": "Sat 18/10/2025",
           "time": "12:00 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Akron Tolyatti",
           "score": "0:1"
         },
         {
@@ -711,35 +711,35 @@
           "date": "Sat 18/10/2025",
           "time": "4:30 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Krasnodar",
           "score": "0:2"
         },
         {
           "date": "Sat 18/10/2025",
           "time": "6:45 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "CSKA Moscow",
           "score": "3:0"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "1:30 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Zenit S-Pb",
           "score": "0:3"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "4:00 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Baltika",
           "score": "0:3"
         },
         {
           "date": "Sun 19/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Akhmat Grozny",
           "score": "2:2"
         }
       ]
@@ -773,35 +773,35 @@
           "date": "Sun 26/10/2025",
           "time": "11:00 AM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Loko Moscow",
           "score": "1:1"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "1:15 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Baltika",
           "score": "0:0"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "3:30 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Dynamo Moscow",
           "score": "2:1"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "5:45 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Rubin Kazan",
           "score": "1:0"
         },
         {
           "date": "Mon 27/10/2025",
           "time": "5:30 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "FK Sochi",
           "score": "2:4"
         }
       ]
@@ -821,21 +821,21 @@
           "date": "Sat 01/11/2025",
           "time": "3:45 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Dynamo Moscow",
           "score": "0:0"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "3:45 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "KS Samara",
           "score": "2:0"
         },
         {
           "date": "Sat 01/11/2025",
           "time": "6:15 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Loko Moscow",
           "score": "2:0"
         },
         {
@@ -856,14 +856,14 @@
           "date": "Sun 02/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Akhmat Grozny",
           "score": "2:0"
         },
         {
           "date": "Sun 02/11/2025",
           "time": "5:30 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Spartak Moscow",
           "score": "2:1"
         }
       ]
@@ -876,28 +876,28 @@
           "date": "Sat 08/11/2025",
           "time": "12:00 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Akron Tolyatti",
           "score": "1:2"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "2:30 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Rubin Kazan",
           "score": "0:0"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "2:30 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "CSKA Moscow",
           "score": "0:1"
         },
         {
           "date": "Sat 08/11/2025",
           "time": "5:00 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Rostov",
           "score": "0:1"
         },
         {
@@ -911,21 +911,21 @@
           "date": "Sun 09/11/2025",
           "time": "1:15 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Orenburg",
           "score": "1:0"
         },
         {
           "date": "Sun 09/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Spartak Moscow",
           "score": "1:2"
         },
         {
           "date": "Sun 09/11/2025",
           "time": "5:45 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Krasnodar",
           "score": "1:1"
         }
       ]
@@ -938,7 +938,7 @@
           "date": "Fri 21/11/2025",
           "time": "4:30 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "FK Sochi",
           "score": "3:2"
         },
         {
@@ -959,7 +959,7 @@
           "date": "Sat 22/11/2025",
           "time": "5:30 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Akhmat Grozny",
           "score": "1:0"
         },
         {
@@ -973,21 +973,21 @@
           "date": "Sun 23/11/2025",
           "time": "1:15 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Zenit S-Pb",
           "score": "0:2"
         },
         {
           "date": "Sun 23/11/2025",
           "time": "3:30 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Dinamo Makhach.",
           "score": "3:0"
         },
         {
           "date": "Sun 23/11/2025",
           "time": "5:45 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Krasnodar",
           "score": "1:1"
         }
       ]
@@ -1000,7 +1000,7 @@
           "date": "Sat 29/11/2025",
           "time": "12:00 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Pari NN",
           "score": "1:2"
         },
         {
@@ -1014,14 +1014,14 @@
           "date": "Sat 29/11/2025",
           "time": "5:30 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Spartak Moscow",
           "score": "1:0"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "12:00 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "KS Samara",
           "score": "5:0"
         },
         {
@@ -1035,21 +1035,21 @@
           "date": "Sun 30/11/2025",
           "time": "2:30 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Dynamo Moscow",
           "score": "2:1"
         },
         {
           "date": "Sun 30/11/2025",
           "time": "5:00 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Rubin Kazan",
           "score": "1:0"
         },
         {
           "date": "Mon 01/12/2025",
           "time": "5:30 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Dinamo Makhach.",
           "score": "0:0"
         }
       ]
@@ -1062,7 +1062,7 @@
           "date": "Fri 05/12/2025",
           "time": "5:00 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Orenburg",
           "score": "1:0"
         },
         {
@@ -1083,35 +1083,35 @@
           "date": "Sat 06/12/2025",
           "time": "5:30 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Akron Tolyatti",
           "score": "2:0"
         },
         {
           "date": "Sun 07/12/2025",
           "time": "12:00 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Pari NN",
           "score": "0:1"
         },
         {
           "date": "Sun 07/12/2025",
           "time": "2:30 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Loko Moscow",
           "score": "2:4"
         },
         {
           "date": "Sun 07/12/2025",
           "time": "5:00 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "CSKA Moscow",
           "score": "3:2"
         },
         {
           "date": "Sun 07/12/2025",
           "time": "5:00 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "KS Samara",
           "score": "2:0"
         }
       ]
@@ -1124,7 +1124,7 @@
           "date": "Fri 27/02/2026",
           "time": "5:30 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Baltika",
           "score": "1:0"
         },
         {
@@ -1138,42 +1138,42 @@
           "date": "Sat 28/02/2026",
           "time": "12:30 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Rostov",
           "score": "2:1"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Pari NN",
           "score": "2:1"
         },
         {
           "date": "Sat 28/02/2026",
           "time": "5:30 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Rubin Kazan",
           "score": "2:1"
         },
         {
           "date": "Sun 01/03/2026",
           "time": "11:00 AM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "KS Samara",
           "score": "4:0"
         },
         {
           "date": "Sun 01/03/2026",
           "time": "5:00 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "CSKA Moscow",
           "score": "1:0"
         },
         {
           "date": "Mon 02/03/2026",
           "time": "1:00 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Spartak Moscow",
           "score": "2:3"
         }
       ]
@@ -1193,7 +1193,7 @@
           "date": "Sat 07/03/2026",
           "time": "5:00 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "FK Sochi",
           "score": "2:1"
         },
         {
@@ -1214,7 +1214,7 @@
           "date": "Sun 08/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Krasnodar",
           "score": "2:1"
         },
         {
@@ -1228,7 +1228,7 @@
           "date": "Mon 09/03/2026",
           "time": "2:30 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Akhmat Grozny",
           "score": "2:2"
         },
         {
@@ -1248,21 +1248,21 @@
           "date": "Fri 13/03/2026",
           "time": "5:30 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Orenburg",
           "score": "1:0"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "11:45 AM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Krasnodar",
           "score": "1:2"
         },
         {
           "date": "Sat 14/03/2026",
           "time": "2:00 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Spartak Moscow",
           "score": "2:0"
         },
         {
@@ -1276,28 +1276,28 @@
           "date": "Sat 14/03/2026",
           "time": "6:30 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "CSKA Moscow",
           "score": "1:0"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "12:00 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Akhmat Grozny",
           "score": "1:1"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "2:30 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "KS Samara",
           "score": "3:0"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "5:00 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Loko Moscow",
           "score": "3:0"
         }
       ]
@@ -1310,7 +1310,7 @@
           "date": "Sat 21/03/2026",
           "time": "11:45 AM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Rostov",
           "score": "1:0"
         },
         {
@@ -1324,14 +1324,14 @@
           "date": "Sat 21/03/2026",
           "time": "4:15 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Pari NN",
           "score": "5:0"
         },
         {
           "date": "Sat 21/03/2026",
           "time": "6:30 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "FK Sochi",
           "score": "4:0"
         },
         {
@@ -1345,7 +1345,7 @@
           "date": "Sun 22/03/2026",
           "time": "2:00 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Zenit S-Pb",
           "score": "1:3"
         },
         {
@@ -1359,7 +1359,7 @@
           "date": "Sun 22/03/2026",
           "time": "5:00 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Akron Tolyatti",
           "score": "5:1"
         }
       ]
@@ -1372,42 +1372,42 @@
           "date": "Sat 04/04/2026",
           "time": "12:00 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "CSKA Moscow",
           "score": "1:2"
         },
         {
           "date": "Sat 04/04/2026",
           "time": "2:15 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "KS Samara",
           "score": "2:1"
         },
         {
           "date": "Sat 04/04/2026",
           "time": "4:30 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Orenburg",
           "score": "3:3"
         },
         {
           "date": "Sat 04/04/2026",
           "time": "6:45 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Krasnodar",
           "score": "0:1"
         },
         {
           "date": "Sun 05/04/2026",
           "time": "1:00 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Rostov",
           "score": "0:1"
         },
         {
           "date": "Sun 05/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Baltika",
           "score": "2:2"
         },
         {
@@ -1421,7 +1421,7 @@
           "date": "Mon 06/04/2026",
           "time": "6:30 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Rubin Kazan",
           "score": "0:1"
         }
       ]
@@ -1441,14 +1441,14 @@
           "date": "Sat 11/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Orenburg",
           "score": "0:0"
         },
         {
           "date": "Sat 11/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Pari NN",
           "score": "2:2"
         },
         {
@@ -1469,21 +1469,21 @@
           "date": "Sun 12/04/2026",
           "time": "3:30 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Dinamo Makhach.",
           "score": "1:1"
         },
         {
           "date": "Sun 12/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Krasnodar",
           "score": "1:1"
         },
         {
           "date": "Mon 13/04/2026",
           "time": "4:15 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Dynamo Moscow",
           "score": "2:3"
         }
       ]
@@ -1517,21 +1517,21 @@
           "date": "Sat 18/04/2026",
           "time": "4:00 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Akron Tolyatti",
           "score": "1:1"
         },
         {
           "date": "Sat 18/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Dynamo Moscow",
           "score": "1:1"
         },
         {
           "date": "Sun 19/04/2026",
           "time": "1:30 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Zenit S-Pb",
           "score": "0:1"
         },
         {
@@ -1545,7 +1545,7 @@
           "date": "Sun 19/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Baltika",
           "score": "2:2"
         }
       ]
@@ -1558,7 +1558,7 @@
           "date": "Tue 21/04/2026",
           "time": "4:30 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "KS Samara",
           "score": ""
         },
         {
@@ -1579,21 +1579,21 @@
           "date": "Wed 22/04/2026",
           "time": "6:45 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Rubin Kazan",
           "score": ""
         },
         {
           "date": "Wed 22/04/2026",
           "time": "6:45 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Zenit S-Pb",
           "score": ""
         },
         {
           "date": "Thu 23/04/2026",
           "time": "4:30 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Dinamo Makhach.",
           "score": ""
         },
         {
@@ -1607,7 +1607,7 @@
           "date": "Thu 23/04/2026",
           "time": "6:45 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Baltika",
           "score": ""
         }
       ]
@@ -1634,42 +1634,42 @@
           "date": "Sat 25/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "CSKA Moscow",
           "score": ""
         },
         {
           "date": "Sun 26/04/2026",
           "time": "1:00 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "Spartak Moscow",
           "score": ""
         },
         {
           "date": "Sun 26/04/2026",
           "time": "4:00 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Dinamo Makhach.",
           "score": ""
         },
         {
           "date": "Sun 26/04/2026",
           "time": "4:00 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "FK Sochi",
           "score": ""
         },
         {
           "date": "Sun 26/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "Akhmat Grozny",
           "score": ""
         },
         {
           "date": "Mon 27/04/2026",
           "time": "7:00 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Akron Tolyatti",
           "score": ""
         }
       ]
@@ -1689,21 +1689,21 @@
           "date": "Fri 01/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Dynamo Moscow",
           "score": ""
         },
         {
           "date": "Sat 02/05/2026",
           "time": "1:00 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Rostov",
           "score": ""
         },
         {
           "date": "Sat 02/05/2026",
           "time": "3:30 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Rubin Kazan",
           "score": ""
         },
         {
@@ -1717,21 +1717,21 @@
           "date": "Sun 03/05/2026",
           "time": "1:30 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Orenburg",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Krasnodar",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Pari NN",
           "score": ""
         }
       ]
@@ -1751,35 +1751,35 @@
           "date": "Sun 10/05/2026",
           "time": "2:00 PM",
           "homeTeam": "Zenit S-Pb",
-          "awayTeam": "Zenit",
+          "awayTeam": "FK Sochi",
           "score": ""
         },
         {
           "date": "Sun 10/05/2026",
           "time": "4:15 PM",
           "homeTeam": "Akhmat Grozny",
-          "awayTeam": "Akhmat",
+          "awayTeam": "Dinamo Makhach.",
           "score": ""
         },
         {
           "date": "Sun 10/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Loko Moscow",
-          "awayTeam": "Loko",
+          "awayTeam": "Baltika",
           "score": ""
         },
         {
           "date": "Mon 11/05/2026",
           "time": "12:00 PM",
           "homeTeam": "Akron Tolyatti",
-          "awayTeam": "Akron",
+          "awayTeam": "Rostov",
           "score": ""
         },
         {
           "date": "Mon 11/05/2026",
           "time": "2:15 PM",
           "homeTeam": "Pari NN",
-          "awayTeam": "Pari",
+          "awayTeam": "CSKA Moscow",
           "score": ""
         },
         {
@@ -1793,7 +1793,7 @@
           "date": "Mon 11/05/2026",
           "time": "7:00 PM",
           "homeTeam": "Dynamo Moscow",
-          "awayTeam": "Dynamo",
+          "awayTeam": "Krasnodar",
           "score": ""
         }
       ]
@@ -1813,7 +1813,7 @@
           "date": "Sun 17/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Krasnodar",
-          "awayTeam": "Krsndr",
+          "awayTeam": "Orenburg",
           "score": ""
         },
         {
@@ -1834,28 +1834,28 @@
           "date": "Sun 17/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Rubin Kazan",
-          "awayTeam": "Rubin",
+          "awayTeam": "Pari NN",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Baltika",
-          "awayTeam": "Balt.",
+          "awayTeam": "Dynamo Moscow",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "5:00 PM",
           "homeTeam": "Dinamo Makhach.",
-          "awayTeam": "Din.M.",
+          "awayTeam": "Spartak Moscow",
           "score": ""
         },
         {
           "date": "Sun 17/05/2026",
           "time": "5:00 PM",
           "homeTeam": "FK Sochi",
-          "awayTeam": "Sochi",
+          "awayTeam": "Akhmat Grozny",
           "score": ""
         }
       ]

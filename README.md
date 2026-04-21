@@ -39,6 +39,7 @@ The current UX is browse-first:
 - open knockout brackets for UEFA competitions in the `Playoffs` tab
 - open individual player stat cards
 - use league logos in the picker instead of flag-only chips
+- see match rows normalized to the snapshot club names, so full names and logos stay aligned
 
 There is also a simpler in-chat fallback path for cases where the Mini App is
 not configured yet.

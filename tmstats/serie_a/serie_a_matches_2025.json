@@ -15,7 +15,7 @@
           "date": "Sat 23/08/2025",
           "time": "6:30 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Napoli",
           "score": "0:2"
         },
         {
@@ -36,7 +36,7 @@
           "date": "Sun 24/08/2025",
           "time": "6:30 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Fiorentina",
           "score": "1:1"
         },
         {
@@ -57,14 +57,14 @@
           "date": "Sun 24/08/2025",
           "time": "8:45 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Parma",
           "score": "2:0"
         },
         {
           "date": "Mon 25/08/2025",
           "time": "6:30 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Hellas Verona",
           "score": "1:1"
         },
         {
@@ -98,7 +98,7 @@
           "date": "Sat 30/08/2025",
           "time": "6:30 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Como",
           "score": "1:0"
         },
         {
@@ -160,14 +160,14 @@
           "date": "Sat 13/09/2025",
           "time": "3:00 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Parma",
           "score": "2:0"
         },
         {
           "date": "Sat 13/09/2025",
           "time": "6:00 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Inter",
           "score": "4:3"
         },
         {
@@ -202,7 +202,7 @@
           "date": "Sun 14/09/2025",
           "time": "6:00 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Lazio",
           "score": "1:0"
         },
         {
@@ -216,7 +216,7 @@
           "date": "Mon 15/09/2025",
           "time": "6:30 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Cremonese",
           "score": "0:0"
         },
         {
@@ -243,21 +243,21 @@
           "date": "Sat 20/09/2025",
           "time": "3:00 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Genoa",
           "score": "2:1"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "6:00 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Juventus",
           "score": "1:1"
         },
         {
           "date": "Sat 20/09/2025",
           "time": "8:45 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "AC Milan",
           "score": "0:3"
         },
         {
@@ -319,21 +319,21 @@
           "date": "Sat 27/09/2025",
           "time": "6:00 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Atalanta",
           "score": "1:1"
         },
         {
           "date": "Sat 27/09/2025",
           "time": "8:45 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Inter",
           "score": "0:2"
         },
         {
           "date": "Sun 28/09/2025",
           "time": "12:30 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Udinese",
           "score": "3:1"
         },
         {
@@ -388,7 +388,7 @@
           "date": "Fri 03/10/2025",
           "time": "8:45 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Sassuolo",
           "score": "0:1"
         },
         {
@@ -423,14 +423,14 @@
           "date": "Sun 05/10/2025",
           "time": "12:30 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Cagliari",
           "score": "1:1"
         },
         {
           "date": "Sun 05/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Pisa",
           "score": "4:0"
         },
         {
@@ -451,7 +451,7 @@
           "date": "Sun 05/10/2025",
           "time": "8:45 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "AC Milan",
           "score": "0:0"
         }
       ]
@@ -499,7 +499,7 @@
           "date": "Sun 19/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Bologna",
           "score": "0:2"
         },
         {
@@ -554,7 +554,7 @@
           "date": "Sat 25/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Lecce",
           "score": "3:2"
         },
         {
@@ -582,14 +582,14 @@
           "date": "Sun 26/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Roma",
           "score": "0:1"
         },
         {
           "date": "Sun 26/10/2025",
           "time": "3:00 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Cagliari",
           "score": "2:2"
         },
         {
@@ -637,7 +637,7 @@
           "date": "Wed 29/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Udinese",
           "score": "3:1"
         },
         {
@@ -651,7 +651,7 @@
           "date": "Wed 29/10/2025",
           "time": "8:45 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Torino",
           "score": "0:0"
         },
         {
@@ -672,7 +672,7 @@
           "date": "Thu 30/10/2025",
           "time": "6:30 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Sassuolo",
           "score": "1:2"
         },
         {
@@ -692,7 +692,7 @@
           "date": "Sat 01/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Atalanta",
           "score": "1:0"
         },
         {
@@ -713,7 +713,7 @@
           "date": "Sun 02/11/2025",
           "time": "12:30 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Inter",
           "score": "1:2"
         },
         {
@@ -748,7 +748,7 @@
           "date": "Mon 03/11/2025",
           "time": "6:30 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Genoa",
           "score": "1:2"
         },
         {
@@ -789,7 +789,7 @@
           "date": "Sat 08/11/2025",
           "time": "6:00 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Torino",
           "score": "0:0"
         },
         {
@@ -810,7 +810,7 @@
           "date": "Sun 09/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Napoli",
           "score": "2:0"
         },
         {
@@ -844,14 +844,14 @@
           "date": "Sat 22/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Genoa",
           "score": "3:3"
         },
         {
           "date": "Sat 22/11/2025",
           "time": "3:00 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Bologna",
           "score": "0:3"
         },
         {
@@ -872,7 +872,7 @@
           "date": "Sun 23/11/2025",
           "time": "12:30 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Parma",
           "score": "1:2"
         },
         {
@@ -907,7 +907,7 @@
           "date": "Mon 24/11/2025",
           "time": "8:45 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Pisa",
           "score": "2:2"
         }
       ]
@@ -941,7 +941,7 @@
           "date": "Sat 29/11/2025",
           "time": "6:00 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Cagliari",
           "score": "2:1"
         },
         {
@@ -983,7 +983,7 @@
           "date": "Mon 01/12/2025",
           "time": "8:45 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Cremonese",
           "score": "1:3"
         }
       ]
@@ -996,7 +996,7 @@
           "date": "Sat 06/12/2025",
           "time": "3:00 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Fiorentina",
           "score": "3:1"
         },
         {
@@ -1010,7 +1010,7 @@
           "date": "Sat 06/12/2025",
           "time": "8:45 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Atalanta",
           "score": "3:1"
         },
         {
@@ -1024,7 +1024,7 @@
           "date": "Sun 07/12/2025",
           "time": "3:00 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Roma",
           "score": "1:0"
         },
         {
@@ -1052,7 +1052,7 @@
           "date": "Mon 08/12/2025",
           "time": "6:00 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Genoa",
           "score": "1:2"
         },
         {
@@ -1114,7 +1114,7 @@
           "date": "Sun 14/12/2025",
           "time": "3:00 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Napoli",
           "score": "1:0"
         },
         {
@@ -1128,7 +1128,7 @@
           "date": "Sun 14/12/2025",
           "time": "8:45 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Juventus",
           "score": "0:1"
         },
         {
@@ -1155,21 +1155,21 @@
           "date": "Sat 20/12/2025",
           "time": "8:45 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Roma",
           "score": "2:1"
         },
         {
           "date": "Sun 21/12/2025",
           "time": "12:30 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Pisa",
           "score": "2:2"
         },
         {
           "date": "Sun 21/12/2025",
           "time": "3:00 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Torino",
           "score": "0:1"
         },
         {
@@ -1204,7 +1204,7 @@
           "date": "Thu 15/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Bologna",
           "score": "2:3"
         },
         {
@@ -1245,7 +1245,7 @@
           "date": "Sat 27/12/2025",
           "time": "6:00 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Lazio",
           "score": "1:1"
         },
         {
@@ -1273,7 +1273,7 @@
           "date": "Sun 28/12/2025",
           "time": "6:00 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Sassuolo",
           "score": "1:1"
         },
         {
@@ -1300,7 +1300,7 @@
           "date": "Fri 02/01/2026",
           "time": "8:45 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "AC Milan",
           "score": "0:1"
         },
         {
@@ -1321,14 +1321,14 @@
           "date": "Sat 03/01/2026",
           "time": "3:00 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Parma",
           "score": "1:1"
         },
         {
           "date": "Sat 03/01/2026",
           "time": "6:00 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Lecce",
           "score": "1:1"
         },
         {
@@ -1356,7 +1356,7 @@
           "date": "Sun 04/01/2026",
           "time": "6:00 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Torino",
           "score": "0:3"
         },
         {
@@ -1390,14 +1390,14 @@
           "date": "Tue 06/01/2026",
           "time": "8:45 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Juventus",
           "score": "0:3"
         },
         {
           "date": "Wed 07/01/2026",
           "time": "6:30 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Atalanta",
           "score": "0:2"
         },
         {
@@ -1459,7 +1459,7 @@
           "date": "Sat 10/01/2026",
           "time": "3:00 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Pisa",
           "score": "2:2"
         },
         {
@@ -1494,7 +1494,7 @@
           "date": "Sun 11/01/2026",
           "time": "6:00 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Lazio",
           "score": "0:1"
         },
         {
@@ -1515,7 +1515,7 @@
           "date": "Mon 12/01/2026",
           "time": "8:45 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Cremonese",
           "score": "5:0"
         }
       ]
@@ -1535,7 +1535,7 @@
           "date": "Sat 17/01/2026",
           "time": "3:00 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Inter",
           "score": "0:1"
         },
         {
@@ -1549,7 +1549,7 @@
           "date": "Sat 17/01/2026",
           "time": "8:45 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Juventus",
           "score": "1:0"
         },
         {
@@ -1563,7 +1563,7 @@
           "date": "Sun 18/01/2026",
           "time": "3:00 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Fiorentina",
           "score": "1:2"
         },
         {
@@ -1632,7 +1632,7 @@
           "date": "Sun 25/01/2026",
           "time": "12:30 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Cremonese",
           "score": "1:0"
         },
         {
@@ -1653,7 +1653,7 @@
           "date": "Sun 25/01/2026",
           "time": "6:00 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Napoli",
           "score": "3:0"
         },
         {
@@ -1667,7 +1667,7 @@
           "date": "Mon 26/01/2026",
           "time": "8:45 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Udinese",
           "score": "1:3"
         }
       ]
@@ -1701,7 +1701,7 @@
           "date": "Sat 31/01/2026",
           "time": "8:45 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Hellas Verona",
           "score": "4:0"
         },
         {
@@ -1736,14 +1736,14 @@
           "date": "Mon 02/02/2026",
           "time": "8:45 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Roma",
           "score": "1:0"
         },
         {
           "date": "Tue 03/02/2026",
           "time": "8:45 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "AC Milan",
           "score": "0:3"
         }
       ]
@@ -1756,7 +1756,7 @@
           "date": "Fri 06/02/2026",
           "time": "8:45 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Pisa",
           "score": "0:0"
         },
         {
@@ -1777,7 +1777,7 @@
           "date": "Sun 08/02/2026",
           "time": "12:30 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Parma",
           "score": "0:1"
         },
         {
@@ -1791,14 +1791,14 @@
           "date": "Sun 08/02/2026",
           "time": "6:00 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Inter",
           "score": "0:5"
         },
         {
           "date": "Sun 08/02/2026",
           "time": "8:45 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Lazio",
           "score": "2:2"
         },
         {
@@ -1860,7 +1860,7 @@
           "date": "Sun 15/02/2026",
           "time": "12:30 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Sassuolo",
           "score": "1:2"
         },
         {
@@ -1895,7 +1895,7 @@
           "date": "Mon 16/02/2026",
           "time": "8:45 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Lecce",
           "score": "0:2"
         }
       ]
@@ -1908,14 +1908,14 @@
           "date": "Fri 20/02/2026",
           "time": "8:45 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Hellas Verona",
           "score": "3:0"
         },
         {
           "date": "Sat 21/02/2026",
           "time": "3:00 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Como",
           "score": "0:2"
         },
         {
@@ -1929,7 +1929,7 @@
           "date": "Sat 21/02/2026",
           "time": "8:45 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Lazio",
           "score": "0:0"
         },
         {
@@ -1971,7 +1971,7 @@
           "date": "Mon 23/02/2026",
           "time": "8:45 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Udinese",
           "score": "1:0"
         }
       ]
@@ -1998,7 +1998,7 @@
           "date": "Sat 28/02/2026",
           "time": "6:00 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Napoli",
           "score": "1:2"
         },
         {
@@ -2019,7 +2019,7 @@
           "date": "Sun 01/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Atalanta",
           "score": "2:1"
         },
         {
@@ -2047,7 +2047,7 @@
           "date": "Mon 02/03/2026",
           "time": "8:45 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Fiorentina",
           "score": "3:0"
         }
       ]
@@ -2067,7 +2067,7 @@
           "date": "Sat 07/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Como",
           "score": "1:2"
         },
         {
@@ -2081,7 +2081,7 @@
           "date": "Sat 07/03/2026",
           "time": "8:45 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Pisa",
           "score": "4:0"
         },
         {
@@ -2095,7 +2095,7 @@
           "date": "Sun 08/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Hellas Verona",
           "score": "1:2"
         },
         {
@@ -2157,14 +2157,14 @@
           "date": "Sat 14/03/2026",
           "time": "8:45 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Juventus",
           "score": "0:1"
         },
         {
           "date": "Sun 15/03/2026",
           "time": "12:30 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Genoa",
           "score": "0:2"
         },
         {
@@ -2178,7 +2178,7 @@
           "date": "Sun 15/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Bologna",
           "score": "0:1"
         },
         {
@@ -2212,7 +2212,7 @@
           "date": "Fri 20/03/2026",
           "time": "6:30 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Napoli",
           "score": "0:1"
         },
         {
@@ -2240,7 +2240,7 @@
           "date": "Sat 21/03/2026",
           "time": "8:45 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Sassuolo",
           "score": "1:1"
         },
         {
@@ -2261,7 +2261,7 @@
           "date": "Sun 22/03/2026",
           "time": "3:00 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Lazio",
           "score": "0:2"
         },
         {
@@ -2288,14 +2288,14 @@
           "date": "Sat 04/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Cagliari",
           "score": "2:1"
         },
         {
           "date": "Sat 04/04/2026",
           "time": "6:00 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Fiorentina",
           "score": "0:1"
         },
         {
@@ -2330,7 +2330,7 @@
           "date": "Mon 06/04/2026",
           "time": "12:30 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Como",
           "score": "0:0"
         },
         {
@@ -2344,7 +2344,7 @@
           "date": "Mon 06/04/2026",
           "time": "6:00 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Genoa",
           "score": "2:0"
         },
         {
@@ -2371,7 +2371,7 @@
           "date": "Sat 11/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Cremonese",
           "score": "1:0"
         },
         {
@@ -2413,7 +2413,7 @@
           "date": "Sun 12/04/2026",
           "time": "6:00 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Lecce",
           "score": "2:0"
         },
         {
@@ -2440,7 +2440,7 @@
           "date": "Fri 17/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Como",
           "score": "2:1"
         },
         {
@@ -2454,7 +2454,7 @@
           "date": "Sat 18/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Parma",
           "score": "0:1"
         },
         {
@@ -2482,7 +2482,7 @@
           "date": "Sun 19/04/2026",
           "time": "3:00 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "AC Milan",
           "score": "0:1"
         },
         {
@@ -2496,7 +2496,7 @@
           "date": "Sun 19/04/2026",
           "time": "8:45 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Bologna",
           "score": "2:0"
         },
         {
@@ -2530,14 +2530,14 @@
           "date": "Sat 25/04/2026",
           "time": "6:00 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Roma",
           "score": ""
         },
         {
           "date": "Sat 25/04/2026",
           "time": "8:45 PM",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Lecce",
           "score": ""
         },
         {
@@ -2572,7 +2572,7 @@
           "date": "Mon 27/04/2026",
           "time": "6:30 PM",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Atalanta",
           "score": ""
         },
         {
@@ -2599,7 +2599,7 @@
           "date": "Sat 02/05/2026",
           "time": "3:00 PM",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Torino",
           "score": ""
         },
         {
@@ -2620,21 +2620,21 @@
           "date": "Sun 03/05/2026",
           "time": "12:30 PM",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Cagliari",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "3:00 PM",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "AC Milan",
           "score": ""
         },
         {
           "date": "Sun 03/05/2026",
           "time": "6:00 PM",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Hellas Verona",
           "score": ""
         },
         {
@@ -2668,7 +2668,7 @@
           "date": "",
           "time": "",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Udinese",
           "score": ""
         },
         {
@@ -2731,7 +2731,7 @@
           "date": "",
           "time": "",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Como",
           "score": ""
         }
       ]
@@ -2751,7 +2751,7 @@
           "date": "",
           "time": "",
           "homeTeam": "Cagliari",
-          "awayTeam": "Caglia",
+          "awayTeam": "Torino",
           "score": ""
         },
         {
@@ -2779,7 +2779,7 @@
           "date": "",
           "time": "",
           "homeTeam": "Juventus",
-          "awayTeam": "Juve",
+          "awayTeam": "Fiorentina",
           "score": ""
         },
         {
@@ -2800,14 +2800,14 @@
           "date": "",
           "time": "",
           "homeTeam": "Sassuolo",
-          "awayTeam": "Sassuo",
+          "awayTeam": "Lecce",
           "score": ""
         },
         {
           "date": "",
           "time": "",
           "homeTeam": "Udinese",
-          "awayTeam": "Udine",
+          "awayTeam": "Cremonese",
           "score": ""
         }
       ]
@@ -2820,7 +2820,7 @@
           "date": "",
           "time": "",
           "homeTeam": "Bologna",
-          "awayTeam": "Bolo",
+          "awayTeam": "Inter",
           "score": ""
         },
         {
@@ -2883,7 +2883,7 @@
           "date": "",
           "time": "",
           "homeTeam": "Hellas Verona",
-          "awayTeam": "Hellas",
+          "awayTeam": "Roma",
           "score": ""
         }
       ]

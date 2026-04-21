@@ -1,6 +1,7 @@
 import json
 import re
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Dict, List, Optional
 
 from .browse import get_team_players, load_league_snapshot, parse_int
@@ -31,6 +32,103 @@ def season_label(start_year: int) -> str:
     if not start_year:
         return ''
     return f'{start_year}/{(start_year + 1) % 100:02d}'
+
+
+def club_identity(value: str) -> str:
+    normalized = str(value or '').strip().casefold()
+    return re.sub(r'[^a-z0-9]+', '', normalized)
+
+
+CLUB_ALIASES: Dict[str, List[str]] = {
+    'afcbournemouth': ['bournemouth'],
+    'arsenalfc': ['arsenal'],
+    'brightonhovealbion': ['brighton', 'brightonhove'],
+    'brentfordfc': ['brentford'],
+    'evertonfc': ['everton'],
+    'leedsunited': ['leeds'],
+    'liverpoolfc': ['liverpool'],
+    'manchestercity': ['mancity'],
+    'manchesterunited': ['manutd', 'manunited'],
+    'newcastleunited': ['newcastle'],
+    'nottinghamforest': ['nottmforest'],
+    'sunderlandafc': ['sunderland'],
+    'tottenhamhotspur': ['tottenham'],
+    'westhamunited': ['westham'],
+    'wolverhamptonwanderers': ['wolves'],
+    'fckrasnodar': ['krasnodar', 'krsndr'],
+    'fcparinizhniynovgorod': ['pari', 'parinn'],
+    'dynamomoscow': ['dynamo'],
+    'dinamomakhachkala': ['dinm', 'dinamomakhach', 'dinamomakhachk'],
+    'akhmatgrozny': ['akhmat'],
+    'fcsochi': ['fksochi', 'sochi'],
+    'rubinkazan': ['rubin'],
+    'lokomotivmoscow': ['loko', 'lokomoscow'],
+    'zenitstpetersburg': ['zenit', 'zenitspb'],
+    'baltikakaliningrad': ['balt', 'baltika'],
+    'akrontolyatti': ['akron'],
+    'krylyasovetovsamara': ['kssamara', 'samara'],
+    'atalantabc': ['atalanta'],
+    'bolognafc1909': ['bolo', 'bologna'],
+    'cagliaricalcio': ['caglia', 'cagliari'],
+    'intermilan': ['inter'],
+    'juventusfc': ['juve', 'juventus'],
+    'sscnapoli': ['napoli'],
+    'udinesecalcio': ['udine', 'udinese'],
+    'ussassuolo': ['sassuo', 'sassuolo'],
+    'hellasverona': ['hellas'],
+    'acfiorentina': ['fiorentina'],
+    'parmacalcio1913': ['parma'],
+    'uscremonese': ['cremonese'],
+    'uslecce': ['lecce'],
+}
+
+ALIAS_TO_CANONICAL = {
+    alias: canonical
+    for canonical, aliases in CLUB_ALIASES.items()
+    for alias in aliases
+}
+
+
+def canonical_club_identity(value: str) -> str:
+    identity = club_identity(value)
+    return ALIAS_TO_CANONICAL.get(identity, identity)
+
+
+def load_table_club_map(table_path: Path) -> Dict[str, str]:
+    club_map: Dict[str, str] = {}
+    if not table_path or not table_path.exists():
+        return club_map
+
+    snapshot = load_league_snapshot(table_path.parent.name)
+    for row in snapshot.get('table_rows', []):
+        club = row.get('club', '')
+        identity = canonical_club_identity(club)
+        if identity and club and identity not in club_map:
+            club_map[identity] = club
+        for alias in CLUB_ALIASES.get(identity, []):
+            if alias and club and alias not in club_map:
+                club_map[alias] = club
+    return club_map
+
+
+def canonicalize_match_team_name(name: str, club_map: Dict[str, str]) -> str:
+    raw = str(name or '').strip()
+    if not raw:
+        return ''
+
+    identity = canonical_club_identity(raw)
+    if not identity:
+        return raw
+
+    direct = club_map.get(identity)
+    if direct:
+        return direct
+
+    for club_key, club_name in club_map.items():
+        if club_key.startswith(identity) or identity.startswith(club_key):
+            return club_name
+
+    return raw
 
 
 def player_highlight(player: Optional[dict], stat_key: str = '') -> dict:
@@ -148,7 +246,21 @@ def load_matches_snapshot(table_path, league: str, season_start_year: int) -> di
         return {'groups': []}
 
     with matches_path.open(encoding='utf-8') as json_file:
-        return json.load(json_file)
+        payload = json.load(json_file)
+
+    club_map = load_table_club_map(table_path)
+    for group in payload.get('groups', []):
+        for match in group.get('matches', []):
+            match['homeTeam'] = canonicalize_match_team_name(
+                match.get('homeTeam', ''),
+                club_map,
+            )
+            match['awayTeam'] = canonicalize_match_team_name(
+                match.get('awayTeam', ''),
+                club_map,
+            )
+
+    return payload
 
 
 def build_highlights(teams: List[dict]) -> dict:
