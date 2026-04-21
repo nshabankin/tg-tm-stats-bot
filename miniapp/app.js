@@ -114,6 +114,45 @@ function normalizeClubKey(value) {
     .replace(/^-+|-+$/g, "");
 }
 
+function clubAliasKeys(value) {
+  const raw = `${value || ""}`.trim();
+  if (!raw) {
+    return [];
+  }
+
+  const key = normalizeClubKey(raw);
+  if (!key) {
+    return [];
+  }
+
+  const aliases = new Set([key]);
+  const strippedSuffix = key.replace(/-(fc|afc|cf|sc)$/g, "");
+  if (strippedSuffix && strippedSuffix !== key) {
+    aliases.add(strippedSuffix);
+  }
+
+  const explicitAliases = {
+    "afc-bournemouth": ["bournemouth"],
+    "arsenal-fc": ["arsenal"],
+    "brighton-hove-albion": ["brighton", "brighton-hove"],
+    "brentford-fc": ["brentford"],
+    "everton-fc": ["everton"],
+    "leeds-united": ["leeds"],
+    "liverpool-fc": ["liverpool"],
+    "manchester-city": ["man-city"],
+    "manchester-united": ["man-utd", "man-united"],
+    "newcastle-united": ["newcastle"],
+    "nottingham-forest": ["nottm-forest", "nott-m-forest"],
+    "sunderland-afc": ["sunderland"],
+    "tottenham-hotspur": ["tottenham"],
+    "west-ham-united": ["west-ham"],
+    "wolverhampton-wanderers": ["wolves"],
+  };
+
+  (explicitAliases[key] || []).forEach((alias) => aliases.add(alias));
+  return Array.from(aliases);
+}
+
 function parseStatNumber(value) {
   const normalized = `${value || ""}`.trim();
   if (!normalized || normalized === "-") {
@@ -1025,18 +1064,29 @@ function renderMatches() {
   const matches = group?.matches || [];
   const teams = Array.isArray(state.snapshot.teams) ? state.snapshot.teams : [];
   const logoByName = new Map(teams.map((team) => [team.club, team.logo]));
-  const logoByKey = new Map(
-    teams.map((team) => [normalizeClubKey(team.club), team.logo])
-  );
+  const logoByKey = new Map();
+  teams.forEach((team) => {
+    clubAliasKeys(team.club).forEach((aliasKey) => {
+      if (aliasKey && team.logo && !logoByKey.has(aliasKey)) {
+        logoByKey.set(aliasKey, team.logo);
+      }
+    });
+  });
 
   const resolveLogo = (teamName) => {
     const name = `${teamName || ""}`.trim();
     if (!name) {
       return "";
     }
-    const direct = logoByName.get(name) || logoByKey.get(normalizeClubKey(name));
-    if (direct) {
-      return direct;
+    const directByName = logoByName.get(name);
+    if (directByName) {
+      return directByName;
+    }
+    for (const aliasKey of clubAliasKeys(name)) {
+      const aliasLogo = logoByKey.get(aliasKey);
+      if (aliasLogo) {
+        return aliasLogo;
+      }
     }
     const key = normalizeClubKey(name);
     if (key.length < 5) {
