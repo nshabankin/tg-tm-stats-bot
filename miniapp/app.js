@@ -1148,44 +1148,44 @@ function renderMatches() {
   const group = groups[state.matchesGroupIndex];
   const matches = group?.matches || [];
   const teams = Array.isArray(state.snapshot.teams) ? state.snapshot.teams : [];
-  const logoByName = new Map(teams.map((team) => [team.club, team.logo]));
-  const logoByKey = new Map();
+  const teamByName = new Map(teams.map((team) => [team.club, team]));
+  const teamByKey = new Map();
   teams.forEach((team) => {
     clubAliasKeys(team.club).forEach((aliasKey) => {
-      if (aliasKey && team.logo && !logoByKey.has(aliasKey)) {
-        logoByKey.set(aliasKey, team.logo);
+      if (aliasKey && !teamByKey.has(aliasKey)) {
+        teamByKey.set(aliasKey, team);
       }
     });
   });
 
-  const resolveLogo = (teamName) => {
+  const resolveTeam = (teamName) => {
     const name = `${teamName || ""}`.trim();
     if (!name) {
-      return "";
+      return null;
     }
-    const directByName = logoByName.get(name);
+    const directByName = teamByName.get(name);
     if (directByName) {
       return directByName;
     }
     for (const aliasKey of clubAliasKeys(name)) {
-      const aliasLogo = logoByKey.get(aliasKey);
-      if (aliasLogo) {
-        return aliasLogo;
+      const aliasTeam = teamByKey.get(aliasKey);
+      if (aliasTeam) {
+        return aliasTeam;
       }
     }
     const key = normalizeClubKey(name);
     if (key.length < 5) {
-      return "";
+      return null;
     }
-    for (const [clubKey, logo] of logoByKey.entries()) {
-      if (!logo) {
+    for (const [clubKey, team] of teamByKey.entries()) {
+      if (!team) {
         continue;
       }
       if (clubKey.startsWith(key) || key.startsWith(clubKey)) {
-        return logo;
+        return team;
       }
     }
-    return "";
+    return null;
   };
 
   const matchMeta = (match) => {
@@ -1217,8 +1217,12 @@ function renderMatches() {
         ${matches
           .map((match) => {
             const score = matchScoreLabel(match);
-            const homeLogo = resolveLogo(match.homeTeam);
-            const awayLogo = resolveLogo(match.awayTeam);
+            const homeTeam = resolveTeam(match.homeTeam);
+            const awayTeam = resolveTeam(match.awayTeam);
+            const homeName = homeTeam?.club || match.homeTeam || "-";
+            const awayName = awayTeam?.club || match.awayTeam || "-";
+            const homeLogo = homeTeam?.logo || "";
+            const awayLogo = awayTeam?.logo || "";
             return `
               <article class="match-card">
                 <div class="match-meta">
@@ -1226,13 +1230,13 @@ function renderMatches() {
                 </div>
                 <div class="match-row">
                   <div class="match-team match-team-home">
-                    ${homeLogo ? `<img class="match-team-logo" src="${homeLogo}" alt="${match.homeTeam || "Home"} logo" loading="lazy" />` : ""}
-                    <span class="match-team-name">${match.homeTeam || "-"}</span>
+                    ${homeLogo ? `<img class="match-team-logo" src="${homeLogo}" alt="${homeName} logo" loading="lazy" />` : ""}
+                    <span class="match-team-name">${homeName}</span>
                   </div>
                   <div class="match-scoreline">${score || "TBD"}</div>
                   <div class="match-team match-team-away">
-                    <span class="match-team-name">${match.awayTeam || "-"}</span>
-                    ${awayLogo ? `<img class="match-team-logo" src="${awayLogo}" alt="${match.awayTeam || "Away"} logo" loading="lazy" />` : ""}
+                    <span class="match-team-name">${awayName}</span>
+                    ${awayLogo ? `<img class="match-team-logo" src="${awayLogo}" alt="${awayName} logo" loading="lazy" />` : ""}
                   </div>
                 </div>
               </article>

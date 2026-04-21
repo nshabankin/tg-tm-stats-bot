@@ -7,6 +7,7 @@ football snapshots from local data files.
 It currently supports:
 
 - league table snapshots
+- domestic matchday snapshots
 - UEFA league-phase snapshots
 - UEFA knockout bracket snapshots
 - player stats snapshots
@@ -34,7 +35,8 @@ The current UX is browse-first:
 - pick a league
 - browse the table as dense standings rows
 - open teams as collapsible squad bubbles
-- open knockout brackets for UEFA competitions
+- browse domestic and UEFA match results in the `Matches` tab
+- open knockout brackets for UEFA competitions in the `Playoffs` tab
 - open individual player stat cards
 - use league logos in the picker instead of flag-only chips
 
@@ -49,6 +51,7 @@ revived into a local-first workflow:
 - the bot can run locally as a combined web service and Telegram bot
 - snapshots are refreshed manually with `refresh_data.py`
 - the bot reads the latest available local CSV snapshots
+- the bot reads local JSON match snapshots alongside table and player snapshots
 - CSV and PDF exports can be generated alongside those snapshots
 - team logos can be refreshed into the table snapshots for Mini App display
 - league tables now include recent five-match form when Transfermarkt exposes it
@@ -241,9 +244,9 @@ Then in Telegram:
 1. send `/start`
 2. tap `Open Mini App` for the full experience
 3. choose a league inside the Mini App
-4. switch between `Table` and `Teams`
+4. switch between `Table`, `Teams`, and `Matches`
 5. in `Teams`, expand a club bubble to see its squad
-6. for UEFA competitions, open `Bracket` to browse the knockout rounds
+6. for UEFA competitions, open `Playoffs` to browse the knockout rounds
 7. tap a player to open their stat card
 
 If `APP_BASE_URL` is not configured yet, the bot falls back to the simpler
