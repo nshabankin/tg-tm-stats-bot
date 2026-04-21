@@ -657,14 +657,14 @@ body {
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 18px 16px;
+  padding: 16px 14px;
   scroll-snap-type: x mandatory;
 }
 
 .bracket-columns {
   position: relative;
   display: flex;
-  gap: 18px;
+  gap: 14px;
   align-items: flex-start;
   min-width: max-content;
   z-index: 1;
@@ -679,9 +679,9 @@ body {
 }
 
 .bracket-round {
-  width: 200px;
+  width: 176px;
   display: grid;
-  gap: 12px;
+  gap: 10px;
   scroll-snap-align: start;
 }
 
@@ -694,6 +694,7 @@ body {
   margin: 0;
   font-weight: 900;
   letter-spacing: 0.01em;
+  font-size: 0.96rem;
 }
 
 
@@ -797,21 +798,22 @@ body {
 
 .bracket-ties {
   display: grid;
-  gap: 12px;
+  gap: 10px;
+  align-content: start;
 }
 
 .bracket-tie-card {
   background: rgba(13, 25, 42, 0.82);
   border: 1px solid var(--line);
-  border-radius: 18px;
-  padding: 12px 12px 10px;
+  border-radius: 16px;
+  padding: 10px 10px 8px;
   position: relative;
   z-index: 1;
 }
 
 .bracket-tie-rows {
   display: grid;
-  gap: 8px;
+  gap: 6px;
 }
 
 .bracket-tie-row {
@@ -826,14 +828,14 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-top: 8px;
+  padding-top: 8px;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .bracket-tie-code {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -842,15 +844,15 @@ body {
 .bracket-team {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   min-width: 0;
 }
 
 .bracket-team-logo {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   border-radius: 999px;
-  padding: 3px;
+  padding: 2px;
   object-fit: contain;
   background: rgba(255, 255, 255, 0.95);
   flex: 0 0 auto;
@@ -858,11 +860,16 @@ body {
 
 .bracket-team-name {
   font-weight: 700;
+  font-size: 0.92rem;
   min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .bracket-result {
   font-weight: 800;
+  font-size: 0.92rem;
   color: var(--accent);
   flex: 0 0 auto;
 }

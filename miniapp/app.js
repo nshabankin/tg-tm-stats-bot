@@ -1055,6 +1055,30 @@ function drawBracketLines(viewportEl) {
   }
 }
 
+function centerBracketRounds(viewportEl) {
+  const tieGroups = Array.from(viewportEl.querySelectorAll(".bracket-ties"));
+  if (!tieGroups.length) {
+    return;
+  }
+
+  tieGroups.forEach((groupEl) => {
+    groupEl.style.paddingTop = "0px";
+    groupEl.style.paddingBottom = "0px";
+  });
+
+  const maxHeight = Math.max(
+    ...tieGroups.map((groupEl) => groupEl.getBoundingClientRect().height)
+  );
+
+  tieGroups.forEach((groupEl) => {
+    const ownHeight = groupEl.getBoundingClientRect().height;
+    const spare = Math.max(0, maxHeight - ownHeight);
+    const inset = Math.floor(spare / 2);
+    groupEl.style.paddingTop = `${inset}px`;
+    groupEl.style.paddingBottom = `${spare - inset}px`;
+  });
+}
+
 function renderBracket() {
   if (!hasBracket()) {
     bracketViewEl.innerHTML = '<div class="empty-state">No knockout bracket is available in the current snapshot.</div>';
@@ -1115,7 +1139,10 @@ function renderBracket() {
   `;
 
   // Let the layout settle, then draw connector lines.
-  requestAnimationFrame(() => drawBracketLines(bracketViewEl));
+  requestAnimationFrame(() => {
+    centerBracketRounds(bracketViewEl);
+    requestAnimationFrame(() => drawBracketLines(bracketViewEl));
+  });
 }
 
 function matchGroupLabel(group) {
