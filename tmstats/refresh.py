@@ -29,6 +29,9 @@ STATS_FIELDS = ['player_id', 'player_name', 'number', 'position',
                 'yellow_cards', 'second_yellows', 'red_cards',
                 'conceded', 'clean_sheets',
                 'minutes']
+STAT_VALUE_FIELDS = ['played', 'goals', 'assists',
+                     'yellow_cards', 'second_yellows', 'red_cards',
+                     'conceded', 'clean_sheets', 'minutes']
 TABLE_FIELDS = ['rank', 'club', 'logo', 'played', 'wins', 'draws',
                 'losses', 'goals', 'diff', 'points', 'form']
 
@@ -296,6 +299,31 @@ def write_csv(path: Path, rows: Iterable[dict], fieldnames: List[str]) -> None:
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
+
+
+def stats_rows_with_values(rows: List[dict]) -> int:
+    count = 0
+    for row in rows:
+        if any(normalize_text(row.get(field, '')) for field in STAT_VALUE_FIELDS):
+            count += 1
+    return count
+
+
+def pick_stats_output(candidate_rows: List[dict],
+                      existing_rows: List[dict],
+                      league_key: str) -> List[dict]:
+    candidate_count = stats_rows_with_values(candidate_rows)
+    existing_count = stats_rows_with_values(existing_rows)
+
+    if candidate_rows and candidate_count == 0 and existing_count > 0:
+        print(
+            f'Warning: preserving existing stats snapshot for {league_key} '
+            f'because the refreshed player stats came back empty.',
+            flush=True,
+        )
+        return existing_rows
+
+    return candidate_rows
 
 
 def write_json(path: Path, payload: dict) -> None:
@@ -1248,6 +1276,7 @@ def refresh_league(league_key: str, season: int = None,
     league = LEAGUES[league_key]
     league_label = league.label
     players_csv = league_dir / f'{league_key}_players_{season}.csv'
+    stats_csv = league_dir / f'{league_key}_stats_{season}.csv'
     bracket_json = league_dir / f'{league_key}_bracket_{season}.json'
     matches_json = league_dir / f'{league_key}_matches_{season}.json'
 
@@ -1289,8 +1318,10 @@ def refresh_league(league_key: str, season: int = None,
         delay=delay,
     )
 
-    write_csv(league_dir / f'{league_key}_stats_{season}.csv',
-              stats, STATS_FIELDS)
+    existing_stats = read_csv_rows(stats_csv) if stats_csv.exists() else []
+    stats_output = pick_stats_output(stats, existing_stats, league_key)
+
+    write_csv(stats_csv, stats_output, STATS_FIELDS)
     write_csv(league_dir / f'{league_key}_table_{season}.csv',
               table, TABLE_FIELDS)
     bracket_payload = None
@@ -1323,7 +1354,7 @@ def refresh_league(league_key: str, season: int = None,
         print(f'Warning: failed to refresh match list for {league_key}: '
               f'{error}', flush=True)
     render_pdf(league_dir / f'{league_key}_stats_{season}.pdf',
-               'stats', league_label, season, stats)
+               'stats', league_label, season, stats_output)
     render_pdf(league_dir / f'{league_key}_table_{season}.pdf',
                'table', league_label, season, table)
 
@@ -1332,7 +1363,7 @@ def refresh_league(league_key: str, season: int = None,
         'season': season,
         'clubs': len(teams),
         'players': len(players),
-        'stats_rows': len(stats),
+        'stats_rows': len(stats_output),
         'table_rows': len(table),
     }
 
