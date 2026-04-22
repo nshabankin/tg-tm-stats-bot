@@ -713,9 +713,11 @@ function renderTeamControls(count) {
           <option value="minutes" ${state.playerSort === "minutes" ? "selected" : ""}>Minutes</option>
         </select>
       </label>
-      <div class="team-results-copy">
-        <p class="summary-label">Showing</p>
-        <p class="team-results-value">${count} clubs</p>
+      <div class="field-shell team-results-shell">
+        <span class="field-label">Showing</span>
+        <div class="team-results-copy">
+          <p class="team-results-value">${count} clubs</p>
+        </div>
       </div>
     </div>
   `;

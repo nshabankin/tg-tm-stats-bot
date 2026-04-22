@@ -459,27 +459,46 @@ body {
   background: rgba(12, 20, 35, 0.94);
   color: var(--text);
   padding: 14px 16px;
+  min-height: 56px;
   font: inherit;
+  line-height: 1.2;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .text-input::placeholder {
   color: rgba(164, 179, 198, 0.7);
 }
 
+.select-input {
+  background-image:
+    linear-gradient(45deg, transparent 50%, rgba(232, 240, 255, 0.92) 50%),
+    linear-gradient(135deg, rgba(232, 240, 255, 0.92) 50%, transparent 50%);
+  background-position:
+    calc(100% - 22px) calc(50% - 3px),
+    calc(100% - 14px) calc(50% - 3px);
+  background-size: 8px 8px, 8px 8px;
+  background-repeat: no-repeat;
+  padding-right: 42px;
+}
+
+.team-results-shell {
+  min-width: 132px;
+}
+
 .team-results-copy {
-  min-width: 108px;
   border-radius: 16px;
   border: 1px solid var(--line);
   background: rgba(12, 20, 35, 0.94);
-  padding: 12px 14px;
+  padding: 14px 16px;
   display: grid;
   align-content: center;
   justify-items: start;
-  min-height: 52px;
+  min-height: 56px;
 }
 
 .team-results-value {
-  margin: 4px 0 0;
+  margin: 0;
   font-size: 20px;
   font-weight: 800;
 }
@@ -1060,8 +1079,11 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .team-results-shell {
+    min-width: 0;
+  }
+
   .team-results-copy {
     min-width: 0;
-    padding: 0;
   }
 }
