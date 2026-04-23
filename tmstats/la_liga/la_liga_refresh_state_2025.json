@@ -1,0 +1,74 @@
+{
+  "league": "la_liga",
+  "season": 2025,
+  "updatedAt": "2026-04-23T17:16:56+00:00",
+  "mode": "changed-team-stats",
+  "counts": {
+    "clubs": 20,
+    "players": 519,
+    "statsRows": 519,
+    "tableRows": 20
+  },
+  "matches": {
+    "groupCount": 38,
+    "pendingMatchdays": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "completedMatchdays": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "lastPendingMatchday": 38,
+    "lastCompletedMatchday": 31
+  },
+  "stats": {
+    "status": "skipped",
+    "changedClubs": [],
+    "resolvedClubs": [],
+    "unresolvedClubs": []
+  },
+  "outputs": {
+    "tableChanged": true,
+    "playersChanged": false,
+    "statsChanged": false,
+    "matchesChanged": true,
+    "bracketChanged": false,
+    "tablePdfRendered": true,
+    "statsPdfRendered": false
+  }
+}

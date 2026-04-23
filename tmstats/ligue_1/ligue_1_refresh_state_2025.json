@@ -1,0 +1,70 @@
+{
+  "league": "ligue_1",
+  "season": 2025,
+  "updatedAt": "2026-04-23T17:17:36+00:00",
+  "mode": "changed-team-stats",
+  "counts": {
+    "clubs": 18,
+    "players": 478,
+    "statsRows": 478,
+    "tableRows": 18
+  },
+  "matches": {
+    "groupCount": 34,
+    "pendingMatchdays": [
+      29,
+      31,
+      32,
+      33,
+      34
+    ],
+    "completedMatchdays": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30
+    ],
+    "lastPendingMatchday": 34,
+    "lastCompletedMatchday": 30
+  },
+  "stats": {
+    "status": "skipped",
+    "changedClubs": [],
+    "resolvedClubs": [],
+    "unresolvedClubs": []
+  },
+  "outputs": {
+    "tableChanged": false,
+    "playersChanged": false,
+    "statsChanged": false,
+    "matchesChanged": false,
+    "bracketChanged": false,
+    "tablePdfRendered": false,
+    "statsPdfRendered": false
+  }
+}
