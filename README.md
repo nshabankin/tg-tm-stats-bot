@@ -253,6 +253,17 @@ python refresh_data.py --league epl --season 2025 --pdf-only
 This does not contact Transfermarkt. It reads the local CSV files and renders
 the PDFs again.
 
+## Verification
+
+Run the local smoke checks for the refresh pipeline with:
+
+```bash
+.venv/bin/python -m unittest discover -s tests -p 'test_*.py'
+```
+
+These tests stay off the network and cover the refactored refresh entrypoint,
+shared context setup, pipeline helpers, and targeted changed-team control flow.
+
 ## Bot Usage
 
 Run the combined service:

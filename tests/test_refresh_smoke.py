@@ -4,10 +4,11 @@ import unittest
 from contextlib import redirect_stdout
 from datetime import date
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
-from tmstats import refresh, refresh_context, refresh_pipeline
-from tmstats.refresh_paths import build_league_refresh_paths
+from tmstats import refresh, refresh_context, refresh_modes, refresh_pipeline
+from tmstats.refresh_paths import LeagueRefreshPaths, build_league_refresh_paths
 
 
 class RefreshContextTests(unittest.TestCase):
@@ -156,6 +157,128 @@ class RefreshEntrypointTests(unittest.TestCase):
         output = buffer.getvalue()
         self.assertIn('Refreshing test mode for epl season 2025', output)
         self.assertIn('Refreshing test mode for ucl season 2025', output)
+
+
+class RefreshModesTests(unittest.TestCase):
+    def make_paths(self, temp_dir: str, league_key: str = 'epl',
+                   season: int = 2025) -> LeagueRefreshPaths:
+        league_dir = Path(temp_dir) / league_key
+        league_dir.mkdir(parents=True, exist_ok=True)
+        return LeagueRefreshPaths(
+            league_key=league_key,
+            season=season,
+            league_dir=league_dir,
+            players_csv=league_dir / f'{league_key}_players_{season}.csv',
+            stats_csv=league_dir / f'{league_key}_stats_{season}.csv',
+            table_csv=league_dir / f'{league_key}_table_{season}.csv',
+            matches_json=league_dir / f'{league_key}_matches_{season}.json',
+            bracket_json=league_dir / f'{league_key}_bracket_{season}.json',
+            table_pdf=league_dir / f'{league_key}_table_{season}.pdf',
+            stats_pdf=league_dir / f'{league_key}_stats_{season}.pdf',
+        )
+
+    def test_changed_team_stats_falls_back_to_full_refresh_when_baseline_missing(
+            self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            context = SimpleNamespace(
+                league_key='epl',
+                season=2025,
+                timeout=20,
+                paths=self.make_paths(temp_dir),
+                league_label='Premier League',
+            )
+
+            with patch('tmstats.refresh_modes.build_refresh_context',
+                       return_value=context), patch(
+                           'tmstats.refresh_modes.refresh_league',
+                           return_value={'league': 'epl', 'mode': 'full'},
+                       ) as refresh_league_mock:
+                result = refresh_modes.refresh_changed_team_stats_only(
+                    'epl',
+                    season=2025,
+                    timeout=20,
+                    delay=0.5,
+                )
+
+        self.assertEqual(result, {'league': 'epl', 'mode': 'full'})
+        refresh_league_mock.assert_called_once_with('epl', 2025, 20, 0.5)
+
+    def test_changed_team_stats_skips_player_refresh_when_no_matches_changed(
+            self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            paths = self.make_paths(temp_dir)
+            paths.players_csv.write_text('baseline players')
+            paths.stats_csv.write_text('baseline stats')
+            paths.matches_json.write_text('{}')
+
+            cold_context = SimpleNamespace(
+                league_key='epl',
+                season=2025,
+                timeout=20,
+                paths=paths,
+                league_label='Premier League',
+            )
+            live_context = SimpleNamespace(
+                league_key='epl',
+                season=2025,
+                timeout=20,
+                paths=paths,
+                league_label='Premier League',
+                session=object(),
+                teams=[{'id': '1', 'name': 'Arsenal'}],
+                table=[{'rank': '1', 'club': 'Arsenal'}],
+            )
+
+            with patch(
+                'tmstats.refresh_modes.build_refresh_context',
+                side_effect=[cold_context, live_context],
+            ), patch(
+                'tmstats.refresh_modes.read_json',
+                return_value={'groups': []},
+            ), patch(
+                'tmstats.refresh_modes.load_existing_players',
+                return_value=[{'id': '1', 'club': 'Arsenal'}],
+            ), patch(
+                'tmstats.refresh_modes.read_csv_rows',
+                return_value=[{'club': 'Arsenal'}],
+            ), patch(
+                'tmstats.refresh_modes.refresh_bracket_snapshot',
+                return_value=(None, False),
+            ), patch(
+                'tmstats.refresh_modes.fetch_match_groups',
+                return_value={'groups': []},
+            ), patch(
+                'tmstats.refresh_modes.detect_updated_match_clubs',
+                return_value=[],
+            ), patch(
+                'tmstats.refresh_modes.write_matches_snapshot',
+                return_value=True,
+            ), patch(
+                'tmstats.refresh_modes.write_table_snapshot',
+                return_value=True,
+            ), patch(
+                'tmstats.refresh_modes.render_snapshot_pdfs',
+                return_value=(True, False),
+            ), patch(
+                'tmstats.refresh_modes.write_refresh_summary',
+                return_value={'league': 'epl', 'stats_status': 'skipped'},
+            ) as write_summary_mock, patch(
+                'tmstats.refresh_modes.fetch_players',
+            ) as fetch_players_mock, patch(
+                'tmstats.refresh_modes.fetch_stats',
+            ) as fetch_stats_mock:
+                result = refresh_modes.refresh_changed_team_stats_only(
+                    'epl',
+                    season=2025,
+                    timeout=20,
+                    delay=0.5,
+                )
+
+        self.assertEqual(result, {'league': 'epl', 'stats_status': 'skipped'})
+        fetch_players_mock.assert_not_called()
+        fetch_stats_mock.assert_not_called()
+        write_summary_mock.assert_called_once()
+        self.assertEqual(write_summary_mock.call_args.kwargs['stats_status'], 'skipped')
 
 
 if __name__ == '__main__':
