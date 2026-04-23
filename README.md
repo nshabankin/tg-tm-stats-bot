@@ -202,6 +202,24 @@ Use `--logos-only` as a light visual refresh for existing table snapshots. If
 standings and squads have moved materially since the last run, prefer a full
 refresh so clubs, logos, table positions, and players all stay aligned.
 
+For midweek catch-up runs where only a few matches finished, use targeted team
+refreshes:
+
+```bash
+python refresh_data.py --all --changed-team-stats
+```
+
+That mode:
+
+- refreshes the live table and match snapshots for each selected league
+- compares the new match JSON against the saved one
+- detects clubs from fixtures whose score changed from empty to played, or whose
+  score changed since the last snapshot
+- refreshes only those clubs' rosters and player stats
+
+If the baseline CSV/JSON snapshots are missing, it falls back to a full league
+refresh for safety.
+
 The refresh writes files into `tmstats/<league>/`.
 
 The stats refresh now tries to match the domestic-league competition row on
@@ -278,6 +296,8 @@ inline chat flow.
 - Main refresh pipeline
 - Pulls current standings, recent team form, and player data
 - Writes player and table snapshot CSV files
+- Can refresh only clubs involved in newly completed matches with
+  `--changed-team-stats`
 - Can refresh only team logo URLs with `--logos-only`
 - Optionally renders PDF exports from those snapshots
 

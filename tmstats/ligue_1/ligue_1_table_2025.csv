@@ -1,8 +1,8 @@
 rank,club,logo,played,wins,draws,losses,goals,diff,points,form
-1,Paris Saint-Germain,https://tmssl.akamaized.net//images/wappen/head/583.png?lm=1728026461,28,20,3,5,62:25,37,63,LWWL
+1,Paris Saint-Germain,https://tmssl.akamaized.net//images/wappen/head/583.png?lm=1728026461,29,21,3,5,65:25,40,66,LWWWL
 2,RC Lens,https://tmssl.akamaized.net//images/wappen/head/826.png?lm=1595457059,29,20,2,7,57:29,28,62,WLWLW
-3,LOSC Lille,https://tmssl.akamaized.net//images/wappen/head/1082.png?lm=1529521041,30,16,6,8,49:34,15,54,DWWWWD
-4,Olympique Lyon,https://tmssl.akamaized.net//images/wappen/head/1041.png?lm=1656668172,30,16,6,8,45:30,15,54,DDLDWW
+3,Olympique Lyon,https://tmssl.akamaized.net//images/wappen/head/1041.png?lm=1656668172,30,16,6,8,45:30,15,54,DDLDWW
+4,LOSC Lille,https://tmssl.akamaized.net//images/wappen/head/1082.png?lm=1529521041,30,16,6,8,49:34,15,54,DWWWWD
 5,Stade Rennais FC,https://tmssl.akamaized.net//images/wappen/head/273.png?lm=1691503972,30,15,8,7,52:41,11,53,WLDWWW
 6,Olympique Marseille,https://tmssl.akamaized.net//images/wappen/head/244.png?lm=1775675175,30,16,4,10,58:40,18,52,WWLLWL
 7,AS Monaco,https://tmssl.akamaized.net//images/wappen/head/162.png?lm=1654781919,30,15,5,10,52:45,7,50,WWWWLD
@@ -15,5 +15,5 @@ rank,club,logo,played,wins,draws,losses,goals,diff,points,form
 14,Le Havre AC,https://tmssl.akamaized.net//images/wappen/head/738.png?lm=1408780648,30,6,12,12,25:38,-13,30,LDLDDD
 15,OGC Nice,https://tmssl.akamaized.net//images/wappen/head/417.png?lm=1408779490,30,7,8,15,34:56,-22,29,LWLLDD
 16,AJ Auxerre,https://tmssl.akamaized.net//images/wappen/head/290.png?lm=1635851977,30,5,10,15,25:39,-14,25,DLWDDD
-17,FC Nantes,https://tmssl.akamaized.net//images/wappen/head/995.png?lm=1581355747,29,4,8,17,25:46,-21,20,LLDDD
+17,FC Nantes,https://tmssl.akamaized.net//images/wappen/head/995.png?lm=1581355747,30,4,8,18,25:49,-24,20,LLLDDD
 18,FC Metz,https://tmssl.akamaized.net//images/wappen/head/347.png?lm=1625391843,30,3,6,21,27:66,-39,15,LLDDLL
