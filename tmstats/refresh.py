@@ -1,6 +1,5 @@
 import argparse
 from datetime import date
-from pathlib import Path
 from typing import Iterable, List, Optional, Tuple
 
 import requests
@@ -8,52 +7,28 @@ import requests
 from .catalog import LEAGUES, LEAGUE_KEYS
 from .identity import canonical_club_identity, club_identity
 from .incremental import detect_updated_match_clubs, resolve_team_names
-from .pdf_export import render_pdf
-from .player_stats import (PLAYER_FIELDS, STATS_FIELDS, fetch_players,
-                           fetch_stats, load_existing_players,
+from .player_stats import (fetch_players, fetch_stats, load_existing_players,
                            pick_stats_output, replace_players_for_clubs,
                            replace_stats_for_clubs)
+from .refresh_pipeline import (render_snapshot_pdfs,
+                               write_matches_snapshot,
+                               write_players_snapshot,
+                               write_refresh_summary,
+                               write_stats_snapshot,
+                               write_table_snapshot)
 from .refresh_paths import LeagueRefreshPaths, build_league_refresh_paths
-from .refresh_state import write_refresh_state
 from .source import (build_session, fetch_current_table,
                      fetch_knockout_bracket, fetch_match_groups,
                      fetch_recent_form)
-from .storage import read_csv_rows, read_json, write_csv, write_json
+from .storage import read_csv_rows, read_json, write_json
 
 DEFAULT_TIMEOUT = 20
 DEFAULT_DELAY = 0.25
-
-TABLE_FIELDS = ['rank', 'club', 'logo', 'played', 'wins', 'draws',
-                'losses', 'goals', 'diff', 'points', 'form']
 
 
 def current_season_start_year(today: date = None) -> int:
     today = today or date.today()
     return today.year if today.month >= 7 else today.year - 1
-
-
-def render_snapshot_pdf(path: Path, snapshot_type: str,
-                        league_label: str, season: int,
-                        rows: List[dict],
-                        data_changed: bool = False,
-                        force: bool = False) -> bool:
-    if not force and not data_changed and path.exists():
-        return False
-    render_pdf(path, snapshot_type, league_label, season, rows)
-    return True
-
-
-def build_refresh_result(league_key: str, season: int, *,
-                         clubs: int, players: int,
-                         stats_rows: int, table_rows: int) -> dict:
-    return {
-        'league': league_key,
-        'season': season,
-        'clubs': clubs,
-        'players': players,
-        'stats_rows': stats_rows,
-        'table_rows': table_rows,
-    }
 
 
 def refresh_live_table(session: requests.Session, league_key: str,
@@ -121,7 +96,7 @@ def refresh_league(league_key: str, season: int = None,
 
     if not players:
         players = fetch_players(session, teams, timeout, delay)
-        players_changed = write_csv(paths.players_csv, players, PLAYER_FIELDS)
+        players_changed = write_players_snapshot(paths, players)
         print(f'  fetched {len(teams)} teams and {len(players)} players',
               flush=True)
 
@@ -138,8 +113,8 @@ def refresh_league(league_key: str, season: int = None,
     existing_stats = read_csv_rows(paths.stats_csv) if paths.stats_csv.exists() else []
     stats_output = pick_stats_output(stats, existing_stats, league_key)
 
-    stats_changed = write_csv(paths.stats_csv, stats_output, STATS_FIELDS)
-    table_changed = write_csv(paths.table_csv, table, TABLE_FIELDS)
+    stats_changed = write_stats_snapshot(paths, stats_output)
+    table_changed = write_table_snapshot(paths, table)
     bracket_payload, bracket_changed = refresh_bracket_snapshot(
         session,
         league_key,
@@ -161,30 +136,21 @@ def refresh_league(league_key: str, season: int = None,
             club_count=len(table),
             delay=delay,
         )
-        matches_changed = write_json(
-            paths.matches_json,
-            matches_payload,
-        )
+        matches_changed = write_matches_snapshot(paths, matches_payload)
     except Exception as error:
         print(f'Warning: failed to refresh match list for {league_key}: '
               f'{error}', flush=True)
-    table_pdf_rendered = render_snapshot_pdf(
-        paths.table_pdf,
-        'table',
+    table_pdf_rendered, stats_pdf_rendered = render_snapshot_pdfs(
+        paths,
         league_label,
         season,
-        table,
-        data_changed=table_changed,
+        table_rows=table,
+        stats_rows=stats_output,
+        table_changed=table_changed,
+        stats_changed=stats_changed,
     )
-    stats_pdf_rendered = render_snapshot_pdf(
-        paths.stats_pdf,
-        'stats',
-        league_label,
-        season,
-        stats_output,
-        data_changed=stats_changed,
-    )
-    write_refresh_state(
+
+    return write_refresh_summary(
         league_key,
         season,
         mode='full',
@@ -201,15 +167,6 @@ def refresh_league(league_key: str, season: int = None,
         bracket_changed=bracket_changed,
         table_pdf_rendered=table_pdf_rendered,
         stats_pdf_rendered=stats_pdf_rendered,
-    )
-
-    return build_refresh_result(
-        league_key,
-        season,
-        clubs=len(teams),
-        players=len(players),
-        stats_rows=len(stats_output),
-        table_rows=len(table),
     )
 
 
@@ -229,24 +186,17 @@ def render_league_pdfs(league_key: str, season: int = None) -> dict:
     table_rows = read_csv_rows(paths.table_csv)
     stats_rows = read_csv_rows(paths.stats_csv)
 
-    table_pdf_rendered = render_snapshot_pdf(
-        paths.table_pdf,
-        'table',
+    table_pdf_rendered, stats_pdf_rendered = render_snapshot_pdfs(
+        paths,
         league_label,
         season,
-        table_rows,
-        force=True,
-    )
-    stats_pdf_rendered = render_snapshot_pdf(
-        paths.stats_pdf,
-        'stats',
-        league_label,
-        season,
-        stats_rows,
+        table_rows=table_rows,
+        stats_rows=stats_rows,
         force=True,
     )
     matches_payload = read_json(paths.matches_json) if paths.matches_json.exists() else None
-    write_refresh_state(
+
+    return write_refresh_summary(
         league_key,
         season,
         mode='pdf-only',
@@ -258,15 +208,6 @@ def render_league_pdfs(league_key: str, season: int = None) -> dict:
         stats_status='unchanged',
         table_pdf_rendered=table_pdf_rendered,
         stats_pdf_rendered=stats_pdf_rendered,
-    )
-
-    return build_refresh_result(
-        league_key,
-        season,
-        clubs=len(table_rows),
-        players=len(stats_rows),
-        stats_rows=len(stats_rows),
-        table_rows=len(table_rows),
     )
 
 
@@ -335,21 +276,20 @@ def refresh_changed_team_stats_only(
     )
     changed_clubs = detect_updated_match_clubs(existing_matches, latest_matches)
 
-    matches_changed = write_json(paths.matches_json, latest_matches)
-    table_changed = write_csv(paths.table_csv, table, TABLE_FIELDS)
-    table_pdf_rendered = render_snapshot_pdf(
-        paths.table_pdf,
-        'table',
+    matches_changed = write_matches_snapshot(paths, latest_matches)
+    table_changed = write_table_snapshot(paths, table)
+    table_pdf_rendered, _stats_pdf_rendered = render_snapshot_pdfs(
+        paths,
         league_label,
         season,
-        table,
-        data_changed=table_changed,
+        table_rows=table,
+        table_changed=table_changed,
     )
 
     if not changed_clubs:
         print('  no newly completed or changed matches; player stats unchanged',
               flush=True)
-        write_refresh_state(
+        return write_refresh_summary(
             league_key,
             season,
             mode='changed-team-stats',
@@ -364,14 +304,6 @@ def refresh_changed_team_stats_only(
             matches_changed=matches_changed,
             bracket_changed=bracket_changed,
             table_pdf_rendered=table_pdf_rendered,
-        )
-        return build_refresh_result(
-            league_key,
-            season,
-            clubs=len(teams),
-            players=len(existing_players),
-            stats_rows=len(existing_stats),
-            table_rows=len(table),
         )
 
     targeted_teams, unresolved_clubs = resolve_team_names(changed_clubs, teams)
@@ -391,7 +323,7 @@ def refresh_changed_team_stats_only(
     if not targeted_teams:
         print('  no changed clubs could be resolved to current table teams',
               flush=True)
-        write_refresh_state(
+        return write_refresh_summary(
             league_key,
             season,
             mode='changed-team-stats',
@@ -408,14 +340,6 @@ def refresh_changed_team_stats_only(
             matches_changed=matches_changed,
             bracket_changed=bracket_changed,
             table_pdf_rendered=table_pdf_rendered,
-        )
-        return build_refresh_result(
-            league_key,
-            season,
-            clubs=len(teams),
-            players=len(existing_players),
-            stats_rows=len(existing_stats),
-            table_rows=len(table),
         )
 
     print(
@@ -434,7 +358,7 @@ def refresh_changed_team_stats_only(
         replacement_players,
         targeted_club_ids,
     )
-    players_changed = write_csv(paths.players_csv, players_output, PLAYER_FIELDS)
+    players_changed = write_players_snapshot(paths, players_output)
 
     targeted_existing_stats = [
         row for row in existing_stats
@@ -459,16 +383,15 @@ def refresh_changed_team_stats_only(
         replacement_stats,
         targeted_club_ids,
     )
-    stats_changed = write_csv(paths.stats_csv, stats_output, STATS_FIELDS)
-    stats_pdf_rendered = render_snapshot_pdf(
-        paths.stats_pdf,
-        'stats',
+    stats_changed = write_stats_snapshot(paths, stats_output)
+    _table_pdf_rendered, stats_pdf_rendered = render_snapshot_pdfs(
+        paths,
         league_label,
         season,
-        stats_output,
-        data_changed=stats_changed,
+        stats_rows=stats_output,
+        stats_changed=stats_changed,
     )
-    write_refresh_state(
+    return write_refresh_summary(
         league_key,
         season,
         mode='changed-team-stats',
@@ -488,15 +411,6 @@ def refresh_changed_team_stats_only(
         bracket_changed=bracket_changed,
         table_pdf_rendered=table_pdf_rendered,
         stats_pdf_rendered=stats_pdf_rendered,
-    )
-
-    return build_refresh_result(
-        league_key,
-        season,
-        clubs=len(teams),
-        players=len(players_output),
-        stats_rows=len(stats_output),
-        table_rows=len(table),
     )
 
 
@@ -538,13 +452,11 @@ def refresh_matches_only(league_key: str, season: int = None,
             existing_payload=existing_matches,
             delay=delay,
         )
-        matches_changed = write_json(
-            paths.matches_json,
-            matches_payload,
-        )
+        matches_changed = write_matches_snapshot(paths, matches_payload)
     except Exception as error:
         print(f'Warning: failed to refresh match list for {league_key}: {error}', flush=True)
-    write_refresh_state(
+
+    return write_refresh_summary(
         league_key,
         season,
         mode='matches-only',
@@ -556,15 +468,6 @@ def refresh_matches_only(league_key: str, season: int = None,
         stats_status='skipped',
         matches_changed=matches_changed,
         bracket_changed=bracket_changed,
-    )
-
-    return build_refresh_result(
-        league_key,
-        season,
-        clubs=len(table),
-        players=0,
-        stats_rows=0,
-        table_rows=len(table),
     )
 
 
@@ -621,17 +524,17 @@ def refresh_logos_only(league_key: str, season: int = None,
             'logo': latest.get('logo', '') if latest else row.get('logo', ''),
         })
 
-    table_changed = write_csv(paths.table_csv, updated_rows, TABLE_FIELDS)
-    table_pdf_rendered = render_snapshot_pdf(
-        paths.table_pdf,
-        'table',
+    table_changed = write_table_snapshot(paths, updated_rows)
+    table_pdf_rendered, _stats_pdf_rendered = render_snapshot_pdfs(
+        paths,
         LEAGUES[league_key].label,
         season,
-        updated_rows,
-        data_changed=table_changed,
+        table_rows=updated_rows,
+        table_changed=table_changed,
     )
     matches_payload = read_json(paths.matches_json) if paths.matches_json.exists() else None
-    write_refresh_state(
+
+    return write_refresh_summary(
         league_key,
         season,
         mode='logos-only',
@@ -643,15 +546,6 @@ def refresh_logos_only(league_key: str, season: int = None,
         stats_status='skipped',
         table_changed=table_changed,
         table_pdf_rendered=table_pdf_rendered,
-    )
-
-    return build_refresh_result(
-        league_key,
-        season,
-        clubs=len(updated_rows),
-        players=0,
-        stats_rows=0,
-        table_rows=len(updated_rows),
     )
 
 
