@@ -216,11 +216,15 @@ That mode:
 - detects clubs from fixtures whose score changed from empty to played, or whose
   score changed since the last snapshot
 - refreshes only those clubs' rosters and player stats
+- writes a per-league refresh state snapshot so you can inspect what changed
+  without diffing CSV/JSON files manually
 
 If the baseline CSV/JSON snapshots are missing, it falls back to a full league
 refresh for safety.
 
 The refresh writes files into `tmstats/<league>/`.
+When a CSV or JSON snapshot does not actually change, the refresh now skips the
+rewrite and avoids regenerating the matching PDF unnecessarily.
 
 The stats refresh now tries to match the domestic-league competition row on
 each player page. If Transfermarkt serves a challenge page or the competition
@@ -298,6 +302,7 @@ inline chat flow.
 - Writes player and table snapshot CSV files
 - Can refresh only clubs involved in newly completed matches with
   `--changed-team-stats`
+- Writes `*_refresh_state_<season>.json` summaries alongside league snapshots
 - Can refresh only team logo URLs with `--logos-only`
 - Optionally renders PDF exports from those snapshots
 

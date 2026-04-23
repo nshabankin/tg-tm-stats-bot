@@ -1,6 +1,4 @@
 import argparse
-import csv
-import json
 import re
 import time
 from collections import OrderedDict
@@ -14,7 +12,14 @@ from lxml import html
 
 from config import TMSTATS_DIR, get_env
 from .catalog import LEAGUES, LEAGUE_KEYS
+from .identity import (canonical_club_identity, club_identity, dedupe_team_names,
+                       normalize_text)
+from .incremental import (detect_updated_match_clubs,
+                          domestic_matchdays_to_refresh,
+                          matchday_number_from_key, resolve_team_names)
 from .pdf_export import render_pdf
+from .refresh_state import write_refresh_state
+from .storage import read_csv_rows, read_json, write_csv, write_json
 
 DEFAULT_TIMEOUT = 20
 DEFAULT_DELAY = 0.25
@@ -156,97 +161,6 @@ def fetch_text(session: requests.Session, url: str, timeout: int) -> str:
     return response.text
 
 
-def normalize_text(value) -> str:
-    if value is None:
-        return ''
-    return ' '.join(str(value).replace('\xa0', ' ').split())
-
-
-def club_identity(value: str) -> str:
-    normalized = normalize_text(value).lower()
-    return re.sub(r'[^a-z0-9]+', '', normalized)
-
-
-CLUB_ALIASES: Dict[str, List[str]] = {
-    'afcbournemouth': ['bournemouth'],
-    'arsenalfc': ['arsenal'],
-    'brightonhovealbion': ['brighton', 'brightonhove'],
-    'brentfordfc': ['brentford'],
-    'evertonfc': ['everton'],
-    'leedsunited': ['leeds'],
-    'liverpoolfc': ['liverpool'],
-    'manchestercity': ['mancity'],
-    'manchesterunited': ['manutd', 'manunited'],
-    'newcastleunited': ['newcastle'],
-    'nottinghamforest': ['nottmforest', 'nottmforest'],
-    'sunderlandafc': ['sunderland'],
-    'tottenhamhotspur': ['tottenham'],
-    'westhamunited': ['westham'],
-    'wolverhamptonwanderers': ['wolves'],
-    'fckrasnodar': ['krasnodar', 'krsndr'],
-    'fcparinizhniynovgorod': ['pari', 'parinn'],
-    'dynamomoscow': ['dynamo'],
-    'dinamomakhachkala': ['dinm', 'dinamomakhach', 'dinamomakhachk'],
-    'akhmatgrozny': ['akhmat'],
-    'fcsochi': ['fksochi', 'sochi'],
-    'rubinkazan': ['rubin'],
-    'lokomotivmoscow': ['loko', 'lokomoscow'],
-    'zenitstpetersburg': ['zenit', 'zenitspb'],
-    'baltikakaliningrad': ['balt', 'baltika'],
-    'akrontolyatti': ['akron'],
-    'krylyasovetovsamara': ['kssamara', 'samara'],
-    'atalantabc': ['atalanta'],
-    'bolognafc1909': ['bolo', 'bologna'],
-    'cagliaricalcio': ['caglia', 'cagliari'],
-    'intermilan': ['inter'],
-    'juventusfc': ['juve', 'juventus'],
-    'sscnapoli': ['napoli'],
-    'udinesecalcio': ['udine', 'udinese'],
-    'ussassuolo': ['sassuo', 'sassuolo'],
-    'hellasverona': ['hellas'],
-    'acfiorentina': ['fiorentina'],
-    'parmacalcio1913': ['parma'],
-    'uscremonese': ['cremonese'],
-    'uslecce': ['lecce'],
-}
-
-ALIAS_TO_CANONICAL = {
-    alias: canonical
-    for canonical, aliases in CLUB_ALIASES.items()
-    for alias in aliases
-}
-
-
-def canonical_club_identity(value: str) -> str:
-    identity = club_identity(value)
-    return ALIAS_TO_CANONICAL.get(identity, identity)
-
-
-def dedupe_team_names(names: List[str]) -> List[str]:
-    deduped: List[str] = []
-    seen_indices: Dict[str, int] = {}
-
-    for raw_name in names:
-        name = normalize_text(raw_name)
-        if not name:
-            continue
-        identity = canonical_club_identity(name)
-        if not identity:
-            continue
-        existing_index = seen_indices.get(identity)
-        if existing_index is None:
-            seen_indices[identity] = len(deduped)
-            deduped.append(name)
-            continue
-
-        # Prefer the most descriptive label when the page exposes both a short
-        # scoreboard alias and a fuller club name in the same row.
-        if len(name) > len(deduped[existing_index]):
-            deduped[existing_index] = name
-
-    return deduped
-
-
 def build_team_link(href: str) -> str:
     match = re.search(r'/([^/]+)/[^/]+/verein/(\d+)', href)
     if not match:
@@ -293,14 +207,6 @@ def extract_logo_url(row: html.HtmlElement) -> str:
     return ''
 
 
-def write_csv(path: Path, rows: Iterable[dict], fieldnames: List[str]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open('w', newline='', encoding='utf-8') as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
-
-
 def stats_rows_with_values(rows: List[dict]) -> int:
     count = 0
     for row in rows:
@@ -326,184 +232,20 @@ def pick_stats_output(candidate_rows: List[dict],
     return candidate_rows
 
 
-def write_json(path: Path, payload: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open('w', encoding='utf-8') as json_file:
-        json.dump(payload, json_file, ensure_ascii=False, indent=2)
-
-
-def read_json(path: Path) -> dict:
-    with path.open(encoding='utf-8') as json_file:
-        return json.load(json_file)
+def render_snapshot_pdf(path: Path, snapshot_type: str,
+                        league_label: str, season: int,
+                        rows: List[dict],
+                        data_changed: bool = False,
+                        force: bool = False) -> bool:
+    if not force and not data_changed and path.exists():
+        return False
+    render_pdf(path, snapshot_type, league_label, season, rows)
+    return True
 
 
 def slugify_key(value: str) -> str:
     normalized = re.sub(r'[^a-z0-9]+', '-', normalize_text(value).casefold())
     return normalized.strip('-')
-
-
-def iter_group_matches(payload: Optional[dict]) -> Iterable[Tuple[str, dict]]:
-    for group in (payload or {}).get('groups', []):
-        group_key = normalize_text(group.get('key', ''))
-        for match in group.get('matches', []):
-            yield group_key, match
-
-
-def match_identity(group_key: str, match: dict) -> Tuple[str, str, str, str, str]:
-    return (
-        normalize_text(group_key),
-        normalize_text(match.get('date', '')),
-        normalize_text(match.get('time', '')),
-        canonical_club_identity(match.get('homeTeam', '')),
-        canonical_club_identity(match.get('awayTeam', '')),
-    )
-
-
-def detect_updated_match_clubs(existing_payload: Optional[dict],
-                               latest_payload: dict) -> List[str]:
-    existing_scores = {
-        match_identity(group_key, match): normalize_text(match.get('score', ''))
-        for group_key, match in iter_group_matches(existing_payload)
-    }
-    changed_clubs = []
-    seen_clubs = set()
-
-    for group_key, match in iter_group_matches(latest_payload):
-        new_score = normalize_text(match.get('score', ''))
-        if not new_score:
-            continue
-
-        key = match_identity(group_key, match)
-        old_score = existing_scores.get(key, '')
-        if new_score == old_score:
-            continue
-
-        for team_name in (match.get('homeTeam', ''), match.get('awayTeam', '')):
-            team_name = normalize_text(team_name)
-            team_identity = canonical_club_identity(team_name)
-            if not team_name or not team_identity or team_identity in seen_clubs:
-                continue
-            seen_clubs.add(team_identity)
-            changed_clubs.append(team_name)
-
-    return changed_clubs
-
-
-def name_tokens(value: str) -> List[str]:
-    return [
-        token for token in re.split(r'[^a-z0-9]+', normalize_text(value).casefold())
-        if token
-    ]
-
-
-def names_loosely_match(left: str, right: str) -> bool:
-    left_tokens = name_tokens(left)
-    right_tokens = name_tokens(right)
-    if not left_tokens or not right_tokens:
-        return False
-
-    if all(
-        any(
-            left_token.startswith(right_token)
-            or right_token.startswith(left_token)
-            for right_token in right_tokens
-        )
-        for left_token in left_tokens
-    ):
-        return True
-
-    if all(
-        any(
-            left_token.startswith(right_token)
-            or right_token.startswith(left_token)
-            for left_token in left_tokens
-        )
-        for right_token in right_tokens
-    ):
-        return True
-
-    return False
-
-
-def resolve_team_names(changed_names: Iterable[str], teams: List[dict]) -> Tuple[List[dict], List[str]]:
-    resolved_teams: List[dict] = []
-    unresolved_names: List[str] = []
-    seen_team_ids = set()
-
-    for changed_name in changed_names:
-        target_identity = canonical_club_identity(changed_name)
-        matched_team = None
-
-        for team in teams:
-            team_name = team.get('name', '')
-            if canonical_club_identity(team_name) == target_identity:
-                matched_team = team
-                break
-
-        if matched_team is None:
-            for team in teams:
-                if names_loosely_match(changed_name, team.get('name', '')):
-                    matched_team = team
-                    break
-
-        if matched_team is None:
-            unresolved_names.append(changed_name)
-            continue
-
-        team_identity = canonical_club_identity(matched_team.get('name', ''))
-        if team_identity in seen_team_ids:
-            continue
-        seen_team_ids.add(team_identity)
-        resolved_teams.append(matched_team)
-
-    return resolved_teams, unresolved_names
-
-
-def matchday_number_from_key(group_key: str) -> Optional[int]:
-    match = re.fullmatch(r'md-(\d+)', normalize_text(group_key))
-    if not match:
-        return None
-    return int(match.group(1))
-
-
-def domestic_matchdays_to_refresh(existing_payload: Optional[dict],
-                                  total_matchdays: int) -> List[int]:
-    if total_matchdays <= 0:
-        return []
-
-    if not existing_payload:
-        return list(range(1, total_matchdays + 1))
-
-    pending_matchdays: List[int] = []
-    completed_matchdays: List[int] = []
-
-    for group in existing_payload.get('groups', []):
-        matchday = matchday_number_from_key(group.get('key', ''))
-        if not matchday:
-            continue
-
-        matches = group.get('matches', [])
-        if not matches:
-            continue
-
-        if any(not normalize_text(match.get('score', '')) for match in matches):
-            pending_matchdays.append(matchday)
-        else:
-            completed_matchdays.append(matchday)
-
-    if pending_matchdays:
-        refresh_matchdays = set(pending_matchdays)
-        if completed_matchdays:
-            refresh_matchdays.add(max(completed_matchdays))
-        return [
-            matchday for matchday in sorted(refresh_matchdays)
-            if 1 <= matchday <= total_matchdays
-        ]
-
-    if completed_matchdays:
-        return [max(completed_matchdays)]
-
-    return [1]
 
 
 def normalize_match_group(header: str) -> Tuple[str, str, int]:
@@ -889,11 +631,6 @@ def fetch_match_groups(session: requests.Session, league_key: str,
     for item in ordered:
         item.pop('order', None)
     return {'groups': ordered}
-
-
-def read_csv_rows(path: Path) -> List[dict]:
-    with path.open(newline='', encoding='utf-8') as csv_file:
-        return list(csv.DictReader(csv_file))
 
 
 def load_existing_players(path: Path) -> List[dict]:
@@ -1492,6 +1229,8 @@ def refresh_league(league_key: str, season: int = None,
     stats_csv = league_dir / f'{league_key}_stats_{season}.csv'
     bracket_json = league_dir / f'{league_key}_bracket_{season}.json'
     matches_json = league_dir / f'{league_key}_matches_{season}.json'
+    table_pdf = league_dir / f'{league_key}_table_{season}.pdf'
+    stats_pdf = league_dir / f'{league_key}_stats_{season}.pdf'
 
     print(f'Refreshing {league_key} for season {season}', flush=True)
 
@@ -1509,6 +1248,7 @@ def refresh_league(league_key: str, season: int = None,
         table_row['form'] = form_value
 
     players = []
+    players_changed = False
     if not refresh_rosters:
         players = load_existing_players(players_csv)
         if players:
@@ -1517,7 +1257,7 @@ def refresh_league(league_key: str, season: int = None,
 
     if not players:
         players = fetch_players(session, teams, timeout, delay)
-        write_csv(players_csv, players, PLAYER_FIELDS)
+        players_changed = write_csv(players_csv, players, PLAYER_FIELDS)
         print(f'  fetched {len(teams)} teams and {len(players)} players',
               flush=True)
 
@@ -1534,42 +1274,79 @@ def refresh_league(league_key: str, season: int = None,
     existing_stats = read_csv_rows(stats_csv) if stats_csv.exists() else []
     stats_output = pick_stats_output(stats, existing_stats, league_key)
 
-    write_csv(stats_csv, stats_output, STATS_FIELDS)
-    write_csv(league_dir / f'{league_key}_table_{season}.csv',
-              table, TABLE_FIELDS)
+    stats_changed = write_csv(stats_csv, stats_output, STATS_FIELDS)
+    table_changed = write_csv(
+        league_dir / f'{league_key}_table_{season}.csv',
+        table,
+        TABLE_FIELDS,
+    )
     bracket_payload = None
+    bracket_changed = False
     if league.supports_bracket:
         try:
             bracket_payload = fetch_knockout_bracket(
                 session, league_key, season, timeout
             )
-            write_json(bracket_json, bracket_payload)
+            bracket_changed = write_json(bracket_json, bracket_payload)
         except Exception as error:
             print(f'Warning: failed to refresh knockout bracket for {league_key}: '
                   f'{error}', flush=True)
             bracket_payload = None
 
+    matches_payload = None
+    matches_changed = False
     try:
-        write_json(
+        matches_payload = fetch_match_groups(
+            session,
+            league_key,
+            season,
+            timeout,
+            bracket=bracket_payload,
+            teams=teams,
+            club_count=len(table),
+            delay=delay,
+        )
+        matches_changed = write_json(
             matches_json,
-            fetch_match_groups(
-                session,
-                league_key,
-                season,
-                timeout,
-                bracket=bracket_payload,
-                teams=teams,
-                club_count=len(table),
-                delay=delay,
-            ),
+            matches_payload,
         )
     except Exception as error:
         print(f'Warning: failed to refresh match list for {league_key}: '
               f'{error}', flush=True)
-    render_pdf(league_dir / f'{league_key}_stats_{season}.pdf',
-               'stats', league_label, season, stats_output)
-    render_pdf(league_dir / f'{league_key}_table_{season}.pdf',
-               'table', league_label, season, table)
+    table_pdf_rendered = render_snapshot_pdf(
+        table_pdf,
+        'table',
+        league_label,
+        season,
+        table,
+        data_changed=table_changed,
+    )
+    stats_pdf_rendered = render_snapshot_pdf(
+        stats_pdf,
+        'stats',
+        league_label,
+        season,
+        stats_output,
+        data_changed=stats_changed,
+    )
+    write_refresh_state(
+        league_key,
+        season,
+        mode='full',
+        clubs=len(teams),
+        players=len(players),
+        stats_rows=len(stats_output),
+        table_rows=len(table),
+        matches_payload=matches_payload,
+        stats_status='preserved' if stats_output == existing_stats else 'refreshed',
+        table_changed=table_changed,
+        players_changed=players_changed,
+        stats_changed=stats_changed,
+        matches_changed=matches_changed,
+        bracket_changed=bracket_changed,
+        table_pdf_rendered=table_pdf_rendered,
+        stats_pdf_rendered=stats_pdf_rendered,
+    )
 
     return {
         'league': league_key,
@@ -1600,10 +1377,37 @@ def render_league_pdfs(league_key: str, season: int = None) -> dict:
     table_rows = read_csv_rows(table_csv)
     stats_rows = read_csv_rows(stats_csv)
 
-    render_pdf(league_dir / f'{league_key}_table_{season}.pdf',
-               'table', league_label, season, table_rows)
-    render_pdf(league_dir / f'{league_key}_stats_{season}.pdf',
-               'stats', league_label, season, stats_rows)
+    table_pdf_rendered = render_snapshot_pdf(
+        league_dir / f'{league_key}_table_{season}.pdf',
+        'table',
+        league_label,
+        season,
+        table_rows,
+        force=True,
+    )
+    stats_pdf_rendered = render_snapshot_pdf(
+        league_dir / f'{league_key}_stats_{season}.pdf',
+        'stats',
+        league_label,
+        season,
+        stats_rows,
+        force=True,
+    )
+    matches_json = league_dir / f'{league_key}_matches_{season}.json'
+    matches_payload = read_json(matches_json) if matches_json.exists() else None
+    write_refresh_state(
+        league_key,
+        season,
+        mode='pdf-only',
+        clubs=len(table_rows),
+        players=len(stats_rows),
+        stats_rows=len(stats_rows),
+        table_rows=len(table_rows),
+        matches_payload=matches_payload,
+        stats_status='unchanged',
+        table_pdf_rendered=table_pdf_rendered,
+        stats_pdf_rendered=stats_pdf_rendered,
+    )
 
     return {
         'league': league_key,
@@ -1676,12 +1480,13 @@ def refresh_changed_team_stats_only(
         table_row['form'] = form_value
 
     bracket_payload = None
+    bracket_changed = False
     if league.supports_bracket:
         try:
             bracket_payload = fetch_knockout_bracket(
                 session, league_key, season, timeout
             )
-            write_json(bracket_json, bracket_payload)
+            bracket_changed = write_json(bracket_json, bracket_payload)
         except Exception as error:
             print(f'Warning: failed to refresh knockout bracket for {league_key}: '
                   f'{error}', flush=True)
@@ -1700,13 +1505,36 @@ def refresh_changed_team_stats_only(
     )
     changed_clubs = detect_updated_match_clubs(existing_matches, latest_matches)
 
-    write_json(matches_json, latest_matches)
-    write_csv(table_csv, table, TABLE_FIELDS)
-    render_pdf(table_pdf, 'table', league_label, season, table)
+    matches_changed = write_json(matches_json, latest_matches)
+    table_changed = write_csv(table_csv, table, TABLE_FIELDS)
+    table_pdf_rendered = render_snapshot_pdf(
+        table_pdf,
+        'table',
+        league_label,
+        season,
+        table,
+        data_changed=table_changed,
+    )
 
     if not changed_clubs:
         print('  no newly completed or changed matches; player stats unchanged',
               flush=True)
+        write_refresh_state(
+            league_key,
+            season,
+            mode='changed-team-stats',
+            clubs=len(teams),
+            players=len(existing_players),
+            stats_rows=len(existing_stats),
+            table_rows=len(table),
+            matches_payload=latest_matches,
+            stats_status='skipped',
+            table_changed=table_changed,
+            stats_changed=False,
+            matches_changed=matches_changed,
+            bracket_changed=bracket_changed,
+            table_pdf_rendered=table_pdf_rendered,
+        )
         return {
             'league': league_key,
             'season': season,
@@ -1733,6 +1561,24 @@ def refresh_changed_team_stats_only(
     if not targeted_teams:
         print('  no changed clubs could be resolved to current table teams',
               flush=True)
+        write_refresh_state(
+            league_key,
+            season,
+            mode='changed-team-stats',
+            clubs=len(teams),
+            players=len(existing_players),
+            stats_rows=len(existing_stats),
+            table_rows=len(table),
+            matches_payload=latest_matches,
+            changed_clubs=changed_clubs,
+            unresolved_clubs=unresolved_clubs,
+            stats_status='unresolved',
+            table_changed=table_changed,
+            stats_changed=False,
+            matches_changed=matches_changed,
+            bracket_changed=bracket_changed,
+            table_pdf_rendered=table_pdf_rendered,
+        )
         return {
             'league': league_key,
             'season': season,
@@ -1758,7 +1604,7 @@ def refresh_changed_team_stats_only(
         replacement_players,
         targeted_club_ids,
     )
-    write_csv(players_csv, players_output, PLAYER_FIELDS)
+    players_changed = write_csv(players_csv, players_output, PLAYER_FIELDS)
 
     targeted_existing_stats = [
         row for row in existing_stats
@@ -1783,8 +1629,36 @@ def refresh_changed_team_stats_only(
         replacement_stats,
         targeted_club_ids,
     )
-    write_csv(stats_csv, stats_output, STATS_FIELDS)
-    render_pdf(stats_pdf, 'stats', league_label, season, stats_output)
+    stats_changed = write_csv(stats_csv, stats_output, STATS_FIELDS)
+    stats_pdf_rendered = render_snapshot_pdf(
+        stats_pdf,
+        'stats',
+        league_label,
+        season,
+        stats_output,
+        data_changed=stats_changed,
+    )
+    write_refresh_state(
+        league_key,
+        season,
+        mode='changed-team-stats',
+        clubs=len(teams),
+        players=len(players_output),
+        stats_rows=len(stats_output),
+        table_rows=len(table),
+        matches_payload=latest_matches,
+        changed_clubs=changed_clubs,
+        resolved_clubs=[team.get('name', '') for team in targeted_teams],
+        unresolved_clubs=unresolved_clubs,
+        stats_status='preserved' if stats_output == existing_stats else 'targeted',
+        table_changed=table_changed,
+        players_changed=players_changed,
+        stats_changed=stats_changed,
+        matches_changed=matches_changed,
+        bracket_changed=bracket_changed,
+        table_pdf_rendered=table_pdf_rendered,
+        stats_pdf_rendered=stats_pdf_rendered,
+    )
 
     return {
         'league': league_key,
@@ -1809,31 +1683,51 @@ def refresh_matches_only(league_key: str, season: int = None,
     teams, table = fetch_current_table(session, league_key, season, timeout)
 
     bracket_payload = None
+    bracket_changed = False
     if LEAGUES[league_key].supports_bracket:
         try:
             bracket_payload = fetch_knockout_bracket(session, league_key, season, timeout)
-            write_json(league_dir / f'{league_key}_bracket_{season}.json', bracket_payload)
+            bracket_changed = write_json(
+                league_dir / f'{league_key}_bracket_{season}.json',
+                bracket_payload,
+            )
         except Exception as error:
             print(f'Warning: failed to refresh knockout bracket for {league_key}: {error}', flush=True)
             bracket_payload = None
 
+    matches_payload = existing_matches
+    matches_changed = False
     try:
-        write_json(
+        matches_payload = fetch_match_groups(
+            session,
+            league_key,
+            season,
+            timeout,
+            bracket=bracket_payload,
+            teams=teams,
+            club_count=len(table),
+            existing_payload=existing_matches,
+            delay=delay,
+        )
+        matches_changed = write_json(
             matches_json,
-            fetch_match_groups(
-                session,
-                league_key,
-                season,
-                timeout,
-                bracket=bracket_payload,
-                teams=teams,
-                club_count=len(table),
-                existing_payload=existing_matches,
-                delay=delay,
-            ),
+            matches_payload,
         )
     except Exception as error:
         print(f'Warning: failed to refresh match list for {league_key}: {error}', flush=True)
+    write_refresh_state(
+        league_key,
+        season,
+        mode='matches-only',
+        clubs=len(table),
+        players=0,
+        stats_rows=0,
+        table_rows=len(table),
+        matches_payload=matches_payload,
+        stats_status='skipped',
+        matches_changed=matches_changed,
+        bracket_changed=bracket_changed,
+    )
 
     return {
         'league': league_key,
@@ -1898,13 +1792,29 @@ def refresh_logos_only(league_key: str, season: int = None,
             'logo': latest.get('logo', '') if latest else row.get('logo', ''),
         })
 
-    write_csv(table_csv, updated_rows, TABLE_FIELDS)
-    render_pdf(
+    table_changed = write_csv(table_csv, updated_rows, TABLE_FIELDS)
+    table_pdf_rendered = render_snapshot_pdf(
         TMSTATS_DIR / league_key / f'{league_key}_table_{season}.pdf',
         'table',
         LEAGUES[league_key].label,
         season,
         updated_rows,
+        data_changed=table_changed,
+    )
+    matches_json = TMSTATS_DIR / league_key / f'{league_key}_matches_{season}.json'
+    matches_payload = read_json(matches_json) if matches_json.exists() else None
+    write_refresh_state(
+        league_key,
+        season,
+        mode='logos-only',
+        clubs=len(updated_rows),
+        players=0,
+        stats_rows=0,
+        table_rows=len(updated_rows),
+        matches_payload=matches_payload,
+        stats_status='skipped',
+        table_changed=table_changed,
+        table_pdf_rendered=table_pdf_rendered,
     )
 
     return {
