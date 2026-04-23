@@ -2,9 +2,9 @@ import argparse
 from typing import Callable, Iterable, List
 
 from .catalog import LEAGUES, LEAGUE_KEYS
-from .refresh_modes import (DEFAULT_DELAY, DEFAULT_TIMEOUT,
-                            current_season_start_year,
-                            refresh_changed_team_stats_only,
+from .refresh_context import (DEFAULT_DELAY, DEFAULT_TIMEOUT,
+                              current_season_start_year)
+from .refresh_modes import (refresh_changed_team_stats_only,
                             refresh_league, refresh_logos_only,
                             refresh_matches_only, render_league_pdfs)
 
