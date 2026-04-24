@@ -7,7 +7,10 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
 
+from lxml import html
+
 from tmstats import refresh, refresh_context, refresh_modes, refresh_pipeline
+from tmstats import player_stats
 from tmstats.refresh_paths import LeagueRefreshPaths, build_league_refresh_paths
 
 
@@ -279,6 +282,50 @@ class RefreshModesTests(unittest.TestCase):
         fetch_stats_mock.assert_not_called()
         write_summary_mock.assert_called_once()
         self.assertEqual(write_summary_mock.call_args.kwargs['stats_status'], 'skipped')
+
+
+class PlayerStatsMatcherTests(unittest.TestCase):
+    def test_pick_stats_row_matches_laliga_ea_sports_branding(self) -> None:
+        doc = html.fromstring(
+            '''
+            <table>
+              <thead>
+                <tr><th>Competition</th><th>Name</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="/laliga-ea-sports/startseite/wettbewerb/ES1">LaLiga EA Sports</a></td>
+                  <td>LaLiga EA Sports</td>
+                  <td>12</td>
+                </tr>
+              </tbody>
+            </table>
+            '''
+        )
+
+        cells = player_stats.pick_stats_row(doc, 'la_liga')
+
+        self.assertEqual(cells[0], 'LaLiga EA Sports')
+
+    def test_competition_matches_target_handles_sponsored_variants(self) -> None:
+        self.assertTrue(
+            player_stats.competition_matches_target(
+                {'laligaeasports'},
+                {'laliga'},
+            )
+        )
+        self.assertTrue(
+            player_stats.competition_matches_target(
+                {'laligasantander'},
+                {'laliga'},
+            )
+        )
+        self.assertFalse(
+            player_stats.competition_matches_target(
+                {'copadelrey'},
+                {'laliga'},
+            )
+        )
 
 
 if __name__ == '__main__':

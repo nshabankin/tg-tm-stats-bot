@@ -32,7 +32,7 @@ POSITION_LABELS = {
 
 LEAGUE_ROW_ALIASES = {
     'epl': {'premierleague'},
-    'la_liga': {'laliga'},
+    'la_liga': {'laliga', 'laligaeasports', 'laligasantander'},
     'serie_a': {'seriea'},
     'bundesliga': {'bundesliga'},
     'ligue_1': {'ligue1'},
@@ -196,6 +196,18 @@ def competition_identity(value: str) -> str:
     return re.sub(r'[^a-z0-9]+', '', normalize_text(value).casefold())
 
 
+def competition_matches_target(identities: set, target_names: set) -> bool:
+    for identity in identities:
+        for target in target_names:
+            if not identity or not target:
+                continue
+            if identity == target:
+                return True
+            if identity.startswith(target) or target.startswith(identity):
+                return True
+    return False
+
+
 def pick_stats_row(doc: html.HtmlElement, league_key: str) -> List[str]:
     league = LEAGUES[league_key]
     target_site_id = league.site_id.casefold()
@@ -231,7 +243,7 @@ def pick_stats_row(doc: html.HtmlElement, league_key: str) -> List[str]:
             for index in range(min(2, len(cells)))
             if cells[index]
         }
-        if identities & target_names:
+        if competition_matches_target(identities, target_names):
             return cells
 
     return []
