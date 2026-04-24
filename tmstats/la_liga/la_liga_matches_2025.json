@@ -2365,7 +2365,7 @@
           "time": "9:00 PM",
           "homeTeam": "Real Betis",
           "awayTeam": "Betis",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Sat 25/04/2026",
@@ -2487,17 +2487,24 @@
         },
         {
           "date": "Thu 23/04/2026",
+          "time": "7:00 PM",
+          "homeTeam": "Levante",
+          "awayTeam": "Sevilla FC",
+          "score": "2:0"
+        },
+        {
+          "date": "Thu 23/04/2026",
           "time": "8:00 PM",
           "homeTeam": "Rayo Vallecano",
           "awayTeam": "Rayo",
-          "score": ""
+          "score": "1:0"
         },
         {
           "date": "Thu 23/04/2026",
           "time": "9:30 PM",
           "homeTeam": "Real Oviedo",
           "awayTeam": "Oviedo",
-          "score": ""
+          "score": "1:1"
         }
       ]
     },

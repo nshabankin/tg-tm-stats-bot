@@ -285,34 +285,6 @@ id,name,shirtNumber,positionId,position,club,link
 226973,Harrison Reed,6,3,Midfield,Fulham FC,/harrison-reed/profil/spieler/226973
 127181,Benjamin Lecomte,23,1,Goalkeeper,Fulham FC,/benjamin-lecomte/profil/spieler/127181
 123275,Tom Cairney,10,3,Midfield,Fulham FC,/tom-cairney/profil/spieler/123275
-876631,Habib Diarra,19,3,Midfield,Sunderland AFC,/habib-diarra/profil/spieler/876631
-727089,Noah Sadiki,27,3,Midfield,Sunderland AFC,/noah-sadiki/profil/spieler/727089
-743384,Chemsdine Talbi,7,4,Forward,Sunderland AFC,/chemsdine-talbi/profil/spieler/743384
-646991,Robin Roefs,22,1,Goalkeeper,Sunderland AFC,/robin-roefs/profil/spieler/646991
-633992,Enzo Le Fée,28,3,Midfield,Sunderland AFC,/enzo-le-fee/profil/spieler/633992
-947411,Chris Rigg,11,3,Midfield,Sunderland AFC,/chris-rigg/profil/spieler/947411
-473169,Brian Brobbey,9,4,Forward,Sunderland AFC,/brian-brobbey/profil/spieler/473169
-515544,Trai Hume,32,2,Defender,Sunderland AFC,/trai-hume/profil/spieler/515544
-503686,Dan Ballard,5,2,Defender,Sunderland AFC,/dan-ballard/profil/spieler/503686
-420210,Lutsharel Geertruida,6,2,Defender,Sunderland AFC,/lutsharel-geertruida/profil/spieler/420210
-494237,Wilson Isidor,18,4,Forward,Sunderland AFC,/wilson-isidor/profil/spieler/494237
-348026,Nordi Mukiele,20,2,Defender,Sunderland AFC,/nordi-mukiele/profil/spieler/348026
-967346,Eliezer Mayenda,12,4,Forward,Sunderland AFC,/eliezer-mayenda/profil/spieler/967346
-903611,Nilson Angulo,10,4,Forward,Sunderland AFC,/nilson-angulo/profil/spieler/903611
-353032,Omar Alderete,15,2,Defender,Sunderland AFC,/omar-alderete/profil/spieler/353032
-111455,Granit Xhaka,34,3,Midfield,Sunderland AFC,/granit-xhaka/profil/spieler/111455
-568006,Dennis Cirkin,3,2,Defender,Sunderland AFC,/dennis-cirkin/profil/spieler/568006
-696181,Romaine Mundle,14,4,Forward,Sunderland AFC,/romaine-mundle/profil/spieler/696181
-240692,Reinildo Mandava,17,2,Defender,Sunderland AFC,/reinildo-mandava/profil/spieler/240692
-131996,Bertrand Traoré,25,4,Forward,Sunderland AFC,/bertrand-traore/profil/spieler/131996
-1322090,Jocelin Ta Bi,37,4,Forward,Sunderland AFC,/jocelin-ta-bi/profil/spieler/1322090
-605426,Melker Ellborg,31,1,Goalkeeper,Sunderland AFC,/melker-ellborg/profil/spieler/605426
-654412,Abdoullah Ba,46,3,Midfield,Sunderland AFC,/abdoullah-ba/profil/spieler/654412
-282939,Luke O'Nien,13,2,Defender,Sunderland AFC,/luke-onien/profil/spieler/282939
-1015619,Ahmed Abdullahi,29,4,Forward,Sunderland AFC,/ahmed-abdullahi/profil/spieler/1015619
-942738,Milan Aleksic,30,3,Midfield,Sunderland AFC,/milan-aleksic/profil/spieler/942738
-937840,Harrison Jones,50,3,Midfield,Sunderland AFC,/harrison-jones/profil/spieler/937840
-123536,Simon Moore,21,1,Goalkeeper,Sunderland AFC,/simon-moore/profil/spieler/123536
 397033,Sandro Tonali,8,3,Midfield,Newcastle United,/sandro-tonali/profil/spieler/397033
 520624,Bruno Guimarães,39,3,Midfield,Newcastle United,/bruno-guimaraes/profil/spieler/520624
 455661,Nick Woltemade,27,4,Forward,Newcastle United,/nick-woltemade/profil/spieler/455661
@@ -393,35 +365,6 @@ id,name,shirtNumber,positionId,position,club,link
 99397,Karl Darlow,26,1,Goalkeeper,Leeds United,/karl-darlow/profil/spieler/99397
 883539,Charlie Crew,50,3,Midfield,Leeds United,/charlie-crew/profil/spieler/883539
 194386,Alex Cairns,21,1,Goalkeeper,Leeds United,/alex-cairns/profil/spieler/194386
-567576,Elliot Anderson,8,3,Midfield,Nottingham Forest,/elliot-anderson/profil/spieler/567576
-429014,Morgan Gibbs-White,10,3,Midfield,Nottingham Forest,/morgan-gibbs-white/profil/spieler/429014
-1005649,Murillo,5,2,Defender,Nottingham Forest,/murillo/profil/spieler/1005649
-365108,Dan Ndoye,14,4,Forward,Nottingham Forest,/dan-ndoye/profil/spieler/365108
-413507,Nikola Milenković,31,2,Defender,Nottingham Forest,/nikola-milenkovic/profil/spieler/413507
-392768,Callum Hudson-Odoi,7,4,Forward,Nottingham Forest,/callum-hudson-odoi/profil/spieler/392768
-741238,Omari Hutchinson,21,3,Midfield,Nottingham Forest,/omari-hutchinson/profil/spieler/741238
-540664,Dilane Bakwa,29,4,Forward,Nottingham Forest,/dilane-bakwa/profil/spieler/540664
-503680,Neco Williams,3,2,Defender,Nottingham Forest,/neco-williams/profil/spieler/503680
-572265,Lorenzo Lucca,20,4,Forward,Nottingham Forest,/lorenzo-lucca/profil/spieler/572265
-375885,Ibrahim Sangaré,6,3,Midfield,Nottingham Forest,/ibrahim-sangare/profil/spieler/375885
-432164,Igor Jesus,19,4,Forward,Nottingham Forest,/igor-jesus/profil/spieler/432164
-236490,Ola Aina,34,2,Defender,Nottingham Forest,/ola-aina/profil/spieler/236490
-583199,James McAtee,24,3,Midfield,Nottingham Forest,/james-mcatee/profil/spieler/583199
-708072,Nicolò Savona,37,2,Defender,Nottingham Forest,/nicolo-savona/profil/spieler/708072
-497291,Nicolás Domínguez,16,3,Midfield,Nottingham Forest,/nicolas-dominguez/profil/spieler/497291
-673492,Morato,4,2,Defender,Nottingham Forest,/morato/profil/spieler/673492
-984096,Jair Cunha,23,2,Defender,Nottingham Forest,/jair-cunha/profil/spieler/984096
-295313,Taiwo Awoniyi,9,4,Forward,Nottingham Forest,/taiwo-awoniyi/profil/spieler/295313
-425902,Ryan Yates,22,3,Midfield,Nottingham Forest,/ryan-yates/profil/spieler/425902
-432914,John Victor,13,1,Goalkeeper,Nottingham Forest,/john-victor/profil/spieler/432914
-524285,Luca Netz,25,2,Defender,Nottingham Forest,/luca-netz/profil/spieler/524285
-108725,Chris Wood,11,4,Forward,Nottingham Forest,/chris-wood/profil/spieler/108725
-85941,Stefan Ortega,27,1,Goalkeeper,Nottingham Forest,/stefan-ortega/profil/spieler/85941
-127202,Matz Sels,26,1,Goalkeeper,Nottingham Forest,/matz-sels/profil/spieler/127202
-933017,Zach Abbott,44,2,Defender,Nottingham Forest,/zach-abbott/profil/spieler/933017
-201574,Angus Gunn,18,1,Goalkeeper,Nottingham Forest,/angus-gunn/profil/spieler/201574
-897481,Eric da Silva Moreira,17,2,Defender,Nottingham Forest,/eric-da-silva-moreira/profil/spieler/897481
-142310,Willy Boly,30,2,Defender,Nottingham Forest,/willy-boly/profil/spieler/142310
 880245,Mateus Fernandes,18,3,Midfield,West Ham United,/mateus-fernandes/profil/spieler/880245
 314875,Jarrod Bowen,20,4,Forward,West Ham United,/jarrod-bowen/profil/spieler/314875
 474701,Crysencio Summerville,7,4,Forward,West Ham United,/crysencio-summerville/profil/spieler/474701
@@ -526,3 +469,60 @@ id,name,shirtNumber,positionId,position,club,link
 171679,Matt Doherty,2,2,Defender,Wolverhampton Wanderers,/matt-doherty/profil/spieler/171679
 136401,Daniel Bentley,25,1,Goalkeeper,Wolverhampton Wanderers,/daniel-bentley/profil/spieler/136401
 863741,Nathan Fraser,63,4,Forward,Wolverhampton Wanderers,/nathan-fraser/profil/spieler/863741
+876631,Habib Diarra,19,3,Midfield,Sunderland AFC,/habib-diarra/profil/spieler/876631
+727089,Noah Sadiki,27,3,Midfield,Sunderland AFC,/noah-sadiki/profil/spieler/727089
+743384,Chemsdine Talbi,7,4,Forward,Sunderland AFC,/chemsdine-talbi/profil/spieler/743384
+646991,Robin Roefs,22,1,Goalkeeper,Sunderland AFC,/robin-roefs/profil/spieler/646991
+633992,Enzo Le Fée,28,3,Midfield,Sunderland AFC,/enzo-le-fee/profil/spieler/633992
+947411,Chris Rigg,11,3,Midfield,Sunderland AFC,/chris-rigg/profil/spieler/947411
+473169,Brian Brobbey,9,4,Forward,Sunderland AFC,/brian-brobbey/profil/spieler/473169
+515544,Trai Hume,32,2,Defender,Sunderland AFC,/trai-hume/profil/spieler/515544
+503686,Dan Ballard,5,2,Defender,Sunderland AFC,/dan-ballard/profil/spieler/503686
+420210,Lutsharel Geertruida,6,2,Defender,Sunderland AFC,/lutsharel-geertruida/profil/spieler/420210
+494237,Wilson Isidor,18,4,Forward,Sunderland AFC,/wilson-isidor/profil/spieler/494237
+348026,Nordi Mukiele,20,2,Defender,Sunderland AFC,/nordi-mukiele/profil/spieler/348026
+967346,Eliezer Mayenda,12,4,Forward,Sunderland AFC,/eliezer-mayenda/profil/spieler/967346
+903611,Nilson Angulo,10,4,Forward,Sunderland AFC,/nilson-angulo/profil/spieler/903611
+353032,Omar Alderete,15,2,Defender,Sunderland AFC,/omar-alderete/profil/spieler/353032
+111455,Granit Xhaka,34,3,Midfield,Sunderland AFC,/granit-xhaka/profil/spieler/111455
+568006,Dennis Cirkin,3,2,Defender,Sunderland AFC,/dennis-cirkin/profil/spieler/568006
+696181,Romaine Mundle,14,4,Forward,Sunderland AFC,/romaine-mundle/profil/spieler/696181
+240692,Reinildo Mandava,17,2,Defender,Sunderland AFC,/reinildo-mandava/profil/spieler/240692
+131996,Bertrand Traoré,25,4,Forward,Sunderland AFC,/bertrand-traore/profil/spieler/131996
+1322090,Jocelin Ta Bi,37,4,Forward,Sunderland AFC,/jocelin-ta-bi/profil/spieler/1322090
+605426,Melker Ellborg,31,1,Goalkeeper,Sunderland AFC,/melker-ellborg/profil/spieler/605426
+654412,Abdoullah Ba,46,3,Midfield,Sunderland AFC,/abdoullah-ba/profil/spieler/654412
+282939,Luke O'Nien,13,2,Defender,Sunderland AFC,/luke-onien/profil/spieler/282939
+1015619,Ahmed Abdullahi,29,4,Forward,Sunderland AFC,/ahmed-abdullahi/profil/spieler/1015619
+942738,Milan Aleksic,30,3,Midfield,Sunderland AFC,/milan-aleksic/profil/spieler/942738
+937840,Harrison Jones,50,3,Midfield,Sunderland AFC,/harrison-jones/profil/spieler/937840
+123536,Simon Moore,21,1,Goalkeeper,Sunderland AFC,/simon-moore/profil/spieler/123536
+567576,Elliot Anderson,8,3,Midfield,Nottingham Forest,/elliot-anderson/profil/spieler/567576
+429014,Morgan Gibbs-White,10,3,Midfield,Nottingham Forest,/morgan-gibbs-white/profil/spieler/429014
+1005649,Murillo,5,2,Defender,Nottingham Forest,/murillo/profil/spieler/1005649
+365108,Dan Ndoye,14,4,Forward,Nottingham Forest,/dan-ndoye/profil/spieler/365108
+413507,Nikola Milenković,31,2,Defender,Nottingham Forest,/nikola-milenkovic/profil/spieler/413507
+392768,Callum Hudson-Odoi,7,4,Forward,Nottingham Forest,/callum-hudson-odoi/profil/spieler/392768
+741238,Omari Hutchinson,21,3,Midfield,Nottingham Forest,/omari-hutchinson/profil/spieler/741238
+540664,Dilane Bakwa,29,4,Forward,Nottingham Forest,/dilane-bakwa/profil/spieler/540664
+503680,Neco Williams,3,2,Defender,Nottingham Forest,/neco-williams/profil/spieler/503680
+572265,Lorenzo Lucca,20,4,Forward,Nottingham Forest,/lorenzo-lucca/profil/spieler/572265
+375885,Ibrahim Sangaré,6,3,Midfield,Nottingham Forest,/ibrahim-sangare/profil/spieler/375885
+432164,Igor Jesus,19,4,Forward,Nottingham Forest,/igor-jesus/profil/spieler/432164
+236490,Ola Aina,34,2,Defender,Nottingham Forest,/ola-aina/profil/spieler/236490
+583199,James McAtee,24,3,Midfield,Nottingham Forest,/james-mcatee/profil/spieler/583199
+708072,Nicolò Savona,37,2,Defender,Nottingham Forest,/nicolo-savona/profil/spieler/708072
+497291,Nicolás Domínguez,16,3,Midfield,Nottingham Forest,/nicolas-dominguez/profil/spieler/497291
+673492,Morato,4,2,Defender,Nottingham Forest,/morato/profil/spieler/673492
+984096,Jair Cunha,23,2,Defender,Nottingham Forest,/jair-cunha/profil/spieler/984096
+295313,Taiwo Awoniyi,9,4,Forward,Nottingham Forest,/taiwo-awoniyi/profil/spieler/295313
+425902,Ryan Yates,22,3,Midfield,Nottingham Forest,/ryan-yates/profil/spieler/425902
+432914,John Victor,13,1,Goalkeeper,Nottingham Forest,/john-victor/profil/spieler/432914
+524285,Luca Netz,25,2,Defender,Nottingham Forest,/luca-netz/profil/spieler/524285
+108725,Chris Wood,11,4,Forward,Nottingham Forest,/chris-wood/profil/spieler/108725
+85941,Stefan Ortega,27,1,Goalkeeper,Nottingham Forest,/stefan-ortega/profil/spieler/85941
+127202,Matz Sels,26,1,Goalkeeper,Nottingham Forest,/matz-sels/profil/spieler/127202
+933017,Zach Abbott,44,2,Defender,Nottingham Forest,/zach-abbott/profil/spieler/933017
+201574,Angus Gunn,18,1,Goalkeeper,Nottingham Forest,/angus-gunn/profil/spieler/201574
+897481,Eric da Silva Moreira,17,2,Defender,Nottingham Forest,/eric-da-silva-moreira/profil/spieler/897481
+142310,Willy Boly,30,2,Defender,Nottingham Forest,/willy-boly/profil/spieler/142310

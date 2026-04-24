@@ -1,11 +1,11 @@
 {
   "league": "bundesliga",
   "season": 2025,
-  "updatedAt": "2026-04-23T17:17:23+00:00",
+  "updatedAt": "2026-04-24T21:27:42+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 18,
-    "players": 516,
+    "players": 517,
     "statsRows": 516,
     "tableRows": 18
   },

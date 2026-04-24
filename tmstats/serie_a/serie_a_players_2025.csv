@@ -23,32 +23,6 @@ id,name,shirtNumber,positionId,position,club,link
 42205,Yann Sommer,1,1,Goalkeeper,Inter Milan,/yann-sommer/profil/spieler/42205
 54906,Matteo Darmian,36,2,Defender,Inter Milan,/matteo-darmian/profil/spieler/54906
 70580,Raffaele Di Gennaro,12,1,Goalkeeper,Inter Milan,/raffaele-di-gennaro/profil/spieler/70580
-610442,Rasmus Højlund,19,4,Forward,SSC Napoli,/rasmus-hojlund/profil/spieler/610442
-315969,Scott McTominay,8,3,Midfield,SSC Napoli,/scott-mctominay/profil/spieler/315969
-386446,Alessandro Buongiorno,4,2,Defender,SSC Napoli,/alessandro-buongiorno/profil/spieler/386446
-469822,David Neres,7,4,Forward,SSC Napoli,/david-neres/profil/spieler/469822
-433984,Sam Beukema,31,2,Defender,SSC Napoli,/sam-beukema/profil/spieler/433984
-354361,Frank Anguissa,99,3,Midfield,SSC Napoli,/frank-anguissa/profil/spieler/354361
-257474,Vanja Milinković-Savić,32,1,Goalkeeper,SSC Napoli,/vanja-milinkovic-savic/profil/spieler/257474
-423744,Billy Gilmour,6,3,Midfield,SSC Napoli,/billy-gilmour/profil/spieler/423744
-525299,Miguel Gutiérrez,3,2,Defender,SSC Napoli,/miguel-gutierrez/profil/spieler/525299
-376514,Mathías Olivera,17,2,Defender,SSC Napoli,/mathias-olivera/profil/spieler/376514
-703245,Antonio Vergara,26,3,Midfield,SSC Napoli,/antonio-vergara/profil/spieler/703245
-192735,Stanislav Lobotka,68,3,Midfield,SSC Napoli,/stanislav-lobotka/profil/spieler/192735
-400489,Eljif Elmas,20,3,Midfield,SSC Napoli,/eljif-elmas/profil/spieler/400489
-240414,Alex Meret,1,1,Goalkeeper,SSC Napoli,/alex-meret/profil/spieler/240414
-830365,Alisson Santos,27,4,Forward,SSC Napoli,/alisson-santos/profil/spieler/830365
-1005165,Giovane,23,4,Forward,SSC Napoli,/giovane/profil/spieler/1005165
-96341,Romelu Lukaku,9,4,Forward,SSC Napoli,/romelu-lukaku/profil/spieler/96341
-257732,Amir Rrahmani,13,2,Defender,SSC Napoli,/amir-rrahmani/profil/spieler/257732
-169880,Giovanni Di Lorenzo,22,2,Defender,SSC Napoli,/giovanni-di-lorenzo/profil/spieler/169880
-88755,Kevin De Bruyne,11,3,Midfield,SSC Napoli,/kevin-de-bruyne/profil/spieler/88755
-165895,Matteo Politano,21,4,Forward,SSC Napoli,/matteo-politano/profil/spieler/165895
-118689,Leonardo Spinazzola,37,2,Defender,SSC Napoli,/leonardo-spinazzola/profil/spieler/118689
-250153,Pasquale Mazzocchi,30,2,Defender,SSC Napoli,/pasquale-mazzocchi/profil/spieler/250153
-121985,Juan Jesus,5,2,Defender,SSC Napoli,/juan-jesus/profil/spieler/121985
-250683,Nikita Contini,14,1,Goalkeeper,SSC Napoli,/nikita-contini/profil/spieler/250683
-1195798,Mathias Ferrante,25,1,Goalkeeper,SSC Napoli,/mathias-ferrante/profil/spieler/1195798
 357164,Rafael Leão,10,4,Forward,AC Milan,/rafael-leao/profil/spieler/357164
 315779,Christian Pulisic,11,4,Forward,AC Milan,/christian-pulisic/profil/spieler/315779
 574671,Strahinja Pavlović,31,2,Defender,AC Milan,/strahinja-pavlovic/profil/spieler/574671
@@ -420,33 +394,6 @@ id,name,shirtNumber,positionId,position,club,link
 340394,Abdelhamid Sabiri,11,3,Midfield,ACF Fiorentina,/abdelhamid-sabiri/profil/spieler/340394
 1012731,Luis Balbo,62,2,Defender,ACF Fiorentina,/luis-balbo/profil/spieler/1012731
 135747,Luca Lezzerini,1,1,Goalkeeper,ACF Fiorentina,/luca-lezzerini/profil/spieler/135747
-659516,Warren Bondo,38,3,Midfield,US Cremonese,/warren-bondo/profil/spieler/659516
-555820,Martín Payero,32,3,Midfield,US Cremonese,/martin-payero/profil/spieler/555820
-666974,Mikayil Faye,30,2,Defender,US Cremonese,/mikayil-faye/profil/spieler/666974
-631007,Filippo Terracciano,24,2,Defender,US Cremonese,/filippo-terracciano/profil/spieler/631007
-569939,Tommaso Barbieri,4,2,Defender,US Cremonese,/tommaso-barbieri/profil/spieler/569939
-351955,Federico Baschirotto,6,2,Defender,US Cremonese,/federico-baschirotto/profil/spieler/351955
-599663,Faris Moumbagna,14,4,Forward,US Cremonese,/faris-moumbagna/profil/spieler/599663
-278531,Sebastiano Luperto,5,2,Defender,US Cremonese,/sebastiano-luperto/profil/spieler/278531
-258827,Jari Vandeputte,27,3,Midfield,US Cremonese,/jari-vandeputte/profil/spieler/258827
-256339,Emil Audero,1,1,Goalkeeper,US Cremonese,/emil-audero/profil/spieler/256339
-226524,Morten Thorsby,2,3,Midfield,US Cremonese,/morten-thorsby/profil/spieler/226524
-434551,Michele Collocolo,18,3,Midfield,US Cremonese,/michele-collocolo/profil/spieler/434551
-241527,Federico Bonazzoli,90,4,Forward,US Cremonese,/federico-bonazzoli/profil/spieler/241527
-336960,Giuseppe Pezzella,3,2,Defender,US Cremonese,/giuseppe-pezzella/profil/spieler/336960
-708086,Romano Floriani Mussolini,22,2,Defender,US Cremonese,/romano-floriani-mussolini/profil/spieler/708086
-433584,Alessio Zerbin,7,3,Midfield,US Cremonese,/alessio-zerbin/profil/spieler/433584
-234523,Antonio Sanabria,99,4,Forward,US Cremonese,/antonio-sanabria/profil/spieler/234523
-197473,Alberto Grassi,33,3,Midfield,US Cremonese,/alberto-grassi/profil/spieler/197473
-413605,David Okereke,77,4,Forward,US Cremonese,/david-okereke/profil/spieler/413605
-324377,Youssef Maleh,29,3,Midfield,US Cremonese,/youssef-maleh/profil/spieler/324377
-197838,Jamie Vardy,10,4,Forward,US Cremonese,/jamie-vardy/profil/spieler/197838
-67556,Milan Djuric,9,4,Forward,US Cremonese,/milan-djuric/profil/spieler/67556
-160986,Matteo Bianchetti,15,2,Defender,US Cremonese,/matteo-bianchetti/profil/spieler/160986
-603675,Francesco Folino,55,2,Defender,US Cremonese,/francesco-folino/profil/spieler/603675
-85528,Marco Silvestri,16,1,Goalkeeper,US Cremonese,/marco-silvestri/profil/spieler/85528
-163639,Federico Ceccherini,23,2,Defender,US Cremonese,/federico-ceccherini/profil/spieler/163639
-815563,Lapo Nava,69,1,Goalkeeper,US Cremonese,/lapo-nava/profil/spieler/815563
 1112449,Tiago Gabriel,44,2,Defender,US Lecce,/tiago-gabriel/profil/spieler/1112449
 1058368,Francesco Camarda,22,4,Forward,US Lecce,/francesco-camarda/profil/spieler/1058368
 583046,Medon Berisha,10,3,Midfield,US Lecce,/medon-berisha/profil/spieler/583046
@@ -533,3 +480,56 @@ id,name,shirtNumber,positionId,position,club,link
 149525,Antonio Caracciolo,4,2,Defender,Pisa Sporting Club,/antonio-caracciolo/profil/spieler/149525
 692187,Daniel Denoon,44,2,Defender,Pisa Sporting Club,/daniel-denoon/profil/spieler/692187
 99523,Nícolas,12,1,Goalkeeper,Pisa Sporting Club,/nicolas/profil/spieler/99523
+610442,Rasmus Højlund,19,4,Forward,SSC Napoli,/rasmus-hojlund/profil/spieler/610442
+315969,Scott McTominay,8,3,Midfield,SSC Napoli,/scott-mctominay/profil/spieler/315969
+386446,Alessandro Buongiorno,4,2,Defender,SSC Napoli,/alessandro-buongiorno/profil/spieler/386446
+469822,David Neres,7,4,Forward,SSC Napoli,/david-neres/profil/spieler/469822
+433984,Sam Beukema,31,2,Defender,SSC Napoli,/sam-beukema/profil/spieler/433984
+354361,Frank Anguissa,99,3,Midfield,SSC Napoli,/frank-anguissa/profil/spieler/354361
+257474,Vanja Milinković-Savić,32,1,Goalkeeper,SSC Napoli,/vanja-milinkovic-savic/profil/spieler/257474
+423744,Billy Gilmour,6,3,Midfield,SSC Napoli,/billy-gilmour/profil/spieler/423744
+525299,Miguel Gutiérrez,3,2,Defender,SSC Napoli,/miguel-gutierrez/profil/spieler/525299
+376514,Mathías Olivera,17,2,Defender,SSC Napoli,/mathias-olivera/profil/spieler/376514
+703245,Antonio Vergara,26,3,Midfield,SSC Napoli,/antonio-vergara/profil/spieler/703245
+192735,Stanislav Lobotka,68,3,Midfield,SSC Napoli,/stanislav-lobotka/profil/spieler/192735
+400489,Eljif Elmas,20,3,Midfield,SSC Napoli,/eljif-elmas/profil/spieler/400489
+240414,Alex Meret,1,1,Goalkeeper,SSC Napoli,/alex-meret/profil/spieler/240414
+830365,Alisson Santos,27,4,Forward,SSC Napoli,/alisson-santos/profil/spieler/830365
+1005165,Giovane,23,4,Forward,SSC Napoli,/giovane/profil/spieler/1005165
+96341,Romelu Lukaku,9,4,Forward,SSC Napoli,/romelu-lukaku/profil/spieler/96341
+257732,Amir Rrahmani,13,2,Defender,SSC Napoli,/amir-rrahmani/profil/spieler/257732
+169880,Giovanni Di Lorenzo,22,2,Defender,SSC Napoli,/giovanni-di-lorenzo/profil/spieler/169880
+88755,Kevin De Bruyne,11,3,Midfield,SSC Napoli,/kevin-de-bruyne/profil/spieler/88755
+165895,Matteo Politano,21,4,Forward,SSC Napoli,/matteo-politano/profil/spieler/165895
+118689,Leonardo Spinazzola,37,2,Defender,SSC Napoli,/leonardo-spinazzola/profil/spieler/118689
+250153,Pasquale Mazzocchi,30,2,Defender,SSC Napoli,/pasquale-mazzocchi/profil/spieler/250153
+121985,Juan Jesus,5,2,Defender,SSC Napoli,/juan-jesus/profil/spieler/121985
+250683,Nikita Contini,14,1,Goalkeeper,SSC Napoli,/nikita-contini/profil/spieler/250683
+1195798,Mathias Ferrante,25,1,Goalkeeper,SSC Napoli,/mathias-ferrante/profil/spieler/1195798
+659516,Warren Bondo,38,3,Midfield,US Cremonese,/warren-bondo/profil/spieler/659516
+555820,Martín Payero,32,3,Midfield,US Cremonese,/martin-payero/profil/spieler/555820
+666974,Mikayil Faye,30,2,Defender,US Cremonese,/mikayil-faye/profil/spieler/666974
+631007,Filippo Terracciano,24,2,Defender,US Cremonese,/filippo-terracciano/profil/spieler/631007
+569939,Tommaso Barbieri,4,2,Defender,US Cremonese,/tommaso-barbieri/profil/spieler/569939
+351955,Federico Baschirotto,6,2,Defender,US Cremonese,/federico-baschirotto/profil/spieler/351955
+599663,Faris Moumbagna,14,4,Forward,US Cremonese,/faris-moumbagna/profil/spieler/599663
+278531,Sebastiano Luperto,5,2,Defender,US Cremonese,/sebastiano-luperto/profil/spieler/278531
+258827,Jari Vandeputte,27,3,Midfield,US Cremonese,/jari-vandeputte/profil/spieler/258827
+256339,Emil Audero,1,1,Goalkeeper,US Cremonese,/emil-audero/profil/spieler/256339
+226524,Morten Thorsby,2,3,Midfield,US Cremonese,/morten-thorsby/profil/spieler/226524
+434551,Michele Collocolo,18,3,Midfield,US Cremonese,/michele-collocolo/profil/spieler/434551
+241527,Federico Bonazzoli,90,4,Forward,US Cremonese,/federico-bonazzoli/profil/spieler/241527
+336960,Giuseppe Pezzella,3,2,Defender,US Cremonese,/giuseppe-pezzella/profil/spieler/336960
+708086,Romano Floriani Mussolini,22,2,Defender,US Cremonese,/romano-floriani-mussolini/profil/spieler/708086
+433584,Alessio Zerbin,7,3,Midfield,US Cremonese,/alessio-zerbin/profil/spieler/433584
+234523,Antonio Sanabria,99,4,Forward,US Cremonese,/antonio-sanabria/profil/spieler/234523
+197473,Alberto Grassi,33,3,Midfield,US Cremonese,/alberto-grassi/profil/spieler/197473
+413605,David Okereke,77,4,Forward,US Cremonese,/david-okereke/profil/spieler/413605
+324377,Youssef Maleh,29,3,Midfield,US Cremonese,/youssef-maleh/profil/spieler/324377
+197838,Jamie Vardy,10,4,Forward,US Cremonese,/jamie-vardy/profil/spieler/197838
+67556,Milan Djuric,9,4,Forward,US Cremonese,/milan-djuric/profil/spieler/67556
+160986,Matteo Bianchetti,15,2,Defender,US Cremonese,/matteo-bianchetti/profil/spieler/160986
+603675,Francesco Folino,55,2,Defender,US Cremonese,/francesco-folino/profil/spieler/603675
+85528,Marco Silvestri,16,1,Goalkeeper,US Cremonese,/marco-silvestri/profil/spieler/85528
+163639,Federico Ceccherini,23,2,Defender,US Cremonese,/federico-ceccherini/profil/spieler/163639
+815563,Lapo Nava,69,1,Goalkeeper,US Cremonese,/lapo-nava/profil/spieler/815563

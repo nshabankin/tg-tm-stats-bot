@@ -49,36 +49,6 @@ player_id,player_name,number,position,club,league,played,goals,assists,yellow_ca
 76158,Alexander Meyer,#33,Goalkeeper,Borussia Dortmund,Bundesliga,-,-,,-,-,-,-,-,-
 94192,Patrick Drewes,#30,Goalkeeper,Borussia Dortmund,Bundesliga,-,-,,-,-,-,-,-,-
 684116,Silas Ostrzinski,#31,Goalkeeper,Borussia Dortmund,Bundesliga,,,,,,,,,
-1390649,Yan Diomande,#49,Left Winger,RB Leipzig,Bundesliga,29,12,7,2,-,-,,,2.144'
-618472,Castello Lukeba,#23,Centre-Back,RB Leipzig,Bundesliga,23,1,-,2,-,-,,,1.952'
-894914,Antonio Nusa,#7,Left Winger,RB Leipzig,Bundesliga,27,4,3,-,-,-,,,1.867'
-957874,Rômulo,#40,Centre-Forward,RB Leipzig,Bundesliga,26,8,4,3,-,-,,,1.969'
-324278,Christoph Baumgartner,#14,Attacking Midfield,RB Leipzig,Bundesliga,29,12,8,6,-,-,,,2.433'
-897424,Assan Ouédraogo,#20,Central Midfield,RB Leipzig,Bundesliga,15,3,3,-,-,-,,,703'
-700106,Brajan Gruda,#10,Attacking Midfield,RB Leipzig,Bundesliga,9,3,2,1,-,-,,,546'
-318204,David Raum,#22,Left-Back,RB Leipzig,Bundesliga,29,3,6,6,-,-,,,2.487'
-404950,Nicolas Seiwald,#13,Defensive Midfield,RB Leipzig,Bundesliga,30,-,2,2,-,-,,,2.545'
-565424,Johan Bakayoko,#9,Right Winger,RB Leipzig,Bundesliga,18,2,-,1,-,-,,,753'
-807386,Conrad Harder,#11,Centre-Forward,RB Leipzig,Bundesliga,26,3,3,3,-,-,,,799'
-865682,Ezechiel Banzuzi,#6,Central Midfield,RB Leipzig,Bundesliga,24,-,1,3,-,-,,,578'
-787912,El Chadaille Bitshiabu,#5,Centre-Back,RB Leipzig,Bundesliga,9,-,-,-,-,-,,,519'
-952779,Andrija Maksimovic,#33,Attacking Midfield,RB Leipzig,Bundesliga,8,-,-,-,-,-,,,88'
-327251,Ridle Baku,#17,Right-Back,RB Leipzig,Bundesliga,28,1,3,4,-,-,,,2.228'
-223979,Xaver Schlager,#24,Central Midfield,RB Leipzig,Bundesliga,23,2,1,5,-,-,,,1.567'
-202591,Benjamin Henrichs,#39,Right-Back,RB Leipzig,Bundesliga,13,1,-,-,-,-,,,218'
-486046,Maarten Vandevoordt,#26,Goalkeeper,RB Leipzig,Bundesliga,9,-,,-,-,-,9,2,781'
-93740,Willi Orbán,#4,Centre-Back,RB Leipzig,Bundesliga,29,1,-,4,-,-,,,2.590'
-848682,Kosta Nedeljkovic,#19,Right-Back,RB Leipzig,Bundesliga,5,-,-,-,-,-,,,252'
-955448,Tidiam Gomis,#27,Left Winger,RB Leipzig,Bundesliga,16,1,-,1,-,-,,,319'
-1235583,Suleman Sani,#18,Left Winger,RB Leipzig,Bundesliga,,,,,,,,,
-215599,Lukas Klostermann,#16,Centre-Back,RB Leipzig,Bundesliga,5,-,1,-,-,-,,,95'
-810649,Max Finkgräfe,#35,Left-Back,RB Leipzig,Bundesliga,9,-,1,1,-,-,,,217'
-57071,Péter Gulácsi,#1,Goalkeeper,RB Leipzig,Bundesliga,22,-,,1,-,-,28,10,1.919'
-1380977,Samba Konaté,#45,Centre-Forward,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,3'
-763948,Ayodele Thomas,#21,Left Winger,RB Leipzig,Bundesliga,,,,,,,,,
-160971,Leopold Zingerle,#25,Goalkeeper,RB Leipzig,Bundesliga,-,-,,-,-,-,-,-,-
-1074526,Viggo Gebel,#47,Attacking Midfield,RB Leipzig,Bundesliga,,,,,,,,,
-1279157,Benno Kaltefleiter,#37,Defensive Midfield,RB Leipzig,Bundesliga,-,-,-,-,-,-,,,-
 443710,Angelo Stiller,#6,Defensive Midfield,VfB Stuttgart,Bundesliga,30,2,6,1,-,-,,,2.386'
 518505,Jamie Leweling,#18,Right Winger,VfB Stuttgart,Bundesliga,28,7,7,4,-,-,,,2.038'
 654982,Bilal El Khannouss,#11,Attacking Midfield,VfB Stuttgart,Bundesliga,22,4,4,5,-,-,,,1.457'
@@ -279,32 +249,6 @@ player_id,player_name,number,position,club,league,played,goals,assists,yellow_ca
 392124,Daniel Klein,#25,Goalkeeper,FC Augsburg,Bundesliga,-,-,,-,-,-,-,-,-
 730486,Mahmut Kücüksahin,#42,Defensive Midfield,FC Augsburg,Bundesliga,,,,,,,,,
 1069641,Felix Meiser,#41,Centre-Back,FC Augsburg,Bundesliga,,,,,,,,,
-597432,Leopold Querfeld,#14,Centre-Back,1.FC Union Berlin,Bundesliga,29,3,-,6,-,-,,,2.610'
-387047,Danilho Doekhi,#5,Centre-Back,1.FC Union Berlin,Bundesliga,30,4,1,4,-,-,,,2.700'
-692737,Aljoscha Kemlein,#6,Defensive Midfield,1.FC Union Berlin,Bundesliga,26,-,1,3,-,-,,,1.668'
-357156,Diogo Leite,#4,Centre-Back,1.FC Union Berlin,Bundesliga,19,-,-,2,-,-,,,1.610'
-1035765,Ilyas Ansah,#10,Centre-Forward,1.FC Union Berlin,Bundesliga,29,5,3,1,-,-,,,1.689'
-798043,Tom Rothe,#15,Left-Back,1.FC Union Berlin,Bundesliga,17,1,-,1,-,1,,,694'
-583699,Andrej Ilic,#23,Centre-Forward,1.FC Union Berlin,Bundesliga,28,2,9,5,-,-,,,1.990'
-454863,András Schäfer,#13,Central Midfield,1.FC Union Berlin,Bundesliga,24,1,-,2,-,1,,,1.158'
-519872,Livan Burcu,#9,Left Winger,1.FC Union Berlin,Bundesliga,14,-,-,3,-,-,,,476'
-391780,Derrick Köhn,#39,Left-Back,1.FC Union Berlin,Bundesliga,28,1,2,4,-,1,,,1.872'
-341317,Oliver Burke,#7,Centre-Forward,1.FC Union Berlin,Bundesliga,25,5,1,3,-,-,,,1.320'
-297583,Woo-yeong Jeong,#11,Attacking Midfield,1.FC Union Berlin,Bundesliga,26,3,1,-,-,-,,,1.137'
-362977,Josip Juranovic,#18,Right-Back,1.FC Union Berlin,Bundesliga,7,-,-,1,-,-,,,203'
-337333,Alex Král,#33,Central Midfield,1.FC Union Berlin,Bundesliga,19,-,-,1,-,-,,,441'
-270393,Robert Skov,#24,Left Midfield,1.FC Union Berlin,Bundesliga,3,-,-,-,-,-,,,223'
-177779,Janik Haberer,#19,Central Midfield,1.FC Union Berlin,Bundesliga,27,-,1,8,-,-,,,1.592'
-107775,Frederik Rönnow,#1,Goalkeeper,1.FC Union Berlin,Bundesliga,29,-,,2,-,-,52,5,2.610'
-371141,Stanley Nsoki,#34,Centre-Back,1.FC Union Berlin,Bundesliga,12,1,2,2,-,-,,,752'
-124410,Rani Khedira,#8,Defensive Midfield,1.FC Union Berlin,Bundesliga,29,5,2,7,-,-,,,2.567'
-287920,Tim Skarke,#21,Centre-Forward,1.FC Union Berlin,Bundesliga,19,1,-,-,-,-,,,563'
-1045446,Dmytro Bogdanov,#30,Centre-Forward,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,1'
-75921,Christopher Trimmel,#28,Right-Back,1.FC Union Berlin,Bundesliga,25,-,2,7,-,-,,,1.631'
-386685,Matheo Raab,#31,Goalkeeper,1.FC Union Berlin,Bundesliga,1,-,,-,-,-,-,1,90'
-745075,David Preu,#17,Left Winger,1.FC Union Berlin,Bundesliga,-,-,-,-,-,-,,,-
-161057,Carl Klaus,#25,Goalkeeper,1.FC Union Berlin,Bundesliga,-,-,,-,-,-,-,-,-
-1027870,Andrik Markgraf,#3,Left-Back,1.FC Union Berlin,Bundesliga,-,-,-,-,-,-,,,-
 892160,Luka Vuskovic,#44,Centre-Back,Hamburger SV,Bundesliga,25,5,1,5,-,-,,,2.250'
 537598,Fábio Vieira,#20,Attacking Midfield,Hamburger SV,Bundesliga,25,5,5,2,1,1,,,1.870'
 381967,Albert Sambi Lokonga,#6,Central Midfield,Hamburger SV,Bundesliga,22,5,-,2,-,-,,,1.450'
@@ -515,3 +459,59 @@ player_id,player_name,number,position,club,league,played,goals,assists,yellow_ca
 806948,Frank Feller,#40,Goalkeeper,1.FC Heidenheim 1846,Bundesliga,1,-,,-,-,-,2,-,90'
 1052350,Nick Rothweiler,#33,Central Midfield,1.FC Heidenheim 1846,Bundesliga,-,-,-,-,-,-,,,-
 519035,Paul Tschernuth,#34,Goalkeeper,1.FC Heidenheim 1846,Bundesliga,-,-,,-,-,-,-,-,-
+1390649,Yan Diomande,#49,Left Winger,RB Leipzig,Bundesliga,29,12,7,2,-,-,,,2.144'
+618472,Castello Lukeba,#23,Centre-Back,RB Leipzig,Bundesliga,23,1,-,2,-,-,,,1.952'
+894914,Antonio Nusa,#7,Left Winger,RB Leipzig,Bundesliga,27,4,3,-,-,-,,,1.867'
+957874,Rômulo,#40,Centre-Forward,RB Leipzig,Bundesliga,26,8,4,3,-,-,,,1.969'
+324278,Christoph Baumgartner,#14,Attacking Midfield,RB Leipzig,Bundesliga,29,12,8,6,-,-,,,2.433'
+897424,Assan Ouédraogo,#20,Central Midfield,RB Leipzig,Bundesliga,15,3,3,-,-,-,,,703'
+700106,Brajan Gruda,#10,Attacking Midfield,RB Leipzig,Bundesliga,9,3,2,1,-,-,,,546'
+318204,David Raum,#22,Left-Back,RB Leipzig,Bundesliga,29,3,6,6,-,-,,,2.487'
+404950,Nicolas Seiwald,#13,Defensive Midfield,RB Leipzig,Bundesliga,30,-,2,2,-,-,,,2.545'
+565424,Johan Bakayoko,#9,Right Winger,RB Leipzig,Bundesliga,18,2,-,1,-,-,,,753'
+807386,Conrad Harder,#11,Centre-Forward,RB Leipzig,Bundesliga,26,3,3,3,-,-,,,799'
+865682,Ezechiel Banzuzi,#6,Central Midfield,RB Leipzig,Bundesliga,24,-,1,3,-,-,,,578'
+787912,El Chadaille Bitshiabu,#5,Centre-Back,RB Leipzig,Bundesliga,9,-,-,-,-,-,,,519'
+952779,Andrija Maksimovic,#33,Attacking Midfield,RB Leipzig,Bundesliga,8,-,-,-,-,-,,,88'
+327251,Ridle Baku,#17,Right-Back,RB Leipzig,Bundesliga,28,1,3,4,-,-,,,2.228'
+223979,Xaver Schlager,#24,Central Midfield,RB Leipzig,Bundesliga,23,2,1,5,-,-,,,1.567'
+202591,Benjamin Henrichs,#39,Right-Back,RB Leipzig,Bundesliga,13,1,-,-,-,-,,,218'
+486046,Maarten Vandevoordt,#26,Goalkeeper,RB Leipzig,Bundesliga,9,-,,-,-,-,9,2,781'
+93740,Willi Orbán,#4,Centre-Back,RB Leipzig,Bundesliga,29,1,-,4,-,-,,,2.590'
+848682,Kosta Nedeljkovic,#19,Right-Back,RB Leipzig,Bundesliga,5,-,-,-,-,-,,,252'
+955448,Tidiam Gomis,#27,Left Winger,RB Leipzig,Bundesliga,16,1,-,1,-,-,,,319'
+1235583,Suleman Sani,#18,Left Winger,RB Leipzig,Bundesliga,,,,,,,,,
+215599,Lukas Klostermann,#16,Centre-Back,RB Leipzig,Bundesliga,5,-,1,-,-,-,,,95'
+810649,Max Finkgräfe,#35,Left-Back,RB Leipzig,Bundesliga,9,-,1,1,-,-,,,217'
+57071,Péter Gulácsi,#1,Goalkeeper,RB Leipzig,Bundesliga,22,-,,1,-,-,28,10,1.919'
+1380977,Samba Konaté,#45,Centre-Forward,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,3'
+763948,Ayodele Thomas,#21,Left Winger,RB Leipzig,Bundesliga,,,,,,,,,
+160971,Leopold Zingerle,#25,Goalkeeper,RB Leipzig,Bundesliga,-,-,,-,-,-,-,-,-
+1074526,Viggo Gebel,#47,Attacking Midfield,RB Leipzig,Bundesliga,,,,,,,,,
+1279157,Benno Kaltefleiter,#37,Defensive Midfield,RB Leipzig,Bundesliga,-,-,-,-,-,-,,,-
+597432,Leopold Querfeld,#14,Centre-Back,1.FC Union Berlin,Bundesliga,29,3,-,6,-,-,,,2.610'
+387047,Danilho Doekhi,#5,Centre-Back,1.FC Union Berlin,Bundesliga,30,4,1,4,-,-,,,2.700'
+692737,Aljoscha Kemlein,#6,Defensive Midfield,1.FC Union Berlin,Bundesliga,26,-,1,3,-,-,,,1.668'
+357156,Diogo Leite,#4,Centre-Back,1.FC Union Berlin,Bundesliga,19,-,-,2,-,-,,,1.610'
+1035765,Ilyas Ansah,#10,Centre-Forward,1.FC Union Berlin,Bundesliga,29,5,3,1,-,-,,,1.689'
+798043,Tom Rothe,#15,Left-Back,1.FC Union Berlin,Bundesliga,17,1,-,1,-,1,,,694'
+583699,Andrej Ilic,#23,Centre-Forward,1.FC Union Berlin,Bundesliga,28,2,9,5,-,-,,,1.990'
+454863,András Schäfer,#13,Central Midfield,1.FC Union Berlin,Bundesliga,24,1,-,2,-,1,,,1.158'
+519872,Livan Burcu,#9,Left Winger,1.FC Union Berlin,Bundesliga,14,-,-,3,-,-,,,476'
+391780,Derrick Köhn,#39,Left-Back,1.FC Union Berlin,Bundesliga,28,1,2,4,-,1,,,1.872'
+341317,Oliver Burke,#7,Centre-Forward,1.FC Union Berlin,Bundesliga,25,5,1,3,-,-,,,1.320'
+297583,Woo-yeong Jeong,#11,Attacking Midfield,1.FC Union Berlin,Bundesliga,26,3,1,-,-,-,,,1.137'
+362977,Josip Juranovic,#18,Right-Back,1.FC Union Berlin,Bundesliga,7,-,-,1,-,-,,,203'
+337333,Alex Král,#33,Central Midfield,1.FC Union Berlin,Bundesliga,19,-,-,1,-,-,,,441'
+270393,Robert Skov,#24,Left Midfield,1.FC Union Berlin,Bundesliga,3,-,-,-,-,-,,,223'
+177779,Janik Haberer,#19,Central Midfield,1.FC Union Berlin,Bundesliga,27,-,1,8,-,-,,,1.592'
+107775,Frederik Rönnow,#1,Goalkeeper,1.FC Union Berlin,Bundesliga,29,-,,2,-,-,52,5,2.610'
+371141,Stanley Nsoki,#34,Centre-Back,1.FC Union Berlin,Bundesliga,12,1,2,2,-,-,,,752'
+124410,Rani Khedira,#8,Defensive Midfield,1.FC Union Berlin,Bundesliga,29,5,2,7,-,-,,,2.567'
+287920,Tim Skarke,#21,Centre-Forward,1.FC Union Berlin,Bundesliga,19,1,-,-,-,-,,,563'
+1045446,Dmytro Bogdanov,#30,Centre-Forward,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,1'
+75921,Christopher Trimmel,#28,Right-Back,1.FC Union Berlin,Bundesliga,25,-,2,7,-,-,,,1.631'
+386685,Matheo Raab,#31,Goalkeeper,1.FC Union Berlin,Bundesliga,1,-,,-,-,-,-,1,90'
+745075,David Preu,#17,Left Winger,1.FC Union Berlin,Bundesliga,-,-,-,-,-,-,,,-
+161057,Carl Klaus,#25,Goalkeeper,1.FC Union Berlin,Bundesliga,-,-,,-,-,-,-,-,-
+1027870,Andrik Markgraf,#3,Left-Back,1.FC Union Berlin,Bundesliga,-,-,-,-,-,-,,,-

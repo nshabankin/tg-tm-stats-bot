@@ -1,7 +1,7 @@
 rank,club,logo,played,wins,draws,losses,goals,diff,points,form
 1,Bayern Munich,https://tmssl.akamaized.net//images/wappen/head/27.png?lm=1729503608,30,25,4,1,109:29,80,79,DWWWW
 2,Borussia Dortmund,https://tmssl.akamaized.net//images/wappen/head/16.png?lm=1396275280,30,19,7,4,61:31,30,64,WWWLL
-3,RB Leipzig,https://tmssl.akamaized.net//images/wappen/head/23826.png?lm=1619431624,30,18,5,7,59:37,22,59,LWWWW
+3,RB Leipzig,https://tmssl.akamaized.net//images/wappen/head/23826.png?lm=1619431624,31,19,5,7,62:38,24,62,LWWWWW
 4,VfB Stuttgart,https://tmssl.akamaized.net//images/wappen/head/79.png?lm=1680587427,30,17,5,8,62:42,20,56,WWLWL
 5,TSG 1899 Hoffenheim,https://tmssl.akamaized.net//images/wappen/head/533.png?lm=1675591766,30,16,6,8,59:44,15,54,DLLDW
 6,Bayer 04 Leverkusen,https://tmssl.akamaized.net//images/wappen/head/15.png?lm=1710156317,30,15,7,8,60:41,19,52,DDWWL
@@ -9,7 +9,7 @@ rank,club,logo,played,wins,draws,losses,goals,diff,points,form
 8,Eintracht Frankfurt,https://tmssl.akamaized.net//images/wappen/head/24.png?lm=1700074979,30,11,9,10,55:57,-2,42,WLDWL
 9,FC Augsburg,https://tmssl.akamaized.net//images/wappen/head/167.png?lm=1656582897,30,10,6,14,38:54,-16,36,LLDDW
 10,1.FSV Mainz 05,https://tmssl.akamaized.net//images/wappen/head/39.png?lm=1564748880,30,8,10,12,36:45,-9,34,WWWLD
-11,1.FC Union Berlin,https://tmssl.akamaized.net//images/wappen/head/89.png?lm=1402956210,30,8,8,14,34:52,-18,32,WLDLL
+11,1.FC Union Berlin,https://tmssl.akamaized.net//images/wappen/head/89.png?lm=1402956210,31,8,8,15,35:55,-20,32,WLDLLL
 12,1.FC Köln,https://tmssl.akamaized.net//images/wappen/head/3.png?lm=1656580823,30,7,10,13,44:51,-7,31,DDDWD
 13,Borussia Mönchengladbach,https://tmssl.akamaized.net//images/wappen/head/18.png?lm=1656585796,30,7,10,13,36:50,-14,31,WDDLD
 14,Hamburger SV,https://tmssl.akamaized.net//images/wappen/head/41.png?lm=1597319274,30,7,10,13,33:48,-15,31,DLDLL

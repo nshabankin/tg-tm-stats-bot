@@ -1,7 +1,7 @@
 rank,club,logo,played,wins,draws,losses,goals,diff,points,form
 1,Inter Milan,https://tmssl.akamaized.net//images/wappen/head/46.png?lm=1618900989,33,25,3,5,78:29,49,78,DDWWW
-2,AC Milan,https://tmssl.akamaized.net//images/wappen/head/5.png?lm=1605166627,33,19,9,5,48:27,21,66,LWLLW
-3,SSC Napoli,https://tmssl.akamaized.net//images/wappen/head/6195.png?lm=1753167643,33,20,6,7,48:33,15,66,WWWDL
+2,SSC Napoli,https://tmssl.akamaized.net//images/wappen/head/6195.png?lm=1753167643,34,21,6,7,52:33,19,69,WWWDLW
+3,AC Milan,https://tmssl.akamaized.net//images/wappen/head/5.png?lm=1605166627,33,19,9,5,48:27,21,66,LWLLW
 4,Juventus FC,https://tmssl.akamaized.net//images/wappen/head/506.png?lm=1626441487,33,18,9,6,57:29,28,63,WDWWW
 5,Como 1907,https://tmssl.akamaized.net//images/wappen/head/1047.png?lm=1565704078,33,16,10,7,57:28,29,58,WWDLL
 6,AS Roma,https://tmssl.akamaized.net//images/wappen/head/12.png?lm=1751979202,33,18,4,11,46:29,17,58,LWLWD
@@ -15,7 +15,7 @@ rank,club,logo,played,wins,draws,losses,goals,diff,points,form
 14,Parma Calcio 1913,https://tmssl.akamaized.net//images/wappen/head/130.png?lm=1530945992,33,9,12,12,24:40,-16,39,LLDDW
 15,ACF Fiorentina,https://tmssl.akamaized.net//images/wappen/head/430.png?lm=1722844765,33,8,12,13,38:45,-7,36,WDWWD
 16,Cagliari Calcio,https://tmssl.akamaized.net//images/wappen/head/1390.png?lm=1626441409,33,8,9,16,33:47,-14,33,LLLWL
-17,US Cremonese,https://tmssl.akamaized.net//images/wappen/head/2239.png?lm=1501770762,33,6,10,17,26:47,-21,28,LWLLD
-18,US Lecce,https://tmssl.akamaized.net//images/wappen/head/1005.png?lm=1689169528,33,7,7,19,22:46,-24,28,LLLLD
+17,US Lecce,https://tmssl.akamaized.net//images/wappen/head/1005.png?lm=1689169528,33,7,7,19,22:46,-24,28,LLLLD
+18,US Cremonese,https://tmssl.akamaized.net//images/wappen/head/2239.png?lm=1501770762,34,6,10,18,26:51,-25,28,LWLLDL
 19,Hellas Verona,https://tmssl.akamaized.net//images/wappen/head/276.png?lm=1617228746,33,3,9,21,23:56,-33,18,LLLLL
 20,Pisa Sporting Club,https://tmssl.akamaized.net//images/wappen/head/4172.png?lm=1693294828,33,2,12,19,24:60,-36,18,WLLLL

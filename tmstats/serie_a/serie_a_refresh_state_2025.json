@@ -1,7 +1,7 @@
 {
   "league": "serie_a",
   "season": 2025,
-  "updatedAt": "2026-04-23T17:17:11+00:00",
+  "updatedAt": "2026-04-24T21:27:32+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
@@ -66,7 +66,7 @@
     "tableChanged": false,
     "playersChanged": false,
     "statsChanged": false,
-    "matchesChanged": true,
+    "matchesChanged": false,
     "bracketChanged": false,
     "tablePdfRendered": false,
     "statsPdfRendered": false

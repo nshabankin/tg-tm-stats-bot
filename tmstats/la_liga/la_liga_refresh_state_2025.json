@@ -1,7 +1,7 @@
 {
   "league": "la_liga",
   "season": 2025,
-  "updatedAt": "2026-04-23T17:16:56+00:00",
+  "updatedAt": "2026-04-24T21:27:23+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
@@ -13,7 +13,6 @@
     "groupCount": 38,
     "pendingMatchdays": [
       32,
-      33,
       34,
       35,
       36,
@@ -51,24 +50,30 @@
       28,
       29,
       30,
-      31
+      31,
+      33
     ],
     "lastPendingMatchday": 38,
-    "lastCompletedMatchday": 31
+    "lastCompletedMatchday": 33
   },
   "stats": {
-    "status": "skipped",
-    "changedClubs": [],
-    "resolvedClubs": [],
+    "status": "targeted",
+    "changedClubs": [
+      "Real Betis",
+      "Betis"
+    ],
+    "resolvedClubs": [
+      "Real Betis Balompié"
+    ],
     "unresolvedClubs": []
   },
   "outputs": {
-    "tableChanged": true,
-    "playersChanged": false,
-    "statsChanged": false,
+    "tableChanged": false,
+    "playersChanged": true,
+    "statsChanged": true,
     "matchesChanged": true,
     "bracketChanged": false,
-    "tablePdfRendered": true,
-    "statsPdfRendered": false
+    "tablePdfRendered": false,
+    "statsPdfRendered": true
   }
 }

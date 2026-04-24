@@ -23,35 +23,6 @@ id,name,shirtNumber,positionId,position,club,link
 1071596,Dro Fernández,27,3,Midfield,Paris Saint-Germain,/dro-fernandez/profil/spieler/1071596
 1053208,Quentin Ndjantou,47,4,Forward,Paris Saint-Germain,/quentin-ndjantou/profil/spieler/1053208
 1041614,Renato Marin,89,1,Goalkeeper,Paris Saint-Germain,/renato-marin/profil/spieler/1041614
-808348,Mamadou Sangaré,8,3,Midfield,RC Lens,/mamadou-sangare/profil/spieler/808348
-743515,Robin Risser,40,1,Goalkeeper,RC Lens,/robin-risser/profil/spieler/743515
-655217,Samson Baidoo,6,2,Defender,RC Lens,/samson-baidoo/profil/spieler/655217
-344596,Malang Sarr,20,2,Defender,RC Lens,/malang-sarr/profil/spieler/344596
-344152,Odsonne Édouard,11,4,Forward,RC Lens,/odsonne-edouard/profil/spieler/344152
-1020191,Ismaëlo Ganiou,25,2,Defender,RC Lens,/ismaelo-ganiou/profil/spieler/1020191
-272642,Allan Saint-Maximin,9,4,Forward,RC Lens,/allan-saint-maximin/profil/spieler/272642
-1160814,Rayan Fofana,38,4,Forward,RC Lens,/rayan-fofana/profil/spieler/1160814
-344886,Matthieu Udol,14,2,Defender,RC Lens,/matthieu-udol/profil/spieler/344886
-182916,Wesley Saïd,22,4,Forward,RC Lens,/wesley-said/profil/spieler/182916
-402008,Amadou Haidara,21,3,Midfield,RC Lens,/amadou-haidara/profil/spieler/402008
-184892,Florian Thauvin,10,4,Forward,RC Lens,/florian-thauvin/profil/spieler/184892
-631927,Saud Abdulhamid,23,2,Defender,RC Lens,/saud-abdulhamid/profil/spieler/631927
-986291,Andrija Bulatovic,5,3,Midfield,RC Lens,/andrija-bulatovic/profil/spieler/986291
-215977,Adrien Thomasson,28,3,Midfield,RC Lens,/adrien-thomasson/profil/spieler/215977
-776798,Abdallah Sima,19,4,Forward,RC Lens,/abdallah-sima/profil/spieler/776798
-819566,Nidal Celik,4,2,Defender,RC Lens,/nidal-celik/profil/spieler/819566
-203746,Ruben Aguilar,2,2,Defender,RC Lens,/ruben-aguilar/profil/spieler/203746
-126557,Jonathan Gradit,24,2,Defender,RC Lens,/jonathan-gradit/profil/spieler/126557
-181380,Arthur Masuaku,27,2,Defender,RC Lens,/arthur-masuaku/profil/spieler/181380
-1186789,Kyllian Antonio,32,2,Defender,RC Lens,/kyllian-antonio/profil/spieler/1186789
-354726,Florian Sotoca,7,4,Forward,RC Lens,/florian-sotoca/profil/spieler/354726
-955359,Fodé Sylla,18,3,Midfield,RC Lens,/fode-sylla/profil/spieler/955359
-1088110,Anthony Bermont,26,4,Forward,RC Lens,/anthony-bermont/profil/spieler/1088110
-60543,Mathieu Gorgelin,16,1,Goalkeeper,RC Lens,/mathieu-gorgelin/profil/spieler/60543
-1176271,Erawan Garnier,34,4,Forward,RC Lens,/erawan-garnier/profil/spieler/1176271
-39918,Régis Gurtner,1,1,Goalkeeper,RC Lens,/regis-gurtner/profil/spieler/39918
-1047099,Alpha Diallo,31,3,Midfield,RC Lens,/alpha-diallo/profil/spieler/1047099
-1200424,Ilan Jourdren,60,1,Goalkeeper,RC Lens,/ilan-jourdren/profil/spieler/1200424
 532826,Mason Greenwood,10,4,Forward,Olympique Marseille,/mason-greenwood/profil/spieler/532826
 890719,Ethan Nwaneri,11,3,Midfield,Olympique Marseille,/ethan-nwaneri/profil/spieler/890719
 653610,Igor Paixão,14,4,Forward,Olympique Marseille,/igor-paixao/profil/spieler/653610
@@ -258,29 +229,6 @@ id,name,shirtNumber,positionId,position,club,link
 328770,Kjetil Haug,16,1,Goalkeeper,FC Toulouse,/kjetil-haug/profil/spieler/328770
 524937,Álex Domínguez,30,1,Goalkeeper,FC Toulouse,/alex-dominguez/profil/spieler/524937
 1075572,Enzo Faty,21,4,Forward,FC Toulouse,/enzo-faty/profil/spieler/1075572
-671594,Kamory Doumbia,23,3,Midfield,Stade Brestois 29,/kamory-doumbia/profil/spieler/671594
-805908,Bradley Locko,2,2,Defender,Stade Brestois 29,/bradley-locko/profil/spieler/805908
-659513,Soumaïla Coulibaly,44,2,Defender,Stade Brestois 29,/soumaila-coulibaly/profil/spieler/659513
-353399,Romain Del Castillo,10,4,Forward,Stade Brestois 29,/romain-del-castillo/profil/spieler/353399
-624037,Joris Chotard,13,3,Midfield,Stade Brestois 29,/joris-chotard/profil/spieler/624037
-1009596,Junior Diaz,4,2,Defender,Stade Brestois 29,/junior-diaz/profil/spieler/1009596
-474662,Hugo Magnetti,8,3,Midfield,Stade Brestois 29,/hugo-magnetti/profil/spieler/474662
-536482,Junior Dina Ebimbe,7,3,Midfield,Stade Brestois 29,/junior-dina-ebimbe/profil/spieler/536482
-250779,Brendan Chardonnet,5,2,Defender,Stade Brestois 29,/brendan-chardonnet/profil/spieler/250779
-325223,Mama Baldé,17,4,Forward,Stade Brestois 29,/mama-balde/profil/spieler/325223
-283994,Ludovic Ajorque,19,4,Forward,Stade Brestois 29,/ludovic-ajorque/profil/spieler/283994
-525155,Grégoire Coudert,30,1,Goalkeeper,Stade Brestois 29,/gregoire-coudert/profil/spieler/525155
-346546,Radoslaw Majecki,1,1,Goalkeeper,Stade Brestois 29,/radoslaw-majecki/profil/spieler/346546
-671590,Daouda Guindo,27,2,Defender,Stade Brestois 29,/daouda-guindo/profil/spieler/671590
-917778,Rémy Labeau Lascary,14,4,Forward,Stade Brestois 29,/remy-labeau-lascary/profil/spieler/917778
-979551,Pathé Mboup,99,4,Forward,Stade Brestois 29,/pathe-mboup/profil/spieler/979551
-353948,Lucas Tousart,24,3,Midfield,Stade Brestois 29,/lucas-tousart/profil/spieler/353948
-174196,Kenny Lala,77,2,Defender,Stade Brestois 29,/kenny-lala/profil/spieler/174196
-1144999,Luck Zogbé,12,2,Defender,Stade Brestois 29,/luck-zogbe/profil/spieler/1144999
-1200289,Hamidou Makalou,33,3,Midfield,Stade Brestois 29,/hamidou-makalou/profil/spieler/1200289
-1166473,Raphaël Le Guen,71,2,Defender,Stade Brestois 29,/raphael-le-guen/profil/spieler/1166473
-1237907,Saliou Diop,29,4,Forward,Stade Brestois 29,/saliou-diop/profil/spieler/1237907
-975438,Noah Jauny,50,1,Goalkeeper,Stade Brestois 29,/noah-jauny/profil/spieler/975438
 1241211,Rudy Matondo,23,3,Midfield,Paris FC,/rudy-matondo/profil/spieler/1241211
 414908,Marshall Munetsi,18,3,Midfield,Paris FC,/marshall-munetsi/profil/spieler/414908
 739769,Ilan Kebbal,10,4,Forward,Paris FC,/ilan-kebbal/profil/spieler/739769
@@ -477,3 +425,55 @@ id,name,shirtNumber,positionId,position,club,link
 825438,Sékou Doucouré,72,2,Defender,FC Nantes,/sekou-doucoure/profil/spieler/825438
 96533,Youssef El Arabi,19,4,Forward,FC Nantes,/youssef-el-arabi/profil/spieler/96533
 928873,Alexis Mirbach,50,1,Goalkeeper,FC Nantes,/alexis-mirbach/profil/spieler/928873
+671594,Kamory Doumbia,23,3,Midfield,Stade Brestois 29,/kamory-doumbia/profil/spieler/671594
+805908,Bradley Locko,2,2,Defender,Stade Brestois 29,/bradley-locko/profil/spieler/805908
+659513,Soumaïla Coulibaly,44,2,Defender,Stade Brestois 29,/soumaila-coulibaly/profil/spieler/659513
+353399,Romain Del Castillo,10,4,Forward,Stade Brestois 29,/romain-del-castillo/profil/spieler/353399
+624037,Joris Chotard,13,3,Midfield,Stade Brestois 29,/joris-chotard/profil/spieler/624037
+1009596,Junior Diaz,4,2,Defender,Stade Brestois 29,/junior-diaz/profil/spieler/1009596
+474662,Hugo Magnetti,8,3,Midfield,Stade Brestois 29,/hugo-magnetti/profil/spieler/474662
+536482,Junior Dina Ebimbe,7,3,Midfield,Stade Brestois 29,/junior-dina-ebimbe/profil/spieler/536482
+250779,Brendan Chardonnet,5,2,Defender,Stade Brestois 29,/brendan-chardonnet/profil/spieler/250779
+325223,Mama Baldé,17,4,Forward,Stade Brestois 29,/mama-balde/profil/spieler/325223
+283994,Ludovic Ajorque,19,4,Forward,Stade Brestois 29,/ludovic-ajorque/profil/spieler/283994
+525155,Grégoire Coudert,30,1,Goalkeeper,Stade Brestois 29,/gregoire-coudert/profil/spieler/525155
+346546,Radoslaw Majecki,1,1,Goalkeeper,Stade Brestois 29,/radoslaw-majecki/profil/spieler/346546
+671590,Daouda Guindo,27,2,Defender,Stade Brestois 29,/daouda-guindo/profil/spieler/671590
+917778,Rémy Labeau Lascary,14,4,Forward,Stade Brestois 29,/remy-labeau-lascary/profil/spieler/917778
+979551,Pathé Mboup,99,4,Forward,Stade Brestois 29,/pathe-mboup/profil/spieler/979551
+353948,Lucas Tousart,24,3,Midfield,Stade Brestois 29,/lucas-tousart/profil/spieler/353948
+174196,Kenny Lala,77,2,Defender,Stade Brestois 29,/kenny-lala/profil/spieler/174196
+1144999,Luck Zogbé,12,2,Defender,Stade Brestois 29,/luck-zogbe/profil/spieler/1144999
+1200289,Hamidou Makalou,33,3,Midfield,Stade Brestois 29,/hamidou-makalou/profil/spieler/1200289
+1166473,Raphaël Le Guen,71,2,Defender,Stade Brestois 29,/raphael-le-guen/profil/spieler/1166473
+1237907,Saliou Diop,29,4,Forward,Stade Brestois 29,/saliou-diop/profil/spieler/1237907
+975438,Noah Jauny,50,1,Goalkeeper,Stade Brestois 29,/noah-jauny/profil/spieler/975438
+808348,Mamadou Sangaré,8,3,Midfield,RC Lens,/mamadou-sangare/profil/spieler/808348
+743515,Robin Risser,40,1,Goalkeeper,RC Lens,/robin-risser/profil/spieler/743515
+655217,Samson Baidoo,6,2,Defender,RC Lens,/samson-baidoo/profil/spieler/655217
+344596,Malang Sarr,20,2,Defender,RC Lens,/malang-sarr/profil/spieler/344596
+344152,Odsonne Édouard,11,4,Forward,RC Lens,/odsonne-edouard/profil/spieler/344152
+1020191,Ismaëlo Ganiou,25,2,Defender,RC Lens,/ismaelo-ganiou/profil/spieler/1020191
+272642,Allan Saint-Maximin,9,4,Forward,RC Lens,/allan-saint-maximin/profil/spieler/272642
+1160814,Rayan Fofana,38,4,Forward,RC Lens,/rayan-fofana/profil/spieler/1160814
+344886,Matthieu Udol,14,2,Defender,RC Lens,/matthieu-udol/profil/spieler/344886
+182916,Wesley Saïd,22,4,Forward,RC Lens,/wesley-said/profil/spieler/182916
+402008,Amadou Haidara,21,3,Midfield,RC Lens,/amadou-haidara/profil/spieler/402008
+184892,Florian Thauvin,10,4,Forward,RC Lens,/florian-thauvin/profil/spieler/184892
+631927,Saud Abdulhamid,23,2,Defender,RC Lens,/saud-abdulhamid/profil/spieler/631927
+986291,Andrija Bulatovic,5,3,Midfield,RC Lens,/andrija-bulatovic/profil/spieler/986291
+215977,Adrien Thomasson,28,3,Midfield,RC Lens,/adrien-thomasson/profil/spieler/215977
+776798,Abdallah Sima,19,4,Forward,RC Lens,/abdallah-sima/profil/spieler/776798
+819566,Nidal Celik,4,2,Defender,RC Lens,/nidal-celik/profil/spieler/819566
+203746,Ruben Aguilar,2,2,Defender,RC Lens,/ruben-aguilar/profil/spieler/203746
+126557,Jonathan Gradit,24,2,Defender,RC Lens,/jonathan-gradit/profil/spieler/126557
+181380,Arthur Masuaku,27,2,Defender,RC Lens,/arthur-masuaku/profil/spieler/181380
+1186789,Kyllian Antonio,32,2,Defender,RC Lens,/kyllian-antonio/profil/spieler/1186789
+354726,Florian Sotoca,7,4,Forward,RC Lens,/florian-sotoca/profil/spieler/354726
+955359,Fodé Sylla,18,3,Midfield,RC Lens,/fode-sylla/profil/spieler/955359
+1088110,Anthony Bermont,26,4,Forward,RC Lens,/anthony-bermont/profil/spieler/1088110
+60543,Mathieu Gorgelin,16,1,Goalkeeper,RC Lens,/mathieu-gorgelin/profil/spieler/60543
+1176271,Erawan Garnier,34,4,Forward,RC Lens,/erawan-garnier/profil/spieler/1176271
+39918,Régis Gurtner,1,1,Goalkeeper,RC Lens,/regis-gurtner/profil/spieler/39918
+1047099,Alpha Diallo,31,3,Midfield,RC Lens,/alpha-diallo/profil/spieler/1047099
+1200424,Ilan Jourdren,60,1,Goalkeeper,RC Lens,/ilan-jourdren/profil/spieler/1200424

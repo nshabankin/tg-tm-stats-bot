@@ -1,52 +1,27 @@
 {
-  "league": "rpl",
+  "league": "uecl",
   "season": 2025,
-  "updatedAt": "2026-04-24T21:27:59+00:00",
+  "updatedAt": "2026-04-24T21:30:17+00:00",
   "mode": "changed-team-stats",
   "counts": {
-    "clubs": 16,
-    "players": 448,
-    "statsRows": 448,
-    "tableRows": 16
+    "clubs": 36,
+    "players": 1049,
+    "statsRows": 1049,
+    "tableRows": 36
   },
   "matches": {
-    "groupCount": 30,
-    "pendingMatchdays": [
-      27,
-      28,
-      29,
-      30
-    ],
+    "groupCount": 15,
+    "pendingMatchdays": [],
     "completedMatchdays": [
       1,
       2,
       3,
       4,
       5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26
+      6
     ],
-    "lastPendingMatchday": 30,
-    "lastCompletedMatchday": 26
+    "lastPendingMatchday": null,
+    "lastCompletedMatchday": 6
   },
   "stats": {
     "status": "skipped",

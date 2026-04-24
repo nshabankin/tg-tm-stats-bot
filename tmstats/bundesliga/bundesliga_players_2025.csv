@@ -49,36 +49,6 @@ id,name,shirtNumber,positionId,position,club,link
 76158,Alexander Meyer,33,1,Goalkeeper,Borussia Dortmund,/alexander-meyer/profil/spieler/76158
 94192,Patrick Drewes,30,1,Goalkeeper,Borussia Dortmund,/patrick-drewes/profil/spieler/94192
 684116,Silas Ostrzinski,31,1,Goalkeeper,Borussia Dortmund,/silas-ostrzinski/profil/spieler/684116
-1390649,Yan Diomande,49,4,Forward,RB Leipzig,/yan-diomande/profil/spieler/1390649
-618472,Castello Lukeba,23,2,Defender,RB Leipzig,/castello-lukeba/profil/spieler/618472
-894914,Antonio Nusa,7,4,Forward,RB Leipzig,/antonio-nusa/profil/spieler/894914
-957874,Rômulo,40,4,Forward,RB Leipzig,/romulo/profil/spieler/957874
-324278,Christoph Baumgartner,14,3,Midfield,RB Leipzig,/christoph-baumgartner/profil/spieler/324278
-897424,Assan Ouédraogo,20,3,Midfield,RB Leipzig,/assan-ouedraogo/profil/spieler/897424
-700106,Brajan Gruda,10,3,Midfield,RB Leipzig,/brajan-gruda/profil/spieler/700106
-318204,David Raum,22,2,Defender,RB Leipzig,/david-raum/profil/spieler/318204
-404950,Nicolas Seiwald,13,3,Midfield,RB Leipzig,/nicolas-seiwald/profil/spieler/404950
-565424,Johan Bakayoko,9,4,Forward,RB Leipzig,/johan-bakayoko/profil/spieler/565424
-807386,Conrad Harder,11,4,Forward,RB Leipzig,/conrad-harder/profil/spieler/807386
-865682,Ezechiel Banzuzi,6,3,Midfield,RB Leipzig,/ezechiel-banzuzi/profil/spieler/865682
-787912,El Chadaille Bitshiabu,5,2,Defender,RB Leipzig,/el-chadaille-bitshiabu/profil/spieler/787912
-952779,Andrija Maksimovic,33,3,Midfield,RB Leipzig,/andrija-maksimovic/profil/spieler/952779
-327251,Ridle Baku,17,2,Defender,RB Leipzig,/ridle-baku/profil/spieler/327251
-223979,Xaver Schlager,24,3,Midfield,RB Leipzig,/xaver-schlager/profil/spieler/223979
-202591,Benjamin Henrichs,39,2,Defender,RB Leipzig,/benjamin-henrichs/profil/spieler/202591
-486046,Maarten Vandevoordt,26,1,Goalkeeper,RB Leipzig,/maarten-vandevoordt/profil/spieler/486046
-93740,Willi Orbán,4,2,Defender,RB Leipzig,/willi-orban/profil/spieler/93740
-848682,Kosta Nedeljkovic,19,2,Defender,RB Leipzig,/kosta-nedeljkovic/profil/spieler/848682
-955448,Tidiam Gomis,27,4,Forward,RB Leipzig,/tidiam-gomis/profil/spieler/955448
-1235583,Suleman Sani,18,4,Forward,RB Leipzig,/suleman-sani/profil/spieler/1235583
-215599,Lukas Klostermann,16,2,Defender,RB Leipzig,/lukas-klostermann/profil/spieler/215599
-810649,Max Finkgräfe,35,2,Defender,RB Leipzig,/max-finkgrafe/profil/spieler/810649
-57071,Péter Gulácsi,1,1,Goalkeeper,RB Leipzig,/peter-gulacsi/profil/spieler/57071
-1380977,Samba Konaté,45,4,Forward,RB Leipzig,/samba-konate/profil/spieler/1380977
-763948,Ayodele Thomas,21,4,Forward,RB Leipzig,/ayodele-thomas/profil/spieler/763948
-160971,Leopold Zingerle,25,1,Goalkeeper,RB Leipzig,/leopold-zingerle/profil/spieler/160971
-1074526,Viggo Gebel,47,3,Midfield,RB Leipzig,/viggo-gebel/profil/spieler/1074526
-1279157,Benno Kaltefleiter,37,3,Midfield,RB Leipzig,/benno-kaltefleiter/profil/spieler/1279157
 443710,Angelo Stiller,6,3,Midfield,VfB Stuttgart,/angelo-stiller/profil/spieler/443710
 518505,Jamie Leweling,18,4,Forward,VfB Stuttgart,/jamie-leweling/profil/spieler/518505
 654982,Bilal El Khannouss,11,3,Midfield,VfB Stuttgart,/bilal-el-khannouss/profil/spieler/654982
@@ -279,32 +249,6 @@ id,name,shirtNumber,positionId,position,club,link
 392124,Daniel Klein,25,1,Goalkeeper,FC Augsburg,/daniel-klein/profil/spieler/392124
 730486,Mahmut Kücüksahin,42,3,Midfield,FC Augsburg,/mahmut-kucuksahin/profil/spieler/730486
 1069641,Felix Meiser,41,2,Defender,FC Augsburg,/felix-meiser/profil/spieler/1069641
-597432,Leopold Querfeld,14,2,Defender,1.FC Union Berlin,/leopold-querfeld/profil/spieler/597432
-387047,Danilho Doekhi,5,2,Defender,1.FC Union Berlin,/danilho-doekhi/profil/spieler/387047
-692737,Aljoscha Kemlein,6,3,Midfield,1.FC Union Berlin,/aljoscha-kemlein/profil/spieler/692737
-357156,Diogo Leite,4,2,Defender,1.FC Union Berlin,/diogo-leite/profil/spieler/357156
-1035765,Ilyas Ansah,10,4,Forward,1.FC Union Berlin,/ilyas-ansah/profil/spieler/1035765
-798043,Tom Rothe,15,2,Defender,1.FC Union Berlin,/tom-rothe/profil/spieler/798043
-583699,Andrej Ilic,23,4,Forward,1.FC Union Berlin,/andrej-ilic/profil/spieler/583699
-454863,András Schäfer,13,3,Midfield,1.FC Union Berlin,/andras-schafer/profil/spieler/454863
-519872,Livan Burcu,9,4,Forward,1.FC Union Berlin,/livan-burcu/profil/spieler/519872
-391780,Derrick Köhn,39,2,Defender,1.FC Union Berlin,/derrick-kohn/profil/spieler/391780
-341317,Oliver Burke,7,4,Forward,1.FC Union Berlin,/oliver-burke/profil/spieler/341317
-297583,Woo-yeong Jeong,11,3,Midfield,1.FC Union Berlin,/woo-yeong-jeong/profil/spieler/297583
-362977,Josip Juranovic,18,2,Defender,1.FC Union Berlin,/josip-juranovic/profil/spieler/362977
-337333,Alex Král,33,3,Midfield,1.FC Union Berlin,/alex-kral/profil/spieler/337333
-270393,Robert Skov,24,3,Midfield,1.FC Union Berlin,/robert-skov/profil/spieler/270393
-177779,Janik Haberer,19,3,Midfield,1.FC Union Berlin,/janik-haberer/profil/spieler/177779
-107775,Frederik Rönnow,1,1,Goalkeeper,1.FC Union Berlin,/frederik-ronnow/profil/spieler/107775
-371141,Stanley Nsoki,34,2,Defender,1.FC Union Berlin,/stanley-nsoki/profil/spieler/371141
-124410,Rani Khedira,8,3,Midfield,1.FC Union Berlin,/rani-khedira/profil/spieler/124410
-287920,Tim Skarke,21,4,Forward,1.FC Union Berlin,/tim-skarke/profil/spieler/287920
-1045446,Dmytro Bogdanov,30,4,Forward,1.FC Union Berlin,/dmytro-bogdanov/profil/spieler/1045446
-75921,Christopher Trimmel,28,2,Defender,1.FC Union Berlin,/christopher-trimmel/profil/spieler/75921
-386685,Matheo Raab,31,1,Goalkeeper,1.FC Union Berlin,/matheo-raab/profil/spieler/386685
-745075,David Preu,17,4,Forward,1.FC Union Berlin,/david-preu/profil/spieler/745075
-161057,Carl Klaus,25,1,Goalkeeper,1.FC Union Berlin,/carl-klaus/profil/spieler/161057
-1027870,Andrik Markgraf,3,2,Defender,1.FC Union Berlin,/andrik-markgraf/profil/spieler/1027870
 892160,Luka Vuskovic,44,2,Defender,Hamburger SV,/luka-vuskovic/profil/spieler/892160
 537598,Fábio Vieira,20,3,Midfield,Hamburger SV,/fabio-vieira/profil/spieler/537598
 381967,Albert Sambi Lokonga,6,3,Midfield,Hamburger SV,/albert-sambi-lokonga/profil/spieler/381967
@@ -515,3 +459,60 @@ id,name,shirtNumber,positionId,position,club,link
 806948,Frank Feller,40,1,Goalkeeper,1.FC Heidenheim 1846,/frank-feller/profil/spieler/806948
 1052350,Nick Rothweiler,33,3,Midfield,1.FC Heidenheim 1846,/nick-rothweiler/profil/spieler/1052350
 519035,Paul Tschernuth,34,1,Goalkeeper,1.FC Heidenheim 1846,/paul-tschernuth/profil/spieler/519035
+1390649,Yan Diomande,49,4,Forward,RB Leipzig,/yan-diomande/profil/spieler/1390649
+618472,Castello Lukeba,23,2,Defender,RB Leipzig,/castello-lukeba/profil/spieler/618472
+894914,Antonio Nusa,7,4,Forward,RB Leipzig,/antonio-nusa/profil/spieler/894914
+957874,Rômulo,40,4,Forward,RB Leipzig,/romulo/profil/spieler/957874
+324278,Christoph Baumgartner,14,3,Midfield,RB Leipzig,/christoph-baumgartner/profil/spieler/324278
+897424,Assan Ouédraogo,20,3,Midfield,RB Leipzig,/assan-ouedraogo/profil/spieler/897424
+700106,Brajan Gruda,10,3,Midfield,RB Leipzig,/brajan-gruda/profil/spieler/700106
+318204,David Raum,22,2,Defender,RB Leipzig,/david-raum/profil/spieler/318204
+404950,Nicolas Seiwald,13,3,Midfield,RB Leipzig,/nicolas-seiwald/profil/spieler/404950
+565424,Johan Bakayoko,9,4,Forward,RB Leipzig,/johan-bakayoko/profil/spieler/565424
+807386,Conrad Harder,11,4,Forward,RB Leipzig,/conrad-harder/profil/spieler/807386
+865682,Ezechiel Banzuzi,6,3,Midfield,RB Leipzig,/ezechiel-banzuzi/profil/spieler/865682
+787912,El Chadaille Bitshiabu,5,2,Defender,RB Leipzig,/el-chadaille-bitshiabu/profil/spieler/787912
+952779,Andrija Maksimovic,33,3,Midfield,RB Leipzig,/andrija-maksimovic/profil/spieler/952779
+327251,Ridle Baku,17,2,Defender,RB Leipzig,/ridle-baku/profil/spieler/327251
+223979,Xaver Schlager,24,3,Midfield,RB Leipzig,/xaver-schlager/profil/spieler/223979
+202591,Benjamin Henrichs,39,2,Defender,RB Leipzig,/benjamin-henrichs/profil/spieler/202591
+486046,Maarten Vandevoordt,26,1,Goalkeeper,RB Leipzig,/maarten-vandevoordt/profil/spieler/486046
+93740,Willi Orbán,4,2,Defender,RB Leipzig,/willi-orban/profil/spieler/93740
+848682,Kosta Nedeljkovic,19,2,Defender,RB Leipzig,/kosta-nedeljkovic/profil/spieler/848682
+955448,Tidiam Gomis,27,4,Forward,RB Leipzig,/tidiam-gomis/profil/spieler/955448
+1235583,Suleman Sani,18,4,Forward,RB Leipzig,/suleman-sani/profil/spieler/1235583
+215599,Lukas Klostermann,16,2,Defender,RB Leipzig,/lukas-klostermann/profil/spieler/215599
+810649,Max Finkgräfe,35,2,Defender,RB Leipzig,/max-finkgrafe/profil/spieler/810649
+57071,Péter Gulácsi,1,1,Goalkeeper,RB Leipzig,/peter-gulacsi/profil/spieler/57071
+1380977,Samba Konaté,45,4,Forward,RB Leipzig,/samba-konate/profil/spieler/1380977
+763948,Ayodele Thomas,21,4,Forward,RB Leipzig,/ayodele-thomas/profil/spieler/763948
+160971,Leopold Zingerle,25,1,Goalkeeper,RB Leipzig,/leopold-zingerle/profil/spieler/160971
+1074526,Viggo Gebel,47,3,Midfield,RB Leipzig,/viggo-gebel/profil/spieler/1074526
+1279157,Benno Kaltefleiter,37,3,Midfield,RB Leipzig,/benno-kaltefleiter/profil/spieler/1279157
+597432,Leopold Querfeld,14,2,Defender,1.FC Union Berlin,/leopold-querfeld/profil/spieler/597432
+387047,Danilho Doekhi,5,2,Defender,1.FC Union Berlin,/danilho-doekhi/profil/spieler/387047
+357156,Diogo Leite,4,2,Defender,1.FC Union Berlin,/diogo-leite/profil/spieler/357156
+692737,Aljoscha Kemlein,6,3,Midfield,1.FC Union Berlin,/aljoscha-kemlein/profil/spieler/692737
+1035765,Ilyas Ansah,10,4,Forward,1.FC Union Berlin,/ilyas-ansah/profil/spieler/1035765
+798043,Tom Rothe,15,2,Defender,1.FC Union Berlin,/tom-rothe/profil/spieler/798043
+583699,Andrej Ilic,23,4,Forward,1.FC Union Berlin,/andrej-ilic/profil/spieler/583699
+454863,András Schäfer,13,3,Midfield,1.FC Union Berlin,/andras-schafer/profil/spieler/454863
+519872,Livan Burcu,9,4,Forward,1.FC Union Berlin,/livan-burcu/profil/spieler/519872
+341317,Oliver Burke,7,4,Forward,1.FC Union Berlin,/oliver-burke/profil/spieler/341317
+391780,Derrick Köhn,39,2,Defender,1.FC Union Berlin,/derrick-kohn/profil/spieler/391780
+297583,Woo-yeong Jeong,11,3,Midfield,1.FC Union Berlin,/woo-yeong-jeong/profil/spieler/297583
+270393,Robert Skov,24,3,Midfield,1.FC Union Berlin,/robert-skov/profil/spieler/270393
+107775,Frederik Rönnow,1,1,Goalkeeper,1.FC Union Berlin,/frederik-ronnow/profil/spieler/107775
+362977,Josip Juranovic,18,2,Defender,1.FC Union Berlin,/josip-juranovic/profil/spieler/362977
+337333,Alex Král,33,3,Midfield,1.FC Union Berlin,/alex-kral/profil/spieler/337333
+177779,Janik Haberer,19,3,Midfield,1.FC Union Berlin,/janik-haberer/profil/spieler/177779
+371141,Stanley Nsoki,34,2,Defender,1.FC Union Berlin,/stanley-nsoki/profil/spieler/371141
+124410,Rani Khedira,8,3,Midfield,1.FC Union Berlin,/rani-khedira/profil/spieler/124410
+287920,Tim Skarke,21,4,Forward,1.FC Union Berlin,/tim-skarke/profil/spieler/287920
+1378338,Linus Güther,49,4,Forward,1.FC Union Berlin,/linus-guther/profil/spieler/1378338
+386685,Matheo Raab,31,1,Goalkeeper,1.FC Union Berlin,/matheo-raab/profil/spieler/386685
+1045446,Dmytro Bogdanov,30,4,Forward,1.FC Union Berlin,/dmytro-bogdanov/profil/spieler/1045446
+75921,Christopher Trimmel,28,2,Defender,1.FC Union Berlin,/christopher-trimmel/profil/spieler/75921
+745075,David Preu,17,4,Forward,1.FC Union Berlin,/david-preu/profil/spieler/745075
+161057,Carl Klaus,25,1,Goalkeeper,1.FC Union Berlin,/carl-klaus/profil/spieler/161057
+1027870,Andrik Markgraf,3,2,Defender,1.FC Union Berlin,/andrik-markgraf/profil/spieler/1027870
