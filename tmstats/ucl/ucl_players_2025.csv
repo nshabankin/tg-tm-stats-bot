@@ -23,30 +23,6 @@ id,name,shirtNumber,positionId,position,club,link
 363205,Gabriel Jesus,9,4,Forward,Arsenal,/gabriel-jesus/profil/spieler/363205
 192279,Kepa Arrizabalaga,13,1,Goalkeeper,Arsenal,/kepa-arrizabalaga/profil/spieler/192279
 148367,Christian Nørgaard,16,3,Midfield,Arsenal,/christian-norgaard/profil/spieler/148367
-566723,Michael Olise,17,4,Forward,Bayern Munich,/michael-olise/profil/spieler/566723
-580195,Jamal Musiala,10,3,Midfield,Bayern Munich,/jamal-musiala/profil/spieler/580195
-792380,Aleksandar Pavlovic,45,3,Midfield,Bayern Munich,/aleksandar-pavlovic/profil/spieler/792380
-480692,Luis Díaz,14,4,Forward,Bayern Munich,/luis-diaz/profil/spieler/480692
-344695,Dayot Upamecano,2,2,Defender,Bayern Munich,/dayot-upamecano/profil/spieler/344695
-132098,Harry Kane,9,4,Forward,Bayern Munich,/harry-kane/profil/spieler/132098
-1075147,Lennart Karl,42,3,Midfield,Bayern Munich,/lennart-karl/profil/spieler/1075147
-424204,Alphonso Davies,19,2,Defender,Bayern Munich,/alphonso-davies/profil/spieler/424204
-161056,Joshua Kimmich,6,3,Midfield,Bayern Munich,/joshua-kimmich/profil/spieler/161056
-776890,Nicolas Jackson,11,4,Forward,Bayern Munich,/nicolas-jackson/profil/spieler/776890
-822959,Tom Bischof,20,3,Midfield,Bayern Munich,/tom-bischof/profil/spieler/822959
-483046,Josip Stanisic,44,2,Defender,Bayern Munich,/josip-stanisic/profil/spieler/483046
-223967,Konrad Laimer,27,2,Defender,Bayern Munich,/konrad-laimer/profil/spieler/223967
-196357,Jonathan Tah,4,2,Defender,Bayern Munich,/jonathan-tah/profil/spieler/196357
-503482,Min-jae Kim,3,2,Defender,Bayern Munich,/min-jae-kim/profil/spieler/503482
-159471,Serge Gnabry,7,4,Forward,Bayern Munich,/serge-gnabry/profil/spieler/159471
-353892,Hiroki Ito,21,2,Defender,Bayern Munich,/hiroki-ito/profil/spieler/353892
-607720,Jonas Urbig,40,1,Goalkeeper,Bayern Munich,/jonas-urbig/profil/spieler/607720
-153084,Leon Goretzka,8,3,Midfield,Bayern Munich,/leon-goretzka/profil/spieler/153084
-170986,Raphaël Guerreiro,22,3,Midfield,Bayern Munich,/raphael-guerreiro/profil/spieler/170986
-17259,Manuel Neuer,1,1,Goalkeeper,Bayern Munich,/manuel-neuer/profil/spieler/17259
-40680,Sven Ulreich,26,1,Goalkeeper,Bayern Munich,/sven-ulreich/profil/spieler/40680
-1497653,Bara Sapoko Ndiaye,39,3,Midfield,Bayern Munich,/bara-sapoko-ndiaye/profil/spieler/1497653
-1009439,Leon Klanac,48,1,Goalkeeper,Bayern Munich,/leon-klanac/profil/spieler/1009439
 598577,Florian Wirtz,7,3,Midfield,Liverpool,/florian-wirtz/profil/spieler/598577
 349066,Alexander Isak,9,4,Forward,Liverpool,/alexander-isak/profil/spieler/349066
 451276,Dominik Szoboszlai,8,3,Midfield,Liverpool,/dominik-szoboszlai/profil/spieler/451276
@@ -262,30 +238,6 @@ id,name,shirtNumber,positionId,position,club,link
 42205,Yann Sommer,1,1,Goalkeeper,Inter,/yann-sommer/profil/spieler/42205
 54906,Matteo Darmian,36,2,Defender,Inter,/matteo-darmian/profil/spieler/54906
 70580,Raffaele Di Gennaro,12,1,Goalkeeper,Inter,/raffaele-di-gennaro/profil/spieler/70580
-487469,Vitinha,17,3,Midfield,PSG,/vitinha/profil/spieler/487469
-670681,João Neves,87,3,Midfield,PSG,/joao-neves/profil/spieler/670681
-288230,Ousmane Dembélé,10,4,Forward,PSG,/ousmane-dembele/profil/spieler/288230
-914562,Désiré Doué,14,4,Forward,PSG,/desire-doue/profil/spieler/914562
-502670,Khvicha Kvaratskhelia,7,4,Forward,PSG,/khvicha-kvaratskhelia/profil/spieler/502670
-398073,Achraf Hakimi,2,2,Defender,PSG,/achraf-hakimi/profil/spieler/398073
-616341,Nuno Mendes,25,2,Defender,PSG,/nuno-mendes/profil/spieler/616341
-661171,Willian Pacho,51,2,Defender,PSG,/willian-pacho/profil/spieler/661171
-708265,Bradley Barcola,29,4,Forward,PSG,/bradley-barcola/profil/spieler/708265
-810092,Warren Zaïre-Emery,33,3,Midfield,PSG,/warren-zaire-emery/profil/spieler/810092
-659089,Ilya Zabarnyi,6,2,Defender,PSG,/ilya-zabarnyi/profil/spieler/659089
-350219,Fabián Ruiz,8,3,Midfield,PSG,/fabian-ruiz/profil/spieler/350219
-903693,Senny Mayulu,24,3,Midfield,PSG,/senny-mayulu/profil/spieler/903693
-550550,Gonçalo Ramos,9,4,Forward,PSG,/goncalo-ramos/profil/spieler/550550
-1185888,Ibrahim Mbaye,49,4,Forward,PSG,/ibrahim-mbaye/profil/spieler/1185888
-181767,Marquinhos,5,2,Defender,PSG,/marquinhos/profil/spieler/181767
-463600,Lucas Chevalier,30,1,Goalkeeper,PSG,/lucas-chevalier/profil/spieler/463600
-557149,Kang-in Lee,19,3,Midfield,PSG,/kang-in-lee/profil/spieler/557149
-318470,Matvey Safonov,39,1,Goalkeeper,PSG,/matvey-safonov/profil/spieler/318470
-872171,Lucas Beraldo,4,2,Defender,PSG,/lucas-beraldo/profil/spieler/872171
-281963,Lucas Hernández,21,2,Defender,PSG,/lucas-hernandez/profil/spieler/281963
-1071596,Dro Fernández,27,3,Midfield,PSG,/dro-fernandez/profil/spieler/1071596
-1053208,Quentin Ndjantou,47,4,Forward,PSG,/quentin-ndjantou/profil/spieler/1053208
-1041614,Renato Marin,89,1,Goalkeeper,PSG,/renato-marin/profil/spieler/1041614
 397033,Sandro Tonali,8,3,Midfield,Newcastle,/sandro-tonali/profil/spieler/397033
 520624,Bruno Guimarães,39,3,Midfield,Newcastle,/bruno-guimaraes/profil/spieler/520624
 455661,Nick Woltemade,27,4,Forward,Newcastle,/nick-woltemade/profil/spieler/455661
@@ -956,3 +908,52 @@ id,name,shirtNumber,positionId,position,club,link
 1179142,Daniyar Tashpulatov,59,2,Defender,Kairat Almaty,/daniyar-tashpulatov/profil/spieler/1179142
 1292415,Mukhamedali Abish,27,3,Midfield,Kairat Almaty,/mukhamedali-abish/profil/spieler/1292415
 1327495,Danila Buch,30,1,Goalkeeper,Kairat Almaty,/danila-buch/profil/spieler/1327495
+487469,Vitinha,17,3,Midfield,PSG,/vitinha/profil/spieler/487469
+670681,João Neves,87,3,Midfield,PSG,/joao-neves/profil/spieler/670681
+288230,Ousmane Dembélé,10,4,Forward,PSG,/ousmane-dembele/profil/spieler/288230
+914562,Désiré Doué,14,4,Forward,PSG,/desire-doue/profil/spieler/914562
+502670,Khvicha Kvaratskhelia,7,4,Forward,PSG,/khvicha-kvaratskhelia/profil/spieler/502670
+398073,Achraf Hakimi,2,2,Defender,PSG,/achraf-hakimi/profil/spieler/398073
+616341,Nuno Mendes,25,2,Defender,PSG,/nuno-mendes/profil/spieler/616341
+661171,Willian Pacho,51,2,Defender,PSG,/willian-pacho/profil/spieler/661171
+708265,Bradley Barcola,29,4,Forward,PSG,/bradley-barcola/profil/spieler/708265
+810092,Warren Zaïre-Emery,33,3,Midfield,PSG,/warren-zaire-emery/profil/spieler/810092
+659089,Ilya Zabarnyi,6,2,Defender,PSG,/ilya-zabarnyi/profil/spieler/659089
+350219,Fabián Ruiz,8,3,Midfield,PSG,/fabian-ruiz/profil/spieler/350219
+903693,Senny Mayulu,24,3,Midfield,PSG,/senny-mayulu/profil/spieler/903693
+550550,Gonçalo Ramos,9,4,Forward,PSG,/goncalo-ramos/profil/spieler/550550
+1185888,Ibrahim Mbaye,49,4,Forward,PSG,/ibrahim-mbaye/profil/spieler/1185888
+181767,Marquinhos,5,2,Defender,PSG,/marquinhos/profil/spieler/181767
+463600,Lucas Chevalier,30,1,Goalkeeper,PSG,/lucas-chevalier/profil/spieler/463600
+557149,Kang-in Lee,19,3,Midfield,PSG,/kang-in-lee/profil/spieler/557149
+318470,Matvey Safonov,39,1,Goalkeeper,PSG,/matvey-safonov/profil/spieler/318470
+872171,Lucas Beraldo,4,2,Defender,PSG,/lucas-beraldo/profil/spieler/872171
+281963,Lucas Hernández,21,2,Defender,PSG,/lucas-hernandez/profil/spieler/281963
+1071596,Dro Fernández,27,3,Midfield,PSG,/dro-fernandez/profil/spieler/1071596
+1053208,Quentin Ndjantou,47,4,Forward,PSG,/quentin-ndjantou/profil/spieler/1053208
+1041614,Renato Marin,89,1,Goalkeeper,PSG,/renato-marin/profil/spieler/1041614
+566723,Michael Olise,17,4,Forward,Bayern Munich,/michael-olise/profil/spieler/566723
+580195,Jamal Musiala,10,3,Midfield,Bayern Munich,/jamal-musiala/profil/spieler/580195
+792380,Aleksandar Pavlovic,45,3,Midfield,Bayern Munich,/aleksandar-pavlovic/profil/spieler/792380
+480692,Luis Díaz,14,4,Forward,Bayern Munich,/luis-diaz/profil/spieler/480692
+344695,Dayot Upamecano,2,2,Defender,Bayern Munich,/dayot-upamecano/profil/spieler/344695
+132098,Harry Kane,9,4,Forward,Bayern Munich,/harry-kane/profil/spieler/132098
+1075147,Lennart Karl,42,3,Midfield,Bayern Munich,/lennart-karl/profil/spieler/1075147
+424204,Alphonso Davies,19,2,Defender,Bayern Munich,/alphonso-davies/profil/spieler/424204
+161056,Joshua Kimmich,6,3,Midfield,Bayern Munich,/joshua-kimmich/profil/spieler/161056
+776890,Nicolas Jackson,11,4,Forward,Bayern Munich,/nicolas-jackson/profil/spieler/776890
+822959,Tom Bischof,20,3,Midfield,Bayern Munich,/tom-bischof/profil/spieler/822959
+483046,Josip Stanisic,44,2,Defender,Bayern Munich,/josip-stanisic/profil/spieler/483046
+223967,Konrad Laimer,27,2,Defender,Bayern Munich,/konrad-laimer/profil/spieler/223967
+196357,Jonathan Tah,4,2,Defender,Bayern Munich,/jonathan-tah/profil/spieler/196357
+503482,Min-jae Kim,3,2,Defender,Bayern Munich,/min-jae-kim/profil/spieler/503482
+159471,Serge Gnabry,7,4,Forward,Bayern Munich,/serge-gnabry/profil/spieler/159471
+353892,Hiroki Ito,21,2,Defender,Bayern Munich,/hiroki-ito/profil/spieler/353892
+607720,Jonas Urbig,40,1,Goalkeeper,Bayern Munich,/jonas-urbig/profil/spieler/607720
+153084,Leon Goretzka,8,3,Midfield,Bayern Munich,/leon-goretzka/profil/spieler/153084
+170986,Raphaël Guerreiro,22,3,Midfield,Bayern Munich,/raphael-guerreiro/profil/spieler/170986
+17259,Manuel Neuer,1,1,Goalkeeper,Bayern Munich,/manuel-neuer/profil/spieler/17259
+1118495,David Santos Daiber,47,3,Midfield,Bayern Munich,/david-santos-daiber/profil/spieler/1118495
+40680,Sven Ulreich,26,1,Goalkeeper,Bayern Munich,/sven-ulreich/profil/spieler/40680
+1497653,Bara Sapoko Ndiaye,39,3,Midfield,Bayern Munich,/bara-sapoko-ndiaye/profil/spieler/1497653
+1009439,Leon Klanac,48,1,Goalkeeper,Bayern Munich,/leon-klanac/profil/spieler/1009439

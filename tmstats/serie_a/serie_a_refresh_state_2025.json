@@ -1,8 +1,8 @@
 {
   "league": "serie_a",
   "season": 2025,
-  "updatedAt": "2026-04-24T21:27:32+00:00",
-  "mode": "changed-team-stats",
+  "updatedAt": "2026-04-29T09:48:37+00:00",
+  "mode": "full",
   "counts": {
     "clubs": 20,
     "players": 534,
@@ -12,7 +12,6 @@
   "matches": {
     "groupCount": 38,
     "pendingMatchdays": [
-      34,
       35,
       36,
       37,
@@ -51,13 +50,14 @@
       30,
       31,
       32,
-      33
+      33,
+      34
     ],
     "lastPendingMatchday": 38,
-    "lastCompletedMatchday": 33
+    "lastCompletedMatchday": 34
   },
   "stats": {
-    "status": "skipped",
+    "status": "refreshed",
     "changedClubs": [],
     "resolvedClubs": [],
     "unresolvedClubs": []
@@ -65,10 +65,10 @@
   "outputs": {
     "tableChanged": false,
     "playersChanged": false,
-    "statsChanged": false,
+    "statsChanged": true,
     "matchesChanged": false,
     "bracketChanged": false,
     "tablePdfRendered": false,
-    "statsPdfRendered": false
+    "statsPdfRendered": true
   }
 }

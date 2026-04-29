@@ -1,18 +1,17 @@
 {
   "league": "bundesliga",
   "season": 2025,
-  "updatedAt": "2026-04-24T21:27:42+00:00",
-  "mode": "changed-team-stats",
+  "updatedAt": "2026-04-29T17:15:15+00:00",
+  "mode": "full",
   "counts": {
     "clubs": 18,
-    "players": 517,
-    "statsRows": 516,
+    "players": 519,
+    "statsRows": 519,
     "tableRows": 18
   },
   "matches": {
     "groupCount": 34,
     "pendingMatchdays": [
-      31,
       32,
       33,
       34
@@ -47,13 +46,14 @@
       27,
       28,
       29,
-      30
+      30,
+      31
     ],
     "lastPendingMatchday": 34,
-    "lastCompletedMatchday": 30
+    "lastCompletedMatchday": 31
   },
   "stats": {
-    "status": "skipped",
+    "status": "refreshed",
     "changedClubs": [],
     "resolvedClubs": [],
     "unresolvedClubs": []
@@ -61,10 +61,10 @@
   "outputs": {
     "tableChanged": false,
     "playersChanged": false,
-    "statsChanged": false,
+    "statsChanged": true,
     "matchesChanged": false,
     "bracketChanged": false,
     "tablePdfRendered": false,
-    "statsPdfRendered": false
+    "statsPdfRendered": true
   }
 }

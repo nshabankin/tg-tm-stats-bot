@@ -62,6 +62,7 @@ def refresh_league(league_key: str, season: int = None,
         print(f'  fetched {len(context.teams)} teams and {len(players)} players',
               flush=True)
 
+    existing_stats = read_csv_rows(context.paths.stats_csv) if context.paths.stats_csv.exists() else []
     stats = fetch_stats(
         context.session,
         league_key,
@@ -70,9 +71,8 @@ def refresh_league(league_key: str, season: int = None,
         timeout,
         teams=context.teams,
         delay=delay,
+        existing_rows=existing_stats,
     )
-
-    existing_stats = read_csv_rows(context.paths.stats_csv) if context.paths.stats_csv.exists() else []
     stats_output = pick_stats_output(stats, existing_stats, league_key)
 
     stats_changed = write_stats_snapshot(context.paths, stats_output)
@@ -301,6 +301,7 @@ def refresh_changed_team_stats_only(
         timeout,
         teams=context.teams,
         delay=delay,
+        existing_rows=targeted_existing_stats,
     )
     replacement_stats = pick_stats_output(
         replacement_stats,

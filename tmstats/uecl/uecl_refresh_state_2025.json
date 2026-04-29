@@ -1,8 +1,8 @@
 {
   "league": "uecl",
   "season": 2025,
-  "updatedAt": "2026-04-24T21:30:17+00:00",
-  "mode": "changed-team-stats",
+  "updatedAt": "2026-04-29T17:07:24+00:00",
+  "mode": "full",
   "counts": {
     "clubs": 36,
     "players": 1049,
@@ -24,18 +24,18 @@
     "lastCompletedMatchday": 6
   },
   "stats": {
-    "status": "skipped",
+    "status": "refreshed",
     "changedClubs": [],
     "resolvedClubs": [],
     "unresolvedClubs": []
   },
   "outputs": {
-    "tableChanged": false,
+    "tableChanged": true,
     "playersChanged": false,
-    "statsChanged": false,
-    "matchesChanged": false,
+    "statsChanged": true,
+    "matchesChanged": true,
     "bracketChanged": false,
-    "tablePdfRendered": false,
-    "statsPdfRendered": false
+    "tablePdfRendered": true,
+    "statsPdfRendered": true
   }
 }

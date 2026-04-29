@@ -1,12 +1,12 @@
 {
   "league": "ucl",
   "season": 2025,
-  "updatedAt": "2026-04-24T21:28:45+00:00",
-  "mode": "changed-team-stats",
+  "updatedAt": "2026-04-29T15:28:21+00:00",
+  "mode": "full",
   "counts": {
     "clubs": 36,
-    "players": 957,
-    "statsRows": 957,
+    "players": 958,
+    "statsRows": 958,
     "tableRows": 36
   },
   "matches": {
@@ -26,7 +26,7 @@
     "lastCompletedMatchday": 8
   },
   "stats": {
-    "status": "skipped",
+    "status": "refreshed",
     "changedClubs": [],
     "resolvedClubs": [],
     "unresolvedClubs": []
@@ -34,10 +34,10 @@
   "outputs": {
     "tableChanged": false,
     "playersChanged": false,
-    "statsChanged": false,
+    "statsChanged": true,
     "matchesChanged": false,
     "bracketChanged": false,
     "tablePdfRendered": false,
-    "statsPdfRendered": false
+    "statsPdfRendered": true
   }
 }

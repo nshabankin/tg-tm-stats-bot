@@ -1,7 +1,7 @@
 import re
 import time
 from pathlib import Path
-from typing import Iterable, List
+from typing import Any, Dict, Iterable, List, Optional
 
 import requests
 from lxml import html
@@ -249,6 +249,133 @@ def pick_stats_row(doc: html.HtmlElement, league_key: str) -> List[str]:
     return []
 
 
+def format_stat_count(value: int) -> str:
+    return str(value) if value else '-'
+
+
+def format_minutes(value: int) -> str:
+    if not value:
+        return ''
+    return f"{value:,}".replace(',', '.') + "'"
+
+
+def numeric_stat(sections: Dict[str, Any], key: str) -> int:
+    total = 0
+    for values in sections.values():
+        if not isinstance(values, dict) or key not in values:
+            continue
+        value = values[key]
+        if isinstance(value, bool) or value is None:
+            continue
+        if isinstance(value, (int, float)):
+            total += int(value)
+        elif isinstance(value, dict):
+            total += 1
+    return total
+
+
+def fetch_performance_games(session: requests.Session, player_id: str,
+                            timeout: int) -> List[dict]:
+    url = f'https://www.transfermarkt.com/ceapi/performance-game/{player_id}'
+    payload = fetch_json(session, url, timeout)
+    if not isinstance(payload, dict) or not payload.get('success'):
+        raise RuntimeError('Transfermarkt performance API returned no data')
+
+    data = payload.get('data') or {}
+    performances = data.get('performance') or []
+    if not isinstance(performances, list):
+        raise RuntimeError('Transfermarkt performance API returned invalid data')
+    return performances
+
+
+def build_player_stats_from_api(player: dict, performances: List[dict],
+                                league_key: str, season: int,
+                                league_label: str) -> Optional[dict]:
+    league = LEAGUES[league_key]
+    matching_games = [
+        performance for performance in performances
+        if (performance.get('gameInformation') or {}).get('competitionId') == league.site_id
+        and (performance.get('gameInformation') or {}).get('seasonId') == season
+    ]
+    played_games = [
+        game for game in matching_games
+        if (
+            ((game.get('statistics') or {}).get('playingTimeStatistics') or {})
+            .get('playedMinutes') or 0
+        ) > 0
+        or (
+            ((game.get('statistics') or {}).get('generalStatistics') or {})
+            .get('participationState') == 'played'
+        )
+    ]
+    if not played_games:
+        return None
+
+    played = len(played_games)
+    goals = 0
+    assists = 0
+    yellow_cards = 0
+    second_yellows = 0
+    red_cards = 0
+    conceded = 0
+    clean_sheets = 0
+    minutes = 0
+
+    for game in played_games:
+        stats = game.get('statistics') or {}
+        goal_stats = stats.get('goalStatistics') or {}
+        time_stats = stats.get('playingTimeStatistics') or {}
+        clubs = game.get('clubsInformation') or {}
+        club = clubs.get('club') or {}
+
+        goals += int(goal_stats.get('goalsScoredTotal') or 0)
+        assists += int(goal_stats.get('assists') or 0)
+        yellow_cards += numeric_stat(stats, 'yellowCardNet')
+        second_yellows += numeric_stat(stats, 'yellowRedCard')
+        red_cards += numeric_stat(stats, 'redCard')
+        minutes += int(time_stats.get('playedMinutes') or 0)
+
+        if player['positionId'] == '1':
+            conceded += int(goal_stats.get('opponentGoalsOnThePitch') or 0)
+            if time_stats.get('playedMinutes') and club.get('opponentGoalsTotal') == 0:
+                clean_sheets += 1
+
+    row = {
+        'player_id': player['id'],
+        'player_name': player['name'],
+        'number': f'#{player["shirtNumber"]}' if player['shirtNumber'] else '',
+        'position': player['position'],
+        'club': player['club'],
+        'league': league_label,
+        'played': str(played),
+        'goals': format_stat_count(goals),
+        'assists': format_stat_count(assists),
+        'yellow_cards': format_stat_count(yellow_cards),
+        'second_yellows': format_stat_count(second_yellows),
+        'red_cards': format_stat_count(red_cards),
+        'conceded': '',
+        'clean_sheets': '',
+        'minutes': format_minutes(minutes),
+    }
+
+    if player['positionId'] == '1':
+        row.update({
+            'assists': '',
+            'conceded': format_stat_count(conceded),
+            'clean_sheets': format_stat_count(clean_sheets),
+        })
+
+    return row
+
+
+def index_existing_stats(existing_rows: List[dict]) -> Dict[str, dict]:
+    return {
+        normalize_text(row.get('player_id')): row
+        for row in existing_rows or []
+        if normalize_text(row.get('player_id'))
+    }
+
+
 def build_player_stats(player: dict, cells: List[str], league_label: str,
                        position_label: str) -> dict:
     number = f'#{player["shirtNumber"]}' if player['shirtNumber'] else ''
@@ -294,9 +421,11 @@ def build_player_stats(player: dict, cells: List[str], league_label: str,
 def fetch_stats(session: requests.Session, league_key: str, players: List[dict],
                 season: int, timeout: int,
                 teams: List[dict] = None,
-                delay: float = 0.25) -> List[dict]:
+                delay: float = 0.25,
+                existing_rows: List[dict] = None) -> List[dict]:
     league_label = LEAGUES[league_key].label
     stats_rows = []
+    existing_by_player = index_existing_stats(existing_rows or [])
     team_order = {
         team['name']: index
         for index, team in enumerate(teams or [], start=1)
@@ -326,24 +455,73 @@ def fetch_stats(session: requests.Session, league_key: str, players: List[dict],
             f'https://www.transfermarkt.com/{slug}/leistungsdaten/'
             f'spieler/{player["id"]}/plus/0?saison={season}'
         )
+        stats_row = None
+        api_failed = False
         try:
-            doc = html.fromstring(fetch_text(session, url, timeout))
-            cells = pick_stats_row(doc, league_key)
-            position_label = extract_position_label(doc)
-            if not cells:
-                print(
-                    f'Warning: no {league_key} competition row found for '
-                    f'{player["name"]} ({player["id"]})',
-                    flush=True,
-                )
+            performances = fetch_performance_games(
+                session,
+                player['id'],
+                timeout,
+            )
+            stats_row = build_player_stats_from_api(
+                player,
+                performances,
+                league_key,
+                season,
+                league_label,
+            )
         except (requests.RequestException, RuntimeError) as error:
-            print(f'Warning: failed to refresh stats for {player["name"]}: '
-                  f'{error}', flush=True)
-            cells = []
-            position_label = player['position']
+            api_failed = True
+            print(
+                f'Warning: API stats refresh failed for {player["name"]}: '
+                f'{error}. Falling back to legacy page parser.',
+                flush=True,
+            )
+
+        if stats_row is None:
+            try:
+                doc = html.fromstring(fetch_text(session, url, timeout))
+                cells = pick_stats_row(doc, league_key)
+                position_label = extract_position_label(doc)
+                if cells:
+                    stats_row = build_player_stats(
+                        player,
+                        cells,
+                        league_label,
+                        position_label,
+                    )
+                elif doc.xpath('//tm-player-performance-table-new'):
+                    stats_row = build_player_stats(
+                        player,
+                        [],
+                        league_label,
+                        player['position'],
+                    )
+                    if api_failed and existing_by_player.get(player['id']):
+                        stats_row = existing_by_player[player['id']]
+                        print(
+                            f'Warning: preserving existing stats for '
+                            f'{player["name"]} ({player["id"]}) after '
+                            f'transient API failure.',
+                            flush=True,
+                        )
+                else:
+                    print(
+                        f'Warning: no {league_key} competition row found for '
+                        f'{player["name"]} ({player["id"]})',
+                        flush=True,
+                    )
+            except (requests.RequestException, RuntimeError) as error:
+                print(f'Warning: failed to refresh stats for {player["name"]}: '
+                      f'{error}', flush=True)
 
         stats_rows.append(
-            build_player_stats(player, cells, league_label, position_label)
+            stats_row or build_player_stats(
+                player,
+                [],
+                league_label,
+                player['position'],
+            )
         )
 
         if index % 25 == 0 or index == len(players):

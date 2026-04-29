@@ -1,1041 +1,1041 @@
 player_id,player_name,number,position,club,league,played,goals,assists,yellow_cards,second_yellows,red_cards,conceded,clean_sheets,minutes
-971570,Endrick,#9,Centre-Forward,Lyon,Europa League,2,1,-,-,-,-,,,157'
-743386,Malick Fofana,#11,Left Winger,Lyon,Europa League,4,-,-,-,-,-,,,167'
-618494,Tyler Morton,#23,Defensive Midfield,Lyon,Europa League,10,-,1,2,-,-,,,638'
-500053,Pavel Sulc,#10,Attacking Midfield,Lyon,Europa League,8,1,3,1,-,-,,,477'
-291200,Moussa Niakhaté,#19,Centre-Back,Lyon,Europa League,9,1,-,1,-,1,,,739'
-802515,Noah Nartey,#99,Attacking Midfield,Lyon,Europa League,2,-,-,-,-,-,,,152'
-955070,Ernest Nuamah,#37,Right Winger,Lyon,Europa League,,,,,,,,,
-190393,Corentin Tolisso,#8,Central Midfield,Lyon,Europa League,7,4,-,-,-,-,,,508'
-952282,Afonso Moreira,#17,Left Winger,Lyon,Europa League,7,2,2,1,-,-,,,357'
-285845,Ainsley Maitland-Niles,#98,Right-Back,Lyon,Europa League,8,1,-,1,-,-,,,544'
-289592,Orel Mangala,#5,Defensive Midfield,Lyon,Europa League,3,-,-,-,-,-,,,73'
-1187942,Khalis Merah,#44,Central Midfield,Lyon,Europa League,8,1,1,-,-,-,,,402'
-646402,Abner,#16,Left-Back,Lyon,Europa League,7,1,1,1,-,-,,,386'
-670096,Tanner Tessmann,#6,Defensive Midfield,Lyon,Europa League,9,1,-,1,-,-,,,479'
-1200423,Rémi Himbert,#45,Left Winger,Lyon,Europa League,3,1,-,-,-,-,,,106'
+971570,Endrick,#9,Forward,Lyon,Europa League,2,1,-,-,-,-,,,157'
+743386,Malick Fofana,#11,Forward,Lyon,Europa League,4,-,-,-,-,-,,,167'
+618494,Tyler Morton,#23,Midfield,Lyon,Europa League,10,-,1,2,-,-,,,638'
+500053,Pavel Sulc,#10,Midfield,Lyon,Europa League,8,1,3,1,-,-,,,477'
+291200,Moussa Niakhaté,#19,Defender,Lyon,Europa League,9,1,-,1,-,1,,,739'
+802515,Noah Nartey,#99,Midfield,Lyon,Europa League,2,-,-,-,-,-,,,152'
+955070,Ernest Nuamah,#37,Forward,Lyon,Europa League,,,,,,,,,
+190393,Corentin Tolisso,#8,Midfield,Lyon,Europa League,7,4,-,-,-,-,,,508'
+952282,Afonso Moreira,#17,Forward,Lyon,Europa League,7,2,2,1,-,-,,,357'
+285845,Ainsley Maitland-Niles,#98,Defender,Lyon,Europa League,8,1,-,1,-,-,,,542'
+289592,Orel Mangala,#5,Midfield,Lyon,Europa League,3,-,-,-,-,-,,,73'
+1187942,Khalis Merah,#44,Midfield,Lyon,Europa League,8,1,1,-,-,-,,,402'
+646402,Abner,#16,Defender,Lyon,Europa League,7,1,1,1,-,-,,,386'
+670096,Tanner Tessmann,#6,Midfield,Lyon,Europa League,9,1,-,1,-,-,,,479'
+1200423,Rémi Himbert,#45,Forward,Lyon,Europa League,3,1,-,-,-,-,,,106'
 316884,Dominik Greif,#1,Goalkeeper,Lyon,Europa League,6,-,,-,-,-,5,3,540'
-652061,Adam Karabec,#7,Attacking Midfield,Lyon,Europa League,9,2,3,-,-,-,,,474'
-578421,Ruben Kluivert,#21,Centre-Back,Lyon,Europa League,6,1,-,2,-,-,,,447'
-131225,Nicolás Tagliafico,#3,Left-Back,Lyon,Europa League,8,-,-,2,1,-,,,560'
-1004486,Mathys de Carvalho,#39,Defensive Midfield,Lyon,Europa League,8,-,1,1,-,-,,,552'
-187718,Clinton Mata,#22,Centre-Back,Lyon,Europa League,9,-,1,2,-,-,,,726'
-1275040,Noham Kamara,#85,Centre-Back,Lyon,Europa League,,,,,,,,,
-221958,Roman Yaremchuk,#77,Centre-Forward,Lyon,Europa League,2,-,-,-,-,-,,,136'
+652061,Adam Karabec,#7,Midfield,Lyon,Europa League,9,2,3,-,-,-,,,474'
+578421,Ruben Kluivert,#21,Defender,Lyon,Europa League,6,1,-,2,-,-,,,447'
+131225,Nicolás Tagliafico,#3,Defender,Lyon,Europa League,8,-,-,2,1,-,,,560'
+1004486,Mathys de Carvalho,#39,Midfield,Lyon,Europa League,8,-,1,1,-,-,,,552'
+187718,Clinton Mata,#22,Defender,Lyon,Europa League,9,-,1,2,-,-,,,726'
+1275040,Noham Kamara,#85,Defender,Lyon,Europa League,,,,,,,,,
+221958,Roman Yaremchuk,#77,Forward,Lyon,Europa League,2,-,-,-,-,-,,,135'
 282028,Rémy Descamps,#40,Goalkeeper,Lyon,Europa League,4,-,,-,-,-,3,2,360'
-275303,Hans Hateboer,#33,Right-Back,Lyon,Europa League,,,,,,,,,
-1119391,Steeve Kango,#34,Right-Back,Lyon,Europa League,2,-,-,1,-,-,,,175'
-118287,Rachid Ghezzal,#18,Right Winger,Lyon,Europa League,1,-,1,-,-,-,,,25'
-902862,Achraf Laâziri,#36,Left-Back,Lyon,Europa League,,,,,,,,,
-1071430,Lassine Diarra,#50,Goalkeeper,Lyon,Europa League,-,-,,-,-,-,-,-,-
-503743,Morgan Rogers,#27,Attacking Midfield,Aston Villa,Europa League,12,2,3,2,-,-,,,819'
-485706,Amadou Onana,#24,Defensive Midfield,Aston Villa,Europa League,10,-,-,1,-,-,,,704'
-413403,Ezri Konsa,#4,Centre-Back,Aston Villa,Europa League,9,2,1,1,-,-,,,684'
-394327,Boubacar Kamara,#44,Defensive Midfield,Aston Villa,Europa League,6,-,1,-,-,-,,,269'
-249565,Youri Tielemans,#8,Central Midfield,Aston Villa,Europa League,6,1,3,1,-,-,,,374'
-485585,Ian Maatsen,#22,Left-Back,Aston Villa,Europa League,9,1,-,1,-,-,,,536'
-324358,Ollie Watkins,#11,Centre-Forward,Aston Villa,Europa League,12,4,1,-,-,-,,,642'
-425334,Matty Cash,#2,Right-Back,Aston Villa,Europa League,9,-,2,2,-,-,,,561'
-565822,Harvey Elliott,#9,Attacking Midfield,Aston Villa,Europa League,4,-,-,-,-,-,,,101'
-399776,Pau Torres,#14,Centre-Back,Aston Villa,Europa League,9,-,-,-,-,-,,,754'
-331726,Tammy Abraham,#18,Centre-Forward,Aston Villa,Europa League,3,-,1,-,-,-,,,95'
-447661,Douglas Luiz,#21,Central Midfield,Aston Villa,Europa League,7,-,1,1,-,-,,,426'
-401173,Jadon Sancho,#19,Left Winger,Aston Villa,Europa League,10,1,1,-,-,-,,,664'
-321247,Emiliano Buendía,#10,Attacking Midfield,Aston Villa,Europa League,12,2,4,1,-,-,,,748'
-387626,Leon Bailey,#31,Right Winger,Aston Villa,Europa League,7,1,1,-,-,-,,,97'
-193116,John McGinn,#7,Central Midfield,Aston Villa,Europa League,9,3,1,2,-,-,,,457'
-645686,Lamare Bogarde,#26,Defensive Midfield,Aston Villa,Europa League,11,-,-,1,-,-,,,731'
+275303,Hans Hateboer,#33,Defender,Lyon,Europa League,,,,,,,,,
+1119391,Steeve Kango,#34,Defender,Lyon,Europa League,2,-,-,1,-,-,,,175'
+118287,Rachid Ghezzal,#18,Forward,Lyon,Europa League,1,-,1,-,-,-,,,25'
+902862,Achraf Laâziri,#36,Defender,Lyon,Europa League,,,,,,,,,
+1071430,Lassine Diarra,#50,Goalkeeper,Lyon,Europa League,,,,,,,,,
+503743,Morgan Rogers,#27,Midfield,Aston Villa,Europa League,12,2,3,2,-,-,,,819'
+485706,Amadou Onana,#24,Midfield,Aston Villa,Europa League,10,-,-,1,-,-,,,704'
+413403,Ezri Konsa,#4,Defender,Aston Villa,Europa League,9,2,1,1,-,-,,,684'
+394327,Boubacar Kamara,#44,Midfield,Aston Villa,Europa League,6,-,1,-,-,-,,,265'
+249565,Youri Tielemans,#8,Midfield,Aston Villa,Europa League,6,1,3,1,-,-,,,374'
+485585,Ian Maatsen,#22,Defender,Aston Villa,Europa League,9,1,-,1,-,-,,,536'
+324358,Ollie Watkins,#11,Forward,Aston Villa,Europa League,12,4,1,-,-,-,,,642'
+425334,Matty Cash,#2,Defender,Aston Villa,Europa League,9,-,2,2,-,-,,,561'
+565822,Harvey Elliott,#9,Midfield,Aston Villa,Europa League,4,-,-,-,-,-,,,101'
+399776,Pau Torres,#14,Defender,Aston Villa,Europa League,9,-,-,-,-,-,,,754'
+331726,Tammy Abraham,#18,Forward,Aston Villa,Europa League,3,-,1,-,-,-,,,95'
+447661,Douglas Luiz,#21,Midfield,Aston Villa,Europa League,7,-,1,1,-,-,,,426'
+401173,Jadon Sancho,#19,Forward,Aston Villa,Europa League,10,1,1,-,-,-,,,664'
+321247,Emiliano Buendía,#10,Midfield,Aston Villa,Europa League,12,2,4,1,-,-,,,748'
+387626,Leon Bailey,#31,Forward,Aston Villa,Europa League,7,1,1,-,-,-,,,97'
+193116,John McGinn,#7,Midfield,Aston Villa,Europa League,9,3,1,2,-,-,,,457'
+645686,Lamare Bogarde,#26,Midfield,Aston Villa,Europa League,11,-,-,1,-,-,,,731'
 111873,Emiliano Martínez,#23,Goalkeeper,Aston Villa,Europa League,8,-,,1,-,-,6,4,720'
-1005583,Alysson,#47,Right Winger,Aston Villa,Europa League,,,,,,,,,
-126664,Lucas Digne,#12,Left-Back,Aston Villa,Europa League,8,-,1,2,-,-,,,568'
-1063329,Andrés García,#16,Right-Back,Aston Villa,Europa League,1,-,-,-,-,-,,,15'
-184573,Victor Lindelöf,#3,Centre-Back,Aston Villa,Europa League,8,-,-,2,-,-,,,610'
-131978,Ross Barkley,#6,Central Midfield,Aston Villa,Europa League,1,-,-,-,-,-,,,31'
-253677,Tyrone Mings,#5,Centre-Back,Aston Villa,Europa League,3,1,-,-,-,-,,,270'
+1005583,Alysson,#47,Forward,Aston Villa,Europa League,,,,,,,,,
+126664,Lucas Digne,#12,Defender,Aston Villa,Europa League,8,-,1,2,-,-,,,568'
+1063329,Andrés García,#16,Defender,Aston Villa,Europa League,1,-,-,-,-,-,,,15'
+184573,Victor Lindelöf,#3,Defender,Aston Villa,Europa League,8,-,-,2,-,-,,,610'
+131978,Ross Barkley,#6,Midfield,Aston Villa,Europa League,1,-,-,-,-,-,,,30'
+253677,Tyrone Mings,#5,Defender,Aston Villa,Europa League,3,1,-,-,-,-,,,270'
 124884,Marco Bizot,#40,Goalkeeper,Aston Villa,Europa League,4,-,,1,-,-,1,3,360'
-929090,Franculino,#7,Centre-Forward,Midtjylland,Europa League Qualifying,6,1,-,-,-,-,,,441'
-881116,Darío Osorio,#11,Right Winger,Midtjylland,Europa League,8,-,2,4,-,-,,,484'
-1099668,Ousmane Diao,#4,Centre-Back,Midtjylland,Europa League,9,2,1,1,-,-,,,725'
-320411,Philip Billing,#8,Central Midfield,Midtjylland,Europa League,9,1,2,3,-,-,,,703'
-372240,Mads Bech Sørensen,#22,Centre-Back,Midtjylland,Europa League,10,1,1,1,-,-,,,930'
-514887,Aral Şimşir,#58,Left Winger,Midtjylland,Europa League,10,1,3,-,-,-,,,545'
-941418,Denil Castillo,#21,Central Midfield,Midtjylland,Europa League,10,-,-,1,-,-,,,644'
-357003,Martin Erlić,#6,Centre-Back,Midtjylland,Europa League,8,4,1,3,-,-,,,734'
-183321,Kevin Mbabu,#43,Right-Back,Midtjylland,Europa League,8,-,-,1,-,-,,,408'
-937680,Mikel Gogorza,#41,Left Winger,Midtjylland,Europa League Qualifying,5,1,1,-,-,-,,,248'
-652537,Gue-sung Cho,#10,Centre-Forward,Midtjylland,Europa League,9,2,-,1,-,-,,,629'
-623772,Victor Bak,#55,Left-Back,Midtjylland,Europa League,8,1,1,-,-,-,,,727'
-264423,Mikael Uhre,#17,Centre-Forward,Midtjylland,Europa League,1,-,-,-,-,-,,,33'
-742518,Pedro Bravo,#19,Central Midfield,Midtjylland,Europa League,10,-,-,1,-,-,,,576'
+929090,Franculino,#7,Forward,Midtjylland,Europa League,5,3,-,1,-,-,,,314'
+881116,Darío Osorio,#11,Forward,Midtjylland,Europa League,8,-,2,4,-,-,,,484'
+1099668,Ousmane Diao,#4,Defender,Midtjylland,Europa League,9,2,1,1,-,-,,,725'
+320411,Philip Billing,#8,Midfield,Midtjylland,Europa League,9,1,2,3,-,-,,,704'
+372240,Mads Bech Sørensen,#22,Defender,Midtjylland,Europa League,10,1,1,1,-,-,,,930'
+514887,Aral Şimşir,#58,Forward,Midtjylland,Europa League,10,1,3,-,-,-,,,544'
+941418,Denil Castillo,#21,Midfield,Midtjylland,Europa League,10,-,-,1,-,-,,,644'
+357003,Martin Erlić,#6,Defender,Midtjylland,Europa League,8,4,1,3,-,-,,,734'
+183321,Kevin Mbabu,#43,Defender,Midtjylland,Europa League,8,-,-,1,-,-,,,408'
+937680,Mikel Gogorza,#41,Forward,Midtjylland,Europa League,4,1,1,1,-,-,,,153'
+652537,Gue-sung Cho,#10,Forward,Midtjylland,Europa League,9,2,-,1,-,-,,,629'
+623772,Victor Bak,#55,Defender,Midtjylland,Europa League,8,1,1,-,-,-,,,727'
+264423,Mikael Uhre,#17,Forward,Midtjylland,Europa League,1,-,-,-,-,-,,,33'
+742518,Pedro Bravo,#19,Midfield,Midtjylland,Europa League,10,-,-,1,-,-,,,576'
 464373,Elías Ólafsson,#16,Goalkeeper,Midtjylland,Europa League,10,-,,-,-,-,10,5,930'
-747487,Valdemar Byskov,#20,Central Midfield,Midtjylland,Europa League,10,1,1,-,-,-,,,447'
-706963,Han-beom Lee,#3,Centre-Back,Midtjylland,Europa League,9,-,1,1,-,-,,,505'
-925199,Junior Zé,#39,Left Winger,Midtjylland,Europa League,1,-,-,-,-,-,,,58'
-524590,Júnior Brumado,#74,Centre-Forward,Midtjylland,Europa League,9,1,-,3,-,-,,,600'
-490309,Edward Chilufya,#14,Right Winger,Midtjylland,Europa League,4,-,-,-,-,-,,,70'
-665538,Adam Gabriel,#13,Right-Back,Midtjylland,Europa League Qualifying,4,-,-,1,-,-,,,260'
-520492,Paulinho,#29,Left-Back,Midtjylland,Europa League Qualifying,5,1,-,-,-,-,,,396'
-1171600,Alamara Djabi,#33,Central Midfield,Midtjylland,Europa League Qualifying,1,-,-,-,-,-,,,25'
+747487,Valdemar Byskov,#20,Midfield,Midtjylland,Europa League,10,1,1,-,-,-,,,448'
+706963,Han-beom Lee,#3,Defender,Midtjylland,Europa League,9,-,1,1,-,-,,,504'
+925199,Junior Zé,#39,Forward,Midtjylland,Europa League,1,-,-,-,-,-,,,58'
+524590,Júnior Brumado,#74,Forward,Midtjylland,Europa League,9,1,-,3,-,-,,,600'
+490309,Edward Chilufya,#14,Forward,Midtjylland,Europa League,4,-,-,-,-,-,,,70'
+665538,Adam Gabriel,#13,Defender,Midtjylland,Europa League,2,-,-,-,-,-,,,51'
+520492,Paulinho,#29,Defender,Midtjylland,Europa League,1,1,-,-,-,-,,,23'
+1171600,Alamara Djabi,#33,Midfield,Midtjylland,Europa League,,,,,,,,,
 586987,Ovie Ejeheri,#30,Goalkeeper,Midtjylland,Europa League,,,,,,,,,
-48870,Jonas Lössl,#1,Goalkeeper,Midtjylland,Europa League Qualifying,2,-,,-,-,-,2,-,208'
-1003546,Mark Ugboh,#60,Goalkeeper,Midtjylland,Europa League,-,-,,-,-,-,-,-,-
-1016309,Liam Selin,#31,Goalkeeper,Midtjylland,Europa League Qualifying,-,-,,-,-,-,-,-,-
-1162316,Bilal Konteh,#35,Centre-Back,Midtjylland,Europa League,-,-,-,-,-,-,,,-
-602105,Antony,#7,Right Winger,Real Betis,Europa League,10,6,3,2,-,-,,,788'
-724520,Abde Ezzalzouli,#10,Left Winger,Real Betis,Europa League,12,4,3,1,-,-,,,806'
-735568,Natan,#4,Centre-Back,Real Betis,Europa League,9,-,1,3,-,-,,,765'
-466801,Sergi Altimira,#6,Central Midfield,Real Betis,Europa League,11,-,-,1,-,-,,,630'
-459463,Cucho Hernández,#19,Centre-Forward,Real Betis,Europa League,7,3,-,-,-,-,,,448'
-985383,Valentín Gómez,#16,Centre-Back,Real Betis,Europa League,9,-,-,2,-,-,,,666'
-287579,Sofyan Amrabat,#14,Defensive Midfield,Real Betis,Europa League,6,1,-,1,-,-,,,316'
-261503,Álvaro Fidalgo,#15,Central Midfield,Real Betis,Europa League,3,-,-,-,-,-,,,157'
-348795,Giovani Lo Celso,#20,Attacking Midfield,Real Betis,Europa League,6,1,-,-,-,-,,,321'
-907559,Nelson Deossa,#18,Central Midfield,Real Betis,Europa League,9,-,-,1,-,-,,,441'
-357885,Pablo Fornals,#8,Central Midfield,Real Betis,Europa League,11,-,2,1,-,-,,,689'
-961087,Pablo García,#52,Right Winger,Real Betis,Europa League,6,-,-,1,-,-,,,143'
+48870,Jonas Lössl,#1,Goalkeeper,Midtjylland,Europa League,,,,,,,,,
+1003546,Mark Ugboh,#60,Goalkeeper,Midtjylland,Europa League,,,,,,,,,
+1016309,Liam Selin,#31,Goalkeeper,Midtjylland,Europa League,,,,,,,,,
+1162316,Bilal Konteh,#35,Defender,Midtjylland,Europa League,,,,,,,,,
+602105,Antony,#7,Forward,Real Betis,Europa League,10,6,3,2,-,-,,,788'
+724520,Abde Ezzalzouli,#10,Forward,Real Betis,Europa League,12,4,3,1,-,-,,,806'
+735568,Natan,#4,Defender,Real Betis,Europa League,9,-,1,3,-,-,,,765'
+466801,Sergi Altimira,#6,Midfield,Real Betis,Europa League,11,-,-,1,-,-,,,630'
+459463,Cucho Hernández,#19,Forward,Real Betis,Europa League,7,3,-,-,-,-,,,448'
+985383,Valentín Gómez,#16,Defender,Real Betis,Europa League,9,-,-,2,-,-,,,666'
+287579,Sofyan Amrabat,#14,Midfield,Real Betis,Europa League,6,1,-,1,-,-,,,316'
+261503,Álvaro Fidalgo,#15,Midfield,Real Betis,Europa League,3,-,-,-,-,-,,,157'
+348795,Giovani Lo Celso,#20,Midfield,Real Betis,Europa League,6,1,-,-,-,-,,,321'
+907559,Nelson Deossa,#18,Midfield,Real Betis,Europa League,9,-,-,1,-,-,,,441'
+357885,Pablo Fornals,#8,Midfield,Real Betis,Europa League,11,-,2,1,-,-,,,689'
+961087,Pablo García,#52,Forward,Real Betis,Europa League,6,-,-,1,-,-,,,143'
 417913,Álvaro Valles,#1,Goalkeeper,Real Betis,Europa League,5,-,,-,-,-,2,3,450'
-461617,Rodrigo Riquelme,#17,Left Winger,Real Betis,Europa League,8,1,-,-,-,-,,,291'
-374139,Junior Firpo,#23,Left-Back,Real Betis,Europa League,3,-,-,2,-,-,,,123'
-336869,Marc Roca,#21,Defensive Midfield,Real Betis,Europa League,8,-,2,2,-,-,,,510'
-378139,Aitor Ruibal,#24,Right Winger,Real Betis,Europa League,10,1,1,2,-,-,,,584'
-933908,Ángel Ortiz,#40,Right-Back,Real Betis,Europa League,6,-,-,-,-,-,,,484'
-85288,Isco,#22,Attacking Midfield,Real Betis,Europa League,1,-,-,-,-,-,,,9'
-246291,Diego Llorente,#3,Centre-Back,Real Betis,Europa League,7,-,-,1,1,-,,,627'
+461617,Rodrigo Riquelme,#17,Forward,Real Betis,Europa League,8,1,-,-,-,-,,,291'
+374139,Junior Firpo,#23,Defender,Real Betis,Europa League,3,-,-,2,-,-,,,123'
+336869,Marc Roca,#21,Midfield,Real Betis,Europa League,8,-,2,2,-,-,,,510'
+378139,Aitor Ruibal,#24,Forward,Real Betis,Europa League,10,1,1,2,-,-,,,584'
+933908,Ángel Ortiz,#40,Defender,Real Betis,Europa League,6,-,-,-,-,-,,,484'
+85288,Isco,#22,Midfield,Real Betis,Europa League,1,-,-,-,-,-,,,9'
+246291,Diego Llorente,#3,Defender,Real Betis,Europa League,7,-,-,1,1,-,,,627'
 286415,Pau López,#25,Goalkeeper,Real Betis,Europa League,7,-,,2,-,-,11,1,630'
-191217,Héctor Bellerín,#2,Right-Back,Real Betis,Europa League,2,-,-,-,-,-,,,167'
-167721,Chimy Ávila,#9,Centre-Forward,Real Betis,Europa League,9,-,1,1,-,-,,,333'
-86784,Ricardo Rodríguez,#12,Left-Back,Real Betis,Europa League,9,-,-,3,-,-,,,675'
-127048,Cédric Bakambu,#11,Centre-Forward,Real Betis,Europa League,6,1,2,3,-,-,,,420'
-99922,Marc Bartra,#5,Centre-Back,Real Betis,Europa League,5,-,-,1,-,-,,,361'
-71271,Adrián San Miguel,#13,Goalkeeper,Real Betis,Europa League,-,-,,-,-,-,-,-,-
-991268,Samu Aghehowa,#9,Centre-Forward,Porto,Europa League,7,3,-,-,-,-,,,467'
+191217,Héctor Bellerín,#2,Defender,Real Betis,Europa League,2,-,-,-,-,-,,,167'
+167721,Chimy Ávila,#9,Forward,Real Betis,Europa League,9,-,1,1,-,-,,,333'
+86784,Ricardo Rodríguez,#12,Defender,Real Betis,Europa League,9,-,-,3,-,-,,,675'
+127048,Cédric Bakambu,#11,Forward,Real Betis,Europa League,6,1,2,3,-,-,,,420'
+99922,Marc Bartra,#5,Defender,Real Betis,Europa League,5,-,-,1,-,-,,,361'
+71271,Adrián San Miguel,#13,Goalkeeper,Real Betis,Europa League,,,,,,,,,
+991268,Samu Aghehowa,#9,Forward,Porto,Europa League,7,3,-,-,-,-,,,467'
 357153,Diogo Costa,#99,Goalkeeper,Porto,Europa League,12,-,,-,-,-,10,3,1.080'
-957653,Rodrigo Mora,#86,Attacking Midfield,Porto,Europa League,9,3,1,2,-,-,,,435'
-756990,Alan Varela,#22,Defensive Midfield,Porto,Europa League,9,-,-,1,-,-,,,366'
-926993,Victor Froholdt,#8,Central Midfield,Porto,Europa League,12,1,1,1,-,-,,,720'
-425918,Jakub Kiwior,#4,Centre-Back,Porto,Europa League,8,-,1,1,-,-,,,617'
-699704,Gabri Veiga,#10,Attacking Midfield,Porto,Europa League,10,2,1,2,-,-,,,439'
-634461,Borja Sainz,#17,Left Winger,Porto,Europa League,12,1,3,1,-,-,,,674'
-1004725,William Gomes,#7,Right Winger,Porto,Europa League,11,4,-,2,-,-,,,626'
-520662,Pepê,#11,Right Winger,Porto,Europa League,11,-,2,1,-,-,,,609'
-1162012,Oskar Pietuszewski,#77,Left Winger,Porto,Europa League,,,,,,,,,
-877139,Alberto Costa,#20,Right-Back,Porto,Europa League,11,-,-,3,-,-,,,666'
-491693,Nehuén Pérez,#18,Centre-Back,Porto,Europa League,,,,,,,,,
-935480,Martim Fernandes,#52,Right-Back,Porto,Europa League,9,-,1,1,-,-,,,395'
-478365,Francisco Moura,#74,Left-Back,Porto,Europa League,7,1,-,1,-,-,,,444'
-243028,Jan Bednarek,#5,Centre-Back,Porto,Europa League,12,-,-,2,-,1,,,908'
-538874,Terem Moffi,#29,Centre-Forward,Porto,Europa League,7,2,-,1,-,-,,,400'
-370791,Pablo Rosario,#13,Defensive Midfield,Porto,Europa League,12,-,-,2,-,-,,,1.012'
-182893,Seko Fofana,#42,Central Midfield,Porto,Europa League,4,-,-,-,-,-,,,317'
-1063292,Deniz Gül,#27,Centre-Forward,Porto,Europa League,10,1,1,-,-,-,,,392'
-921533,Dominik Prpić,#21,Centre-Back,Porto,Europa League,2,-,-,2,-,-,,,180'
-544784,Zaidu Sanusi,#12,Left-Back,Porto,Europa League,8,-,1,2,-,-,,,530'
-324804,Yann Karamoh,#75,Left Winger,Porto,Europa League,,,,,,,,,
-155396,Cláudio Ramos,#14,Goalkeeper,Porto,Europa League,-,-,,-,-,-,-,-,-
-72522,Luuk de Jong,#26,Centre-Forward,Porto,Europa League,1,-,-,-,-,-,,,17'
-198638,João Costa,#24,Goalkeeper,Porto,Europa League,-,-,,-,-,-,-,-,-
-29241,Thiago Silva,#3,Centre-Back,Porto,Europa League,4,-,-,1,-,-,,,360'
-606752,Rodrigo Zalazar,#10,Central Midfield,Braga,Europa League,8,2,1,1,-,1,,,544'
+957653,Rodrigo Mora,#86,Midfield,Porto,Europa League,9,3,1,2,-,-,,,435'
+756990,Alan Varela,#22,Midfield,Porto,Europa League,9,-,-,1,-,-,,,366'
+926993,Victor Froholdt,#8,Midfield,Porto,Europa League,12,1,1,1,-,-,,,720'
+425918,Jakub Kiwior,#4,Defender,Porto,Europa League,8,-,1,1,-,-,,,617'
+699704,Gabri Veiga,#10,Midfield,Porto,Europa League,10,2,1,2,-,-,,,439'
+634461,Borja Sainz,#17,Forward,Porto,Europa League,12,1,3,1,-,-,,,674'
+1004725,William Gomes,#7,Forward,Porto,Europa League,11,4,-,2,-,-,,,626'
+520662,Pepê,#11,Forward,Porto,Europa League,11,-,2,1,-,-,,,609'
+1162012,Oskar Pietuszewski,#77,Forward,Porto,Europa League,,,,,,,,,
+877139,Alberto Costa,#20,Defender,Porto,Europa League,11,-,-,3,-,-,,,666'
+491693,Nehuén Pérez,#18,Defender,Porto,Europa League,,,,,,,,,
+935480,Martim Fernandes,#52,Defender,Porto,Europa League,9,-,1,1,-,-,,,395'
+478365,Francisco Moura,#74,Defender,Porto,Europa League,7,1,-,1,-,-,,,444'
+243028,Jan Bednarek,#5,Defender,Porto,Europa League,12,-,-,2,-,1,,,908'
+538874,Terem Moffi,#29,Forward,Porto,Europa League,7,2,-,1,-,-,,,400'
+370791,Pablo Rosario,#13,Midfield,Porto,Europa League,12,-,-,2,-,-,,,1.012'
+182893,Seko Fofana,#42,Midfield,Porto,Europa League,4,-,-,-,-,-,,,317'
+1063292,Deniz Gül,#27,Forward,Porto,Europa League,10,1,1,-,-,-,,,392'
+921533,Dominik Prpić,#21,Defender,Porto,Europa League,2,-,-,2,-,-,,,180'
+544784,Zaidu Sanusi,#12,Defender,Porto,Europa League,8,-,1,2,-,-,,,530'
+324804,Yann Karamoh,#75,Forward,Porto,Europa League,,,,,,,,,
+155396,Cláudio Ramos,#14,Goalkeeper,Porto,Europa League,,,,,,,,,
+72522,Luuk de Jong,#26,Forward,Porto,Europa League,1,-,-,-,-,-,,,17'
+198638,João Costa,#24,Goalkeeper,Porto,Europa League,,,,,,,,,
+29241,Thiago Silva,#3,Defender,Porto,Europa League,4,-,-,1,-,-,,,360'
+606752,Rodrigo Zalazar,#10,Midfield,Braga,Europa League,8,2,1,1,-,1,,,544'
 629773,Lukas Hornicek,#1,Goalkeeper,Braga,Europa League,12,-,,-,-,-,10,7,1.080'
-707572,Pau Víctor,#18,Centre-Forward,Braga,Europa League,11,2,1,1,-,-,,,578'
-1045972,Mario Dorgeles,#20,Right Midfield,Braga,Europa League,6,1,-,-,-,-,,,163'
-261927,Ricardo Horta,#21,Left Winger,Braga,Europa League,12,4,5,-,-,-,,,986'
-413118,Sikou Niakaté,#4,Centre-Back,Braga,Europa League,7,-,-,2,-,-,,,549'
-631404,Gorby,#29,Central Midfield,Braga,Europa League,12,1,1,1,-,-,,,919'
-1086636,Gabriel Moscardo,#17,Defensive Midfield,Braga,Europa League,8,-,-,3,-,-,,,225'
-669956,Leonardo Lelo,#5,Left-Back,Braga,Europa League,9,-,1,-,-,-,,,580'
-580193,Bright Arrey-Mbi,#26,Centre-Back,Braga,Europa League,12,-,-,1,-,-,,,1.010'
-495601,Víctor Gómez,#2,Right-Back,Braga,Europa League,11,-,2,4,-,-,,,945'
-875337,Demir Ege Tıknaz,#34,Defensive Midfield,Braga,Europa League,2,-,1,-,-,-,,,68'
-485395,Gustaf Lagerbielke,#14,Centre-Back,Braga,Europa League,12,-,-,2,-,-,,,1.019'
-906948,Gabri Martínez,#77,Left Winger,Braga,Europa League,10,3,-,4,-,-,,,634'
-984540,Diego Rodrigues,#50,Central Midfield,Braga,Europa League,9,-,1,-,-,-,,,207'
-625206,Adrian Leon Barisic,#37,Centre-Back,Braga,Europa League,4,-,-,1,-,-,,,271'
-284883,Fran Navarro,#39,Centre-Forward,Braga,Europa League,11,3,-,2,-,-,,,388'
-553062,Vítor Carvalho,#6,Defensive Midfield,Braga,Europa League,7,1,-,1,-,-,,,320'
-735051,Amine El Ouazzani,#9,Centre-Forward,Braga,Europa League,5,-,-,-,-,-,,,321'
-195736,Florian Grillitsch,#27,Defensive Midfield,Braga,Europa League,10,2,1,2,-,-,,,676'
-1006448,Sandro Vidigal,#95,Right Winger,Braga,Europa League Qualifying,3,1,2,-,-,-,,,138'
-1061378,Jonatás Noro,#53,Centre-Back,Braga,Europa League,,,,,,,,,
-29364,João Moutinho,#8,Central Midfield,Braga,Europa League,12,-,-,-,-,-,,,514'
-1075884,João Aragão,#72,Right Winger,Braga,Europa League,1,-,-,-,-,-,,,1'
-139336,Paulo Oliveira,#15,Centre-Back,Braga,Europa League Qualifying,4,-,-,1,-,-,,,331'
-667991,Alaa Bellaarouch,#36,Goalkeeper,Braga,Europa League Qualifying,1,-,,-,-,-,1,-,90'
-286908,Tiago Sá,#12,Goalkeeper,Braga,Europa League,-,-,,1,-,-,-,-,-
-1073115,Yanis da Rocha,#41,Defensive Midfield,Braga,Europa League,2,-,-,1,-,-,,,57'
-927353,Johan Manzambi,#44,Central Midfield,Freiburg,Europa League,12,1,2,1,-,-,,,833'
+707572,Pau Víctor,#18,Forward,Braga,Europa League,11,2,1,1,-,-,,,578'
+1045972,Mario Dorgeles,#20,Midfield,Braga,Europa League,6,1,-,-,-,-,,,163'
+261927,Ricardo Horta,#21,Forward,Braga,Europa League,12,4,5,-,-,-,,,986'
+413118,Sikou Niakaté,#4,Defender,Braga,Europa League,7,-,-,2,-,-,,,548'
+631404,Gorby,#29,Midfield,Braga,Europa League,12,1,1,1,-,-,,,919'
+1086636,Gabriel Moscardo,#17,Midfield,Braga,Europa League,8,-,-,3,-,-,,,225'
+669956,Leonardo Lelo,#5,Defender,Braga,Europa League,9,-,1,-,-,-,,,580'
+580193,Bright Arrey-Mbi,#26,Defender,Braga,Europa League,12,-,-,1,-,-,,,1.010'
+495601,Víctor Gómez,#2,Defender,Braga,Europa League,11,-,2,4,-,-,,,945'
+875337,Demir Ege Tıknaz,#34,Midfield,Braga,Europa League,2,-,1,-,-,-,,,68'
+485395,Gustaf Lagerbielke,#14,Defender,Braga,Europa League,12,-,-,2,-,-,,,1.019'
+906948,Gabri Martínez,#77,Forward,Braga,Europa League,10,3,-,4,-,-,,,634'
+984540,Diego Rodrigues,#50,Midfield,Braga,Europa League,9,-,1,-,-,-,,,207'
+625206,Adrian Leon Barisic,#37,Defender,Braga,Europa League,4,-,-,1,-,-,,,271'
+284883,Fran Navarro,#39,Forward,Braga,Europa League,11,3,-,2,-,-,,,388'
+553062,Vítor Carvalho,#6,Midfield,Braga,Europa League,7,1,-,1,-,-,,,320'
+735051,Amine El Ouazzani,#9,Forward,Braga,Europa League,5,-,-,-,-,-,,,321'
+195736,Florian Grillitsch,#27,Midfield,Braga,Europa League,10,2,1,2,-,-,,,676'
+1006448,Sandro Vidigal,#95,Forward,Braga,Europa League,,,,,,,,,
+1061378,Jonatás Noro,#53,Defender,Braga,Europa League,,,,,,,,,
+29364,João Moutinho,#8,Midfield,Braga,Europa League,12,-,-,-,-,-,,,514'
+1075884,João Aragão,#72,Forward,Braga,Europa League,1,-,-,-,-,-,,,1'
+139336,Paulo Oliveira,#15,Defender,Braga,Europa League,2,-,-,-,-,-,,,73'
+667991,Alaa Bellaarouch,#36,Goalkeeper,Braga,Europa League,,,,,,,,,
+286908,Tiago Sá,#12,Goalkeeper,Braga,Europa League,,,,,,,,,
+1073115,Yanis da Rocha,#41,Midfield,Braga,Europa League,2,-,-,1,-,-,,,57'
+927353,Johan Manzambi,#44,Midfield,Freiburg,Europa League,12,1,2,1,-,-,,,833'
 526845,Noah Atubolu,#1,Goalkeeper,Freiburg,Europa League,12,-,,-,-,-,7,5,1.080'
-668606,Yuito Suzuki,#14,Second Striker,Freiburg,Europa League,10,4,3,1,-,-,,,811'
-443331,Patrick Osterhage,#6,Defensive Midfield,Freiburg,Europa League,8,1,-,-,-,-,,,481'
-225657,Philipp Lienhart,#3,Centre-Back,Freiburg,Europa League,8,1,-,2,-,-,,,608'
-605268,Igor Matanovic,#31,Centre-Forward,Freiburg,Europa League,12,3,1,2,-,-,,,542'
-863759,Bruno Ogbus,#43,Centre-Back,Freiburg,Europa League,4,-,-,1,-,-,,,289'
-335993,Philipp Treu,#29,Right-Back,Freiburg,Europa League,11,-,-,1,-,-,,,809'
-190284,Maximilian Eggestein,#8,Central Midfield,Freiburg,Europa League,11,2,-,1,-,1,,,953'
-1145064,Cyriaque Irié,#22,Right Winger,Freiburg,Europa League,4,-,-,-,-,-,,,63'
-342967,Niklas Beste,#19,Right Winger,Freiburg,Europa League,12,1,3,1,-,-,,,859'
-820957,Derry Scherhant,#7,Left Winger,Freiburg,Europa League,11,1,-,-,-,-,,,375'
-815078,Jordy Makengo,#33,Left-Back,Freiburg,Europa League,6,-,1,1,-,-,,,459'
-124502,Matthias Ginter,#28,Centre-Back,Freiburg,Europa League,12,2,2,1,-,-,,,1.080'
-599419,Max Rosenfelder,#37,Centre-Back,Freiburg,Europa League,3,-,-,-,-,-,,,117'
-185077,Vincenzo Grifo,#32,Left Winger,Freiburg,Europa League,12,4,3,2,-,-,,,734'
-248999,Lucas Höler,#9,Centre-Forward,Freiburg,Europa League,8,-,-,1,-,-,,,136'
-93707,Christian Günter,#30,Left-Back,Freiburg,Europa League,8,-,2,1,-,-,,,614'
-93604,Lukas Kübler,#17,Right-Back,Freiburg,Europa League,6,-,-,2,-,-,,,286'
-284769,Florian Müller,#21,Goalkeeper,Freiburg,Europa League,-,-,,-,-,-,-,-,-
-58995,Anthony Jung,#5,Centre-Back,Freiburg,Europa League,3,-,-,-,-,-,,,109'
-143891,Maximilian Philipp,#26,Second Striker,Freiburg,Europa League,-,-,-,-,-,-,,,-
-55099,Nicolas Höfler,#27,Defensive Midfield,Freiburg,Europa League,4,-,-,1,-,-,,,88'
-160954,Jannik Huth,#24,Goalkeeper,Freiburg,Europa League,-,-,,-,-,-,-,-,-
-272587,Daniel-Kofi Kyereh,#11,Attacking Midfield,Freiburg,Europa League,,,,,,,,,
-624690,Manu Koné,#17,Central Midfield,Roma,Europa League,7,-,-,1,-,-,,,266'
-964580,Wesley,#43,Right-Back,Roma,Europa League,8,-,-,1,-,-,,,541'
-668951,Matías Soulé,#18,Right Winger,Roma,Europa League,8,1,3,1,-,-,,,558'
-371149,Evan Ndicka,#5,Centre-Back,Roma,Europa League,10,2,-,2,-,-,,,752'
+668606,Yuito Suzuki,#14,Forward,Freiburg,Europa League,10,4,3,1,-,-,,,811'
+443331,Patrick Osterhage,#6,Midfield,Freiburg,Europa League,8,1,-,-,-,-,,,481'
+225657,Philipp Lienhart,#3,Defender,Freiburg,Europa League,8,1,-,2,-,-,,,608'
+605268,Igor Matanovic,#31,Forward,Freiburg,Europa League,12,3,1,2,-,-,,,542'
+863759,Bruno Ogbus,#43,Defender,Freiburg,Europa League,4,-,-,1,-,-,,,289'
+335993,Philipp Treu,#29,Defender,Freiburg,Europa League,11,-,-,1,-,-,,,809'
+190284,Maximilian Eggestein,#8,Midfield,Freiburg,Europa League,11,2,-,1,-,1,,,953'
+1145064,Cyriaque Irié,#22,Forward,Freiburg,Europa League,4,-,-,-,-,-,,,63'
+342967,Niklas Beste,#19,Forward,Freiburg,Europa League,12,1,3,1,-,-,,,859'
+820957,Derry Scherhant,#7,Forward,Freiburg,Europa League,11,1,-,-,-,-,,,375'
+815078,Jordy Makengo,#33,Defender,Freiburg,Europa League,6,-,1,1,-,-,,,459'
+124502,Matthias Ginter,#28,Defender,Freiburg,Europa League,12,2,2,1,-,-,,,1.080'
+599419,Max Rosenfelder,#37,Defender,Freiburg,Europa League,3,-,-,-,-,-,,,117'
+185077,Vincenzo Grifo,#32,Forward,Freiburg,Europa League,12,4,3,2,-,-,,,734'
+248999,Lucas Höler,#9,Forward,Freiburg,Europa League,8,-,-,1,-,-,,,136'
+93707,Christian Günter,#30,Defender,Freiburg,Europa League,8,-,2,1,-,-,,,614'
+93604,Lukas Kübler,#17,Defender,Freiburg,Europa League,6,-,-,2,-,-,,,286'
+284769,Florian Müller,#21,Goalkeeper,Freiburg,Europa League,,,,,,,,,
+58995,Anthony Jung,#5,Defender,Freiburg,Europa League,3,-,-,-,-,-,,,109'
+143891,Maximilian Philipp,#26,Forward,Freiburg,Europa League,,,,,,,,,
+55099,Nicolas Höfler,#27,Midfield,Freiburg,Europa League,4,-,-,1,-,-,,,88'
+160954,Jannik Huth,#24,Goalkeeper,Freiburg,Europa League,,,,,,,,,
+272587,Daniel-Kofi Kyereh,#11,Midfield,Freiburg,Europa League,,,,,,,,,
+624690,Manu Koné,#17,Midfield,Roma,Europa League,7,-,-,1,-,-,,,266'
+964580,Wesley,#43,Defender,Roma,Europa League,8,-,-,1,-,-,,,541'
+668951,Matías Soulé,#18,Forward,Roma,Europa League,8,1,3,1,-,-,,,558'
+371149,Evan Ndicka,#5,Defender,Roma,Europa League,10,2,-,2,-,-,,,752'
 338670,Mile Svilar,#99,Goalkeeper,Roma,Europa League,9,-,,-,-,-,10,3,840'
-326029,Donyell Malen,#14,Centre-Forward,Roma,Europa League,8,4,1,-,-,-,,,539'
-648046,Evan Ferguson,#11,Centre-Forward,Roma,Europa League,6,2,-,-,-,-,,,302'
-901019,Neil El Aynaoui,#8,Central Midfield,Roma,Europa League,9,1,-,1,-,-,,,712'
-813137,Niccolò Pisilli,#61,Central Midfield,Roma,Europa League,8,2,-,1,-,-,,,529'
-1131161,Robinio Vaz,#78,Centre-Forward,Roma,Europa League,2,-,2,-,-,-,,,108'
-343537,Artem Dovbyk,#9,Centre-Forward,Roma,Europa League,4,-,1,-,-,-,,,241'
-701819,Daniele Ghilardi,#87,Centre-Back,Roma,Europa League,4,-,-,1,-,-,,,360'
-256448,Gianluca Mancini,#23,Centre-Back,Roma,Europa League,9,1,-,3,-,1,,,627'
-1046867,Jan Ziolkowski,#24,Centre-Back,Roma,Europa League,4,1,-,1,-,-,,,189'
-251075,Zeki Çelik,#19,Right-Back,Roma,Europa League,10,-,2,3,-,-,,,816'
-713644,Bryan Zaragoza,#97,Left Winger,Roma,Europa League,9,1,3,-,-,-,,,341'
-277179,Angeliño,#3,Left-Back,Roma,Europa League,2,-,-,-,-,-,,,7'
-286297,Lorenzo Pellegrini,#7,Attacking Midfield,Roma,Europa League,9,3,2,-,-,-,,,513'
-557407,Devyne Rensch,#2,Right-Back,Roma,Europa League,7,-,-,-,-,-,,,409'
-338070,Konstantinos Tsimikas,#12,Left-Back,Roma,Europa League,7,-,1,1,-,-,,,415'
-281769,Mario Hermoso,#22,Centre-Back,Roma,Europa League,7,-,-,2,-,-,,,467'
-199248,Bryan Cristante,#4,Defensive Midfield,Roma,Europa League,8,-,1,2,-,-,,,547'
-206050,Paulo Dybala,#21,Second Striker,Roma,Europa League,4,1,1,-,-,-,,,206'
-1061820,Lorenzo Venturino,#20,Right Winger,Roma,Europa League,,,,,,,,,
-94529,Stephan El Shaarawy,#92,Left Winger,Roma,Europa League,7,1,-,1,-,-,,,318'
+326029,Donyell Malen,#14,Forward,Roma,Europa League,8,4,1,-,-,-,,,539'
+648046,Evan Ferguson,#11,Forward,Roma,Europa League,6,2,-,-,-,-,,,302'
+901019,Neil El Aynaoui,#8,Midfield,Roma,Europa League,9,1,-,1,-,-,,,712'
+813137,Niccolò Pisilli,#61,Midfield,Roma,Europa League,8,2,-,1,-,-,,,529'
+1131161,Robinio Vaz,#78,Forward,Roma,Europa League,2,-,2,-,-,-,,,108'
+343537,Artem Dovbyk,#9,Forward,Roma,Europa League,4,-,1,-,-,-,,,241'
+701819,Daniele Ghilardi,#87,Defender,Roma,Europa League,4,-,-,1,-,-,,,360'
+256448,Gianluca Mancini,#23,Defender,Roma,Europa League,9,1,-,3,-,1,,,627'
+1046867,Jan Ziolkowski,#24,Defender,Roma,Europa League,4,1,-,1,-,-,,,189'
+251075,Zeki Çelik,#19,Defender,Roma,Europa League,10,-,2,3,-,-,,,816'
+713644,Bryan Zaragoza,#97,Forward,Roma,Europa League,9,1,3,-,-,-,,,341'
+277179,Angeliño,#3,Defender,Roma,Europa League,2,-,-,-,-,-,,,7'
+286297,Lorenzo Pellegrini,#7,Midfield,Roma,Europa League,9,3,2,-,-,-,,,513'
+557407,Devyne Rensch,#2,Defender,Roma,Europa League,7,-,-,-,-,-,,,409'
+338070,Konstantinos Tsimikas,#12,Defender,Roma,Europa League,7,-,1,1,-,-,,,412'
+281769,Mario Hermoso,#22,Defender,Roma,Europa League,7,-,-,2,-,-,,,467'
+199248,Bryan Cristante,#4,Midfield,Roma,Europa League,8,-,1,2,-,-,,,547'
+206050,Paulo Dybala,#21,Forward,Roma,Europa League,4,1,1,-,-,-,,,206'
+1061820,Lorenzo Venturino,#20,Forward,Roma,Europa League,,,,,,,,,
+94529,Stephan El Shaarawy,#92,Forward,Roma,Europa League,7,1,-,1,-,-,,,318'
 244192,Pierluigi Gollini,#95,Goalkeeper,Roma,Europa League,1,-,,-,-,-,1,-,90'
 1073023,Radoslaw Zelezny,#91,Goalkeeper,Roma,Europa League,,,,,,,,,
-990148,Konstantinos Karetsas,#20,Attacking Midfield,Genk,Europa League,11,2,5,1,-,-,,,733'
-820474,Zakaria El Ouahdi,#77,Right-Back,Genk,Europa League,9,4,1,3,-,-,,,828'
-1019174,Matte Smets,#6,Centre-Back,Genk,Europa League,12,1,1,1,-,-,,,1.110'
-356081,Bryan Heynen,#8,Central Midfield,Genk,Europa League,12,1,2,1,-,-,,,1.110'
-707159,Jarne Steuckers,#7,Right Winger,Genk,Europa League,8,-,2,-,-,-,,,342'
-497663,Mujaid Sadick,#3,Centre-Back,Genk,Europa League,11,-,-,1,-,-,,,943'
-1038348,Ibrahima Sory Bangoura,#21,Defensive Midfield,Genk,Europa League,9,-,-,1,-,-,,,495'
-446491,Daan Heymans,#38,Attacking Midfield,Genk,Europa League,10,4,4,3,-,-,,,810'
-912436,Noah Adedeji-Sternberg,#32,Left Winger,Genk,Europa League,7,-,-,1,-,-,,,237'
-893659,Yaimar Medina,#19,Left-Back,Genk,Europa League,11,1,-,2,-,-,,,586'
-851699,Jusef Erabi,#99,Centre-Forward,Genk,Europa League,5,-,-,-,-,-,,,47'
-952439,Robin Mirisola,#29,Centre-Forward,Genk,Europa League,7,-,-,-,-,-,,,161'
-348791,Junya Ito,#10,Right Winger,Genk,Europa League,6,-,-,-,-,-,,,420'
-673382,Yira Sor,#14,Left Winger,Genk,Europa League,11,2,-,-,-,-,,,406'
-129586,Joris Kayembe,#18,Left-Back,Genk,Europa League,9,-,-,1,-,-,,,681'
-669632,Nikolas Sattlberger,#24,Defensive Midfield,Genk,Europa League,7,-,1,-,-,-,,,195'
+990148,Konstantinos Karetsas,#20,Midfield,Genk,Europa League,11,2,5,1,-,-,,,733'
+820474,Zakaria El Ouahdi,#77,Defender,Genk,Europa League,9,4,1,3,-,-,,,828'
+1019174,Matte Smets,#6,Defender,Genk,Europa League,12,1,1,1,-,-,,,1.110'
+356081,Bryan Heynen,#8,Midfield,Genk,Europa League,12,1,2,1,-,-,,,1.110'
+707159,Jarne Steuckers,#7,Forward,Genk,Europa League,8,-,2,-,-,-,,,342'
+497663,Mujaid Sadick,#3,Defender,Genk,Europa League,11,-,-,1,-,-,,,943'
+1038348,Ibrahima Sory Bangoura,#21,Midfield,Genk,Europa League,9,-,-,1,-,-,,,495'
+446491,Daan Heymans,#38,Midfield,Genk,Europa League,10,4,4,3,-,-,,,810'
+912436,Noah Adedeji-Sternberg,#32,Forward,Genk,Europa League,7,-,-,1,-,-,,,237'
+893659,Yaimar Medina,#19,Defender,Genk,Europa League,11,1,-,2,-,-,,,586'
+851699,Jusef Erabi,#99,Forward,Genk,Europa League,5,-,-,-,-,-,,,47'
+952439,Robin Mirisola,#29,Forward,Genk,Europa League,7,-,-,-,-,-,,,161'
+348791,Junya Ito,#10,Forward,Genk,Europa League,6,-,-,-,-,-,,,420'
+673382,Yira Sor,#14,Forward,Genk,Europa League,11,2,-,-,-,-,,,406'
+129586,Joris Kayembe,#18,Defender,Genk,Europa League,9,-,-,1,-,-,,,681'
+669632,Nikolas Sattlberger,#24,Midfield,Genk,Europa League,7,-,1,-,-,-,,,195'
 393686,Tobias Lawal,#26,Goalkeeper,Genk,Europa League,6,-,,-,-,-,10,2,570'
-997474,Josué Kongolo,#44,Centre-Back,Genk,Europa League,3,-,-,1,-,-,,,212'
-627939,Ken Nkuba,#27,Right-Back,Genk,Europa League,5,-,-,-,-,-,,,246'
-1122196,Aaron Bibout,#23,Centre-Forward,Genk,Europa League,6,-,-,-,-,-,,,372'
+997474,Josué Kongolo,#44,Defender,Genk,Europa League,3,-,-,1,-,-,,,212'
+627939,Ken Nkuba,#27,Defender,Genk,Europa League,5,-,-,-,-,-,,,246'
+1122196,Aaron Bibout,#23,Forward,Genk,Europa League,6,-,-,-,-,-,,,372'
 137326,Hendrik Van Crombrugge,#1,Goalkeeper,Genk,Europa League,6,-,,-,-,-,6,2,540'
-1105547,Lucca Brughmans,#28,Goalkeeper,Genk,Europa League,-,-,,-,-,-,-,-,-
-1184726,August De Wannemacker,#56,Central Midfield,Genk,Europa League,-,-,-,-,-,-,,,-
-1041316,Adrián Palacios,#34,Centre-Back,Genk,Europa League,2,-,-,-,-,-,,,91'
-835775,Ayumu Yokoyama,#30,Left Winger,Genk,Europa League,-,-,-,-,-,-,,,-
-981532,Emile Doucouré,#97,Goalkeeper,Genk,Europa League,-,-,,-,-,-,-,-,-
-570784,Brent Stevens,#71,Goalkeeper,Genk,Europa League,-,-,,-,-,-,-,-,-
-849520,Santiago Castro,#9,Centre-Forward,Bologna,Europa League,12,2,1,-,-,-,,,824'
-413565,Jhon Lucumí,#26,Centre-Back,Bologna,Europa League,10,-,1,3,-,-,,,930'
-672381,Jonathan Rowe,#11,Left Winger,Bologna,Europa League,12,4,2,1,-,-,,,704'
-428563,Lewis Ferguson,#19,Central Midfield,Bologna,Europa League,14,-,-,2,-,-,,,1.065'
-368482,Riccardo Orsolini,#7,Right Winger,Bologna,Europa League,13,3,-,1,-,-,,,557'
-459151,Nicolò Cambiaghi,#28,Left Winger,Bologna,Europa League,11,1,2,1,-,-,,,480'
-345590,Jens Odgaard,#21,Attacking Midfield,Bologna,Europa League,11,2,1,1,-,-,,,427'
-341227,Juan Miranda,#33,Left-Back,Bologna,Europa League,10,-,1,3,-,-,,,794'
-464469,Torbjørn Heggem,#14,Centre-Back,Bologna,Europa League,8,-,-,1,-,-,,,488'
-538964,Thijs Dallinga,#24,Centre-Forward,Bologna,Europa League,11,3,2,-,-,-,,,433'
-652054,Martin Vitík,#41,Centre-Back,Bologna,Europa League,10,-,-,3,-,-,,,657'
-961022,Benja Domínguez,#30,Left Winger,Bologna,Europa League,3,-,-,-,-,-,,,105'
-392538,Tommaso Pobega,#4,Central Midfield,Bologna,Europa League,9,1,1,1,-,-,,,494'
-537602,João Mário,#17,Right-Back,Bologna,Europa League,5,1,-,1,-,-,,,430'
-507486,Simon Sohm,#23,Central Midfield,Bologna,Europa League,3,-,-,-,-,-,,,71'
-392966,Nadir Zortea,#20,Right-Back,Bologna,Europa League,10,-,3,1,-,-,,,757'
-1129198,Eivind Helland,#5,Centre-Back,Bologna,Europa League,6,-,-,1,-,1,,,468'
-316934,Nikola Moro,#6,Defensive Midfield,Bologna,Europa League,11,-,-,-,-,-,,,735'
-389837,Nicolò Casale,#16,Centre-Back,Bologna,Europa League,6,-,-,1,-,-,,,416'
-148252,Remo Freuler,#8,Central Midfield,Bologna,Europa League,10,-,-,1,-,-,,,862'
-197300,Federico Bernardeschi,#10,Right Winger,Bologna,Europa League,13,5,-,3,-,-,,,771'
+1105547,Lucca Brughmans,#28,Goalkeeper,Genk,Europa League,,,,,,,,,
+1184726,August De Wannemacker,#56,Midfield,Genk,Europa League,,,,,,,,,
+1041316,Adrián Palacios,#34,Defender,Genk,Europa League,2,-,-,-,-,-,,,91'
+835775,Ayumu Yokoyama,#30,Forward,Genk,Europa League,,,,,,,,,
+981532,Emile Doucouré,#97,Goalkeeper,Genk,Europa League,,,,,,,,,
+570784,Brent Stevens,#71,Goalkeeper,Genk,Europa League,,,,,,,,,
+849520,Santiago Castro,#9,Forward,Bologna,Europa League,12,2,1,-,-,-,,,824'
+413565,Jhon Lucumí,#26,Defender,Bologna,Europa League,10,-,1,3,-,-,,,930'
+672381,Jonathan Rowe,#11,Forward,Bologna,Europa League,12,4,2,1,-,-,,,704'
+428563,Lewis Ferguson,#19,Midfield,Bologna,Europa League,14,-,-,2,-,-,,,1.065'
+368482,Riccardo Orsolini,#7,Forward,Bologna,Europa League,13,3,-,1,-,-,,,557'
+459151,Nicolò Cambiaghi,#28,Forward,Bologna,Europa League,11,1,2,1,-,-,,,480'
+345590,Jens Odgaard,#21,Midfield,Bologna,Europa League,11,2,1,1,-,-,,,427'
+341227,Juan Miranda,#33,Defender,Bologna,Europa League,10,-,1,3,-,-,,,794'
+464469,Torbjørn Heggem,#14,Defender,Bologna,Europa League,8,-,-,1,-,-,,,488'
+538964,Thijs Dallinga,#24,Forward,Bologna,Europa League,11,3,2,-,-,-,,,433'
+652054,Martin Vitík,#41,Defender,Bologna,Europa League,10,-,-,3,-,-,,,657'
+961022,Benja Domínguez,#30,Forward,Bologna,Europa League,3,-,-,-,-,-,,,105'
+392538,Tommaso Pobega,#4,Midfield,Bologna,Europa League,9,1,1,1,-,-,,,494'
+537602,João Mário,#17,Defender,Bologna,Europa League,5,1,-,1,-,-,,,430'
+507486,Simon Sohm,#23,Midfield,Bologna,Europa League,3,-,-,-,-,-,,,71'
+392966,Nadir Zortea,#20,Defender,Bologna,Europa League,10,-,3,1,-,-,,,757'
+1129198,Eivind Helland,#5,Defender,Bologna,Europa League,6,-,-,1,-,1,,,468'
+316934,Nikola Moro,#6,Midfield,Bologna,Europa League,11,-,-,-,-,-,,,734'
+389837,Nicolò Casale,#16,Defender,Bologna,Europa League,6,-,-,1,-,-,,,416'
+148252,Remo Freuler,#8,Midfield,Bologna,Europa League,10,-,-,1,-,-,,,862'
+197300,Federico Bernardeschi,#10,Forward,Bologna,Europa League,13,5,-,3,-,-,,,771'
 80894,Lukasz Skorupski,#1,Goalkeeper,Bologna,Europa League,9,-,,2,-,-,6,4,810'
 390304,Federico Ravaglia,#13,Goalkeeper,Bologna,Europa League,5,-,,-,-,-,12,-,480'
-136514,Charalampos Lykogiannis,#22,Left-Back,Bologna,Europa League,7,-,-,-,-,1,,,375'
-992569,Massimo Pessina,#25,Goalkeeper,Bologna,Europa League,-,-,,-,-,-,-,-,-
-33571,Lorenzo De Silvestri,#29,Right-Back,Bologna,Europa League,,,,,,,,,
-247377,Kevin Bonifazi,#0,Centre-Back,Bologna,Europa League,,,,,,,,,
-443710,Angelo Stiller,#6,Defensive Midfield,Stuttgart,Europa League,11,-,3,2,-,-,,,854'
-518505,Jamie Leweling,#18,Right Winger,Stuttgart,Europa League,11,3,1,-,-,-,,,644'
-654982,Bilal El Khannouss,#11,Attacking Midfield,Stuttgart,Europa League,11,5,-,4,-,-,,,641'
-924117,Finn Jeltsch,#29,Centre-Back,Stuttgart,Europa League,10,-,-,1,-,-,,,729'
-335457,Ermedin Demirovic,#9,Centre-Forward,Stuttgart,Europa League,8,1,-,2,-,-,,,547'
-339314,Deniz Undav,#26,Centre-Forward,Stuttgart,Europa League,10,3,6,2,-,-,,,765'
-436064,Ramon Hendriks,#3,Centre-Back,Stuttgart,Europa League,12,-,-,-,-,-,,,826'
-282660,Maximilian Mittelstädt,#7,Left-Back,Stuttgart,Europa League,11,1,1,2,-,-,,,849'
-948279,Chema Andrés,#30,Defensive Midfield,Stuttgart,Europa League,9,1,-,1,-,-,,,507'
-616344,Tiago Tomás,#8,Centre-Forward,Stuttgart,Europa League,9,2,-,-,-,-,,,475'
-303219,Jeff Chabot,#24,Centre-Back,Stuttgart,Europa League,8,-,-,5,-,-,,,675'
-707242,Badredine Bouanani,#27,Right Winger,Stuttgart,Europa League,10,2,1,1,-,-,,,460'
+136514,Charalampos Lykogiannis,#22,Defender,Bologna,Europa League,7,-,-,-,-,1,,,375'
+992569,Massimo Pessina,#25,Goalkeeper,Bologna,Europa League,,,,,,,,,
+33571,Lorenzo De Silvestri,#29,Defender,Bologna,Europa League,,,,,,,,,
+247377,Kevin Bonifazi,#0,Defender,Bologna,Europa League,,,,,,,,,
+443710,Angelo Stiller,#6,Midfield,Stuttgart,Europa League,11,-,3,2,-,-,,,854'
+518505,Jamie Leweling,#18,Forward,Stuttgart,Europa League,11,3,1,-,-,-,,,644'
+654982,Bilal El Khannouss,#11,Midfield,Stuttgart,Europa League,11,5,-,4,-,-,,,641'
+924117,Finn Jeltsch,#29,Defender,Stuttgart,Europa League,10,-,-,1,-,-,,,729'
+335457,Ermedin Demirovic,#9,Forward,Stuttgart,Europa League,8,1,-,2,-,-,,,547'
+339314,Deniz Undav,#26,Forward,Stuttgart,Europa League,10,3,6,2,-,-,,,765'
+436064,Ramon Hendriks,#3,Defender,Stuttgart,Europa League,12,-,-,-,-,-,,,826'
+282660,Maximilian Mittelstädt,#7,Defender,Stuttgart,Europa League,11,1,1,2,-,-,,,848'
+948279,Chema Andrés,#30,Midfield,Stuttgart,Europa League,9,1,-,1,-,-,,,507'
+616344,Tiago Tomás,#8,Forward,Stuttgart,Europa League,9,2,-,-,-,-,,,475'
+303219,Jeff Chabot,#24,Defender,Stuttgart,Europa League,8,-,-,5,-,-,,,675'
+707242,Badredine Bouanani,#27,Forward,Stuttgart,Europa League,10,2,1,1,-,-,,,460'
 195778,Alexander Nübel,#33,Goalkeeper,Stuttgart,Europa League,11,-,,-,-,-,13,2,990'
-272278,Chris Führich,#10,Left Winger,Stuttgart,Europa League,12,-,1,-,-,-,,,448'
-448258,Josha Vagnoman,#4,Right-Back,Stuttgart,Europa League,8,1,-,-,-,-,,,248'
-539798,Luca Jaquez,#14,Centre-Back,Stuttgart,Europa League,8,-,-,1,-,-,,,457'
-711969,Lorenz Assignon,#22,Right-Back,Stuttgart,Europa League,9,1,3,2,-,-,,,719'
-232320,Atakan Karazor,#16,Defensive Midfield,Stuttgart,Europa League,10,-,-,1,-,-,,,715'
-971663,Jeremy Arévalo,#25,Centre-Forward,Stuttgart,Europa League,,,,,,,,,
-400546,Nikolas Nartey,#28,Central Midfield,Stuttgart,Europa League,5,-,1,-,1,-,,,126'
-620598,Ameen Al-Dakhil,#2,Centre-Back,Stuttgart,Europa League,-,-,-,-,-,-,,,-
-897505,Lazar Jovanovic,#45,Right Winger,Stuttgart,Europa League,3,-,-,1,-,-,,,87'
-1131117,Mirza Catovic,#35,Defensive Midfield,Stuttgart,Europa League,-,-,-,-,-,-,,,-
-897480,Noah Darvich,#19,Right Winger,Stuttgart,Europa League,,,,,,,,,
-1009438,Florian Hellstern,#44,Goalkeeper,Stuttgart,Europa League,-,-,,-,-,-,-,-,-
-344598,Dan-Axel Zagadou,#23,Centre-Back,Stuttgart,Europa League,1,-,-,-,-,-,,,10'
-720162,Justin Diehl,#17,Left Winger,Stuttgart,Europa League,,,,,,,,,
-195246,Pascal Stenzel,#15,Right-Back,Stuttgart,Europa League,,,,,,,,,
+272278,Chris Führich,#10,Forward,Stuttgart,Europa League,12,-,1,-,-,-,,,448'
+448258,Josha Vagnoman,#4,Defender,Stuttgart,Europa League,8,1,-,-,-,-,,,248'
+539798,Luca Jaquez,#14,Defender,Stuttgart,Europa League,8,-,-,1,-,-,,,457'
+711969,Lorenz Assignon,#22,Defender,Stuttgart,Europa League,9,1,3,2,-,-,,,719'
+232320,Atakan Karazor,#16,Midfield,Stuttgart,Europa League,10,-,-,1,-,-,,,715'
+971663,Jeremy Arévalo,#25,Forward,Stuttgart,Europa League,,,,,,,,,
+400546,Nikolas Nartey,#28,Midfield,Stuttgart,Europa League,5,-,1,-,1,-,,,126'
+620598,Ameen Al-Dakhil,#2,Defender,Stuttgart,Europa League,,,,,,,,,
+897505,Lazar Jovanovic,#45,Forward,Stuttgart,Europa League,3,-,-,1,-,-,,,87'
+1131117,Mirza Catovic,#35,Midfield,Stuttgart,Europa League,,,,,,,,,
+897480,Noah Darvich,#19,Forward,Stuttgart,Europa League,,,,,,,,,
+1009438,Florian Hellstern,#44,Goalkeeper,Stuttgart,Europa League,,,,,,,,,
+344598,Dan-Axel Zagadou,#23,Defender,Stuttgart,Europa League,1,-,-,-,-,-,,,10'
+720162,Justin Diehl,#17,Forward,Stuttgart,Europa League,,,,,,,,,
+195246,Pascal Stenzel,#15,Defender,Stuttgart,Europa League,,,,,,,,,
 187624,Fabian Bredlow,#1,Goalkeeper,Stuttgart,Europa League,1,-,,-,-,-,2,-,90'
 388067,Stefan Drljaca,#21,Goalkeeper,Stuttgart,Europa League,,,,,,,,,
-414243,Mohammed Abu Fani,#15,Central Midfield,Ferencváros,Europa League,4,-,1,1,-,-,,,292'
-398258,Gabi Kanichowsky,#36,Attacking Midfield,Ferencváros,Europa League,12,3,2,1,-,-,,,889'
-341393,Ibrahim Cissé,#27,Centre-Back,Ferencváros,Europa League,12,-,1,2,-,-,,,1.058'
-261020,Kristoffer Zachariassen,#16,Attacking Midfield,Ferencváros,Europa League,10,2,1,3,-,-,,,590'
-744063,Bamidele Yusuf,#11,Right Winger,Ferencváros,Europa League,11,3,3,1,-,-,,,792'
-293944,Habib Maïga,#80,Defensive Midfield,Ferencváros,Europa League,,,,,,,,,
+414243,Mohammed Abu Fani,#15,Midfield,Ferencváros,Europa League,4,-,1,1,-,-,,,292'
+398258,Gabi Kanichowsky,#36,Midfield,Ferencváros,Europa League,12,3,2,1,-,-,,,889'
+341393,Ibrahim Cissé,#27,Defender,Ferencváros,Europa League,12,-,1,2,-,-,,,1.058'
+261020,Kristoffer Zachariassen,#16,Midfield,Ferencváros,Europa League,10,2,1,3,-,-,,,590'
+744063,Bamidele Yusuf,#11,Forward,Ferencváros,Europa League,11,3,3,1,-,-,,,792'
+293944,Habib Maïga,#80,Midfield,Ferencváros,Europa League,,,,,,,,,
 162695,Dénes Dibusz,#90,Goalkeeper,Ferencváros,Europa League,5,-,,-,-,-,5,1,450'
-933217,Krisztián Lisztes,#76,Attacking Midfield,Ferencváros,Europa League,-,-,-,-,-,-,,,-
-243770,Stefan Gartenmann,#3,Centre-Back,Ferencváros,Europa League,3,-,-,1,-,-,,,254'
-383880,Jonathan Levi,#10,Right Winger,Ferencváros,Europa League,5,-,1,-,-,-,,,209'
-712086,Toon Raemaekers,#28,Centre-Back,Ferencváros,Europa League,11,-,-,4,-,-,,,990'
-302215,Naby Keïta,#5,Central Midfield,Ferencváros,Europa League,7,-,-,1,-,-,,,297'
-731431,Marius Corbu,#17,Attacking Midfield,Ferencváros,Europa League,,,,,,,,,
-425916,Franko Kovacevic,#19,Centre-Forward,Ferencváros,Europa League Qualifying,4,4,-,1,-,-,,,390'
-748908,Cadu,#20,Right Midfield,Ferencváros,Europa League,11,1,1,1,-,-,,,727'
-815359,Lenny Joseph,#75,Centre-Forward,Ferencváros,Europa League,12,2,2,2,-,-,,,486'
-443831,Bence Ötvös,#23,Defensive Midfield,Ferencváros,Europa League,10,1,1,1,-,-,,,456'
-648895,Zsombor Gruber,#30,Centre-Forward,Ferencváros,Europa League,4,-,-,-,-,-,,,85'
-363425,Cebrail Makreckis,#25,Right-Back,Ferencváros,Europa League,11,-,1,1,1,-,,,937'
-255679,Callum O'Dowda,#47,Left Midfield,Ferencváros,Europa League,8,-,1,3,-,-,,,463'
-830057,Gábor Szalai,#22,Centre-Back,Ferencváros,Europa League,6,-,-,1,-,-,,,469'
-545409,Mariano Gómez,#4,Centre-Back,Ferencváros,Europa League,4,-,-,1,-,-,,,360'
-645423,Júlio Romão,#66,Defensive Midfield,Ferencváros,Europa League,9,-,-,2,-,-,,,367'
-216902,Attila Osváth,#14,Right-Back,Ferencváros,Europa League,,,,,,,,,
-73457,Aleksandar Pesic,#8,Centre-Forward,Ferencváros,Europa League,3,1,-,1,-,-,,,88'
-570511,Barnabás Nagy,#77,Left-Back,Ferencváros,Europa League,1,-,-,-,-,-,,,37'
-206740,Elton Acolatse,#7,Left Winger,Ferencváros,Europa League,,,,,,,,,
-340791,Philippe Rommens,#88,Central Midfield,Ferencváros,Europa League,,,,,,,,,
-342973,Ádám Varga,#1,Goalkeeper,Ferencváros,Europa League,-,-,,-,-,-,-,-,-
-148810,Endre Botka,#21,Right-Back,Ferencváros,Europa League,,,,,,,,,
-585985,Fortune Bassey,#40,Centre-Forward,Ferencváros,Europa League,,,,,,,,,
-528178,Ismaïl Aaneba,#44,Centre-Back,Ferencváros,Europa League,,,,,,,,,
-1123215,Ádám Madarász,#72,Central Midfield,Ferencváros,Europa League,4,-,-,-,-,-,,,11'
+933217,Krisztián Lisztes,#76,Midfield,Ferencváros,Europa League,,,,,,,,,
+243770,Stefan Gartenmann,#3,Defender,Ferencváros,Europa League,3,-,-,1,-,-,,,254'
+383880,Jonathan Levi,#10,Forward,Ferencváros,Europa League,5,-,1,-,-,-,,,209'
+712086,Toon Raemaekers,#28,Defender,Ferencváros,Europa League,11,-,-,4,-,-,,,990'
+302215,Naby Keïta,#5,Midfield,Ferencváros,Europa League,7,-,-,1,-,-,,,297'
+731431,Marius Corbu,#17,Midfield,Ferencváros,Europa League,,,,,,,,,
+425916,Franko Kovacevic,#19,Forward,Ferencváros,Europa League,3,-,-,-,-,-,,,107'
+748908,Cadu,#20,Midfield,Ferencváros,Europa League,11,1,1,1,-,-,,,727'
+815359,Lenny Joseph,#75,Forward,Ferencváros,Europa League,12,2,2,2,-,-,,,486'
+443831,Bence Ötvös,#23,Midfield,Ferencváros,Europa League,10,1,1,1,-,-,,,456'
+648895,Zsombor Gruber,#30,Forward,Ferencváros,Europa League,4,-,-,-,-,-,,,85'
+363425,Cebrail Makreckis,#25,Defender,Ferencváros,Europa League,11,-,1,1,1,-,,,937'
+255679,Callum O'Dowda,#47,Midfield,Ferencváros,Europa League,8,-,1,3,-,-,,,463'
+830057,Gábor Szalai,#22,Defender,Ferencváros,Europa League,6,-,-,1,-,-,,,469'
+545409,Mariano Gómez,#4,Defender,Ferencváros,Europa League,4,-,-,1,-,-,,,360'
+645423,Júlio Romão,#66,Midfield,Ferencváros,Europa League,9,-,-,2,-,-,,,367'
+216902,Attila Osváth,#14,Defender,Ferencváros,Europa League,,,,,,,,,
+73457,Aleksandar Pesic,#8,Forward,Ferencváros,Europa League,3,1,-,1,-,-,,,87'
+570511,Barnabás Nagy,#77,Defender,Ferencváros,Europa League,1,-,-,-,-,-,,,37'
+206740,Elton Acolatse,#7,Forward,Ferencváros,Europa League,,,,,,,,,
+340791,Philippe Rommens,#88,Midfield,Ferencváros,Europa League,,,,,,,,,
+342973,Ádám Varga,#1,Goalkeeper,Ferencváros,Europa League,,,,,,,,,
+148810,Endre Botka,#21,Defender,Ferencváros,Europa League,,,,,,,,,
+585985,Fortune Bassey,#40,Forward,Ferencváros,Europa League,,,,,,,,,
+528178,Ismaïl Aaneba,#44,Defender,Ferencváros,Europa League,,,,,,,,,
+1123215,Ádám Madarász,#72,Midfield,Ferencváros,Europa League,4,-,-,-,-,-,,,11'
 52723,Dávid Gróf,#99,Goalkeeper,Ferencváros,Europa League,7,-,,1,-,-,12,2,630'
-956677,Dániel Radnóti,#63,Goalkeeper,Ferencváros,Europa League,-,-,,-,-,-,-,-,-
-1194052,Benjámin Gólik,#62,Centre-Forward,Ferencváros,Europa League,1,-,-,-,-,-,,,1'
-1363885,Csongor Lakatos,#71,Centre-Back,Ferencváros,Europa League,-,-,-,-,-,-,,,-
-162875,Gergő Szécsi,#29,Goalkeeper,Ferencváros,Europa League,-,-,,-,-,-,-,-,-
-567576,Elliot Anderson,#8,Central Midfield,Nott'm Forest,Europa League,10,-,1,3,-,1,,,653'
-429014,Morgan Gibbs-White,#10,Attacking Midfield,Nott'm Forest,Europa League,13,3,3,2,-,-,,,847'
-1005649,Murillo,#5,Centre-Back,Nott'm Forest,Europa League,12,1,-,2,-,-,,,686'
-365108,Dan Ndoye,#14,Right Winger,Nott'm Forest,Europa League,12,1,1,1,-,-,,,769'
-413507,Nikola Milenković,#31,Centre-Back,Nott'm Forest,Europa League,13,1,1,-,-,-,,,941'
-392768,Callum Hudson-Odoi,#7,Left Winger,Nott'm Forest,Europa League,11,1,-,-,-,-,,,715'
-741238,Omari Hutchinson,#21,Attacking Midfield,Nott'm Forest,Europa League,6,-,-,1,-,-,,,376'
-540664,Dilane Bakwa,#29,Right Winger,Nott'm Forest,Europa League,7,-,-,-,-,-,,,288'
-503680,Neco Williams,#3,Left-Back,Nott'm Forest,Europa League,13,-,1,1,-,-,,,866'
-572265,Lorenzo Lucca,#20,Centre-Forward,Nott'm Forest,Europa League,4,-,-,1,-,-,,,215'
-375885,Ibrahim Sangaré,#6,Defensive Midfield,Nott'm Forest,Europa League,14,-,1,1,-,-,,,740'
-432164,Igor Jesus,#19,Centre-Forward,Nott'm Forest,Europa League,11,7,1,4,-,-,,,616'
-236490,Ola Aina,#34,Right-Back,Nott'm Forest,Europa League,7,-,1,-,-,-,,,445'
-583199,James McAtee,#24,Attacking Midfield,Nott'm Forest,Europa League,9,1,1,-,-,-,,,554'
-708072,Nicolò Savona,#37,Right-Back,Nott'm Forest,Europa League,4,-,-,-,-,-,,,287'
-497291,Nicolás Domínguez,#16,Central Midfield,Nott'm Forest,Europa League,11,1,-,1,-,-,,,779'
-673492,Morato,#4,Centre-Back,Nott'm Forest,Europa League,12,-,-,2,-,-,,,993'
-984096,Jair Cunha,#23,Centre-Back,Nott'm Forest,Europa League,3,-,-,-,-,-,,,189'
-295313,Taiwo Awoniyi,#9,Centre-Forward,Nott'm Forest,Europa League,,,,,,,,,
-425902,Ryan Yates,#22,Central Midfield,Nott'm Forest,Europa League,10,2,2,2,-,-,,,644'
+956677,Dániel Radnóti,#63,Goalkeeper,Ferencváros,Europa League,,,,,,,,,
+1194052,Benjámin Gólik,#62,Forward,Ferencváros,Europa League,1,-,-,-,-,-,,,1'
+1363885,Csongor Lakatos,#71,Defender,Ferencváros,Europa League,,,,,,,,,
+162875,Gergő Szécsi,#29,Goalkeeper,Ferencváros,Europa League,,,,,,,,,
+567576,Elliot Anderson,#8,Midfield,Nott'm Forest,Europa League,10,-,1,3,-,1,,,653'
+429014,Morgan Gibbs-White,#10,Midfield,Nott'm Forest,Europa League,13,3,3,2,-,-,,,847'
+1005649,Murillo,#5,Defender,Nott'm Forest,Europa League,12,1,-,2,-,-,,,686'
+365108,Dan Ndoye,#14,Forward,Nott'm Forest,Europa League,12,1,1,1,-,-,,,769'
+413507,Nikola Milenković,#31,Defender,Nott'm Forest,Europa League,13,1,1,-,-,-,,,941'
+392768,Callum Hudson-Odoi,#7,Forward,Nott'm Forest,Europa League,11,1,-,-,-,-,,,714'
+741238,Omari Hutchinson,#21,Midfield,Nott'm Forest,Europa League,6,-,-,1,-,-,,,376'
+540664,Dilane Bakwa,#29,Forward,Nott'm Forest,Europa League,7,-,-,-,-,-,,,288'
+503680,Neco Williams,#3,Defender,Nott'm Forest,Europa League,13,-,1,1,-,-,,,866'
+572265,Lorenzo Lucca,#20,Forward,Nott'm Forest,Europa League,4,-,-,1,-,-,,,215'
+375885,Ibrahim Sangaré,#6,Midfield,Nott'm Forest,Europa League,14,-,1,1,-,-,,,739'
+432164,Igor Jesus,#19,Forward,Nott'm Forest,Europa League,11,7,1,4,-,-,,,616'
+236490,Ola Aina,#34,Defender,Nott'm Forest,Europa League,7,-,1,-,-,-,,,445'
+583199,James McAtee,#24,Midfield,Nott'm Forest,Europa League,9,1,1,-,-,-,,,554'
+708072,Nicolò Savona,#37,Defender,Nott'm Forest,Europa League,4,-,-,-,-,-,,,287'
+497291,Nicolás Domínguez,#16,Midfield,Nott'm Forest,Europa League,11,1,-,1,-,-,,,779'
+673492,Morato,#4,Defender,Nott'm Forest,Europa League,12,-,-,2,-,-,,,993'
+984096,Jair Cunha,#23,Defender,Nott'm Forest,Europa League,3,-,-,-,-,-,,,189'
+295313,Taiwo Awoniyi,#9,Forward,Nott'm Forest,Europa League,,,,,,,,,
+425902,Ryan Yates,#22,Midfield,Nott'm Forest,Europa League,10,2,2,2,-,-,,,644'
 432914,John Victor,#13,Goalkeeper,Nott'm Forest,Europa League,3,-,,-,-,-,1,2,270'
-524285,Luca Netz,#25,Left-Back,Nott'm Forest,Europa League,,,,,,,,,
-108725,Chris Wood,#11,Centre-Forward,Nott'm Forest,Europa League,3,1,-,-,-,-,,,76'
+524285,Luca Netz,#25,Defender,Nott'm Forest,Europa League,,,,,,,,,
+108725,Chris Wood,#11,Forward,Nott'm Forest,Europa League,3,1,-,-,-,-,,,76'
 85941,Stefan Ortega,#27,Goalkeeper,Nott'm Forest,Europa League,5,-,,-,-,-,4,2,480'
 127202,Matz Sels,#26,Goalkeeper,Nott'm Forest,Europa League,6,-,,-,-,-,7,2,540'
-933017,Zach Abbott,#44,Centre-Back,Nott'm Forest,Europa League,6,-,-,1,-,-,,,490'
-201574,Angus Gunn,#18,Goalkeeper,Nott'm Forest,Europa League,-,-,,-,-,-,-,-,-
-897481,Eric da Silva Moreira,#17,Right-Back,Nott'm Forest,Europa League,,,,,,,,,
-142310,Willy Boly,#30,Centre-Back,Nott'm Forest,Europa League,1,-,-,-,-,-,,,1'
-611049,Lukas Cerv,#6,Central Midfield,Viktoria Plzeň,Europa League,10,1,1,1,-,-,,,875'
-686806,Sampson Dweh,#40,Centre-Back,Viktoria Plzeň,Europa League,9,-,1,4,-,-,,,840'
-638990,Amar Memić,#99,Right Midfield,Viktoria Plzeň,Europa League,10,-,1,1,-,-,,,903'
-569367,Cheick Souaré,#19,Left Midfield,Viktoria Plzeň,Europa League,10,1,-,1,-,-,,,823'
-1109671,Karel Spacil,#5,Centre-Back,Viktoria Plzeň,Europa League,7,2,-,1,-,-,,,548'
-931426,Jan Paluska,#22,Centre-Back,Viktoria Plzeň,Europa League,3,-,-,-,-,-,,,248'
-734799,Prince Adu,#80,Centre-Forward,Viktoria Plzeň,Europa League,9,1,-,2,-,-,,,459'
-928038,Tom Sloncik,#29,Attacking Midfield,Viktoria Plzeň,Europa League,,,,,,,,,
-1013804,Jiri Panos,#20,Central Midfield,Viktoria Plzeň,Europa League,3,1,-,1,-,-,,,142'
+933017,Zach Abbott,#44,Defender,Nott'm Forest,Europa League,6,-,-,1,-,-,,,490'
+201574,Angus Gunn,#18,Goalkeeper,Nott'm Forest,Europa League,,,,,,,,,
+897481,Eric da Silva Moreira,#17,Defender,Nott'm Forest,Europa League,,,,,,,,,
+142310,Willy Boly,#30,Defender,Nott'm Forest,Europa League,1,-,-,-,-,-,,,1'
+611049,Lukas Cerv,#6,Midfield,Viktoria Plzeň,Europa League,10,1,1,1,-,-,,,875'
+686806,Sampson Dweh,#40,Defender,Viktoria Plzeň,Europa League,9,-,1,4,-,-,,,840'
+638990,Amar Memić,#99,Midfield,Viktoria Plzeň,Europa League,10,-,1,1,-,-,,,903'
+569367,Cheick Souaré,#19,Midfield,Viktoria Plzeň,Europa League,10,1,-,1,-,-,,,823'
+1109671,Karel Spacil,#5,Defender,Viktoria Plzeň,Europa League,7,2,-,1,-,-,,,548'
+931426,Jan Paluska,#22,Defender,Viktoria Plzeň,Europa League,3,-,-,-,-,-,,,248'
+734799,Prince Adu,#80,Forward,Viktoria Plzeň,Europa League,9,1,-,2,-,-,,,458'
+928038,Tom Sloncik,#29,Midfield,Viktoria Plzeň,Europa League,,,,,,,,,
+1013804,Jiri Panos,#20,Midfield,Viktoria Plzeň,Europa League,3,1,-,1,-,-,,,142'
 393999,Florian Wiegele,#44,Goalkeeper,Viktoria Plzeň,Europa League,6,-,,1,-,-,4,3,570'
-652060,Denis Visinsky,#9,Attacking Midfield,Viktoria Plzeň,Europa League,10,1,-,1,-,-,,,458'
-1129903,Salim Fago Lawal,#70,Centre-Forward,Viktoria Plzeň,Europa League,2,-,-,-,-,-,,,139'
-572240,Matej Valenta,#32,Central Midfield,Viktoria Plzeň,Europa League,8,-,2,1,-,-,,,506'
-217879,Patrik Hrosovsky,#17,Central Midfield,Viktoria Plzeň,Europa League,8,-,1,1,-,-,,,701'
-384879,Vaclav Jemelka,#21,Centre-Back,Viktoria Plzeň,Europa League,8,-,-,2,1,-,,,592'
-671499,David Krcik,#37,Centre-Back,Viktoria Plzeň,Europa League,,,,,,,,,
-826103,Alexandr Sojka,#12,Central Midfield,Viktoria Plzeň,Europa League,2,-,-,-,-,-,,,52'
-530527,Merchas Doski,#14,Left-Back,Viktoria Plzeň,Europa League,7,-,2,3,-,1,,,597'
-334803,Tomas Ladra,#18,Attacking Midfield,Viktoria Plzeň,Europa League,10,1,-,-,-,-,,,641'
-558473,Daniel Vasulin,#51,Centre-Forward,Viktoria Plzeň,Europa League Qualifying,2,-,-,-,-,-,,,113'
-889437,Adam Kadlec,#16,Right-Back,Viktoria Plzeň,Europa League,,,,,,,,,
-101500,Matej Vydra,#11,Centre-Forward,Viktoria Plzeň,Europa League,7,1,-,-,-,1,,,331'
-1305470,Mohamed Touré,#10,Centre-Forward,Viktoria Plzeň,Europa League Qualifying,3,1,-,-,-,-,,,246'
+652060,Denis Visinsky,#9,Midfield,Viktoria Plzeň,Europa League,10,1,-,1,-,-,,,458'
+1129903,Salim Fago Lawal,#70,Forward,Viktoria Plzeň,Europa League,2,-,-,-,-,-,,,139'
+572240,Matej Valenta,#32,Midfield,Viktoria Plzeň,Europa League,8,-,2,1,-,-,,,506'
+217879,Patrik Hrosovsky,#17,Midfield,Viktoria Plzeň,Europa League,8,-,1,1,-,-,,,701'
+384879,Vaclav Jemelka,#21,Defender,Viktoria Plzeň,Europa League,8,-,-,2,1,-,,,593'
+671499,David Krcik,#37,Defender,Viktoria Plzeň,Europa League,,,,,,,,,
+826103,Alexandr Sojka,#12,Midfield,Viktoria Plzeň,Europa League,2,-,-,-,-,-,,,52'
+530527,Merchas Doski,#14,Defender,Viktoria Plzeň,Europa League,7,-,2,3,-,1,,,597'
+334803,Tomas Ladra,#18,Midfield,Viktoria Plzeň,Europa League,10,1,-,-,-,-,,,641'
+558473,Daniel Vasulin,#51,Forward,Viktoria Plzeň,Europa League,,,,,,,,,
+889437,Adam Kadlec,#16,Defender,Viktoria Plzeň,Europa League,,,,,,,,,
+101500,Matej Vydra,#11,Forward,Viktoria Plzeň,Europa League,7,1,-,-,-,1,,,331'
+1305470,Mohamed Touré,#10,Forward,Viktoria Plzeň,Europa League,,,,,,,,,
 947524,Viktor Baier,#0,Goalkeeper,Viktoria Plzeň,Europa League,,,,,,,,,
 973315,Dominik Tapaj,#1,Goalkeeper,Viktoria Plzeň,Europa League,,,,,,,,,
-396225,Vaclav Mika,#0,Centre-Back,Viktoria Plzeň,Europa League,,,,,,,,,
-316202,Marian Tvrdon,#13,Goalkeeper,Viktoria Plzeň,Europa League,-,-,,-,-,-,-,-,-
-1143612,Matyas Silhavy,#15,Goalkeeper,Viktoria Plzeň,Europa League,-,-,,-,-,-,-,-,-
-1073632,Vasilije Kostov,#22,Attacking Midfield,Red Star,Europa League,7,2,-,-,-,-,,,403'
-574660,Strahinja Erakovic,#25,Centre-Back,Red Star,Europa League,2,-,-,-,-,-,,,205'
-320854,Timi Max Elsnik,#21,Central Midfield,Red Star,Europa League,9,-,2,-,-,-,,,709'
-645588,Tomás Händel,#20,Defensive Midfield,Red Star,Europa League,9,-,-,1,-,-,,,670'
-1073625,Aleksa Damjanovic,#19,Centre-Forward,Red Star,Europa League,-,-,-,-,-,-,,,-
-461701,Nair Tiknizyan,#23,Left-Back,Red Star,Europa League,10,-,-,2,-,-,,,853'
-639414,Young-woo Seol,#66,Right-Back,Red Star,Europa League,10,-,1,2,-,-,,,930'
-598629,Bruno Duarte,#17,Centre-Forward,Red Star,Europa League,10,2,-,-,-,-,,,491'
-952771,Adem Avdic,#71,Left-Back,Red Star,Europa League,3,-,-,1,-,-,,,68'
-259953,Rade Krunic,#33,Defensive Midfield,Red Star,Europa League,8,-,-,2,-,-,,,741'
-233129,Mirko Ivanic,#4,Attacking Midfield,Red Star,Europa League,7,1,1,2,-,-,,,542'
-1305075,Douglas Owusu,#35,Right Winger,Red Star,Europa League,1,-,-,-,-,-,,,16'
-41384,Marko Arnautovic,#89,Centre-Forward,Red Star,Europa League,10,2,1,2,-,-,,,668'
-678035,Jay Enem,#42,Centre-Forward,Red Star,Europa League,2,-,1,-,-,-,,,109'
-510782,Rodrigão,#5,Centre-Back,Red Star,Europa League,7,-,-,1,-,-,,,575'
-347268,Omri Glazer,#18,Goalkeeper,Red Star,Europa League,-,-,,-,-,-,-,-,-
-202228,Milos Veljkovic,#13,Centre-Back,Red Star,Europa League,9,-,1,-,-,-,,,711'
+396225,Vaclav Mika,#0,Defender,Viktoria Plzeň,Europa League,,,,,,,,,
+316202,Marian Tvrdon,#13,Goalkeeper,Viktoria Plzeň,Europa League,,,,,,,,,
+1143612,Matyas Silhavy,#15,Goalkeeper,Viktoria Plzeň,Europa League,,,,,,,,,
+1073632,Vasilije Kostov,#22,Midfield,Red Star,Europa League,7,2,-,-,-,-,,,403'
+574660,Strahinja Erakovic,#25,Defender,Red Star,Europa League,2,-,-,-,-,-,,,205'
+320854,Timi Max Elsnik,#21,Midfield,Red Star,Europa League,9,-,2,-,-,-,,,709'
+645588,Tomás Händel,#20,Midfield,Red Star,Europa League,9,-,-,1,-,-,,,670'
+1073625,Aleksa Damjanovic,#19,Forward,Red Star,Europa League,,,,,,,,,
+461701,Nair Tiknizyan,#23,Defender,Red Star,Europa League,10,-,-,2,-,-,,,853'
+639414,Young-woo Seol,#66,Defender,Red Star,Europa League,10,-,1,2,-,-,,,930'
+598629,Bruno Duarte,#17,Forward,Red Star,Europa League,10,2,-,-,-,-,,,491'
+952771,Adem Avdic,#71,Defender,Red Star,Europa League,3,-,-,1,-,-,,,68'
+259953,Rade Krunic,#33,Midfield,Red Star,Europa League,8,-,-,2,-,-,,,741'
+233129,Mirko Ivanic,#4,Midfield,Red Star,Europa League,7,1,1,2,-,-,,,542'
+1305075,Douglas Owusu,#35,Forward,Red Star,Europa League,1,-,-,-,-,-,,,16'
+41384,Marko Arnautovic,#89,Forward,Red Star,Europa League,10,2,1,2,-,-,,,665'
+678035,Jay Enem,#42,Forward,Red Star,Europa League,2,-,1,-,-,-,,,110'
+510782,Rodrigão,#5,Defender,Red Star,Europa League,7,-,-,1,-,-,,,575'
+347268,Omri Glazer,#18,Goalkeeper,Red Star,Europa League,,,,,,,,,
+202228,Milos Veljkovic,#13,Defender,Red Star,Europa League,9,-,1,-,-,-,,,709'
 177547,Matheus,#1,Goalkeeper,Red Star,Europa League,10,-,,2,-,-,8,5,930'
-1111843,Mahmudu Bajo,#6,Defensive Midfield,Red Star,Europa League,3,-,-,-,-,-,,,17'
-706253,Vladimir Lucic,#37,Left Winger,Red Star,Europa League,3,-,-,3,-,-,,,205'
-748795,Franklin Tebo Uchenna,#30,Centre-Back,Red Star,Europa League,7,1,1,2,-,1,,,522'
-245078,Nemanja Radonjic,#49,Left Winger,Red Star,Europa League,5,-,-,1,-,-,,,294'
-634972,Nikola Stankovic,#24,Right-Back,Red Star,Europa League,4,-,-,-,-,-,,,108'
-1073633,Luka Zaric,#40,Right Winger,Red Star,Europa League,1,-,-,-,-,-,,,9'
-692807,Ivan Gutesa,#77,Goalkeeper,Red Star,Europa League,-,-,,-,-,-,-,-,-
-139915,Aleksandar Katai,#10,Attacking Midfield,Red Star,Europa League,8,-,-,2,-,-,,,188'
-932920,Stefan Gudelj,#45,Centre-Back,Red Star,Europa League,-,-,-,-,-,-,,,-
+1111843,Mahmudu Bajo,#6,Midfield,Red Star,Europa League,3,-,-,-,-,-,,,17'
+706253,Vladimir Lucic,#37,Forward,Red Star,Europa League,3,-,-,3,-,-,,,205'
+748795,Franklin Tebo Uchenna,#30,Defender,Red Star,Europa League,7,1,1,2,-,1,,,523'
+245078,Nemanja Radonjic,#49,Forward,Red Star,Europa League,5,-,-,1,-,-,,,294'
+634972,Nikola Stankovic,#24,Defender,Red Star,Europa League,4,-,-,-,-,-,,,108'
+1073633,Luka Zaric,#40,Forward,Red Star,Europa League,1,-,-,-,-,-,,,9'
+692807,Ivan Gutesa,#77,Goalkeeper,Red Star,Europa League,,,,,,,,,
+139915,Aleksandar Katai,#10,Midfield,Red Star,Europa League,8,-,-,2,-,-,,,188'
+932920,Stefan Gudelj,#45,Defender,Red Star,Europa League,,,,,,,,,
 1141848,Savo Radanovic,#50,Goalkeeper,Red Star,Europa League,,,,,,,,,
-952768,Vuk Draskic,#28,Goalkeeper,Red Star,Europa League,-,-,,-,-,-,-,-,-
-1073634,Vasilije Subotic,#91,Right Winger,Red Star,Europa League,,,,,,,,,
-331505,Óscar Mingueza,#3,Right-Back,Celta de Vigo,Europa League,11,-,1,3,-,-,,,731'
-1064471,Fer López,#8,Attacking Midfield,Celta de Vigo,Europa League,6,1,-,1,-,-,,,257'
-1076815,Javi Rodríguez,#32,Centre-Back,Celta de Vigo,Europa League,12,-,1,1,-,-,,,952'
-892932,Miguel Román,#16,Central Midfield,Celta de Vigo,Europa League,8,-,2,2,-,-,,,542'
-764859,Williot Swedberg,#19,Left Winger,Celta de Vigo,Europa League,10,5,2,4,-,-,,,584'
-617074,Ilaix Moriba,#6,Central Midfield,Celta de Vigo,Europa League,11,-,1,5,-,-,,,900'
+952768,Vuk Draskic,#28,Goalkeeper,Red Star,Europa League,,,,,,,,,
+1073634,Vasilije Subotic,#91,Forward,Red Star,Europa League,,,,,,,,,
+331505,Óscar Mingueza,#3,Defender,Celta de Vigo,Europa League,11,-,1,3,-,-,,,731'
+1064471,Fer López,#8,Midfield,Celta de Vigo,Europa League,6,1,-,1,-,-,,,257'
+1076815,Javi Rodríguez,#32,Defender,Celta de Vigo,Europa League,12,-,1,1,-,-,,,952'
+892932,Miguel Román,#16,Midfield,Celta de Vigo,Europa League,8,-,2,2,-,-,,,542'
+764859,Williot Swedberg,#19,Forward,Celta de Vigo,Europa League,10,5,2,4,-,-,,,584'
+617074,Ilaix Moriba,#6,Midfield,Celta de Vigo,Europa League,11,-,1,5,-,-,,,900'
 303657,Ionuț Radu,#13,Goalkeeper,Celta de Vigo,Europa League,12,-,,2,-,-,16,2,1.080'
-960571,Jones El-Abdellaoui,#39,Right Winger,Celta de Vigo,Europa League,7,1,-,-,-,-,,,364'
-545647,Sergio Carreira,#5,Right-Back,Celta de Vigo,Europa League,10,-,-,-,-,-,,,747'
-892929,Hugo Álvarez,#23,Left Winger,Celta de Vigo,Europa League,7,-,1,2,-,-,,,255'
-892221,Hugo Sotelo,#22,Central Midfield,Celta de Vigo,Europa League,7,-,-,-,-,1,,,130'
-599231,Ferran Jutglà,#9,Centre-Forward,Celta de Vigo,Europa League,12,1,-,-,-,-,,,491'
-626953,Álvaro Núñez,#14,Right-Back,Celta de Vigo,Europa League,-,-,-,-,-,-,,,-
-258987,Carl Starfelt,#2,Centre-Back,Celta de Vigo,Europa League,11,1,-,1,-,-,,,863'
-905997,Pablo Durán,#18,Centre-Forward,Celta de Vigo,Europa League,9,3,-,-,-,-,,,394'
-652331,Javi Rueda,#17,Right-Back,Celta de Vigo,Europa League,11,2,1,3,-,-,,,631'
-278359,Borja Iglesias,#7,Centre-Forward,Celta de Vigo,Europa League,13,2,1,-,1,-,,,718'
-636093,Carlos Domínguez,#24,Centre-Back,Celta de Vigo,Europa League,3,-,-,-,-,-,,,114'
-939374,Yoel Lago,#29,Centre-Back,Celta de Vigo,Europa League,4,-,-,1,-,-,,,210'
-72047,Iago Aspas,#10,Centre-Forward,Celta de Vigo,Europa League,14,3,3,2,-,-,,,752'
-638124,Manu Fernández,#12,Centre-Back,Celta de Vigo,Europa League,3,-,-,1,-,-,,,270'
-143812,Matías Vecino,#15,Central Midfield,Celta de Vigo,Europa League,6,-,-,1,-,-,,,358'
-112515,Marcos Alonso,#20,Centre-Back,Celta de Vigo,Europa League,11,-,-,2,-,-,,,989'
-358250,Joseph Aidoo,#4,Centre-Back,Celta de Vigo,Europa League,2,-,-,-,-,-,,,135'
+960571,Jones El-Abdellaoui,#39,Forward,Celta de Vigo,Europa League,7,1,-,-,-,-,,,364'
+545647,Sergio Carreira,#5,Defender,Celta de Vigo,Europa League,10,-,-,-,-,-,,,747'
+892929,Hugo Álvarez,#23,Forward,Celta de Vigo,Europa League,7,-,1,2,-,-,,,255'
+892221,Hugo Sotelo,#22,Midfield,Celta de Vigo,Europa League,7,-,-,-,-,1,,,130'
+599231,Ferran Jutglà,#9,Forward,Celta de Vigo,Europa League,12,1,-,-,-,-,,,491'
+626953,Álvaro Núñez,#14,Defender,Celta de Vigo,Europa League,,,,,,,,,
+258987,Carl Starfelt,#2,Defender,Celta de Vigo,Europa League,11,1,-,1,-,-,,,863'
+905997,Pablo Durán,#18,Forward,Celta de Vigo,Europa League,9,3,-,-,-,-,,,394'
+652331,Javi Rueda,#17,Defender,Celta de Vigo,Europa League,11,2,1,3,-,-,,,631'
+278359,Borja Iglesias,#7,Forward,Celta de Vigo,Europa League,13,2,1,-,1,-,,,718'
+636093,Carlos Domínguez,#24,Defender,Celta de Vigo,Europa League,3,-,-,-,-,-,,,114'
+939374,Yoel Lago,#29,Defender,Celta de Vigo,Europa League,4,-,-,1,-,-,,,210'
+72047,Iago Aspas,#10,Forward,Celta de Vigo,Europa League,14,3,3,2,-,-,,,752'
+638124,Manu Fernández,#12,Defender,Celta de Vigo,Europa League,3,-,-,1,-,-,,,270'
+143812,Matías Vecino,#15,Midfield,Celta de Vigo,Europa League,6,-,-,1,-,-,,,358'
+112515,Marcos Alonso,#20,Defender,Celta de Vigo,Europa League,11,-,-,2,-,-,,,989'
+358250,Joseph Aidoo,#4,Defender,Celta de Vigo,Europa League,2,-,-,-,-,-,,,135'
 297194,Iván Villar,#1,Goalkeeper,Celta de Vigo,Europa League,2,-,,-,-,-,3,1,180'
-271455,Mihailo Ristic,#21,Left-Back,Celta de Vigo,Europa League,6,-,-,-,-,-,,,305'
-341110,Franco Cervi,#11,Left Winger,Celta de Vigo,Europa League,1,-,-,-,-,-,,,12'
-541621,Marc Vidal,#25,Goalkeeper,Celta de Vigo,Europa League,-,-,,-,-,-,-,-,-
-628331,Giannis Konstantelias,#65,Attacking Midfield,PAOK,Europa League,7,2,2,-,1,-,,,450'
-580978,Christos Zafeiris,#20,Central Midfield,PAOK,Europa League,2,-,-,-,-,-,,,180'
-206843,Andrija Zivkovic,#14,Right Winger,PAOK,Europa League,9,3,5,3,-,-,,,614'
-234850,Georgios Giakoumakis,#7,Centre-Forward,PAOK,Europa League,8,4,1,3,-,-,,,574'
-481173,Mady Camara,#2,Central Midfield,PAOK,Europa League,8,-,-,1,-,-,,,229'
-221540,Kiril Despodov,#77,Right Winger,PAOK,Europa League,8,1,2,1,-,-,,,355'
-362562,Greg Taylor,#32,Left-Back,PAOK,Europa League,2,-,-,-,-,-,,,83'
-602124,Alessandro Bianco,#22,Central Midfield,PAOK,Europa League,6,1,-,-,-,-,,,332'
-464528,Giannis Michailidis,#5,Centre-Back,PAOK,Europa League,9,-,1,1,-,-,,,743'
-387105,Luka Ivanušec,#18,Attacking Midfield,PAOK,Europa League,4,1,1,1,-,-,,,168'
-258883,Jonjoe Kenny,#3,Right-Back,PAOK,Europa League,9,-,1,1,-,-,,,810'
-330208,Alessandro Vogliacco,#4,Centre-Back,PAOK,Europa League,4,1,-,1,-,-,,,321'
-356044,Jorge Sánchez,#35,Right-Back,PAOK,Europa League,1,-,-,-,-,-,,,90'
-224884,Abdul Rahman Baba,#21,Left-Back,PAOK,Europa League,10,1,1,-,-,-,,,833'
-181118,Tomasz Kedziora,#16,Centre-Back,PAOK,Europa League,8,-,-,-,1,-,,,646'
-164913,Soualiho Meïté,#8,Defensive Midfield,PAOK,Europa League,8,2,-,-,-,-,,,654'
-212832,Dimitrios Pelkas,#10,Attacking Midfield,PAOK,Europa League,3,-,-,1,-,-,,,74'
-137206,Magomed Ozdoev,#27,Defensive Midfield,PAOK,Europa League,9,-,1,2,-,-,,,633'
-1076214,Anestis Mythou,#56,Centre-Forward,PAOK,Europa League,3,1,-,-,-,-,,,27'
-350364,Joan Sastre,#23,Right-Back,PAOK,Europa League,1,-,-,-,-,-,,,90'
+271455,Mihailo Ristic,#21,Defender,Celta de Vigo,Europa League,6,-,-,-,-,-,,,305'
+341110,Franco Cervi,#11,Forward,Celta de Vigo,Europa League,1,-,-,-,-,-,,,12'
+541621,Marc Vidal,#25,Goalkeeper,Celta de Vigo,Europa League,,,,,,,,,
+628331,Giannis Konstantelias,#65,Midfield,PAOK,Europa League,7,2,2,-,1,-,,,450'
+580978,Christos Zafeiris,#20,Midfield,PAOK,Europa League,2,-,-,-,-,-,,,180'
+206843,Andrija Zivkovic,#14,Forward,PAOK,Europa League,9,3,5,3,-,-,,,611'
+234850,Georgios Giakoumakis,#7,Forward,PAOK,Europa League,8,4,1,3,-,-,,,574'
+481173,Mady Camara,#2,Midfield,PAOK,Europa League,8,-,-,1,-,-,,,229'
+221540,Kiril Despodov,#77,Forward,PAOK,Europa League,8,1,2,1,-,-,,,351'
+362562,Greg Taylor,#32,Defender,PAOK,Europa League,2,-,-,-,-,-,,,83'
+602124,Alessandro Bianco,#22,Midfield,PAOK,Europa League,6,1,-,-,-,-,,,332'
+464528,Giannis Michailidis,#5,Defender,PAOK,Europa League,9,-,1,1,-,-,,,743'
+387105,Luka Ivanušec,#18,Midfield,PAOK,Europa League,4,1,1,1,-,-,,,166'
+258883,Jonjoe Kenny,#3,Defender,PAOK,Europa League,9,-,1,1,-,-,,,810'
+330208,Alessandro Vogliacco,#4,Defender,PAOK,Europa League,4,1,-,1,-,-,,,321'
+356044,Jorge Sánchez,#35,Defender,PAOK,Europa League,1,-,-,-,-,-,,,90'
+224884,Abdul Rahman Baba,#21,Defender,PAOK,Europa League,10,1,1,-,-,-,,,833'
+181118,Tomasz Kedziora,#16,Defender,PAOK,Europa League,8,-,-,-,1,-,,,646'
+164913,Soualiho Meïté,#8,Midfield,PAOK,Europa League,8,2,-,-,-,-,,,654'
+212832,Dimitrios Pelkas,#10,Midfield,PAOK,Europa League,3,-,-,1,-,-,,,74'
+137206,Magomed Ozdoev,#27,Midfield,PAOK,Europa League,9,-,1,2,-,-,,,633'
+1076214,Anestis Mythou,#56,Forward,PAOK,Europa League,3,1,-,-,-,-,,,27'
+350364,Joan Sastre,#23,Defender,PAOK,Europa League,1,-,-,-,-,-,,,90'
 390539,Antonis Tsiftsis,#99,Goalkeeper,PAOK,Europa League,6,-,,1,-,-,10,2,540'
 260053,Jiri Pavlenka,#1,Goalkeeper,PAOK,Europa League,4,-,,-,-,-,7,1,360'
-205760,Alexander Jeremejeff,#19,Centre-Forward,PAOK,Europa League Qualifying,3,-,-,1,-,-,,,17'
-1075793,Dimitrios Chatsidis,#52,Right Winger,PAOK,Europa League,2,-,-,-,-,-,,,97'
-481680,Konstantinos Thymianis,#25,Defensive Midfield,PAOK,Europa League,-,-,-,-,-,-,,,-
-37838,Dejan Lovren,#6,Centre-Back,PAOK,Europa League,1,-,-,-,-,-,,,90'
-591797,Dimitrios Tsopouroglou,#33,Central Midfield,PAOK,Europa League,-,-,-,-,-,-,,,-
-76028,Taison,#11,Left Winger,PAOK,Europa League,8,-,1,-,-,-,,,568'
-733581,Dimitrios Monastirlis,#41,Goalkeeper,PAOK,Europa League,-,-,,-,-,-,-,-,-
-1076199,Dimitrios Bataoulas,#97,Centre-Back,PAOK,Europa League Qualifying,-,-,-,-,-,-,,,-
-1143479,Dimitrios Berdos,#39,Left Winger,PAOK,Europa League,-,-,-,-,-,-,,,-
-1097139,Ayyoub Bouaddi,#32,Central Midfield,Lille,Europa League,10,-,-,2,-,1,,,666'
-724129,Matías Fernández-Pardo,#7,Left Winger,Lille,Europa League,11,-,2,1,-,-,,,629'
-652275,Hákon Arnar Haraldsson,#10,Attacking Midfield,Lille,Europa League,12,1,2,1,-,-,,,747'
-548254,Nathan Ngoy,#3,Centre-Back,Lille,Europa League,8,1,-,2,-,-,,,610'
-885445,Hamza Igamane,#29,Centre-Forward,Lille,Europa League,5,4,1,1,-,-,,,322'
-648020,Alexsandro,#4,Centre-Back,Lille,Europa League,2,-,-,-,-,-,,,118'
-1016015,Ngal'ayel Mukau,#17,Defensive Midfield,Lille,Europa League,11,1,-,1,-,-,,,713'
-816580,Tiago Santos,#22,Right-Back,Lille,Europa League,11,-,1,-,-,-,,,568'
+205760,Alexander Jeremejeff,#19,Forward,PAOK,Europa League,2,1,-,-,-,-,,,101'
+1075793,Dimitrios Chatsidis,#52,Forward,PAOK,Europa League,2,-,-,-,-,-,,,97'
+481680,Konstantinos Thymianis,#25,Midfield,PAOK,Europa League,,,,,,,,,
+37838,Dejan Lovren,#6,Defender,PAOK,Europa League,1,-,-,-,-,-,,,90'
+591797,Dimitrios Tsopouroglou,#33,Midfield,PAOK,Europa League,,,,,,,,,
+76028,Taison,#11,Forward,PAOK,Europa League,8,-,1,-,-,-,,,568'
+733581,Dimitrios Monastirlis,#41,Goalkeeper,PAOK,Europa League,,,,,,,,,
+1076199,Dimitrios Bataoulas,#97,Defender,PAOK,Europa League,,,,,,,,,
+1143479,Dimitrios Berdos,#39,Forward,PAOK,Europa League,,,,,,,,,
+1097139,Ayyoub Bouaddi,#32,Midfield,Lille,Europa League,10,-,-,2,-,1,,,666'
+724129,Matías Fernández-Pardo,#7,Forward,Lille,Europa League,11,-,2,1,-,-,,,629'
+652275,Hákon Arnar Haraldsson,#10,Midfield,Lille,Europa League,12,1,2,1,-,-,,,747'
+548254,Nathan Ngoy,#3,Defender,Lille,Europa League,8,1,-,2,-,-,,,610'
+885445,Hamza Igamane,#29,Forward,Lille,Europa League,5,4,1,1,-,-,,,322'
+648020,Alexsandro,#4,Defender,Lille,Europa League,2,-,-,-,-,-,,,118'
+1016015,Ngal'ayel Mukau,#17,Midfield,Lille,Europa League,11,1,-,1,-,-,,,713'
+816580,Tiago Santos,#22,Defender,Lille,Europa League,11,-,1,-,-,-,,,568'
 361256,Berke Özer,#1,Goalkeeper,Lille,Europa League,12,-,,2,-,-,13,4,1.110'
-479648,Félix Correia,#27,Left Winger,Lille,Europa League,12,1,1,2,-,-,,,756'
-580657,Osame Sahraoui,#11,Left Winger,Lille,Europa League,5,-,-,-,-,-,,,286'
-903666,Ethan Mbappé,#8,Right Winger,Lille,Europa League,2,-,-,-,-,-,,,42'
-318523,Romain Perraud,#15,Left-Back,Lille,Europa League,10,-,-,-,-,-,,,666'
-903359,Marius Broholm,#14,Right Winger,Lille,Europa League,2,-,-,-,-,-,,,177'
-353404,Gaëtan Perrin,#28,Right Winger,Lille,Europa League,3,-,-,-,-,-,,,185'
-1078326,Noah Edjouma,#20,Right Winger,Lille,Europa League,2,-,-,-,-,-,,,36'
-1184007,Soriba Diaoune,#35,Left Winger,Lille,Europa League,5,-,1,-,-,-,,,61'
-245537,Nabil Bentaleb,#6,Defensive Midfield,Lille,Europa League,9,-,-,-,-,-,,,548'
-84301,Benjamin André,#21,Defensive Midfield,Lille,Europa League,8,2,1,1,-,-,,,642'
-258364,Calvin Verdonk,#24,Left-Back,Lille,Europa League,7,-,1,1,-,-,,,437'
-203348,Chancel Mbemba,#18,Centre-Back,Lille,Europa League,8,-,1,-,-,-,,,705'
-417278,Arnaud Bodart,#16,Goalkeeper,Lille,Europa League,-,-,,-,-,-,-,-,-
-100986,Thomas Meunier,#12,Right-Back,Lille,Europa League,8,-,1,-,-,-,,,481'
-82442,Olivier Giroud,#9,Centre-Forward,Lille,Europa League,12,4,-,1,-,-,,,651'
-80293,Aïssa Mandi,#23,Centre-Back,Lille,Europa League,11,-,-,2,-,-,,,851'
-744074,Rafael Fernandes,#0,Centre-Back,Lille,Europa League,,,,,,,,,
-990732,Ousmane Touré,#36,Centre-Back,Lille,Europa League,,,,,,,,,
+479648,Félix Correia,#27,Forward,Lille,Europa League,12,1,1,2,-,-,,,753'
+580657,Osame Sahraoui,#11,Forward,Lille,Europa League,5,-,-,-,-,-,,,286'
+903666,Ethan Mbappé,#8,Forward,Lille,Europa League,2,-,-,-,-,-,,,42'
+318523,Romain Perraud,#15,Defender,Lille,Europa League,10,-,-,-,-,-,,,666'
+903359,Marius Broholm,#14,Forward,Lille,Europa League,2,-,-,-,-,-,,,177'
+353404,Gaëtan Perrin,#28,Forward,Lille,Europa League,3,-,-,-,-,-,,,185'
+1078326,Noah Edjouma,#20,Forward,Lille,Europa League,2,-,-,-,-,-,,,36'
+1184007,Soriba Diaoune,#35,Forward,Lille,Europa League,5,-,1,-,-,-,,,61'
+245537,Nabil Bentaleb,#6,Midfield,Lille,Europa League,9,-,-,-,-,-,,,548'
+84301,Benjamin André,#21,Midfield,Lille,Europa League,8,2,1,1,-,-,,,642'
+258364,Calvin Verdonk,#24,Defender,Lille,Europa League,7,-,1,1,-,-,,,435'
+203348,Chancel Mbemba,#18,Defender,Lille,Europa League,8,-,1,-,-,-,,,705'
+417278,Arnaud Bodart,#16,Goalkeeper,Lille,Europa League,,,,,,,,,
+100986,Thomas Meunier,#12,Defender,Lille,Europa League,8,-,1,-,-,-,,,481'
+82442,Olivier Giroud,#9,Forward,Lille,Europa League,12,4,-,1,-,-,,,651'
+80293,Aïssa Mandi,#23,Defender,Lille,Europa League,11,-,-,2,-,-,,,851'
+744074,Rafael Fernandes,#0,Defender,Lille,Europa League,,,,,,,,,
+990732,Ousmane Touré,#36,Defender,Lille,Europa League,,,,,,,,,
 205465,Marc-Aurèle Caillard,#30,Goalkeeper,Lille,Europa League,,,,,,,,,
-465830,Mattéo Guendouzi,#6,Central Midfield,Fenerbahçe,Europa League,2,-,-,-,-,-,,,180'
-382528,Kerem Aktürkoğlu,#9,Left Winger,Fenerbahçe,Europa League,9,6,1,1,-,-,,,700'
-591361,Jayden Oosterwolde,#24,Centre-Back,Fenerbahçe,Europa League,8,-,1,5,-,-,,,720'
-401356,Edson Álvarez,#11,Defensive Midfield,Fenerbahçe,Europa League,5,-,-,2,-,-,,,313'
-671591,Dorgeles Nene,#45,Right Winger,Fenerbahçe,Europa League,10,-,2,1,-,-,,,585'
-986288,Sidiki Chérif,#26,Centre-Forward,Fenerbahçe,Europa League,2,-,1,-,-,-,,,166'
-613725,İsmail Yüksek,#5,Defensive Midfield,Fenerbahçe,Europa League,8,1,1,4,-,-,,,537'
-296622,Marco Asensio,#21,Attacking Midfield,Fenerbahçe,Europa League,9,-,-,-,-,-,,,555'
+465830,Mattéo Guendouzi,#6,Midfield,Fenerbahçe,Europa League,2,-,-,-,-,-,,,180'
+382528,Kerem Aktürkoğlu,#9,Forward,Fenerbahçe,Europa League,9,6,1,1,-,-,,,700'
+591361,Jayden Oosterwolde,#24,Defender,Fenerbahçe,Europa League,8,-,1,5,-,-,,,720'
+401356,Edson Álvarez,#11,Midfield,Fenerbahçe,Europa League,5,-,-,2,-,-,,,313'
+671591,Dorgeles Nene,#45,Forward,Fenerbahçe,Europa League,10,-,2,1,-,-,,,585'
+986288,Sidiki Chérif,#26,Forward,Fenerbahçe,Europa League,2,-,1,-,-,-,,,166'
+613725,İsmail Yüksek,#5,Midfield,Fenerbahçe,Europa League,8,1,1,4,-,-,,,537'
+296622,Marco Asensio,#21,Midfield,Fenerbahçe,Europa League,9,-,-,-,-,-,,,552'
 238223,Ederson,#31,Goalkeeper,Fenerbahçe,Europa League,9,-,,1,-,-,10,3,810'
-204069,Milan Škriniar,#37,Centre-Back,Fenerbahçe,Europa League,8,-,1,4,-,-,,,650'
-581329,Archie Brown,#3,Left-Back,Fenerbahçe,Europa League,7,-,1,1,-,-,,,587'
-258626,Talisca,#94,Attacking Midfield,Fenerbahçe,Europa League,8,4,1,1,-,-,,,486'
-563749,Oğuz Aydın,#70,Left Winger,Fenerbahçe,Europa League,8,-,-,1,-,-,,,287'
-231572,Nélson Semedo,#27,Right-Back,Fenerbahçe,Europa League,9,-,-,2,-,-,,,731'
-353922,Mert Müldür,#18,Right-Back,Fenerbahçe,Europa League,6,-,-,1,-,-,,,419'
-191614,Fred,#7,Central Midfield,Fenerbahçe,Europa League,7,-,-,5,-,-,,,355'
-511401,Anthony Musaba,#20,Right Winger,Fenerbahçe,Europa League Qualifying,1,-,-,-,-,-,,,90'
-388820,Levent Mercan,#22,Left-Back,Fenerbahçe,Europa League,4,-,1,-,-,-,,,118'
-889136,Yiğit Efe Demir,#14,Centre-Back,Fenerbahçe,Europa League,5,-,-,1,-,-,,,257'
-320141,Çağlar Söyüncü,#4,Centre-Back,Fenerbahçe,Europa League,3,-,-,1,-,-,,,213'
-225083,N'Golo Kanté,#17,Defensive Midfield,Fenerbahçe,Europa League,2,-,-,-,-,-,,,166'
+204069,Milan Škriniar,#37,Defender,Fenerbahçe,Europa League,8,-,1,4,-,-,,,650'
+581329,Archie Brown,#3,Defender,Fenerbahçe,Europa League,7,-,1,1,-,-,,,587'
+258626,Talisca,#94,Forward,Fenerbahçe,Europa League,8,4,1,1,-,-,,,486'
+563749,Oğuz Aydın,#70,Forward,Fenerbahçe,Europa League,8,-,-,1,-,-,,,287'
+231572,Nélson Semedo,#27,Defender,Fenerbahçe,Europa League,9,-,-,2,-,-,,,731'
+353922,Mert Müldür,#18,Defender,Fenerbahçe,Europa League,6,-,-,1,-,-,,,419'
+191614,Fred,#7,Midfield,Fenerbahçe,Europa League,7,-,-,5,-,-,,,355'
+511401,Anthony Musaba,#20,Forward,Fenerbahçe,Europa League,,,,,,,,,
+388820,Levent Mercan,#22,Defender,Fenerbahçe,Europa League,4,-,1,-,-,-,,,118'
+889136,Yiğit Efe Demir,#14,Defender,Fenerbahçe,Europa League,5,-,-,1,-,-,,,257'
+320141,Çağlar Söyüncü,#4,Defender,Fenerbahçe,Europa League,3,-,-,1,-,-,,,213'
+225083,N'Golo Kanté,#17,Midfield,Fenerbahçe,Europa League,2,-,-,-,-,-,,,166'
 286170,Tarık Çetin,#13,Goalkeeper,Fenerbahçe,Europa League,1,-,,-,-,-,1,-,90'
-283223,Emre Mor,#0,Right Winger,Fenerbahçe,Europa League,,,,,,,,,
-51894,Mert Günok,#34,Goalkeeper,Fenerbahçe,Europa League Qualifying,2,-,,1,-,-,6,-,180'
-1133732,Abdou Aziz Fall,#60,Central Midfield,Fenerbahçe,Europa League,,,,,,,,,
-306462,Mert Hakan Yandaş,#8,Attacking Midfield,Fenerbahçe,Europa League,,,,,,,,,
-1193441,Engin Can Biterge,#39,Goalkeeper,Fenerbahçe,Europa League,-,-,,-,-,-,-,-,-
-491296,Anass Zaroury,#9,Left Winger,Panathinaikos,Europa League,10,4,1,1,1,-,,,661'
-1305935,Santino Andino,#10,Left Midfield,Panathinaikos,Europa League,2,-,-,1,-,-,,,26'
-676318,Facundo Pellistri,#28,Right Winger,Panathinaikos,Europa League,4,-,-,-,-,-,,,296'
-1024285,Adriano Jagusic,#88,Attacking Midfield,Panathinaikos,Europa League,,,,,,,,,
-242273,Pedro Chirivella,#4,Defensive Midfield,Panathinaikos,Europa League,7,-,-,1,-,-,,,435'
-330126,Karol Świderski,#19,Centre-Forward,Panathinaikos,Europa League,11,4,1,3,-,-,,,490'
-262523,Davide Calabria,#2,Right-Back,Panathinaikos,Europa League,10,1,1,2,-,-,,,764'
-401394,Adam Gnezda Cerin,#16,Central Midfield,Panathinaikos,Europa League,8,-,-,-,-,-,,,472'
-162571,Anastasios Bakasetas,#11,Attacking Midfield,Panathinaikos,Europa League,10,-,1,3,-,-,,,692'
-906748,Vicente Taborda,#20,Attacking Midfield,Panathinaikos,Europa League,9,2,2,1,-,-,,,429'
-317806,Cyriel Dessers,#33,Centre-Forward,Panathinaikos,Europa League,1,-,-,-,-,-,,,20'
+283223,Emre Mor,#0,Forward,Fenerbahçe,Europa League,,,,,,,,,
+51894,Mert Günok,#34,Goalkeeper,Fenerbahçe,Europa League,,,,,,,,,
+1133732,Abdou Aziz Fall,#60,Midfield,Fenerbahçe,Europa League,,,,,,,,,
+306462,Mert Hakan Yandaş,#8,Midfield,Fenerbahçe,Europa League,,,,,,,,,
+1193441,Engin Can Biterge,#39,Goalkeeper,Fenerbahçe,Europa League,,,,,,,,,
+491296,Anass Zaroury,#9,Forward,Panathinaikos,Europa League,10,4,1,1,1,-,,,662'
+1305935,Santino Andino,#10,Midfield,Panathinaikos,Europa League,2,-,-,1,-,-,,,26'
+676318,Facundo Pellistri,#28,Forward,Panathinaikos,Europa League,4,-,-,-,-,-,,,296'
+1024285,Adriano Jagusic,#88,Midfield,Panathinaikos,Europa League,,,,,,,,,
+242273,Pedro Chirivella,#4,Midfield,Panathinaikos,Europa League,7,-,-,1,-,-,,,435'
+330126,Karol Świderski,#19,Forward,Panathinaikos,Europa League,11,4,1,3,-,-,,,490'
+262523,Davide Calabria,#2,Defender,Panathinaikos,Europa League,10,1,1,2,-,-,,,764'
+401394,Adam Gnezda Cerin,#16,Midfield,Panathinaikos,Europa League,8,-,-,-,-,-,,,471'
+162571,Anastasios Bakasetas,#11,Midfield,Panathinaikos,Europa League,10,-,1,3,-,-,,,690'
+906748,Vicente Taborda,#20,Midfield,Panathinaikos,Europa League,9,2,2,1,-,-,,,429'
+317806,Cyriel Dessers,#33,Forward,Panathinaikos,Europa League,1,-,-,-,-,-,,,20'
 357117,Alban Lafont,#40,Goalkeeper,Panathinaikos,Europa League,10,-,,1,-,-,12,3,930'
-905184,Andreas Tetteh,#7,Centre-Forward,Panathinaikos,Europa League,4,3,-,-,-,-,,,367'
-615639,Milos Pantovic,#72,Centre-Forward,Panathinaikos,Europa League,8,-,-,-,-,-,,,329'
-325924,Ahmed Touba,#5,Centre-Back,Panathinaikos,Europa League,10,-,-,3,-,-,,,843'
-206386,Tin Jedvaj,#21,Centre-Back,Panathinaikos,Europa League Qualifying,1,-,-,-,-,-,,,18'
-311178,Georgios Kyriakopoulos,#77,Left-Back,Panathinaikos,Europa League,10,-,1,2,-,-,,,852'
-137648,Sverrir Ingi Ingason,#15,Centre-Back,Panathinaikos,Europa League,10,-,-,2,-,-,,,930'
-258027,Renato Sanches,#8,Central Midfield,Panathinaikos,Europa League,7,-,-,1,-,-,,,524'
-422466,Javi Hernández,#26,Left-Back,Panathinaikos,Europa League,3,-,-,1,-,1,,,114'
-282199,Erik Palmer-Brown,#14,Centre-Back,Panathinaikos,Europa League,7,-,-,1,-,-,,,614'
-182688,Manolis Siopis,#6,Defensive Midfield,Panathinaikos,Europa League,8,-,-,4,-,-,,,392'
-905189,Pavlos Pantelidis,#23,Right Winger,Panathinaikos,Europa League,,,,,,,,,
-94307,Filip Djuricic,#31,Attacking Midfield,Panathinaikos,Europa League,9,1,-,2,-,-,,,485'
+905184,Andreas Tetteh,#7,Forward,Panathinaikos,Europa League,4,3,-,-,-,-,,,367'
+615639,Milos Pantovic,#72,Forward,Panathinaikos,Europa League,8,-,-,-,-,-,,,329'
+325924,Ahmed Touba,#5,Defender,Panathinaikos,Europa League,10,-,-,3,-,-,,,843'
+206386,Tin Jedvaj,#21,Defender,Panathinaikos,Europa League,,,,,,,,,
+311178,Georgios Kyriakopoulos,#77,Defender,Panathinaikos,Europa League,10,-,1,2,-,-,,,851'
+137648,Sverrir Ingi Ingason,#15,Defender,Panathinaikos,Europa League,10,-,-,2,-,-,,,930'
+258027,Renato Sanches,#8,Midfield,Panathinaikos,Europa League,7,-,-,1,-,-,,,524'
+422466,Javi Hernández,#26,Defender,Panathinaikos,Europa League,3,-,-,1,-,1,,,113'
+282199,Erik Palmer-Brown,#14,Defender,Panathinaikos,Europa League,7,-,-,1,-,-,,,614'
+182688,Manolis Siopis,#6,Midfield,Panathinaikos,Europa League,8,-,-,4,-,-,,,392'
+905189,Pavlos Pantelidis,#23,Forward,Panathinaikos,Europa League,,,,,,,,,
+94307,Filip Djuricic,#31,Midfield,Panathinaikos,Europa League,9,1,-,2,-,-,,,481'
 360791,Lucas Chaves,#12,Goalkeeper,Panathinaikos,Europa League,,,,,,,,,
-1031590,Sotiris Kontouris,#18,Central Midfield,Panathinaikos,Europa League,,,,,,,,,
-182581,Tonny Vilhena,#52,Central Midfield,Panathinaikos,Europa League,,,,,,,,,
-436916,Giannis Kotsiras,#27,Right-Back,Panathinaikos,Europa League,6,-,1,1,-,-,,,369'
-242637,Konstantinos Kotsaris,#70,Goalkeeper,Panathinaikos,Europa League,-,-,,-,-,-,-,-,-
-1047109,Georgios Katris,#3,Centre-Back,Panathinaikos,Europa League,4,-,-,-,-,-,,,372'
-898021,Georgios Kyriopoulos,#22,Right Winger,Panathinaikos,Europa League,,,,,,,,,
-1077461,Giannis Bokos,#39,Right Winger,Panathinaikos,Europa League,,,,,,,,,
-46001,Moussa Sissoko,#17,Central Midfield,Panathinaikos,Europa League,,,,,,,,,
-565435,Arne Engels,#27,Central Midfield,Celtic,Europa League,8,1,3,2,-,-,,,555'
-420931,Daizen Maeda,#38,Left Winger,Celtic,Europa League,9,-,3,2,-,-,,,612'
-513970,Julián Araujo,#22,Right-Back,Celtic,Europa League,1,-,-,-,-,-,,,90'
-341049,Cameron Carter-Vickers,#20,Centre-Back,Celtic,Europa League,3,-,-,1,-,-,,,270'
-496656,Reo Hatate,#41,Central Midfield,Celtic,Europa League,9,3,1,1,1,-,,,502'
-475949,Benjamin Nygren,#8,Right Winger,Celtic,Europa League,10,4,1,-,-,-,,,616'
-300716,Kieran Tierney,#63,Left-Back,Celtic,Europa League,9,-,1,-,-,-,,,716'
-637446,Alistair Johnston,#2,Right-Back,Celtic,Europa League,1,-,-,-,-,-,,,26'
-539677,Sebastian Tounekti,#23,Left Winger,Celtic,Europa League,10,-,-,-,-,-,,,654'
-389253,Auston Trusty,#6,Centre-Back,Celtic,Europa League,7,2,-,-,-,-,,,630'
-329812,Jota,#7,Left Winger,Celtic,Europa League,,,,,,,,,
-439497,Liam Scales,#5,Centre-Back,Celtic,Europa League,9,1,-,2,-,-,,,810'
-504090,Paulo Bernardo,#28,Central Midfield,Celtic,Europa League,7,-,-,1,-,-,,,211'
-502239,Michel-Ange Balikwisha,#10,Left Winger,Celtic,Europa League,4,-,-,-,-,-,,,53'
-452477,Junior Adamu,#9,Centre-Forward,Celtic,Europa League,8,1,1,-,-,-,,,541'
-853110,Hyun-jun Yang,#13,Right Winger,Celtic,Europa League,7,1,-,1,-,-,,,452'
-120977,Callum McGregor,#42,Defensive Midfield,Celtic,Europa League,10,-,-,1,-,-,,,900'
-295330,Kelechi Iheanacho,#17,Centre-Forward,Celtic,Europa League,7,1,-,1,-,-,,,237'
-544148,Tomas Cvancara,#11,Centre-Forward,Celtic,Europa League,2,-,-,-,-,-,,,106'
-468264,Luke McCowan,#14,Central Midfield,Celtic,Europa League,4,1,-,-,-,-,,,162'
-373916,Marcelo Saracchi,#36,Left-Back,Celtic,Europa League,4,-,-,2,-,-,,,155'
-700078,Joel Mvuka,#32,Right Midfield,Celtic,Europa League,,,,,,,,,
-388171,Anthony Ralston,#56,Right-Back,Celtic,Europa League,5,-,-,-,-,-,,,172'
-143424,Alex Oxlade-Chamberlain,#21,Central Midfield,Celtic,Europa League,,,,,,,,,
-1208182,Colby Donovan,#51,Right-Back,Celtic,Europa League,8,-,1,1,-,-,,,550'
+1031590,Sotiris Kontouris,#18,Midfield,Panathinaikos,Europa League,,,,,,,,,
+182581,Tonny Vilhena,#52,Midfield,Panathinaikos,Europa League,,,,,,,,,
+436916,Giannis Kotsiras,#27,Defender,Panathinaikos,Europa League,6,-,1,1,-,-,,,369'
+242637,Konstantinos Kotsaris,#70,Goalkeeper,Panathinaikos,Europa League,,,,,,,,,
+1047109,Georgios Katris,#3,Defender,Panathinaikos,Europa League,4,-,-,-,-,-,,,372'
+898021,Georgios Kyriopoulos,#22,Forward,Panathinaikos,Europa League,,,,,,,,,
+1077461,Giannis Bokos,#39,Forward,Panathinaikos,Europa League,,,,,,,,,
+46001,Moussa Sissoko,#17,Midfield,Panathinaikos,Europa League,,,,,,,,,
+565435,Arne Engels,#27,Midfield,Celtic,Europa League,8,1,3,2,-,-,,,555'
+420931,Daizen Maeda,#38,Forward,Celtic,Europa League,9,-,3,2,-,-,,,612'
+513970,Julián Araujo,#22,Defender,Celtic,Europa League,1,-,-,-,-,-,,,90'
+341049,Cameron Carter-Vickers,#20,Defender,Celtic,Europa League,3,-,-,1,-,-,,,270'
+496656,Reo Hatate,#41,Midfield,Celtic,Europa League,9,3,1,1,1,-,,,502'
+475949,Benjamin Nygren,#8,Forward,Celtic,Europa League,10,4,1,-,-,-,,,616'
+300716,Kieran Tierney,#63,Defender,Celtic,Europa League,9,-,1,-,-,-,,,716'
+637446,Alistair Johnston,#2,Defender,Celtic,Europa League,1,-,-,-,-,-,,,26'
+539677,Sebastian Tounekti,#23,Forward,Celtic,Europa League,10,-,-,-,-,-,,,654'
+389253,Auston Trusty,#6,Defender,Celtic,Europa League,7,2,-,-,-,-,,,630'
+329812,Jota,#7,Forward,Celtic,Europa League,,,,,,,,,
+439497,Liam Scales,#5,Defender,Celtic,Europa League,9,1,-,2,-,-,,,810'
+504090,Paulo Bernardo,#28,Midfield,Celtic,Europa League,7,-,-,1,-,-,,,211'
+502239,Michel-Ange Balikwisha,#10,Forward,Celtic,Europa League,4,-,-,-,-,-,,,53'
+452477,Junior Adamu,#9,Forward,Celtic,Europa League,8,1,1,-,-,-,,,541'
+853110,Hyun-jun Yang,#13,Forward,Celtic,Europa League,7,1,-,1,-,-,,,452'
+120977,Callum McGregor,#42,Midfield,Celtic,Europa League,10,-,-,1,-,-,,,900'
+295330,Kelechi Iheanacho,#17,Forward,Celtic,Europa League,7,1,-,1,-,-,,,237'
+544148,Tomas Cvancara,#11,Forward,Celtic,Europa League,2,-,-,-,-,-,,,106'
+468264,Luke McCowan,#14,Midfield,Celtic,Europa League,4,1,-,-,-,-,,,162'
+373916,Marcelo Saracchi,#36,Defender,Celtic,Europa League,4,-,-,2,-,-,,,155'
+700078,Joel Mvuka,#32,Midfield,Celtic,Europa League,,,,,,,,,
+388171,Anthony Ralston,#56,Defender,Celtic,Europa League,5,-,-,-,-,-,,,172'
+143424,Alex Oxlade-Chamberlain,#21,Midfield,Celtic,Europa League,,,,,,,,,
+1208182,Colby Donovan,#51,Defender,Celtic,Europa League,8,-,1,1,-,-,,,550'
 484838,Viljami Sinisalo,#12,Goalkeeper,Celtic,Europa League,1,-,,-,-,-,-,1,90'
-883540,Callum Osmand,#19,Centre-Forward,Celtic,Europa League,1,-,-,-,-,-,,,45'
-757272,Adam Montgomery,#37,Left-Back,Celtic,Europa League,,,,,,,,,
-84992,James Forrest,#49,Right Winger,Celtic,Europa League,4,-,-,-,-,-,,,102'
-662932,Dane Murray,#47,Centre-Back,Celtic,Europa League,4,-,-,-,-,-,,,120'
+883540,Callum Osmand,#19,Forward,Celtic,Europa League,1,-,-,-,-,-,,,45'
+757272,Adam Montgomery,#37,Defender,Celtic,Europa League,,,,,,,,,
+84992,James Forrest,#49,Forward,Celtic,Europa League,4,-,-,-,-,-,,,102'
+662932,Dane Murray,#47,Defender,Celtic,Europa League,4,-,-,-,-,-,,,120'
 16911,Kasper Schmeichel,#1,Goalkeeper,Celtic,Europa League,9,-,,-,-,-,19,-,810'
-285283,Ross Doohan,#31,Goalkeeper,Celtic,Europa League,-,-,,-,-,-,-,-,-
-1144158,Benjamin Arthur,#43,Centre-Back,Celtic,Europa League,,,,,,,,,
-815686,Caio Vidal,#11,Left Winger,Ludogorets,Europa League,10,-,3,1,-,-,,,841'
-766306,Petar Stanic,#14,Attacking Midfield,Ludogorets,Europa League,10,7,1,1,-,-,,,859'
-834481,Erick Marcus,#77,Right Winger,Ludogorets,Europa League,9,-,1,1,-,-,,,465'
-973569,Rwan Cruz,#12,Centre-Forward,Ludogorets,Europa League,2,-,-,-,-,-,,,38'
-555058,Edvin Kurtulus,#15,Centre-Back,Ludogorets,Europa League,2,-,1,-,-,-,,,98'
-422380,Bernard Tekpetey,#37,Right Winger,Ludogorets,Europa League,6,-,1,1,-,-,,,261'
-254955,Kwadwo Duah,#9,Centre-Forward,Ludogorets,Europa League,2,1,-,-,-,-,,,166'
-543529,Aguibou Camara,#20,Attacking Midfield,Ludogorets,Europa League,1,-,-,1,-,-,,,59'
-252767,Ivaylo Chochev,#18,Central Midfield,Ludogorets,Europa League,10,1,-,1,-,-,,,177'
-396230,Filip Kaloc,#26,Central Midfield,Ludogorets,Europa League,7,-,-,-,-,-,,,306'
-432852,Deroy Duarte,#23,Central Midfield,Ludogorets,Europa League,9,-,-,-,-,-,,,781'
-1110258,Vinícius Nogueira,#27,Left-Back,Ludogorets,Europa League,2,-,-,1,-,-,,,77'
-646679,Pedro Naressi,#30,Defensive Midfield,Ludogorets,Europa League,8,-,1,3,-,-,,,660'
-504125,Olivier Verdon,#24,Centre-Back,Ludogorets,Europa League,10,1,1,2,-,-,,,759'
-349856,Son,#17,Right-Back,Ludogorets,Europa League,10,2,-,1,-,-,,,818'
-218441,Anton Nedyalkov,#3,Left-Back,Ludogorets,Europa League,9,-,-,1,-,-,,,784'
-412537,Stanislav Ivanov,#99,Right Winger,Ludogorets,Europa League,5,-,1,1,-,-,,,104'
-255469,Joel Andersson,#2,Right-Back,Ludogorets,Europa League,6,-,-,-,-,-,,,199'
-1096637,Yves Erick Bile,#29,Centre-Forward,Ludogorets,Europa League,8,1,-,1,-,-,,,400'
-329519,Dinis Almeida,#4,Centre-Back,Ludogorets,Europa League,9,-,1,4,-,-,,,808'
-461625,Alberto Salido,#7,Centre-Forward,Ludogorets,Europa League,,,,,,,,,
-408422,Idan Nachmias,#55,Centre-Back,Ludogorets,Europa League,2,-,-,-,-,-,,,135'
+285283,Ross Doohan,#31,Goalkeeper,Celtic,Europa League,,,,,,,,,
+1144158,Benjamin Arthur,#43,Defender,Celtic,Europa League,,,,,,,,,
+815686,Caio Vidal,#11,Forward,Ludogorets,Europa League,10,-,3,1,-,-,,,841'
+766306,Petar Stanic,#14,Midfield,Ludogorets,Europa League,10,7,1,1,-,-,,,859'
+834481,Erick Marcus,#77,Forward,Ludogorets,Europa League,9,-,1,1,-,-,,,465'
+973569,Rwan Cruz,#12,Forward,Ludogorets,Europa League,2,-,-,-,-,-,,,38'
+555058,Edvin Kurtulus,#15,Defender,Ludogorets,Europa League,2,-,1,-,-,-,,,98'
+422380,Bernard Tekpetey,#37,Forward,Ludogorets,Europa League,6,-,1,1,-,-,,,261'
+254955,Kwadwo Duah,#9,Forward,Ludogorets,Europa League,2,1,-,-,-,-,,,166'
+543529,Aguibou Camara,#20,Midfield,Ludogorets,Europa League,1,-,-,1,-,-,,,59'
+252767,Ivaylo Chochev,#18,Midfield,Ludogorets,Europa League,10,1,-,1,-,-,,,177'
+396230,Filip Kaloc,#26,Midfield,Ludogorets,Europa League,7,-,-,-,-,-,,,303'
+432852,Deroy Duarte,#23,Midfield,Ludogorets,Europa League,9,-,-,-,-,-,,,781'
+1110258,Vinícius Nogueira,#27,Defender,Ludogorets,Europa League,2,-,-,1,-,-,,,77'
+646679,Pedro Naressi,#30,Midfield,Ludogorets,Europa League,8,-,1,3,-,-,,,660'
+504125,Olivier Verdon,#24,Defender,Ludogorets,Europa League,10,1,1,2,-,-,,,759'
+349856,Son,#17,Defender,Ludogorets,Europa League,10,2,-,1,-,-,,,818'
+218441,Anton Nedyalkov,#3,Defender,Ludogorets,Europa League,9,-,-,1,-,-,,,784'
+412537,Stanislav Ivanov,#99,Forward,Ludogorets,Europa League,5,-,1,1,-,-,,,101'
+255469,Joel Andersson,#2,Defender,Ludogorets,Europa League,6,-,-,-,-,-,,,199'
+1096637,Yves Erick Bile,#29,Forward,Ludogorets,Europa League,8,1,-,1,-,-,,,400'
+329519,Dinis Almeida,#4,Defender,Ludogorets,Europa League,9,-,1,4,-,-,,,808'
+461625,Alberto Salido,#7,Forward,Ludogorets,Europa League,,,,,,,,,
+408422,Idan Nachmias,#55,Defender,Ludogorets,Europa League,2,-,-,-,-,-,,,135'
 104220,Hendrik Bonmann,#39,Goalkeeper,Ludogorets,Europa League,7,-,,2,-,-,12,1,630'
-541288,Ivan Yordanov,#82,Defensive Midfield,Ludogorets,Europa League,4,1,-,-,-,-,,,135'
-1099718,Matheus Machado,#10,Centre-Forward,Ludogorets,Europa League,5,-,-,-,-,-,,,81'
+541288,Ivan Yordanov,#82,Midfield,Ludogorets,Europa League,4,1,-,-,-,-,,,135'
+1099718,Matheus Machado,#10,Forward,Ludogorets,Europa League,5,-,-,-,-,-,,,81'
 79573,Sergio Padt,#1,Goalkeeper,Ludogorets,Europa League,3,-,,-,-,-,6,-,270'
-351816,Ismaël Bennacer,#4,Defensive Midfield,Dinamo Zagreb,Europa League,,,,,,,,,
-618350,Dion Beljo,#9,Centre-Forward,Dinamo Zagreb,Europa League,8,5,1,3,-,-,,,492'
+351816,Ismaël Bennacer,#4,Midfield,Dinamo Zagreb,Europa League,,,,,,,,,
+618350,Dion Beljo,#9,Forward,Dinamo Zagreb,Europa League,8,5,1,3,-,-,,,492'
 205927,Dominik Livakovic,#40,Goalkeeper,Dinamo Zagreb,Europa League,2,-,,-,-,-,6,-,210'
-255906,Scott McKenna,#26,Centre-Back,Dinamo Zagreb,Europa League,10,-,-,-,-,-,,,909'
-631222,Raúl Torrente,#16,Centre-Back,Dinamo Zagreb,Europa League,,,,,,,,,
-665266,Luka Stojkovic,#7,Attacking Midfield,Dinamo Zagreb,Europa League,9,2,-,-,-,1,,,416'
-920283,Matteo Pérez Vinlöf,#22,Left-Back,Dinamo Zagreb,Europa League,5,-,-,-,-,-,,,300'
-741258,Sergi Domínguez,#36,Centre-Back,Dinamo Zagreb,Europa League,8,-,1,1,-,-,,,720'
-410185,Ronaël Pierre-Gabriel,#18,Right-Back,Dinamo Zagreb,Europa League,,,,,,,,,
-458367,Arbër Hoxha,#11,Left Winger,Dinamo Zagreb,Europa League,9,-,2,-,-,-,,,645'
-528835,Niko Galesic,#15,Centre-Back,Dinamo Zagreb,Europa League,4,1,1,1,-,-,,,342'
-604327,Gabriel Vidovic,#10,Left Winger,Dinamo Zagreb,Europa League,7,-,1,-,-,-,,,190'
-502686,Moris Valincic,#25,Right-Back,Dinamo Zagreb,Europa League,5,-,2,2,-,-,,,480'
-854382,Monsef Bakrar,#71,Centre-Forward,Dinamo Zagreb,Europa League,9,3,1,-,-,-,,,392'
-665275,Mateo Lisica,#21,Right Winger,Dinamo Zagreb,Europa League,7,1,-,-,-,-,,,469'
-414956,Bruno Goda,#3,Left-Back,Dinamo Zagreb,Europa League,8,-,-,2,-,-,,,651'
-623825,Marko Soldo,#14,Defensive Midfield,Dinamo Zagreb,Europa League,6,-,-,-,-,-,,,195'
-149829,Miha Zajc,#8,Central Midfield,Dinamo Zagreb,Europa League,10,-,1,2,-,-,,,701'
-227035,Josip Misic,#27,Defensive Midfield,Dinamo Zagreb,Europa League,10,-,2,1,-,-,,,901'
+255906,Scott McKenna,#26,Defender,Dinamo Zagreb,Europa League,10,-,-,-,-,-,,,909'
+631222,Raúl Torrente,#16,Defender,Dinamo Zagreb,Europa League,,,,,,,,,
+665266,Luka Stojkovic,#7,Midfield,Dinamo Zagreb,Europa League,9,2,-,-,-,1,,,416'
+920283,Matteo Pérez Vinlöf,#22,Defender,Dinamo Zagreb,Europa League,5,-,-,-,-,-,,,300'
+741258,Sergi Domínguez,#36,Defender,Dinamo Zagreb,Europa League,8,-,1,1,-,-,,,720'
+410185,Ronaël Pierre-Gabriel,#18,Defender,Dinamo Zagreb,Europa League,,,,,,,,,
+458367,Arbër Hoxha,#11,Forward,Dinamo Zagreb,Europa League,9,-,2,-,-,-,,,645'
+528835,Niko Galesic,#15,Defender,Dinamo Zagreb,Europa League,4,1,1,1,-,-,,,342'
+604327,Gabriel Vidovic,#10,Forward,Dinamo Zagreb,Europa League,7,-,1,-,-,-,,,190'
+502686,Moris Valincic,#25,Defender,Dinamo Zagreb,Europa League,5,-,2,2,-,-,,,480'
+854382,Monsef Bakrar,#71,Forward,Dinamo Zagreb,Europa League,9,3,1,-,-,-,,,392'
+665275,Mateo Lisica,#21,Forward,Dinamo Zagreb,Europa League,7,1,-,-,-,-,,,469'
+414956,Bruno Goda,#3,Defender,Dinamo Zagreb,Europa League,8,-,-,2,-,-,,,651'
+623825,Marko Soldo,#14,Midfield,Dinamo Zagreb,Europa League,6,-,-,-,-,-,,,195'
+149829,Miha Zajc,#8,Midfield,Dinamo Zagreb,Europa League,10,-,1,2,-,-,,,701'
+227035,Josip Misic,#27,Midfield,Dinamo Zagreb,Europa League,10,-,2,1,-,-,,,901'
 293185,Ivan Nevistic,#33,Goalkeeper,Dinamo Zagreb,Europa League,5,-,,-,-,-,8,-,450'
-1134201,Cardoso Varela,#23,Left Winger,Dinamo Zagreb,Europa League,8,1,-,2,-,-,,,190'
-927306,Fran Topic,#30,Right Winger,Dinamo Zagreb,Europa League,4,-,1,-,-,-,,,245'
-960057,Juan Córdoba,#70,Right Winger,Dinamo Zagreb,Europa League,,,,,,,,,
-1107315,Noa Mikic,#35,Right-Back,Dinamo Zagreb,Europa League,2,-,-,-,-,-,,,135'
+1134201,Cardoso Varela,#23,Forward,Dinamo Zagreb,Europa League,8,1,-,2,-,-,,,190'
+927306,Fran Topic,#30,Forward,Dinamo Zagreb,Europa League,4,-,1,-,-,-,,,245'
+960057,Juan Córdoba,#70,Forward,Dinamo Zagreb,Europa League,,,,,,,,,
+1107315,Noa Mikic,#35,Defender,Dinamo Zagreb,Europa League,2,-,-,-,-,-,,,135'
 234187,Ivan Filipovic,#44,Goalkeeper,Dinamo Zagreb,Europa League,3,-,,-,-,-,8,-,270'
-60603,Kévin Théophile-Catherine,#28,Centre-Back,Dinamo Zagreb,Europa League,2,-,-,-,-,-,,,135'
-828467,Paul Tabinas,#13,Right-Back,Dinamo Zagreb,Europa League,,,,,,,,,
-1137943,Antonio Rajic,#88,Goalkeeper,Dinamo Zagreb,Europa League,-,-,,-,-,-,-,-,-
-240106,Dino Peric,#55,Centre-Back,Dinamo Zagreb,Europa League,,,,,,,,,
+60603,Kévin Théophile-Catherine,#28,Defender,Dinamo Zagreb,Europa League,2,-,-,-,-,-,,,135'
+828467,Paul Tabinas,#13,Defender,Dinamo Zagreb,Europa League,,,,,,,,,
+1137943,Antonio Rajic,#88,Goalkeeper,Dinamo Zagreb,Europa League,,,,,,,,,
+240106,Dino Peric,#55,Defender,Dinamo Zagreb,Europa League,,,,,,,,,
 131310,Danijel Zagorac,#1,Goalkeeper,Dinamo Zagreb,Europa League,,,,,,,,,
-946957,Matija Ruskovacki,#0,Centre-Back,Dinamo Zagreb,Europa League,,,,,,,,,
-367274,Felix Horn Myhre,#8,Central Midfield,SK Brann,Europa League,6,-,1,-,-,-,,,482'
-1281099,Nana Kwame Boakye,#4,Centre-Back,SK Brann,Europa League,5,-,-,1,-,-,,,383'
-399151,Sævar Atli Magnússon,#22,Right Winger,SK Brann,Europa League Qualifying,3,2,-,1,-,-,,,231'
-751105,Eggert Aron Gudmundsson,#19,Attacking Midfield,SK Brann,Europa League,5,-,-,-,-,-,,,355'
-666131,Denzel De Roeve,#21,Right-Back,SK Brann,Europa League,10,-,1,-,-,-,,,735'
-390664,Jacob Lungi Sørensen,#18,Defensive Midfield,SK Brann,Europa League,10,1,-,1,-,1,,,835'
-490971,Kristall Máni Ingason,#10,Attacking Midfield,SK Brann,Europa League,2,-,-,-,-,-,,,129'
-1371221,Cheikh Mbacké Diop,#6,Centre-Back,SK Brann,Europa League,,,,,,,,,
-494177,Noah Holm,#29,Centre-Forward,SK Brann,Europa League,9,2,1,-,-,-,,,715'
-404384,Rabbi Matondo,#26,Left Winger,SK Brann,Europa League,,,,,,,,,
+946957,Matija Ruskovacki,#0,Defender,Dinamo Zagreb,Europa League,,,,,,,,,
+367274,Felix Horn Myhre,#8,Midfield,SK Brann,Europa League,6,-,1,-,-,-,,,481'
+1281099,Nana Kwame Boakye,#4,Defender,SK Brann,Europa League,5,-,-,1,-,-,,,383'
+399151,Sævar Atli Magnússon,#22,Forward,SK Brann,Europa League,2,2,-,1,-,-,,,150'
+751105,Eggert Aron Gudmundsson,#19,Midfield,SK Brann,Europa League,5,-,-,-,-,-,,,355'
+666131,Denzel De Roeve,#21,Defender,SK Brann,Europa League,10,-,1,-,-,-,,,735'
+390664,Jacob Lungi Sørensen,#18,Midfield,SK Brann,Europa League,10,1,-,1,-,1,,,835'
+490971,Kristall Máni Ingason,#10,Midfield,SK Brann,Europa League,2,-,-,-,-,-,,,129'
+1371221,Cheikh Mbacké Diop,#6,Defender,SK Brann,Europa League,,,,,,,,,
+494177,Noah Holm,#29,Forward,SK Brann,Europa League,9,2,1,-,-,-,,,714'
+404384,Rabbi Matondo,#26,Forward,SK Brann,Europa League,,,,,,,,,
 228006,Mathias Dyngeland,#1,Goalkeeper,SK Brann,Europa League,10,-,,1,-,-,13,3,900'
-410557,Niklas Castro,#9,Left Winger,SK Brann,Europa League,5,-,-,1,-,-,,,250'
-331739,Jón Dagur Thorsteinsson,#7,Left Winger,SK Brann,Europa League,2,-,-,-,-,-,,,152'
-892045,Niklas Jensen Wassberg,#25,Central Midfield,SK Brann,Europa League,-,-,-,-,-,-,,,-
-877260,Markus Haaland,#32,Left Winger,SK Brann,Europa League,8,-,-,-,-,-,,,306'
-430031,Ulrik Mathisen,#14,Right Winger,SK Brann,Europa League,10,-,-,-,-,-,,,694'
-202925,Bård Finne,#11,Centre-Forward,SK Brann,Europa League,9,-,2,-,-,-,,,202'
-321644,Kristian Eriksen,#16,Attacking Midfield,SK Brann,Europa League,,,,,,,,,
-347849,Fredrik Pallesen Knudsen,#3,Centre-Back,SK Brann,Europa League,9,-,-,1,-,-,,,797'
-320046,Vetle Dragsnes,#20,Left-Back,SK Brann,Europa League,10,-,-,-,-,-,,,642'
-326875,Joachim Soltvedt,#17,Left-Back,SK Brann,Europa League,5,1,1,-,-,-,,,271'
-923538,Jonas Torsvik,#15,Left-Back,SK Brann,Europa League Qualifying,1,1,-,-,-,-,,,16'
-736962,Simen Vidtun Nilsen,#12,Goalkeeper,SK Brann,Europa League,-,-,,-,-,-,-,-,-
-503256,Sakarias Opsahl,#5,Central Midfield,SK Brann,Europa League,,,,,,,,,
-919675,Rasmus Holten,#43,Centre-Back,SK Brann,Europa League,1,-,-,1,-,-,,,17'
-268151,Thore Pedersen,#23,Right-Back,SK Brann,Europa League,10,-,-,2,-,-,,,344'
-1098471,Martin Hellan,#2,Right-Back,SK Brann,Europa League,,,,,,,,,
-1007816,Jesper Eikrem,#40,Attacking Midfield,SK Brann,Europa League,-,-,-,-,-,-,,,-
-1513693,Chinedu Cyprain Ononogbo,#0,Right Winger,SK Brann,Europa League,,,,,,,,,
-583058,Alvyn Sanches,#10,Attacking Midfield,Young Boys,Europa League,5,-,-,-,-,-,,,271'
-750903,Jaouen Hadjam,#3,Left-Back,Young Boys,Europa League,6,-,-,2,-,-,,,540'
+410557,Niklas Castro,#9,Forward,SK Brann,Europa League,5,-,-,1,-,-,,,250'
+331739,Jón Dagur Thorsteinsson,#7,Forward,SK Brann,Europa League,2,-,-,-,-,-,,,152'
+892045,Niklas Jensen Wassberg,#25,Midfield,SK Brann,Europa League,,,,,,,,,
+877260,Markus Haaland,#32,Forward,SK Brann,Europa League,8,-,-,-,-,-,,,306'
+430031,Ulrik Mathisen,#14,Forward,SK Brann,Europa League,10,-,-,-,-,-,,,694'
+202925,Bård Finne,#11,Forward,SK Brann,Europa League,9,-,2,-,-,-,,,202'
+321644,Kristian Eriksen,#16,Midfield,SK Brann,Europa League,,,,,,,,,
+347849,Fredrik Pallesen Knudsen,#3,Defender,SK Brann,Europa League,9,-,-,1,-,-,,,797'
+320046,Vetle Dragsnes,#20,Defender,SK Brann,Europa League,10,-,-,-,-,-,,,642'
+326875,Joachim Soltvedt,#17,Defender,SK Brann,Europa League,5,1,1,-,-,-,,,271'
+923538,Jonas Torsvik,#15,Defender,SK Brann,Europa League,,,,,,,,,
+736962,Simen Vidtun Nilsen,#12,Goalkeeper,SK Brann,Europa League,,,,,,,,,
+503256,Sakarias Opsahl,#5,Midfield,SK Brann,Europa League,,,,,,,,,
+919675,Rasmus Holten,#43,Defender,SK Brann,Europa League,1,-,-,1,-,-,,,17'
+268151,Thore Pedersen,#23,Defender,SK Brann,Europa League,10,-,-,2,-,-,,,344'
+1098471,Martin Hellan,#2,Defender,SK Brann,Europa League,,,,,,,,,
+1007816,Jesper Eikrem,#40,Midfield,SK Brann,Europa League,,,,,,,,,
+1513693,Chinedu Cyprain Ononogbo,#0,Forward,SK Brann,Europa League,,,,,,,,,
+583058,Alvyn Sanches,#10,Midfield,Young Boys,Europa League,5,-,-,-,-,-,,,271'
+750903,Jaouen Hadjam,#3,Defender,Young Boys,Europa League,6,-,-,2,-,-,,,540'
 500763,Marvin Keller,#1,Goalkeeper,Young Boys,Europa League,8,-,,-,-,-,16,2,720'
-410787,Joël Monteiro,#77,Left Midfield,Young Boys,Europa League,7,3,-,2,-,-,,,395'
-894668,Stefan Bukinac,#33,Left-Back,Young Boys,Europa League,,,,,,,,,
-294791,Chris Bedia,#29,Centre-Forward,Young Boys,Europa League,8,1,-,-,-,-,,,408'
-395522,Samuel Essende,#99,Centre-Forward,Young Boys,Europa League,,,,,,,,,
-803401,Ryan Andrews,#2,Right-Back,Young Boys,Europa League,5,-,1,-,-,-,,,121'
-247555,Edimilson Fernandes,#6,Defensive Midfield,Young Boys,Europa League,5,-,3,-,-,-,,,436'
-654415,Alan Virginius,#7,Left Midfield,Young Boys,Europa League,5,-,-,-,-,-,,,240'
-651269,Armin Gigovic,#37,Central Midfield,Young Boys,Europa League,6,1,-,-,-,1,,,329'
-917120,Tanguy Zoukrou,#4,Centre-Back,Young Boys,Europa League,6,-,-,-,1,-,,,361'
-1066142,Dominik Pech,#13,Attacking Midfield,Young Boys,Europa League,7,-,-,-,-,-,,,235'
-250490,Christian Fassnacht,#16,Attacking Midfield,Young Boys,Europa League,7,1,-,1,-,-,,,394'
-203125,Gregory Wüthrich,#5,Centre-Back,Young Boys,Europa League,4,-,2,-,-,-,,,278'
-507479,Darian Males,#39,Right Midfield,Young Boys,Europa League,7,1,1,-,-,-,,,412'
-344576,Rayan Raveloson,#45,Central Midfield,Young Boys,Europa League,7,1,-,3,-,-,,,517'
-406008,Yan Valery,#22,Right-Back,Young Boys,Europa League,,,,,,,,,
-567217,Ebrima Colley,#11,Left Winger,Young Boys,Europa League,2,-,-,-,-,-,,,39'
-1138260,Olivier Mambwa,#57,Left-Back,Young Boys,Europa League,-,-,-,-,-,-,,,-
-254965,Sandro Lauper,#30,Defensive Midfield,Young Boys,Europa League,7,1,-,2,-,-,,,549'
-196435,Saidy Janko,#17,Right-Back,Young Boys,Europa League,7,1,-,1,-,-,,,599'
-1149925,Facinet Conte,#31,Centre-Forward,Young Boys,Europa League,,,,,,,,,
-119085,Loris Benito,#23,Centre-Back,Young Boys,Europa League,7,-,-,1,-,-,,,630'
-902987,Mats Seiler,#55,Centre-Back,Young Boys,Europa League,,,,,,,,,
+410787,Joël Monteiro,#77,Midfield,Young Boys,Europa League,7,3,-,2,-,-,,,395'
+894668,Stefan Bukinac,#33,Defender,Young Boys,Europa League,,,,,,,,,
+294791,Chris Bedia,#29,Forward,Young Boys,Europa League,8,1,-,-,-,-,,,408'
+395522,Samuel Essende,#99,Forward,Young Boys,Europa League,,,,,,,,,
+803401,Ryan Andrews,#2,Defender,Young Boys,Europa League,5,-,1,-,-,-,,,121'
+247555,Edimilson Fernandes,#6,Midfield,Young Boys,Europa League,5,-,3,-,-,-,,,436'
+654415,Alan Virginius,#7,Midfield,Young Boys,Europa League,5,-,-,-,-,-,,,240'
+651269,Armin Gigovic,#37,Midfield,Young Boys,Europa League,6,1,-,-,-,1,,,329'
+917120,Tanguy Zoukrou,#4,Defender,Young Boys,Europa League,6,-,-,-,1,-,,,361'
+1066142,Dominik Pech,#13,Midfield,Young Boys,Europa League,7,-,-,-,-,-,,,235'
+250490,Christian Fassnacht,#16,Midfield,Young Boys,Europa League,7,1,-,1,-,-,,,394'
+203125,Gregory Wüthrich,#5,Defender,Young Boys,Europa League,4,-,2,-,-,-,,,278'
+507479,Darian Males,#39,Midfield,Young Boys,Europa League,7,1,1,-,-,-,,,412'
+344576,Rayan Raveloson,#45,Midfield,Young Boys,Europa League,7,1,-,3,-,-,,,517'
+406008,Yan Valery,#22,Defender,Young Boys,Europa League,,,,,,,,,
+567217,Ebrima Colley,#11,Forward,Young Boys,Europa League,2,-,-,-,-,-,,,39'
+1138260,Olivier Mambwa,#57,Defender,Young Boys,Europa League,,,,,,,,,
+254965,Sandro Lauper,#30,Midfield,Young Boys,Europa League,7,1,-,2,-,-,,,549'
+196435,Saidy Janko,#17,Defender,Young Boys,Europa League,7,1,-,1,-,-,,,599'
+1149925,Facinet Conte,#31,Forward,Young Boys,Europa League,,,,,,,,,
+119085,Loris Benito,#23,Defender,Young Boys,Europa League,7,-,-,1,-,-,,,630'
+902987,Mats Seiler,#55,Defender,Young Boys,Europa League,,,,,,,,,
 707530,Ardian Bajrami,#0,Goalkeeper,Young Boys,Europa League,,,,,,,,,
-254968,Dario Marzino,#40,Goalkeeper,Young Boys,Europa League,-,-,,1,-,-,-,-,-
-59082,Heinz Lindner,#12,Goalkeeper,Young Boys,Europa League,-,-,,-,-,-,-,-,-
-1164260,Edin Etoski,#0,Right Winger,Young Boys,Europa League,,,,,,,,,
-1061045,Ruben Salchli,#0,Goalkeeper,Young Boys,Europa League,-,-,,-,-,-,-,-,-
-352596,Otar Kiteishvili,#10,Attacking Midfield,Sturm Graz,Europa League,7,3,-,-,-,-,,,553'
-245034,Jon Gorenc Stankovic,#4,Defensive Midfield,Sturm Graz,Europa League,8,-,1,2,-,-,,,720'
-960463,Jacob Peter Hödl,#43,Right Midfield,Sturm Graz,Europa League,7,-,-,-,-,-,,,247'
-974365,Filip Rózga,#8,Attacking Midfield,Sturm Graz,Europa League,6,-,1,-,-,-,,,283'
-393745,Jusuf Gazibegovic,#22,Right-Back,Sturm Graz,Europa League,,,,,,,,,
-822601,Leon Grgic,#38,Centre-Forward,Sturm Graz,Europa League,4,-,-,-,-,-,,,72'
-1169411,Luca Weinhandl,#39,Central Midfield,Sturm Graz,Europa League,2,-,-,-,-,-,,,152'
-922788,Axel Kayombo,#11,Centre-Forward,Sturm Graz,Europa League,6,-,-,1,-,-,,,191'
-620832,Ryan Fosso,#80,Defensive Midfield,Sturm Graz,Europa League,,,,,,,,,
-420890,Dimitri Lavalée,#24,Centre-Back,Sturm Graz,Europa League,4,-,-,-,-,-,,,303'
-856068,Jeyland Mitchell,#2,Centre-Back,Sturm Graz,Europa League,7,-,-,2,-,-,,,221'
-805534,Arjan Malic,#23,Right-Back,Sturm Graz,Europa League,5,-,-,3,-,-,,,370'
-405568,Maurice Malone,#77,Centre-Forward,Sturm Graz,Europa League,8,-,1,1,-,-,,,547'
-286596,Emir Karic,#17,Left-Back,Sturm Graz,Europa League,8,-,-,2,-,-,,,709'
-523895,Paul Koller,#30,Centre-Back,Sturm Graz,Europa League,,,,,,,,,
-394152,Emanuel Aiwu,#47,Centre-Back,Sturm Graz,Europa League,8,-,-,2,-,-,,,720'
-693092,Belmin Beganovic,#26,Centre-Forward,Sturm Graz,Europa League,5,-,-,-,-,-,,,109'
-661206,Seedy Jatta,#20,Centre-Forward,Sturm Graz,Europa League,8,-,-,-,-,-,,,379'
-394008,Niklas Geyrhofer,#35,Centre-Back,Sturm Graz,Europa League,4,-,-,-,-,-,,,155'
-724965,Gizo Mamageishvili,#15,Attacking Midfield,Sturm Graz,Europa League,,,,,,,,,
+254968,Dario Marzino,#40,Goalkeeper,Young Boys,Europa League,,,,,,,,,
+59082,Heinz Lindner,#12,Goalkeeper,Young Boys,Europa League,,,,,,,,,
+1164260,Edin Etoski,#0,Forward,Young Boys,Europa League,,,,,,,,,
+1061045,Ruben Salchli,#0,Goalkeeper,Young Boys,Europa League,,,,,,,,,
+352596,Otar Kiteishvili,#10,Midfield,Sturm Graz,Europa League,7,3,-,-,-,-,,,553'
+245034,Jon Gorenc Stankovic,#4,Midfield,Sturm Graz,Europa League,8,-,1,2,-,-,,,720'
+960463,Jacob Peter Hödl,#43,Midfield,Sturm Graz,Europa League,7,-,-,-,-,-,,,247'
+974365,Filip Rózga,#8,Midfield,Sturm Graz,Europa League,6,-,1,-,-,-,,,283'
+393745,Jusuf Gazibegovic,#22,Defender,Sturm Graz,Europa League,,,,,,,,,
+822601,Leon Grgic,#38,Forward,Sturm Graz,Europa League,4,-,-,-,-,-,,,72'
+1169411,Luca Weinhandl,#39,Midfield,Sturm Graz,Europa League,2,-,-,-,-,-,,,152'
+922788,Axel Kayombo,#11,Forward,Sturm Graz,Europa League,6,-,-,1,-,-,,,191'
+620832,Ryan Fosso,#80,Midfield,Sturm Graz,Europa League,,,,,,,,,
+420890,Dimitri Lavalée,#24,Defender,Sturm Graz,Europa League,4,-,-,-,-,-,,,303'
+856068,Jeyland Mitchell,#2,Defender,Sturm Graz,Europa League,7,-,-,2,-,-,,,221'
+805534,Arjan Malic,#23,Defender,Sturm Graz,Europa League,5,-,-,3,-,-,,,370'
+405568,Maurice Malone,#77,Forward,Sturm Graz,Europa League,8,-,1,1,-,-,,,547'
+286596,Emir Karic,#17,Defender,Sturm Graz,Europa League,8,-,-,2,-,-,,,709'
+523895,Paul Koller,#30,Defender,Sturm Graz,Europa League,,,,,,,,,
+394152,Emanuel Aiwu,#47,Defender,Sturm Graz,Europa League,8,-,-,2,-,-,,,720'
+693092,Belmin Beganovic,#26,Forward,Sturm Graz,Europa League,5,-,-,-,-,-,,,109'
+661206,Seedy Jatta,#20,Forward,Sturm Graz,Europa League,8,-,-,-,-,-,,,379'
+394008,Niklas Geyrhofer,#35,Defender,Sturm Graz,Europa League,4,-,-,-,-,-,,,155'
+724965,Gizo Mamageishvili,#15,Midfield,Sturm Graz,Europa League,,,,,,,,,
 718756,Daniil Khudyakov,#53,Goalkeeper,Sturm Graz,Europa League,2,-,,-,-,-,3,1,180'
 629032,Matteo Bignetti,#40,Goalkeeper,Sturm Graz,Europa League,1,-,,-,-,-,2,-,90'
-261935,Albert Vallci,#5,Centre-Back,Sturm Graz,Europa League,,,,,,,,,
-924859,Rory Wilson,#9,Centre-Forward,Sturm Graz,Europa League,,,,,,,,,
-948135,Elias Lorenz,#41,Goalkeeper,Sturm Graz,Europa League,-,-,,-,-,-,-,-,-
-59053,Stefan Hierländer,#25,Right Midfield,Sturm Graz,Europa League,3,-,-,-,-,-,,,40'
-395800,Darius Olaru,#27,Attacking Midfield,FCSB,Europa League,7,1,-,3,-,-,,,513'
-468192,Daniel Bîrligea,#9,Centre-Forward,FCSB,Europa League,6,2,-,2,-,-,,,381'
-568544,Ștefan Târnovanu,#32,Goalkeeper,FCSB,Europa League,7,-,,-,-,1,12,2,552'
-445610,Siyabonga Ngezana,#30,Centre-Back,FCSB,Europa League,8,1,-,-,-,-,,,695'
-614800,David Miculescu,#11,Right Winger,FCSB,Europa League,7,1,-,2,-,-,,,484'
-569743,Joyskim Dawa,#5,Centre-Back,FCSB,Europa League,1,-,-,-,-,-,,,45'
-314329,Florin Tănase,#10,Attacking Midfield,FCSB,Europa League,6,1,-,2,-,-,,,377'
-200495,Ofri Arad,#15,Defensive Midfield,FCSB,Europa League,,,,,,,,,
-824915,Mihai Lixandru,#16,Central Midfield,FCSB,Europa League,6,-,-,1,-,-,,,346'
-626899,Baba Alhassan,#42,Defensive Midfield,FCSB,Europa League,6,-,-,2,-,-,,,495'
-368624,Mamadou Thiam,#93,Centre-Forward,FCSB,Europa League,8,1,-,-,-,-,,,376'
-670828,Alexandru Pantea,#28,Right-Back,FCSB,Europa League,6,-,1,1,-,-,,,391'
-361537,Mihai Popescu,#17,Centre-Back,FCSB,Europa League Qualifying,4,-,-,-,-,-,,,360'
-163999,Juri Cisotti,#31,Central Midfield,FCSB,Europa League,8,1,3,2,-,-,,,452'
-588095,André Duarte,#3,Centre-Back,FCSB,Europa League,,,,,,,,,
-144339,Risto Radunovic,#33,Left-Back,FCSB,Europa League,7,-,2,1,-,-,,,585'
+261935,Albert Vallci,#5,Defender,Sturm Graz,Europa League,,,,,,,,,
+924859,Rory Wilson,#9,Forward,Sturm Graz,Europa League,,,,,,,,,
+948135,Elias Lorenz,#41,Goalkeeper,Sturm Graz,Europa League,,,,,,,,,
+59053,Stefan Hierländer,#25,Midfield,Sturm Graz,Europa League,3,-,-,-,-,-,,,40'
+395800,Darius Olaru,#27,Midfield,FCSB,Europa League,7,1,-,3,-,-,,,513'
+468192,Daniel Bîrligea,#9,Forward,FCSB,Europa League,6,2,-,2,-,-,,,381'
+568544,Ștefan Târnovanu,#32,Goalkeeper,FCSB,Europa League,7,-,,-,-,1,12,1,552'
+445610,Siyabonga Ngezana,#30,Defender,FCSB,Europa League,8,1,-,-,-,-,,,695'
+614800,David Miculescu,#11,Forward,FCSB,Europa League,7,1,-,2,-,-,,,484'
+569743,Joyskim Dawa,#5,Defender,FCSB,Europa League,1,-,-,-,-,-,,,45'
+314329,Florin Tănase,#10,Midfield,FCSB,Europa League,6,1,-,2,-,-,,,377'
+200495,Ofri Arad,#15,Midfield,FCSB,Europa League,,,,,,,,,
+824915,Mihai Lixandru,#16,Midfield,FCSB,Europa League,6,-,-,1,-,-,,,346'
+626899,Baba Alhassan,#42,Midfield,FCSB,Europa League,6,-,-,2,-,-,,,495'
+368624,Mamadou Thiam,#93,Forward,FCSB,Europa League,8,1,-,-,-,-,,,376'
+670828,Alexandru Pantea,#28,Defender,FCSB,Europa League,6,-,1,1,-,-,,,391'
+361537,Mihai Popescu,#17,Defender,FCSB,Europa League,2,-,-,-,-,-,,,180'
+163999,Juri Cisotti,#31,Midfield,FCSB,Europa League,8,1,3,2,-,-,,,452'
+588095,André Duarte,#3,Defender,FCSB,Europa League,,,,,,,,,
+144339,Risto Radunovic,#33,Defender,FCSB,Europa League,7,-,2,1,-,-,,,585'
 147558,Lukas Zima,#38,Goalkeeper,FCSB,Europa League,2,-,,-,-,-,4,-,164'
-623965,João Paulo,#18,Defensive Midfield,FCSB,Europa League,,,,,,,,,
-992823,Alexandru Stoian,#90,Centre-Forward,FCSB,Europa League Qualifying,-,-,-,-,-,-,,,-
-797100,Octavian Popescu,#37,Left Winger,FCSB,Europa League,6,-,-,1,-,-,,,236'
-992820,Mihai Toma,#22,Left Midfield,FCSB,Europa League,2,1,-,-,-,-,,,69'
-1073910,Ionuț Cercel,#23,Right-Back,FCSB,Europa League,,,,,,,,,
-131728,Daniel Graovac,#4,Centre-Back,FCSB,Europa League,6,-,-,-,-,-,,,495'
-379870,David Kiki,#12,Left-Back,FCSB,Europa League,1,-,-,-,-,-,,,45'
+623965,João Paulo,#18,Midfield,FCSB,Europa League,,,,,,,,,
+992823,Alexandru Stoian,#90,Forward,FCSB,Europa League,,,,,,,,,
+797100,Octavian Popescu,#37,Forward,FCSB,Europa League,6,-,-,1,-,-,,,236'
+992820,Mihai Toma,#22,Midfield,FCSB,Europa League,2,1,-,-,-,-,,,69'
+1073910,Ionuț Cercel,#23,Defender,FCSB,Europa League,,,,,,,,,
+131728,Daniel Graovac,#4,Defender,FCSB,Europa League,6,-,-,-,-,-,,,495'
+379870,David Kiki,#12,Defender,FCSB,Europa League,1,-,-,-,-,-,,,45'
 1350595,Matei Popa,#13,Goalkeeper,FCSB,Europa League,,,,,,,,,
-123261,Vlad Chiricheș,#21,Defensive Midfield,FCSB,Europa League Qualifying,4,-,-,-,-,-,,,181'
-79507,Valentin Crețu,#2,Right-Back,FCSB,Europa League,5,-,1,-,-,-,,,284'
-786187,Mihai Udrea,#34,Goalkeeper,FCSB,Europa League,-,-,,-,-,-,-,-,-
-992832,David Popa,#98,Right Winger,FCSB,Europa League,,,,,,,,,
-1179041,Andrei Dăncuș,#6,Centre-Back,FCSB,Europa League,-,-,-,-,-,-,,,-
-657957,Jakob Breum,#7,Attacking Midfield,Go Ahead Eagles,Europa League,6,-,1,-,-,-,,,429'
-422760,Mathis Suray,#17,Left Winger,Go Ahead Eagles,Europa League,8,1,-,1,-,-,,,686'
+123261,Vlad Chiricheș,#21,Midfield,FCSB,Europa League,1,-,-,-,-,-,,,25'
+79507,Valentin Crețu,#2,Defender,FCSB,Europa League,5,-,1,-,-,-,,,284'
+786187,Mihai Udrea,#34,Goalkeeper,FCSB,Europa League,,,,,,,,,
+992832,David Popa,#98,Forward,FCSB,Europa League,,,,,,,,,
+1179041,Andrei Dăncuș,#6,Defender,FCSB,Europa League,,,,,,,,,
+657957,Jakob Breum,#7,Midfield,Go Ahead Eagles,Europa League,6,-,1,-,-,-,,,429'
+422760,Mathis Suray,#17,Forward,Go Ahead Eagles,Europa League,8,1,-,1,-,-,,,686'
 426849,Jari De Busser,#22,Goalkeeper,Go Ahead Eagles,Europa League,8,-,,1,-,-,14,1,720'
-426280,Melle Meulensteen,#21,Defensive Midfield,Go Ahead Eagles,Europa League,8,-,1,1,-,-,,,720'
-464454,Stefán Ingi Sigurdarson,#9,Centre-Forward,Go Ahead Eagles,Europa League,,,,,,,,,
-529223,Dean James,#5,Left-Back,Go Ahead Eagles,Europa League,8,-,2,2,-,-,,,708'
-326329,Joris Kramer,#4,Centre-Back,Go Ahead Eagles,Europa League,8,-,1,1,-,-,,,720'
-332530,Alfons Sampsted,#2,Right-Back,Go Ahead Eagles,Europa League,,,,,,,,,
-361112,Evert Linthorst,#8,Central Midfield,Go Ahead Eagles,Europa League,7,-,-,-,-,-,,,418'
-265324,Victor Edvardsen,#16,Centre-Forward,Go Ahead Eagles,Europa League,5,-,-,1,-,-,,,302'
-412943,Kenzo Goudmijn,#24,Central Midfield,Go Ahead Eagles,Europa League,5,-,-,-,-,-,,,286'
-727480,Jaden Slory,#19,Right Winger,Go Ahead Eagles,Europa League,-,-,-,-,-,-,,,-
-465326,Richonell Margaret,#18,Centre-Forward,Go Ahead Eagles,Europa League,6,-,-,1,-,-,,,296'
-656132,Aske Adelgaard,#29,Left-Back,Go Ahead Eagles,Europa League,6,-,-,1,-,-,,,180'
-541601,Søren Tengstedt,#10,Attacking Midfield,Go Ahead Eagles,Europa League,,,,,,,,,
-486043,Thibo Baeten,#23,Centre-Forward,Go Ahead Eagles,Europa League,,,,,,,,,
-715510,Oskar Sivertsen,#11,Left Winger,Go Ahead Eagles,Europa League,4,-,-,-,-,-,,,199'
-1088311,Yassir Salah Rahmouni,#34,Central Midfield,Go Ahead Eagles,Europa League,4,-,-,1,-,-,,,206'
-335997,Luca Plogmann,#1,Goalkeeper,Go Ahead Eagles,Europa League,-,-,,-,-,-,-,-,-
-566930,Julius Dirksen,#26,Centre-Back,Go Ahead Eagles,Europa League,4,-,-,-,-,-,,,65'
-921306,Eus Waayers,#20,Right-Back,Go Ahead Eagles,Europa League,,,,,,,,,
-85904,Gerrit Nauber,#3,Centre-Back,Go Ahead Eagles,Europa League,3,-,-,2,-,-,,,150'
-241486,Finn Stokkers,#27,Centre-Forward,Go Ahead Eagles,Europa League,6,1,-,1,-,-,,,88'
-805149,Giovanni van Zwam,#25,Centre-Back,Go Ahead Eagles,Europa League,5,-,-,-,-,-,,,247'
-690665,Robbin Weijenberg,#15,Central Midfield,Go Ahead Eagles,Europa League,2,-,-,1,-,-,,,8'
-624698,Pim Saathof,#28,Centre-Back,Go Ahead Eagles,Europa League,,,,,,,,,
-1184614,Ofosu Boakye,#32,Centre-Forward,Go Ahead Eagles,Europa League,1,-,-,-,-,-,,,1'
-690624,Sven Jansen,#30,Goalkeeper,Go Ahead Eagles,Europa League,-,-,,-,-,-,-,-,-
-783017,Nando Verdoni,#33,Goalkeeper,Go Ahead Eagles,Europa League,-,-,,-,-,-,-,-,-
-997903,Givairo Read,#26,Right-Back,Feyenoord,Europa League,3,1,-,1,-,-,,,239'
-917911,Anis Hadj Moussa,#23,Right Winger,Feyenoord,Europa League,8,2,1,3,-,-,,,620'
-601495,Luciano Valente,#10,Central Midfield,Feyenoord,Europa League,8,-,2,1,-,-,,,597'
-589128,Ayase Ueda,#9,Centre-Forward,Feyenoord,Europa League,6,1,-,-,-,-,,,435'
-667965,Oussama Targhalline,#28,Defensive Midfield,Feyenoord,Europa League,7,-,-,3,-,-,,,461'
-377468,Anel Ahmedhodzic,#21,Centre-Back,Feyenoord,Europa League,7,-,-,2,-,-,,,630'
-593519,Sem Steijn,#14,Attacking Midfield,Feyenoord,Europa League,5,-,2,2,-,-,,,424'
-598791,Tsuyoshi Watanabe,#4,Centre-Back,Feyenoord,Europa League,6,1,-,-,-,-,,,413'
-384461,Jakub Moder,#7,Central Midfield,Feyenoord,Europa League,1,-,-,-,-,-,,,21'
-855731,Jordan Bos,#15,Left-Back,Feyenoord,Europa League,5,-,1,-,-,-,,,237'
-365394,In-beom Hwang,#6,Defensive Midfield,Feyenoord,Europa League,4,-,-,1,-,-,,,198'
-710886,Leo Sauer,#16,Left Winger,Feyenoord,Europa League,6,1,-,-,-,-,,,253'
-593862,Thomas Beelen,#3,Centre-Back,Feyenoord,Europa League,,,,,,,,,
+426280,Melle Meulensteen,#21,Midfield,Go Ahead Eagles,Europa League,8,-,1,1,-,-,,,720'
+464454,Stefán Ingi Sigurdarson,#9,Forward,Go Ahead Eagles,Europa League,,,,,,,,,
+529223,Dean James,#5,Defender,Go Ahead Eagles,Europa League,8,-,2,2,-,-,,,708'
+326329,Joris Kramer,#4,Defender,Go Ahead Eagles,Europa League,8,-,1,1,-,-,,,720'
+332530,Alfons Sampsted,#2,Defender,Go Ahead Eagles,Europa League,,,,,,,,,
+361112,Evert Linthorst,#8,Midfield,Go Ahead Eagles,Europa League,7,-,-,-,-,-,,,418'
+265324,Victor Edvardsen,#16,Forward,Go Ahead Eagles,Europa League,5,-,-,1,-,-,,,302'
+412943,Kenzo Goudmijn,#24,Midfield,Go Ahead Eagles,Europa League,5,-,-,-,-,-,,,286'
+727480,Jaden Slory,#19,Forward,Go Ahead Eagles,Europa League,,,,,,,,,
+465326,Richonell Margaret,#18,Forward,Go Ahead Eagles,Europa League,6,-,-,1,-,-,,,296'
+656132,Aske Adelgaard,#29,Defender,Go Ahead Eagles,Europa League,6,-,-,1,-,-,,,180'
+541601,Søren Tengstedt,#10,Midfield,Go Ahead Eagles,Europa League,,,,,,,,,
+486043,Thibo Baeten,#23,Forward,Go Ahead Eagles,Europa League,,,,,,,,,
+715510,Oskar Sivertsen,#11,Forward,Go Ahead Eagles,Europa League,4,-,-,-,-,-,,,199'
+1088311,Yassir Salah Rahmouni,#34,Midfield,Go Ahead Eagles,Europa League,4,-,-,1,-,-,,,206'
+335997,Luca Plogmann,#1,Goalkeeper,Go Ahead Eagles,Europa League,,,,,,,,,
+566930,Julius Dirksen,#26,Defender,Go Ahead Eagles,Europa League,4,-,-,-,-,-,,,65'
+921306,Eus Waayers,#20,Defender,Go Ahead Eagles,Europa League,,,,,,,,,
+85904,Gerrit Nauber,#3,Defender,Go Ahead Eagles,Europa League,3,-,-,2,-,-,,,150'
+241486,Finn Stokkers,#27,Forward,Go Ahead Eagles,Europa League,6,1,-,1,-,-,,,88'
+805149,Giovanni van Zwam,#25,Defender,Go Ahead Eagles,Europa League,5,-,-,-,-,-,,,247'
+690665,Robbin Weijenberg,#15,Midfield,Go Ahead Eagles,Europa League,2,-,-,1,-,-,,,8'
+624698,Pim Saathof,#28,Defender,Go Ahead Eagles,Europa League,,,,,,,,,
+1184614,Ofosu Boakye,#32,Forward,Go Ahead Eagles,Europa League,1,-,-,-,-,-,,,1'
+690624,Sven Jansen,#30,Goalkeeper,Go Ahead Eagles,Europa League,,,,,,,,,
+783017,Nando Verdoni,#33,Goalkeeper,Go Ahead Eagles,Europa League,,,,,,,,,
+997903,Givairo Read,#26,Defender,Feyenoord,Europa League,3,1,-,1,-,-,,,239'
+917911,Anis Hadj Moussa,#23,Forward,Feyenoord,Europa League,8,2,1,3,-,-,,,620'
+601495,Luciano Valente,#10,Midfield,Feyenoord,Europa League,8,-,2,1,-,-,,,597'
+589128,Ayase Ueda,#9,Forward,Feyenoord,Europa League,6,1,-,-,-,-,,,435'
+667965,Oussama Targhalline,#28,Midfield,Feyenoord,Europa League,7,-,-,3,-,-,,,461'
+377468,Anel Ahmedhodzic,#21,Defender,Feyenoord,Europa League,7,-,-,2,-,-,,,630'
+593519,Sem Steijn,#14,Midfield,Feyenoord,Europa League,5,-,2,2,-,-,,,424'
+598791,Tsuyoshi Watanabe,#4,Defender,Feyenoord,Europa League,6,1,-,-,-,-,,,413'
+384461,Jakub Moder,#7,Midfield,Feyenoord,Europa League,1,-,-,-,-,-,,,21'
+855731,Jordan Bos,#15,Defender,Feyenoord,Europa League,5,-,1,-,-,-,,,237'
+365394,In-beom Hwang,#6,Midfield,Feyenoord,Europa League,4,-,-,1,-,-,,,198'
+710886,Leo Sauer,#16,Forward,Feyenoord,Europa League,6,1,-,-,-,-,,,253'
+593862,Thomas Beelen,#3,Defender,Feyenoord,Europa League,,,,,,,,,
 196829,Timon Wellenreuther,#22,Goalkeeper,Feyenoord,Europa League,8,-,,-,-,-,15,1,720'
-374212,Gijs Smal,#5,Left-Back,Feyenoord,Europa League,6,-,1,1,-,-,,,467'
-134425,Raheem Sterling,#19,Right Winger,Feyenoord,Europa League,,,,,,,,,
-479649,Gonçalo Borges,#11,Right Winger,Feyenoord,Europa League,5,1,-,1,-,-,,,374'
-464598,Casper Tengstedt,#17,Centre-Forward,Feyenoord,Europa League,3,2,-,-,-,-,,,219'
-313094,Jordan Lotomba,#30,Right-Back,Feyenoord,Europa League,5,-,-,-,-,-,,,368'
-987370,Thijs Kraaijeveld,#24,Central Midfield,Feyenoord,Europa League,1,-,-,-,-,-,,,69'
-288253,Jeremiah St. Juste,#8,Centre-Back,Feyenoord,Europa League,,,,,,,,,
-775257,Aymen Sliti,#32,Left Winger,Feyenoord,Europa League,3,-,2,-,-,-,,,145'
-1233996,Gaoussou Diarra,#27,Left Winger,Feyenoord,Europa League,2,-,-,-,-,-,,,109'
-1126894,Malcolm Jeng,#31,Centre-Back,Feyenoord,Europa League,1,-,-,-,-,-,,,62'
-59145,Gernot Trauner,#18,Centre-Back,Feyenoord,Europa League,,,,,,,,,
-257987,Bart Nieuwkoop,#2,Right-Back,Feyenoord,Europa League,6,-,-,-,-,-,,,169'
-369554,Mats Deijl,#20,Right-Back,Feyenoord,Europa League,7,1,-,-,-,-,,,630'
-517811,Shaqueel van Persie,#49,Centre-Forward,Feyenoord,Europa League,3,-,2,-,-,-,,,48'
+374212,Gijs Smal,#5,Defender,Feyenoord,Europa League,6,-,1,1,-,-,,,467'
+134425,Raheem Sterling,#19,Forward,Feyenoord,Europa League,,,,,,,,,
+479649,Gonçalo Borges,#11,Forward,Feyenoord,Europa League,5,1,-,1,-,-,,,374'
+464598,Casper Tengstedt,#17,Forward,Feyenoord,Europa League,3,2,-,-,-,-,,,219'
+313094,Jordan Lotomba,#30,Defender,Feyenoord,Europa League,5,-,-,-,-,-,,,368'
+987370,Thijs Kraaijeveld,#24,Midfield,Feyenoord,Europa League,1,-,-,-,-,-,,,69'
+288253,Jeremiah St. Juste,#8,Defender,Feyenoord,Europa League,,,,,,,,,
+775257,Aymen Sliti,#32,Forward,Feyenoord,Europa League,3,-,2,-,-,-,,,145'
+1233996,Gaoussou Diarra,#27,Forward,Feyenoord,Europa League,2,-,-,-,-,-,,,109'
+1126894,Malcolm Jeng,#31,Defender,Feyenoord,Europa League,1,-,-,-,-,-,,,62'
+59145,Gernot Trauner,#18,Defender,Feyenoord,Europa League,,,,,,,,,
+257987,Bart Nieuwkoop,#2,Defender,Feyenoord,Europa League,6,-,-,-,-,-,,,169'
+369554,Mats Deijl,#20,Defender,Feyenoord,Europa League,7,1,-,-,-,-,,,630'
+517811,Shaqueel van Persie,#49,Forward,Feyenoord,Europa League,3,-,2,-,-,-,,,48'
 381469,Steven Benda,#13,Goalkeeper,Feyenoord,Europa League,,,,,,,,,
-1087982,Tobias van den Elshout,#44,Attacking Midfield,Feyenoord,Europa League,-,-,-,-,-,-,,,-
-264176,Liam Bossin,#39,Goalkeeper,Feyenoord,Europa League,-,-,,-,-,-,-,-,-
-595247,Shiloh 't Zand,#25,Attacking Midfield,Feyenoord,Europa League,,,,,,,,,
-746973,Mannou Berger,#37,Goalkeeper,Feyenoord,Europa League,-,-,,-,-,-,-,-,-
-852024,Bénie Traoré,#11,Left Winger,Basel,Europa League,6,-,1,1,-,-,,,361'
-819215,Julien Duranville,#18,Left Winger,Basel,Europa League,,,,,,,,,
-859396,Metinho,#5,Central Midfield,Basel,Europa League,5,-,-,-,-,-,,,405'
-569375,Koba Koindredi,#8,Central Midfield,Basel,Europa League,7,-,-,-,-,-,,,272'
-322655,Flavius Daniliuc,#24,Centre-Back,Basel,Europa League,7,1,1,-,-,-,,,630'
-353886,Keigo Tsunemoto,#6,Right-Back,Basel,Europa League,3,-,-,1,-,-,,,227'
-359409,Dominik Schmid,#31,Left-Back,Basel,Europa League,7,-,-,1,-,-,,,603'
-507344,Becir Omeragic,#4,Centre-Back,Basel,Europa League,,,,,,,,,
-650350,Léo Leroy,#22,Central Midfield,Basel,Europa League,8,-,1,2,-,-,,,555'
-952776,Andrej Bacanin,#14,Defensive Midfield,Basel,Europa League,5,-,-,1,-,-,,,267'
-945345,Marin Soticek,#19,Right Winger,Basel,Europa League,6,-,-,-,-,-,,,178'
-928323,Ibrahim Salah,#21,Left Winger,Basel,Europa League,6,1,-,1,-,-,,,156'
-507488,Nicolas Vouilloz,#3,Centre-Back,Basel,Europa League,5,-,-,2,-,-,,,333'
-705016,Finn van Breemen,#25,Centre-Back,Basel,Europa League,-,-,-,-,-,-,,,-
-86792,Xherdan Shaqiri,#10,Attacking Midfield,Basel,Europa League,8,3,2,-,-,-,,,562'
-406973,Moritz Broschinski,#17,Centre-Forward,Basel,Europa League,6,-,-,-,-,-,,,194'
-195906,Albian Ajeti,#23,Centre-Forward,Basel,Europa League,7,1,-,1,-,-,,,426'
-1138255,Giacomo Koloto,#37,Centre-Forward,Basel,Europa League,,,,,,,,,
-659352,Dion Kacuri,#28,Central Midfield,Basel,Europa League,2,-,-,-,-,-,,,135'
-290032,Kevin Rüegg,#27,Right-Back,Basel,Europa League,4,-,-,1,-,-,,,156'
-1015823,Marvin Akahomen,#43,Centre-Back,Basel,Europa League,-,-,-,-,-,-,,,-
-620312,Moussa Cissé,#29,Left-Back,Basel,Europa League,3,-,-,-,-,-,,,117'
-1223857,Kaio Eduardo,#46,Centre-Forward,Basel,Europa League,1,-,-,-,-,-,,,72'
-806015,Adriano Onyegbule,#0,Attacking Midfield,Basel,Europa League,,,,,,,,,
-688605,Tim Pfeiffer,#47,Goalkeeper,Basel,Europa League,-,-,,-,-,-,-,-,-
-147027,Mirko Salvi,#13,Goalkeeper,Basel,Europa League,2,-,,-,-,-,2,1,135'
+1087982,Tobias van den Elshout,#44,Midfield,Feyenoord,Europa League,,,,,,,,,
+264176,Liam Bossin,#39,Goalkeeper,Feyenoord,Europa League,,,,,,,,,
+595247,Shiloh 't Zand,#25,Midfield,Feyenoord,Europa League,,,,,,,,,
+746973,Mannou Berger,#37,Goalkeeper,Feyenoord,Europa League,,,,,,,,,
+852024,Bénie Traoré,#11,Forward,Basel,Europa League,6,-,1,1,-,-,,,361'
+819215,Julien Duranville,#18,Forward,Basel,Europa League,,,,,,,,,
+859396,Metinho,#5,Midfield,Basel,Europa League,5,-,-,-,-,-,,,405'
+569375,Koba Koindredi,#8,Midfield,Basel,Europa League,7,-,-,-,-,-,,,272'
+322655,Flavius Daniliuc,#24,Defender,Basel,Europa League,7,1,1,-,-,-,,,630'
+353886,Keigo Tsunemoto,#6,Defender,Basel,Europa League,3,-,-,1,-,-,,,227'
+359409,Dominik Schmid,#31,Defender,Basel,Europa League,7,-,-,1,-,-,,,603'
+507344,Becir Omeragic,#4,Defender,Basel,Europa League,,,,,,,,,
+650350,Léo Leroy,#22,Midfield,Basel,Europa League,8,-,1,2,-,-,,,555'
+952776,Andrej Bacanin,#14,Midfield,Basel,Europa League,5,-,-,1,-,-,,,267'
+945345,Marin Soticek,#19,Forward,Basel,Europa League,6,-,-,-,-,-,,,178'
+928323,Ibrahim Salah,#21,Forward,Basel,Europa League,6,1,-,1,-,-,,,156'
+507488,Nicolas Vouilloz,#3,Defender,Basel,Europa League,5,-,-,2,-,-,,,333'
+705016,Finn van Breemen,#25,Defender,Basel,Europa League,,,,,,,,,
+86792,Xherdan Shaqiri,#10,Midfield,Basel,Europa League,8,3,2,-,-,-,,,562'
+406973,Moritz Broschinski,#17,Forward,Basel,Europa League,6,-,-,-,-,-,,,194'
+195906,Albian Ajeti,#23,Forward,Basel,Europa League,7,1,-,1,-,-,,,426'
+1138255,Giacomo Koloto,#37,Forward,Basel,Europa League,,,,,,,,,
+659352,Dion Kacuri,#28,Midfield,Basel,Europa League,2,-,-,-,-,-,,,135'
+290032,Kevin Rüegg,#27,Defender,Basel,Europa League,4,-,-,1,-,-,,,156'
+1015823,Marvin Akahomen,#43,Defender,Basel,Europa League,,,,,,,,,
+620312,Moussa Cissé,#29,Defender,Basel,Europa League,3,-,-,-,-,-,,,117'
+1223857,Kaio Eduardo,#46,Forward,Basel,Europa League,1,-,-,-,-,-,,,72'
+806015,Adriano Onyegbule,#0,Midfield,Basel,Europa League,,,,,,,,,
+688605,Tim Pfeiffer,#47,Goalkeeper,Basel,Europa League,,,,,,,,,
+147027,Mirko Salvi,#13,Goalkeeper,Basel,Europa League,2,-,,-,-,-,2,-,135'
 59238,Marwin Hitz,#1,Goalkeeper,Basel,Europa League,7,-,,-,-,-,11,1,585'
-462832,Mads Bidstrup,#18,Central Midfield,Salzburg,Europa League,5,-,-,-,-,-,,,450'
-929994,Kerim Alajbegovic,#27,Left Winger,Salzburg,Europa League,7,2,1,-,-,-,,,395'
-1075577,Joane Gadou,#23,Centre-Back,Salzburg,Europa League,7,-,-,1,-,-,,,630'
-847278,Karim Konaté,#19,Centre-Forward,Salzburg,Europa League,4,-,1,-,-,-,,,69'
-1236853,Edmund Baidoo,#20,Centre-Forward,Salzburg,Europa League,8,1,-,-,-,-,,,577'
-610405,Maurits Kjaergaard,#14,Central Midfield,Salzburg,Europa League,5,-,1,-,-,-,,,270'
-1089004,Soumaïla Diabaté,#5,Defensive Midfield,Salzburg,Europa League,8,-,1,-,-,-,,,660'
-409517,Yorbe Vertessen,#11,Centre-Forward,Salzburg,Europa League,7,3,-,2,-,-,,,394'
-1041861,Moussa Yeo,#49,Right Winger,Salzburg,Europa League,8,1,1,1,-,-,,,355'
-953893,Clement Bischoff,#7,Left Winger,Salzburg,Europa League,6,-,-,-,-,-,,,228'
-671114,Sota Kitano,#8,Right Midfield,Salzburg,Europa League,6,-,1,1,-,-,,,315'
-715956,Damir Redzic,#24,Right Winger,Salzburg,Europa League,,,,,,,,,
-915418,Jannik Schuster,#44,Centre-Back,Salzburg,Europa League,3,-,-,-,-,-,,,270'
-404260,Aleksa Terzic,#3,Left-Back,Salzburg,Europa League,5,1,1,-,-,-,,,442'
-604320,Frans Krätzig,#13,Left-Back,Salzburg,Europa League,4,1,-,-,-,-,,,270'
-822958,Tim Drexler,#21,Centre-Back,Salzburg,Europa League,,,,,,,,,
+462832,Mads Bidstrup,#18,Midfield,Salzburg,Europa League,5,-,-,-,-,-,,,450'
+929994,Kerim Alajbegovic,#27,Forward,Salzburg,Europa League,7,2,1,-,-,-,,,395'
+1075577,Joane Gadou,#23,Defender,Salzburg,Europa League,7,-,-,1,-,-,,,630'
+847278,Karim Konaté,#19,Forward,Salzburg,Europa League,4,-,1,-,-,-,,,69'
+1236853,Edmund Baidoo,#20,Forward,Salzburg,Europa League,8,1,-,-,-,-,,,577'
+610405,Maurits Kjaergaard,#14,Midfield,Salzburg,Europa League,5,-,1,-,-,-,,,270'
+1089004,Soumaïla Diabaté,#5,Midfield,Salzburg,Europa League,8,-,1,-,-,-,,,660'
+409517,Yorbe Vertessen,#11,Forward,Salzburg,Europa League,7,3,-,2,-,-,,,394'
+1041861,Moussa Yeo,#49,Forward,Salzburg,Europa League,8,1,1,1,-,-,,,355'
+953893,Clement Bischoff,#7,Forward,Salzburg,Europa League,6,-,-,-,-,-,,,228'
+671114,Sota Kitano,#8,Midfield,Salzburg,Europa League,6,-,1,1,-,-,,,315'
+715956,Damir Redzic,#24,Forward,Salzburg,Europa League,,,,,,,,,
+915418,Jannik Schuster,#44,Defender,Salzburg,Europa League,3,-,-,-,-,-,,,270'
+404260,Aleksa Terzic,#3,Defender,Salzburg,Europa League,5,1,1,-,-,-,,,442'
+604320,Frans Krätzig,#13,Defender,Salzburg,Europa League,4,1,-,-,-,-,,,270'
+822958,Tim Drexler,#21,Defender,Salzburg,Europa League,,,,,,,,,
 186374,Alexander Schlager,#1,Goalkeeper,Salzburg,Europa League,7,-,,-,-,-,15,-,630'
-948537,Anrie Chase,#91,Centre-Back,Salzburg,Europa League,,,,,,,,,
-671593,Mamady Diambou,#15,Defensive Midfield,Salzburg,Europa League,1,-,-,1,-,-,,,58'
-1072724,John Mellberg,#4,Centre-Back,Salzburg,Europa League,,,,,,,,,
-804035,Tim Trummer,#37,Right-Back,Salzburg,Europa League,5,-,-,-,-,-,,,238'
-515650,Takumu Kawamura,#16,Defensive Midfield,Salzburg,Europa League,,,,,,,,,
-804034,Valentin Sulzbacher,#38,Central Midfield,Salzburg,Europa League,-,-,-,-,-,-,,,-
-85791,Stefan Lainer,#22,Right-Back,Salzburg,Europa League,6,-,-,1,-,-,,,539'
+948537,Anrie Chase,#91,Defender,Salzburg,Europa League,,,,,,,,,
+671593,Mamady Diambou,#15,Midfield,Salzburg,Europa League,1,-,-,1,-,-,,,58'
+1072724,John Mellberg,#4,Defender,Salzburg,Europa League,,,,,,,,,
+804035,Tim Trummer,#37,Defender,Salzburg,Europa League,5,-,-,-,-,-,,,238'
+515650,Takumu Kawamura,#16,Midfield,Salzburg,Europa League,,,,,,,,,
+804034,Valentin Sulzbacher,#38,Midfield,Salzburg,Europa League,,,,,,,,,
+85791,Stefan Lainer,#22,Defender,Salzburg,Europa League,6,-,-,1,-,-,,,539'
 915421,Christian Zawieschitzky,#52,Goalkeeper,Salzburg,Europa League,1,-,,-,-,-,-,1,90'
-915896,Oliver Lukic,#25,Central Midfield,Salzburg,Europa League,3,-,-,-,-,-,,,19'
-1057525,Enrique Aguilar,#43,Centre-Forward,Salzburg,Europa League,2,-,-,-,-,-,,,30'
-581880,Justin Omoregie,#36,Central Midfield,Salzburg,Europa League,,,,,,,,,
-119234,Karim Onisiwo,#9,Centre-Forward,Salzburg,Europa League,6,-,-,-,-,-,,,112'
-948133,Salko Hamzic,#92,Goalkeeper,Salzburg,Europa League,-,-,,-,-,-,-,-,-
-1011147,Mikey Moore,#47,Left Winger,Rangers,Europa League,7,-,-,1,-,-,,,286'
-422763,Nicolas Raskin,#43,Defensive Midfield,Rangers,Europa League,8,-,1,1,-,-,,,691'
-807417,Emmanuel Fernandez,#37,Centre-Back,Rangers,Europa League,4,-,-,1,-,-,,,328'
-670688,Youssef Chermiti,#9,Centre-Forward,Rangers,Europa League,8,-,-,1,-,-,,,575'
-432982,Andreas Skov Olsen,#7,Right Winger,Rangers,Europa League,,,,,,,,,
-795657,Djeidi Gassama,#23,Left Winger,Rangers,Europa League,8,2,-,2,-,-,,,628'
-658531,Mohamed Diomandé,#10,Central Midfield,Rangers,Europa League,5,1,-,-,1,1,,,340'
-862297,Nasser Djiga,#24,Centre-Back,Rangers,Europa League,6,-,-,1,-,-,,,526'
-553328,Tochi Chukwuani,#42,Defensive Midfield,Rangers,Europa League,5,-,-,1,-,1,,,400'
-707621,Tuur Rommens,#25,Left-Back,Rangers,Europa League,,,,,,,,,
-654257,Ryan Naderi,#20,Centre-Forward,Rangers,Europa League,,,,,,,,,
-471690,Max Aarons,#3,Right-Back,Rangers,Europa League,6,-,-,3,-,-,,,462'
-527896,Oliver Antman,#18,Right Winger,Rangers,Europa League,5,-,-,-,-,-,,,179'
-328609,Derek Cornelius,#13,Centre-Back,Rangers,Europa League,3,-,-,1,-,-,,,173'
-235767,John Souttar,#5,Centre-Back,Rangers,Europa League,5,-,-,1,-,-,,,405'
-647384,Thelo Aasgaard,#11,Attacking Midfield,Rangers,Europa League,8,-,1,-,-,-,,,417'
-476219,Bojan Miovski,#28,Centre-Forward,Rangers,Europa League,8,1,-,-,-,-,,,236'
-567151,Connor Barron,#8,Defensive Midfield,Rangers,Europa League,6,-,-,1,-,-,,,362'
-390177,Nedim Bajrami,#14,Attacking Midfield,Rangers,Europa League,,,,,,,,,
-346315,Dujon Sterling,#21,Right-Back,Rangers,Europa League,1,-,-,-,-,-,,,33'
-954104,Jayden Meghoma,#30,Left-Back,Rangers,Europa League,8,-,-,-,-,-,,,496'
+915896,Oliver Lukic,#25,Midfield,Salzburg,Europa League,3,-,-,-,-,-,,,19'
+1057525,Enrique Aguilar,#43,Forward,Salzburg,Europa League,2,-,-,-,-,-,,,30'
+581880,Justin Omoregie,#36,Midfield,Salzburg,Europa League,,,,,,,,,
+119234,Karim Onisiwo,#9,Forward,Salzburg,Europa League,6,-,-,-,-,-,,,112'
+948133,Salko Hamzic,#92,Goalkeeper,Salzburg,Europa League,,,,,,,,,
+1011147,Mikey Moore,#47,Forward,Rangers,Europa League,7,-,-,1,-,-,,,286'
+422763,Nicolas Raskin,#43,Midfield,Rangers,Europa League,8,-,1,1,-,-,,,691'
+807417,Emmanuel Fernandez,#37,Defender,Rangers,Europa League,4,-,-,1,-,-,,,328'
+670688,Youssef Chermiti,#9,Forward,Rangers,Europa League,8,-,-,1,-,-,,,575'
+432982,Andreas Skov Olsen,#7,Forward,Rangers,Europa League,,,,,,,,,
+795657,Djeidi Gassama,#23,Forward,Rangers,Europa League,8,2,-,2,-,-,,,628'
+658531,Mohamed Diomandé,#10,Midfield,Rangers,Europa League,5,1,-,-,1,1,,,340'
+862297,Nasser Djiga,#24,Defender,Rangers,Europa League,6,-,-,1,-,-,,,526'
+553328,Tochi Chukwuani,#42,Midfield,Rangers,Europa League,5,-,-,1,-,1,,,400'
+707621,Tuur Rommens,#25,Defender,Rangers,Europa League,,,,,,,,,
+654257,Ryan Naderi,#20,Forward,Rangers,Europa League,,,,,,,,,
+471690,Max Aarons,#3,Defender,Rangers,Europa League,6,-,-,3,-,-,,,462'
+527896,Oliver Antman,#18,Forward,Rangers,Europa League,5,-,-,-,-,-,,,179'
+328609,Derek Cornelius,#13,Defender,Rangers,Europa League,3,-,-,1,-,-,,,173'
+235767,John Souttar,#5,Defender,Rangers,Europa League,5,-,-,1,-,-,,,405'
+647384,Thelo Aasgaard,#11,Midfield,Rangers,Europa League,8,-,1,-,-,-,,,417'
+476219,Bojan Miovski,#28,Forward,Rangers,Europa League,8,1,-,-,-,-,,,236'
+567151,Connor Barron,#8,Midfield,Rangers,Europa League,6,-,-,1,-,-,,,362'
+390177,Nedim Bajrami,#14,Midfield,Rangers,Europa League,,,,,,,,,
+346315,Dujon Sterling,#21,Defender,Rangers,Europa League,1,-,-,-,-,-,,,32'
+954104,Jayden Meghoma,#30,Defender,Rangers,Europa League,8,-,-,-,-,-,,,496'
 128899,Jack Butland,#1,Goalkeeper,Rangers,Europa League,8,-,,-,-,-,14,1,720'
-62094,James Tavernier,#2,Right-Back,Rangers,Europa League,7,1,-,-,-,-,,,614'
-208772,Liam Kelly,#31,Goalkeeper,Rangers,Europa League,-,-,,-,-,-,-,-,-
-924849,Bailey Rice,#49,Defensive Midfield,Rangers,Europa League,-,-,-,-,-,-,,,-
-369523,Kieran Wright,#32,Goalkeeper,Rangers,Europa League,-,-,,-,-,-,-,-,-
-670847,Mohamed-Ali Cho,#25,Right Winger,Nice,Europa League,7,1,1,-,-,-,,,261'
-659542,Elye Wahi,#11,Centre-Forward,Nice,Europa League,,,,,,,,,
-569389,Sofiane Diop,#10,Left Winger,Nice,Europa League,5,-,-,-,-,-,,,228'
-560593,Hicham Boudaoui,#6,Central Midfield,Nice,Europa League,3,-,-,-,-,-,,,105'
-1113451,Kojo Peprah Oppong,#37,Centre-Back,Nice,Europa League,5,-,-,1,-,-,,,361'
-1121298,Juma Bah,#28,Centre-Back,Nice,Europa League,6,-,-,-,-,-,,,526'
-532775,Melvin Bard,#26,Left-Back,Nice,Europa League,6,-,-,1,-,-,,,530'
-1089202,Moïse Bombito,#64,Centre-Back,Nice,Europa League,-,-,-,-,-,-,,,-
-674612,Youssouf Ndayishimiye,#55,Centre-Back,Nice,Europa League,,,,,,,,,
+62094,James Tavernier,#2,Defender,Rangers,Europa League,7,1,-,-,-,-,,,614'
+208772,Liam Kelly,#31,Goalkeeper,Rangers,Europa League,,,,,,,,,
+924849,Bailey Rice,#49,Midfield,Rangers,Europa League,,,,,,,,,
+369523,Kieran Wright,#32,Goalkeeper,Rangers,Europa League,,,,,,,,,
+670847,Mohamed-Ali Cho,#25,Forward,Nice,Europa League,7,1,1,-,-,-,,,261'
+659542,Elye Wahi,#11,Forward,Nice,Europa League,,,,,,,,,
+569389,Sofiane Diop,#10,Forward,Nice,Europa League,5,-,-,-,-,-,,,228'
+560593,Hicham Boudaoui,#6,Midfield,Nice,Europa League,3,-,-,-,-,-,,,105'
+1113451,Kojo Peprah Oppong,#37,Defender,Nice,Europa League,5,-,-,1,-,-,,,361'
+1121298,Juma Bah,#28,Defender,Nice,Europa League,6,-,-,-,-,-,,,526'
+532775,Melvin Bard,#26,Defender,Nice,Europa League,6,-,-,1,-,-,,,530'
+1089202,Moïse Bombito,#64,Defender,Nice,Europa League,,,,,,,,,
+674612,Youssouf Ndayishimiye,#55,Defender,Nice,Europa League,,,,,,,,,
 448632,Yehvann Diouf,#80,Goalkeeper,Nice,Europa League,6,-,,-,-,-,13,-,540'
-569845,Charles Vanhoutte,#24,Defensive Midfield,Nice,Europa League,7,1,1,3,-,-,,,450'
-750904,Tom Louchet,#20,Right Midfield,Nice,Europa League,7,-,-,1,-,-,,,524'
-891998,Antoine Mendy,#33,Centre-Back,Nice,Europa League,7,-,1,3,-,-,,,413'
-535820,Isak Jansson,#21,Left Winger,Nice,Europa League,4,-,-,-,-,-,,,181'
-718201,Kevin Carlos,#90,Centre-Forward,Nice,Europa League,8,2,-,-,-,-,,,572'
-175639,Jonathan Clauss,#92,Right-Back,Nice,Europa League,6,-,-,1,1,-,,,273'
-688707,Salis Abdul Samed,#99,Defensive Midfield,Nice,Europa League,5,-,1,1,-,-,,,375'
-479638,Tiago Gouveia,#47,Right Winger,Nice,Europa League,7,2,-,1,-,-,,,383'
-1097113,Kaïl Boudache,#32,Right Winger,Nice,Europa League,2,-,-,1,-,-,,,59'
-174094,Morgan Sanson,#8,Central Midfield,Nice,Europa League,6,-,-,-,-,-,,,340'
-450936,Tanguy Ndombélé,#22,Central Midfield,Nice,Europa League,2,-,-,-,-,-,,,148'
-566025,Mohamed Abdelmonem,#5,Centre-Back,Nice,Europa League,,,,,,,,,
-211474,Ali Abdi,#2,Left-Back,Nice,Europa League,7,-,-,-,-,-,,,407'
-1191473,Everton,#41,Defensive Midfield,Nice,Europa League,2,-,-,-,-,-,,,98'
-1254786,Gabin Bernardeau,#23,Attacking Midfield,Nice,Europa League,,,,,,,,,
+569845,Charles Vanhoutte,#24,Midfield,Nice,Europa League,7,1,1,3,-,-,,,450'
+750904,Tom Louchet,#20,Midfield,Nice,Europa League,7,-,-,1,-,-,,,524'
+891998,Antoine Mendy,#33,Defender,Nice,Europa League,7,-,1,3,-,-,,,413'
+535820,Isak Jansson,#21,Forward,Nice,Europa League,4,-,-,-,-,-,,,181'
+718201,Kevin Carlos,#90,Forward,Nice,Europa League,8,2,-,-,-,-,,,572'
+175639,Jonathan Clauss,#92,Defender,Nice,Europa League,6,-,-,1,1,-,,,273'
+688707,Salis Abdul Samed,#99,Midfield,Nice,Europa League,5,-,1,1,-,-,,,375'
+479638,Tiago Gouveia,#47,Forward,Nice,Europa League,7,2,-,1,-,-,,,380'
+1097113,Kaïl Boudache,#32,Forward,Nice,Europa League,2,-,-,1,-,-,,,59'
+174094,Morgan Sanson,#8,Midfield,Nice,Europa League,6,-,-,-,-,-,,,340'
+450936,Tanguy Ndombélé,#22,Midfield,Nice,Europa League,2,-,-,-,-,-,,,148'
+566025,Mohamed Abdelmonem,#5,Defender,Nice,Europa League,,,,,,,,,
+211474,Ali Abdi,#2,Defender,Nice,Europa League,7,-,-,-,-,-,,,407'
+1191473,Everton,#41,Midfield,Nice,Europa League,2,-,-,-,-,-,,,98'
+1254786,Gabin Bernardeau,#23,Midfield,Nice,Europa League,,,,,,,,,
 127188,Maxime Dupé,#31,Goalkeeper,Nice,Europa League,2,-,,-,-,-,2,-,180'
-1208968,Djibril Coulibaly,#39,Central Midfield,Nice,Europa League,1,-,-,-,-,-,,,45'
-16136,Dante,#4,Centre-Back,Nice,Europa League,3,-,-,-,-,-,,,183'
-828889,Bartosz Zelazowski,#30,Goalkeeper,Nice,Europa League,-,-,,-,-,-,-,-,-
-541134,Souffian El Karouani,#16,Left-Back,Utrecht,Europa League,8,-,2,2,-,-,,,536'
-782476,Yoann Cathline,#10,Left Winger,Utrecht,Europa League,5,-,-,-,-,-,,,371'
-571149,Gjivai Zechiël,#21,Central Midfield,Utrecht,Europa League,7,-,1,3,-,-,,,516'
-565436,Alonzo Engwanda,#27,Defensive Midfield,Utrecht,Europa League,8,-,-,2,-,-,,,668'
-634427,Miguel Rodríguez,#22,Right Winger,Utrecht,Europa League,8,2,-,1,-,-,,,664'
-314915,Siebe Horemans,#2,Right-Back,Utrecht,Europa League,6,-,-,1,-,-,,,540'
-367992,Jesper Karlsson,#11,Left Winger,Utrecht,Europa League,,,,,,,,,
-248658,Vasilios Barkas,#1,Goalkeeper,Utrecht,Europa League,6,-,,-,-,1,10,1,516'
-646739,Ángel Alarcón,#77,Left Winger,Utrecht,Europa League,2,-,-,-,-,-,,,69'
-570597,Matisse Didden,#40,Centre-Back,Utrecht,Europa League,4,-,-,-,-,-,,,250'
-406609,Can Bozdogan,#8,Central Midfield,Utrecht,Europa League,5,-,-,1,-,-,,,261'
-400548,Victor Jensen,#7,Attacking Midfield,Utrecht,Europa League Qualifying,6,5,-,1,-,-,,,442'
-340459,Dani de Wit,#20,Attacking Midfield,Utrecht,Europa League,6,1,-,-,-,-,,,447'
-875581,Adrian Blake,#15,Left Winger,Utrecht,Europa League,7,1,-,-,-,-,,,296'
-482141,Mike Eerdhuijzen,#44,Centre-Back,Utrecht,Europa League,3,-,-,-,-,-,,,162'
-686845,Zidane Iqbal,#14,Central Midfield,Utrecht,Europa League,2,-,-,-,-,-,,,103'
-604813,David Min,#9,Centre-Forward,Utrecht,Europa League,5,-,-,-,-,-,,,203'
-1045344,Artem Stepanov,#18,Centre-Forward,Utrecht,Europa League,,,,,,,,,
-181375,Sébastien Haller,#91,Centre-Forward,Utrecht,Europa League,7,-,1,-,-,-,,,428'
-422932,Niklas Vesterlund,#23,Right-Back,Utrecht,Europa League,4,-,1,-,-,-,,,270'
-187105,Mike van der Hoorn,#3,Centre-Back,Utrecht,Europa League,7,1,-,-,-,-,,,470'
-1112524,Emeka Adiele,#5,Left-Back,Utrecht,Europa League,,,,,,,,,
-918445,Emirhan Demircan,#17,Left Winger,Utrecht,Europa League Qualifying,-,-,-,-,-,-,,,-
-1111077,Jaygo van Ommeren,#46,Defensive Midfield,Utrecht,Europa League,1,-,-,-,-,-,,,22'
-738475,Oualid Agougil,#38,Defensive Midfield,Utrecht,Europa League,,,,,,,,,
-738479,Rafik El Arguioui,#43,Attacking Midfield,Utrecht,Europa League,2,-,-,-,-,-,,,13'
-93081,Nick Viergever,#24,Centre-Back,Utrecht,Europa League,7,-,-,-,-,-,,,549'
-231650,Michael Brouwer,#25,Goalkeeper,Utrecht,Europa League,3,-,,-,-,-,4,1,201'
-607133,Kevin Gadellaa,#33,Goalkeeper,Utrecht,Europa League,-,-,,-,-,-,-,-,-
-698742,Busanello,#25,Left-Back,Malmö,Europa League,7,-,-,3,-,-,,,624'
-418559,Erik Botheim,#20,Centre-Forward,Malmö,Europa League,3,-,-,-,-,-,,,107'
-667249,Otto Rosengren,#7,Central Midfield,Malmö,Europa League,4,-,1,1,-,-,,,347'
-349300,Sead Haksabanovic,#29,Left Winger,Malmö,Europa League,7,-,-,-,-,-,,,443'
-405375,Colin Rösler,#19,Centre-Back,Malmö,Europa League,7,-,-,1,-,-,,,630'
-946045,Jovan Milosavljevic,#28,Central Midfield,Malmö,Europa League,,,,,,,,,
-377665,Arnór Sigurdsson,#8,Left Winger,Malmö,Europa League,1,-,-,-,-,-,,,61'
-1069508,Bleon Kurtulus,#4,Centre-Back,Malmö,Europa League,,,,,,,,,
-731771,Taha Ali,#22,Left Winger,Malmö,Europa League,4,1,1,-,-,-,,,113'
-295572,Stefano Vecchia,#21,Left Winger,Malmö,Europa League,3,-,-,1,-,-,,,30'
-1126111,Oscar Sjöstrand,#0,Left Winger,Malmö,Europa League,,,,,,,,,
-256003,Yanis Karabelyov,#6,Defensive Midfield,Malmö,Europa League Qualifying,2,-,-,-,-,-,,,56'
-125314,Pontus Jansson,#18,Centre-Back,Malmö,Europa League,7,-,-,1,-,-,,,556'
+1208968,Djibril Coulibaly,#39,Midfield,Nice,Europa League,1,-,-,-,-,-,,,45'
+16136,Dante,#4,Defender,Nice,Europa League,3,-,-,-,-,-,,,183'
+828889,Bartosz Zelazowski,#30,Goalkeeper,Nice,Europa League,,,,,,,,,
+541134,Souffian El Karouani,#16,Defender,Utrecht,Europa League,8,-,2,2,-,-,,,536'
+782476,Yoann Cathline,#10,Forward,Utrecht,Europa League,5,-,-,-,-,-,,,371'
+571149,Gjivai Zechiël,#21,Midfield,Utrecht,Europa League,7,-,1,3,-,-,,,516'
+565436,Alonzo Engwanda,#27,Midfield,Utrecht,Europa League,8,-,-,2,-,-,,,668'
+634427,Miguel Rodríguez,#22,Forward,Utrecht,Europa League,8,2,-,1,-,-,,,664'
+314915,Siebe Horemans,#2,Defender,Utrecht,Europa League,6,-,-,1,-,-,,,540'
+367992,Jesper Karlsson,#11,Forward,Utrecht,Europa League,,,,,,,,,
+248658,Vasilios Barkas,#1,Goalkeeper,Utrecht,Europa League,6,-,,-,-,1,11,-,516'
+646739,Ángel Alarcón,#77,Forward,Utrecht,Europa League,2,-,-,-,-,-,,,69'
+570597,Matisse Didden,#40,Defender,Utrecht,Europa League,4,-,-,-,-,-,,,250'
+406609,Can Bozdogan,#8,Midfield,Utrecht,Europa League,5,-,-,1,-,-,,,261'
+400548,Victor Jensen,#7,Midfield,Utrecht,Europa League,,,,,,,,,
+340459,Dani de Wit,#20,Midfield,Utrecht,Europa League,6,1,-,-,-,-,,,446'
+875581,Adrian Blake,#15,Forward,Utrecht,Europa League,7,1,-,-,-,-,,,296'
+482141,Mike Eerdhuijzen,#44,Defender,Utrecht,Europa League,3,-,-,-,-,-,,,162'
+686845,Zidane Iqbal,#14,Midfield,Utrecht,Europa League,2,-,-,-,-,-,,,103'
+604813,David Min,#9,Forward,Utrecht,Europa League,5,-,-,-,-,-,,,203'
+1045344,Artem Stepanov,#18,Forward,Utrecht,Europa League,,,,,,,,,
+181375,Sébastien Haller,#91,Forward,Utrecht,Europa League,7,-,1,-,-,-,,,428'
+422932,Niklas Vesterlund,#23,Defender,Utrecht,Europa League,4,-,1,-,-,-,,,270'
+187105,Mike van der Hoorn,#3,Defender,Utrecht,Europa League,7,1,-,-,-,-,,,470'
+1112524,Emeka Adiele,#5,Defender,Utrecht,Europa League,,,,,,,,,
+918445,Emirhan Demircan,#17,Forward,Utrecht,Europa League,,,,,,,,,
+1111077,Jaygo van Ommeren,#46,Midfield,Utrecht,Europa League,1,-,-,-,-,-,,,22'
+738475,Oualid Agougil,#38,Midfield,Utrecht,Europa League,,,,,,,,,
+738479,Rafik El Arguioui,#43,Midfield,Utrecht,Europa League,2,-,-,-,-,-,,,13'
+93081,Nick Viergever,#24,Defender,Utrecht,Europa League,7,-,-,-,-,-,,,549'
+231650,Michael Brouwer,#25,Goalkeeper,Utrecht,Europa League,3,-,,-,-,-,4,-,201'
+607133,Kevin Gadellaa,#33,Goalkeeper,Utrecht,Europa League,,,,,,,,,
+698742,Busanello,#25,Defender,Malmö,Europa League,7,-,-,3,-,-,,,624'
+418559,Erik Botheim,#20,Forward,Malmö,Europa League,3,-,-,-,-,-,,,105'
+667249,Otto Rosengren,#7,Midfield,Malmö,Europa League,4,-,1,1,-,-,,,347'
+349300,Sead Haksabanovic,#29,Forward,Malmö,Europa League,7,-,-,-,-,-,,,443'
+405375,Colin Rösler,#19,Defender,Malmö,Europa League,7,-,-,1,-,-,,,630'
+946045,Jovan Milosavljevic,#28,Midfield,Malmö,Europa League,,,,,,,,,
+377665,Arnór Sigurdsson,#8,Forward,Malmö,Europa League,1,-,-,-,-,-,,,61'
+1069508,Bleon Kurtulus,#4,Defender,Malmö,Europa League,,,,,,,,,
+731771,Taha Ali,#22,Forward,Malmö,Europa League,4,1,1,-,-,-,,,113'
+295572,Stefano Vecchia,#21,Forward,Malmö,Europa League,3,-,-,1,-,-,,,30'
+1126111,Oscar Sjöstrand,#0,Forward,Malmö,Europa League,,,,,,,,,
+256003,Yanis Karabelyov,#6,Midfield,Malmö,Europa League,,,,,,,,,
+125314,Pontus Jansson,#18,Defender,Malmö,Europa League,7,-,-,1,-,-,,,556'
 75458,Robin Olsen,#30,Goalkeeper,Malmö,Europa League,3,-,,-,-,-,7,-,270'
-706560,Andrej Djuric,#5,Centre-Back,Malmö,Europa League,4,-,-,-,-,-,,,255'
-927094,Daníel Gudjohnsen,#32,Centre-Forward,Malmö,Europa League,6,-,-,-,-,1,,,303'
-1150261,Adrian Skogmar,#37,Central Midfield,Malmö,Europa League,7,-,-,1,-,-,,,503'
-603891,Emmanuel Ekong,#11,Left Winger,Malmö,Europa League,7,-,-,1,-,-,,,368'
-667869,Johan Karlsson,#2,Right-Back,Malmö,Europa League,3,-,-,-,-,-,,,186'
-1044284,Kenan Busuladzic,#40,Central Midfield,Malmö,Europa League,7,-,1,2,-,-,,,463'
-69646,Jens Stryger,#17,Right-Back,Malmö,Europa League,6,-,-,1,-,-,,,532'
-861568,Noah Åstrand John,#23,Left-Back,Malmö,Europa League,,,,,,,,,
+706560,Andrej Djuric,#5,Defender,Malmö,Europa League,4,-,-,-,-,-,,,255'
+927094,Daníel Gudjohnsen,#32,Forward,Malmö,Europa League,6,-,-,-,-,1,,,303'
+1150261,Adrian Skogmar,#37,Midfield,Malmö,Europa League,7,-,-,1,-,-,,,503'
+603891,Emmanuel Ekong,#11,Forward,Malmö,Europa League,7,-,-,1,-,-,,,368'
+667869,Johan Karlsson,#2,Defender,Malmö,Europa League,3,-,-,-,-,-,,,186'
+1044284,Kenan Busuladzic,#40,Midfield,Malmö,Europa League,7,-,1,2,-,-,,,463'
+69646,Jens Stryger,#17,Defender,Malmö,Europa League,6,-,-,1,-,-,,,532'
+861568,Noah Åstrand John,#23,Defender,Malmö,Europa League,,,,,,,,,
 372201,Ricardo Friedrich,#1,Goalkeeper,Malmö,Europa League,,,,,,,,,
-77259,Anders Christiansen,#10,Central Midfield,Malmö,Europa League,5,-,-,2,-,-,,,201'
-1457761,Theodor Lundbergh,#47,Central Midfield,Malmö,Europa League,3,-,-,-,-,-,,,217'
-41653,Johan Dahlin,#27,Goalkeeper,Malmö,Europa League,-,-,,-,-,-,-,-,-
+77259,Anders Christiansen,#10,Midfield,Malmö,Europa League,5,-,-,2,-,-,,,201'
+1457761,Theodor Lundbergh,#47,Midfield,Malmö,Europa League,3,-,-,-,-,-,,,217'
+41653,Johan Dahlin,#27,Goalkeeper,Malmö,Europa League,,,,,,,,,
 1016314,William Nieroth Lundgren,#39,Goalkeeper,Malmö,Europa League,,,,,,,,,
-1026247,Malte Frejd Pålsson,#44,Centre-Back,Malmö,Europa League,1,-,-,-,-,-,,,81'
-1055216,Viggo Jeppsson,#42,Central Midfield,Malmö,Europa League,,,,,,,,,
-1069511,Gentian Lajqi,#43,Left Midfield,Malmö,Europa League,,,,,,,,,
-1146607,Antonio Palac,#46,Attacking Midfield,Malmö,Europa League,-,-,-,-,-,-,,,-
-1331431,Anton Höög,#45,Attacking Midfield,Malmö,Europa League,,,,,,,,,
-1421668,Omar Krajina,#33,Centre-Forward,Malmö,Europa League,,,,,,,,,
-507223,Kristijan Belic,#17,Defensive Midfield,M. Tel Aviv,Europa League,2,-,-,1,-,-,,,180'
-919538,Roy Revivo,#3,Left-Back,M. Tel Aviv,Europa League,8,1,-,1,-,-,,,675'
-811805,Tyrese Asante,#6,Right-Back,M. Tel Aviv,Europa League,7,-,-,1,-,-,,,508'
-204987,Dor Peretz,#42,Central Midfield,M. Tel Aviv,Europa League,8,-,-,-,-,-,,,544'
-211847,Osher Davida,#77,Right Winger,M. Tel Aviv,Europa League,7,-,-,1,-,-,,,360'
-1002520,Sayed Abu Farkhi,#34,Centre-Forward,M. Tel Aviv,Europa League,5,1,-,-,-,-,,,325'
-403177,Emir Sahiti,#70,Right Winger,M. Tel Aviv,Europa League,,,,,,,,,
-426723,Mohamed Camara,#5,Centre-Back,M. Tel Aviv,Europa League,5,-,-,2,-,-,,,355'
-896338,Kervin Andrade,#10,Attacking Midfield,M. Tel Aviv,Europa League,8,-,-,1,-,-,,,394'
-740674,Issouf Sissokho,#28,Defensive Midfield,M. Tel Aviv,Europa League,6,-,-,2,-,-,,,445'
-396635,Raz Shlomo,#13,Centre-Back,M. Tel Aviv,Europa League,7,-,-,1,-,-,,,528'
-840836,Hélio Varela,#29,Left Winger,M. Tel Aviv,Europa League,8,-,-,-,-,-,,,369'
-982568,Noam Ben Harush,#21,Right-Back,M. Tel Aviv,Europa League,4,-,-,-,-,-,,,303'
-438310,Ion Nicolaescu,#98,Centre-Forward,M. Tel Aviv,Europa League Qualifying,4,-,-,1,-,-,,,153'
-519506,Ido Shahar,#36,Defensive Midfield,M. Tel Aviv,Europa League,7,-,-,-,-,-,,,228'
-1079637,Elad Madmon,#19,Centre-Forward,M. Tel Aviv,Europa League,6,-,-,-,-,-,,,248'
-648091,Itamar Noy,#30,Defensive Midfield,M. Tel Aviv,Europa League,6,-,-,2,-,-,,,323'
-815672,Heitor,#4,Centre-Back,M. Tel Aviv,Europa League,6,-,-,-,-,-,,,499'
+1026247,Malte Frejd Pålsson,#44,Defender,Malmö,Europa League,1,-,-,-,-,-,,,81'
+1055216,Viggo Jeppsson,#42,Midfield,Malmö,Europa League,,,,,,,,,
+1069511,Gentian Lajqi,#43,Midfield,Malmö,Europa League,,,,,,,,,
+1146607,Antonio Palac,#46,Midfield,Malmö,Europa League,,,,,,,,,
+1331431,Anton Höög,#45,Midfield,Malmö,Europa League,,,,,,,,,
+1421668,Omar Krajina,#33,Forward,Malmö,Europa League,,,,,,,,,
+507223,Kristijan Belic,#17,Midfield,M. Tel Aviv,Europa League,2,-,-,1,-,-,,,180'
+919538,Roy Revivo,#3,Defender,M. Tel Aviv,Europa League,8,1,-,1,-,-,,,675'
+811805,Tyrese Asante,#6,Defender,M. Tel Aviv,Europa League,7,-,-,1,-,-,,,508'
+204987,Dor Peretz,#42,Midfield,M. Tel Aviv,Europa League,8,-,-,-,-,-,,,543'
+211847,Osher Davida,#77,Forward,M. Tel Aviv,Europa League,7,-,-,1,-,-,,,360'
+1002520,Sayed Abu Farkhi,#34,Forward,M. Tel Aviv,Europa League,5,1,-,-,-,-,,,325'
+403177,Emir Sahiti,#70,Forward,M. Tel Aviv,Europa League,,,,,,,,,
+426723,Mohamed Camara,#5,Defender,M. Tel Aviv,Europa League,5,-,-,2,-,-,,,355'
+896338,Kervin Andrade,#10,Midfield,M. Tel Aviv,Europa League,8,-,-,1,-,-,,,394'
+740674,Issouf Sissokho,#28,Midfield,M. Tel Aviv,Europa League,6,-,-,2,-,-,,,445'
+396635,Raz Shlomo,#13,Defender,M. Tel Aviv,Europa League,7,-,-,1,-,-,,,528'
+840836,Hélio Varela,#29,Forward,M. Tel Aviv,Europa League,8,-,-,-,-,-,,,369'
+982568,Noam Ben Harush,#21,Defender,M. Tel Aviv,Europa League,4,-,-,-,-,-,,,303'
+438310,Ion Nicolaescu,#98,Forward,M. Tel Aviv,Europa League,2,-,-,-,-,-,,,45'
+519506,Ido Shahar,#36,Midfield,M. Tel Aviv,Europa League,7,-,-,-,-,-,,,228'
+1079637,Elad Madmon,#19,Forward,M. Tel Aviv,Europa League,6,-,-,-,-,-,,,248'
+648091,Itamar Noy,#30,Midfield,M. Tel Aviv,Europa League,6,-,-,2,-,-,,,323'
+815672,Heitor,#4,Defender,M. Tel Aviv,Europa League,6,-,-,-,-,-,,,499'
 930521,Ofek Melika,#22,Goalkeeper,M. Tel Aviv,Europa League,1,-,,-,-,-,3,-,90'
-366929,Ben Lederman,#23,Defensive Midfield,M. Tel Aviv,Europa League,5,-,1,1,-,-,,,298'
-293603,Sagiv Jehezkel,#11,Right Winger,M. Tel Aviv,Europa League,5,-,-,2,1,-,,,268'
-668590,Itay Ben Hamo,#41,Centre-Back,M. Tel Aviv,Europa League,3,-,1,1,-,-,,,258'
-624717,Denny Gropper,#14,Left-Back,M. Tel Aviv,Europa League,-,-,-,-,-,-,,,-
-1261451,Ilay Ben Simon,#60,Centre-Forward,M. Tel Aviv,Europa League,3,-,-,-,-,-,,,27'
-211845,Yonas Malede,#15,Centre-Forward,M. Tel Aviv,Europa League,1,-,-,-,-,-,,,27'
+366929,Ben Lederman,#23,Midfield,M. Tel Aviv,Europa League,5,-,1,1,-,-,,,298'
+293603,Sagiv Jehezkel,#11,Forward,M. Tel Aviv,Europa League,5,-,-,1,1,-,,,265'
+668590,Itay Ben Hamo,#41,Defender,M. Tel Aviv,Europa League,3,-,1,1,-,-,,,258'
+624717,Denny Gropper,#14,Defender,M. Tel Aviv,Europa League,,,,,,,,,
+1261451,Ilay Ben Simon,#60,Forward,M. Tel Aviv,Europa League,3,-,-,-,-,-,,,27'
+211845,Yonas Malede,#15,Forward,M. Tel Aviv,Europa League,1,-,-,-,-,-,,,27'
 200575,Roi Mishpati,#90,Goalkeeper,M. Tel Aviv,Europa League,7,-,,-,-,-,19,1,630'
-1364962,Shalev Saadia,#51,Goalkeeper,M. Tel Aviv,Europa League,-,-,,-,-,-,-,-,-
+1364962,Shalev Saadia,#51,Goalkeeper,M. Tel Aviv,Europa League,,,,,,,,,

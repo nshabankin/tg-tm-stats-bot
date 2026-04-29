@@ -327,6 +327,118 @@ class PlayerStatsMatcherTests(unittest.TestCase):
             )
         )
 
+    def test_build_player_stats_from_api_aggregates_competition_season(self) -> None:
+        player = {
+            'id': '566723',
+            'name': 'Michael Olise',
+            'shirtNumber': '17',
+            'positionId': '4',
+            'position': 'Forward',
+            'club': 'Bayern Munich',
+        }
+        performances = [
+            {
+                'gameInformation': {
+                    'competitionId': 'L1',
+                    'seasonId': 2025,
+                },
+                'clubsInformation': {'club': {'opponentGoalsTotal': 0}},
+                'statistics': {
+                    'generalStatistics': {'participationState': 'played'},
+                    'goalStatistics': {
+                        'goalsScoredTotal': 1,
+                        'assists': 2,
+                    },
+                    'cardStatistics': {
+                        'yellowCardNet': 1,
+                        'yellowRedCard': 0,
+                        'redCard': 0,
+                    },
+                    'playingTimeStatistics': {'playedMinutes': 90},
+                },
+            },
+            {
+                'gameInformation': {
+                    'competitionId': 'CL',
+                    'seasonId': 2025,
+                },
+                'clubsInformation': {'club': {'opponentGoalsTotal': 1}},
+                'statistics': {
+                    'generalStatistics': {'participationState': 'played'},
+                    'goalStatistics': {
+                        'goalsScoredTotal': 4,
+                        'assists': 4,
+                    },
+                    'cardStatistics': {'yellowCardNet': 1},
+                    'playingTimeStatistics': {'playedMinutes': 90},
+                },
+            },
+        ]
+
+        row = player_stats.build_player_stats_from_api(
+            player,
+            performances,
+            'bundesliga',
+            2025,
+            'Bundesliga',
+        )
+
+        self.assertEqual(row['played'], '1')
+        self.assertEqual(row['goals'], '1')
+        self.assertEqual(row['assists'], '2')
+        self.assertEqual(row['yellow_cards'], '1')
+        self.assertEqual(row['minutes'], "90'")
+
+    @patch('tmstats.player_stats.fetch_text')
+    @patch('tmstats.player_stats.fetch_performance_games')
+    def test_fetch_stats_preserves_existing_row_on_transient_api_failure(
+            self,
+            fetch_performance_games_mock,
+            fetch_text_mock) -> None:
+        existing_row = {
+            'player_id': '700106',
+            'player_name': 'Brajan Gruda',
+            'number': '#10',
+            'position': 'Midfield',
+            'club': 'RB Leipzig',
+            'league': 'Bundesliga',
+            'played': '10',
+            'goals': '3',
+            'assists': '2',
+            'yellow_cards': '1',
+            'second_yellows': '-',
+            'red_cards': '-',
+            'conceded': '',
+            'clean_sheets': '',
+            'minutes': "568'",
+        }
+        player = {
+            'id': '700106',
+            'name': 'Brajan Gruda',
+            'shirtNumber': '10',
+            'positionId': '3',
+            'position': 'Midfield',
+            'club': 'RB Leipzig',
+            'link': '/brajan-gruda/profil/spieler/700106',
+        }
+        fetch_performance_games_mock.side_effect = RuntimeError('502 error')
+        fetch_text_mock.return_value = '''
+            <tm-player-performance-table-new data-type="performanceByCompetitions">
+            </tm-player-performance-table-new>
+        '''
+
+        rows = player_stats.fetch_stats(
+            object(),
+            'bundesliga',
+            [player],
+            2025,
+            20,
+            delay=0,
+            existing_rows=[existing_row],
+        )
+
+        self.assertEqual(rows, [existing_row])
+
 
 if __name__ == '__main__':
     unittest.main()
