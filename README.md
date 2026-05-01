@@ -173,11 +173,14 @@ Refresh one UEFA competition:
 python refresh_data.py --league ucl
 ```
 
-Refresh all leagues:
+Refresh all leagues with a full stats rebuild:
 
 ```bash
 python refresh_data.py --all
 ```
+
+Use this when you intentionally want to rebuild every saved player-stat
+snapshot. For routine catch-up work, prefer the targeted command below.
 
 Force a fresh roster pull when you actually need to rebuild squads, for example
 around transfer windows:
@@ -219,6 +222,11 @@ That mode:
 - writes a per-league refresh state snapshot so you can inspect what changed
   without diffing CSV/JSON files manually
 
+This is the recommended regular refresh command. It avoids unnecessary player
+stat refreshes when a league has no newly completed matches, and in late-stage
+UEFA weeks it refreshes only the clubs involved in changed knockout fixtures
+instead of rebuilding every league-phase squad.
+
 If the baseline CSV/JSON snapshots are missing, it falls back to a full league
 refresh for safety.
 
@@ -226,10 +234,13 @@ The refresh writes files into `tmstats/<league>/`.
 When a CSV or JSON snapshot does not actually change, the refresh now skips the
 rewrite and avoids regenerating the matching PDF unnecessarily.
 
-The stats refresh now tries to match the domestic-league competition row on
-each player page. If Transfermarkt serves a challenge page or the competition
-row is missing, the script will warn for that player. Treat repeated warnings
-as a failed refresh signal rather than as valid zero-stat data.
+The stats refresh reads Transfermarkt's structured player-performance data
+first, then falls back to the older player-page parser if needed. If a
+per-player API request has a transient failure and the old page no longer
+contains a usable stats table, the script preserves that player's existing
+stats row instead of writing blanks. Treat repeated human-verification or
+player-level warnings as a failed refresh signal rather than as valid zero-stat
+data.
 
 For example, an EPL refresh produces files like:
 

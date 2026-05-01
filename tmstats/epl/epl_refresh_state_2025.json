@@ -1,8 +1,8 @@
 {
   "league": "epl",
   "season": 2025,
-  "updatedAt": "2026-04-29T08:11:51+00:00",
-  "mode": "full",
+  "updatedAt": "2026-05-01T06:59:30+00:00",
+  "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
     "players": 528,
@@ -57,7 +57,7 @@
     "lastCompletedMatchday": 34
   },
   "stats": {
-    "status": "refreshed",
+    "status": "skipped",
     "changedClubs": [],
     "resolvedClubs": [],
     "unresolvedClubs": []
@@ -65,10 +65,10 @@
   "outputs": {
     "tableChanged": false,
     "playersChanged": false,
-    "statsChanged": true,
+    "statsChanged": false,
     "matchesChanged": false,
     "bracketChanged": false,
     "tablePdfRendered": false,
-    "statsPdfRendered": true
+    "statsPdfRendered": false
   }
 }

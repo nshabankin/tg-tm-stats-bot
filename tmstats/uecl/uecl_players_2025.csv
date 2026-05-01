@@ -1,29 +1,4 @@
 id,name,shirtNumber,positionId,position,club,link
-1064871,Joaquín Panichelli,9,4,Forward,R. Strasbourg,/joaquin-panichelli/profil/spieler/1064871
-849410,Valentín Barco,32,3,Midfield,R. Strasbourg,/valentin-barco/profil/spieler/849410
-559328,Emmanuel Emegha,10,4,Forward,R. Strasbourg,/emmanuel-emegha/profil/spieler/559328
-655006,Diego Moreira,7,3,Midfield,R. Strasbourg,/diego-moreira/profil/spieler/655006
-660867,Julio Enciso,19,3,Midfield,R. Strasbourg,/julio-enciso/profil/spieler/660867
-834397,Mike Penders,39,1,Goalkeeper,R. Strasbourg,/mike-penders/profil/spieler/834397
-786436,Ismaël Doukouré,6,2,Defender,R. Strasbourg,/ismael-doukoure/profil/spieler/786436
-1130514,Samir El Mourabet,29,3,Midfield,R. Strasbourg,/samir-el-mourabet/profil/spieler/1130514
-992686,Martial Godo,20,4,Forward,R. Strasbourg,/martial-godo/profil/spieler/992686
-711980,Guéla Doué,22,2,Defender,R. Strasbourg,/guela-doue/profil/spieler/711980
-991487,Abdoul Ouattara,42,4,Forward,R. Strasbourg,/abdoul-ouattara/profil/spieler/991487
-926978,Lucas Høgsberg,24,2,Defender,R. Strasbourg,/lucas-hogsberg/profil/spieler/926978
-316125,Ben Chilwell,3,2,Defender,R. Strasbourg,/ben-chilwell/profil/spieler/316125
-1145504,Aarón Anselmino,5,2,Defender,R. Strasbourg,/aaron-anselmino/profil/spieler/1145504
-579928,Sebastian Nanasi,11,3,Midfield,R. Strasbourg,/sebastian-nanasi/profil/spieler/579928
-1010854,Mathis Amougou,17,3,Midfield,R. Strasbourg,/mathis-amougou/profil/spieler/1010854
-1151929,Gessime Yassine,80,4,Forward,R. Strasbourg,/gessime-yassine/profil/spieler/1151929
-933900,Samuel Amo-Ameyaw,27,4,Forward,R. Strasbourg,/samuel-amo-ameyaw/profil/spieler/933900
-621993,Andrew Omobamidele,2,2,Defender,R. Strasbourg,/andrew-omobamidele/profil/spieler/621993
-1011200,Junior Mwanga,18,3,Midfield,R. Strasbourg,/junior-mwanga/profil/spieler/1011200
-787232,David Datro Fofana,15,4,Forward,R. Strasbourg,/david-datro-fofana/profil/spieler/787232
-863204,Maxi Oyedele,8,3,Midfield,R. Strasbourg,/maxi-oyedele/profil/spieler/863204
-637803,Rafael Luís,83,3,Midfield,R. Strasbourg,/rafael-luis/profil/spieler/637803
-465836,Stefan Bajic,50,1,Goalkeeper,R. Strasbourg,/stefan-bajic/profil/spieler/465836
-112822,Karl-Johan Johnsson,1,1,Goalkeeper,R. Strasbourg,/karl-johan-johnsson/profil/spieler/112822
 435587,Jonatan Braut Brunes,18,4,Forward,Raków,/jonatan-braut-brunes/profil/spieler/435587
 318257,Stratos Svarnas,4,2,Defender,Raków,/stratos-svarnas/profil/spieler/318257
 720120,Kacper Trelowski,1,1,Goalkeeper,Raków,/kacper-trelowski/profil/spieler/720120
@@ -113,67 +88,6 @@ id,name,shirtNumber,positionId,position,club,link
 419723,Elias Cobbaut,33,2,Defender,Sparta Prague,/elias-cobbaut/profil/spieler/419723
 854085,Ivan Mensah,50,2,Defender,Sparta Prague,/ivan-mensah/profil/spieler/854085
 668571,Daniel Kerl,61,1,Goalkeeper,Sparta Prague,/daniel-kerl/profil/spieler/668571
-527966,Andrei Rațiu,2,2,Defender,Rayo Vallecano,/andrei-ratiu/profil/spieler/527966
-709969,Ilias Akhomach,12,4,Forward,Rayo Vallecano,/ilias-akhomach/profil/spieler/709969
-455181,Jorge de Frutos,19,4,Forward,Rayo Vallecano,/jorge-de-frutos/profil/spieler/455181
-596122,Pep Chavarría,3,2,Defender,Rayo Vallecano,/pep-chavarria/profil/spieler/596122
-1034853,Nobel Mendy,32,2,Defender,Rayo Vallecano,/nobel-mendy/profil/spieler/1034853
-275218,Augusto Batalla,13,1,Goalkeeper,Rayo Vallecano,/augusto-batalla/profil/spieler/275218
-451801,Abdul Mumin,16,2,Defender,Rayo Vallecano,/abdul-mumin/profil/spieler/451801
-362086,Isi Palazón,7,4,Forward,Rayo Vallecano,/isi-palazon/profil/spieler/362086
-363057,Pedro Díaz,4,3,Midfield,Rayo Vallecano,/pedro-diaz/profil/spieler/363057
-457931,Luiz Felipe,5,2,Defender,Rayo Vallecano,/luiz-felipe/profil/spieler/457931
-560417,Alemão,9,4,Forward,Rayo Vallecano,/alemao/profil/spieler/560417
-622988,Fran Pérez,21,4,Forward,Rayo Vallecano,/fran-perez/profil/spieler/622988
-765467,Jozhua Vertrouwd,33,2,Defender,Rayo Vallecano,/jozhua-vertrouwd/profil/spieler/765467
-192009,Unai López,17,3,Midfield,Rayo Vallecano,/unai-lopez/profil/spieler/192009
-517753,Óscar Valentín,23,3,Midfield,Rayo Vallecano,/oscar-valentin/profil/spieler/517753
-505674,Sergio Camello,10,4,Forward,Rayo Vallecano,/sergio-camello/profil/spieler/505674
-525578,Pathé Ciss,6,3,Midfield,Rayo Vallecano,/pathe-ciss/profil/spieler/525578
-127108,Florian Lejeune,24,2,Defender,Rayo Vallecano,/florian-lejeune/profil/spieler/127108
-618813,Carlos Martín,14,4,Forward,Rayo Vallecano,/carlos-martin/profil/spieler/618813
-397676,Dani Cárdenas,1,1,Goalkeeper,Rayo Vallecano,/dani-cardenas/profil/spieler/397676
-257062,Álvaro García,18,4,Forward,Rayo Vallecano,/alvaro-garcia/profil/spieler/257062
-268670,Gerard Gumbau,15,3,Midfield,Rayo Vallecano,/gerard-gumbau/profil/spieler/268670
-85295,Iván Balliu,20,2,Defender,Rayo Vallecano,/ivan-balliu/profil/spieler/85295
-560483,Randy Nteka,11,3,Midfield,Rayo Vallecano,/randy-nteka/profil/spieler/560483
-311044,Alfonso Espino,22,2,Defender,Rayo Vallecano,/alfonso-espino/profil/spieler/311044
-30321,Óscar Trejo,8,3,Midfield,Rayo Vallecano,/oscar-trejo/profil/spieler/30321
-1384911,Samu Becerra,28,3,Midfield,Rayo Vallecano,/samu-becerra/profil/spieler/1384911
-289059,Mykola Matvienko,22,2,Defender,Shakhtar D.,/mykola-matvienko/profil/spieler/289059
-1119009,Kauã Elias,19,4,Forward,Shakhtar D.,/kaua-elias/profil/spieler/1119009
-668235,Marlon Gomes,6,3,Midfield,Shakhtar D.,/marlon-gomes/profil/spieler/668235
-1220143,Luca Meirelles,49,4,Forward,Shakhtar D.,/luca-meirelles/profil/spieler/1220143
-515208,Pedrinho,10,4,Forward,Shakhtar D.,/pedrinho/profil/spieler/515208
-1083070,Alisson,30,4,Forward,Shakhtar D.,/alisson/profil/spieler/1083070
-396394,Valeriy Bondar,5,2,Defender,Shakhtar D.,/valeriy-bondar/profil/spieler/396394
-1219752,Isaque,14,3,Midfield,Shakhtar D.,/isaque/profil/spieler/1219752
-537854,Artem Bondarenko,21,3,Midfield,Shakhtar D.,/artem-bondarenko/profil/spieler/537854
-1219849,Lucas Ferreira,37,4,Forward,Shakhtar D.,/lucas-ferreira/profil/spieler/1219849
-597880,Dmytro Riznyk,31,1,Goalkeeper,Shakhtar D.,/dmytro-riznyk/profil/spieler/597880
-858712,Pedro Henrique,13,2,Defender,Shakhtar D.,/pedro-henrique/profil/spieler/858712
-743587,Vinícius Tobias,17,2,Defender,Shakhtar D.,/vinicius-tobias/profil/spieler/743587
-708241,Oleg Ocheretko,27,3,Midfield,Shakhtar D.,/oleg-ocheretko/profil/spieler/708241
-1082823,Newerton,11,4,Forward,Shakhtar D.,/newerton/profil/spieler/1082823
-551695,Lassina Traoré,2,4,Forward,Shakhtar D.,/lassina-traore/profil/spieler/551695
-537852,Dmytro Kryskiv,8,3,Midfield,Shakhtar D.,/dmytro-kryskiv/profil/spieler/537852
-467250,Yukhym Konoplya,26,2,Defender,Shakhtar D.,/yukhym-konoplya/profil/spieler/467250
-1033963,Eguinaldo,7,4,Forward,Shakhtar D.,/eguinaldo/profil/spieler/1033963
-1041630,Prosper Obah,68,4,Forward,Shakhtar D.,/prosper-obah/profil/spieler/1041630
-273236,Marlon,4,2,Defender,Shakhtar D.,/marlon/profil/spieler/273236
-530696,Irakli Azarovi,16,2,Defender,Shakhtar D.,/irakli-azarovi/profil/spieler/530696
-751977,Kiril Fesyun,23,1,Goalkeeper,Shakhtar D.,/kiril-fesyun/profil/spieler/751977
-430190,Yegor Nazaryna,29,3,Midfield,Shakhtar D.,/yegor-nazaryna/profil/spieler/430190
-657796,Alaa Ghram,18,2,Defender,Shakhtar D.,/alaa-ghram/profil/spieler/657796
-359247,Maryan Shved,9,4,Forward,Shakhtar D.,/maryan-shved/profil/spieler/359247
-1057222,Viktor Tsukanov,24,3,Midfield,Shakhtar D.,/viktor-tsukanov/profil/spieler/1057222
-1098098,Diego Arroyo,3,2,Defender,Shakhtar D.,/diego-arroyo/profil/spieler/1098098
-467243,Viktor Korniyenko,99,2,Defender,Shakhtar D.,/viktor-korniyenko/profil/spieler/467243
-935048,Denys Tvardovskyi,48,1,Goalkeeper,Shakhtar D.,/denys-tvardovskyi/profil/spieler/935048
-717198,Danylo Udod,46,2,Defender,Shakhtar D.,/danylo-udod/profil/spieler/717198
-203074,Ivan Petryak,34,4,Forward,Shakhtar D.,/ivan-petryak/profil/spieler/203074
-935046,Roman Savchenko,0,2,Defender,Shakhtar D.,/roman-savchenko/profil/spieler/935046
-935047,Kyrylo Sigeev,0,3,Midfield,Shakhtar D.,/kyrylo-sigeev/profil/spieler/935047
 643574,Kaishu Sano,6,3,Midfield,Mainz,/kaishu-sano/profil/spieler/643574
 232454,Nadiem Amiri,10,3,Midfield,Mainz,/nadiem-amiri/profil/spieler/232454
 503160,Paul Nebel,8,3,Midfield,Mainz,/paul-nebel/profil/spieler/503160
@@ -264,34 +178,6 @@ id,name,shirtNumber,positionId,position,club,link
 1177907,Ethan Bruchez,19,3,Midfield,Lausanne-Sport,/ethan-bruchez/profil/spieler/1177907
 1060759,Rodolfo Lippo,54,2,Defender,Lausanne-Sport,/rodolfo-lippo/profil/spieler/1060759
 165435,Thomas Castella,1,1,Goalkeeper,Lausanne-Sport,/thomas-castella/profil/spieler/165435
-744149,Adam Wharton,20,3,Midfield,Crystal Palace,/adam-wharton/profil/spieler/744149
-429983,Jørgen Strand Larsen,22,4,Forward,Crystal Palace,/jorgen-strand-larsen/profil/spieler/429983
-434224,Maxence Lacroix,5,2,Defender,Crystal Palace,/maxence-lacroix/profil/spieler/434224
-568157,Yéremy Pino,10,4,Forward,Crystal Palace,/yeremy-pino/profil/spieler/568157
-410225,Ismaïla Sarr,7,4,Forward,Crystal Palace,/ismaila-sarr/profil/spieler/410225
-420002,Jean-Philippe Mateta,14,4,Forward,Crystal Palace,/jean-philippe-mateta/profil/spieler/420002
-470607,Brennan Johnson,11,4,Forward,Crystal Palace,/brennan-johnson/profil/spieler/470607
-258919,Dean Henderson,1,1,Goalkeeper,Crystal Palace,/dean-henderson/profil/spieler/258919
-500689,Evann Guessand,29,4,Forward,Crystal Palace,/evann-guessand/profil/spieler/500689
-493003,Daniel Muñoz,2,2,Defender,Crystal Palace,/daniel-munoz/profil/spieler/493003
-730893,Tyrick Mitchell,3,2,Defender,Crystal Palace,/tyrick-mitchell/profil/spieler/730893
-578539,Chris Richards,26,2,Defender,Crystal Palace,/chris-richards/profil/spieler/578539
-1006411,Jaydee Canvot,23,2,Defender,Crystal Palace,/jaydee-canvot/profil/spieler/1006411
-1124005,Christantus Uche,12,4,Forward,Crystal Palace,/christantus-uche/profil/spieler/1124005
-340324,Eddie Nketiah,9,4,Forward,Crystal Palace,/eddie-nketiah/profil/spieler/340324
-543387,Cheick Doucouré,28,3,Midfield,Crystal Palace,/cheick-doucoure/profil/spieler/543387
-356141,Daichi Kamada,18,3,Midfield,Crystal Palace,/daichi-kamada/profil/spieler/356141
-689637,Chadi Riad,34,2,Defender,Crystal Palace,/chadi-riad/profil/spieler/689637
-747009,Justin Devenny,55,3,Midfield,Crystal Palace,/justin-devenny/profil/spieler/747009
-262980,Jefferson Lerma,8,3,Midfield,Crystal Palace,/jefferson-lerma/profil/spieler/262980
-207014,Will Hughes,19,3,Midfield,Crystal Palace,/will-hughes/profil/spieler/207014
-296802,Walter Benítez,44,1,Goalkeeper,Crystal Palace,/walter-benitez/profil/spieler/296802
-293194,Borna Sosa,24,2,Defender,Crystal Palace,/borna-sosa/profil/spieler/293194
-1047261,Caleb Kporha,58,2,Defender,Crystal Palace,/caleb-kporha/profil/spieler/1047261
-85177,Nathaniel Clyne,17,2,Defender,Crystal Palace,/nathaniel-clyne/profil/spieler/85177
-196722,Remi Matthews,31,1,Goalkeeper,Crystal Palace,/remi-matthews/profil/spieler/196722
-1047257,Rio Cardines,59,2,Defender,Crystal Palace,/rio-cardines/profil/spieler/1047257
-860078,Kaden Rodney,42,3,Midfield,Crystal Palace,/kaden-rodney/profil/spieler/860078
 555057,Antoni Kozubal,43,3,Midfield,Lech Poznan,/antoni-kozubal/profil/spieler/555057
 1007295,Wojciech Mońka,27,2,Defender,Lech Poznan,/wojciech-monka/profil/spieler/1007295
 539043,Luis Palma,77,4,Forward,Lech Poznan,/luis-palma/profil/spieler/539043
@@ -1048,3 +934,116 @@ id,name,shirtNumber,positionId,position,club,link
 803046,Amin-Elias Gröller,47,2,Defender,Rapid Vienna,/amin-elias-groller/profil/spieler/803046
 658130,Laurenz Orgler,50,1,Goalkeeper,Rapid Vienna,/laurenz-orgler/profil/spieler/658130
 692605,Benjamin Göschl,51,1,Goalkeeper,Rapid Vienna,/benjamin-goschl/profil/spieler/692605
+289059,Mykola Matvienko,22,2,Defender,Shakhtar D.,/mykola-matvienko/profil/spieler/289059
+1119009,Kauã Elias,19,4,Forward,Shakhtar D.,/kaua-elias/profil/spieler/1119009
+668235,Marlon Gomes,6,3,Midfield,Shakhtar D.,/marlon-gomes/profil/spieler/668235
+1220143,Luca Meirelles,49,4,Forward,Shakhtar D.,/luca-meirelles/profil/spieler/1220143
+515208,Pedrinho,10,4,Forward,Shakhtar D.,/pedrinho/profil/spieler/515208
+1083070,Alisson,30,4,Forward,Shakhtar D.,/alisson/profil/spieler/1083070
+396394,Valeriy Bondar,5,2,Defender,Shakhtar D.,/valeriy-bondar/profil/spieler/396394
+1219752,Isaque,14,3,Midfield,Shakhtar D.,/isaque/profil/spieler/1219752
+537854,Artem Bondarenko,21,3,Midfield,Shakhtar D.,/artem-bondarenko/profil/spieler/537854
+1219849,Lucas Ferreira,37,4,Forward,Shakhtar D.,/lucas-ferreira/profil/spieler/1219849
+597880,Dmytro Riznyk,31,1,Goalkeeper,Shakhtar D.,/dmytro-riznyk/profil/spieler/597880
+708241,Oleg Ocheretko,27,3,Midfield,Shakhtar D.,/oleg-ocheretko/profil/spieler/708241
+1082823,Newerton,11,4,Forward,Shakhtar D.,/newerton/profil/spieler/1082823
+858712,Pedro Henrique,13,2,Defender,Shakhtar D.,/pedro-henrique/profil/spieler/858712
+743587,Vinícius Tobias,17,2,Defender,Shakhtar D.,/vinicius-tobias/profil/spieler/743587
+467250,Yukhym Konoplya,26,2,Defender,Shakhtar D.,/yukhym-konoplya/profil/spieler/467250
+551695,Lassina Traoré,2,4,Forward,Shakhtar D.,/lassina-traore/profil/spieler/551695
+537852,Dmytro Kryskiv,8,3,Midfield,Shakhtar D.,/dmytro-kryskiv/profil/spieler/537852
+1033963,Eguinaldo,7,4,Forward,Shakhtar D.,/eguinaldo/profil/spieler/1033963
+1041630,Prosper Obah,68,4,Forward,Shakhtar D.,/prosper-obah/profil/spieler/1041630
+273236,Marlon,4,2,Defender,Shakhtar D.,/marlon/profil/spieler/273236
+530696,Irakli Azarovi,16,2,Defender,Shakhtar D.,/irakli-azarovi/profil/spieler/530696
+751977,Kiril Fesyun,23,1,Goalkeeper,Shakhtar D.,/kiril-fesyun/profil/spieler/751977
+430190,Yegor Nazaryna,29,3,Midfield,Shakhtar D.,/yegor-nazaryna/profil/spieler/430190
+657796,Alaa Ghram,18,2,Defender,Shakhtar D.,/alaa-ghram/profil/spieler/657796
+359247,Maryan Shved,9,4,Forward,Shakhtar D.,/maryan-shved/profil/spieler/359247
+1057222,Viktor Tsukanov,24,3,Midfield,Shakhtar D.,/viktor-tsukanov/profil/spieler/1057222
+1098098,Diego Arroyo,3,2,Defender,Shakhtar D.,/diego-arroyo/profil/spieler/1098098
+467243,Viktor Korniyenko,99,2,Defender,Shakhtar D.,/viktor-korniyenko/profil/spieler/467243
+935048,Denys Tvardovskyi,48,1,Goalkeeper,Shakhtar D.,/denys-tvardovskyi/profil/spieler/935048
+717198,Danylo Udod,46,2,Defender,Shakhtar D.,/danylo-udod/profil/spieler/717198
+203074,Ivan Petryak,34,4,Forward,Shakhtar D.,/ivan-petryak/profil/spieler/203074
+935046,Roman Savchenko,0,2,Defender,Shakhtar D.,/roman-savchenko/profil/spieler/935046
+744149,Adam Wharton,20,3,Midfield,Crystal Palace,/adam-wharton/profil/spieler/744149
+429983,Jørgen Strand Larsen,22,4,Forward,Crystal Palace,/jorgen-strand-larsen/profil/spieler/429983
+434224,Maxence Lacroix,5,2,Defender,Crystal Palace,/maxence-lacroix/profil/spieler/434224
+568157,Yéremy Pino,10,4,Forward,Crystal Palace,/yeremy-pino/profil/spieler/568157
+410225,Ismaïla Sarr,7,4,Forward,Crystal Palace,/ismaila-sarr/profil/spieler/410225
+420002,Jean-Philippe Mateta,14,4,Forward,Crystal Palace,/jean-philippe-mateta/profil/spieler/420002
+470607,Brennan Johnson,11,4,Forward,Crystal Palace,/brennan-johnson/profil/spieler/470607
+258919,Dean Henderson,1,1,Goalkeeper,Crystal Palace,/dean-henderson/profil/spieler/258919
+500689,Evann Guessand,29,4,Forward,Crystal Palace,/evann-guessand/profil/spieler/500689
+493003,Daniel Muñoz,2,2,Defender,Crystal Palace,/daniel-munoz/profil/spieler/493003
+730893,Tyrick Mitchell,3,2,Defender,Crystal Palace,/tyrick-mitchell/profil/spieler/730893
+578539,Chris Richards,26,2,Defender,Crystal Palace,/chris-richards/profil/spieler/578539
+1006411,Jaydee Canvot,23,2,Defender,Crystal Palace,/jaydee-canvot/profil/spieler/1006411
+1124005,Christantus Uche,12,4,Forward,Crystal Palace,/christantus-uche/profil/spieler/1124005
+340324,Eddie Nketiah,9,4,Forward,Crystal Palace,/eddie-nketiah/profil/spieler/340324
+543387,Cheick Doucouré,28,3,Midfield,Crystal Palace,/cheick-doucoure/profil/spieler/543387
+356141,Daichi Kamada,18,3,Midfield,Crystal Palace,/daichi-kamada/profil/spieler/356141
+689637,Chadi Riad,34,2,Defender,Crystal Palace,/chadi-riad/profil/spieler/689637
+747009,Justin Devenny,55,3,Midfield,Crystal Palace,/justin-devenny/profil/spieler/747009
+262980,Jefferson Lerma,8,3,Midfield,Crystal Palace,/jefferson-lerma/profil/spieler/262980
+207014,Will Hughes,19,3,Midfield,Crystal Palace,/will-hughes/profil/spieler/207014
+296802,Walter Benítez,44,1,Goalkeeper,Crystal Palace,/walter-benitez/profil/spieler/296802
+293194,Borna Sosa,24,2,Defender,Crystal Palace,/borna-sosa/profil/spieler/293194
+1047261,Caleb Kporha,58,2,Defender,Crystal Palace,/caleb-kporha/profil/spieler/1047261
+85177,Nathaniel Clyne,17,2,Defender,Crystal Palace,/nathaniel-clyne/profil/spieler/85177
+196722,Remi Matthews,31,1,Goalkeeper,Crystal Palace,/remi-matthews/profil/spieler/196722
+1047257,Rio Cardines,59,2,Defender,Crystal Palace,/rio-cardines/profil/spieler/1047257
+860078,Kaden Rodney,42,3,Midfield,Crystal Palace,/kaden-rodney/profil/spieler/860078
+527966,Andrei Rațiu,2,2,Defender,Rayo Vallecano,/andrei-ratiu/profil/spieler/527966
+709969,Ilias Akhomach,12,4,Forward,Rayo Vallecano,/ilias-akhomach/profil/spieler/709969
+455181,Jorge de Frutos,19,4,Forward,Rayo Vallecano,/jorge-de-frutos/profil/spieler/455181
+596122,Pep Chavarría,3,2,Defender,Rayo Vallecano,/pep-chavarria/profil/spieler/596122
+1034853,Nobel Mendy,32,2,Defender,Rayo Vallecano,/nobel-mendy/profil/spieler/1034853
+275218,Augusto Batalla,13,1,Goalkeeper,Rayo Vallecano,/augusto-batalla/profil/spieler/275218
+451801,Abdul Mumin,16,2,Defender,Rayo Vallecano,/abdul-mumin/profil/spieler/451801
+362086,Isi Palazón,7,4,Forward,Rayo Vallecano,/isi-palazon/profil/spieler/362086
+363057,Pedro Díaz,4,3,Midfield,Rayo Vallecano,/pedro-diaz/profil/spieler/363057
+457931,Luiz Felipe,5,2,Defender,Rayo Vallecano,/luiz-felipe/profil/spieler/457931
+560417,Alemão,9,4,Forward,Rayo Vallecano,/alemao/profil/spieler/560417
+622988,Fran Pérez,21,4,Forward,Rayo Vallecano,/fran-perez/profil/spieler/622988
+765467,Jozhua Vertrouwd,33,2,Defender,Rayo Vallecano,/jozhua-vertrouwd/profil/spieler/765467
+192009,Unai López,17,3,Midfield,Rayo Vallecano,/unai-lopez/profil/spieler/192009
+517753,Óscar Valentín,23,3,Midfield,Rayo Vallecano,/oscar-valentin/profil/spieler/517753
+505674,Sergio Camello,10,4,Forward,Rayo Vallecano,/sergio-camello/profil/spieler/505674
+525578,Pathé Ciss,6,3,Midfield,Rayo Vallecano,/pathe-ciss/profil/spieler/525578
+127108,Florian Lejeune,24,2,Defender,Rayo Vallecano,/florian-lejeune/profil/spieler/127108
+618813,Carlos Martín,14,4,Forward,Rayo Vallecano,/carlos-martin/profil/spieler/618813
+397676,Dani Cárdenas,1,1,Goalkeeper,Rayo Vallecano,/dani-cardenas/profil/spieler/397676
+257062,Álvaro García,18,4,Forward,Rayo Vallecano,/alvaro-garcia/profil/spieler/257062
+268670,Gerard Gumbau,15,3,Midfield,Rayo Vallecano,/gerard-gumbau/profil/spieler/268670
+85295,Iván Balliu,20,2,Defender,Rayo Vallecano,/ivan-balliu/profil/spieler/85295
+560483,Randy Nteka,11,3,Midfield,Rayo Vallecano,/randy-nteka/profil/spieler/560483
+311044,Alfonso Espino,22,2,Defender,Rayo Vallecano,/alfonso-espino/profil/spieler/311044
+30321,Óscar Trejo,8,3,Midfield,Rayo Vallecano,/oscar-trejo/profil/spieler/30321
+1384911,Samu Becerra,28,3,Midfield,Rayo Vallecano,/samu-becerra/profil/spieler/1384911
+1064871,Joaquín Panichelli,9,4,Forward,R. Strasbourg,/joaquin-panichelli/profil/spieler/1064871
+849410,Valentín Barco,32,3,Midfield,R. Strasbourg,/valentin-barco/profil/spieler/849410
+559328,Emmanuel Emegha,10,4,Forward,R. Strasbourg,/emmanuel-emegha/profil/spieler/559328
+655006,Diego Moreira,7,3,Midfield,R. Strasbourg,/diego-moreira/profil/spieler/655006
+660867,Julio Enciso,19,3,Midfield,R. Strasbourg,/julio-enciso/profil/spieler/660867
+834397,Mike Penders,39,1,Goalkeeper,R. Strasbourg,/mike-penders/profil/spieler/834397
+786436,Ismaël Doukouré,6,2,Defender,R. Strasbourg,/ismael-doukoure/profil/spieler/786436
+1130514,Samir El Mourabet,29,3,Midfield,R. Strasbourg,/samir-el-mourabet/profil/spieler/1130514
+992686,Martial Godo,20,4,Forward,R. Strasbourg,/martial-godo/profil/spieler/992686
+711980,Guéla Doué,22,2,Defender,R. Strasbourg,/guela-doue/profil/spieler/711980
+991487,Abdoul Ouattara,42,2,Defender,R. Strasbourg,/abdoul-ouattara/profil/spieler/991487
+926978,Lucas Høgsberg,24,2,Defender,R. Strasbourg,/lucas-hogsberg/profil/spieler/926978
+316125,Ben Chilwell,3,2,Defender,R. Strasbourg,/ben-chilwell/profil/spieler/316125
+1145504,Aarón Anselmino,5,2,Defender,R. Strasbourg,/aaron-anselmino/profil/spieler/1145504
+579928,Sebastian Nanasi,11,3,Midfield,R. Strasbourg,/sebastian-nanasi/profil/spieler/579928
+1010854,Mathis Amougou,17,3,Midfield,R. Strasbourg,/mathis-amougou/profil/spieler/1010854
+1151929,Gessime Yassine,80,4,Forward,R. Strasbourg,/gessime-yassine/profil/spieler/1151929
+933900,Samuel Amo-Ameyaw,27,4,Forward,R. Strasbourg,/samuel-amo-ameyaw/profil/spieler/933900
+621993,Andrew Omobamidele,2,2,Defender,R. Strasbourg,/andrew-omobamidele/profil/spieler/621993
+1011200,Junior Mwanga,18,3,Midfield,R. Strasbourg,/junior-mwanga/profil/spieler/1011200
+787232,David Datro Fofana,15,4,Forward,R. Strasbourg,/david-datro-fofana/profil/spieler/787232
+863204,Maxi Oyedele,8,3,Midfield,R. Strasbourg,/maxi-oyedele/profil/spieler/863204
+637803,Rafael Luís,83,3,Midfield,R. Strasbourg,/rafael-luis/profil/spieler/637803
+465836,Stefan Bajic,50,1,Goalkeeper,R. Strasbourg,/stefan-bajic/profil/spieler/465836
+112822,Karl-Johan Johnsson,1,1,Goalkeeper,R. Strasbourg,/karl-johan-johnsson/profil/spieler/112822

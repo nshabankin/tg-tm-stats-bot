@@ -1,28 +1,4 @@
 id,name,shirtNumber,positionId,position,club,link
-357662,Declan Rice,41,3,Midfield,Arsenal,/declan-rice/profil/spieler/357662
-433177,Bukayo Saka,7,4,Forward,Arsenal,/bukayo-saka/profil/spieler/433177
-495666,William Saliba,2,2,Defender,Arsenal,/william-saliba/profil/spieler/495666
-423440,Martín Zubimendi,36,3,Midfield,Arsenal,/martin-zubimendi/profil/spieler/423440
-435338,Gabriel,6,2,Defender,Arsenal,/gabriel/profil/spieler/435338
-420243,Jurriën Timber,12,2,Defender,Arsenal,/jurrien-timber/profil/spieler/420243
-316264,Martin Ødegaard,8,3,Midfield,Arsenal,/martin-odegaard/profil/spieler/316264
-325443,Viktor Gyökeres,14,4,Forward,Arsenal,/viktor-gyokeres/profil/spieler/325443
-479999,Eberechi Eze,10,3,Midfield,Arsenal,/eberechi-eze/profil/spieler/479999
-503987,Noni Madueke,20,4,Forward,Arsenal,/noni-madueke/profil/spieler/503987
-502821,Riccardo Calafiori,33,2,Defender,Arsenal,/riccardo-calafiori/profil/spieler/502821
-309400,Kai Havertz,29,4,Forward,Arsenal,/kai-havertz/profil/spieler/309400
-659813,Piero Hincapié,5,2,Defender,Arsenal,/piero-hincapie/profil/spieler/659813
-655488,Gabriel Martinelli,11,4,Forward,Arsenal,/gabriel-martinelli/profil/spieler/655488
-262749,David Raya,1,1,Goalkeeper,Arsenal,/david-raya/profil/spieler/262749
-890721,Myles Lewis-Skelly,49,2,Defender,Arsenal,/myles-lewis-skelly/profil/spieler/890721
-646750,Cristhian Mosquera,3,2,Defender,Arsenal,/cristhian-mosquera/profil/spieler/646750
-338424,Mikel Merino,23,3,Midfield,Arsenal,/mikel-merino/profil/spieler/338424
-335721,Ben White,4,2,Defender,Arsenal,/ben-white/profil/spieler/335721
-144028,Leandro Trossard,19,4,Forward,Arsenal,/leandro-trossard/profil/spieler/144028
-1187629,Max Dowman,56,4,Forward,Arsenal,/max-dowman/profil/spieler/1187629
-363205,Gabriel Jesus,9,4,Forward,Arsenal,/gabriel-jesus/profil/spieler/363205
-192279,Kepa Arrizabalaga,13,1,Goalkeeper,Arsenal,/kepa-arrizabalaga/profil/spieler/192279
-148367,Christian Nørgaard,16,3,Midfield,Arsenal,/christian-norgaard/profil/spieler/148367
 598577,Florian Wirtz,7,3,Midfield,Liverpool,/florian-wirtz/profil/spieler/598577
 349066,Alexander Isak,9,4,Forward,Liverpool,/alexander-isak/profil/spieler/349066
 451276,Dominik Szoboszlai,8,3,Midfield,Liverpool,/dominik-szoboszlai/profil/spieler/451276
@@ -289,29 +265,6 @@ id,name,shirtNumber,positionId,position,club,link
 110923,Mattia Perin,1,1,Goalkeeper,Juventus,/mattia-perin/profil/spieler/110923
 191891,Arkadiusz Milik,14,4,Forward,Juventus,/arkadiusz-milik/profil/spieler/191891
 75411,Carlo Pinsoglio,23,1,Goalkeeper,Juventus,/carlo-pinsoglio/profil/spieler/75411
-576024,Julián Alvarez,19,4,Forward,Atlético,/julian-alvarez/profil/spieler/576024
-775605,Pablo Barrios,8,3,Midfield,Atlético,/pablo-barrios/profil/spieler/775605
-548111,Álex Baena,10,4,Forward,Atlético,/alex-baena/profil/spieler/548111
-742201,Giuliano Simeone,20,4,Forward,Atlético,/giuliano-simeone/profil/spieler/742201
-406040,Ademola Lookman,22,4,Forward,Atlético,/ademola-lookman/profil/spieler/406040
-404418,Dávid Hancko,17,2,Defender,Atlético,/david-hancko/profil/spieler/404418
-844637,Marc Pubill,18,2,Defender,Atlético,/marc-pubill/profil/spieler/844637
-351809,Robin Le Normand,24,2,Defender,Atlético,/robin-le-normand/profil/spieler/351809
-486031,Nico González,23,4,Forward,Atlético,/nico-gonzalez/profil/spieler/486031
-689505,Johnny Cardoso,5,3,Midfield,Atlético,/johnny-cardoso/profil/spieler/689505
-282411,Marcos Llorente,14,2,Defender,Atlético,/marcos-llorente/profil/spieler/282411
-961297,Rodrigo Mendoza,4,3,Midfield,Atlético,/rodrigo-mendoza/profil/spieler/961297
-238407,Alexander Sørloth,9,4,Forward,Atlético,/alexander-sorloth/profil/spieler/238407
-616631,Matteo Ruggeri,3,2,Defender,Atlético,/matteo-ruggeri/profil/spieler/616631
-576028,Thiago Almada,11,4,Forward,Atlético,/thiago-almada/profil/spieler/576028
-121483,Jan Oblak,13,1,Goalkeeper,Atlético,/jan-oblak/profil/spieler/121483
-424042,Nahuel Molina,16,2,Defender,Atlético,/nahuel-molina/profil/spieler/424042
-250845,José María Giménez,2,2,Defender,Atlético,/jose-maria-gimenez/profil/spieler/250845
-125781,Antoine Griezmann,7,4,Forward,Atlético,/antoine-griezmann/profil/spieler/125781
-889435,Obed Vargas,21,3,Midfield,Atlético,/obed-vargas/profil/spieler/889435
-74229,Koke,6,3,Midfield,Atlético,/koke/profil/spieler/74229
-182904,Clément Lenglet,15,2,Defender,Atlético,/clement-lenglet/profil/spieler/182904
-242359,Juan Musso,1,1,Goalkeeper,Atlético,/juan-musso/profil/spieler/242359
 607854,Éderson,13,3,Midfield,Atalanta,/ederson/profil/spieler/607854
 435772,Charles De Ketelaere,17,3,Midfield,Atalanta,/charles-de-ketelaere/profil/spieler/435772
 571604,Giorgio Scalvini,42,2,Defender,Atalanta,/giorgio-scalvini/profil/spieler/571604
@@ -957,3 +910,51 @@ id,name,shirtNumber,positionId,position,club,link
 40680,Sven Ulreich,26,1,Goalkeeper,Bayern Munich,/sven-ulreich/profil/spieler/40680
 1497653,Bara Sapoko Ndiaye,39,3,Midfield,Bayern Munich,/bara-sapoko-ndiaye/profil/spieler/1497653
 1009439,Leon Klanac,48,1,Goalkeeper,Bayern Munich,/leon-klanac/profil/spieler/1009439
+576024,Julián Alvarez,19,4,Forward,Atlético,/julian-alvarez/profil/spieler/576024
+775605,Pablo Barrios,8,3,Midfield,Atlético,/pablo-barrios/profil/spieler/775605
+548111,Álex Baena,10,4,Forward,Atlético,/alex-baena/profil/spieler/548111
+742201,Giuliano Simeone,20,4,Forward,Atlético,/giuliano-simeone/profil/spieler/742201
+406040,Ademola Lookman,22,4,Forward,Atlético,/ademola-lookman/profil/spieler/406040
+404418,Dávid Hancko,17,2,Defender,Atlético,/david-hancko/profil/spieler/404418
+844637,Marc Pubill,18,2,Defender,Atlético,/marc-pubill/profil/spieler/844637
+351809,Robin Le Normand,24,2,Defender,Atlético,/robin-le-normand/profil/spieler/351809
+486031,Nico González,23,4,Forward,Atlético,/nico-gonzalez/profil/spieler/486031
+689505,Johnny Cardoso,5,3,Midfield,Atlético,/johnny-cardoso/profil/spieler/689505
+282411,Marcos Llorente,14,2,Defender,Atlético,/marcos-llorente/profil/spieler/282411
+961297,Rodrigo Mendoza,4,3,Midfield,Atlético,/rodrigo-mendoza/profil/spieler/961297
+238407,Alexander Sørloth,9,4,Forward,Atlético,/alexander-sorloth/profil/spieler/238407
+616631,Matteo Ruggeri,3,2,Defender,Atlético,/matteo-ruggeri/profil/spieler/616631
+576028,Thiago Almada,11,4,Forward,Atlético,/thiago-almada/profil/spieler/576028
+121483,Jan Oblak,13,1,Goalkeeper,Atlético,/jan-oblak/profil/spieler/121483
+424042,Nahuel Molina,16,2,Defender,Atlético,/nahuel-molina/profil/spieler/424042
+250845,José María Giménez,2,2,Defender,Atlético,/jose-maria-gimenez/profil/spieler/250845
+125781,Antoine Griezmann,7,4,Forward,Atlético,/antoine-griezmann/profil/spieler/125781
+889435,Obed Vargas,21,3,Midfield,Atlético,/obed-vargas/profil/spieler/889435
+74229,Koke,6,3,Midfield,Atlético,/koke/profil/spieler/74229
+182904,Clément Lenglet,15,2,Defender,Atlético,/clement-lenglet/profil/spieler/182904
+242359,Juan Musso,1,1,Goalkeeper,Atlético,/juan-musso/profil/spieler/242359
+357662,Declan Rice,41,3,Midfield,Arsenal,/declan-rice/profil/spieler/357662
+433177,Bukayo Saka,7,4,Forward,Arsenal,/bukayo-saka/profil/spieler/433177
+495666,William Saliba,2,2,Defender,Arsenal,/william-saliba/profil/spieler/495666
+423440,Martín Zubimendi,36,3,Midfield,Arsenal,/martin-zubimendi/profil/spieler/423440
+435338,Gabriel,6,2,Defender,Arsenal,/gabriel/profil/spieler/435338
+420243,Jurriën Timber,12,2,Defender,Arsenal,/jurrien-timber/profil/spieler/420243
+316264,Martin Ødegaard,8,3,Midfield,Arsenal,/martin-odegaard/profil/spieler/316264
+325443,Viktor Gyökeres,14,4,Forward,Arsenal,/viktor-gyokeres/profil/spieler/325443
+479999,Eberechi Eze,10,3,Midfield,Arsenal,/eberechi-eze/profil/spieler/479999
+503987,Noni Madueke,20,4,Forward,Arsenal,/noni-madueke/profil/spieler/503987
+502821,Riccardo Calafiori,33,2,Defender,Arsenal,/riccardo-calafiori/profil/spieler/502821
+309400,Kai Havertz,29,4,Forward,Arsenal,/kai-havertz/profil/spieler/309400
+659813,Piero Hincapié,5,2,Defender,Arsenal,/piero-hincapie/profil/spieler/659813
+655488,Gabriel Martinelli,11,4,Forward,Arsenal,/gabriel-martinelli/profil/spieler/655488
+262749,David Raya,1,1,Goalkeeper,Arsenal,/david-raya/profil/spieler/262749
+890721,Myles Lewis-Skelly,49,2,Defender,Arsenal,/myles-lewis-skelly/profil/spieler/890721
+646750,Cristhian Mosquera,3,2,Defender,Arsenal,/cristhian-mosquera/profil/spieler/646750
+338424,Mikel Merino,23,3,Midfield,Arsenal,/mikel-merino/profil/spieler/338424
+335721,Ben White,4,2,Defender,Arsenal,/ben-white/profil/spieler/335721
+144028,Leandro Trossard,19,4,Forward,Arsenal,/leandro-trossard/profil/spieler/144028
+1187629,Max Dowman,56,4,Forward,Arsenal,/max-dowman/profil/spieler/1187629
+363205,Gabriel Jesus,9,4,Forward,Arsenal,/gabriel-jesus/profil/spieler/363205
+192279,Kepa Arrizabalaga,13,1,Goalkeeper,Arsenal,/kepa-arrizabalaga/profil/spieler/192279
+148367,Christian Nørgaard,16,3,Midfield,Arsenal,/christian-norgaard/profil/spieler/148367
+848753,Tommy Setford,35,1,Goalkeeper,Arsenal,/tommy-setford/profil/spieler/848753
