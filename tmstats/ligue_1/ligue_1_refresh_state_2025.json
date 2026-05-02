@@ -1,7 +1,7 @@
 {
   "league": "ligue_1",
   "season": 2025,
-  "updatedAt": "2026-05-01T07:00:06+00:00",
+  "updatedAt": "2026-05-02T15:14:52+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 18,
@@ -59,12 +59,12 @@
     "unresolvedClubs": []
   },
   "outputs": {
-    "tableChanged": false,
+    "tableChanged": true,
     "playersChanged": false,
     "statsChanged": false,
-    "matchesChanged": false,
+    "matchesChanged": true,
     "bracketChanged": false,
-    "tablePdfRendered": false,
+    "tablePdfRendered": true,
     "statsPdfRendered": false
   }
 }

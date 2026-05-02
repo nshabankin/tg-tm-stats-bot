@@ -102,35 +102,6 @@ id,name,shirtNumber,positionId,position,club,link
 528181,Edoardo Corvi,40,1,Goalkeeper,Parma Calcio 1913,/edoardo-corvi/profil/spieler/528181
 731491,Franco Carboni,29,2,Defender,Parma Calcio 1913,/franco-carboni/profil/spieler/731491
 604207,Filippo Rinaldi,66,1,Goalkeeper,Parma Calcio 1913,/filippo-rinaldi/profil/spieler/604207
-581672,Samuel Iling-Junior,19,3,Midfield,Pisa Sporting Club,/samuel-iling-junior/profil/spieler/581672
-843286,Felipe Loyola,35,3,Midfield,Pisa Sporting Club,/felipe-loyola/profil/spieler/843286
-935760,Rafiu Durosinmi,17,4,Forward,Pisa Sporting Club,/rafiu-durosinmi/profil/spieler/935760
-969192,Ebenezer Akinsanmiro,14,3,Midfield,Pisa Sporting Club,/ebenezer-akinsanmiro/profil/spieler/969192
-1009030,Lorran,99,3,Midfield,Pisa Sporting Club,/lorran/profil/spieler/1009030
-409344,Calvin Stengs,23,3,Midfield,Pisa Sporting Club,/calvin-stengs/profil/spieler/409344
-358003,Simone Canestrelli,5,2,Defender,Pisa Sporting Club,/simone-canestrelli/profil/spieler/358003
-335516,Idrissa Touré,15,3,Midfield,Pisa Sporting Club,/idrissa-toure/profil/spieler/335516
-705063,Samuele Angori,3,3,Midfield,Pisa Sporting Club,/samuele-angori/profil/spieler/705063
-989621,İsak Vural,21,3,Midfield,Pisa Sporting Club,/isak-vural/profil/spieler/989621
-475410,Matteo Tramoni,10,3,Midfield,Pisa Sporting Club,/matteo-tramoni/profil/spieler/475410
-237658,Michel Aebischer,20,3,Midfield,Pisa Sporting Club,/michel-aebischer/profil/spieler/237658
-877124,Rosen Bozhinov,2,2,Defender,Pisa Sporting Club,/rosen-bozhinov/profil/spieler/877124
-914934,Henrik Meister,9,4,Forward,Pisa Sporting Club,/henrik-meister/profil/spieler/914934
-925838,Francesco Coppola,26,2,Defender,Pisa Sporting Club,/francesco-coppola/profil/spieler/925838
-628365,Gabriele Piccinini,36,3,Midfield,Pisa Sporting Club,/gabriele-piccinini/profil/spieler/628365
-464195,Filip Stojilkovic,81,4,Forward,Pisa Sporting Club,/filip-stojilkovic/profil/spieler/464195
-379163,Marius Marin,6,3,Midfield,Pisa Sporting Club,/marius-marin/profil/spieler/379163
-348601,Mehdi Léris,7,4,Forward,Pisa Sporting Club,/mehdi-leris/profil/spieler/348601
-317057,Adrian Semper,1,1,Goalkeeper,Pisa Sporting Club,/adrian-semper/profil/spieler/317057
-279823,Stefano Moreo,32,4,Forward,Pisa Sporting Club,/stefano-moreo/profil/spieler/279823
-543822,Malthe Højholt,8,3,Midfield,Pisa Sporting Club,/malthe-hojholt/profil/spieler/543822
-238993,Simone Scuffet,22,1,Goalkeeper,Pisa Sporting Club,/simone-scuffet/profil/spieler/238993
-91970,Juan Cuadrado,11,3,Midfield,Pisa Sporting Club,/juan-cuadrado/profil/spieler/91970
-15452,Raúl Albiol,39,2,Defender,Pisa Sporting Club,/raul-albiol/profil/spieler/15452
-240897,Arturo Calabresi,33,2,Defender,Pisa Sporting Club,/arturo-calabresi/profil/spieler/240897
-149525,Antonio Caracciolo,4,2,Defender,Pisa Sporting Club,/antonio-caracciolo/profil/spieler/149525
-692187,Daniel Denoon,44,2,Defender,Pisa Sporting Club,/daniel-denoon/profil/spieler/692187
-99523,Nícolas,12,1,Goalkeeper,Pisa Sporting Club,/nicolas/profil/spieler/99523
 849520,Santiago Castro,9,4,Forward,Bologna FC 1909,/santiago-castro/profil/spieler/849520
 413565,Jhon Lucumí,26,2,Defender,Bologna FC 1909,/jhon-lucumi/profil/spieler/413565
 672381,Jonathan Rowe,11,4,Forward,Bologna FC 1909,/jonathan-rowe/profil/spieler/672381
@@ -215,33 +186,6 @@ id,name,shirtNumber,positionId,position,club,link
 1111820,Junior Ajayi,72,4,Forward,Hellas Verona,/junior-ajayi/profil/spieler/1111820
 709986,Giacomo Toniolo,94,1,Goalkeeper,Hellas Verona,/giacomo-toniolo/profil/spieler/709986
 1355285,Arthur Borghi,47,1,Goalkeeper,Hellas Verona,/arthur-borghi/profil/spieler/1355285
-1112449,Tiago Gabriel,44,2,Defender,US Lecce,/tiago-gabriel/profil/spieler/1112449
-1058368,Francesco Camarda,22,4,Forward,US Lecce,/francesco-camarda/profil/spieler/1058368
-583046,Medon Berisha,10,3,Midfield,US Lecce,/medon-berisha/profil/spieler/583046
-604113,Jamil Siebert,5,2,Defender,US Lecce,/jamil-siebert/profil/spieler/604113
-595650,Nikola Stulic,9,4,Forward,US Lecce,/nikola-stulic/profil/spieler/595650
-780548,Omri Gandelman,16,3,Midfield,US Lecce,/omri-gandelman/profil/spieler/780548
-392516,Antonino Gallo,25,2,Defender,US Lecce,/antonino-gallo/profil/spieler/392516
-238537,Wladimiro Falcone,30,1,Goalkeeper,US Lecce,/wladimiro-falcone/profil/spieler/238537
-836441,Gaspar,4,2,Defender,US Lecce,/gaspar/profil/spieler/836441
-674806,Santiago Pierotti,50,4,Forward,US Lecce,/santiago-pierotti/profil/spieler/674806
-386455,Riccardo Sottil,23,4,Forward,US Lecce,/riccardo-sottil/profil/spieler/386455
-545538,Lameck Banda,19,4,Forward,US Lecce,/lameck-banda/profil/spieler/545538
-555106,Filip Marchwinski,36,3,Midfield,US Lecce,/filip-marchwinski/profil/spieler/555106
-386552,Lassana Coulibaly,29,3,Midfield,US Lecce,/lassana-coulibaly/profil/spieler/386552
-980575,Oumar Ngom,79,3,Midfield,US Lecce,/oumar-ngom/profil/spieler/980575
-521407,Walid Cheddira,99,4,Forward,US Lecce,/walid-cheddira/profil/spieler/521407
-488996,Thórir Jóhann Helgason,14,3,Midfield,US Lecce,/thorir-johann-helgason/profil/spieler/488996
-728485,Danilo Veiga,17,2,Defender,US Lecce,/danilo-veiga/profil/spieler/728485
-442703,Ylber Ramadani,20,3,Midfield,US Lecce,/ylber-ramadani/profil/spieler/442703
-582664,Álex Sala,6,3,Midfield,US Lecce,/alex-sala/profil/spieler/582664
-649490,Konan N’Dri,11,4,Forward,US Lecce,/konan-ndri/profil/spieler/649490
-805886,Gaby Jean,18,2,Defender,US Lecce,/gaby-jean/profil/spieler/805886
-336307,Christian Früchtl,1,1,Goalkeeper,US Lecce,/christian-fruchtl/profil/spieler/336307
-433329,Corrie Ndaba,3,2,Defender,US Lecce,/corrie-ndaba/profil/spieler/433329
-644613,Sadik Fofana,8,3,Midfield,US Lecce,/sadik-fofana/profil/spieler/644613
-1175410,Matías Pérez,13,2,Defender,US Lecce,/matias-perez/profil/spieler/1175410
-712911,Jasper Samooja,32,1,Goalkeeper,US Lecce,/jasper-samooja/profil/spieler/712911
 364135,Moise Kean,20,4,Forward,ACF Fiorentina,/moise-kean/profil/spieler/364135
 746712,Pietro Comuzzo,15,2,Defender,ACF Fiorentina,/pietro-comuzzo/profil/spieler/746712
 401529,Dodô,2,2,Defender,ACF Fiorentina,/dodo/profil/spieler/401529
@@ -351,36 +295,6 @@ id,name,shirtNumber,positionId,position,club,link
 587505,Nikola Cavlina,44,1,Goalkeeper,Como 1907,/nikola-cavlina/profil/spieler/587505
 1259706,Henrique Menke,12,1,Goalkeeper,Como 1907,/henrique-menke/profil/spieler/1259706
 88595,Mauro Vigorito,22,1,Goalkeeper,Como 1907,/mauro-vigorito/profil/spieler/88595
-622380,Cesare Casadei,22,3,Midfield,Torino FC,/cesare-casadei/profil/spieler/622380
-470794,Ivan Ilić,8,3,Midfield,Torino FC,/ivan-ilic/profil/spieler/470794
-588426,Saúl Coco,23,2,Defender,Torino FC,/saul-coco/profil/spieler/588426
-293200,Nikola Vlašić,10,3,Midfield,Torino FC,/nikola-vlasic/profil/spieler/293200
-346779,Ché Adams,19,4,Forward,Torino FC,/che-adams/profil/spieler/346779
-814446,Luca Marianucci,35,2,Defender,Torino FC,/luca-marianucci/profil/spieler/814446
-393238,Zakaria Aboukhlal,7,4,Forward,Torino FC,/zakaria-aboukhlal/profil/spieler/393238
-876298,Matteo Prati,4,3,Midfield,Torino FC,/matteo-prati/profil/spieler/876298
-798929,Gvidas Gineitis,66,3,Midfield,Torino FC,/gvidas-gineitis/profil/spieler/798929
-743091,Emirhan İlkhan,6,3,Midfield,Torino FC,/emirhan-ilkhan/profil/spieler/743091
-435228,Ardian Ismajli,44,2,Defender,Torino FC,/ardian-ismajli/profil/spieler/435228
-282388,Giovanni Simeone,18,4,Forward,Torino FC,/giovanni-simeone/profil/spieler/282388
-357778,Sandro Kulenović,17,4,Forward,Torino FC,/sandro-kulenovic/profil/spieler/357778
-433181,Tino Anjorin,14,3,Midfield,Torino FC,/tino-anjorin/profil/spieler/433181
-186368,Valentino Lazaro,20,3,Midfield,Torino FC,/valentino-lazaro/profil/spieler/186368
-646747,Rafa Obrador,33,2,Defender,Torino FC,/rafa-obrador/profil/spieler/646747
-583404,Marcus Pedersen,16,2,Defender,Torino FC,/marcus-pedersen/profil/spieler/583404
-591193,Niels Nkounkou,25,2,Defender,Torino FC,/niels-nkounkou/profil/spieler/591193
-249730,Guillermo Maripán,13,2,Defender,Torino FC,/guillermo-maripan/profil/spieler/249730
-492319,Franco Israel,81,1,Goalkeeper,Torino FC,/franco-israel/profil/spieler/492319
-73794,Duván Zapata,91,4,Forward,Torino FC,/duvan-zapata/profil/spieler/73794
-934527,Alieu Njie,92,4,Forward,Torino FC,/alieu-njie/profil/spieler/934527
-980632,Sergiu Perciun,83,3,Midfield,Torino FC,/sergiu-perciun/profil/spieler/980632
-342877,Enzo Ebosse,77,2,Defender,Torino FC,/enzo-ebosse/profil/spieler/342877
-157507,Adrien Tamèze,61,3,Midfield,Torino FC,/adrien-tameze/profil/spieler/157507
-124555,Cristiano Biraghi,34,2,Defender,Torino FC,/cristiano-biraghi/profil/spieler/124555
-655456,Saba Sazonov,15,2,Defender,Torino FC,/saba-sazonov/profil/spieler/655456
-163048,Alberto Paleari,1,1,Goalkeeper,Torino FC,/alberto-paleari/profil/spieler/163048
-942103,Lapo Siviero,99,1,Goalkeeper,Torino FC,/lapo-siviero/profil/spieler/942103
-928900,Zanos Savva,79,4,Forward,Torino FC,/zanos-savva/profil/spieler/928900
 406625,Lautaro Martínez,10,4,Forward,Inter Milan,/lautaro-martinez/profil/spieler/406625
 315853,Alessandro Bastoni,95,2,Defender,Inter Milan,/alessandro-bastoni/profil/spieler/315853
 318528,Marcus Thuram,9,4,Forward,Inter Milan,/marcus-thuram/profil/spieler/318528
@@ -507,6 +421,62 @@ id,name,shirtNumber,positionId,position,club,link
 126729,Patric,4,2,Defender,SS Lazio,/patric/profil/spieler/126729
 65278,Pedro,9,4,Forward,SS Lazio,/pedro/profil/spieler/65278
 538079,Alessio Furlanetto,55,1,Goalkeeper,SS Lazio,/alessio-furlanetto/profil/spieler/538079
+581672,Samuel Iling-Junior,19,3,Midfield,Pisa Sporting Club,/samuel-iling-junior/profil/spieler/581672
+843286,Felipe Loyola,35,3,Midfield,Pisa Sporting Club,/felipe-loyola/profil/spieler/843286
+935760,Rafiu Durosinmi,17,4,Forward,Pisa Sporting Club,/rafiu-durosinmi/profil/spieler/935760
+969192,Ebenezer Akinsanmiro,14,3,Midfield,Pisa Sporting Club,/ebenezer-akinsanmiro/profil/spieler/969192
+1009030,Lorran,99,3,Midfield,Pisa Sporting Club,/lorran/profil/spieler/1009030
+409344,Calvin Stengs,23,3,Midfield,Pisa Sporting Club,/calvin-stengs/profil/spieler/409344
+358003,Simone Canestrelli,5,2,Defender,Pisa Sporting Club,/simone-canestrelli/profil/spieler/358003
+335516,Idrissa Touré,15,3,Midfield,Pisa Sporting Club,/idrissa-toure/profil/spieler/335516
+705063,Samuele Angori,3,3,Midfield,Pisa Sporting Club,/samuele-angori/profil/spieler/705063
+989621,İsak Vural,21,3,Midfield,Pisa Sporting Club,/isak-vural/profil/spieler/989621
+475410,Matteo Tramoni,10,3,Midfield,Pisa Sporting Club,/matteo-tramoni/profil/spieler/475410
+237658,Michel Aebischer,20,3,Midfield,Pisa Sporting Club,/michel-aebischer/profil/spieler/237658
+877124,Rosen Bozhinov,2,2,Defender,Pisa Sporting Club,/rosen-bozhinov/profil/spieler/877124
+914934,Henrik Meister,9,4,Forward,Pisa Sporting Club,/henrik-meister/profil/spieler/914934
+925838,Francesco Coppola,26,2,Defender,Pisa Sporting Club,/francesco-coppola/profil/spieler/925838
+628365,Gabriele Piccinini,36,3,Midfield,Pisa Sporting Club,/gabriele-piccinini/profil/spieler/628365
+464195,Filip Stojilkovic,81,4,Forward,Pisa Sporting Club,/filip-stojilkovic/profil/spieler/464195
+379163,Marius Marin,6,3,Midfield,Pisa Sporting Club,/marius-marin/profil/spieler/379163
+348601,Mehdi Léris,7,4,Forward,Pisa Sporting Club,/mehdi-leris/profil/spieler/348601
+317057,Adrian Semper,1,1,Goalkeeper,Pisa Sporting Club,/adrian-semper/profil/spieler/317057
+279823,Stefano Moreo,32,4,Forward,Pisa Sporting Club,/stefano-moreo/profil/spieler/279823
+543822,Malthe Højholt,8,3,Midfield,Pisa Sporting Club,/malthe-hojholt/profil/spieler/543822
+238993,Simone Scuffet,22,1,Goalkeeper,Pisa Sporting Club,/simone-scuffet/profil/spieler/238993
+91970,Juan Cuadrado,11,3,Midfield,Pisa Sporting Club,/juan-cuadrado/profil/spieler/91970
+15452,Raúl Albiol,39,2,Defender,Pisa Sporting Club,/raul-albiol/profil/spieler/15452
+240897,Arturo Calabresi,33,2,Defender,Pisa Sporting Club,/arturo-calabresi/profil/spieler/240897
+149525,Antonio Caracciolo,4,2,Defender,Pisa Sporting Club,/antonio-caracciolo/profil/spieler/149525
+692187,Daniel Denoon,44,2,Defender,Pisa Sporting Club,/daniel-denoon/profil/spieler/692187
+99523,Nícolas,12,1,Goalkeeper,Pisa Sporting Club,/nicolas/profil/spieler/99523
+1112449,Tiago Gabriel,44,2,Defender,US Lecce,/tiago-gabriel/profil/spieler/1112449
+1058368,Francesco Camarda,22,4,Forward,US Lecce,/francesco-camarda/profil/spieler/1058368
+583046,Medon Berisha,10,3,Midfield,US Lecce,/medon-berisha/profil/spieler/583046
+604113,Jamil Siebert,5,2,Defender,US Lecce,/jamil-siebert/profil/spieler/604113
+595650,Nikola Stulic,9,4,Forward,US Lecce,/nikola-stulic/profil/spieler/595650
+780548,Omri Gandelman,16,3,Midfield,US Lecce,/omri-gandelman/profil/spieler/780548
+392516,Antonino Gallo,25,2,Defender,US Lecce,/antonino-gallo/profil/spieler/392516
+238537,Wladimiro Falcone,30,1,Goalkeeper,US Lecce,/wladimiro-falcone/profil/spieler/238537
+836441,Gaspar,4,2,Defender,US Lecce,/gaspar/profil/spieler/836441
+674806,Santiago Pierotti,50,4,Forward,US Lecce,/santiago-pierotti/profil/spieler/674806
+386455,Riccardo Sottil,23,4,Forward,US Lecce,/riccardo-sottil/profil/spieler/386455
+545538,Lameck Banda,19,4,Forward,US Lecce,/lameck-banda/profil/spieler/545538
+555106,Filip Marchwinski,36,3,Midfield,US Lecce,/filip-marchwinski/profil/spieler/555106
+386552,Lassana Coulibaly,29,3,Midfield,US Lecce,/lassana-coulibaly/profil/spieler/386552
+980575,Oumar Ngom,79,3,Midfield,US Lecce,/oumar-ngom/profil/spieler/980575
+521407,Walid Cheddira,99,4,Forward,US Lecce,/walid-cheddira/profil/spieler/521407
+488996,Thórir Jóhann Helgason,14,3,Midfield,US Lecce,/thorir-johann-helgason/profil/spieler/488996
+728485,Danilo Veiga,17,2,Defender,US Lecce,/danilo-veiga/profil/spieler/728485
+442703,Ylber Ramadani,20,3,Midfield,US Lecce,/ylber-ramadani/profil/spieler/442703
+582664,Álex Sala,6,3,Midfield,US Lecce,/alex-sala/profil/spieler/582664
+649490,Konan N’Dri,11,4,Forward,US Lecce,/konan-ndri/profil/spieler/649490
+805886,Gaby Jean,18,2,Defender,US Lecce,/gaby-jean/profil/spieler/805886
+336307,Christian Früchtl,1,1,Goalkeeper,US Lecce,/christian-fruchtl/profil/spieler/336307
+433329,Corrie Ndaba,3,2,Defender,US Lecce,/corrie-ndaba/profil/spieler/433329
+644613,Sadik Fofana,8,3,Midfield,US Lecce,/sadik-fofana/profil/spieler/644613
+1175410,Matías Pérez,13,2,Defender,US Lecce,/matias-perez/profil/spieler/1175410
+712911,Jasper Samooja,32,1,Goalkeeper,US Lecce,/jasper-samooja/profil/spieler/712911
 463665,Oumar Solet,28,2,Defender,Udinese Calcio,/oumar-solet/profil/spieler/463665
 855308,Arthur Atta,14,3,Midfield,Udinese Calcio,/arthur-atta/profil/spieler/855308
 392085,Nicolò Zaniolo,10,4,Forward,Udinese Calcio,/nicolo-zaniolo/profil/spieler/392085
@@ -533,3 +503,33 @@ id,name,shirtNumber,positionId,position,club,link
 1210116,Abdoulaye Camara,29,3,Midfield,Udinese Calcio,/abdoulaye-camara/profil/spieler/1210116
 81512,Christian Kabasele,27,2,Defender,Udinese Calcio,/christian-kabasele/profil/spieler/81512
 27807,Daniele Padelli,93,1,Goalkeeper,Udinese Calcio,/daniele-padelli/profil/spieler/27807
+622380,Cesare Casadei,22,3,Midfield,Torino FC,/cesare-casadei/profil/spieler/622380
+470794,Ivan Ilić,8,3,Midfield,Torino FC,/ivan-ilic/profil/spieler/470794
+588426,Saúl Coco,23,2,Defender,Torino FC,/saul-coco/profil/spieler/588426
+293200,Nikola Vlašić,10,3,Midfield,Torino FC,/nikola-vlasic/profil/spieler/293200
+346779,Ché Adams,19,4,Forward,Torino FC,/che-adams/profil/spieler/346779
+814446,Luca Marianucci,35,2,Defender,Torino FC,/luca-marianucci/profil/spieler/814446
+393238,Zakaria Aboukhlal,7,4,Forward,Torino FC,/zakaria-aboukhlal/profil/spieler/393238
+876298,Matteo Prati,4,3,Midfield,Torino FC,/matteo-prati/profil/spieler/876298
+798929,Gvidas Gineitis,66,3,Midfield,Torino FC,/gvidas-gineitis/profil/spieler/798929
+743091,Emirhan İlkhan,6,3,Midfield,Torino FC,/emirhan-ilkhan/profil/spieler/743091
+435228,Ardian Ismajli,44,2,Defender,Torino FC,/ardian-ismajli/profil/spieler/435228
+282388,Giovanni Simeone,18,4,Forward,Torino FC,/giovanni-simeone/profil/spieler/282388
+357778,Sandro Kulenović,17,4,Forward,Torino FC,/sandro-kulenovic/profil/spieler/357778
+433181,Tino Anjorin,14,3,Midfield,Torino FC,/tino-anjorin/profil/spieler/433181
+186368,Valentino Lazaro,20,3,Midfield,Torino FC,/valentino-lazaro/profil/spieler/186368
+646747,Rafa Obrador,33,2,Defender,Torino FC,/rafa-obrador/profil/spieler/646747
+583404,Marcus Pedersen,16,2,Defender,Torino FC,/marcus-pedersen/profil/spieler/583404
+591193,Niels Nkounkou,25,2,Defender,Torino FC,/niels-nkounkou/profil/spieler/591193
+249730,Guillermo Maripán,13,2,Defender,Torino FC,/guillermo-maripan/profil/spieler/249730
+492319,Franco Israel,81,1,Goalkeeper,Torino FC,/franco-israel/profil/spieler/492319
+73794,Duván Zapata,91,4,Forward,Torino FC,/duvan-zapata/profil/spieler/73794
+934527,Alieu Njie,92,4,Forward,Torino FC,/alieu-njie/profil/spieler/934527
+980632,Sergiu Perciun,83,3,Midfield,Torino FC,/sergiu-perciun/profil/spieler/980632
+342877,Enzo Ebosse,77,2,Defender,Torino FC,/enzo-ebosse/profil/spieler/342877
+157507,Adrien Tamèze,61,3,Midfield,Torino FC,/adrien-tameze/profil/spieler/157507
+124555,Cristiano Biraghi,34,2,Defender,Torino FC,/cristiano-biraghi/profil/spieler/124555
+655456,Saba Sazonov,15,2,Defender,Torino FC,/saba-sazonov/profil/spieler/655456
+163048,Alberto Paleari,1,1,Goalkeeper,Torino FC,/alberto-paleari/profil/spieler/163048
+942103,Lapo Siviero,99,1,Goalkeeper,Torino FC,/lapo-siviero/profil/spieler/942103
+928900,Zanos Savva,79,4,Forward,Torino FC,/zanos-savva/profil/spieler/928900

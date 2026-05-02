@@ -1,7 +1,7 @@
 {
   "league": "epl",
   "season": 2025,
-  "updatedAt": "2026-05-01T06:59:30+00:00",
+  "updatedAt": "2026-05-02T15:11:53+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
@@ -57,18 +57,24 @@
     "lastCompletedMatchday": 34
   },
   "stats": {
-    "status": "skipped",
-    "changedClubs": [],
-    "resolvedClubs": [],
+    "status": "targeted",
+    "changedClubs": [
+      "Leeds",
+      "Burnley"
+    ],
+    "resolvedClubs": [
+      "Leeds United",
+      "Burnley FC"
+    ],
     "unresolvedClubs": []
   },
   "outputs": {
-    "tableChanged": false,
-    "playersChanged": false,
-    "statsChanged": false,
-    "matchesChanged": false,
+    "tableChanged": true,
+    "playersChanged": true,
+    "statsChanged": true,
+    "matchesChanged": true,
     "bracketChanged": false,
-    "tablePdfRendered": false,
-    "statsPdfRendered": false
+    "tablePdfRendered": true,
+    "statsPdfRendered": true
   }
 }

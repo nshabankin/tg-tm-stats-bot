@@ -1,7 +1,7 @@
 {
   "league": "rpl",
   "season": 2025,
-  "updatedAt": "2026-05-01T07:00:12+00:00",
+  "updatedAt": "2026-05-02T15:16:14+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 16,
@@ -49,18 +49,32 @@
     "lastCompletedMatchday": 27
   },
   "stats": {
-    "status": "skipped",
-    "changedClubs": [],
-    "resolvedClubs": [],
+    "status": "targeted",
+    "changedClubs": [
+      "KS Samara",
+      "Spartak Moscow",
+      "Loko Moscow",
+      "Dynamo Moscow",
+      "Dinamo Makhach.",
+      "Rostov"
+    ],
+    "resolvedClubs": [
+      "Krylya Sovetov Samara",
+      "Spartak Moscow",
+      "Lokomotiv Moscow",
+      "Dynamo Moscow",
+      "Dinamo Makhachkala",
+      "FC Rostov"
+    ],
     "unresolvedClubs": []
   },
   "outputs": {
-    "tableChanged": false,
-    "playersChanged": false,
-    "statsChanged": false,
-    "matchesChanged": false,
+    "tableChanged": true,
+    "playersChanged": true,
+    "statsChanged": true,
+    "matchesChanged": true,
     "bracketChanged": false,
-    "tablePdfRendered": false,
-    "statsPdfRendered": false
+    "tablePdfRendered": true,
+    "statsPdfRendered": true
   }
 }

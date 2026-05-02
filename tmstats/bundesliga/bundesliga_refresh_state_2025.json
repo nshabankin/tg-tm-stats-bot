@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": 2025,
-  "updatedAt": "2026-05-01T06:59:58+00:00",
+  "updatedAt": "2026-05-02T15:14:41+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 18,
@@ -59,12 +59,12 @@
     "unresolvedClubs": []
   },
   "outputs": {
-    "tableChanged": false,
+    "tableChanged": true,
     "playersChanged": false,
     "statsChanged": false,
-    "matchesChanged": false,
+    "matchesChanged": true,
     "bracketChanged": false,
-    "tablePdfRendered": false,
+    "tablePdfRendered": true,
     "statsPdfRendered": false
   }
 }

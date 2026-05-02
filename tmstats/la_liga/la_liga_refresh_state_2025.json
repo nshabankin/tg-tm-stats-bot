@@ -1,7 +1,7 @@
 {
   "league": "la_liga",
   "season": 2025,
-  "updatedAt": "2026-05-01T06:59:43+00:00",
+  "updatedAt": "2026-05-02T15:13:33+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
@@ -57,18 +57,28 @@
     "lastCompletedMatchday": 33
   },
   "stats": {
-    "status": "skipped",
-    "changedClubs": [],
-    "resolvedClubs": [],
+    "status": "targeted",
+    "changedClubs": [
+      "Girona",
+      "RCD Mallorca",
+      "Villarreal",
+      "Levante"
+    ],
+    "resolvedClubs": [
+      "Girona FC",
+      "RCD Mallorca",
+      "Villarreal CF",
+      "Levante UD"
+    ],
     "unresolvedClubs": []
   },
   "outputs": {
-    "tableChanged": false,
-    "playersChanged": false,
-    "statsChanged": false,
-    "matchesChanged": false,
+    "tableChanged": true,
+    "playersChanged": true,
+    "statsChanged": true,
+    "matchesChanged": true,
     "bracketChanged": false,
-    "tablePdfRendered": false,
-    "statsPdfRendered": false
+    "tablePdfRendered": true,
+    "statsPdfRendered": true
   }
 }
