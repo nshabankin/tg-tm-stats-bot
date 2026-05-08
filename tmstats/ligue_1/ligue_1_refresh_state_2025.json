@@ -1,19 +1,18 @@
 {
   "league": "ligue_1",
   "season": 2025,
-  "updatedAt": "2026-05-02T15:14:52+00:00",
+  "updatedAt": "2026-05-08T14:19:05+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 18,
-    "players": 477,
-    "statsRows": 477,
+    "players": 478,
+    "statsRows": 478,
     "tableRows": 18
   },
   "matches": {
     "groupCount": 34,
     "pendingMatchdays": [
       29,
-      32,
       33,
       34
     ],
@@ -47,24 +46,62 @@
       27,
       28,
       30,
-      31
+      31,
+      32
     ],
     "lastPendingMatchday": 34,
-    "lastCompletedMatchday": 31
+    "lastCompletedMatchday": 32
   },
   "stats": {
-    "status": "skipped",
-    "changedClubs": [],
-    "resolvedClubs": [],
+    "status": "targeted",
+    "changedClubs": [
+      "FC Nantes",
+      "Marseille",
+      "PSG",
+      "FC Lorient",
+      "FC Metz",
+      "Metz",
+      "Nice",
+      "Lens",
+      "Lille",
+      "Le Havre AC",
+      "R. Strasbourg",
+      "Toulouse",
+      "Paris FC",
+      "Stade Brestois",
+      "AJ Auxerre",
+      "Angers SCO",
+      "Lyon",
+      "Stade Rennais"
+    ],
+    "resolvedClubs": [
+      "FC Nantes",
+      "Olympique Marseille",
+      "Paris Saint-Germain",
+      "FC Lorient",
+      "FC Metz",
+      "OGC Nice",
+      "RC Lens",
+      "LOSC Lille",
+      "Le Havre AC",
+      "RC Strasbourg Alsace",
+      "FC Toulouse",
+      "Paris FC",
+      "Stade Brestois 29",
+      "AJ Auxerre",
+      "Angers SCO",
+      "Olympique Lyon",
+      "Stade Rennais FC"
+    ],
     "unresolvedClubs": []
   },
   "outputs": {
     "tableChanged": true,
-    "playersChanged": false,
-    "statsChanged": false,
+    "playersChanged": true,
+    "statsChanged": true,
     "matchesChanged": true,
     "bracketChanged": false,
     "tablePdfRendered": true,
-    "statsPdfRendered": false
+    "statsPdfRendered": true
   }
 }

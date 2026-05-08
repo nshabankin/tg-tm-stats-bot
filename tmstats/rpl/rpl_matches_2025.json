@@ -1701,31 +1701,38 @@
         },
         {
           "date": "Sat 02/05/2026",
+          "time": "3:30 PM",
+          "homeTeam": "Baltika",
+          "awayTeam": "Rubin Kazan",
+          "score": "0:1"
+        },
+        {
+          "date": "Sat 02/05/2026",
           "time": "6:00 PM",
           "homeTeam": "CSKA Moscow",
           "awayTeam": "Zenit S-Pb",
-          "score": ""
+          "score": "1:3"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "1:30 PM",
           "homeTeam": "FK Sochi",
           "awayTeam": "Orenburg",
-          "score": ""
+          "score": "3:1"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "4:00 PM",
           "homeTeam": "Akron Tolyatti",
           "awayTeam": "Krasnodar",
-          "score": ""
+          "score": "0:1"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Akhmat Grozny",
           "awayTeam": "Pari NN",
-          "score": ""
+          "score": "2:0"
         }
       ]
     },

@@ -1,12 +1,12 @@
 {
   "league": "uel",
   "season": 2025,
-  "updatedAt": "2026-05-02T15:17:51+00:00",
+  "updatedAt": "2026-05-08T15:17:08+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 36,
-    "players": 1041,
-    "statsRows": 1041,
+    "players": 1040,
+    "statsRows": 1040,
     "tableRows": 36
   },
   "matches": {
@@ -26,18 +26,28 @@
     "lastCompletedMatchday": 8
   },
   "stats": {
-    "status": "skipped",
-    "changedClubs": [],
-    "resolvedClubs": [],
+    "status": "targeted",
+    "changedClubs": [
+      "Freiburg",
+      "Braga",
+      "Aston Villa",
+      "Nott'm Forest"
+    ],
+    "resolvedClubs": [
+      "Freiburg",
+      "Braga",
+      "Aston Villa",
+      "Nott'm Forest"
+    ],
     "unresolvedClubs": []
   },
   "outputs": {
     "tableChanged": false,
-    "playersChanged": false,
-    "statsChanged": false,
-    "matchesChanged": false,
-    "bracketChanged": false,
+    "playersChanged": true,
+    "statsChanged": true,
+    "matchesChanged": true,
+    "bracketChanged": true,
     "tablePdfRendered": false,
-    "statsPdfRendered": false
+    "statsPdfRendered": true
   }
 }

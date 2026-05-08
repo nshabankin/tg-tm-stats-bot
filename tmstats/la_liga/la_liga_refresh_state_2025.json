@@ -1,7 +1,7 @@
 {
   "league": "la_liga",
   "season": 2025,
-  "updatedAt": "2026-05-02T15:13:33+00:00",
+  "updatedAt": "2026-05-08T14:07:54+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
@@ -12,7 +12,6 @@
   "matches": {
     "groupCount": 38,
     "pendingMatchdays": [
-      34,
       35,
       36,
       37,
@@ -51,24 +50,45 @@
       30,
       31,
       32,
-      33
+      33,
+      34
     ],
     "lastPendingMatchday": 38,
-    "lastCompletedMatchday": 33
+    "lastCompletedMatchday": 34
   },
   "stats": {
     "status": "targeted",
     "changedClubs": [
-      "Girona",
-      "RCD Mallorca",
-      "Villarreal",
-      "Levante"
+      "Valencia",
+      "Atlético",
+      "Alavés",
+      "Athletic Club",
+      "CA Osasuna",
+      "Barcelona",
+      "Celta de Vigo",
+      "Celta",
+      "Getafe",
+      "Rayo Vallecano",
+      "Real Betis",
+      "Betis",
+      "Espanyol",
+      "Espany",
+      "Sevilla FC",
+      "Sevill"
     ],
     "resolvedClubs": [
-      "Girona FC",
-      "RCD Mallorca",
-      "Villarreal CF",
-      "Levante UD"
+      "Valencia CF",
+      "Atlético de Madrid",
+      "Deportivo Alavés",
+      "Athletic Bilbao",
+      "CA Osasuna",
+      "FC Barcelona",
+      "Celta de Vigo",
+      "Getafe CF",
+      "Rayo Vallecano",
+      "Real Betis Balompié",
+      "RCD Espanyol Barcelona",
+      "Sevilla FC"
     ],
     "unresolvedClubs": []
   },

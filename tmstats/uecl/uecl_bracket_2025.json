@@ -462,7 +462,7 @@
               "date": "Thu 07/05/2026",
               "time": "9:00 PM",
               "homeTeam": "Crystal Palace",
-              "result": "-:-",
+              "result": "2:1",
               "awayTeam": "Shakhtar D."
             }
           ]
@@ -483,7 +483,7 @@
               "date": "",
               "time": "",
               "homeTeam": "R. Strasbourg",
-              "result": "-:-",
+              "result": "0:1",
               "awayTeam": "Rayo Vallecano"
             }
           ]
@@ -501,10 +501,10 @@
             {
               "leg": "Final",
               "date": "Wed 27/05/2026",
-              "time": "Unknown",
-              "homeTeam": "Winner SF 1",
+              "time": "9:00 PM",
+              "homeTeam": "Crystal Palace",
               "result": "-:-",
-              "awayTeam": "Winner SF 2"
+              "awayTeam": "Rayo Vallecano"
             }
           ]
         }

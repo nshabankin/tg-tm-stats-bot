@@ -932,6 +932,31 @@ id,name,shirtNumber,positionId,position,club,link
 211845,Yonas Malede,15,4,Forward,M. Tel Aviv,/yonas-malede/profil/spieler/211845
 200575,Roi Mishpati,90,1,Goalkeeper,M. Tel Aviv,/roi-mishpati/profil/spieler/200575
 1364962,Shalev Saadia,51,1,Goalkeeper,M. Tel Aviv,/shalev-saadia/profil/spieler/1364962
+927353,Johan Manzambi,44,3,Midfield,Freiburg,/johan-manzambi/profil/spieler/927353
+526845,Noah Atubolu,1,1,Goalkeeper,Freiburg,/noah-atubolu/profil/spieler/526845
+668606,Yuito Suzuki,14,4,Forward,Freiburg,/yuito-suzuki/profil/spieler/668606
+443331,Patrick Osterhage,6,3,Midfield,Freiburg,/patrick-osterhage/profil/spieler/443331
+225657,Philipp Lienhart,3,2,Defender,Freiburg,/philipp-lienhart/profil/spieler/225657
+605268,Igor Matanovic,31,4,Forward,Freiburg,/igor-matanovic/profil/spieler/605268
+863759,Bruno Ogbus,43,2,Defender,Freiburg,/bruno-ogbus/profil/spieler/863759
+335993,Philipp Treu,29,2,Defender,Freiburg,/philipp-treu/profil/spieler/335993
+190284,Maximilian Eggestein,8,3,Midfield,Freiburg,/maximilian-eggestein/profil/spieler/190284
+1145064,Cyriaque Irié,22,4,Forward,Freiburg,/cyriaque-irie/profil/spieler/1145064
+342967,Niklas Beste,19,4,Forward,Freiburg,/niklas-beste/profil/spieler/342967
+820957,Derry Scherhant,7,4,Forward,Freiburg,/derry-scherhant/profil/spieler/820957
+815078,Jordy Makengo,33,2,Defender,Freiburg,/jordy-makengo/profil/spieler/815078
+124502,Matthias Ginter,28,2,Defender,Freiburg,/matthias-ginter/profil/spieler/124502
+599419,Max Rosenfelder,37,2,Defender,Freiburg,/max-rosenfelder/profil/spieler/599419
+185077,Vincenzo Grifo,32,4,Forward,Freiburg,/vincenzo-grifo/profil/spieler/185077
+248999,Lucas Höler,9,4,Forward,Freiburg,/lucas-holer/profil/spieler/248999
+93707,Christian Günter,30,2,Defender,Freiburg,/christian-gunter/profil/spieler/93707
+93604,Lukas Kübler,17,2,Defender,Freiburg,/lukas-kubler/profil/spieler/93604
+284769,Florian Müller,21,1,Goalkeeper,Freiburg,/florian-muller/profil/spieler/284769
+58995,Anthony Jung,5,2,Defender,Freiburg,/anthony-jung/profil/spieler/58995
+143891,Maximilian Philipp,26,4,Forward,Freiburg,/maximilian-philipp/profil/spieler/143891
+55099,Nicolas Höfler,27,3,Midfield,Freiburg,/nicolas-hofler/profil/spieler/55099
+160954,Jannik Huth,24,1,Goalkeeper,Freiburg,/jannik-huth/profil/spieler/160954
+272587,Daniel-Kofi Kyereh,11,3,Midfield,Freiburg,/daniel-kofi-kyereh/profil/spieler/272587
 606752,Rodrigo Zalazar,10,3,Midfield,Braga,/rodrigo-zalazar/profil/spieler/606752
 629773,Lukas Hornicek,1,1,Goalkeeper,Braga,/lukas-hornicek/profil/spieler/629773
 707572,Pau Víctor,18,4,Forward,Braga,/pau-victor/profil/spieler/707572
@@ -960,32 +985,31 @@ id,name,shirtNumber,positionId,position,club,link
 667991,Alaa Bellaarouch,36,1,Goalkeeper,Braga,/alaa-bellaarouch/profil/spieler/667991
 286908,Tiago Sá,12,1,Goalkeeper,Braga,/tiago-sa/profil/spieler/286908
 1073115,Yanis da Rocha,41,3,Midfield,Braga,/yanis-da-rocha/profil/spieler/1073115
-927353,Johan Manzambi,44,3,Midfield,Freiburg,/johan-manzambi/profil/spieler/927353
-526845,Noah Atubolu,1,1,Goalkeeper,Freiburg,/noah-atubolu/profil/spieler/526845
-668606,Yuito Suzuki,14,4,Forward,Freiburg,/yuito-suzuki/profil/spieler/668606
-225657,Philipp Lienhart,3,2,Defender,Freiburg,/philipp-lienhart/profil/spieler/225657
-443331,Patrick Osterhage,6,3,Midfield,Freiburg,/patrick-osterhage/profil/spieler/443331
-605268,Igor Matanovic,31,4,Forward,Freiburg,/igor-matanovic/profil/spieler/605268
-863759,Bruno Ogbus,43,2,Defender,Freiburg,/bruno-ogbus/profil/spieler/863759
-190284,Maximilian Eggestein,8,3,Midfield,Freiburg,/maximilian-eggestein/profil/spieler/190284
-335993,Philipp Treu,29,2,Defender,Freiburg,/philipp-treu/profil/spieler/335993
-1145064,Cyriaque Irié,22,4,Forward,Freiburg,/cyriaque-irie/profil/spieler/1145064
-342967,Niklas Beste,19,4,Forward,Freiburg,/niklas-beste/profil/spieler/342967
-815078,Jordy Makengo,33,2,Defender,Freiburg,/jordy-makengo/profil/spieler/815078
-599419,Max Rosenfelder,37,2,Defender,Freiburg,/max-rosenfelder/profil/spieler/599419
-820957,Derry Scherhant,7,4,Forward,Freiburg,/derry-scherhant/profil/spieler/820957
-124502,Matthias Ginter,28,2,Defender,Freiburg,/matthias-ginter/profil/spieler/124502
-185077,Vincenzo Grifo,32,4,Forward,Freiburg,/vincenzo-grifo/profil/spieler/185077
-248999,Lucas Höler,9,4,Forward,Freiburg,/lucas-holer/profil/spieler/248999
-93707,Christian Günter,30,2,Defender,Freiburg,/christian-gunter/profil/spieler/93707
-93604,Lukas Kübler,17,2,Defender,Freiburg,/lukas-kubler/profil/spieler/93604
-284769,Florian Müller,21,1,Goalkeeper,Freiburg,/florian-muller/profil/spieler/284769
-58995,Anthony Jung,5,2,Defender,Freiburg,/anthony-jung/profil/spieler/58995
-143891,Maximilian Philipp,26,4,Forward,Freiburg,/maximilian-philipp/profil/spieler/143891
-55099,Nicolas Höfler,27,3,Midfield,Freiburg,/nicolas-hofler/profil/spieler/55099
-160954,Jannik Huth,24,1,Goalkeeper,Freiburg,/jannik-huth/profil/spieler/160954
-1159439,Rouven Tarnutzer,69,3,Midfield,Freiburg,/rouven-tarnutzer/profil/spieler/1159439
-272587,Daniel-Kofi Kyereh,11,3,Midfield,Freiburg,/daniel-kofi-kyereh/profil/spieler/272587
+503743,Morgan Rogers,27,3,Midfield,Aston Villa,/morgan-rogers/profil/spieler/503743
+485706,Amadou Onana,24,3,Midfield,Aston Villa,/amadou-onana/profil/spieler/485706
+413403,Ezri Konsa,4,2,Defender,Aston Villa,/ezri-konsa/profil/spieler/413403
+394327,Boubacar Kamara,44,3,Midfield,Aston Villa,/boubacar-kamara/profil/spieler/394327
+249565,Youri Tielemans,8,3,Midfield,Aston Villa,/youri-tielemans/profil/spieler/249565
+485585,Ian Maatsen,22,2,Defender,Aston Villa,/ian-maatsen/profil/spieler/485585
+324358,Ollie Watkins,11,4,Forward,Aston Villa,/ollie-watkins/profil/spieler/324358
+425334,Matty Cash,2,2,Defender,Aston Villa,/matty-cash/profil/spieler/425334
+565822,Harvey Elliott,9,3,Midfield,Aston Villa,/harvey-elliott/profil/spieler/565822
+399776,Pau Torres,14,2,Defender,Aston Villa,/pau-torres/profil/spieler/399776
+331726,Tammy Abraham,18,4,Forward,Aston Villa,/tammy-abraham/profil/spieler/331726
+447661,Douglas Luiz,21,3,Midfield,Aston Villa,/douglas-luiz/profil/spieler/447661
+401173,Jadon Sancho,19,4,Forward,Aston Villa,/jadon-sancho/profil/spieler/401173
+321247,Emiliano Buendía,10,3,Midfield,Aston Villa,/emiliano-buendia/profil/spieler/321247
+387626,Leon Bailey,31,4,Forward,Aston Villa,/leon-bailey/profil/spieler/387626
+193116,John McGinn,7,3,Midfield,Aston Villa,/john-mcginn/profil/spieler/193116
+645686,Lamare Bogarde,26,3,Midfield,Aston Villa,/lamare-bogarde/profil/spieler/645686
+111873,Emiliano Martínez,23,1,Goalkeeper,Aston Villa,/emiliano-martinez/profil/spieler/111873
+1005583,Alysson,47,4,Forward,Aston Villa,/alysson/profil/spieler/1005583
+126664,Lucas Digne,12,2,Defender,Aston Villa,/lucas-digne/profil/spieler/126664
+1063329,Andrés García,16,2,Defender,Aston Villa,/andres-garcia/profil/spieler/1063329
+184573,Victor Lindelöf,3,2,Defender,Aston Villa,/victor-lindelof/profil/spieler/184573
+131978,Ross Barkley,6,3,Midfield,Aston Villa,/ross-barkley/profil/spieler/131978
+253677,Tyrone Mings,5,2,Defender,Aston Villa,/tyrone-mings/profil/spieler/253677
+124884,Marco Bizot,40,1,Goalkeeper,Aston Villa,/marco-bizot/profil/spieler/124884
 567576,Elliot Anderson,8,3,Midfield,Nott'm Forest,/elliot-anderson/profil/spieler/567576
 429014,Morgan Gibbs-White,10,3,Midfield,Nott'm Forest,/morgan-gibbs-white/profil/spieler/429014
 1005649,Murillo,5,2,Defender,Nott'm Forest,/murillo/profil/spieler/1005649
@@ -1015,28 +1039,3 @@ id,name,shirtNumber,positionId,position,club,link
 201574,Angus Gunn,18,1,Goalkeeper,Nott'm Forest,/angus-gunn/profil/spieler/201574
 897481,Eric da Silva Moreira,17,2,Defender,Nott'm Forest,/eric-da-silva-moreira/profil/spieler/897481
 142310,Willy Boly,30,2,Defender,Nott'm Forest,/willy-boly/profil/spieler/142310
-503743,Morgan Rogers,27,3,Midfield,Aston Villa,/morgan-rogers/profil/spieler/503743
-485706,Amadou Onana,24,3,Midfield,Aston Villa,/amadou-onana/profil/spieler/485706
-413403,Ezri Konsa,4,2,Defender,Aston Villa,/ezri-konsa/profil/spieler/413403
-394327,Boubacar Kamara,44,3,Midfield,Aston Villa,/boubacar-kamara/profil/spieler/394327
-249565,Youri Tielemans,8,3,Midfield,Aston Villa,/youri-tielemans/profil/spieler/249565
-485585,Ian Maatsen,22,2,Defender,Aston Villa,/ian-maatsen/profil/spieler/485585
-324358,Ollie Watkins,11,4,Forward,Aston Villa,/ollie-watkins/profil/spieler/324358
-425334,Matty Cash,2,2,Defender,Aston Villa,/matty-cash/profil/spieler/425334
-565822,Harvey Elliott,9,3,Midfield,Aston Villa,/harvey-elliott/profil/spieler/565822
-399776,Pau Torres,14,2,Defender,Aston Villa,/pau-torres/profil/spieler/399776
-331726,Tammy Abraham,18,4,Forward,Aston Villa,/tammy-abraham/profil/spieler/331726
-447661,Douglas Luiz,21,3,Midfield,Aston Villa,/douglas-luiz/profil/spieler/447661
-401173,Jadon Sancho,19,4,Forward,Aston Villa,/jadon-sancho/profil/spieler/401173
-321247,Emiliano Buendía,10,3,Midfield,Aston Villa,/emiliano-buendia/profil/spieler/321247
-387626,Leon Bailey,31,4,Forward,Aston Villa,/leon-bailey/profil/spieler/387626
-193116,John McGinn,7,3,Midfield,Aston Villa,/john-mcginn/profil/spieler/193116
-645686,Lamare Bogarde,26,3,Midfield,Aston Villa,/lamare-bogarde/profil/spieler/645686
-111873,Emiliano Martínez,23,1,Goalkeeper,Aston Villa,/emiliano-martinez/profil/spieler/111873
-1005583,Alysson,47,4,Forward,Aston Villa,/alysson/profil/spieler/1005583
-126664,Lucas Digne,12,2,Defender,Aston Villa,/lucas-digne/profil/spieler/126664
-1063329,Andrés García,16,2,Defender,Aston Villa,/andres-garcia/profil/spieler/1063329
-184573,Victor Lindelöf,3,2,Defender,Aston Villa,/victor-lindelof/profil/spieler/184573
-131978,Ross Barkley,6,3,Midfield,Aston Villa,/ross-barkley/profil/spieler/131978
-253677,Tyrone Mings,5,2,Defender,Aston Villa,/tyrone-mings/profil/spieler/253677
-124884,Marco Bizot,40,1,Goalkeeper,Aston Villa,/marco-bizot/profil/spieler/124884

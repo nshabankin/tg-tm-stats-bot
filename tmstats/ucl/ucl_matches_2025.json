@@ -1401,14 +1401,14 @@
           "time": "9:00 PM",
           "homeTeam": "Bayern Munich",
           "awayTeam": "PSG",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Tue 05/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Arsenal",
           "awayTeam": "Atlético",
-          "score": ""
+          "score": "1:0"
         }
       ]
     },
@@ -1418,9 +1418,9 @@
       "matches": [
         {
           "date": "Sat 30/05/2026",
-          "time": "Unknown",
-          "homeTeam": "Winner SF 1",
-          "awayTeam": "Winner SF 2",
+          "time": "6:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "Arsenal",
           "score": ""
         }
       ]

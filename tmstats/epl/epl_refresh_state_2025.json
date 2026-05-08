@@ -1,7 +1,7 @@
 {
   "league": "epl",
   "season": 2025,
-  "updatedAt": "2026-05-02T15:11:53+00:00",
+  "updatedAt": "2026-05-08T14:04:57+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
@@ -13,7 +13,6 @@
     "groupCount": 38,
     "pendingMatchdays": [
       31,
-      35,
       36,
       37,
       38
@@ -51,20 +50,53 @@
       30,
       32,
       33,
-      34
+      34,
+      35
     ],
     "lastPendingMatchday": 38,
-    "lastCompletedMatchday": 34
+    "lastCompletedMatchday": 35
   },
   "stats": {
     "status": "targeted",
     "changedClubs": [
-      "Leeds",
-      "Burnley"
+      "Brentford",
+      "West Ham",
+      "Newcastle",
+      "Brighton",
+      "Wolves",
+      "Sunderland",
+      "Arsenal",
+      "Fulham",
+      "Bournemouth",
+      "Crystal Palace",
+      "Man Utd",
+      "Liverpool",
+      "Aston Villa",
+      "Tottenham",
+      "Chelsea",
+      "Nott'm Forest",
+      "Everton",
+      "Man City"
     ],
     "resolvedClubs": [
-      "Leeds United",
-      "Burnley FC"
+      "Brentford FC",
+      "West Ham United",
+      "Newcastle United",
+      "Brighton & Hove Albion",
+      "Wolverhampton Wanderers",
+      "Sunderland AFC",
+      "Arsenal FC",
+      "Fulham FC",
+      "AFC Bournemouth",
+      "Crystal Palace",
+      "Manchester United",
+      "Liverpool FC",
+      "Aston Villa",
+      "Tottenham Hotspur",
+      "Chelsea FC",
+      "Nottingham Forest",
+      "Everton FC",
+      "Manchester City"
     ],
     "unresolvedClubs": []
   },

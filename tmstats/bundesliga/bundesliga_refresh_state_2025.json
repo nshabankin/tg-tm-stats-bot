@@ -1,18 +1,17 @@
 {
   "league": "bundesliga",
   "season": 2025,
-  "updatedAt": "2026-05-02T15:14:41+00:00",
+  "updatedAt": "2026-05-08T14:15:29+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 18,
-    "players": 519,
-    "statsRows": 519,
+    "players": 517,
+    "statsRows": 517,
     "tableRows": 18
   },
   "matches": {
     "groupCount": 34,
     "pendingMatchdays": [
-      32,
       33,
       34
     ],
@@ -47,24 +46,61 @@
       28,
       29,
       30,
-      31
+      31,
+      32
     ],
     "lastPendingMatchday": 34,
-    "lastCompletedMatchday": 31
+    "lastCompletedMatchday": 32
   },
   "stats": {
-    "status": "skipped",
-    "changedClubs": [],
-    "resolvedClubs": [],
+    "status": "targeted",
+    "changedClubs": [
+      "Bayern Munich",
+      "Heidenheim",
+      "Frankfurt",
+      "Hamburg",
+      "Werder Bremen",
+      "Werder",
+      "Union Berlin",
+      "Union",
+      "Hoffenheim",
+      "Stuttgart",
+      "Leverkusen",
+      "Leipzig",
+      "St. Pauli",
+      "Mainz",
+      "Mönchengladbach",
+      "Dortmund",
+      "Freiburg",
+      "Wolfsburg"
+    ],
+    "resolvedClubs": [
+      "Bayern Munich",
+      "1.FC Heidenheim 1846",
+      "Eintracht Frankfurt",
+      "Hamburger SV",
+      "SV Werder Bremen",
+      "1.FC Union Berlin",
+      "TSG 1899 Hoffenheim",
+      "VfB Stuttgart",
+      "Bayer 04 Leverkusen",
+      "RB Leipzig",
+      "FC St. Pauli",
+      "1.FSV Mainz 05",
+      "Borussia Mönchengladbach",
+      "Borussia Dortmund",
+      "SC Freiburg",
+      "VfL Wolfsburg"
+    ],
     "unresolvedClubs": []
   },
   "outputs": {
     "tableChanged": true,
-    "playersChanged": false,
-    "statsChanged": false,
+    "playersChanged": true,
+    "statsChanged": true,
     "matchesChanged": true,
     "bracketChanged": false,
     "tablePdfRendered": true,
-    "statsPdfRendered": false
+    "statsPdfRendered": true
   }
 }

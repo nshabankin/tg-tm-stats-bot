@@ -2607,56 +2607,56 @@
           "time": "6:00 PM",
           "homeTeam": "Como",
           "awayTeam": "Napoli",
-          "score": ""
+          "score": "0:0"
         },
         {
           "date": "Sat 02/05/2026",
           "time": "8:45 PM",
           "homeTeam": "Atalanta",
           "awayTeam": "Genoa",
-          "score": ""
+          "score": "0:0"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "12:30 PM",
           "homeTeam": "Bologna",
           "awayTeam": "Cagliari",
-          "score": ""
+          "score": "0:0"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "3:00 PM",
           "homeTeam": "Sassuolo",
           "awayTeam": "AC Milan",
-          "score": ""
+          "score": "2:0"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "6:00 PM",
           "homeTeam": "Juventus",
           "awayTeam": "Hellas Verona",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "8:45 PM",
           "homeTeam": "Inter",
           "awayTeam": "Parma",
-          "score": ""
+          "score": "2:0"
         },
         {
           "date": "Mon 04/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Cremonese",
           "awayTeam": "Lazio",
-          "score": ""
+          "score": "1:2"
         },
         {
           "date": "Mon 04/05/2026",
           "time": "8:45 PM",
           "homeTeam": "Roma",
           "awayTeam": "Fiorentina",
-          "score": ""
+          "score": "4:0"
         }
       ]
     },

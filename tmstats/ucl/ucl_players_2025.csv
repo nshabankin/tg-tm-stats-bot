@@ -861,30 +861,6 @@ id,name,shirtNumber,positionId,position,club,link
 1179142,Daniyar Tashpulatov,59,2,Defender,Kairat Almaty,/daniyar-tashpulatov/profil/spieler/1179142
 1292415,Mukhamedali Abish,27,3,Midfield,Kairat Almaty,/mukhamedali-abish/profil/spieler/1292415
 1327495,Danila Buch,30,1,Goalkeeper,Kairat Almaty,/danila-buch/profil/spieler/1327495
-487469,Vitinha,17,3,Midfield,PSG,/vitinha/profil/spieler/487469
-670681,João Neves,87,3,Midfield,PSG,/joao-neves/profil/spieler/670681
-288230,Ousmane Dembélé,10,4,Forward,PSG,/ousmane-dembele/profil/spieler/288230
-914562,Désiré Doué,14,4,Forward,PSG,/desire-doue/profil/spieler/914562
-502670,Khvicha Kvaratskhelia,7,4,Forward,PSG,/khvicha-kvaratskhelia/profil/spieler/502670
-398073,Achraf Hakimi,2,2,Defender,PSG,/achraf-hakimi/profil/spieler/398073
-616341,Nuno Mendes,25,2,Defender,PSG,/nuno-mendes/profil/spieler/616341
-661171,Willian Pacho,51,2,Defender,PSG,/willian-pacho/profil/spieler/661171
-708265,Bradley Barcola,29,4,Forward,PSG,/bradley-barcola/profil/spieler/708265
-810092,Warren Zaïre-Emery,33,3,Midfield,PSG,/warren-zaire-emery/profil/spieler/810092
-659089,Ilya Zabarnyi,6,2,Defender,PSG,/ilya-zabarnyi/profil/spieler/659089
-350219,Fabián Ruiz,8,3,Midfield,PSG,/fabian-ruiz/profil/spieler/350219
-903693,Senny Mayulu,24,3,Midfield,PSG,/senny-mayulu/profil/spieler/903693
-550550,Gonçalo Ramos,9,4,Forward,PSG,/goncalo-ramos/profil/spieler/550550
-1185888,Ibrahim Mbaye,49,4,Forward,PSG,/ibrahim-mbaye/profil/spieler/1185888
-181767,Marquinhos,5,2,Defender,PSG,/marquinhos/profil/spieler/181767
-463600,Lucas Chevalier,30,1,Goalkeeper,PSG,/lucas-chevalier/profil/spieler/463600
-557149,Kang-in Lee,19,3,Midfield,PSG,/kang-in-lee/profil/spieler/557149
-318470,Matvey Safonov,39,1,Goalkeeper,PSG,/matvey-safonov/profil/spieler/318470
-872171,Lucas Beraldo,4,2,Defender,PSG,/lucas-beraldo/profil/spieler/872171
-281963,Lucas Hernández,21,2,Defender,PSG,/lucas-hernandez/profil/spieler/281963
-1071596,Dro Fernández,27,3,Midfield,PSG,/dro-fernandez/profil/spieler/1071596
-1053208,Quentin Ndjantou,47,4,Forward,PSG,/quentin-ndjantou/profil/spieler/1053208
-1041614,Renato Marin,89,1,Goalkeeper,PSG,/renato-marin/profil/spieler/1041614
 566723,Michael Olise,17,4,Forward,Bayern Munich,/michael-olise/profil/spieler/566723
 580195,Jamal Musiala,10,3,Midfield,Bayern Munich,/jamal-musiala/profil/spieler/580195
 792380,Aleksandar Pavlovic,45,3,Midfield,Bayern Munich,/aleksandar-pavlovic/profil/spieler/792380
@@ -910,29 +886,30 @@ id,name,shirtNumber,positionId,position,club,link
 40680,Sven Ulreich,26,1,Goalkeeper,Bayern Munich,/sven-ulreich/profil/spieler/40680
 1497653,Bara Sapoko Ndiaye,39,3,Midfield,Bayern Munich,/bara-sapoko-ndiaye/profil/spieler/1497653
 1009439,Leon Klanac,48,1,Goalkeeper,Bayern Munich,/leon-klanac/profil/spieler/1009439
-576024,Julián Alvarez,19,4,Forward,Atlético,/julian-alvarez/profil/spieler/576024
-775605,Pablo Barrios,8,3,Midfield,Atlético,/pablo-barrios/profil/spieler/775605
-548111,Álex Baena,10,4,Forward,Atlético,/alex-baena/profil/spieler/548111
-742201,Giuliano Simeone,20,4,Forward,Atlético,/giuliano-simeone/profil/spieler/742201
-406040,Ademola Lookman,22,4,Forward,Atlético,/ademola-lookman/profil/spieler/406040
-404418,Dávid Hancko,17,2,Defender,Atlético,/david-hancko/profil/spieler/404418
-844637,Marc Pubill,18,2,Defender,Atlético,/marc-pubill/profil/spieler/844637
-351809,Robin Le Normand,24,2,Defender,Atlético,/robin-le-normand/profil/spieler/351809
-486031,Nico González,23,4,Forward,Atlético,/nico-gonzalez/profil/spieler/486031
-689505,Johnny Cardoso,5,3,Midfield,Atlético,/johnny-cardoso/profil/spieler/689505
-282411,Marcos Llorente,14,2,Defender,Atlético,/marcos-llorente/profil/spieler/282411
-961297,Rodrigo Mendoza,4,3,Midfield,Atlético,/rodrigo-mendoza/profil/spieler/961297
-238407,Alexander Sørloth,9,4,Forward,Atlético,/alexander-sorloth/profil/spieler/238407
-616631,Matteo Ruggeri,3,2,Defender,Atlético,/matteo-ruggeri/profil/spieler/616631
-576028,Thiago Almada,11,4,Forward,Atlético,/thiago-almada/profil/spieler/576028
-121483,Jan Oblak,13,1,Goalkeeper,Atlético,/jan-oblak/profil/spieler/121483
-424042,Nahuel Molina,16,2,Defender,Atlético,/nahuel-molina/profil/spieler/424042
-250845,José María Giménez,2,2,Defender,Atlético,/jose-maria-gimenez/profil/spieler/250845
-125781,Antoine Griezmann,7,4,Forward,Atlético,/antoine-griezmann/profil/spieler/125781
-889435,Obed Vargas,21,3,Midfield,Atlético,/obed-vargas/profil/spieler/889435
-74229,Koke,6,3,Midfield,Atlético,/koke/profil/spieler/74229
-182904,Clément Lenglet,15,2,Defender,Atlético,/clement-lenglet/profil/spieler/182904
-242359,Juan Musso,1,1,Goalkeeper,Atlético,/juan-musso/profil/spieler/242359
+487469,Vitinha,17,3,Midfield,PSG,/vitinha/profil/spieler/487469
+670681,João Neves,87,3,Midfield,PSG,/joao-neves/profil/spieler/670681
+288230,Ousmane Dembélé,10,4,Forward,PSG,/ousmane-dembele/profil/spieler/288230
+914562,Désiré Doué,14,4,Forward,PSG,/desire-doue/profil/spieler/914562
+502670,Khvicha Kvaratskhelia,7,4,Forward,PSG,/khvicha-kvaratskhelia/profil/spieler/502670
+398073,Achraf Hakimi,2,2,Defender,PSG,/achraf-hakimi/profil/spieler/398073
+616341,Nuno Mendes,25,2,Defender,PSG,/nuno-mendes/profil/spieler/616341
+661171,Willian Pacho,51,2,Defender,PSG,/willian-pacho/profil/spieler/661171
+708265,Bradley Barcola,29,4,Forward,PSG,/bradley-barcola/profil/spieler/708265
+810092,Warren Zaïre-Emery,33,3,Midfield,PSG,/warren-zaire-emery/profil/spieler/810092
+659089,Ilya Zabarnyi,6,2,Defender,PSG,/ilya-zabarnyi/profil/spieler/659089
+350219,Fabián Ruiz,8,3,Midfield,PSG,/fabian-ruiz/profil/spieler/350219
+903693,Senny Mayulu,24,3,Midfield,PSG,/senny-mayulu/profil/spieler/903693
+550550,Gonçalo Ramos,9,4,Forward,PSG,/goncalo-ramos/profil/spieler/550550
+1185888,Ibrahim Mbaye,49,4,Forward,PSG,/ibrahim-mbaye/profil/spieler/1185888
+181767,Marquinhos,5,2,Defender,PSG,/marquinhos/profil/spieler/181767
+463600,Lucas Chevalier,30,1,Goalkeeper,PSG,/lucas-chevalier/profil/spieler/463600
+557149,Kang-in Lee,19,3,Midfield,PSG,/kang-in-lee/profil/spieler/557149
+318470,Matvey Safonov,39,1,Goalkeeper,PSG,/matvey-safonov/profil/spieler/318470
+872171,Lucas Beraldo,4,2,Defender,PSG,/lucas-beraldo/profil/spieler/872171
+281963,Lucas Hernández,21,2,Defender,PSG,/lucas-hernandez/profil/spieler/281963
+1071596,Dro Fernández,27,3,Midfield,PSG,/dro-fernandez/profil/spieler/1071596
+1053208,Quentin Ndjantou,47,4,Forward,PSG,/quentin-ndjantou/profil/spieler/1053208
+1041614,Renato Marin,89,1,Goalkeeper,PSG,/renato-marin/profil/spieler/1041614
 357662,Declan Rice,41,3,Midfield,Arsenal,/declan-rice/profil/spieler/357662
 433177,Bukayo Saka,7,4,Forward,Arsenal,/bukayo-saka/profil/spieler/433177
 495666,William Saliba,2,2,Defender,Arsenal,/william-saliba/profil/spieler/495666
@@ -958,3 +935,26 @@ id,name,shirtNumber,positionId,position,club,link
 192279,Kepa Arrizabalaga,13,1,Goalkeeper,Arsenal,/kepa-arrizabalaga/profil/spieler/192279
 148367,Christian Nørgaard,16,3,Midfield,Arsenal,/christian-norgaard/profil/spieler/148367
 848753,Tommy Setford,35,1,Goalkeeper,Arsenal,/tommy-setford/profil/spieler/848753
+576024,Julián Alvarez,19,4,Forward,Atlético,/julian-alvarez/profil/spieler/576024
+775605,Pablo Barrios,8,3,Midfield,Atlético,/pablo-barrios/profil/spieler/775605
+548111,Álex Baena,10,4,Forward,Atlético,/alex-baena/profil/spieler/548111
+742201,Giuliano Simeone,20,4,Forward,Atlético,/giuliano-simeone/profil/spieler/742201
+406040,Ademola Lookman,22,4,Forward,Atlético,/ademola-lookman/profil/spieler/406040
+404418,Dávid Hancko,17,2,Defender,Atlético,/david-hancko/profil/spieler/404418
+844637,Marc Pubill,18,2,Defender,Atlético,/marc-pubill/profil/spieler/844637
+351809,Robin Le Normand,24,2,Defender,Atlético,/robin-le-normand/profil/spieler/351809
+486031,Nico González,23,4,Forward,Atlético,/nico-gonzalez/profil/spieler/486031
+689505,Johnny Cardoso,5,3,Midfield,Atlético,/johnny-cardoso/profil/spieler/689505
+282411,Marcos Llorente,14,2,Defender,Atlético,/marcos-llorente/profil/spieler/282411
+961297,Rodrigo Mendoza,4,3,Midfield,Atlético,/rodrigo-mendoza/profil/spieler/961297
+238407,Alexander Sørloth,9,4,Forward,Atlético,/alexander-sorloth/profil/spieler/238407
+616631,Matteo Ruggeri,3,2,Defender,Atlético,/matteo-ruggeri/profil/spieler/616631
+576028,Thiago Almada,11,4,Forward,Atlético,/thiago-almada/profil/spieler/576028
+121483,Jan Oblak,13,1,Goalkeeper,Atlético,/jan-oblak/profil/spieler/121483
+424042,Nahuel Molina,16,2,Defender,Atlético,/nahuel-molina/profil/spieler/424042
+250845,José María Giménez,2,2,Defender,Atlético,/jose-maria-gimenez/profil/spieler/250845
+125781,Antoine Griezmann,7,4,Forward,Atlético,/antoine-griezmann/profil/spieler/125781
+889435,Obed Vargas,21,3,Midfield,Atlético,/obed-vargas/profil/spieler/889435
+74229,Koke,6,3,Midfield,Atlético,/koke/profil/spieler/74229
+182904,Clément Lenglet,15,2,Defender,Atlético,/clement-lenglet/profil/spieler/182904
+242359,Juan Musso,1,1,Goalkeeper,Atlético,/juan-musso/profil/spieler/242359

@@ -1,18 +1,17 @@
 {
   "league": "serie_a",
   "season": 2025,
-  "updatedAt": "2026-05-02T15:14:34+00:00",
+  "updatedAt": "2026-05-08T14:11:03+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
-    "players": 534,
-    "statsRows": 534,
+    "players": 535,
+    "statsRows": 535,
     "tableRows": 20
   },
   "matches": {
     "groupCount": 38,
     "pendingMatchdays": [
-      35,
       36,
       37,
       38
@@ -51,24 +50,49 @@
       31,
       32,
       33,
-      34
+      34,
+      35
     ],
     "lastPendingMatchday": 38,
-    "lastCompletedMatchday": 34
+    "lastCompletedMatchday": 35
   },
   "stats": {
     "status": "targeted",
     "changedClubs": [
-      "Pisa",
-      "Lecce",
-      "Udinese",
-      "Torino"
+      "Como",
+      "Napoli",
+      "Atalanta",
+      "Genoa",
+      "Bologna",
+      "Cagliari",
+      "Sassuolo",
+      "AC Milan",
+      "Juventus",
+      "Hellas Verona",
+      "Inter",
+      "Parma",
+      "Cremonese",
+      "Lazio",
+      "Roma",
+      "Fiorentina"
     ],
     "resolvedClubs": [
-      "Pisa Sporting Club",
-      "US Lecce",
-      "Udinese Calcio",
-      "Torino FC"
+      "Como 1907",
+      "SSC Napoli",
+      "Atalanta BC",
+      "Genoa CFC",
+      "Bologna FC 1909",
+      "Cagliari Calcio",
+      "US Sassuolo",
+      "AC Milan",
+      "Juventus FC",
+      "Hellas Verona",
+      "Inter Milan",
+      "Parma Calcio 1913",
+      "US Cremonese",
+      "SS Lazio",
+      "AS Roma",
+      "ACF Fiorentina"
     ],
     "unresolvedClubs": []
   },

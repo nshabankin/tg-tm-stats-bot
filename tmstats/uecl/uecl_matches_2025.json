@@ -1137,14 +1137,14 @@
           "time": "9:00 PM",
           "homeTeam": "Crystal Palace",
           "awayTeam": "Shakhtar D.",
-          "score": ""
+          "score": "2:1"
         },
         {
           "date": "",
           "time": "",
           "homeTeam": "R. Strasbourg",
           "awayTeam": "Rayo Vallecano",
-          "score": ""
+          "score": "0:1"
         }
       ]
     },
@@ -1154,9 +1154,9 @@
       "matches": [
         {
           "date": "Wed 27/05/2026",
-          "time": "Unknown",
-          "homeTeam": "Winner SF 1",
-          "awayTeam": "Winner SF 2",
+          "time": "9:00 PM",
+          "homeTeam": "Crystal Palace",
+          "awayTeam": "Rayo Vallecano",
           "score": ""
         }
       ]

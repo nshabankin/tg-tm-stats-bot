@@ -462,7 +462,7 @@
               "date": "Wed 06/05/2026",
               "time": "9:00 PM",
               "homeTeam": "Bayern Munich",
-              "result": "-:-",
+              "result": "1:1",
               "awayTeam": "PSG"
             }
           ]
@@ -483,7 +483,7 @@
               "date": "Tue 05/05/2026",
               "time": "9:00 PM",
               "homeTeam": "Arsenal",
-              "result": "-:-",
+              "result": "1:0",
               "awayTeam": "Atlético"
             }
           ]
@@ -501,10 +501,10 @@
             {
               "leg": "Final",
               "date": "Sat 30/05/2026",
-              "time": "Unknown",
-              "homeTeam": "Winner SF 1",
+              "time": "6:00 PM",
+              "homeTeam": "PSG",
               "result": "-:-",
-              "awayTeam": "Winner SF 2"
+              "awayTeam": "Arsenal"
             }
           ]
         }

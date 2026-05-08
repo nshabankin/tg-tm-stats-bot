@@ -2145,52 +2145,66 @@
       "matches": [
         {
           "date": "Sat 02/05/2026",
+          "time": "3:00 PM",
+          "homeTeam": "FC Nantes",
+          "awayTeam": "Marseille",
+          "score": "3:0"
+        },
+        {
+          "date": "Sat 02/05/2026",
+          "time": "5:00 PM",
+          "homeTeam": "PSG",
+          "awayTeam": "FC Lorient",
+          "score": "2:2"
+        },
+        {
+          "date": "Sat 02/05/2026",
           "time": "7:00 PM",
           "homeTeam": "FC Metz",
           "awayTeam": "Metz",
-          "score": ""
+          "score": "1:2"
         },
         {
           "date": "Sat 02/05/2026",
           "time": "9:05 PM",
           "homeTeam": "Nice",
           "awayTeam": "Lens",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "3:00 PM",
           "homeTeam": "Lille",
           "awayTeam": "Le Havre AC",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "5:15 PM",
           "homeTeam": "R. Strasbourg",
           "awayTeam": "Toulouse",
-          "score": ""
+          "score": "1:2"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "5:15 PM",
           "homeTeam": "Paris FC",
           "awayTeam": "Stade Brestois",
-          "score": ""
+          "score": "4:0"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "5:15 PM",
           "homeTeam": "AJ Auxerre",
           "awayTeam": "Angers SCO",
-          "score": ""
+          "score": "3:1"
         },
         {
           "date": "Sun 03/05/2026",
           "time": "8:45 PM",
           "homeTeam": "Lyon",
           "awayTeam": "Stade Rennais",
-          "score": ""
+          "score": "4:2"
         }
       ]
     },

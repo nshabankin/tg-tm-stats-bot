@@ -462,7 +462,7 @@
               "date": "Thu 07/05/2026",
               "time": "9:00 PM",
               "homeTeam": "Freiburg",
-              "result": "-:-",
+              "result": "3:1",
               "awayTeam": "Braga"
             }
           ]
@@ -483,7 +483,7 @@
               "date": "",
               "time": "",
               "homeTeam": "Aston Villa",
-              "result": "-:-",
+              "result": "4:0",
               "awayTeam": "Nott'm Forest"
             }
           ]
@@ -501,10 +501,10 @@
             {
               "leg": "Final",
               "date": "Wed 20/05/2026",
-              "time": "Unknown",
-              "homeTeam": "Winner SF 1",
+              "time": "9:00 PM",
+              "homeTeam": "Freiburg",
               "result": "-:-",
-              "awayTeam": "Winner SF 2"
+              "awayTeam": "Aston Villa"
             }
           ]
         }

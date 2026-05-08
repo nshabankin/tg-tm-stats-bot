@@ -1,7 +1,7 @@
 {
   "league": "ucl",
   "season": 2025,
-  "updatedAt": "2026-05-02T15:16:57+00:00",
+  "updatedAt": "2026-05-08T15:15:40+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 36,
@@ -26,18 +26,28 @@
     "lastCompletedMatchday": 8
   },
   "stats": {
-    "status": "skipped",
-    "changedClubs": [],
-    "resolvedClubs": [],
+    "status": "targeted",
+    "changedClubs": [
+      "Bayern Munich",
+      "PSG",
+      "Arsenal",
+      "Atlético"
+    ],
+    "resolvedClubs": [
+      "Bayern Munich",
+      "PSG",
+      "Arsenal",
+      "Atlético"
+    ],
     "unresolvedClubs": []
   },
   "outputs": {
     "tableChanged": false,
-    "playersChanged": false,
-    "statsChanged": false,
-    "matchesChanged": false,
-    "bracketChanged": false,
+    "playersChanged": true,
+    "statsChanged": true,
+    "matchesChanged": true,
+    "bracketChanged": true,
     "tablePdfRendered": false,
-    "statsPdfRendered": false
+    "statsPdfRendered": true
   }
 }

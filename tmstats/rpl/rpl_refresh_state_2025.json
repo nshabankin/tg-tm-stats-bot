@@ -1,7 +1,7 @@
 {
   "league": "rpl",
   "season": 2025,
-  "updatedAt": "2026-05-02T15:16:14+00:00",
+  "updatedAt": "2026-05-08T14:21:01+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 16,
@@ -12,7 +12,6 @@
   "matches": {
     "groupCount": 30,
     "pendingMatchdays": [
-      28,
       29,
       30
     ],
@@ -43,28 +42,37 @@
       24,
       25,
       26,
-      27
+      27,
+      28
     ],
     "lastPendingMatchday": 30,
-    "lastCompletedMatchday": 27
+    "lastCompletedMatchday": 28
   },
   "stats": {
     "status": "targeted",
     "changedClubs": [
-      "KS Samara",
-      "Spartak Moscow",
-      "Loko Moscow",
-      "Dynamo Moscow",
-      "Dinamo Makhach.",
-      "Rostov"
+      "Baltika",
+      "Rubin Kazan",
+      "CSKA Moscow",
+      "Zenit S-Pb",
+      "FK Sochi",
+      "Orenburg",
+      "Akron Tolyatti",
+      "Krasnodar",
+      "Akhmat Grozny",
+      "Pari NN"
     ],
     "resolvedClubs": [
-      "Krylya Sovetov Samara",
-      "Spartak Moscow",
-      "Lokomotiv Moscow",
-      "Dynamo Moscow",
-      "Dinamo Makhachkala",
-      "FC Rostov"
+      "Baltika Kaliningrad",
+      "Rubin Kazan",
+      "CSKA Moscow",
+      "Zenit St. Petersburg",
+      "FC Sochi",
+      "FC Orenburg",
+      "Akron Tolyatti",
+      "FC Krasnodar",
+      "Akhmat Grozny",
+      "FC Pari Nizhniy Novgorod"
     ],
     "unresolvedClubs": []
   },
