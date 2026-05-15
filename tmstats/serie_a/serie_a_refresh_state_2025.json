@@ -1,18 +1,17 @@
 {
   "league": "serie_a",
   "season": 2025,
-  "updatedAt": "2026-05-08T14:11:03+00:00",
+  "updatedAt": "2026-05-15T22:44:58+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
-    "players": 535,
-    "statsRows": 535,
+    "players": 536,
+    "statsRows": 536,
     "tableRows": 20
   },
   "matches": {
     "groupCount": 38,
     "pendingMatchdays": [
-      36,
       37,
       38
     ],
@@ -51,48 +50,56 @@
       32,
       33,
       34,
-      35
+      35,
+      36
     ],
     "lastPendingMatchday": 38,
-    "lastCompletedMatchday": 35
+    "lastCompletedMatchday": 36
   },
   "stats": {
     "status": "targeted",
     "changedClubs": [
-      "Como",
-      "Napoli",
-      "Atalanta",
-      "Genoa",
-      "Bologna",
-      "Cagliari",
+      "Torino",
       "Sassuolo",
-      "AC Milan",
+      "Cagliari",
+      "Udinese",
+      "Lazio",
+      "Inter",
+      "Lecce",
       "Juventus",
       "Hellas Verona",
-      "Inter",
-      "Parma",
+      "Como",
       "Cremonese",
-      "Lazio",
+      "Pisa",
+      "Fiorentina",
+      "Genoa",
+      "Parma",
       "Roma",
-      "Fiorentina"
+      "AC Milan",
+      "Milan",
+      "Napoli",
+      "Bologna"
     ],
     "resolvedClubs": [
-      "Como 1907",
-      "SSC Napoli",
-      "Atalanta BC",
-      "Genoa CFC",
-      "Bologna FC 1909",
-      "Cagliari Calcio",
+      "Torino FC",
       "US Sassuolo",
-      "AC Milan",
+      "Cagliari Calcio",
+      "Udinese Calcio",
+      "SS Lazio",
+      "Inter Milan",
+      "US Lecce",
       "Juventus FC",
       "Hellas Verona",
-      "Inter Milan",
-      "Parma Calcio 1913",
+      "Como 1907",
       "US Cremonese",
-      "SS Lazio",
+      "Pisa Sporting Club",
+      "ACF Fiorentina",
+      "Genoa CFC",
+      "Parma Calcio 1913",
       "AS Roma",
-      "ACF Fiorentina"
+      "AC Milan",
+      "SSC Napoli",
+      "Bologna FC 1909"
     ],
     "unresolvedClubs": []
   },

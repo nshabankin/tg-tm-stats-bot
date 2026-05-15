@@ -1,7 +1,7 @@
 {
   "league": "epl",
   "season": 2025,
-  "updatedAt": "2026-05-08T14:04:57+00:00",
+  "updatedAt": "2026-05-15T22:35:56+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
@@ -12,8 +12,6 @@
   "matches": {
     "groupCount": 38,
     "pendingMatchdays": [
-      31,
-      36,
       37,
       38
     ],
@@ -48,55 +46,61 @@
       28,
       29,
       30,
+      31,
       32,
       33,
       34,
-      35
+      35,
+      36
     ],
     "lastPendingMatchday": 38,
-    "lastCompletedMatchday": 35
+    "lastCompletedMatchday": 36
   },
   "stats": {
     "status": "targeted",
     "changedClubs": [
-      "Brentford",
-      "West Ham",
-      "Newcastle",
+      "Man City",
+      "Crystal Palace",
+      "Liverpool",
+      "Chelsea",
       "Brighton",
       "Wolves",
-      "Sunderland",
-      "Arsenal",
       "Fulham",
       "Bournemouth",
-      "Crystal Palace",
+      "Sunderland",
       "Man Utd",
-      "Liverpool",
+      "Brentford",
+      "Burnley",
       "Aston Villa",
-      "Tottenham",
-      "Chelsea",
-      "Nott'm Forest",
       "Everton",
-      "Man City"
+      "Nott'm Forest",
+      "Newcastle",
+      "West Ham",
+      "Arsenal",
+      "Tottenham",
+      "Leeds"
     ],
     "resolvedClubs": [
-      "Brentford FC",
-      "West Ham United",
-      "Newcastle United",
+      "Manchester City",
+      "Crystal Palace",
+      "Liverpool FC",
+      "Chelsea FC",
       "Brighton & Hove Albion",
       "Wolverhampton Wanderers",
-      "Sunderland AFC",
-      "Arsenal FC",
       "Fulham FC",
       "AFC Bournemouth",
-      "Crystal Palace",
+      "Sunderland AFC",
       "Manchester United",
-      "Liverpool FC",
+      "Brentford FC",
+      "Burnley FC",
       "Aston Villa",
-      "Tottenham Hotspur",
-      "Chelsea FC",
-      "Nottingham Forest",
       "Everton FC",
-      "Manchester City"
+      "Nottingham Forest",
+      "Newcastle United",
+      "West Ham United",
+      "Arsenal FC",
+      "Tottenham Hotspur",
+      "Leeds United"
     ],
     "unresolvedClubs": []
   },

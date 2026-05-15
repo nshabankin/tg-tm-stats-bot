@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": 2025,
-  "updatedAt": "2026-05-08T14:15:29+00:00",
+  "updatedAt": "2026-05-15T22:49:24+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 18,
@@ -12,7 +12,6 @@
   "matches": {
     "groupCount": 34,
     "pendingMatchdays": [
-      33,
       34
     ],
     "completedMatchdays": [
@@ -47,50 +46,51 @@
       29,
       30,
       31,
-      32
+      32,
+      33
     ],
     "lastPendingMatchday": 34,
-    "lastCompletedMatchday": 32
+    "lastCompletedMatchday": 33
   },
   "stats": {
     "status": "targeted",
     "changedClubs": [
-      "Bayern Munich",
-      "Heidenheim",
+      "Dortmund",
       "Frankfurt",
-      "Hamburg",
-      "Werder Bremen",
-      "Werder",
-      "Union Berlin",
-      "Union",
-      "Hoffenheim",
-      "Stuttgart",
-      "Leverkusen",
       "Leipzig",
       "St. Pauli",
-      "Mainz",
+      "Stuttgart",
+      "VfB",
+      "Augsburg",
       "Mönchengladbach",
-      "Dortmund",
+      "Hoffenheim",
+      "Werder Bremen",
+      "Wolfsburg",
+      "Bayern Munich",
+      "Hamburg",
       "Freiburg",
-      "Wolfsburg"
+      "1.FC Köln",
+      "Köln",
+      "Mainz",
+      "Union Berlin"
     ],
     "resolvedClubs": [
-      "Bayern Munich",
-      "1.FC Heidenheim 1846",
+      "Borussia Dortmund",
       "Eintracht Frankfurt",
-      "Hamburger SV",
-      "SV Werder Bremen",
-      "1.FC Union Berlin",
-      "TSG 1899 Hoffenheim",
-      "VfB Stuttgart",
-      "Bayer 04 Leverkusen",
       "RB Leipzig",
       "FC St. Pauli",
-      "1.FSV Mainz 05",
+      "VfB Stuttgart",
+      "FC Augsburg",
       "Borussia Mönchengladbach",
-      "Borussia Dortmund",
+      "TSG 1899 Hoffenheim",
+      "SV Werder Bremen",
+      "VfL Wolfsburg",
+      "Bayern Munich",
+      "Hamburger SV",
       "SC Freiburg",
-      "VfL Wolfsburg"
+      "1.FC Köln",
+      "1.FSV Mainz 05",
+      "1.FC Union Berlin"
     ],
     "unresolvedClubs": []
   },

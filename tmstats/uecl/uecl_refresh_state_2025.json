@@ -1,7 +1,7 @@
 {
   "league": "uecl",
   "season": 2025,
-  "updatedAt": "2026-05-08T15:18:39+00:00",
+  "updatedAt": "2026-05-15T22:58:42+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 36,
@@ -24,28 +24,18 @@
     "lastCompletedMatchday": 6
   },
   "stats": {
-    "status": "targeted",
-    "changedClubs": [
-      "Crystal Palace",
-      "Shakhtar D.",
-      "R. Strasbourg",
-      "Rayo Vallecano"
-    ],
-    "resolvedClubs": [
-      "Crystal Palace",
-      "Shakhtar D.",
-      "R. Strasbourg",
-      "Rayo Vallecano"
-    ],
+    "status": "skipped",
+    "changedClubs": [],
+    "resolvedClubs": [],
     "unresolvedClubs": []
   },
   "outputs": {
     "tableChanged": false,
-    "playersChanged": true,
-    "statsChanged": true,
-    "matchesChanged": true,
-    "bracketChanged": true,
+    "playersChanged": false,
+    "statsChanged": false,
+    "matchesChanged": false,
+    "bracketChanged": false,
     "tablePdfRendered": false,
-    "statsPdfRendered": true
+    "statsPdfRendered": false
   }
 }

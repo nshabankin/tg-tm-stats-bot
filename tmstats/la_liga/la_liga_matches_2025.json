@@ -2593,70 +2593,70 @@
           "time": "9:00 PM",
           "homeTeam": "Levante",
           "awayTeam": "CA Osasuna",
-          "score": ""
+          "score": "3:2"
         },
         {
           "date": "Sat 09/05/2026",
           "time": "2:00 PM",
           "homeTeam": "Elche CF",
           "awayTeam": "Elche",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Sat 09/05/2026",
           "time": "4:15 PM",
           "homeTeam": "Sevilla FC",
           "awayTeam": "Sevill",
-          "score": ""
+          "score": "2:1"
         },
         {
           "date": "Sat 09/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Atlético",
           "awayTeam": "Atleti",
-          "score": ""
+          "score": "0:1"
         },
         {
           "date": "Sat 09/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Real Sociedad",
           "awayTeam": "Real",
-          "score": ""
+          "score": "2:2"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "2:00 PM",
           "homeTeam": "RCD Mallorca",
           "awayTeam": "Villarreal",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "4:15 PM",
           "homeTeam": "Athletic Club",
           "awayTeam": "Athl.",
-          "score": ""
+          "score": "0:1"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "6:30 PM",
           "homeTeam": "Real Oviedo",
           "awayTeam": "Oviedo",
-          "score": ""
+          "score": "0:0"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Barcelona",
           "awayTeam": "Barça",
-          "score": ""
+          "score": "2:0"
         },
         {
           "date": "Mon 11/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Rayo Vallecano",
           "awayTeam": "Rayo",
-          "score": ""
+          "score": "1:1"
         }
       ]
     },
@@ -2669,70 +2669,70 @@
           "time": "7:00 PM",
           "homeTeam": "Celta de Vigo",
           "awayTeam": "Celta",
-          "score": ""
+          "score": "2:3"
         },
         {
           "date": "Tue 12/05/2026",
           "time": "8:00 PM",
           "homeTeam": "Real Betis",
           "awayTeam": "Betis",
-          "score": ""
+          "score": "2:1"
         },
         {
           "date": "Tue 12/05/2026",
           "time": "9:30 PM",
           "homeTeam": "CA Osasuna",
           "awayTeam": "Atlético",
-          "score": ""
+          "score": "1:2"
         },
         {
           "date": "Wed 13/05/2026",
           "time": "7:00 PM",
           "homeTeam": "Espanyol",
           "awayTeam": "Espany",
-          "score": ""
+          "score": "2:0"
         },
         {
           "date": "Wed 13/05/2026",
           "time": "7:00 PM",
           "homeTeam": "Villarreal",
           "awayTeam": "Sevilla FC",
-          "score": ""
+          "score": "2:3"
         },
         {
           "date": "Wed 13/05/2026",
           "time": "9:30 PM",
           "homeTeam": "Alavés",
           "awayTeam": "Barcelona",
-          "score": ""
+          "score": "1:0"
         },
         {
           "date": "Wed 13/05/2026",
           "time": "9:30 PM",
           "homeTeam": "Getafe",
           "awayTeam": "RCD Mallorca",
-          "score": ""
+          "score": "3:1"
         },
         {
           "date": "Thu 14/05/2026",
           "time": "7:00 PM",
           "homeTeam": "Valencia",
           "awayTeam": "Rayo Vallecano",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Thu 14/05/2026",
           "time": "8:00 PM",
           "homeTeam": "Girona",
           "awayTeam": "Real Sociedad",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Thu 14/05/2026",
           "time": "9:30 PM",
           "homeTeam": "Real Madrid",
           "awayTeam": "Real Oviedo",
-          "score": ""
+          "score": "2:0"
         }
       ]
     },
@@ -2752,13 +2752,6 @@
           "time": "7:00 PM",
           "homeTeam": "Atlético",
           "awayTeam": "Atleti",
-          "score": ""
-        },
-        {
-          "date": "Sun 17/05/2026",
-          "time": "7:00 PM",
-          "homeTeam": "Barcelona",
-          "awayTeam": "Barça",
           "score": ""
         },
         {
@@ -2809,6 +2802,13 @@
           "homeTeam": "Sevilla FC",
           "awayTeam": "Sevill",
           "score": ""
+        },
+        {
+          "date": "Sun 17/05/2026",
+          "time": "9:15 PM",
+          "homeTeam": "Barcelona",
+          "awayTeam": "Barça",
+          "score": ""
         }
       ]
     },
@@ -2817,73 +2817,73 @@
       "label": "Matchday 38",
       "matches": [
         {
-          "date": "Sun 24/05/2026",
-          "time": "12:00 AM",
+          "date": "Sat 23/05/2026",
+          "time": "9:00 PM",
           "homeTeam": "Alavés",
           "awayTeam": "Rayo Vallecano",
           "score": ""
         },
         {
-          "date": "Sun 24/05/2026",
-          "time": "12:00 AM",
+          "date": "Sat 23/05/2026",
+          "time": "9:00 PM",
           "homeTeam": "Real Betis",
           "awayTeam": "Betis",
           "score": ""
         },
         {
-          "date": "Sun 24/05/2026",
-          "time": "12:00 AM",
+          "date": "Sat 23/05/2026",
+          "time": "9:00 PM",
           "homeTeam": "Celta de Vigo",
           "awayTeam": "Celta",
           "score": ""
         },
         {
-          "date": "Sun 24/05/2026",
-          "time": "12:00 AM",
+          "date": "Sat 23/05/2026",
+          "time": "9:00 PM",
           "homeTeam": "Espanyol",
           "awayTeam": "Espany",
           "score": ""
         },
         {
-          "date": "Sun 24/05/2026",
-          "time": "12:00 AM",
+          "date": "Sat 23/05/2026",
+          "time": "9:00 PM",
           "homeTeam": "Getafe",
           "awayTeam": "CA Osasuna",
           "score": ""
         },
         {
-          "date": "Sun 24/05/2026",
-          "time": "12:00 AM",
+          "date": "Sat 23/05/2026",
+          "time": "9:00 PM",
           "homeTeam": "RCD Mallorca",
           "awayTeam": "Real Oviedo",
           "score": ""
         },
         {
-          "date": "Sun 24/05/2026",
-          "time": "12:00 AM",
+          "date": "Sat 23/05/2026",
+          "time": "9:00 PM",
           "homeTeam": "Real Madrid",
           "awayTeam": "Athletic Club",
           "score": ""
         },
         {
-          "date": "Sun 24/05/2026",
-          "time": "12:00 AM",
-          "homeTeam": "Villarreal",
-          "awayTeam": "Atlético",
-          "score": ""
-        },
-        {
-          "date": "Sun 24/05/2026",
-          "time": "12:00 AM",
+          "date": "Sat 23/05/2026",
+          "time": "9:00 PM",
           "homeTeam": "Valencia",
           "awayTeam": "Barcelona",
           "score": ""
         },
         {
-          "date": "Sun 24/05/2026",
-          "time": "12:00 AM",
+          "date": "Sat 23/05/2026",
+          "time": "9:00 PM",
           "homeTeam": "Girona",
           "awayTeam": "Elche CF",
+          "score": ""
+        },
+        {
+          "date": "Sun 24/05/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Villarreal",
+          "awayTeam": "Atlético",
           "score": ""
         }
       ]

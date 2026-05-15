@@ -1990,14 +1990,14 @@
           "time": "7:00 PM",
           "homeTeam": "Stade Brestois",
           "awayTeam": "R. Strasbourg",
-          "score": ""
+          "score": "1:2"
         },
         {
           "date": "Wed 13/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Lens",
           "awayTeam": "RCL",
-          "score": ""
+          "score": "0:2"
         }
       ]
     },
@@ -2217,63 +2217,63 @@
           "time": "8:45 PM",
           "homeTeam": "Lens",
           "awayTeam": "FC Nantes",
-          "score": ""
+          "score": "1:0"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "9:00 PM",
           "homeTeam": "PSG",
           "awayTeam": "Stade Brestois",
-          "score": ""
+          "score": "1:0"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Le Havre AC",
           "awayTeam": "Marseille",
-          "score": ""
+          "score": "0:1"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Toulouse",
           "awayTeam": "Lyon",
-          "score": ""
+          "score": "2:1"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "9:00 PM",
           "homeTeam": "AJ Auxerre",
           "awayTeam": "Nice",
-          "score": ""
+          "score": "2:1"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Stade Rennais",
           "awayTeam": "Paris FC",
-          "score": ""
+          "score": "2:1"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "9:00 PM",
           "homeTeam": "FC Metz",
           "awayTeam": "Metz",
-          "score": ""
+          "score": "0:4"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Angers SCO",
           "awayTeam": "Angers",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Sun 10/05/2026",
           "time": "9:00 PM",
           "homeTeam": "Monaco",
           "awayTeam": "Lille",
-          "score": ""
+          "score": "0:1"
         }
       ]
     },
