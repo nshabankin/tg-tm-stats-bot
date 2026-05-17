@@ -2745,70 +2745,49 @@
           "time": "12:00 PM",
           "homeTeam": "Como",
           "awayTeam": "Parma",
-          "score": ""
+          "score": "1:0"
         },
         {
           "date": "Sun 17/05/2026",
           "time": "12:00 PM",
           "homeTeam": "Genoa",
           "awayTeam": "AC Milan",
-          "score": ""
+          "score": "1:2"
         },
         {
           "date": "Sun 17/05/2026",
           "time": "12:00 PM",
           "homeTeam": "Juventus",
           "awayTeam": "Fiorentina",
-          "score": ""
+          "score": "0:2"
         },
         {
           "date": "Sun 17/05/2026",
           "time": "12:00 PM",
           "homeTeam": "Pisa",
           "awayTeam": "Napoli",
-          "score": ""
+          "score": "0:3"
         },
         {
           "date": "Sun 17/05/2026",
           "time": "12:00 PM",
           "homeTeam": "Roma",
           "awayTeam": "Lazio",
-          "score": ""
+          "score": "2:0"
         },
         {
           "date": "Sun 17/05/2026",
           "time": "3:00 PM",
           "homeTeam": "Inter",
           "awayTeam": "Hellas Verona",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "Sun 17/05/2026",
           "time": "6:00 PM",
           "homeTeam": "Atalanta",
           "awayTeam": "Bologna",
-          "score": ""
-        },
-        {
-          "date": "Sun 17/05/2026",
-          "time": "8:45 PM",
-          "homeTeam": "Cagliari",
-          "awayTeam": "Torino",
-          "score": ""
-        },
-        {
-          "date": "Sun 17/05/2026",
-          "time": "8:45 PM",
-          "homeTeam": "Sassuolo",
-          "awayTeam": "Lecce",
-          "score": ""
-        },
-        {
-          "date": "Sun 17/05/2026",
-          "time": "8:45 PM",
-          "homeTeam": "Udinese",
-          "awayTeam": "Cremonese",
-          "score": ""
+          "score": "0:1"
         }
       ]
     },

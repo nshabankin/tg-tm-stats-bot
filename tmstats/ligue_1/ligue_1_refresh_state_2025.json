@@ -1,7 +1,7 @@
 {
   "league": "ligue_1",
   "season": 2025,
-  "updatedAt": "2026-05-15T22:53:04+00:00",
+  "updatedAt": "2026-05-17T19:44:59+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 18,
@@ -53,57 +53,18 @@
     "lastCompletedMatchday": 33
   },
   "stats": {
-    "status": "targeted",
-    "changedClubs": [
-      "Stade Brestois",
-      "R. Strasbourg",
-      "Lens",
-      "RCL",
-      "FC Nantes",
-      "PSG",
-      "Le Havre AC",
-      "Marseille",
-      "Toulouse",
-      "Lyon",
-      "AJ Auxerre",
-      "Nice",
-      "Stade Rennais",
-      "Paris FC",
-      "FC Metz",
-      "Metz",
-      "Angers SCO",
-      "Angers",
-      "Monaco",
-      "Lille"
-    ],
-    "resolvedClubs": [
-      "Stade Brestois 29",
-      "RC Strasbourg Alsace",
-      "RC Lens",
-      "FC Nantes",
-      "Paris Saint-Germain",
-      "Le Havre AC",
-      "Olympique Marseille",
-      "FC Toulouse",
-      "Olympique Lyon",
-      "AJ Auxerre",
-      "OGC Nice",
-      "Stade Rennais FC",
-      "Paris FC",
-      "FC Metz",
-      "Angers SCO",
-      "AS Monaco",
-      "LOSC Lille"
-    ],
+    "status": "skipped",
+    "changedClubs": [],
+    "resolvedClubs": [],
     "unresolvedClubs": []
   },
   "outputs": {
     "tableChanged": true,
-    "playersChanged": true,
-    "statsChanged": true,
-    "matchesChanged": true,
+    "playersChanged": false,
+    "statsChanged": false,
+    "matchesChanged": false,
     "bracketChanged": false,
     "tablePdfRendered": true,
-    "statsPdfRendered": true
+    "statsPdfRendered": false
   }
 }

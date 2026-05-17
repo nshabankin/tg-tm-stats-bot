@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": 2025,
-  "updatedAt": "2026-05-15T22:49:24+00:00",
+  "updatedAt": "2026-05-17T19:44:55+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 18,
@@ -11,9 +11,7 @@
   },
   "matches": {
     "groupCount": 34,
-    "pendingMatchdays": [
-      34
-    ],
+    "pendingMatchdays": [],
     "completedMatchdays": [
       1,
       2,
@@ -47,50 +45,51 @@
       30,
       31,
       32,
-      33
+      33,
+      34
     ],
-    "lastPendingMatchday": 34,
-    "lastCompletedMatchday": 33
+    "lastPendingMatchday": null,
+    "lastCompletedMatchday": 34
   },
   "stats": {
     "status": "targeted",
     "changedClubs": [
-      "Dortmund",
+      "Bayern Munich",
+      "1.FC Köln",
+      "Leverkusen",
+      "Hamburg",
       "Frankfurt",
-      "Leipzig",
-      "St. Pauli",
       "Stuttgart",
-      "VfB",
-      "Augsburg",
+      "Freiburg",
+      "Leipzig",
+      "Werder Bremen",
+      "Werder",
       "Mönchengladbach",
       "Hoffenheim",
-      "Werder Bremen",
+      "Union Berlin",
+      "Union",
+      "St. Pauli",
       "Wolfsburg",
-      "Bayern Munich",
-      "Hamburg",
-      "Freiburg",
-      "1.FC Köln",
-      "Köln",
-      "Mainz",
-      "Union Berlin"
+      "Heidenheim",
+      "Mainz"
     ],
     "resolvedClubs": [
-      "Borussia Dortmund",
+      "Bayern Munich",
+      "1.FC Köln",
+      "Bayer 04 Leverkusen",
+      "Hamburger SV",
       "Eintracht Frankfurt",
-      "RB Leipzig",
-      "FC St. Pauli",
       "VfB Stuttgart",
-      "FC Augsburg",
+      "SC Freiburg",
+      "RB Leipzig",
+      "SV Werder Bremen",
       "Borussia Mönchengladbach",
       "TSG 1899 Hoffenheim",
-      "SV Werder Bremen",
+      "1.FC Union Berlin",
+      "FC St. Pauli",
       "VfL Wolfsburg",
-      "Bayern Munich",
-      "Hamburger SV",
-      "SC Freiburg",
-      "1.FC Köln",
-      "1.FSV Mainz 05",
-      "1.FC Union Berlin"
+      "1.FC Heidenheim 1846",
+      "1.FSV Mainz 05"
     ],
     "unresolvedClubs": []
   },

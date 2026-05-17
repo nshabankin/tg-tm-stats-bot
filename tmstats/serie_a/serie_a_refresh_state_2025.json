@@ -1,7 +1,7 @@
 {
   "league": "serie_a",
   "season": 2025,
-  "updatedAt": "2026-05-15T22:44:58+00:00",
+  "updatedAt": "2026-05-17T19:40:26+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 20,
@@ -12,7 +12,6 @@
   "matches": {
     "groupCount": 38,
     "pendingMatchdays": [
-      37,
       38
     ],
     "completedMatchdays": [
@@ -51,54 +50,44 @@
       33,
       34,
       35,
-      36
+      36,
+      37
     ],
     "lastPendingMatchday": 38,
-    "lastCompletedMatchday": 36
+    "lastCompletedMatchday": 37
   },
   "stats": {
     "status": "targeted",
     "changedClubs": [
-      "Torino",
-      "Sassuolo",
-      "Cagliari",
-      "Udinese",
+      "Como",
+      "Parma",
+      "Genoa",
+      "AC Milan",
+      "Juventus",
+      "Fiorentina",
+      "Pisa",
+      "Napoli",
+      "Roma",
       "Lazio",
       "Inter",
-      "Lecce",
-      "Juventus",
       "Hellas Verona",
-      "Como",
-      "Cremonese",
-      "Pisa",
-      "Fiorentina",
-      "Genoa",
-      "Parma",
-      "Roma",
-      "AC Milan",
-      "Milan",
-      "Napoli",
+      "Atalanta",
       "Bologna"
     ],
     "resolvedClubs": [
-      "Torino FC",
-      "US Sassuolo",
-      "Cagliari Calcio",
-      "Udinese Calcio",
+      "Como 1907",
+      "Parma Calcio 1913",
+      "Genoa CFC",
+      "AC Milan",
+      "Juventus FC",
+      "ACF Fiorentina",
+      "Pisa Sporting Club",
+      "SSC Napoli",
+      "AS Roma",
       "SS Lazio",
       "Inter Milan",
-      "US Lecce",
-      "Juventus FC",
       "Hellas Verona",
-      "Como 1907",
-      "US Cremonese",
-      "Pisa Sporting Club",
-      "ACF Fiorentina",
-      "Genoa CFC",
-      "Parma Calcio 1913",
-      "AS Roma",
-      "AC Milan",
-      "SSC Napoli",
+      "Atalanta BC",
       "Bologna FC 1909"
     ],
     "unresolvedClubs": []

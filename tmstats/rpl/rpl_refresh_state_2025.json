@@ -1,7 +1,7 @@
 {
   "league": "rpl",
   "season": 2025,
-  "updatedAt": "2026-05-15T22:56:22+00:00",
+  "updatedAt": "2026-05-17T19:49:27+00:00",
   "mode": "changed-team-stats",
   "counts": {
     "clubs": 16,
@@ -11,9 +11,7 @@
   },
   "matches": {
     "groupCount": 30,
-    "pendingMatchdays": [
-      30
-    ],
+    "pendingMatchdays": [],
     "completedMatchdays": [
       1,
       2,
@@ -43,48 +41,49 @@
       26,
       27,
       28,
-      29
+      29,
+      30
     ],
-    "lastPendingMatchday": 30,
-    "lastCompletedMatchday": 29
+    "lastPendingMatchday": null,
+    "lastCompletedMatchday": 30
   },
   "stats": {
     "status": "targeted",
     "changedClubs": [
+      "Rostov",
+      "Zenit S-Pb",
+      "Krasnodar",
       "Orenburg",
       "KS Samara",
-      "Zenit S-Pb",
-      "FK Sochi",
-      "Akhmat Grozny",
-      "Dinamo Makhach.",
-      "Loko Moscow",
-      "Baltika",
       "Akron Tolyatti",
-      "Rostov",
-      "Pari NN",
       "CSKA Moscow",
-      "Spartak Moscow",
+      "Loko Moscow",
       "Rubin Kazan",
+      "Pari NN",
+      "Baltika",
       "Dynamo Moscow",
-      "Krasnodar"
+      "Dinamo Makhach.",
+      "Spartak Moscow",
+      "FK Sochi",
+      "Akhmat Grozny"
     ],
     "resolvedClubs": [
+      "FC Rostov",
+      "Zenit St. Petersburg",
+      "FC Krasnodar",
       "FC Orenburg",
       "Krylya Sovetov Samara",
-      "Zenit St. Petersburg",
-      "FC Sochi",
-      "Akhmat Grozny",
-      "Dinamo Makhachkala",
-      "Lokomotiv Moscow",
-      "Baltika Kaliningrad",
       "Akron Tolyatti",
-      "FC Rostov",
-      "FC Pari Nizhniy Novgorod",
       "CSKA Moscow",
-      "Spartak Moscow",
+      "Lokomotiv Moscow",
       "Rubin Kazan",
+      "FC Pari Nizhniy Novgorod",
+      "Baltika Kaliningrad",
       "Dynamo Moscow",
-      "FC Krasnodar"
+      "Dinamo Makhachkala",
+      "Spartak Moscow",
+      "FC Sochi",
+      "Akhmat Grozny"
     ],
     "unresolvedClubs": []
   },
