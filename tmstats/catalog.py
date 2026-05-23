@@ -13,6 +13,7 @@ class LeagueSpec:
     family: str = 'domestic'
     table_label: str = 'Table'
     supports_bracket: bool = False
+    supports_third_place: bool = False
 
 def competition_logo_url(site_id: str) -> str:
     return (
@@ -61,6 +62,14 @@ LEAGUES = {
                        family='uefa',
                        table_label='League Phase',
                        supports_bracket=True),
+    'world_cup': LeagueSpec('world_cup', 'FIWC', 'world-cup',
+                            'World Cup 2026', 'World Cup',
+                            competition_logo_url('FIWC'),
+                            tm_scope='pokalwettbewerb',
+                            family='international_tournament',
+                            table_label='Groups',
+                            supports_bracket=True,
+                            supports_third_place=True),
 }
 
 LEAGUE_KEYS = tuple(LEAGUES.keys())

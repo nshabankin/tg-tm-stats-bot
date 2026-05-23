@@ -9,8 +9,10 @@ from unittest.mock import patch
 
 from lxml import html
 
-from tmstats import refresh, refresh_context, refresh_modes, refresh_pipeline
+from tmstats import (miniapp, refresh, refresh_context, refresh_modes,
+                     refresh_pipeline, source)
 from tmstats import player_stats
+from tmstats.snapshots import available_league_keys
 from tmstats.refresh_paths import LeagueRefreshPaths, build_league_refresh_paths
 
 
@@ -130,6 +132,84 @@ class RefreshPipelineTests(unittest.TestCase):
 
         self.assertFalse(rendered)
         render_pdf_mock.assert_not_called()
+
+
+class TournamentSnapshotTests(unittest.TestCase):
+    def test_world_cup_can_build_payload_without_player_snapshots(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            league_dir = Path(temp_dir) / 'world_cup'
+            league_dir.mkdir(parents=True)
+            table_path = league_dir / 'world_cup_table_2025.csv'
+            table_path.write_text(
+                '\n'.join([
+                    'group,rank,club,logo,played,wins,draws,losses,goals,diff,points,form',
+                    'Group A,1,Mexico,,0,,,,,0,0,',
+                    'Group A,2,South Africa,,0,,,,,0,0,',
+                    'Group A,3,South Korea,,0,,,,,0,0,',
+                    'Group A,4,UEFA Playoff D,,0,,,,,0,0,',
+                    'Group B,1,Canada,,0,,,,,0,0,',
+                    'Group B,2,Qatar,,0,,,,,0,0,',
+                    'Group B,3,Switzerland,,0,,,,,0,0,',
+                    'Group B,4,UEFA Playoff A,,0,,,,,0,0,',
+                ]),
+                encoding='utf-8',
+            )
+
+            with patch('tmstats.snapshots.TMSTATS_DIR', Path(temp_dir)):
+                self.assertIn('world_cup', available_league_keys(['world_cup']))
+                payload = miniapp.build_league_payload('world_cup')
+
+        self.assertEqual(payload['league']['family'], 'international_tournament')
+        self.assertEqual(payload['league']['tableLabel'], 'Groups')
+        self.assertEqual(len(payload['groups']), 2)
+        self.assertEqual(payload['groups'][0]['label'], 'Group A')
+        self.assertEqual(payload['groups'][0]['teams'][2]['club'], 'South Korea')
+        self.assertEqual(
+            [team['club'] for team in payload['thirdPlaceRanking']],
+            ['Switzerland', 'South Korea'],
+        )
+
+    def test_tournament_parser_reads_nested_group_tables(self) -> None:
+        doc = html.fromstring('''
+            <html><body>
+              <h2>Group A</h2>
+              <div class="grid-view">
+                <table>
+                  <thead><tr><th>#</th><th>Club</th><th>P</th><th>+/-</th><th>Pts</th></tr></thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td><a title="Mexico" href="/mexico/startseite/verein/6303">Mexico</a></td>
+                      <td>0</td><td>0</td><td>0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>11/06/2026</td>
+                      <td>9:00 PM</td>
+                      <td><a title="Mexico" href="/mexico/startseite/verein/6303">Mexico</a></td>
+                      <td>-:-</td>
+                      <td><a title="South Africa" href="/south-africa/startseite/verein/3806">South Africa</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <h2>Group B</h2>
+            </body></html>
+        ''')
+
+        teams, table_rows = source.parse_tournament_groups(doc)
+        match_groups = source.parse_tournament_match_groups(doc)
+
+        self.assertEqual(teams[0]['name'], 'Mexico')
+        self.assertEqual(table_rows[0]['group'], 'Group A')
+        self.assertEqual(match_groups[0]['label'], 'Group A')
+        self.assertEqual(match_groups[0]['matches'][0]['homeTeam'], 'Mexico')
+        self.assertEqual(match_groups[0]['matches'][0]['awayTeam'], 'South Africa')
 
 
 class RefreshEntrypointTests(unittest.TestCase):

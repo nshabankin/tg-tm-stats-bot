@@ -1,7 +1,7 @@
 const tg = window.Telegram?.WebApp;
 
 const FAVORITES_STORAGE_KEY = "gfs.favoriteLeagues";
-const VALID_VIEWS = new Set(["table", "teams", "matches", "bracket"]);
+const VALID_VIEWS = new Set(["table", "teams", "matches", "third-place", "bracket"]);
 
 const state = {
   leagues: [],
@@ -21,6 +21,7 @@ const leagueSummaryEl = document.getElementById("league-summary");
 const tableViewEl = document.getElementById("table-view");
 const teamsViewEl = document.getElementById("teams-view");
 const matchesViewEl = document.getElementById("matches-view");
+const thirdPlaceViewEl = document.getElementById("third-place-view");
 const bracketViewEl = document.getElementById("bracket-view");
 const dialogEl = document.getElementById("player-dialog");
 const dialogBodyEl = document.getElementById("player-dialog-body");
@@ -36,8 +37,25 @@ function leagueFamily() {
   return state.snapshot?.league?.family || "domestic";
 }
 
+function isTournament() {
+  return leagueFamily() === "international_tournament";
+}
+
 function hasBracket() {
   return Boolean(state.snapshot?.bracket?.rounds?.length);
+}
+
+function hasThirdPlace() {
+  return Boolean(
+    state.snapshot?.league?.supportsThirdPlace &&
+      state.snapshot?.thirdPlaceRanking?.length
+  );
+}
+
+function thirdPlaceHasResults() {
+  return (state.snapshot?.thirdPlaceRanking || []).some(
+    (team) => parseStatNumber(team.played) > 0
+  );
 }
 
 function hasMatches() {
@@ -436,6 +454,30 @@ function renderSummary() {
 
   const league = state.snapshot.league || {};
   const highlights = state.snapshot.highlights || {};
+
+  if (isTournament()) {
+    leagueSummaryEl.innerHTML = [
+      summaryCard("Competition", league.label, `${state.snapshot.groups?.length || 0} groups`),
+      summaryCard("Teams", highlights.clubs || state.snapshot.teams?.length || 0, "national teams"),
+      summaryCard(
+        "Third-place Cut",
+        thirdPlaceHasResults() ? state.snapshot.thirdPlaceRanking?.[7]?.club : "Top eight",
+        thirdPlaceHasResults() && state.snapshot.thirdPlaceRanking?.[7]
+          ? `${state.snapshot.thirdPlaceRanking[7].points} pts · after 8th`
+          : "third-place teams advance"
+      ),
+      summaryCard(
+        "Matches",
+        (state.snapshot.matches?.groups || []).reduce(
+          (total, group) => total + (group.matches?.length || 0),
+          0
+        ),
+        hasMatches() ? "fixtures in snapshot" : "waiting for snapshot"
+      ),
+    ].join("");
+    return;
+  }
+
   leagueSummaryEl.innerHTML = [
     summaryCard("League", league.label, `${highlights.clubs || 0} clubs`),
     summaryCard(
@@ -501,6 +543,17 @@ function openTeamFromTable(teamSlug) {
 }
 
 function tableColumns() {
+  if (isTournament()) {
+    return [
+      { key: "rank", label: "#" , className: "table-rank"},
+      { key: "club", label: "Team", className: "table-club"},
+      { key: "played", label: "P", className: "table-stat" },
+      { key: "points", label: "Pts", className: "table-points" },
+      { key: "diff", label: "GD", className: "table-stat" },
+      { key: "goals", label: "Goals", className: "table-stat" },
+    ];
+  }
+
   if (leagueFamily() === "uefa") {
     return [
       { key: "rank", label: "#" , className: "table-rank"},
@@ -524,6 +577,10 @@ function tableColumns() {
 }
 
 function tableColumnTemplate() {
+  if (isTournament()) {
+    return "40px minmax(160px, 1fr) 34px 48px 40px 68px";
+  }
+
   return leagueFamily() === "uefa"
     ? "40px minmax(180px, 1fr) 34px 48px 68px 40px"
     : "40px minmax(180px, 1fr) 34px 48px 76px 40px 128px";
@@ -550,10 +607,18 @@ function renderTableCell(row, column) {
   if (column.key === "form") {
     return `<div class="table-form-row">${renderFormPills(row.form || "")}</div>`;
   }
+  if (column.key === "group") {
+    return `<span class="table-stat">${row.group || "-"}</span>`;
+  }
   return `<span class="table-stat">${row[column.key] ?? "-"}</span>`;
 }
 
 function renderTable() {
+  if (isTournament()) {
+    renderTournamentGroups();
+    return;
+  }
+
   const columns = tableColumns();
   const columnTemplate = tableColumnTemplate();
   tableViewEl.innerHTML = `
@@ -572,6 +637,55 @@ function renderTable() {
           )
           .join("")}
       </div>
+    </div>
+  `;
+
+  tableViewEl.querySelectorAll("[data-table-team]").forEach((button) => {
+    button.addEventListener("click", () => {
+      openTeamFromTable(button.dataset.tableTeam);
+    });
+  });
+}
+
+function renderTournamentGroups() {
+  const groups = state.snapshot.groups || [];
+  const columns = tableColumns();
+  const columnTemplate = tableColumnTemplate();
+
+  if (!groups.length) {
+    tableViewEl.innerHTML = '<div class="empty-state">No group standings are available in the current snapshot.</div>';
+    return;
+  }
+
+  tableViewEl.innerHTML = `
+    <div class="groups-shell">
+      ${groups
+        .map(
+          (group) => `
+            <section class="group-table-card">
+              <div class="group-table-headline">
+                <p class="matches-title-value">${group.label}</p>
+              </div>
+              <div class="table-shell tournament-table-shell">
+                <div class="table-scroll" style="--table-columns: ${columnTemplate}">
+                  <div class="table-head">
+                    ${columns.map((column) => `<span>${column.label}</span>`).join("")}
+                  </div>
+                  ${group.teams
+                    .map(
+                      (row) => `
+                        <button type="button" class="table-row table-row-button ${row.rank <= 2 ? "is-qualified" : ""}" data-table-team="${row.slug}">
+                          ${columns.map((column) => renderTableCell(row, column)).join("")}
+                        </button>
+                      `
+                    )
+                    .join("")}
+                </div>
+              </div>
+            </section>
+          `
+        )
+        .join("")}
     </div>
   `;
 
@@ -657,7 +771,7 @@ function playerModalStats(player) {
 
 function teamSearchPlaceholder() {
   if (!state.snapshot) {
-    return "Search clubs or players...";
+    return "Search teams or players...";
   }
   const teamHint = compactClubName(state.snapshot.table?.[0]?.club || "");
   const scorerHint = compactName(state.snapshot.highlights?.topScorer?.name || "");
@@ -692,14 +806,16 @@ function sortedPlayers(players) {
 }
 
 function renderTeamControls(count) {
+  const teamLabel = isTournament() ? "teams" : "clubs";
+  const searchLabel = isTournament() ? "Search teams or players" : "Search clubs or players";
   return `
     <div class="team-controls">
       <label class="field-shell">
-        <span class="field-label">Search clubs or players</span>
+        <span class="field-label">${searchLabel}</span>
         <input
           type="search"
           class="text-input"
-          placeholder="${teamSearchPlaceholder() || "Search clubs or players..."}"
+          placeholder="${teamSearchPlaceholder() || searchLabel}"
           value="${state.teamQuery}"
           id="team-search"
         />
@@ -716,7 +832,7 @@ function renderTeamControls(count) {
       <div class="field-shell team-results-shell">
         <span class="field-label">Showing</span>
         <div class="team-results-copy">
-          <p class="team-results-value">${count} clubs</p>
+          <p class="team-results-value">${count} ${teamLabel}</p>
         </div>
       </div>
     </div>
@@ -744,7 +860,9 @@ function renderTeams() {
               ${renderTeamLogo(team, "team-logo")}
               <div class="team-card-copy">
                 <h3 class="club-name">${team.club}</h3>
-                <p class="team-card-subtitle">${team.points} pts · GD ${team.diff} · ${team.playerCount} players</p>
+                <p class="team-card-subtitle">${
+                  team.group ? `${team.group} · ` : ""
+                }${team.points} pts · GD ${team.diff} · ${team.playerCount} players</p>
               </div>
               <span class="team-toggle-indicator">${team.slug === state.selectedTeamSlug ? "−" : "+"}</span>
             </div>
@@ -804,13 +922,13 @@ function renderTeams() {
   teamsViewEl.innerHTML = `
     <div class="team-list-shell">
       <div class="team-list-header">
-        <p class="team-card-subtitle">Open a club for its squad, or search straight for a player.</p>
+        <p class="team-card-subtitle">Open a ${isTournament() ? "team" : "club"} for its squad, or search straight for a player.</p>
       </div>
       ${renderTeamControls(teams.length)}
       ${
         teams.length
       ? `<div class="team-list">${teamCards}</div>`
-          : '<div class="empty-state">No clubs or players match that search yet.</div>'
+          : `<div class="empty-state">No ${isTournament() ? "teams" : "clubs"} or players match that search yet.</div>`
       }
     </div>
   `;
@@ -1286,11 +1404,82 @@ function renderMatches() {
   });
 }
 
+function renderThirdPlace() {
+  const rows = state.snapshot.thirdPlaceRanking || [];
+  if (!rows.length) {
+    thirdPlaceViewEl.innerHTML = '<div class="empty-state">No third-place ranking is available in the current snapshot.</div>';
+    return;
+  }
+
+  const columns = [
+    { key: "rank", label: "#", className: "table-rank" },
+    { key: "club", label: "Team", className: "table-club" },
+    { key: "group", label: "Group", className: "table-stat" },
+    { key: "played", label: "P", className: "table-stat" },
+    { key: "points", label: "Pts", className: "table-points" },
+    { key: "diff", label: "GD", className: "table-stat" },
+    { key: "goals", label: "Goals", className: "table-stat" },
+  ];
+  const columnTemplate = "40px minmax(160px, 1fr) 74px 34px 48px 40px 68px";
+
+  thirdPlaceViewEl.innerHTML = `
+    <div class="third-place-shell">
+      <div class="table-shell">
+        <div class="table-scroll" style="--table-columns: ${columnTemplate}">
+          <div class="table-head">
+            ${columns.map((column) => `<span>${column.label}</span>`).join("")}
+          </div>
+          ${rows
+            .map((row, index) => {
+              const displayRow = { ...row, rank: index + 1 };
+              const qualificationClass = thirdPlaceHasResults()
+                ? index < 8 ? "is-qualified" : "is-eliminated"
+                : "";
+              return `
+                <button type="button" class="table-row table-row-button ${qualificationClass}" data-table-team="${row.slug}">
+                  ${columns.map((column) => renderTableCell(displayRow, column)).join("")}
+                </button>
+              `;
+            })
+            .join("")}
+        </div>
+      </div>
+    </div>
+  `;
+
+  thirdPlaceViewEl.querySelectorAll("[data-table-team]").forEach((button) => {
+    button.addEventListener("click", () => {
+      openTeamFromTable(button.dataset.tableTeam);
+    });
+  });
+}
+
+function updateTabLabels() {
+  document.querySelectorAll(".tab").forEach((tab) => {
+    if (tab.dataset.view === "table") {
+      tab.textContent = isTournament() ? "Groups" : "Table";
+    }
+    if (tab.dataset.view === "teams") {
+      tab.textContent = isTournament() ? "Squads" : "Teams";
+    }
+    if (tab.dataset.view === "bracket") {
+      tab.textContent = isTournament() ? "Knockout" : "Playoffs";
+    }
+  });
+}
+
 function renderView() {
+  updateTabLabels();
   document.querySelectorAll(".tab").forEach((tab) => {
     if (tab.dataset.view === "bracket") {
       tab.classList.toggle("hidden", !hasBracket());
       if (!hasBracket() && state.view === "bracket") {
+        state.view = "table";
+      }
+    }
+    if (tab.dataset.view === "third-place") {
+      tab.classList.toggle("hidden", !hasThirdPlace());
+      if (!hasThirdPlace() && state.view === "third-place") {
         state.view = "table";
       }
     }
@@ -1306,6 +1495,7 @@ function renderView() {
   tableViewEl.classList.toggle("hidden", state.view !== "table");
   teamsViewEl.classList.toggle("hidden", state.view !== "teams");
   matchesViewEl.classList.toggle("hidden", state.view !== "matches");
+  thirdPlaceViewEl.classList.toggle("hidden", state.view !== "third-place");
   bracketViewEl.classList.toggle("hidden", state.view !== "bracket");
   leagueSummaryEl.classList.toggle("hidden", state.view !== "table");
 
@@ -1315,6 +1505,8 @@ function renderView() {
     renderTeams();
   } else if (state.view === "matches") {
     renderMatches();
+  } else if (state.view === "third-place") {
+    renderThirdPlace();
   } else {
     renderBracket();
   }

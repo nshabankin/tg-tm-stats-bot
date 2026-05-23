@@ -10,6 +10,7 @@ It currently supports:
 - domestic matchday snapshots
 - UEFA league-phase snapshots
 - UEFA knockout bracket snapshots
+- World Cup tournament snapshots with grouped standings and a third-place race
 - player stats snapshots
 - Telegram Mini App browsing
 - in-chat fallback browsing in Telegram
@@ -37,6 +38,8 @@ The current UX is browse-first:
 - open teams as collapsible squad bubbles
 - browse domestic and UEFA match results in the `Matches` tab
 - open knockout brackets for UEFA competitions in the `Playoffs` tab
+- browse World Cup-style tournaments with `Groups`, `Third-place`,
+  `Matches`, `Knockout`, and `Squads` tabs
 - open individual player stat cards
 - use league logos in the picker instead of flag-only chips
 - see match rows normalized to the snapshot club names, so full names and logos stay aligned
@@ -76,10 +79,15 @@ This means the most reliable operating model right now is:
 - `ucl`
 - `uel`
 - `uecl`
+- `world_cup`
 
 New competitions only show up in Telegram once their local snapshots exist.
 That keeps the picker honest and avoids exposing empty competitions before their
 first refresh.
+
+Tournament competitions can appear with a partial snapshot. For `world_cup`,
+the required baseline is the grouped table CSV; squad and player-stat CSVs can
+arrive later once national team rosters are stable.
 
 ## Quick Start
 
@@ -172,6 +180,16 @@ Refresh one UEFA competition:
 ```bash
 python refresh_data.py --league ucl
 ```
+
+Refresh World Cup group standings and fixtures without waiting for squad/player
+stats:
+
+```bash
+python refresh_data.py --league world_cup --season 2025 --matches-only
+```
+
+World Cup 2026 is stored as the `2025` Transfermarkt season because the
+tournament page uses `saison_id/2025`.
 
 Refresh all leagues with a full stats rebuild:
 

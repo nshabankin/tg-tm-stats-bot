@@ -225,14 +225,20 @@ body {
   --league-accent: 0, 195, 137;
 }
 
+.league-chip[data-league-key="world_cup"] {
+  --league-accent: 20, 184, 166;
+}
+
 .tabs {
   display: flex;
   gap: 10px;
   margin-bottom: 16px;
+  overflow-x: auto;
 }
 
 .tab {
   flex: 1;
+  min-width: 108px;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -563,6 +569,16 @@ body {
   background: rgba(255, 255, 255, 0.03);
 }
 
+.table-row-button.is-qualified {
+  background:
+    linear-gradient(90deg, rgba(var(--page-accent), 0.12), transparent 44%),
+    transparent;
+}
+
+.table-row-button.is-eliminated {
+  opacity: 0.74;
+}
+
 .table-rank {
   color: var(--accent);
   font-weight: 800;
@@ -657,6 +673,30 @@ body {
 .player-list {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   margin-top: 12px;
+}
+
+.groups-shell {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 14px;
+}
+
+.group-table-card,
+.third-place-shell {
+  display: grid;
+  gap: 10px;
+}
+
+.group-table-headline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 28px;
+}
+
+.tournament-table-shell .table-head,
+.tournament-table-shell .table-row {
+  min-width: 430px;
 }
 
 .bracket-shell {
@@ -1076,6 +1116,10 @@ body {
   }
 
   .team-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .groups-shell {
     grid-template-columns: 1fr;
   }
 

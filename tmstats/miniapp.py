@@ -191,6 +191,7 @@ def serialize_team(team_row: dict, players: List[dict]) -> dict:
     goals_for, goals_against = parse_goals_pair(team_row.get('goals', ''))
     return {
         'slug': slugify(team_row.get('club', '')),
+        'group': team_row.get('group', ''),
         'rank': parse_int(team_row.get('rank')),
         'club': team_row.get('club', ''),
         'logo': team_row.get('logo', ''),
@@ -212,7 +213,11 @@ def serialize_team(team_row: dict, players: List[dict]) -> dict:
 def build_snapshot_meta(snapshot: dict) -> dict:
     paths = snapshot['paths']
     season_start_year = extract_snapshot_year(paths['table'].name)
-    updated_at = max(path.stat().st_mtime for path in paths.values())
+    available_paths = [
+        path for path in paths.values()
+        if path is not None and path.exists()
+    ]
+    updated_at = max(path.stat().st_mtime for path in available_paths)
     return {
         'seasonStartYear': season_start_year,
         'seasonLabel': season_label(season_start_year),
@@ -294,6 +299,60 @@ def build_highlights(teams: List[dict]) -> dict:
     }
 
 
+def tournament_groups(teams: List[dict]) -> List[dict]:
+    groups: Dict[str, dict] = {}
+    for team in teams:
+        group_label = team.get('group') or 'Group'
+        group = groups.setdefault(group_label, {
+            'key': slugify(group_label),
+            'label': group_label,
+            'teams': [],
+        })
+        group['teams'].append({
+            'rank': team['rank'],
+            'club': team['club'],
+            'logo': team['logo'],
+            'played': team['played'],
+            'wins': team['wins'],
+            'draws': team['draws'],
+            'losses': team['losses'],
+            'goals': team['goals'],
+            'goalsFor': team['goalsFor'],
+            'goalsAgainst': team['goalsAgainst'],
+            'diff': team['diff'],
+            'points': team['points'],
+            'form': team['form'],
+            'slug': team['slug'],
+            'group': team['group'],
+        })
+
+    return list(groups.values())
+
+
+def build_third_place_ranking(groups: List[dict]) -> List[dict]:
+    third_place_rows = []
+    for group in groups:
+        teams = group.get('teams', [])
+        if len(teams) < 3:
+            continue
+        third = teams[2]
+        third_place_rows.append({
+            **third,
+            'group': group.get('label', third.get('group', '')),
+        })
+
+    return sorted(
+        third_place_rows,
+        key=lambda team: (
+            team.get('points', 0),
+            team.get('diff', 0),
+            team.get('goalsFor', 0),
+            team.get('club', ''),
+        ),
+        reverse=True,
+    )
+
+
 def build_league_payload(league: str) -> Dict[str, object]:
     snapshot = load_league_snapshot(league)
     teams = []
@@ -313,6 +372,12 @@ def build_league_payload(league: str) -> Dict[str, object]:
         players = get_team_players(snapshot, row)
         teams.append(serialize_team(row, players))
 
+    groups = (
+        tournament_groups(teams)
+        if snapshot['league'].family == 'international_tournament'
+        else []
+    )
+
     return {
         'league': {
             'key': snapshot['league'].key,
@@ -322,12 +387,14 @@ def build_league_payload(league: str) -> Dict[str, object]:
             'family': snapshot['league'].family,
             'tableLabel': snapshot['league'].table_label,
             'supportsBracket': snapshot['league'].supports_bracket,
+            'supportsThirdPlace': snapshot['league'].supports_third_place,
         },
         'meta': meta,
         'highlights': build_highlights(teams),
         'table': [
             {
                 'rank': team['rank'],
+                'group': team['group'],
                 'club': team['club'],
                 'logo': team['logo'],
                 'played': team['played'],
@@ -343,6 +410,8 @@ def build_league_payload(league: str) -> Dict[str, object]:
             for team in teams
         ],
         'teams': teams,
+        'groups': groups,
+        'thirdPlaceRanking': build_third_place_ranking(groups),
         'bracket': bracket,
         'matches': matches,
     }

@@ -1,0 +1,462 @@
+{
+  "rounds": [
+    {
+      "key": "round_of_32",
+      "label": "Round of 32",
+      "order": 1,
+      "ties": [
+        {
+          "code": "Ro32 1",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Sun 28/06/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Second in Group A",
+              "result": "-:-",
+              "awayTeam": "Second in Group B"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 4",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Mon 29/06/2026",
+              "time": "7:00 PM",
+              "homeTeam": "Winner Group C",
+              "result": "-:-",
+              "awayTeam": "Second in Group F"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 2",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "10:30 PM",
+              "homeTeam": "Winner Group E",
+              "result": "-:-",
+              "awayTeam": "Third in Group A/B/C/D/F"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 3",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Tue 30/06/2026",
+              "time": "2:00 AM",
+              "homeTeam": "Winner Group F",
+              "result": "-:-",
+              "awayTeam": "Second in Group C"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 6",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "7:00 PM",
+              "homeTeam": "Second in Group E",
+              "result": "-:-",
+              "awayTeam": "Second in Group I"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 5",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "11:00 PM",
+              "homeTeam": "Winner Group I",
+              "result": "-:-",
+              "awayTeam": "Third in Group C/D/F/G/H"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 7",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Wed 01/07/2026",
+              "time": "2:00 AM",
+              "homeTeam": "Winner Group A",
+              "result": "-:-",
+              "awayTeam": "Third in Group C/E/F/H/I"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 8",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "6:00 PM",
+              "homeTeam": "Winner Group L",
+              "result": "-:-",
+              "awayTeam": "Third in Group E/H/I/J/K"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 10",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "10:00 PM",
+              "homeTeam": "Winner Group G",
+              "result": "-:-",
+              "awayTeam": "Third in Group A/E/H/I/J"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 9",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Thu 02/07/2026",
+              "time": "2:00 AM",
+              "homeTeam": "Winner Group D",
+              "result": "-:-",
+              "awayTeam": "Third in Group B/E/F/I/J"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 12",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Winner Group H",
+              "result": "-:-",
+              "awayTeam": "Second in Group J"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 11",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Fri 03/07/2026",
+              "time": "1:00 AM",
+              "homeTeam": "Second in Group K",
+              "result": "-:-",
+              "awayTeam": "Second in Group L"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 13",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "5:00 AM",
+              "homeTeam": "Winner Group B",
+              "result": "-:-",
+              "awayTeam": "Third in Group E/F/G/I/J"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 16",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "8:00 PM",
+              "homeTeam": "Second in Group D",
+              "result": "-:-",
+              "awayTeam": "Second in Group G"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 14",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Sat 04/07/2026",
+              "time": "12:00 AM",
+              "homeTeam": "Winner Group J",
+              "result": "-:-",
+              "awayTeam": "Second in Group H"
+            }
+          ]
+        },
+        {
+          "code": "Ro32 15",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "3:30 AM",
+              "homeTeam": "Winner Group K",
+              "result": "-:-",
+              "awayTeam": "Third in Group D/E/I/J/L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "round_of_16",
+      "label": "Round of 16",
+      "order": 2,
+      "ties": [
+        {
+          "code": "Ro16 2",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Sat 04/07/2026",
+              "time": "7:00 PM",
+              "homeTeam": "Winner Ro32 1",
+              "result": "-:-",
+              "awayTeam": "Winner Ro32 3"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 1",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "11:00 PM",
+              "homeTeam": "Winner Ro32 2",
+              "result": "-:-",
+              "awayTeam": "Winner Ro32 5"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 3",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Sun 05/07/2026",
+              "time": "10:00 PM",
+              "homeTeam": "Winner Ro32 4",
+              "result": "-:-",
+              "awayTeam": "Winner Ro32 6"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 4",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Mon 06/07/2026",
+              "time": "2:00 AM",
+              "homeTeam": "Winner Ro32 7",
+              "result": "-:-",
+              "awayTeam": "Winner Ro32 8"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 5",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "9:00 PM",
+              "homeTeam": "Winner Ro32 11",
+              "result": "-:-",
+              "awayTeam": "Winner Ro32 12"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 6",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Tue 07/07/2026",
+              "time": "2:00 AM",
+              "homeTeam": "Winner Ro32 9",
+              "result": "-:-",
+              "awayTeam": "Winner Ro32 10"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 7",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "6:00 PM",
+              "homeTeam": "Winner Ro32 14",
+              "result": "-:-",
+              "awayTeam": "Winner Ro32 16"
+            }
+          ]
+        },
+        {
+          "code": "Ro16 8",
+          "matches": [
+            {
+              "leg": "",
+              "date": "",
+              "time": "10:00 PM",
+              "homeTeam": "Winner Ro32 13",
+              "result": "-:-",
+              "awayTeam": "Winner Ro32 15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "quarter_finals",
+      "label": "Quarter-finals",
+      "order": 3,
+      "ties": [
+        {
+          "code": "QF 1",
+          "matches": [
+            {
+              "leg": "Final",
+              "date": "Thu 09/07/2026",
+              "time": "10:00 PM",
+              "homeTeam": "Winner Ro16 1",
+              "result": "-:-",
+              "awayTeam": "Winner Ro16 2"
+            }
+          ]
+        },
+        {
+          "code": "QF 2",
+          "matches": [
+            {
+              "leg": "Final",
+              "date": "Fri 10/07/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Winner Ro16 5",
+              "result": "-:-",
+              "awayTeam": "Winner Ro16 6"
+            }
+          ]
+        },
+        {
+          "code": "QF 4",
+          "matches": [
+            {
+              "leg": "Final",
+              "date": "Sat 11/07/2026",
+              "time": "11:00 PM",
+              "homeTeam": "Winner Ro16 3",
+              "result": "-:-",
+              "awayTeam": "Winner Ro16 4"
+            }
+          ]
+        },
+        {
+          "code": "QF 3",
+          "matches": [
+            {
+              "leg": "Final",
+              "date": "Sun 12/07/2026",
+              "time": "2:00 AM",
+              "homeTeam": "Winner Ro16 7",
+              "result": "-:-",
+              "awayTeam": "Winner Ro16 8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "semi_finals",
+      "label": "Semi-finals",
+      "order": 4,
+      "ties": [
+        {
+          "code": "SF 1",
+          "matches": [
+            {
+              "leg": "Final",
+              "date": "Tue 14/07/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Winner QF 1",
+              "result": "-:-",
+              "awayTeam": "Winner QF 2"
+            }
+          ]
+        },
+        {
+          "code": "SF 2",
+          "matches": [
+            {
+              "leg": "Final",
+              "date": "Wed 15/07/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Winner QF 4",
+              "result": "-:-",
+              "awayTeam": "Winner QF 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "third_place",
+      "label": "Third-place match",
+      "order": 5,
+      "ties": [
+        {
+          "code": "FI 3rd",
+          "matches": [
+            {
+              "leg": "",
+              "date": "Sat 18/07/2026",
+              "time": "11:00 PM",
+              "homeTeam": "Loser SF 1",
+              "result": "-:-",
+              "awayTeam": "Loser SF 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "final",
+      "label": "Final",
+      "order": 6,
+      "ties": [
+        {
+          "code": "FI",
+          "matches": [
+            {
+              "leg": "Final",
+              "date": "Sun 19/07/2026",
+              "time": "9:00 PM",
+              "homeTeam": "Winner SF 1",
+              "result": "-:-",
+              "awayTeam": "Winner SF 2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

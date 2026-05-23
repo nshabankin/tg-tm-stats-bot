@@ -40,6 +40,7 @@ LEAGUE_ROW_ALIASES = {
     'ucl': {'championsleague'},
     'uel': {'europaleague'},
     'uecl': {'conferenceleague', 'uefaconferenceleague'},
+    'world_cup': {'worldcup', 'fifaworldcup'},
 }
 
 

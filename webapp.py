@@ -39,6 +39,7 @@ def create_app() -> Flask:
                     'family': league.family,
                     'tableLabel': league.table_label,
                     'supportsBracket': league.supports_bracket,
+                    'supportsThirdPlace': league.supports_third_place,
                 }
                 for league in (LEAGUES[key] for key in visible_keys)
             ]

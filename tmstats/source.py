@@ -39,18 +39,27 @@ REQUEST_HEADERS = {
 }
 
 KNOCKOUT_STAGE_ORDER = {
+    'round_of_32': 1,
     'playoffs': 1,
     'round_of_16': 2,
     'quarter_finals': 3,
     'semi_finals': 4,
-    'final': 5,
+    'third_place': 5,
+    'final': 6,
 }
 
 KNOCKOUT_STAGE_LABELS = {
+    'round of 32': ('round_of_32', 'Round of 32'),
+    'last 32': ('round_of_32', 'Round of 32'),
     'intermediate stage': ('playoffs', 'Knockout Play-offs'),
     'last 16': ('round_of_16', 'Round of 16'),
+    'round of 16': ('round_of_16', 'Round of 16'),
     'quarter-finals': ('quarter_finals', 'Quarter-finals'),
+    'quarter finals': ('quarter_finals', 'Quarter-finals'),
     'semi-finals': ('semi_finals', 'Semi-finals'),
+    'semi finals': ('semi_finals', 'Semi-finals'),
+    'third-place': ('third_place', 'Third-place match'),
+    'third place': ('third_place', 'Third-place match'),
     'final': ('final', 'Final'),
 }
 
@@ -362,6 +371,127 @@ def group_matches_into_matchdays(matches: List[dict]) -> List[dict]:
     return groups
 
 
+def first_match_date(values: List[str]) -> str:
+    for value in values:
+        match = re.search(r'\d{1,2}/\d{1,2}/\d{4}', value or '')
+        if match:
+            return match.group(0)
+    return ''
+
+
+def first_match_time(values: List[str]) -> str:
+    for value in values:
+        normalized = normalize_text(value)
+        match = re.search(r'\b\d{1,2}:\d{2}\s*(?:AM|PM)?\b', normalized,
+                          re.IGNORECASE)
+        if match:
+            return match.group(0).upper()
+    return ''
+
+
+def parse_tournament_schedule_table(table: html.HtmlElement) -> List[dict]:
+    matches: List[dict] = []
+    last_date = ''
+    last_time = ''
+    for row in table.xpath('.//tbody/tr[td] | .//tr[td]'):
+        cells = row.xpath('./td')
+        values = [
+            normalize_text(' '.join(cell.xpath('.//text()')))
+            for cell in cells
+        ]
+        if len(values) < 5:
+            continue
+
+        score_index = None
+        for index, value in enumerate(values):
+            if extract_score(value) or '-:-' in value:
+                score_index = index
+                break
+        if score_index is None:
+            continue
+
+        team_names = []
+        for link in row.xpath('.//a[contains(@href, "/verein/")]'):
+            name = normalize_text(
+                ''.join(link.xpath('./@title'))
+                or ' '.join(link.xpath('.//text()'))
+            )
+            if name:
+                team_names.append(name)
+        team_names = dedupe_team_names(team_names)
+
+        if len(team_names) >= 2:
+            home_name, away_name = team_names[0], team_names[1]
+        else:
+            before = [
+                value for value in values[:score_index]
+                if value and not re.search(r'\d{1,2}/\d{1,2}/\d{4}', value)
+                and not re.fullmatch(r'\d{1,2}:\d{2}\s*(?:AM|PM)?', value,
+                                     re.IGNORECASE)
+            ]
+            after = [value for value in values[score_index + 1:] if value]
+            if not before or not after:
+                continue
+            home_name, away_name = before[-1], after[-1]
+
+        raw_score = values[score_index]
+        date_value = first_match_date(values) or last_date
+        time_value = first_match_time(values) or last_time
+        if first_match_date(values):
+            last_date = first_match_date(values)
+        if first_match_time(values):
+            last_time = first_match_time(values)
+
+        matches.append({
+            'date': date_value,
+            'time': time_value,
+            'homeTeam': home_name,
+            'awayTeam': away_name,
+            'score': extract_score(raw_score),
+        })
+
+    return matches
+
+
+def parse_tournament_match_groups(doc: html.HtmlElement) -> List[dict]:
+    groups = []
+    for index, heading in enumerate(
+        doc.xpath('//h2[starts-with(normalize-space(.), "Group ")]'),
+        start=1,
+    ):
+        group_label = normalize_text(' '.join(heading.xpath('.//text()')))
+        sibling_tables = following_tables_until_next_group(heading)
+        matches = []
+        if len(sibling_tables) >= 2:
+            matches = parse_tournament_schedule_table(sibling_tables[1])
+        elif sibling_tables:
+            matches = parse_tournament_schedule_table(sibling_tables[0])
+
+        if not matches:
+            continue
+        groups.append({
+            'key': slugify_key(group_label),
+            'label': group_label,
+            'order': index,
+            'matches': matches,
+        })
+    return groups
+
+
+def following_tables_until_next_group(heading: html.HtmlElement) -> List[html.HtmlElement]:
+    tables: List[html.HtmlElement] = []
+    for sibling in heading.itersiblings():
+        if (
+            sibling.tag == 'h2'
+            and normalize_text(' '.join(sibling.xpath('.//text()'))).startswith('Group ')
+        ):
+            break
+        if sibling.tag == 'table':
+            tables.append(sibling)
+        tables.extend(sibling.xpath('.//table'))
+    return tables
+
+
 def slugify_key(value: str) -> str:
     normalized = re.sub(r'[^a-z0-9]+', '-', normalize_text(value).casefold())
     return normalized.strip('-')
@@ -421,6 +551,14 @@ def fetch_match_groups(session: requests.Session, league_key: str,
                 }
                 if delay:
                     time.sleep(delay)
+    elif league.family == 'international_tournament':
+        doc = html.fromstring(fetch_text(
+            session,
+            competition_path(league_key, 'gesamtspielplan', season),
+            timeout,
+        ))
+        for group in parse_tournament_match_groups(doc):
+            groups[group['key']] = group
     else:
         league_phase_matches: List[dict] = []
         if teams:
@@ -600,11 +738,106 @@ def parse_uefa_table(doc: html.HtmlElement) -> Tuple[List[dict], List[dict]]:
     return teams, table_rows
 
 
+def parse_tournament_groups(doc: html.HtmlElement) -> Tuple[List[dict], List[dict]]:
+    teams = []
+    table_rows = []
+
+    headings = doc.xpath(
+        '//h2[starts-with(normalize-space(.), "Group ")]'
+    )
+    for heading in headings:
+        group_label = normalize_text(' '.join(heading.xpath('.//text()')))
+        tables = [
+            table for table in following_tables_until_next_group(heading)
+            if table.xpath(
+                './/th[contains(normalize-space(.), "Pts")]'
+                ' or .//td[contains(normalize-space(.), "Pts")]'
+            )
+        ]
+        if not tables:
+            continue
+
+        for row_index, row in enumerate(tables[0].xpath('.//tbody/tr[td]'), start=1):
+            href = normalize_text(''.join(
+                row.xpath('.//a[contains(@href, "/verein/")]/@href')
+            ))
+            if not href:
+                continue
+
+            team_id_match = re.search(r'/verein/(\d+)', href)
+            if not team_id_match:
+                continue
+
+            team_name = normalize_text(
+                ''.join(row.xpath('.//a[contains(@href, "/verein/")]/@title'))
+            )
+            if not team_name:
+                team_name = normalize_text(
+                    ' '.join(row.xpath('.//a[contains(@href, "/verein/")]//text()'))
+                )
+            team_name = collapse_repeated_text(team_name)
+            if not team_name:
+                continue
+
+            values = [
+                normalize_text(' '.join(cell.xpath('.//text()')))
+                for cell in row.xpath('./td')
+            ]
+            numeric_values = [
+                value for value in values
+                if re.fullmatch(r'-?\d+', value or '')
+            ]
+            rank = numeric_values[0] if numeric_values else str(row_index)
+            played = numeric_values[-3] if len(numeric_values) >= 3 else ''
+            diff = numeric_values[-2] if len(numeric_values) >= 2 else ''
+            points = numeric_values[-1] if numeric_values else ''
+
+            team_stats = {
+                'group': group_label,
+                'rank': rank,
+                'logo': extract_logo_url(row),
+                'played': played,
+                'wins': '',
+                'draws': '',
+                'losses': '',
+                'goals': '',
+                'diff': diff,
+                'points': points,
+                'form': '',
+            }
+            team_link = build_team_link(href)
+            team_id = team_id_match.group(1)
+
+            teams.append({
+                'id': team_id,
+                'name': team_name,
+                'link': team_link,
+                **team_stats,
+            })
+            table_rows.append({
+                'club': team_name,
+                **team_stats,
+            })
+
+    return teams, table_rows
+
+
+def collapse_repeated_text(value: str) -> str:
+    text = normalize_text(value)
+    midpoint = len(text) // 2
+    if len(text) > 2 and len(text) % 2 == 0 and text[:midpoint] == text[midpoint:]:
+        return text[:midpoint]
+    return text
+
+
 def fetch_current_table(session: requests.Session, league_key: str,
                         season: int, timeout: int) -> Tuple[List[dict], List[dict]]:
     league = LEAGUES[league_key]
     page = 'tabelle' if league.family == 'domestic' else 'gesamtspielplan'
     doc = html.fromstring(fetch_text(session, competition_path(league_key, page, season), timeout))
+
+    if league.family == 'international_tournament':
+        return parse_tournament_groups(doc)
 
     if league.family == 'uefa':
         return parse_uefa_table(doc)

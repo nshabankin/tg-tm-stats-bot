@@ -360,6 +360,7 @@ def refresh_matches_only(league_key: str, season: int = None,
     )
 
     bracket_payload, bracket_changed = refresh_bracket_snapshot(context)
+    table_changed = write_table_snapshot(context.paths, context.table)
 
     matches_payload = existing_matches
     matches_changed = False
@@ -389,6 +390,7 @@ def refresh_matches_only(league_key: str, season: int = None,
         table_rows=len(context.table),
         matches_payload=matches_payload,
         stats_status='skipped',
+        table_changed=table_changed,
         matches_changed=matches_changed,
         bracket_changed=bracket_changed,
     )

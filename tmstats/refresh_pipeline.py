@@ -7,7 +7,7 @@ from .refresh_paths import LeagueRefreshPaths
 from .refresh_state import write_refresh_state
 from .storage import write_csv, write_json
 
-TABLE_FIELDS = ['rank', 'club', 'logo', 'played', 'wins', 'draws',
+TABLE_FIELDS = ['group', 'rank', 'club', 'logo', 'played', 'wins', 'draws',
                 'losses', 'goals', 'diff', 'points', 'form']
 
 

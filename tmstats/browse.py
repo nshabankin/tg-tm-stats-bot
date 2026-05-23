@@ -1,4 +1,5 @@
 import csv
+import re
 from html import escape
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -26,6 +27,14 @@ def parse_int(value: str, default: int = 0) -> int:
         return default
 
 
+def group_sort_key(value: str) -> Tuple[int, str]:
+    text = (value or '').strip()
+    match = re.search(r'group\s+([a-z])', text, re.IGNORECASE)
+    if match:
+        return (ord(match.group(1).upper()) - ord('A'), text)
+    return (999, text)
+
+
 def normalize_number(value: str) -> str:
     return (value or '').replace('#', '').strip()
 
@@ -38,7 +47,14 @@ def shirt_sort_key(player: dict) -> Tuple[int, int, str]:
 
 
 def sort_table_rows(rows: List[dict]) -> List[dict]:
-    return sorted(rows, key=lambda row: parse_int(row.get('rank')))
+    return sorted(
+        rows,
+        key=lambda row: (
+            group_sort_key(row.get('group', '')),
+            parse_int(row.get('rank')),
+            row.get('club', ''),
+        ),
+    )
 
 
 def compact_form(form: str, width: int = 5) -> str:
@@ -106,18 +122,22 @@ def build_stats_lookup(stats_rows: List[dict]) -> Tuple[Dict[str, dict], Dict[Tu
 
 
 def latest_data_paths(league: str) -> Dict[str, Path]:
-    return {
+    paths = {
         'table': get_latest_snapshot_file(league, 'table', 'csv'),
-        'players': get_latest_snapshot_file(league, 'players', 'csv'),
-        'stats': get_latest_snapshot_file(league, 'stats', 'csv'),
     }
+    for file_type in ('players', 'stats'):
+        try:
+            paths[file_type] = get_latest_snapshot_file(league, file_type, 'csv')
+        except FileNotFoundError:
+            paths[file_type] = None
+    return paths
 
 
 def load_league_snapshot(league: str) -> dict:
     paths = latest_data_paths(league)
     table_rows = sort_table_rows(read_csv_rows(paths['table']))
-    player_rows = read_csv_rows(paths['players'])
-    stats_rows = read_csv_rows(paths['stats'])
+    player_rows = read_csv_rows(paths['players']) if paths['players'] else []
+    stats_rows = read_csv_rows(paths['stats']) if paths['stats'] else []
     stats_by_id, stats_by_fallback = build_stats_lookup(stats_rows)
 
     players_by_team: Dict[str, List[dict]] = {}

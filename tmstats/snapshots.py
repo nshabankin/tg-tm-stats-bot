@@ -17,6 +17,14 @@ FILE_TYPES = {
         'label': 'Player Stats',
         'suffix': 'stats',
     },
+    'matches': {
+        'label': 'Matches',
+        'suffix': 'matches',
+    },
+    'bracket': {
+        'label': 'Bracket',
+        'suffix': 'bracket',
+    },
 }
 
 FORMAT_TYPES = {
@@ -28,11 +36,18 @@ FORMAT_TYPES = {
         'label': 'PDF',
         'extension': 'pdf',
     },
+    'json': {
+        'label': 'JSON',
+        'extension': 'json',
+    },
 }
 
 
 def extract_snapshot_year(filename: str) -> int:
-    match = re.search(r'_(stats|table|players)_(\d{4})\.(csv|pdf)$', filename)
+    match = re.search(
+        r'_(stats|table|players|matches|bracket)_(\d{4})\.(csv|pdf|json)$',
+        filename,
+    )
     if not match:
         return 0
     return int(match.group(2))
@@ -57,8 +72,17 @@ def get_latest_snapshot_file(league: str, file_type: str,
     return snapshot_files[0]
 
 
+def league_required_file_types(league: str) -> tuple:
+    from .catalog import LEAGUES
+
+    if LEAGUES[league].family == 'international_tournament':
+        return ('table',)
+    return ('table', 'players', 'stats')
+
+
 def league_has_snapshots(league: str,
-                         required_file_types=('table', 'players', 'stats')) -> bool:
+                         required_file_types=None) -> bool:
+    required_file_types = required_file_types or league_required_file_types(league)
     try:
         for file_type in required_file_types:
             get_latest_snapshot_file(league, file_type, 'csv')
