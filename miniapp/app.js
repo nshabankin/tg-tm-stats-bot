@@ -62,6 +62,15 @@ function hasMatches() {
   return Boolean(state.snapshot?.matches?.groups?.length);
 }
 
+function hasSquads() {
+  if (!isTournament()) {
+    return true;
+  }
+  return (state.snapshot?.teams || []).some(
+    (team) => (team.players || []).length > 0 || parseStatNumber(team.playerCount) > 0
+  );
+}
+
 function findCurrentMatchesGroupIndex(groups) {
   if (!Array.isArray(groups) || !groups.length) {
     return 0;
@@ -1486,6 +1495,12 @@ function renderView() {
     if (tab.dataset.view === "matches") {
       tab.classList.toggle("hidden", !hasMatches());
       if (!hasMatches() && state.view === "matches") {
+        state.view = "table";
+      }
+    }
+    if (tab.dataset.view === "teams") {
+      tab.classList.toggle("hidden", !hasSquads());
+      if (!hasSquads() && state.view === "teams") {
         state.view = "table";
       }
     }
