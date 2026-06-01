@@ -211,6 +211,14 @@ class TournamentSnapshotTests(unittest.TestCase):
         self.assertEqual(match_groups[0]['matches'][0]['homeTeam'], 'Mexico')
         self.assertEqual(match_groups[0]['matches'][0]['awayTeam'], 'South Africa')
 
+    def test_flag_assets_are_upgraded_from_tiny_to_head(self) -> None:
+        self.assertEqual(
+            source.normalize_asset_url(
+                'https://tmssl.akamaized.net//images/flagge/tiny/172.png?lm=1'
+            ),
+            'https://tmssl.akamaized.net//images/flagge/head/172.png?lm=1',
+        )
+
 
 class RefreshEntrypointTests(unittest.TestCase):
     def test_run_for_leagues_runs_each_league_and_prints_label(self) -> None:
