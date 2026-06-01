@@ -226,7 +226,8 @@ body {
 }
 
 .league-chip[data-league-key="world_cup"] {
-  --league-accent: 20, 184, 166;
+  --league-accent: 238, 184, 74;
+  --league-accent-strong: #f3c45b;
 }
 
 .tabs {

@@ -365,6 +365,10 @@ function applyLeagueTheme() {
   if (accent) {
     document.documentElement.style.setProperty("--page-accent", accent);
   }
+  const accentStrong = `${computed.getPropertyValue("--league-accent-strong") || ""}`.trim();
+  if (accentStrong) {
+    document.documentElement.style.setProperty("--accent", accentStrong);
+  }
 }
 
 function formatDateLabel(value) {
