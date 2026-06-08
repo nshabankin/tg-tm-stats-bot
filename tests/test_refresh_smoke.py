@@ -12,8 +12,10 @@ from lxml import html
 from tmstats import (miniapp, refresh, refresh_context, refresh_modes,
                      refresh_pipeline, source)
 from tmstats import player_stats
-from tmstats.snapshots import available_league_keys
+from tmstats.browse import format_table_message
+from tmstats.catalog import LEAGUES
 from tmstats.refresh_paths import LeagueRefreshPaths, build_league_refresh_paths
+from tmstats.snapshots import available_league_keys
 
 
 class RefreshContextTests(unittest.TestCase):
@@ -218,6 +220,25 @@ class TournamentSnapshotTests(unittest.TestCase):
             ),
             'https://tmssl.akamaized.net//images/flagge/head/172.png?lm=1',
         )
+
+    def test_world_cup_text_table_is_split_by_group(self) -> None:
+        message = format_table_message({
+            'league': LEAGUES['world_cup'],
+            'table_rows': [
+                {'group': 'Group A', 'rank': '1', 'club': 'Mexico',
+                 'played': '0', 'points': '0', 'diff': '0'},
+                {'group': 'Group A', 'rank': '1', 'club': 'South Africa',
+                 'played': '0', 'points': '0', 'diff': '0'},
+                {'group': 'Group B', 'rank': '1', 'club': 'Canada',
+                 'played': '0', 'points': '0', 'diff': '0'},
+            ],
+        })
+
+        self.assertIn('World Cup 2026 groups', message)
+        self.assertIn('Group A', message)
+        self.assertIn('Group B', message)
+        self.assertLess(message.index('Group A'), message.index('Mexico'))
+        self.assertLess(message.index('Group B'), message.index('Canada'))
 
 
 class RefreshEntrypointTests(unittest.TestCase):

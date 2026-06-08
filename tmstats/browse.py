@@ -182,8 +182,38 @@ def get_team_players(snapshot: dict, team_row: dict) -> List[dict]:
     return snapshot['players_by_team'].get(team_row.get('club', ''), [])
 
 
+def format_tournament_table_message(snapshot: dict) -> str:
+    league_label = snapshot['league'].label
+    header = f'{league_label} groups\nLatest local snapshot'
+    lines = []
+    current_group = ''
+
+    for row in snapshot['table_rows']:
+        group_label = row.get('group', '') or 'Group'
+        if group_label != current_group:
+            if lines:
+                lines.append('')
+            lines.append(group_label)
+            lines.append('# Team            P Pts  GD')
+            current_group = group_label
+
+        team = compact_club_name(row.get('club', ''))
+        lines.append(
+            f'{parse_int(row.get("rank")):>2} '
+            f'{team:<15} '
+            f'{parse_int(row.get("played")):>2} '
+            f'{row.get("points", ""):>3} '
+            f'{row.get("diff", ""):>3}'
+        )
+
+    return f'<b>{escape(header)}</b>\n<pre>{escape(chr(10).join(lines))}</pre>'
+
+
 def format_table_message(snapshot: dict) -> str:
     league_label = snapshot['league'].label
+    if snapshot['league'].family == 'international_tournament':
+        return format_tournament_table_message(snapshot)
+
     if snapshot['league'].family == 'uefa':
         header = f'{league_label} league phase\nLatest local snapshot'
         lines = [
