@@ -1,12 +1,12 @@
 {
   "league": "world_cup",
   "season": 2025,
-  "updatedAt": "2026-06-07T13:02:48+00:00",
+  "updatedAt": "2026-06-17T18:47:49+00:00",
   "mode": "full",
   "counts": {
     "clubs": 48,
-    "players": 1245,
-    "statsRows": 1245,
+    "players": 1248,
+    "statsRows": 1248,
     "tableRows": 48
   },
   "matches": {
@@ -23,12 +23,12 @@
     "unresolvedClubs": []
   },
   "outputs": {
-    "tableChanged": false,
+    "tableChanged": true,
     "playersChanged": true,
     "statsChanged": true,
-    "matchesChanged": false,
+    "matchesChanged": true,
     "bracketChanged": false,
-    "tablePdfRendered": false,
+    "tablePdfRendered": true,
     "statsPdfRendered": true
   }
 }
