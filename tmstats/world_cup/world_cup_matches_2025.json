@@ -23,14 +23,14 @@
           "time": "",
           "homeTeam": "Czechia",
           "awayTeam": "South Africa",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "19/06/2026",
           "time": "",
           "homeTeam": "Mexico",
           "awayTeam": "South Korea",
-          "score": ""
+          "score": "1:0"
         },
         {
           "date": "25/06/2026",
@@ -71,14 +71,14 @@
           "time": "",
           "homeTeam": "Switzerland",
           "awayTeam": "Bosnia-Herzegovina",
-          "score": ""
+          "score": "4:1"
         },
         {
           "date": "19/06/2026",
           "time": "",
           "homeTeam": "Canada",
           "awayTeam": "Qatar",
-          "score": ""
+          "score": "6:0"
         },
         {
           "date": "24/06/2026",
@@ -119,14 +119,14 @@
           "time": "",
           "homeTeam": "Scotland",
           "awayTeam": "Morocco",
-          "score": ""
+          "score": "0:1"
         },
         {
           "date": "20/06/2026",
           "time": "",
           "homeTeam": "Brazil",
           "awayTeam": "Haiti",
-          "score": ""
+          "score": "3:0"
         },
         {
           "date": "25/06/2026",
@@ -167,14 +167,14 @@
           "time": "",
           "homeTeam": "United States",
           "awayTeam": "Australia",
-          "score": ""
+          "score": "2:0"
         },
         {
           "date": "20/06/2026",
           "time": "",
           "homeTeam": "Turkiye",
           "awayTeam": "Paraguay",
-          "score": ""
+          "score": "0:1"
         },
         {
           "date": "26/06/2026",
@@ -215,14 +215,14 @@
           "time": "",
           "homeTeam": "Germany",
           "awayTeam": "Ivory Coast",
-          "score": ""
+          "score": "2:1"
         },
         {
           "date": "21/06/2026",
           "time": "",
           "homeTeam": "Ecuador",
           "awayTeam": "Curaçao",
-          "score": ""
+          "score": "0:0"
         },
         {
           "date": "25/06/2026",
@@ -263,14 +263,14 @@
           "time": "",
           "homeTeam": "Netherlands",
           "awayTeam": "Sweden",
-          "score": ""
+          "score": "5:1"
         },
         {
           "date": "21/06/2026",
           "time": "",
           "homeTeam": "Tunisia",
           "awayTeam": "Japan",
-          "score": ""
+          "score": "0:4"
         },
         {
           "date": "26/06/2026",
@@ -311,14 +311,14 @@
           "time": "",
           "homeTeam": "Belgium",
           "awayTeam": "Iran",
-          "score": ""
+          "score": "0:0"
         },
         {
           "date": "22/06/2026",
           "time": "",
           "homeTeam": "New Zealand",
           "awayTeam": "Egypt",
-          "score": ""
+          "score": "1:3"
         },
         {
           "date": "27/06/2026",
@@ -359,14 +359,14 @@
           "time": "",
           "homeTeam": "Spain",
           "awayTeam": "Saudi Arabia",
-          "score": ""
+          "score": "4:0"
         },
         {
           "date": "22/06/2026",
           "time": "",
           "homeTeam": "Uruguay",
           "awayTeam": "Cape Verde",
-          "score": ""
+          "score": "2:2"
         },
         {
           "date": "27/06/2026",
@@ -489,14 +489,14 @@
           "time": "",
           "homeTeam": "Portugal",
           "awayTeam": "Democratic Republic of the Congo",
-          "score": ""
+          "score": "1:1"
         },
         {
           "date": "18/06/2026",
           "time": "",
           "homeTeam": "Uzbekistan",
           "awayTeam": "Colombia",
-          "score": ""
+          "score": "1:3"
         },
         {
           "date": "23/06/2026",
@@ -537,14 +537,14 @@
           "time": "",
           "homeTeam": "England",
           "awayTeam": "Croatia",
-          "score": ""
+          "score": "4:2"
         },
         {
           "date": "18/06/2026",
           "time": "",
           "homeTeam": "Ghana",
           "awayTeam": "Panama",
-          "score": ""
+          "score": "1:0"
         },
         {
           "date": "23/06/2026",
@@ -597,13 +597,13 @@
         {
           "date": "",
           "time": "10:30 PM",
-          "homeTeam": "Winner Group E",
+          "homeTeam": "Germany",
           "awayTeam": "Third in Group A/B/C/D/F",
           "score": ""
         },
         {
           "date": "Tue 30/06/2026",
-          "time": "2:00 AM",
+          "time": "3:00 AM",
           "homeTeam": "Winner Group F",
           "awayTeam": "Second in Group C",
           "score": ""
@@ -624,8 +624,8 @@
         },
         {
           "date": "Wed 01/07/2026",
-          "time": "2:00 AM",
-          "homeTeam": "Winner Group A",
+          "time": "3:00 AM",
+          "homeTeam": "Mexico",
           "awayTeam": "Third in Group C/E/F/H/I",
           "score": ""
         },
@@ -646,7 +646,7 @@
         {
           "date": "Thu 02/07/2026",
           "time": "2:00 AM",
-          "homeTeam": "Winner Group D",
+          "homeTeam": "USA",
           "awayTeam": "Third in Group B/E/F/I/J",
           "score": ""
         },

@@ -38,7 +38,7 @@
               "leg": "",
               "date": "",
               "time": "10:30 PM",
-              "homeTeam": "Winner Group E",
+              "homeTeam": "Germany",
               "result": "-:-",
               "awayTeam": "Third in Group A/B/C/D/F"
             }
@@ -50,7 +50,7 @@
             {
               "leg": "",
               "date": "Tue 30/06/2026",
-              "time": "2:00 AM",
+              "time": "3:00 AM",
               "homeTeam": "Winner Group F",
               "result": "-:-",
               "awayTeam": "Second in Group C"
@@ -89,8 +89,8 @@
             {
               "leg": "",
               "date": "Wed 01/07/2026",
-              "time": "2:00 AM",
-              "homeTeam": "Winner Group A",
+              "time": "3:00 AM",
+              "homeTeam": "Mexico",
               "result": "-:-",
               "awayTeam": "Third in Group C/E/F/H/I"
             }
@@ -129,7 +129,7 @@
               "leg": "",
               "date": "Thu 02/07/2026",
               "time": "2:00 AM",
-              "homeTeam": "Winner Group D",
+              "homeTeam": "USA",
               "result": "-:-",
               "awayTeam": "Third in Group B/E/F/I/J"
             }

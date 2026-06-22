@@ -103,32 +103,6 @@ id,name,shirtNumber,positionId,position,club,link
 401736,Yaya Sithole,13,3,Midfield,South Africa,/yaya-sithole/profil/spieler/401736
 258304,Ricardo Goss,22,1,Goalkeeper,South Africa,/ricardo-goss/profil/spieler/258304
 176578,Themba Zwane,11,3,Midfield,South Africa,/themba-zwane/profil/spieler/176578
-927353,Johan Manzambi,9,3,Midfield,Switzerland,/johan-manzambi/profil/spieler/927353
-257814,Gregor Kobel,1,1,Goalkeeper,Switzerland,/gregor-kobel/profil/spieler/257814
-365108,Dan Ndoye,11,4,Forward,Switzerland,/dan-ndoye/profil/spieler/365108
-608172,Ardon Jashari,14,3,Midfield,Switzerland,/ardon-jashari/profil/spieler/608172
-346890,Noah Okafor,19,4,Forward,Switzerland,/noah-okafor/profil/spieler/346890
-334526,Denis Zakaria,6,3,Midfield,Switzerland,/denis-zakaria/profil/spieler/334526
-284730,Manuel Akanji,5,2,Defender,Switzerland,/manuel-akanji/profil/spieler/284730
-237662,Breel Embolo,7,4,Forward,Switzerland,/breel-embolo/profil/spieler/237662
-507341,Fabian Rieder,22,3,Midfield,Switzerland,/fabian-rieder/profil/spieler/507341
-345886,Rubén Vargas,17,4,Forward,Switzerland,/ruben-vargas/profil/spieler/345886
-635645,Aurèle Amenda,24,2,Defender,Switzerland,/aurele-amenda/profil/spieler/635645
-539798,Luca Jaquez,25,2,Defender,Switzerland,/luca-jaquez/profil/spieler/539798
-111455,Granit Xhaka,10,3,Midfield,Switzerland,/granit-xhaka/profil/spieler/111455
-192635,Nico Elvedi,4,2,Defender,Switzerland,/nico-elvedi/profil/spieler/192635
-212723,Djibril Sow,15,3,Midfield,Switzerland,/djibril-sow/profil/spieler/212723
-548729,Zeki Amdouni,23,4,Forward,Switzerland,/zeki-amdouni/profil/spieler/548729
-500763,Marvin Keller,21,1,Goalkeeper,Switzerland,/marvin-keller/profil/spieler/500763
-298603,Miro Muheim,2,2,Defender,Switzerland,/miro-muheim/profil/spieler/298603
-237658,Michel Aebischer,20,3,Midfield,Switzerland,/michel-aebischer/profil/spieler/237658
-148252,Remo Freuler,8,3,Midfield,Switzerland,/remo-freuler/profil/spieler/148252
-298583,Eray Cömert,18,2,Defender,Switzerland,/eray-comert/profil/spieler/298583
-147051,Yvon Mvogo,12,1,Goalkeeper,Switzerland,/yvon-mvogo/profil/spieler/147051
-250490,Christian Fassnacht,16,3,Midfield,Switzerland,/christian-fassnacht/profil/spieler/250490
-243856,Cedric Itten,26,4,Forward,Switzerland,/cedric-itten/profil/spieler/243856
-86784,Ricardo Rodríguez,13,2,Defender,Switzerland,/ricardo-rodriguez/profil/spieler/86784
-168989,Silvan Widmer,3,2,Defender,Switzerland,/silvan-widmer/profil/spieler/168989
 424204,Alphonso Davies,19,2,Defender,Canada,/alphonso-davies/profil/spieler/424204
 533738,Jonathan David,10,4,Forward,Canada,/jonathan-david/profil/spieler/533738
 921655,Ismaël Koné,8,3,Midfield,Canada,/ismael-kone/profil/spieler/921655
@@ -155,32 +129,32 @@ id,name,shirtNumber,positionId,position,club,link
 260807,Jonathan Osorio,21,3,Midfield,Canada,/jonathan-osorio/profil/spieler/260807
 589006,Mathieu Choinière,6,3,Midfield,Canada,/mathieu-choiniere/profil/spieler/589006
 814848,Owen Goodman,18,1,Goalkeeper,Canada,/owen-goodman/profil/spieler/814848
-336646,Akram Afif,11,4,Forward,Qatar,/akram-afif/profil/spieler/336646
-345095,Almoez Ali,19,4,Forward,Qatar,/almoez-ali/profil/spieler/345095
-237846,Edmílson Junior,8,4,Forward,Qatar,/edmilson-junior/profil/spieler/237846
-560423,Meshaal Barsham,22,1,Goalkeeper,Qatar,/meshaal-barsham/profil/spieler/560423
-822935,Mohamed Manai,26,3,Midfield,Qatar,/mohamed-manai/profil/spieler/822935
-735813,Jassem Gaber,5,3,Midfield,Qatar,/jassem-gaber/profil/spieler/735813
-670659,Ahmed Al-Ganehi,17,4,Forward,Qatar,/ahmed-al-ganehi/profil/spieler/670659
-556713,Homam Al-Amin,14,2,Defender,Qatar,/homam-al-amin/profil/spieler/556713
-669629,Mahmoud Abunada,1,1,Goalkeeper,Qatar,/mahmoud-abunada/profil/spieler/669629
-632912,Salah Zakaria,21,1,Goalkeeper,Qatar,/salah-zakaria/profil/spieler/632912
-1054631,Ayoub Al-Oui,13,2,Defender,Qatar,/ayoub-al-oui/profil/spieler/1054631
-83983,Lucas Mendes,3,2,Defender,Qatar,/lucas-mendes/profil/spieler/83983
-336667,Assim Madibo,23,3,Midfield,Qatar,/assim-madibo/profil/spieler/336667
-86286,Hasan Al-Haydos,10,3,Midfield,Qatar,/hasan-al-haydos/profil/spieler/86286
-336665,Sultan Al-Brake,18,2,Defender,Qatar,/sultan-al-brake/profil/spieler/336665
-187987,Ahmed Alaaeldin,7,4,Forward,Qatar,/ahmed-alaaeldin/profil/spieler/187987
-589099,Yusuf Abdurisag,15,4,Forward,Qatar,/yusuf-abdurisag/profil/spieler/589099
-251183,Ahmed Fathi,20,3,Midfield,Qatar,/ahmed-fathi/profil/spieler/251183
-943150,Al-Hashmi Al-Hussain,25,2,Defender,Qatar,/al-hashmi-al-hussain/profil/spieler/943150
-113915,Abdulaziz Hatim,6,3,Midfield,Qatar,/abdulaziz-hatim/profil/spieler/113915
-266935,Mohammed Muntari,9,4,Forward,Qatar,/mohammed-muntari/profil/spieler/266935
-222669,Boualem Khoukhi,16,2,Defender,Qatar,/boualem-khoukhi/profil/spieler/222669
-1143849,Tahsin Mohammed Jamshid,24,4,Forward,Qatar,/tahsin-mohammed-jamshid/profil/spieler/1143849
-1264176,Issa Laye,4,2,Defender,Qatar,/issa-laye/profil/spieler/1264176
-222385,Karim Boudiaf,12,3,Midfield,Qatar,/karim-boudiaf/profil/spieler/222385
-228727,Pedro Miguel,2,2,Defender,Qatar,/pedro-miguel/profil/spieler/228727
+927353,Johan Manzambi,9,3,Midfield,Switzerland,/johan-manzambi/profil/spieler/927353
+257814,Gregor Kobel,1,1,Goalkeeper,Switzerland,/gregor-kobel/profil/spieler/257814
+365108,Dan Ndoye,11,4,Forward,Switzerland,/dan-ndoye/profil/spieler/365108
+608172,Ardon Jashari,14,3,Midfield,Switzerland,/ardon-jashari/profil/spieler/608172
+346890,Noah Okafor,19,4,Forward,Switzerland,/noah-okafor/profil/spieler/346890
+334526,Denis Zakaria,6,3,Midfield,Switzerland,/denis-zakaria/profil/spieler/334526
+284730,Manuel Akanji,5,2,Defender,Switzerland,/manuel-akanji/profil/spieler/284730
+237662,Breel Embolo,7,4,Forward,Switzerland,/breel-embolo/profil/spieler/237662
+507341,Fabian Rieder,22,3,Midfield,Switzerland,/fabian-rieder/profil/spieler/507341
+345886,Rubén Vargas,17,4,Forward,Switzerland,/ruben-vargas/profil/spieler/345886
+635645,Aurèle Amenda,24,2,Defender,Switzerland,/aurele-amenda/profil/spieler/635645
+539798,Luca Jaquez,25,2,Defender,Switzerland,/luca-jaquez/profil/spieler/539798
+111455,Granit Xhaka,10,3,Midfield,Switzerland,/granit-xhaka/profil/spieler/111455
+192635,Nico Elvedi,4,2,Defender,Switzerland,/nico-elvedi/profil/spieler/192635
+212723,Djibril Sow,15,3,Midfield,Switzerland,/djibril-sow/profil/spieler/212723
+548729,Zeki Amdouni,23,4,Forward,Switzerland,/zeki-amdouni/profil/spieler/548729
+500763,Marvin Keller,21,1,Goalkeeper,Switzerland,/marvin-keller/profil/spieler/500763
+298603,Miro Muheim,2,2,Defender,Switzerland,/miro-muheim/profil/spieler/298603
+237658,Michel Aebischer,20,3,Midfield,Switzerland,/michel-aebischer/profil/spieler/237658
+148252,Remo Freuler,8,3,Midfield,Switzerland,/remo-freuler/profil/spieler/148252
+298583,Eray Cömert,18,2,Defender,Switzerland,/eray-comert/profil/spieler/298583
+147051,Yvon Mvogo,12,1,Goalkeeper,Switzerland,/yvon-mvogo/profil/spieler/147051
+250490,Christian Fassnacht,16,4,Forward,Switzerland,/christian-fassnacht/profil/spieler/250490
+243856,Cedric Itten,26,4,Forward,Switzerland,/cedric-itten/profil/spieler/243856
+86784,Ricardo Rodríguez,13,2,Defender,Switzerland,/ricardo-rodriguez/profil/spieler/86784
+168989,Silvan Widmer,3,2,Defender,Switzerland,/silvan-widmer/profil/spieler/168989
 679423,Tarik Muharemović,4,2,Defender,Bosnia-Herzegovina,/tarik-muharemovic/profil/spieler/679423
 929994,Kerim Alajbegovic,19,4,Forward,Bosnia-Herzegovina,/kerim-alajbegovic/profil/spieler/929994
 335457,Ermedin Demirovic,10,4,Forward,Bosnia-Herzegovina,/ermedin-demirovic/profil/spieler/335457
@@ -207,58 +181,32 @@ id,name,shirtNumber,positionId,position,club,link
 251295,Dzenis Burnic,17,3,Midfield,Bosnia-Herzegovina,/dzenis-burnic/profil/spieler/251295
 28396,Edin Dzeko,11,4,Forward,Bosnia-Herzegovina,/edin-dzeko/profil/spieler/28396
 952692,Mladen Jurkas,12,1,Goalkeeper,Bosnia-Herzegovina,/mladen-jurkas/profil/spieler/952692
-315969,Scott McTominay,4,3,Midfield,Scotland,/scott-mctominay/profil/spieler/315969
-591949,Aaron Hickey,2,2,Defender,Scotland,/aaron-hickey/profil/spieler/591949
-719673,Ben Gannon-Doak,17,4,Forward,Scotland,/ben-gannon-doak/profil/spieler/719673
-428563,Lewis Ferguson,19,3,Midfield,Scotland,/lewis-ferguson/profil/spieler/428563
-193116,John McGinn,7,3,Midfield,Scotland,/john-mcginn/profil/spieler/193116
-424015,Nathan Patterson,22,2,Defender,Scotland,/nathan-patterson/profil/spieler/424015
-420808,George Hirst,18,4,Forward,Scotland,/george-hirst/profil/spieler/420808
-188077,Ryan Christie,11,3,Midfield,Scotland,/ryan-christie/profil/spieler/188077
-300716,Kieran Tierney,6,2,Defender,Scotland,/kieran-tierney/profil/spieler/300716
-234803,Andrew Robertson,3,2,Defender,Scotland,/andrew-robertson/profil/spieler/234803
-346779,Ché Adams,10,4,Forward,Scotland,/che-adams/profil/spieler/346779
-255906,Scott McKenna,26,2,Defender,Scotland,/scott-mckenna/profil/spieler/255906
-225744,Lawrence Shankland,20,4,Forward,Scotland,/lawrence-shankland/profil/spieler/225744
-447995,Ross Stewart,14,4,Forward,Scotland,/ross-stewart/profil/spieler/447995
-363223,Jack Hendry,13,2,Defender,Scotland,/jack-hendry/profil/spieler/363223
-1082993,Findlay Curtis,25,4,Forward,Scotland,/findlay-curtis/profil/spieler/1082993
-263268,Dominic Hyam,16,2,Defender,Scotland,/dominic-hyam/profil/spieler/263268
-235767,John Souttar,15,2,Defender,Scotland,/john-souttar/profil/spieler/235767
-388171,Anthony Ralston,24,2,Defender,Scotland,/anthony-ralston/profil/spieler/388171
-1049911,Tyler Fletcher,8,3,Midfield,Scotland,/tyler-fletcher/profil/spieler/1049911
-201574,Angus Gunn,1,1,Goalkeeper,Scotland,/angus-gunn/profil/spieler/201574
-347138,Lyndon Dykes,9,4,Forward,Scotland,/lyndon-dykes/profil/spieler/347138
-208772,Liam Kelly,12,1,Goalkeeper,Scotland,/liam-kelly/profil/spieler/208772
-126600,Kenny McLean,23,3,Midfield,Scotland,/kenny-mclean/profil/spieler/126600
-121385,Grant Hanley,5,2,Defender,Scotland,/grant-hanley/profil/spieler/121385
-12589,Craig Gordon,21,1,Goalkeeper,Scotland,/craig-gordon/profil/spieler/12589
-398073,Achraf Hakimi,2,2,Defender,Morocco,/achraf-hakimi/profil/spieler/398073
-1097139,Ayyoub Bouaddi,6,3,Midfield,Morocco,/ayyoub-bouaddi/profil/spieler/1097139
-702869,Ismael Saibari,11,3,Midfield,Morocco,/ismael-saibari/profil/spieler/702869
-314678,Brahim Díaz,10,4,Forward,Morocco,/brahim-diaz/profil/spieler/314678
-654982,Bilal El Khannouss,23,3,Midfield,Morocco,/bilal-el-khannouss/profil/spieler/654982
-743384,Chemsdine Talbi,7,4,Forward,Morocco,/chemsdine-talbi/profil/spieler/743384
-901019,Neil El Aynaoui,24,3,Midfield,Morocco,/neil-el-aynaoui/profil/spieler/901019
-1130514,Samir El Mourabet,15,3,Midfield,Morocco,/samir-el-mourabet/profil/spieler/1130514
-340456,Noussair Mazraoui,3,2,Defender,Morocco,/noussair-mazraoui/profil/spieler/340456
-820474,Zakaria El Ouahdi,13,2,Defender,Morocco,/zakaria-el-ouahdi/profil/spieler/820474
-689637,Chadi Riad,18,2,Defender,Morocco,/chadi-riad/profil/spieler/689637
-485584,Anass Salah-Eddine,26,2,Defender,Morocco,/anass-salah-eddine/profil/spieler/485584
-1151929,Gessime Yassine,16,4,Forward,Morocco,/gessime-yassine/profil/spieler/1151929
-593482,Azzedine Ounahi,8,3,Midfield,Morocco,/azzedine-ounahi/profil/spieler/593482
-799993,Ayoube Amaimouni-Echghouyab,21,4,Forward,Morocco,/ayoube-amaimouni-echghouyab/profil/spieler/799993
-287579,Sofyan Amrabat,4,3,Midfield,Morocco,/sofyan-amrabat/profil/spieler/287579
-272622,Issa Diop,14,2,Defender,Morocco,/issa-diop/profil/spieler/272622
-598506,Soufiane Rahimi,9,4,Forward,Morocco,/soufiane-rahimi/profil/spieler/598506
-913660,Redouane Halhal,25,2,Defender,Morocco,/redouane-halhal/profil/spieler/913660
-521127,Ayoub El Kaabi,20,4,Forward,Morocco,/ayoub-el-kaabi/profil/spieler/521127
-851220,Amine Sbaï,17,4,Forward,Morocco,/amine-sbai/profil/spieler/851220
-207834,Yassine Bounou,1,1,Goalkeeper,Morocco,/yassine-bounou/profil/spieler/207834
-518804,Youssef Belammari,19,2,Defender,Morocco,/youssef-belammari/profil/spieler/518804
-238997,Ahmed Reda Tagnaouti,22,1,Goalkeeper,Morocco,/ahmed-reda-tagnaouti/profil/spieler/238997
-97925,Munir El Kajoui,12,1,Goalkeeper,Morocco,/munir-el-kajoui/profil/spieler/97925
-210009,Marwane Saadane,5,2,Defender,Morocco,/marwane-saadane/profil/spieler/210009
+336646,Akram Afif,11,4,Forward,Qatar,/akram-afif/profil/spieler/336646
+345095,Almoez Ali,19,4,Forward,Qatar,/almoez-ali/profil/spieler/345095
+237846,Edmílson Junior,8,4,Forward,Qatar,/edmilson-junior/profil/spieler/237846
+560423,Meshaal Barsham,22,1,Goalkeeper,Qatar,/meshaal-barsham/profil/spieler/560423
+822935,Mohamed Manai,26,3,Midfield,Qatar,/mohamed-manai/profil/spieler/822935
+735813,Jassem Gaber,5,3,Midfield,Qatar,/jassem-gaber/profil/spieler/735813
+670659,Ahmed Al-Ganehi,17,4,Forward,Qatar,/ahmed-al-ganehi/profil/spieler/670659
+556713,Homam Al-Amin,14,2,Defender,Qatar,/homam-al-amin/profil/spieler/556713
+669629,Mahmoud Abunada,1,1,Goalkeeper,Qatar,/mahmoud-abunada/profil/spieler/669629
+632912,Salah Zakaria,21,1,Goalkeeper,Qatar,/salah-zakaria/profil/spieler/632912
+1054631,Ayoub Al-Oui,13,2,Defender,Qatar,/ayoub-al-oui/profil/spieler/1054631
+83983,Lucas Mendes,3,2,Defender,Qatar,/lucas-mendes/profil/spieler/83983
+336667,Assim Madibo,23,3,Midfield,Qatar,/assim-madibo/profil/spieler/336667
+86286,Hasan Al-Haydos,10,3,Midfield,Qatar,/hasan-al-haydos/profil/spieler/86286
+336665,Sultan Al-Brake,18,2,Defender,Qatar,/sultan-al-brake/profil/spieler/336665
+187987,Ahmed Alaaeldin,7,4,Forward,Qatar,/ahmed-alaaeldin/profil/spieler/187987
+589099,Yusuf Abdurisag,15,4,Forward,Qatar,/yusuf-abdurisag/profil/spieler/589099
+251183,Ahmed Fathi,20,3,Midfield,Qatar,/ahmed-fathi/profil/spieler/251183
+943150,Al-Hashmi Al-Hussain,25,2,Defender,Qatar,/al-hashmi-al-hussain/profil/spieler/943150
+113915,Abdulaziz Hatim,6,3,Midfield,Qatar,/abdulaziz-hatim/profil/spieler/113915
+266935,Mohammed Muntari,9,4,Forward,Qatar,/mohammed-muntari/profil/spieler/266935
+222669,Boualem Khoukhi,16,2,Defender,Qatar,/boualem-khoukhi/profil/spieler/222669
+1143849,Tahsin Mohammed Jamshid,24,4,Forward,Qatar,/tahsin-mohammed-jamshid/profil/spieler/1143849
+1264176,Issa Laye,4,2,Defender,Qatar,/issa-laye/profil/spieler/1264176
+222385,Karim Boudiaf,12,3,Midfield,Qatar,/karim-boudiaf/profil/spieler/222385
+228727,Pedro Miguel,2,2,Defender,Qatar,/pedro-miguel/profil/spieler/228727
 371998,Vinicius Junior,7,4,Forward,Brazil,/vinicius-junior/profil/spieler/371998
 517894,Matheus Cunha,9,4,Forward,Brazil,/matheus-cunha/profil/spieler/517894
 435338,Gabriel,3,2,Defender,Brazil,/gabriel/profil/spieler/435338
@@ -285,6 +233,58 @@ id,name,shirtNumber,positionId,position,club,link
 145707,Danilo,13,2,Defender,Brazil,/danilo/profil/spieler/145707
 79960,Alex Sandro,6,2,Defender,Brazil,/alex-sandro/profil/spieler/79960
 69400,Weverton,12,1,Goalkeeper,Brazil,/weverton/profil/spieler/69400
+398073,Achraf Hakimi,2,2,Defender,Morocco,/achraf-hakimi/profil/spieler/398073
+1097139,Ayyoub Bouaddi,6,3,Midfield,Morocco,/ayyoub-bouaddi/profil/spieler/1097139
+702869,Ismael Saibari,11,3,Midfield,Morocco,/ismael-saibari/profil/spieler/702869
+314678,Brahim Díaz,10,4,Forward,Morocco,/brahim-diaz/profil/spieler/314678
+654982,Bilal El Khannouss,23,3,Midfield,Morocco,/bilal-el-khannouss/profil/spieler/654982
+743384,Chemsdine Talbi,7,4,Forward,Morocco,/chemsdine-talbi/profil/spieler/743384
+901019,Neil El Aynaoui,24,3,Midfield,Morocco,/neil-el-aynaoui/profil/spieler/901019
+1130514,Samir El Mourabet,15,3,Midfield,Morocco,/samir-el-mourabet/profil/spieler/1130514
+340456,Noussair Mazraoui,3,2,Defender,Morocco,/noussair-mazraoui/profil/spieler/340456
+820474,Zakaria El Ouahdi,13,2,Defender,Morocco,/zakaria-el-ouahdi/profil/spieler/820474
+689637,Chadi Riad,18,2,Defender,Morocco,/chadi-riad/profil/spieler/689637
+485584,Anass Salah-Eddine,26,2,Defender,Morocco,/anass-salah-eddine/profil/spieler/485584
+1151929,Gessime Yassine,16,4,Forward,Morocco,/gessime-yassine/profil/spieler/1151929
+593482,Azzedine Ounahi,8,3,Midfield,Morocco,/azzedine-ounahi/profil/spieler/593482
+799993,Ayoube Amaimouni-Echghouyab,21,4,Forward,Morocco,/ayoube-amaimouni-echghouyab/profil/spieler/799993
+287579,Sofyan Amrabat,4,3,Midfield,Morocco,/sofyan-amrabat/profil/spieler/287579
+272622,Issa Diop,14,2,Defender,Morocco,/issa-diop/profil/spieler/272622
+598506,Soufiane Rahimi,9,4,Forward,Morocco,/soufiane-rahimi/profil/spieler/598506
+913660,Redouane Halhal,25,2,Defender,Morocco,/redouane-halhal/profil/spieler/913660
+521127,Ayoub El Kaabi,20,4,Forward,Morocco,/ayoub-el-kaabi/profil/spieler/521127
+851220,Amine Sbaï,17,4,Forward,Morocco,/amine-sbai/profil/spieler/851220
+207834,Yassine Bounou,1,1,Goalkeeper,Morocco,/yassine-bounou/profil/spieler/207834
+518804,Youssef Belammari,19,2,Defender,Morocco,/youssef-belammari/profil/spieler/518804
+238997,Ahmed Reda Tagnaouti,22,1,Goalkeeper,Morocco,/ahmed-reda-tagnaouti/profil/spieler/238997
+97925,Munir El Kajoui,12,1,Goalkeeper,Morocco,/munir-el-kajoui/profil/spieler/97925
+210009,Marwane Saadane,5,2,Defender,Morocco,/marwane-saadane/profil/spieler/210009
+315969,Scott McTominay,4,3,Midfield,Scotland,/scott-mctominay/profil/spieler/315969
+591949,Aaron Hickey,2,2,Defender,Scotland,/aaron-hickey/profil/spieler/591949
+719673,Ben Gannon-Doak,17,4,Forward,Scotland,/ben-gannon-doak/profil/spieler/719673
+428563,Lewis Ferguson,19,3,Midfield,Scotland,/lewis-ferguson/profil/spieler/428563
+193116,John McGinn,7,3,Midfield,Scotland,/john-mcginn/profil/spieler/193116
+424015,Nathan Patterson,22,2,Defender,Scotland,/nathan-patterson/profil/spieler/424015
+420808,George Hirst,18,4,Forward,Scotland,/george-hirst/profil/spieler/420808
+188077,Ryan Christie,11,3,Midfield,Scotland,/ryan-christie/profil/spieler/188077
+300716,Kieran Tierney,6,2,Defender,Scotland,/kieran-tierney/profil/spieler/300716
+234803,Andrew Robertson,3,2,Defender,Scotland,/andrew-robertson/profil/spieler/234803
+346779,Ché Adams,10,4,Forward,Scotland,/che-adams/profil/spieler/346779
+255906,Scott McKenna,26,2,Defender,Scotland,/scott-mckenna/profil/spieler/255906
+225744,Lawrence Shankland,20,4,Forward,Scotland,/lawrence-shankland/profil/spieler/225744
+447995,Ross Stewart,14,4,Forward,Scotland,/ross-stewart/profil/spieler/447995
+363223,Jack Hendry,13,2,Defender,Scotland,/jack-hendry/profil/spieler/363223
+1082993,Findlay Curtis,25,4,Forward,Scotland,/findlay-curtis/profil/spieler/1082993
+263268,Dominic Hyam,16,2,Defender,Scotland,/dominic-hyam/profil/spieler/263268
+235767,John Souttar,15,2,Defender,Scotland,/john-souttar/profil/spieler/235767
+388171,Anthony Ralston,24,2,Defender,Scotland,/anthony-ralston/profil/spieler/388171
+1049911,Tyler Fletcher,8,3,Midfield,Scotland,/tyler-fletcher/profil/spieler/1049911
+201574,Angus Gunn,1,1,Goalkeeper,Scotland,/angus-gunn/profil/spieler/201574
+347138,Lyndon Dykes,9,4,Forward,Scotland,/lyndon-dykes/profil/spieler/347138
+208772,Liam Kelly,12,1,Goalkeeper,Scotland,/liam-kelly/profil/spieler/208772
+126600,Kenny McLean,23,3,Midfield,Scotland,/kenny-mclean/profil/spieler/126600
+121385,Grant Hanley,5,2,Defender,Scotland,/grant-hanley/profil/spieler/121385
+12589,Craig Gordon,21,1,Goalkeeper,Scotland,/craig-gordon/profil/spieler/12589
 494237,Wilson Isidor,18,4,Forward,Haiti,/wilson-isidor/profil/spieler/494237
 450050,Jean-Ricner Bellegarde,10,3,Midfield,Haiti,/jean-ricner-bellegarde/profil/spieler/450050
 763182,Josué Casimir,21,4,Forward,Haiti,/josue-casimir/profil/spieler/763182
@@ -303,7 +303,7 @@ id,name,shirtNumber,positionId,position,club,link
 278145,Ricardo Adé,4,2,Defender,Haiti,/ricardo-ade/profil/spieler/278145
 536520,Ruben Providence,15,4,Forward,Haiti,/ruben-providence/profil/spieler/536520
 342878,Yassin Fortuné,19,4,Forward,Haiti,/yassin-fortune/profil/spieler/342878
-552467,Leverton Pierre,14,3,Midfield,Haiti,/leverton-pierre/profil/spieler/552467
+859175,Garven Metusala,6,2,Defender,Haiti,/garven-metusala/profil/spieler/859175
 988188,Dominique Simon,25,3,Midfield,Haiti,/dominique-simon/profil/spieler/988188
 51035,Johny Placide,1,1,Goalkeeper,Haiti,/johny-placide/profil/spieler/51035
 718244,Carl Sainté,6,3,Midfield,Haiti,/carl-sainte/profil/spieler/718244
@@ -363,32 +363,6 @@ id,name,shirtNumber,positionId,position,club,link
 185175,Jason Geria,6,2,Defender,Australia,/jason-geria/profil/spieler/185175
 126214,Mathew Leckie,7,4,Forward,Australia,/mathew-leckie/profil/spieler/126214
 136834,Aziz Behich,16,2,Defender,Australia,/aziz-behich/profil/spieler/136834
-861410,Arda Güler,8,3,Midfield,Turkiye,/arda-guler/profil/spieler/861410
-845654,Kenan Yıldız,11,4,Forward,Turkiye,/kenan-yildiz/profil/spieler/845654
-816585,Can Uzun,26,3,Midfield,Turkiye,/can-uzun/profil/spieler/816585
-369316,Ferdi Kadıoğlu,20,2,Defender,Turkiye,/ferdi-kadioglu/profil/spieler/369316
-541537,Barış Alper Yılmaz,21,4,Forward,Turkiye,/baris-alper-yilmaz/profil/spieler/541537
-454567,Orkun Kökçü,6,3,Midfield,Turkiye,/orkun-kokcu/profil/spieler/454567
-382528,Kerem Aktürkoğlu,7,4,Forward,Turkiye,/kerem-akturkoglu/profil/spieler/382528
-396908,Yunus Akgün,19,4,Forward,Turkiye,/yunus-akgun/profil/spieler/396908
-126414,Hakan Çalhanoğlu,10,3,Midfield,Turkiye,/hakan-calhanoglu/profil/spieler/126414
-292199,Uğurcan Çakır,23,1,Goalkeeper,Turkiye,/ugurcan-cakir/profil/spieler/292199
-613725,İsmail Yüksek,16,3,Midfield,Turkiye,/ismail-yuksek/profil/spieler/613725
-361260,Ozan Kabak,15,2,Defender,Turkiye,/ozan-kabak/profil/spieler/361260
-251075,Zeki Çelik,2,2,Defender,Turkiye,/zeki-celik/profil/spieler/251075
-340879,Merih Demiral,3,2,Defender,Turkiye,/merih-demiral/profil/spieler/340879
-563749,Oğuz Aydın,24,4,Forward,Turkiye,/oguz-aydin/profil/spieler/563749
-353922,Mert Müldür,18,2,Defender,Turkiye,/mert-muldur/profil/spieler/353922
-199316,Abdülkerim Bardakcı,14,2,Defender,Turkiye,/abdulkerim-bardakci/profil/spieler/199316
-616894,Eren Elmalı,13,2,Defender,Turkiye,/eren-elmali/profil/spieler/616894
-1063292,Deniz Gül,9,4,Forward,Turkiye,/deniz-gul/profil/spieler/1063292
-336077,Altay Bayındır,12,1,Goalkeeper,Turkiye,/altay-bayindir/profil/spieler/336077
-320141,Çağlar Söyüncü,4,2,Defender,Turkiye,/caglar-soyuncu/profil/spieler/320141
-244940,Salih Özcan,5,3,Midfield,Turkiye,/salih-ozcan/profil/spieler/244940
-216603,İrfan Can Kahveci,17,4,Forward,Turkiye,/irfan-can-kahveci/profil/spieler/216603
-119031,Kaan Ayhan,22,3,Midfield,Turkiye,/kaan-ayhan/profil/spieler/119031
-295024,Samet Akaydin,25,2,Defender,Turkiye,/samet-akaydin/profil/spieler/295024
-51894,Mert Günok,1,1,Goalkeeper,Turkiye,/mert-gunok/profil/spieler/51894
 996897,Diego Gómez,8,3,Midfield,Paraguay,/diego-gomez/profil/spieler/996897
 660867,Julio Enciso,19,3,Midfield,Paraguay,/julio-enciso/profil/spieler/660867
 678439,Mauricio,11,3,Midfield,Paraguay,/mauricio/profil/spieler/678439
@@ -415,6 +389,32 @@ id,name,shirtNumber,positionId,position,club,link
 301722,Gastón Olveira,22,1,Goalkeeper,Paraguay,/gaston-olveira/profil/spieler/301722
 389399,Gustavo Velázquez,2,2,Defender,Paraguay,/gustavo-velazquez/profil/spieler/389399
 107318,Roberto Fernández,1,1,Goalkeeper,Paraguay,/roberto-fernandez/profil/spieler/107318
+861410,Arda Güler,8,3,Midfield,Turkiye,/arda-guler/profil/spieler/861410
+845654,Kenan Yıldız,11,4,Forward,Turkiye,/kenan-yildiz/profil/spieler/845654
+816585,Can Uzun,26,3,Midfield,Turkiye,/can-uzun/profil/spieler/816585
+369316,Ferdi Kadıoğlu,20,2,Defender,Turkiye,/ferdi-kadioglu/profil/spieler/369316
+541537,Barış Alper Yılmaz,21,4,Forward,Turkiye,/baris-alper-yilmaz/profil/spieler/541537
+454567,Orkun Kökçü,6,3,Midfield,Turkiye,/orkun-kokcu/profil/spieler/454567
+382528,Kerem Aktürkoğlu,7,4,Forward,Turkiye,/kerem-akturkoglu/profil/spieler/382528
+396908,Yunus Akgün,19,4,Forward,Turkiye,/yunus-akgun/profil/spieler/396908
+126414,Hakan Çalhanoğlu,10,3,Midfield,Turkiye,/hakan-calhanoglu/profil/spieler/126414
+292199,Uğurcan Çakır,23,1,Goalkeeper,Turkiye,/ugurcan-cakir/profil/spieler/292199
+613725,İsmail Yüksek,16,3,Midfield,Turkiye,/ismail-yuksek/profil/spieler/613725
+361260,Ozan Kabak,15,2,Defender,Turkiye,/ozan-kabak/profil/spieler/361260
+251075,Zeki Çelik,2,2,Defender,Turkiye,/zeki-celik/profil/spieler/251075
+340879,Merih Demiral,3,2,Defender,Turkiye,/merih-demiral/profil/spieler/340879
+563749,Oğuz Aydın,24,4,Forward,Turkiye,/oguz-aydin/profil/spieler/563749
+353922,Mert Müldür,18,2,Defender,Turkiye,/mert-muldur/profil/spieler/353922
+199316,Abdülkerim Bardakcı,14,2,Defender,Turkiye,/abdulkerim-bardakci/profil/spieler/199316
+616894,Eren Elmalı,13,2,Defender,Turkiye,/eren-elmali/profil/spieler/616894
+1063292,Deniz Gül,9,4,Forward,Turkiye,/deniz-gul/profil/spieler/1063292
+336077,Altay Bayındır,12,1,Goalkeeper,Turkiye,/altay-bayindir/profil/spieler/336077
+320141,Çağlar Söyüncü,4,2,Defender,Turkiye,/caglar-soyuncu/profil/spieler/320141
+244940,Salih Özcan,5,3,Midfield,Turkiye,/salih-ozcan/profil/spieler/244940
+216603,İrfan Can Kahveci,17,4,Forward,Turkiye,/irfan-can-kahveci/profil/spieler/216603
+119031,Kaan Ayhan,22,3,Midfield,Turkiye,/kaan-ayhan/profil/spieler/119031
+295024,Samet Akaydin,25,2,Defender,Turkiye,/samet-akaydin/profil/spieler/295024
+51894,Mert Günok,1,1,Goalkeeper,Turkiye,/mert-gunok/profil/spieler/51894
 598577,Florian Wirtz,17,3,Midfield,Germany,/florian-wirtz/profil/spieler/598577
 580195,Jamal Musiala,10,3,Midfield,Germany,/jamal-musiala/profil/spieler/580195
 792380,Aleksandar Pavlovic,5,3,Midfield,Germany,/aleksandar-pavlovic/profil/spieler/792380
@@ -519,58 +519,6 @@ id,name,shirtNumber,positionId,position,club,link
 79294,Eloy Room,1,1,Goalkeeper,Curaçao,/eloy-room/profil/spieler/79294
 390814,Trevor Doornbusch,26,1,Goalkeeper,Curaçao,/trevor-doornbusch/profil/spieler/390814
 663961,Tyrick Bodak,25,1,Goalkeeper,Curaçao,/tyrick-bodak/profil/spieler/663961
-349066,Alexander Isak,9,4,Forward,Sweden,/alexander-isak/profil/spieler/349066
-325443,Viktor Gyökeres,17,4,Forward,Sweden,/viktor-gyokeres/profil/spieler/325443
-866246,Lucas Bergvall,7,3,Midfield,Sweden,/lucas-bergvall/profil/spieler/866246
-667287,Yasin Ayari,18,3,Midfield,Sweden,/yasin-ayari/profil/spieler/667287
-583189,Anthony Elanga,11,4,Forward,Sweden,/anthony-elanga/profil/spieler/583189
-579287,Daniel Svensson,8,2,Defender,Sweden,/daniel-svensson/profil/spieler/579287
-503075,Isak Hien,4,2,Defender,Sweden,/isak-hien/profil/spieler/503075
-362108,Gabriel Gudmundsson,5,2,Defender,Sweden,/gabriel-gudmundsson/profil/spieler/362108
-475949,Benjamin Nygren,10,3,Midfield,Sweden,/benjamin-nygren/profil/spieler/475949
-273742,Viktor Johansson,12,1,Goalkeeper,Sweden,/viktor-johansson/profil/spieler/273742
-485395,Gustaf Lagerbielke,2,2,Defender,Sweden,/gustaf-lagerbielke/profil/spieler/485395
-342405,Mattias Svanberg,19,3,Midfield,Sweden,/mattias-svanberg/profil/spieler/342405
-715653,Besfort Zeneli,22,3,Midfield,Sweden,/besfort-zeneli/profil/spieler/715653
-184573,Victor Lindelöf,3,2,Defender,Sweden,/victor-lindelof/profil/spieler/184573
-292534,Eric Smith,20,2,Defender,Sweden,/eric-smith/profil/spieler/292534
-392179,Hjalmar Ekdal,14,2,Defender,Sweden,/hjalmar-ekdal/profil/spieler/392179
-687622,Elliot Stroud,24,3,Midfield,Sweden,/elliot-stroud/profil/spieler/687622
-258987,Carl Starfelt,15,2,Defender,Sweden,/carl-starfelt/profil/spieler/258987
-222855,Jesper Karlström,16,3,Midfield,Sweden,/jesper-karlstrom/profil/spieler/222855
-633454,Alexander Bernhardsson,21,4,Forward,Sweden,/alexander-bernhardsson/profil/spieler/633454
-549440,Jacob Widell Zetterström,1,1,Goalkeeper,Sweden,/jacob-widell-zetterstrom/profil/spieler/549440
-744853,Herman Johansson,6,3,Midfield,Sweden,/herman-johansson/profil/spieler/744853
-320440,Gustaf Nilsson,25,4,Forward,Sweden,/gustaf-nilsson/profil/spieler/320440
-731771,Taha Ali,26,4,Forward,Sweden,/taha-ali/profil/spieler/731771
-252345,Ken Sema,13,2,Defender,Sweden,/ken-sema/profil/spieler/252345
-75890,Kristoffer Nordfeldt,23,1,Goalkeeper,Sweden,/kristoffer-nordfeldt/profil/spieler/75890
-643574,Kaishu Sano,24,3,Midfield,Japan,/kaishu-sano/profil/spieler/643574
-668606,Yuito Suzuki,17,4,Forward,Japan,/yuito-suzuki/profil/spieler/668606
-432298,Zion Suzuki,1,1,Goalkeeper,Japan,/zion-suzuki/profil/spieler/432298
-405398,Takefusa Kubo,8,4,Forward,Japan,/takefusa-kubo/profil/spieler/405398
-353892,Hiroki Ito,21,2,Defender,Japan,/hiroki-ito/profil/spieler/353892
-589128,Ayase Ueda,18,4,Forward,Japan,/ayase-ueda/profil/spieler/589128
-358504,Ritsu Doan,10,4,Forward,Japan,/ritsu-doan/profil/spieler/358504
-489359,Ao Tanaka,7,3,Midfield,Japan,/ao-tanaka/profil/spieler/489359
-420931,Daizen Maeda,11,4,Forward,Japan,/daizen-maeda/profil/spieler/420931
-405397,Keito Nakamura,13,4,Forward,Japan,/keito-nakamura/profil/spieler/405397
-598791,Tsuyoshi Watanabe,16,2,Defender,Japan,/tsuyoshi-watanabe/profil/spieler/598791
-356141,Daichi Kamada,15,3,Midfield,Japan,/daichi-kamada/profil/spieler/356141
-916623,Keisuke Goto,9,4,Forward,Japan,/keisuke-goto/profil/spieler/916623
-355816,Ko Itakura,4,2,Defender,Japan,/ko-itakura/profil/spieler/355816
-1144627,Kento Shiogai,26,4,Forward,Japan,/kento-shiogai/profil/spieler/1144627
-405385,Yukinari Sugawara,2,2,Defender,Japan,/yukinari-sugawara/profil/spieler/405385
-405389,Ayumu Seko,20,2,Defender,Japan,/ayumu-seko/profil/spieler/405389
-331560,Takehiro Tomiyasu,22,2,Defender,Japan,/takehiro-tomiyasu/profil/spieler/331560
-550580,Shuto Machino,6,4,Forward,Japan,/shuto-machino/profil/spieler/550580
-848856,Junnosuke Suzuki,25,2,Defender,Japan,/junnosuke-suzuki/profil/spieler/848856
-348791,Junya Ito,14,4,Forward,Japan,/junya-ito/profil/spieler/348791
-415521,Keisuke Osako,12,1,Goalkeeper,Japan,/keisuke-osako/profil/spieler/415521
-683271,Tomoki Hayakawa,23,1,Goalkeeper,Japan,/tomoki-hayakawa/profil/spieler/683271
-351567,Koki Ogawa,19,4,Forward,Japan,/koki-ogawa/profil/spieler/351567
-307870,Shogo Taniguchi,3,2,Defender,Japan,/shogo-taniguchi/profil/spieler/307870
-79522,Yuto Nagatomo,5,2,Defender,Japan,/yuto-nagatomo/profil/spieler/79522
 478573,Ryan Gravenberch,8,3,Midfield,Netherlands,/ryan-gravenberch/profil/spieler/478573
 434675,Cody Gakpo,11,4,Forward,Netherlands,/cody-gakpo/profil/spieler/434675
 557459,Micky van de Ven,15,2,Defender,Netherlands,/micky-van-de-ven/profil/spieler/557459
@@ -597,6 +545,58 @@ id,name,shirtNumber,positionId,position,club,link
 125714,Mark Flekken,23,1,Goalkeeper,Netherlands,/mark-flekken/profil/spieler/125714
 133179,Marten de Roon,3,3,Midfield,Netherlands,/marten-de-roon/profil/spieler/133179
 228645,Wout Weghorst,9,4,Forward,Netherlands,/wout-weghorst/profil/spieler/228645
+643574,Kaishu Sano,24,3,Midfield,Japan,/kaishu-sano/profil/spieler/643574
+668606,Yuito Suzuki,17,4,Forward,Japan,/yuito-suzuki/profil/spieler/668606
+432298,Zion Suzuki,1,1,Goalkeeper,Japan,/zion-suzuki/profil/spieler/432298
+405398,Takefusa Kubo,8,4,Forward,Japan,/takefusa-kubo/profil/spieler/405398
+353892,Hiroki Ito,21,2,Defender,Japan,/hiroki-ito/profil/spieler/353892
+589128,Ayase Ueda,18,4,Forward,Japan,/ayase-ueda/profil/spieler/589128
+358504,Ritsu Doan,10,4,Forward,Japan,/ritsu-doan/profil/spieler/358504
+489359,Ao Tanaka,7,3,Midfield,Japan,/ao-tanaka/profil/spieler/489359
+420931,Daizen Maeda,11,4,Forward,Japan,/daizen-maeda/profil/spieler/420931
+405397,Keito Nakamura,13,4,Forward,Japan,/keito-nakamura/profil/spieler/405397
+598791,Tsuyoshi Watanabe,16,2,Defender,Japan,/tsuyoshi-watanabe/profil/spieler/598791
+356141,Daichi Kamada,15,3,Midfield,Japan,/daichi-kamada/profil/spieler/356141
+916623,Keisuke Goto,9,4,Forward,Japan,/keisuke-goto/profil/spieler/916623
+355816,Ko Itakura,4,2,Defender,Japan,/ko-itakura/profil/spieler/355816
+1144627,Kento Shiogai,26,4,Forward,Japan,/kento-shiogai/profil/spieler/1144627
+405385,Yukinari Sugawara,2,2,Defender,Japan,/yukinari-sugawara/profil/spieler/405385
+405389,Ayumu Seko,20,2,Defender,Japan,/ayumu-seko/profil/spieler/405389
+331560,Takehiro Tomiyasu,22,2,Defender,Japan,/takehiro-tomiyasu/profil/spieler/331560
+550580,Shuto Machino,6,4,Forward,Japan,/shuto-machino/profil/spieler/550580
+848856,Junnosuke Suzuki,25,2,Defender,Japan,/junnosuke-suzuki/profil/spieler/848856
+348791,Junya Ito,14,4,Forward,Japan,/junya-ito/profil/spieler/348791
+415521,Keisuke Osako,12,1,Goalkeeper,Japan,/keisuke-osako/profil/spieler/415521
+683271,Tomoki Hayakawa,23,1,Goalkeeper,Japan,/tomoki-hayakawa/profil/spieler/683271
+351567,Koki Ogawa,19,4,Forward,Japan,/koki-ogawa/profil/spieler/351567
+307870,Shogo Taniguchi,3,2,Defender,Japan,/shogo-taniguchi/profil/spieler/307870
+79522,Yuto Nagatomo,5,2,Defender,Japan,/yuto-nagatomo/profil/spieler/79522
+349066,Alexander Isak,9,4,Forward,Sweden,/alexander-isak/profil/spieler/349066
+325443,Viktor Gyökeres,17,4,Forward,Sweden,/viktor-gyokeres/profil/spieler/325443
+866246,Lucas Bergvall,7,3,Midfield,Sweden,/lucas-bergvall/profil/spieler/866246
+667287,Yasin Ayari,18,3,Midfield,Sweden,/yasin-ayari/profil/spieler/667287
+583189,Anthony Elanga,11,4,Forward,Sweden,/anthony-elanga/profil/spieler/583189
+579287,Daniel Svensson,8,2,Defender,Sweden,/daniel-svensson/profil/spieler/579287
+503075,Isak Hien,4,2,Defender,Sweden,/isak-hien/profil/spieler/503075
+362108,Gabriel Gudmundsson,5,2,Defender,Sweden,/gabriel-gudmundsson/profil/spieler/362108
+475949,Benjamin Nygren,10,3,Midfield,Sweden,/benjamin-nygren/profil/spieler/475949
+273742,Viktor Johansson,12,1,Goalkeeper,Sweden,/viktor-johansson/profil/spieler/273742
+485395,Gustaf Lagerbielke,2,2,Defender,Sweden,/gustaf-lagerbielke/profil/spieler/485395
+342405,Mattias Svanberg,19,3,Midfield,Sweden,/mattias-svanberg/profil/spieler/342405
+715653,Besfort Zeneli,22,3,Midfield,Sweden,/besfort-zeneli/profil/spieler/715653
+184573,Victor Lindelöf,3,2,Defender,Sweden,/victor-lindelof/profil/spieler/184573
+292534,Eric Smith,20,2,Defender,Sweden,/eric-smith/profil/spieler/292534
+392179,Hjalmar Ekdal,14,2,Defender,Sweden,/hjalmar-ekdal/profil/spieler/392179
+687622,Elliot Stroud,24,3,Midfield,Sweden,/elliot-stroud/profil/spieler/687622
+258987,Carl Starfelt,15,2,Defender,Sweden,/carl-starfelt/profil/spieler/258987
+222855,Jesper Karlström,16,3,Midfield,Sweden,/jesper-karlstrom/profil/spieler/222855
+633454,Alexander Bernhardsson,21,4,Forward,Sweden,/alexander-bernhardsson/profil/spieler/633454
+549440,Jacob Widell Zetterström,1,1,Goalkeeper,Sweden,/jacob-widell-zetterstrom/profil/spieler/549440
+744853,Herman Johansson,6,3,Midfield,Sweden,/herman-johansson/profil/spieler/744853
+320440,Gustaf Nilsson,25,4,Forward,Sweden,/gustaf-nilsson/profil/spieler/320440
+731771,Taha Ali,26,4,Forward,Sweden,/taha-ali/profil/spieler/731771
+252345,Ken Sema,13,2,Defender,Sweden,/ken-sema/profil/spieler/252345
+75890,Kristoffer Nordfeldt,23,1,Goalkeeper,Sweden,/kristoffer-nordfeldt/profil/spieler/75890
 607224,Hannibal,10,3,Midfield,Tunisia,/hannibal/profil/spieler/607224
 496706,Montassar Talbi,3,2,Defender,Tunisia,/montassar-talbi/profil/spieler/496706
 810096,Ismaël Gharbi,11,4,Forward,Tunisia,/ismael-gharbi/profil/spieler/810096
@@ -623,32 +623,32 @@ id,name,shirtNumber,positionId,position,club,link
 450417,Dylan Bronn,6,2,Defender,Tunisia,/dylan-bronn/profil/spieler/450417
 295381,Sabri Ben Hessen,22,1,Goalkeeper,Tunisia,/sabri-ben-hessen/profil/spieler/295381
 578292,Omar Rekik,4,2,Defender,Tunisia,/omar-rekik/profil/spieler/578292
-108725,Chris Wood,9,4,Forward,New Zealand,/chris-wood/profil/spieler/108725
-1007720,Tyler Bindon,4,2,Defender,New Zealand,/tyler-bindon/profil/spieler/1007720
-345700,Joe Bell,6,3,Midfield,New Zealand,/joe-bell/profil/spieler/345700
-617018,Marko Stamenić,8,3,Midfield,New Zealand,/marko-stamenic/profil/spieler/617018
-485672,Elijah Just,11,4,Forward,New Zealand,/elijah-just/profil/spieler/485672
-400797,Callum McCowatt,20,3,Midfield,New Zealand,/callum-mccowatt/profil/spieler/400797
-469211,Liberato Cacace,13,2,Defender,New Zealand,/liberato-cacace/profil/spieler/469211
-724809,Finn Surman,16,2,Defender,New Zealand,/finn-surman/profil/spieler/724809
-617021,Ben Old,19,2,Defender,New Zealand,/ben-old/profil/spieler/617021
-207843,Max Crocombe,1,1,Goalkeeper,New Zealand,/max-crocombe/profil/spieler/207843
-677509,Jesse Randall,21,4,Forward,New Zealand,/jesse-randall/profil/spieler/677509
-203357,Ryan Thomas,23,3,Midfield,New Zealand,/ryan-thomas/profil/spieler/203357
-207061,Francis de Vries,3,2,Defender,New Zealand,/francis-de-vries/profil/spieler/207061
-256019,Alex Rufer,14,3,Midfield,New Zealand,/alex-rufer/profil/spieler/256019
-1109358,Lachlan Bayliss,25,3,Midfield,New Zealand,/lachlan-bayliss/profil/spieler/1109358
-350357,Sarpreet Singh,10,3,Midfield,New Zealand,/sarpreet-singh/profil/spieler/350357
-617009,Alex Paulsen,12,1,Goalkeeper,New Zealand,/alex-paulsen/profil/spieler/617009
-482204,Callan Elliot,24,2,Defender,New Zealand,/callan-elliot/profil/spieler/482204
-455425,Nando Pijnaker,15,2,Defender,New Zealand,/nando-pijnaker/profil/spieler/455425
-539502,Ben Waine,18,4,Forward,New Zealand,/ben-waine/profil/spieler/539502
-350347,Michael Woud,22,1,Goalkeeper,New Zealand,/michael-woud/profil/spieler/350347
-312317,Logan Rogerson,7,4,Forward,New Zealand,/logan-rogerson/profil/spieler/312317
-149901,Tim Payne,2,2,Defender,New Zealand,/tim-payne/profil/spieler/149901
-50200,Kosta Barbarouses,17,4,Forward,New Zealand,/kosta-barbarouses/profil/spieler/50200
-81723,Michael Boxall,5,2,Defender,New Zealand,/michael-boxall/profil/spieler/81723
-54381,Tommy Smith,26,2,Defender,New Zealand,/tommy-smith/profil/spieler/54381
+445939,Omar Marmoush,22,4,Forward,Egypt,/omar-marmoush/profil/spieler/445939
+148455,Mohamed Salah,10,4,Forward,Egypt,/mohamed-salah/profil/spieler/148455
+234189,Trezeguet,7,4,Forward,Egypt,/trezeguet/profil/spieler/234189
+604008,Emam Ashour,8,3,Midfield,Egypt,/emam-ashour/profil/spieler/604008
+734542,Marwan Ateya,19,3,Midfield,Egypt,/marwan-ateya/profil/spieler/734542
+620164,Haissem Hassan,12,4,Forward,Egypt,/haissem-hassan/profil/spieler/620164
+320722,Zizo,25,4,Forward,Egypt,/zizo/profil/spieler/320722
+479682,Mohanad Lasheen,17,3,Midfield,Egypt,/mohanad-lasheen/profil/spieler/479682
+677278,Ibrahim Adel,20,4,Forward,Egypt,/ibrahim-adel/profil/spieler/677278
+566025,Mohamed Abdelmonem,6,2,Defender,Egypt,/mohamed-abdelmonem/profil/spieler/566025
+737524,Hossam Abdelmaguid,4,2,Defender,Egypt,/hossam-abdelmaguid/profil/spieler/737524
+896616,Mostafa Ziko,11,4,Forward,Egypt,/mostafa-ziko/profil/spieler/896616
+340303,Hamdy Fathy,14,3,Midfield,Egypt,/hamdy-fathy/profil/spieler/340303
+343974,Mohamed Hany,3,2,Defender,Egypt,/mohamed-hany/profil/spieler/343974
+729390,Mahmoud Saber,21,3,Midfield,Egypt,/mahmoud-saber/profil/spieler/729390
+1259085,Hamza Abdelkarim,9,4,Forward,Egypt,/hamza-abdelkarim/profil/spieler/1259085
+661455,Oufa Shobeir,23,1,Goalkeeper,Egypt,/oufa-shobeir/profil/spieler/661455
+1307898,Mohamed Alaa,26,1,Goalkeeper,Egypt,/mohamed-alaa/profil/spieler/1307898
+479683,Nabil Dunga,18,3,Midfield,Egypt,/nabil-dunga/profil/spieler/479683
+465966,Ahmed Fatouh,13,2,Defender,Egypt,/ahmed-fatouh/profil/spieler/465966
+333004,Karim Hafez,15,2,Defender,Egypt,/karim-hafez/profil/spieler/333004
+172623,Ramy Rabia,5,2,Defender,Egypt,/ramy-rabia/profil/spieler/172623
+134573,Mohamed El Shenawy,1,1,Goalkeeper,Egypt,/mohamed-el-shenawy/profil/spieler/134573
+237425,Yasser Ibrahim,2,2,Defender,Egypt,/yasser-ibrahim/profil/spieler/237425
+1087789,Tarek Alaa,24,2,Defender,Egypt,/tarek-alaa/profil/spieler/1087789
+104951,El Mahdi Soliman,16,1,Goalkeeper,Egypt,/el-mahdi-soliman/profil/spieler/104951
 478192,Mehdi Ghayedi,10,4,Forward,Iran,/mehdi-ghayedi/profil/spieler/478192
 603149,Mohammad Mohebi,8,4,Forward,Iran,/mohammad-mohebi/profil/spieler/603149
 542380,Amirhossein Hosseinzadeh,18,4,Forward,Iran,/amirhossein-hosseinzadeh/profil/spieler/542380
@@ -701,110 +701,32 @@ id,name,shirtNumber,positionId,position,club,link
 236168,Brandon Mechele,4,2,Defender,Belgium,/brandon-mechele/profil/spieler/236168
 100986,Thomas Meunier,15,2,Defender,Belgium,/thomas-meunier/profil/spieler/100986
 35047,Axel Witsel,6,3,Midfield,Belgium,/axel-witsel/profil/spieler/35047
-445939,Omar Marmoush,22,4,Forward,Egypt,/omar-marmoush/profil/spieler/445939
-148455,Mohamed Salah,10,4,Forward,Egypt,/mohamed-salah/profil/spieler/148455
-234189,Trezeguet,7,4,Forward,Egypt,/trezeguet/profil/spieler/234189
-604008,Emam Ashour,8,3,Midfield,Egypt,/emam-ashour/profil/spieler/604008
-734542,Marwan Ateya,19,3,Midfield,Egypt,/marwan-ateya/profil/spieler/734542
-620164,Haissem Hassan,12,4,Forward,Egypt,/haissem-hassan/profil/spieler/620164
-320722,Zizo,25,4,Forward,Egypt,/zizo/profil/spieler/320722
-479682,Mohanad Lasheen,17,3,Midfield,Egypt,/mohanad-lasheen/profil/spieler/479682
-677278,Ibrahim Adel,20,4,Forward,Egypt,/ibrahim-adel/profil/spieler/677278
-566025,Mohamed Abdelmonem,6,2,Defender,Egypt,/mohamed-abdelmonem/profil/spieler/566025
-737524,Hossam Abdelmaguid,4,2,Defender,Egypt,/hossam-abdelmaguid/profil/spieler/737524
-896616,Mostafa Ziko,11,4,Forward,Egypt,/mostafa-ziko/profil/spieler/896616
-340303,Hamdy Fathy,14,3,Midfield,Egypt,/hamdy-fathy/profil/spieler/340303
-343974,Mohamed Hany,3,2,Defender,Egypt,/mohamed-hany/profil/spieler/343974
-729390,Mahmoud Saber,21,3,Midfield,Egypt,/mahmoud-saber/profil/spieler/729390
-1259085,Hamza Abdelkarim,9,4,Forward,Egypt,/hamza-abdelkarim/profil/spieler/1259085
-661455,Oufa Shobeir,23,1,Goalkeeper,Egypt,/oufa-shobeir/profil/spieler/661455
-1307898,Mohamed Alaa,26,1,Goalkeeper,Egypt,/mohamed-alaa/profil/spieler/1307898
-479683,Nabil Dunga,18,3,Midfield,Egypt,/nabil-dunga/profil/spieler/479683
-465966,Ahmed Fatouh,13,2,Defender,Egypt,/ahmed-fatouh/profil/spieler/465966
-333004,Karim Hafez,15,2,Defender,Egypt,/karim-hafez/profil/spieler/333004
-172623,Ramy Rabia,5,2,Defender,Egypt,/ramy-rabia/profil/spieler/172623
-134573,Mohamed El Shenawy,1,1,Goalkeeper,Egypt,/mohamed-el-shenawy/profil/spieler/134573
-237425,Yasser Ibrahim,2,2,Defender,Egypt,/yasser-ibrahim/profil/spieler/237425
-1087789,Tarek Alaa,24,2,Defender,Egypt,/tarek-alaa/profil/spieler/1087789
-104951,El Mahdi Soliman,16,1,Goalkeeper,Egypt,/el-mahdi-soliman/profil/spieler/104951
-369081,Federico Valverde,8,3,Midfield,Uruguay,/federico-valverde/profil/spieler/369081
-572675,Maxi Araújo,20,2,Defender,Uruguay,/maxi-araujo/profil/spieler/572675
-606752,Rodrigo Zalazar,26,3,Midfield,Uruguay,/rodrigo-zalazar/profil/spieler/606752
-476701,Manuel Ugarte,5,3,Midfield,Uruguay,/manuel-ugarte/profil/spieler/476701
-480267,Ronald Araujo,4,2,Defender,Uruguay,/ronald-araujo/profil/spieler/480267
-354362,Rodrigo Bentancur,6,3,Midfield,Uruguay,/rodrigo-bentancur/profil/spieler/354362
-546543,Darwin Núñez,9,4,Forward,Uruguay,/darwin-nunez/profil/spieler/546543
-376514,Mathías Olivera,16,2,Defender,Uruguay,/mathias-olivera/profil/spieler/376514
-248410,Giorgian de Arrascaeta,10,3,Midfield,Uruguay,/giorgian-de-arrascaeta/profil/spieler/248410
-496268,Joaquín Piquerez,22,2,Defender,Uruguay,/joaquin-piquerez/profil/spieler/496268
-438001,Santiago Bueno,24,2,Defender,Uruguay,/santiago-bueno/profil/spieler/438001
-250845,José María Giménez,2,2,Defender,Uruguay,/jose-maria-gimenez/profil/spieler/250845
-397458,Nicolás de la Cruz,7,3,Midfield,Uruguay,/nicolas-de-la-cruz/profil/spieler/397458
-457533,Agustín Canobbio,14,4,Forward,Uruguay,/agustin-canobbio/profil/spieler/457533
-465818,Brian Rodríguez,18,4,Forward,Uruguay,/brian-rodriguez/profil/spieler/465818
-707447,Emiliano Martínez,15,3,Midfield,Uruguay,/emiliano-martinez/profil/spieler/707447
-676318,Facundo Pellistri,11,4,Forward,Uruguay,/facundo-pellistri/profil/spieler/676318
-532389,Sebastián Cáceres,3,2,Defender,Uruguay,/sebastian-caceres/profil/spieler/532389
-578419,Federico Viñas,21,4,Forward,Uruguay,/federico-vinas/profil/spieler/578419
-446106,Juan Manuel Sanabria,25,2,Defender,Uruguay,/juan-manuel-sanabria/profil/spieler/446106
-439072,Matías Viña,17,2,Defender,Uruguay,/matias-vina/profil/spieler/439072
-189410,Rodrigo Aguirre,19,4,Forward,Uruguay,/rodrigo-aguirre/profil/spieler/189410
-320739,Santiago Mele,12,1,Goalkeeper,Uruguay,/santiago-mele/profil/spieler/320739
-264014,Sergio Rochet,1,1,Goalkeeper,Uruguay,/sergio-rochet/profil/spieler/264014
-188862,Guillermo Varela,13,2,Defender,Uruguay,/guillermo-varela/profil/spieler/188862
-58088,Fernando Muslera,23,1,Goalkeeper,Uruguay,/fernando-muslera/profil/spieler/58088
-631927,Saud Abdulhamid,12,2,Defender,Saudi Arabia,/saud-abdulhamid/profil/spieler/631927
-901181,Musab Al-Juwayr,7,3,Midfield,Saudi Arabia,/musab-al-juwayr/profil/spieler/901181
-631922,Firas Al-Buraikan,9,4,Forward,Saudi Arabia,/firas-al-buraikan/profil/spieler/631922
-631923,Khalid Al-Ghannam,17,4,Forward,Saudi Arabia,/khalid-al-ghannam/profil/spieler/631923
-1181852,Mohammed Abu Al-Shamat,26,2,Defender,Saudi Arabia,/mohammed-abu-al-shamat/profil/spieler/1181852
-509897,Hassan Tambakti,5,2,Defender,Saudi Arabia,/hassan-tambakti/profil/spieler/509897
-869509,Moteb Al-Harbi,24,2,Defender,Saudi Arabia,/moteb-al-harbi/profil/spieler/869509
-821377,Nawaf Boushal,13,2,Defender,Saudi Arabia,/nawaf-boushal/profil/spieler/821377
-672391,Ali Majrashi,2,2,Defender,Saudi Arabia,/ali-majrashi/profil/spieler/672391
-509894,Abdulelah Al-Amri,4,2,Defender,Saudi Arabia,/abdulelah-al-amri/profil/spieler/509894
-195332,Salem Al-Dawsari,10,4,Forward,Saudi Arabia,/salem-al-dawsari/profil/spieler/195332
-901334,Jehad Thakri,25,2,Defender,Saudi Arabia,/jehad-thakri/profil/spieler/901334
-735815,Ayman Yahya,8,2,Defender,Saudi Arabia,/ayman-yahya/profil/spieler/735815
-509911,Nasser Al-Dawsari,6,3,Midfield,Saudi Arabia,/nasser-al-dawsari/profil/spieler/509911
-308120,Mohamed Kanno,23,3,Midfield,Saudi Arabia,/mohamed-kanno/profil/spieler/308120
-901079,Ziyad Al-Johani,16,3,Midfield,Saudi Arabia,/ziyad-al-johani/profil/spieler/901079
-437903,Abdullah Al-Khaibari,15,3,Midfield,Saudi Arabia,/abdullah-al-khaibari/profil/spieler/437903
-264909,Ali Lajami,3,2,Defender,Saudi Arabia,/ali-lajami/profil/spieler/264909
-886183,Nawaf Al-Aqidi,1,1,Goalkeeper,Saudi Arabia,/nawaf-al-aqidi/profil/spieler/886183
-242267,Saleh Al-Shehri,11,4,Forward,Saudi Arabia,/saleh-al-shehri/profil/spieler/242267
-68626,Abdullah Al-Hamdan,19,4,Forward,Saudi Arabia,/abdullah-al-hamdan/profil/spieler/68626
-210349,Sultan Mandash,20,4,Forward,Saudi Arabia,/sultan-mandash/profil/spieler/210349
-443937,Alaa Hejji,18,3,Midfield,Saudi Arabia,/alaa-hejji/profil/spieler/443937
-262845,Mohammed Al-Owais,21,1,Goalkeeper,Saudi Arabia,/mohammed-al-owais/profil/spieler/262845
-260859,Hassan Kadesh,14,2,Defender,Saudi Arabia,/hassan-kadesh/profil/spieler/260859
-177956,Ahmed Al-Kassar,22,1,Goalkeeper,Saudi Arabia,/ahmed-al-kassar/profil/spieler/177956
-484988,Logan Costa,5,2,Defender,Cape Verde,/logan-costa/profil/spieler/484988
-1072017,Wagner Pina,24,2,Defender,Cape Verde,/wagner-pina/profil/spieler/1072017
-544586,Kevin Lenini,6,3,Midfield,Cape Verde,/kevin-lenini/profil/spieler/544586
-611855,Sidny Lopes Cabral,13,2,Defender,Cape Verde,/sidny-lopes-cabral/profil/spieler/611855
-791528,Telmo Arcanjo,18,4,Forward,Cape Verde,/telmo-arcanjo/profil/spieler/791528
-840836,Hélio Varela,26,4,Forward,Cape Verde,/helio-varela/profil/spieler/840836
-432852,Deroy Duarte,14,3,Midfield,Cape Verde,/deroy-duarte/profil/spieler/432852
-203517,Steven Moreira,22,2,Defender,Cape Verde,/steven-moreira/profil/spieler/203517
-820252,Gilson Benchimol,9,4,Forward,Cape Verde,/gilson-benchimol/profil/spieler/820252
-448466,Jovane Cabral,7,4,Forward,Cape Verde,/jovane-cabral/profil/spieler/448466
-258513,Laros Duarte,15,3,Midfield,Cape Verde,/laros-duarte/profil/spieler/258513
-531450,Willy Semedo,17,4,Forward,Cape Verde,/willy-semedo/profil/spieler/531450
-532096,CJ dos Santos,23,1,Goalkeeper,Cape Verde,/cj-dos-santos/profil/spieler/532096
-349570,Diney Borges,3,2,Defender,Cape Verde,/diney-borges/profil/spieler/349570
-623965,João Paulo,8,3,Midfield,Cape Verde,/joao-paulo/profil/spieler/623965
-676411,Dailon Livramento,19,4,Forward,Cape Verde,/dailon-livramento/profil/spieler/676411
-272930,Jamiro Monteiro,10,3,Midfield,Cape Verde,/jamiro-monteiro/profil/spieler/272930
-306166,Nuno da Costa,21,4,Forward,Cape Verde,/nuno-da-costa/profil/spieler/306166
-662119,Kelvin Pires,25,2,Defender,Cape Verde,/kelvin-pires/profil/spieler/662119
-398048,Márcio Rosa,12,1,Goalkeeper,Cape Verde,/marcio-rosa/profil/spieler/398048
-170895,Garry Rodrigues,11,4,Forward,Cape Verde,/garry-rodrigues/profil/spieler/170895
-620307,Yannick Semedo,16,3,Midfield,Cape Verde,/yannick-semedo/profil/spieler/620307
-166158,Roberto Lopes,4,2,Defender,Cape Verde,/roberto-lopes/profil/spieler/166158
-111627,Ryan Mendes,20,4,Forward,Cape Verde,/ryan-mendes/profil/spieler/111627
-242277,Vozinha,1,1,Goalkeeper,Cape Verde,/vozinha/profil/spieler/242277
-80486,Stopira,2,2,Defender,Cape Verde,/stopira/profil/spieler/80486
+108725,Chris Wood,9,4,Forward,New Zealand,/chris-wood/profil/spieler/108725
+1007720,Tyler Bindon,4,2,Defender,New Zealand,/tyler-bindon/profil/spieler/1007720
+345700,Joe Bell,6,3,Midfield,New Zealand,/joe-bell/profil/spieler/345700
+617018,Marko Stamenić,8,3,Midfield,New Zealand,/marko-stamenic/profil/spieler/617018
+485672,Elijah Just,11,4,Forward,New Zealand,/elijah-just/profil/spieler/485672
+400797,Callum McCowatt,20,3,Midfield,New Zealand,/callum-mccowatt/profil/spieler/400797
+469211,Liberato Cacace,13,2,Defender,New Zealand,/liberato-cacace/profil/spieler/469211
+724809,Finn Surman,16,2,Defender,New Zealand,/finn-surman/profil/spieler/724809
+617021,Ben Old,19,2,Defender,New Zealand,/ben-old/profil/spieler/617021
+207843,Max Crocombe,1,1,Goalkeeper,New Zealand,/max-crocombe/profil/spieler/207843
+677509,Jesse Randall,21,4,Forward,New Zealand,/jesse-randall/profil/spieler/677509
+203357,Ryan Thomas,23,3,Midfield,New Zealand,/ryan-thomas/profil/spieler/203357
+207061,Francis de Vries,3,2,Defender,New Zealand,/francis-de-vries/profil/spieler/207061
+256019,Alex Rufer,14,3,Midfield,New Zealand,/alex-rufer/profil/spieler/256019
+1109358,Lachlan Bayliss,25,3,Midfield,New Zealand,/lachlan-bayliss/profil/spieler/1109358
+350357,Sarpreet Singh,10,3,Midfield,New Zealand,/sarpreet-singh/profil/spieler/350357
+617009,Alex Paulsen,12,1,Goalkeeper,New Zealand,/alex-paulsen/profil/spieler/617009
+482204,Callan Elliot,24,2,Defender,New Zealand,/callan-elliot/profil/spieler/482204
+455425,Nando Pijnaker,15,2,Defender,New Zealand,/nando-pijnaker/profil/spieler/455425
+539502,Ben Waine,18,4,Forward,New Zealand,/ben-waine/profil/spieler/539502
+350347,Michael Woud,22,1,Goalkeeper,New Zealand,/michael-woud/profil/spieler/350347
+312317,Logan Rogerson,7,4,Forward,New Zealand,/logan-rogerson/profil/spieler/312317
+149901,Tim Payne,2,2,Defender,New Zealand,/tim-payne/profil/spieler/149901
+50200,Kosta Barbarouses,17,4,Forward,New Zealand,/kosta-barbarouses/profil/spieler/50200
+81723,Michael Boxall,5,2,Defender,New Zealand,/michael-boxall/profil/spieler/81723
+54381,Tommy Smith,26,2,Defender,New Zealand,/tommy-smith/profil/spieler/54381
 937958,Lamine Yamal,19,4,Forward,Spain,/lamine-yamal/profil/spieler/937958
 683840,Pedri,20,3,Midfield,Spain,/pedri/profil/spieler/683840
 962110,Pau Cubarsí,22,2,Defender,Spain,/pau-cubarsi/profil/spieler/962110
@@ -831,6 +753,84 @@ id,name,shirtNumber,positionId,position,club,link
 282411,Marcos Llorente,5,2,Defender,Spain,/marcos-llorente/profil/spieler/282411
 176553,Aymeric Laporte,14,2,Defender,Spain,/aymeric-laporte/profil/spieler/176553
 278359,Borja Iglesias,26,4,Forward,Spain,/borja-iglesias/profil/spieler/278359
+369081,Federico Valverde,8,3,Midfield,Uruguay,/federico-valverde/profil/spieler/369081
+572675,Maxi Araújo,20,2,Defender,Uruguay,/maxi-araujo/profil/spieler/572675
+606752,Rodrigo Zalazar,26,3,Midfield,Uruguay,/rodrigo-zalazar/profil/spieler/606752
+476701,Manuel Ugarte,5,3,Midfield,Uruguay,/manuel-ugarte/profil/spieler/476701
+480267,Ronald Araujo,4,2,Defender,Uruguay,/ronald-araujo/profil/spieler/480267
+354362,Rodrigo Bentancur,6,3,Midfield,Uruguay,/rodrigo-bentancur/profil/spieler/354362
+546543,Darwin Núñez,9,4,Forward,Uruguay,/darwin-nunez/profil/spieler/546543
+376514,Mathías Olivera,16,2,Defender,Uruguay,/mathias-olivera/profil/spieler/376514
+248410,Giorgian de Arrascaeta,10,3,Midfield,Uruguay,/giorgian-de-arrascaeta/profil/spieler/248410
+496268,Joaquín Piquerez,22,2,Defender,Uruguay,/joaquin-piquerez/profil/spieler/496268
+438001,Santiago Bueno,24,2,Defender,Uruguay,/santiago-bueno/profil/spieler/438001
+250845,José María Giménez,2,2,Defender,Uruguay,/jose-maria-gimenez/profil/spieler/250845
+397458,Nicolás de la Cruz,7,3,Midfield,Uruguay,/nicolas-de-la-cruz/profil/spieler/397458
+457533,Agustín Canobbio,14,4,Forward,Uruguay,/agustin-canobbio/profil/spieler/457533
+465818,Brian Rodríguez,18,4,Forward,Uruguay,/brian-rodriguez/profil/spieler/465818
+707447,Emiliano Martínez,15,3,Midfield,Uruguay,/emiliano-martinez/profil/spieler/707447
+676318,Facundo Pellistri,11,4,Forward,Uruguay,/facundo-pellistri/profil/spieler/676318
+532389,Sebastián Cáceres,3,2,Defender,Uruguay,/sebastian-caceres/profil/spieler/532389
+578419,Federico Viñas,21,4,Forward,Uruguay,/federico-vinas/profil/spieler/578419
+446106,Juan Manuel Sanabria,25,2,Defender,Uruguay,/juan-manuel-sanabria/profil/spieler/446106
+439072,Matías Viña,17,2,Defender,Uruguay,/matias-vina/profil/spieler/439072
+189410,Rodrigo Aguirre,19,4,Forward,Uruguay,/rodrigo-aguirre/profil/spieler/189410
+320739,Santiago Mele,12,1,Goalkeeper,Uruguay,/santiago-mele/profil/spieler/320739
+264014,Sergio Rochet,1,1,Goalkeeper,Uruguay,/sergio-rochet/profil/spieler/264014
+188862,Guillermo Varela,13,2,Defender,Uruguay,/guillermo-varela/profil/spieler/188862
+58088,Fernando Muslera,23,1,Goalkeeper,Uruguay,/fernando-muslera/profil/spieler/58088
+484988,Logan Costa,5,2,Defender,Cape Verde,/logan-costa/profil/spieler/484988
+1072017,Wagner Pina,24,2,Defender,Cape Verde,/wagner-pina/profil/spieler/1072017
+544586,Kevin Lenini,6,3,Midfield,Cape Verde,/kevin-lenini/profil/spieler/544586
+611855,Sidny Lopes Cabral,13,2,Defender,Cape Verde,/sidny-lopes-cabral/profil/spieler/611855
+791528,Telmo Arcanjo,18,4,Forward,Cape Verde,/telmo-arcanjo/profil/spieler/791528
+840836,Hélio Varela,26,4,Forward,Cape Verde,/helio-varela/profil/spieler/840836
+432852,Deroy Duarte,14,3,Midfield,Cape Verde,/deroy-duarte/profil/spieler/432852
+203517,Steven Moreira,22,2,Defender,Cape Verde,/steven-moreira/profil/spieler/203517
+820252,Gilson Benchimol,9,4,Forward,Cape Verde,/gilson-benchimol/profil/spieler/820252
+448466,Jovane Cabral,7,4,Forward,Cape Verde,/jovane-cabral/profil/spieler/448466
+258513,Laros Duarte,15,3,Midfield,Cape Verde,/laros-duarte/profil/spieler/258513
+531450,Willy Semedo,17,4,Forward,Cape Verde,/willy-semedo/profil/spieler/531450
+532096,CJ dos Santos,23,1,Goalkeeper,Cape Verde,/cj-dos-santos/profil/spieler/532096
+349570,Diney Borges,3,2,Defender,Cape Verde,/diney-borges/profil/spieler/349570
+623965,João Paulo,8,3,Midfield,Cape Verde,/joao-paulo/profil/spieler/623965
+676411,Dailon Livramento,19,4,Forward,Cape Verde,/dailon-livramento/profil/spieler/676411
+272930,Jamiro Monteiro,10,3,Midfield,Cape Verde,/jamiro-monteiro/profil/spieler/272930
+306166,Nuno da Costa,21,4,Forward,Cape Verde,/nuno-da-costa/profil/spieler/306166
+662119,Kelvin Pires,25,2,Defender,Cape Verde,/kelvin-pires/profil/spieler/662119
+398048,Márcio Rosa,12,1,Goalkeeper,Cape Verde,/marcio-rosa/profil/spieler/398048
+170895,Garry Rodrigues,11,4,Forward,Cape Verde,/garry-rodrigues/profil/spieler/170895
+620307,Yannick Semedo,16,3,Midfield,Cape Verde,/yannick-semedo/profil/spieler/620307
+166158,Roberto Lopes,4,2,Defender,Cape Verde,/roberto-lopes/profil/spieler/166158
+111627,Ryan Mendes,20,4,Forward,Cape Verde,/ryan-mendes/profil/spieler/111627
+242277,Vozinha,1,1,Goalkeeper,Cape Verde,/vozinha/profil/spieler/242277
+80486,Stopira,2,2,Defender,Cape Verde,/stopira/profil/spieler/80486
+631927,Saud Abdulhamid,12,2,Defender,Saudi Arabia,/saud-abdulhamid/profil/spieler/631927
+901181,Musab Al-Juwayr,7,3,Midfield,Saudi Arabia,/musab-al-juwayr/profil/spieler/901181
+631922,Firas Al-Buraikan,9,4,Forward,Saudi Arabia,/firas-al-buraikan/profil/spieler/631922
+631923,Khalid Al-Ghannam,17,4,Forward,Saudi Arabia,/khalid-al-ghannam/profil/spieler/631923
+1181852,Mohammed Abu Al-Shamat,26,2,Defender,Saudi Arabia,/mohammed-abu-al-shamat/profil/spieler/1181852
+509897,Hassan Tambakti,5,2,Defender,Saudi Arabia,/hassan-tambakti/profil/spieler/509897
+869509,Moteb Al-Harbi,24,2,Defender,Saudi Arabia,/moteb-al-harbi/profil/spieler/869509
+821377,Nawaf Boushal,13,2,Defender,Saudi Arabia,/nawaf-boushal/profil/spieler/821377
+672391,Ali Majrashi,2,2,Defender,Saudi Arabia,/ali-majrashi/profil/spieler/672391
+509894,Abdulelah Al-Amri,4,2,Defender,Saudi Arabia,/abdulelah-al-amri/profil/spieler/509894
+195332,Salem Al-Dawsari,10,4,Forward,Saudi Arabia,/salem-al-dawsari/profil/spieler/195332
+901334,Jehad Thakri,25,2,Defender,Saudi Arabia,/jehad-thakri/profil/spieler/901334
+735815,Ayman Yahya,8,2,Defender,Saudi Arabia,/ayman-yahya/profil/spieler/735815
+509911,Nasser Al-Dawsari,6,3,Midfield,Saudi Arabia,/nasser-al-dawsari/profil/spieler/509911
+308120,Mohamed Kanno,23,3,Midfield,Saudi Arabia,/mohamed-kanno/profil/spieler/308120
+901079,Ziyad Al-Johani,16,3,Midfield,Saudi Arabia,/ziyad-al-johani/profil/spieler/901079
+437903,Abdullah Al-Khaibari,15,3,Midfield,Saudi Arabia,/abdullah-al-khaibari/profil/spieler/437903
+264909,Ali Lajami,3,2,Defender,Saudi Arabia,/ali-lajami/profil/spieler/264909
+886183,Nawaf Al-Aqidi,1,1,Goalkeeper,Saudi Arabia,/nawaf-al-aqidi/profil/spieler/886183
+242267,Saleh Al-Shehri,11,4,Forward,Saudi Arabia,/saleh-al-shehri/profil/spieler/242267
+68626,Abdullah Al-Hamdan,19,4,Forward,Saudi Arabia,/abdullah-al-hamdan/profil/spieler/68626
+210349,Sultan Mandash,20,4,Forward,Saudi Arabia,/sultan-mandash/profil/spieler/210349
+443937,Alaa Hejji,18,3,Midfield,Saudi Arabia,/alaa-hejji/profil/spieler/443937
+262845,Mohammed Al-Owais,21,1,Goalkeeper,Saudi Arabia,/mohammed-al-owais/profil/spieler/262845
+260859,Hassan Kadesh,14,2,Defender,Saudi Arabia,/hassan-kadesh/profil/spieler/260859
+177956,Ahmed Al-Kassar,22,1,Goalkeeper,Saudi Arabia,/ahmed-al-kassar/profil/spieler/177956
 418560,Erling Haaland,9,4,Forward,Norway,/erling-haaland/profil/spieler/418560
 316264,Martin Ødegaard,10,3,Midfield,Norway,/martin-odegaard/profil/spieler/316264
 429983,Jørgen Strand Larsen,11,4,Forward,Norway,/jorgen-strand-larsen/profil/spieler/429983
@@ -944,7 +944,7 @@ id,name,shirtNumber,positionId,position,club,link
 849410,Valentín Barco,8,3,Midfield,Argentina,/valentin-barco/profil/spieler/849410
 742201,Giuliano Simeone,17,4,Forward,Argentina,/giuliano-simeone/profil/spieler/742201
 480762,Lisandro Martínez,6,2,Defender,Argentina,/lisandro-martinez/profil/spieler/480762
-844797,José Manuel López,21,4,Forward,Argentina,/jose-manuel-lopez/profil/spieler/844797
+844797,Flaco López,21,4,Forward,Argentina,/flaco-lopez/profil/spieler/844797
 401578,Exequiel Palacios,14,3,Midfield,Argentina,/exequiel-palacios/profil/spieler/401578
 469781,Marcos Senesi,2,2,Defender,Argentina,/marcos-senesi/profil/spieler/469781
 486031,Nico González,15,4,Forward,Argentina,/nico-gonzalez/profil/spieler/486031
@@ -1039,58 +1039,6 @@ id,name,shirtNumber,positionId,position,club,link
 949929,Achref Abada,3,2,Defender,Algeria,/achref-abada/profil/spieler/949929
 437982,Oussama Benbout,16,1,Goalkeeper,Algeria,/oussama-benbout/profil/spieler/437982
 534398,Melvin Mastil,1,1,Goalkeeper,Algeria,/melvin-mastil/profil/spieler/534398
-670681,João Neves,15,3,Midfield,Portugal,/joao-neves/profil/spieler/670681
-487469,Vitinha,23,3,Midfield,Portugal,/vitinha/profil/spieler/487469
-616341,Nuno Mendes,25,2,Defender,Portugal,/nuno-mendes/profil/spieler/616341
-487465,Pedro Neto,18,4,Forward,Portugal,/pedro-neto/profil/spieler/487465
-258004,Rúben Dias,3,2,Defender,Portugal,/ruben-dias/profil/spieler/258004
-601883,Matheus Nunes,6,2,Defender,Portugal,/matheus-nunes/profil/spieler/601883
-357164,Rafael Leão,17,4,Forward,Portugal,/rafael-leao/profil/spieler/357164
-549006,Gonçalo Inácio,14,2,Defender,Portugal,/goncalo-inacio/profil/spieler/549006
-357153,Diogo Costa,1,1,Goalkeeper,Portugal,/diogo-costa/profil/spieler/357153
-412669,Francisco Trincão,16,3,Midfield,Portugal,/francisco-trincao/profil/spieler/412669
-240306,Bruno Fernandes,8,3,Midfield,Portugal,/bruno-fernandes/profil/spieler/240306
-550550,Gonçalo Ramos,9,4,Forward,Portugal,/goncalo-ramos/profil/spieler/550550
-504087,Tomás Araújo,4,2,Defender,Portugal,/tomas-araujo/profil/spieler/504087
-487474,Francisco Conceição,26,4,Forward,Portugal,/francisco-conceicao/profil/spieler/487474
-357147,Diogo Dalot,5,2,Defender,Portugal,/diogo-dalot/profil/spieler/357147
-462250,João Félix,11,4,Forward,Portugal,/joao-felix/profil/spieler/462250
-805714,Renato Veiga,13,2,Defender,Portugal,/renato-veiga/profil/spieler/805714
-225161,Rúben Neves,21,3,Midfield,Portugal,/ruben-neves/profil/spieler/225161
-241641,Bernardo Silva,10,3,Midfield,Portugal,/bernardo-silva/profil/spieler/241641
-657430,Samú Costa,24,3,Midfield,Portugal,/samu-costa/profil/spieler/657430
-8198,Cristiano Ronaldo,7,4,Forward,Portugal,/cristiano-ronaldo/profil/spieler/8198
-182712,João Cancelo,20,2,Defender,Portugal,/joao-cancelo/profil/spieler/182712
-234811,Rui Silva,22,1,Goalkeeper,Portugal,/rui-silva/profil/spieler/234811
-231572,Nélson Semedo,2,2,Defender,Portugal,/nelson-semedo/profil/spieler/231572
-225122,Gonçalo Guedes,19,4,Forward,Portugal,/goncalo-guedes/profil/spieler/225122
-249994,José Sá,12,1,Goalkeeper,Portugal,/jose-sa/profil/spieler/249994
-727089,Noah Sadiki,14,3,Midfield,Democratic Republic of the Congo,/noah-sadiki/profil/spieler/727089
-388165,Yoane Wissa,20,4,Forward,Democratic Republic of the Congo,/yoane-wissa/profil/spieler/388165
-1016015,Ngal'ayel Mukau,6,3,Midfield,Democratic Republic of the Congo,/ngalayel-mukau/profil/spieler/1016015
-477758,Aaron Wan-Bissaka,2,2,Defender,Democratic Republic of the Congo,/aaron-wan-bissaka/profil/spieler/477758
-344869,Simon Banza,23,4,Forward,Democratic Republic of the Congo,/simon-banza/profil/spieler/344869
-680218,Matthieu Epolo,21,1,Goalkeeper,Democratic Republic of the Congo,/matthieu-epolo/profil/spieler/680218
-342046,Axel Tuanzebe,4,2,Defender,Democratic Republic of the Congo,/axel-tuanzebe/profil/spieler/342046
-486477,Edo Kayembe,25,3,Midfield,Democratic Republic of the Congo,/edo-kayembe/profil/spieler/486477
-280701,Théo Bongonda,10,4,Forward,Democratic Republic of the Congo,/theo-bongonda/profil/spieler/280701
-243879,Charles Pickel,18,3,Midfield,Democratic Republic of the Congo,/charles-pickel/profil/spieler/243879
-679709,Steve Kapuadi,3,2,Defender,Democratic Republic of the Congo,/steve-kapuadi/profil/spieler/679709
-203348,Chancel Mbemba,22,2,Defender,Democratic Republic of the Congo,/chancel-mbemba/profil/spieler/203348
-700565,Brian Cipenga,9,4,Forward,Democratic Republic of the Congo,/brian-cipenga/profil/spieler/700565
-557614,Nathanaël Mbuku,7,4,Forward,Democratic Republic of the Congo,/nathanael-mbuku/profil/spieler/557614
-181380,Arthur Masuaku,26,2,Defender,Democratic Republic of the Congo,/arthur-masuaku/profil/spieler/181380
-129586,Joris Kayembe,12,2,Defender,Democratic Republic of the Congo,/joris-kayembe/profil/spieler/129586
-727157,Fiston Mayele,19,4,Forward,Democratic Republic of the Congo,/fiston-mayele/profil/spieler/727157
-423678,Meschack Elia,13,3,Midfield,Democratic Republic of the Congo,/meschack-elia/profil/spieler/423678
-353403,Samuel Moutoussamy,8,3,Midfield,Democratic Republic of the Congo,/samuel-moutoussamy/profil/spieler/353403
-127048,Cédric Bakambu,17,4,Forward,Democratic Republic of the Congo,/cedric-bakambu/profil/spieler/127048
-395685,Gédéon Kalulu,24,2,Defender,Democratic Republic of the Congo,/gedeon-kalulu/profil/spieler/395685
-541420,Timothy Fayulu,16,1,Goalkeeper,Democratic Republic of the Congo,/timothy-fayulu/profil/spieler/541420
-289432,Dylan Batubinsika,5,2,Defender,Democratic Republic of the Congo,/dylan-batubinsika/profil/spieler/289432
-164915,Lionel Mpasi-Nzau,1,1,Goalkeeper,Democratic Republic of the Congo,/lionel-mpasi-nzau/profil/spieler/164915
-74297,Gaël Kakuta,11,3,Midfield,Democratic Republic of the Congo,/gael-kakuta/profil/spieler/74297
-243633,Aaron Tshibola,15,3,Midfield,Democratic Republic of the Congo,/aaron-tshibola/profil/spieler/243633
 480692,Luis Díaz,7,4,Forward,Colombia,/luis-diaz/profil/spieler/480692
 424784,Luis Suárez,25,4,Forward,Colombia,/luis-suarez/profil/spieler/424784
 735573,Richard Ríos,6,3,Midfield,Colombia,/richard-rios/profil/spieler/735573
@@ -1117,6 +1065,58 @@ id,name,shirtNumber,positionId,position,club,link
 120443,Santiago Arias,4,2,Defender,Colombia,/santiago-arias/profil/spieler/120443
 74113,Camilo Vargas,12,1,Goalkeeper,Colombia,/camilo-vargas/profil/spieler/74113
 73396,David Ospina,1,1,Goalkeeper,Colombia,/david-ospina/profil/spieler/73396
+727089,Noah Sadiki,14,3,Midfield,Democratic Republic of the Congo,/noah-sadiki/profil/spieler/727089
+388165,Yoane Wissa,20,4,Forward,Democratic Republic of the Congo,/yoane-wissa/profil/spieler/388165
+1016015,Ngal'ayel Mukau,6,3,Midfield,Democratic Republic of the Congo,/ngalayel-mukau/profil/spieler/1016015
+477758,Aaron Wan-Bissaka,2,2,Defender,Democratic Republic of the Congo,/aaron-wan-bissaka/profil/spieler/477758
+344869,Simon Banza,23,4,Forward,Democratic Republic of the Congo,/simon-banza/profil/spieler/344869
+680218,Matthieu Epolo,21,1,Goalkeeper,Democratic Republic of the Congo,/matthieu-epolo/profil/spieler/680218
+342046,Axel Tuanzebe,4,2,Defender,Democratic Republic of the Congo,/axel-tuanzebe/profil/spieler/342046
+486477,Edo Kayembe,25,3,Midfield,Democratic Republic of the Congo,/edo-kayembe/profil/spieler/486477
+280701,Théo Bongonda,10,4,Forward,Democratic Republic of the Congo,/theo-bongonda/profil/spieler/280701
+243879,Charles Pickel,18,3,Midfield,Democratic Republic of the Congo,/charles-pickel/profil/spieler/243879
+679709,Steve Kapuadi,3,2,Defender,Democratic Republic of the Congo,/steve-kapuadi/profil/spieler/679709
+203348,Chancel Mbemba,22,2,Defender,Democratic Republic of the Congo,/chancel-mbemba/profil/spieler/203348
+700565,Brian Cipenga,9,4,Forward,Democratic Republic of the Congo,/brian-cipenga/profil/spieler/700565
+557614,Nathanaël Mbuku,7,4,Forward,Democratic Republic of the Congo,/nathanael-mbuku/profil/spieler/557614
+181380,Arthur Masuaku,26,2,Defender,Democratic Republic of the Congo,/arthur-masuaku/profil/spieler/181380
+129586,Joris Kayembe,12,2,Defender,Democratic Republic of the Congo,/joris-kayembe/profil/spieler/129586
+727157,Fiston Mayele,19,4,Forward,Democratic Republic of the Congo,/fiston-mayele/profil/spieler/727157
+423678,Meschack Elia,13,4,Forward,Democratic Republic of the Congo,/meschack-elia/profil/spieler/423678
+353403,Samuel Moutoussamy,8,3,Midfield,Democratic Republic of the Congo,/samuel-moutoussamy/profil/spieler/353403
+127048,Cédric Bakambu,17,4,Forward,Democratic Republic of the Congo,/cedric-bakambu/profil/spieler/127048
+395685,Gédéon Kalulu,24,2,Defender,Democratic Republic of the Congo,/gedeon-kalulu/profil/spieler/395685
+541420,Timothy Fayulu,16,1,Goalkeeper,Democratic Republic of the Congo,/timothy-fayulu/profil/spieler/541420
+289432,Dylan Batubinsika,5,2,Defender,Democratic Republic of the Congo,/dylan-batubinsika/profil/spieler/289432
+164915,Lionel Mpasi-Nzau,1,1,Goalkeeper,Democratic Republic of the Congo,/lionel-mpasi-nzau/profil/spieler/164915
+74297,Gaël Kakuta,11,3,Midfield,Democratic Republic of the Congo,/gael-kakuta/profil/spieler/74297
+243633,Aaron Tshibola,15,3,Midfield,Democratic Republic of the Congo,/aaron-tshibola/profil/spieler/243633
+670681,João Neves,15,3,Midfield,Portugal,/joao-neves/profil/spieler/670681
+487469,Vitinha,23,3,Midfield,Portugal,/vitinha/profil/spieler/487469
+616341,Nuno Mendes,25,2,Defender,Portugal,/nuno-mendes/profil/spieler/616341
+487465,Pedro Neto,18,4,Forward,Portugal,/pedro-neto/profil/spieler/487465
+258004,Rúben Dias,3,2,Defender,Portugal,/ruben-dias/profil/spieler/258004
+601883,Matheus Nunes,6,2,Defender,Portugal,/matheus-nunes/profil/spieler/601883
+357164,Rafael Leão,17,4,Forward,Portugal,/rafael-leao/profil/spieler/357164
+549006,Gonçalo Inácio,14,2,Defender,Portugal,/goncalo-inacio/profil/spieler/549006
+357153,Diogo Costa,1,1,Goalkeeper,Portugal,/diogo-costa/profil/spieler/357153
+412669,Francisco Trincão,16,3,Midfield,Portugal,/francisco-trincao/profil/spieler/412669
+240306,Bruno Fernandes,8,3,Midfield,Portugal,/bruno-fernandes/profil/spieler/240306
+550550,Gonçalo Ramos,9,4,Forward,Portugal,/goncalo-ramos/profil/spieler/550550
+504087,Tomás Araújo,4,2,Defender,Portugal,/tomas-araujo/profil/spieler/504087
+487474,Francisco Conceição,26,4,Forward,Portugal,/francisco-conceicao/profil/spieler/487474
+357147,Diogo Dalot,5,2,Defender,Portugal,/diogo-dalot/profil/spieler/357147
+462250,João Félix,11,4,Forward,Portugal,/joao-felix/profil/spieler/462250
+805714,Renato Veiga,13,2,Defender,Portugal,/renato-veiga/profil/spieler/805714
+225161,Rúben Neves,21,3,Midfield,Portugal,/ruben-neves/profil/spieler/225161
+241641,Bernardo Silva,10,3,Midfield,Portugal,/bernardo-silva/profil/spieler/241641
+657430,Samú Costa,24,3,Midfield,Portugal,/samu-costa/profil/spieler/657430
+8198,Cristiano Ronaldo,7,4,Forward,Portugal,/cristiano-ronaldo/profil/spieler/8198
+182712,João Cancelo,20,2,Defender,Portugal,/joao-cancelo/profil/spieler/182712
+234811,Rui Silva,22,1,Goalkeeper,Portugal,/rui-silva/profil/spieler/234811
+231572,Nélson Semedo,2,2,Defender,Portugal,/nelson-semedo/profil/spieler/231572
+225122,Gonçalo Guedes,19,4,Forward,Portugal,/goncalo-guedes/profil/spieler/225122
+249994,José Sá,12,1,Goalkeeper,Portugal,/jose-sa/profil/spieler/249994
 763079,Abdukodir Khusanov,2,2,Defender,Uzbekistan,/abdukodir-khusanov/profil/spieler/763079
 754037,Abbosbek Fayzullaev,22,4,Forward,Uzbekistan,/abbosbek-fayzullaev/profil/spieler/754037
 358166,Eldor Shomurodov,14,4,Forward,Uzbekistan,/eldor-shomurodov/profil/spieler/358166
@@ -1129,9 +1129,9 @@ id,name,shirtNumber,positionId,position,club,link
 185372,Igor Sergeev,21,4,Forward,Uzbekistan,/igor-sergeev/profil/spieler/185372
 608537,Sherzod Nasrullaev,13,2,Defender,Uzbekistan,/sherzod-nasrullaev/profil/spieler/608537
 288915,Odildzhon Khamrobekov,9,3,Midfield,Uzbekistan,/odildzhon-khamrobekov/profil/spieler/288915
-274536,Jaloliddin Masharipov,10,4,Forward,Uzbekistan,/jaloliddin-masharipov/profil/spieler/274536
 260857,Jamshid Iskanderov,8,3,Midfield,Uzbekistan,/jamshid-iskanderov/profil/spieler/260857
 294502,Dostonbek Khamdamov,17,4,Forward,Uzbekistan,/dostonbek-khamdamov/profil/spieler/294502
+754040,Ruslanbek Jiyanov,10,4,Forward,Uzbekistan,/ruslanbek-jiyanov/profil/spieler/754040
 288883,Rustam Ashurmatov,5,2,Defender,Uzbekistan,/rustam-ashurmatov/profil/spieler/288883
 989069,Jakhongir Urozov,26,2,Defender,Uzbekistan,/jakhongir-urozov/profil/spieler/989069
 312690,Botirali Ergashev,16,1,Goalkeeper,Uzbekistan,/botirali-ergashev/profil/spieler/312690
@@ -1143,32 +1143,6 @@ id,name,shirtNumber,positionId,position,club,link
 989068,Sherzod Esanov,23,3,Midfield,Uzbekistan,/sherzod-esanov/profil/spieler/989068
 1106187,Bekhruz Karimov,24,2,Defender,Uzbekistan,/bekhruz-karimov/profil/spieler/1106187
 212499,Farrukh Sayfiev,4,2,Defender,Uzbekistan,/farrukh-sayfiev/profil/spieler/212499
-475959,Josko Gvardiol,4,2,Defender,Croatia,/josko-gvardiol/profil/spieler/475959
-892160,Luka Vuskovic,22,2,Defender,Croatia,/luka-vuskovic/profil/spieler/892160
-668207,Petar Sučić,17,3,Midfield,Croatia,/petar-sucic/profil/spieler/668207
-483046,Josip Stanisic,2,2,Defender,Croatia,/josip-stanisic/profil/spieler/483046
-580451,Martin Baturina,16,3,Midfield,Croatia,/martin-baturina/profil/spieler/580451
-605268,Igor Matanovic,20,4,Forward,Croatia,/igor-matanovic/profil/spieler/605268
-371001,Josip Sutalo,6,2,Defender,Croatia,/josip-sutalo/profil/spieler/371001
-387110,Petar Musa,26,4,Forward,Croatia,/petar-musa/profil/spieler/387110
-293200,Nikola Vlašić,13,3,Midfield,Croatia,/nikola-vlasic/profil/spieler/293200
-51471,Mateo Kovacic,8,3,Midfield,Croatia,/mateo-kovacic/profil/spieler/51471
-502722,Luka Sucic,21,3,Midfield,Croatia,/luka-sucic/profil/spieler/502722
-432758,Toni Fruk,19,3,Midfield,Croatia,/toni-fruk/profil/spieler/432758
-316934,Nikola Moro,7,3,Midfield,Croatia,/nikola-moro/profil/spieler/316934
-395928,Marco Pašalić,24,4,Forward,Croatia,/marco-pasalic/profil/spieler/395928
-282144,Marin Pongracic,3,2,Defender,Croatia,/marin-pongracic/profil/spieler/282144
-374954,Kristijan Jakic,18,3,Midfield,Croatia,/kristijan-jakic/profil/spieler/374954
-205938,Mario Pašalić,15,3,Midfield,Croatia,/mario-pasalic/profil/spieler/205938
-370997,Dominik Kotarski,23,1,Goalkeeper,Croatia,/dominik-kotarski/profil/spieler/370997
-371013,Ivor Pandur,12,1,Goalkeeper,Croatia,/ivor-pandur/profil/spieler/371013
-205927,Dominik Livakovic,1,1,Goalkeeper,Croatia,/dominik-livakovic/profil/spieler/205927
-357003,Martin Erlić,25,2,Defender,Croatia,/martin-erlic/profil/spieler/357003
-27992,Luka Modrić,10,3,Midfield,Croatia,/luka-modric/profil/spieler/27992
-238266,Duje Caleta-Car,5,2,Defender,Croatia,/duje-caleta-car/profil/spieler/238266
-46413,Ante Budimir,11,4,Forward,Croatia,/ante-budimir/profil/spieler/46413
-46580,Andrej Kramaric,9,3,Midfield,Croatia,/andrej-kramaric/profil/spieler/46580
-42460,Ivan Perišić,14,4,Forward,Croatia,/ivan-perisic/profil/spieler/42460
 581678,Jude Bellingham,10,3,Midfield,England,/jude-bellingham/profil/spieler/581678
 357662,Declan Rice,4,3,Midfield,England,/declan-rice/profil/spieler/357662
 433177,Bukayo Saka,7,4,Forward,England,/bukayo-saka/profil/spieler/433177
@@ -1195,32 +1169,6 @@ id,name,shirtNumber,positionId,position,club,link
 186590,John Stones,5,2,Defender,England,/john-stones/profil/spieler/186590
 134270,Dan Burn,15,2,Defender,England,/dan-burn/profil/spieler/134270
 61651,Jordan Henderson,14,3,Midfield,England,/jordan-henderson/profil/spieler/61651
-354482,Amir Murillo,23,2,Defender,Panama,/amir-murillo/profil/spieler/354482
-698415,José Córdoba,3,2,Defender,Panama,/jose-cordoba/profil/spieler/698415
-375300,Adalberto Carrasquilla,8,3,Midfield,Panama,/adalberto-carrasquilla/profil/spieler/375300
-440383,César Blackman,2,2,Defender,Panama,/cesar-blackman/profil/spieler/440383
-425028,José Luis Rodríguez,7,4,Forward,Panama,/jose-luis-rodriguez/profil/spieler/425028
-403808,Andrés Andrade,16,2,Defender,Panama,/andres-andrade/profil/spieler/403808
-243298,Ismael Díaz,10,4,Forward,Panama,/ismael-diaz/profil/spieler/243298
-860998,Azarías Londoño,24,4,Forward,Panama,/azarias-londono/profil/spieler/860998
-569205,Tomás Rodríguez,9,4,Forward,Panama,/tomas-rodriguez/profil/spieler/569205
-923177,Edgardo Fariña,5,2,Defender,Panama,/edgardo-farina/profil/spieler/923177
-443379,Jorge Gutiérrez,26,2,Defender,Panama,/jorge-gutierrez/profil/spieler/443379
-419247,Cristian Martínez,6,3,Midfield,Panama,/cristian-martinez/profil/spieler/419247
-402979,Orlando Mosquera,22,1,Goalkeeper,Panama,/orlando-mosquera/profil/spieler/402979
-283473,Yoel Bárcenas,11,4,Forward,Panama,/yoel-barcenas/profil/spieler/283473
-628806,Carlos Harvey,14,3,Midfield,Panama,/carlos-harvey/profil/spieler/628806
-546803,José Fajardo,17,4,Forward,Panama,/jose-fajardo/profil/spieler/546803
-403809,Jiovany Ramos,13,2,Defender,Panama,/jiovany-ramos/profil/spieler/403809
-741098,César Yanis,21,4,Forward,Panama,/cesar-yanis/profil/spieler/741098
-345716,Fidel Escobar,4,2,Defender,Panama,/fidel-escobar/profil/spieler/345716
-177064,Cecilio Waterman,18,4,Forward,Panama,/cecilio-waterman/profil/spieler/177064
-865550,César Samudio,12,1,Goalkeeper,Panama,/cesar-samudio/profil/spieler/865550
-157154,Roderick Miller,25,2,Defender,Panama,/roderick-miller/profil/spieler/157154
-76715,Luis Mejía,1,1,Goalkeeper,Panama,/luis-mejia/profil/spieler/76715
-161671,Aníbal Godoy,20,3,Midfield,Panama,/anibal-godoy/profil/spieler/161671
-126019,Alberto Quintero,19,4,Forward,Panama,/alberto-quintero/profil/spieler/126019
-121791,Éric Davis,15,2,Defender,Panama,/eric-davis/profil/spieler/121791
 583255,Antoine Semenyo,11,4,Forward,Ghana,/antoine-semenyo/profil/spieler/583255
 864121,Abdul Fatawu,7,4,Forward,Ghana,/abdul-fatawu/profil/spieler/864121
 746695,Kamaldeen Sulemana,22,4,Forward,Ghana,/kamaldeen-sulemana/profil/spieler/746695
@@ -1247,3 +1195,55 @@ id,name,shirtNumber,positionId,position,club,link
 241457,Derrick Luckassen,23,2,Defender,Ghana,/derrick-luckassen/profil/spieler/241457
 576099,Joseph Anang,12,1,Goalkeeper,Ghana,/joseph-anang/profil/spieler/576099
 837368,Benjamin Asare,16,1,Goalkeeper,Ghana,/benjamin-asare/profil/spieler/837368
+354482,Amir Murillo,23,2,Defender,Panama,/amir-murillo/profil/spieler/354482
+698415,José Córdoba,3,2,Defender,Panama,/jose-cordoba/profil/spieler/698415
+375300,Adalberto Carrasquilla,8,3,Midfield,Panama,/adalberto-carrasquilla/profil/spieler/375300
+440383,César Blackman,2,2,Defender,Panama,/cesar-blackman/profil/spieler/440383
+425028,José Luis Rodríguez,7,4,Forward,Panama,/jose-luis-rodriguez/profil/spieler/425028
+403808,Andrés Andrade,16,2,Defender,Panama,/andres-andrade/profil/spieler/403808
+243298,Ismael Díaz,10,4,Forward,Panama,/ismael-diaz/profil/spieler/243298
+860998,Azarías Londoño,24,4,Forward,Panama,/azarias-londono/profil/spieler/860998
+569205,Tomás Rodríguez,9,4,Forward,Panama,/tomas-rodriguez/profil/spieler/569205
+923177,Edgardo Fariña,5,2,Defender,Panama,/edgardo-farina/profil/spieler/923177
+443379,Jorge Gutiérrez,26,2,Defender,Panama,/jorge-gutierrez/profil/spieler/443379
+419247,Cristian Martínez,6,3,Midfield,Panama,/cristian-martinez/profil/spieler/419247
+402979,Orlando Mosquera,22,1,Goalkeeper,Panama,/orlando-mosquera/profil/spieler/402979
+283473,Yoel Bárcenas,11,4,Forward,Panama,/yoel-barcenas/profil/spieler/283473
+628806,Carlos Harvey,14,3,Midfield,Panama,/carlos-harvey/profil/spieler/628806
+546803,José Fajardo,17,4,Forward,Panama,/jose-fajardo/profil/spieler/546803
+403809,Jiovany Ramos,13,2,Defender,Panama,/jiovany-ramos/profil/spieler/403809
+741098,César Yanis,21,4,Forward,Panama,/cesar-yanis/profil/spieler/741098
+345716,Fidel Escobar,4,2,Defender,Panama,/fidel-escobar/profil/spieler/345716
+177064,Cecilio Waterman,18,4,Forward,Panama,/cecilio-waterman/profil/spieler/177064
+865550,César Samudio,12,1,Goalkeeper,Panama,/cesar-samudio/profil/spieler/865550
+157154,Roderick Miller,25,2,Defender,Panama,/roderick-miller/profil/spieler/157154
+76715,Luis Mejía,1,1,Goalkeeper,Panama,/luis-mejia/profil/spieler/76715
+161671,Aníbal Godoy,20,3,Midfield,Panama,/anibal-godoy/profil/spieler/161671
+126019,Alberto Quintero,19,4,Forward,Panama,/alberto-quintero/profil/spieler/126019
+121791,Éric Davis,15,2,Defender,Panama,/eric-davis/profil/spieler/121791
+475959,Josko Gvardiol,4,2,Defender,Croatia,/josko-gvardiol/profil/spieler/475959
+892160,Luka Vuskovic,22,2,Defender,Croatia,/luka-vuskovic/profil/spieler/892160
+668207,Petar Sučić,17,3,Midfield,Croatia,/petar-sucic/profil/spieler/668207
+483046,Josip Stanisic,2,2,Defender,Croatia,/josip-stanisic/profil/spieler/483046
+580451,Martin Baturina,16,3,Midfield,Croatia,/martin-baturina/profil/spieler/580451
+605268,Igor Matanovic,20,4,Forward,Croatia,/igor-matanovic/profil/spieler/605268
+371001,Josip Sutalo,6,2,Defender,Croatia,/josip-sutalo/profil/spieler/371001
+387110,Petar Musa,26,4,Forward,Croatia,/petar-musa/profil/spieler/387110
+293200,Nikola Vlašić,13,3,Midfield,Croatia,/nikola-vlasic/profil/spieler/293200
+51471,Mateo Kovacic,8,3,Midfield,Croatia,/mateo-kovacic/profil/spieler/51471
+502722,Luka Sucic,21,3,Midfield,Croatia,/luka-sucic/profil/spieler/502722
+432758,Toni Fruk,19,3,Midfield,Croatia,/toni-fruk/profil/spieler/432758
+316934,Nikola Moro,7,3,Midfield,Croatia,/nikola-moro/profil/spieler/316934
+395928,Marco Pašalić,24,4,Forward,Croatia,/marco-pasalic/profil/spieler/395928
+282144,Marin Pongracic,3,2,Defender,Croatia,/marin-pongracic/profil/spieler/282144
+374954,Kristijan Jakic,18,3,Midfield,Croatia,/kristijan-jakic/profil/spieler/374954
+205938,Mario Pašalić,15,3,Midfield,Croatia,/mario-pasalic/profil/spieler/205938
+370997,Dominik Kotarski,23,1,Goalkeeper,Croatia,/dominik-kotarski/profil/spieler/370997
+371013,Ivor Pandur,12,1,Goalkeeper,Croatia,/ivor-pandur/profil/spieler/371013
+205927,Dominik Livakovic,1,1,Goalkeeper,Croatia,/dominik-livakovic/profil/spieler/205927
+357003,Martin Erlić,25,2,Defender,Croatia,/martin-erlic/profil/spieler/357003
+27992,Luka Modrić,10,3,Midfield,Croatia,/luka-modric/profil/spieler/27992
+238266,Duje Caleta-Car,5,2,Defender,Croatia,/duje-caleta-car/profil/spieler/238266
+46413,Ante Budimir,11,4,Forward,Croatia,/ante-budimir/profil/spieler/46413
+46580,Andrej Kramaric,9,3,Midfield,Croatia,/andrej-kramaric/profil/spieler/46580
+42460,Ivan Perišić,14,4,Forward,Croatia,/ivan-perisic/profil/spieler/42460

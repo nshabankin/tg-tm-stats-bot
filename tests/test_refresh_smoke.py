@@ -394,6 +394,51 @@ class RefreshModesTests(unittest.TestCase):
 
 
 class PlayerStatsMatcherTests(unittest.TestCase):
+    @patch('tmstats.player_stats.fetch_json')
+    def test_fetch_players_preserves_existing_roster_on_transient_failure(
+            self,
+            fetch_json_mock) -> None:
+        existing_player = {
+            'id': '700106',
+            'name': 'Brajan Gruda',
+            'shirtNumber': '10',
+            'positionId': '3',
+            'position': 'Midfield',
+            'club': 'RB Leipzig',
+            'link': '/brajan-gruda/profil/spieler/700106',
+        }
+        fetch_json_mock.side_effect = player_stats.requests.HTTPError(
+            '502 error'
+        )
+
+        players = player_stats.fetch_players(
+            object(),
+            [{'id': '23826', 'name': 'RB Leipzig'}],
+            20,
+            delay=0,
+            existing_players=[existing_player],
+        )
+
+        self.assertEqual(players, [existing_player])
+
+    @patch('tmstats.player_stats.fetch_json')
+    def test_fetch_players_skips_failed_team_without_saved_roster(
+            self,
+            fetch_json_mock) -> None:
+        fetch_json_mock.side_effect = player_stats.requests.HTTPError(
+            '502 error'
+        )
+
+        players = player_stats.fetch_players(
+            object(),
+            [{'id': '3499', 'name': 'Brazil'}],
+            20,
+            delay=0,
+            existing_players=[],
+        )
+
+        self.assertEqual(players, [])
+
     def test_pick_stats_row_matches_laliga_ea_sports_branding(self) -> None:
         doc = html.fromstring(
             '''

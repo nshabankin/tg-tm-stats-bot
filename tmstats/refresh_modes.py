@@ -48,16 +48,23 @@ def refresh_league(league_key: str, season: int = None,
 
     print(f'Refreshing {league_key} for season {context.season}', flush=True)
 
+    existing_players = load_existing_players(context.paths.players_csv)
     players = []
     players_changed = False
     if not refresh_rosters:
-        players = load_existing_players(context.paths.players_csv)
+        players = existing_players
         if players:
             print(f'  reusing {len(players)} players from saved roster',
                   flush=True)
 
     if not players:
-        players = fetch_players(context.session, context.teams, timeout, delay)
+        players = fetch_players(
+            context.session,
+            context.teams,
+            timeout,
+            delay,
+            existing_players=existing_players,
+        )
         players_changed = write_players_snapshot(context.paths, players)
         print(f'  fetched {len(context.teams)} teams and {len(players)} players',
               flush=True)
@@ -277,10 +284,17 @@ def refresh_changed_team_stats_only(
         flush=True,
     )
 
-    replacement_players = fetch_players(context.session, targeted_teams, timeout, delay)
+    replacement_players = fetch_players(
+        context.session,
+        targeted_teams,
+        timeout,
+        delay,
+        existing_players=existing_players,
+    )
     targeted_club_ids = {
-        canonical_club_identity(team.get('name', ''))
-        for team in targeted_teams
+        canonical_club_identity(player.get('club', ''))
+        for player in replacement_players
+        if canonical_club_identity(player.get('club', ''))
     }
     players_output = replace_players_for_clubs(
         existing_players,

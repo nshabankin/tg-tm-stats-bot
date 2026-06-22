@@ -111,6 +111,15 @@ def replace_stats_for_clubs(existing_rows: List[dict],
     return preserved + replacement_rows
 
 
+def players_by_club_identity(players: List[dict]) -> Dict[str, List[dict]]:
+    grouped: Dict[str, List[dict]] = {}
+    for player in players:
+        club_id = canonical_club_identity(player.get('club', ''))
+        if club_id:
+            grouped.setdefault(club_id, []).append(player)
+    return grouped
+
+
 def progress_bar(current: int, total: int, width: int = 22) -> str:
     if total <= 0:
         return '[' + ('-' * width) + ']'
@@ -136,9 +145,11 @@ def format_progress(prefix: str, current: int, total: int,
 
 
 def fetch_players(session: requests.Session, teams: List[dict],
-                  timeout: int, delay: float = 0.25) -> List[dict]:
+                  timeout: int, delay: float = 0.25,
+                  existing_players: Optional[List[dict]] = None) -> List[dict]:
     players = []
     total_teams = len(teams)
+    fallback_players = players_by_club_identity(existing_players or [])
 
     for index, team in enumerate(teams, start=1):
         print(
@@ -147,7 +158,28 @@ def fetch_players(session: requests.Session, teams: List[dict],
             flush=True,
         )
         url = f'https://www.transfermarkt.com/quickselect/players/{team["id"]}'
-        team_players = fetch_json(session, url, timeout)
+        try:
+            team_players = fetch_json(session, url, timeout)
+        except (requests.RequestException, ValueError) as error:
+            club_id = canonical_club_identity(team.get('name', ''))
+            preserved_players = fallback_players.get(club_id, [])
+            if preserved_players:
+                print(
+                    f'Warning: preserving existing roster for {team["name"]} '
+                    f'after roster fetch failed: {error}',
+                    flush=True,
+                )
+                players.extend(preserved_players)
+            else:
+                print(
+                    f'Warning: skipping roster for {team["name"]} after '
+                    f'fetch failed and no saved roster was available: {error}',
+                    flush=True,
+                )
+            if delay:
+                time.sleep(delay)
+            continue
+
         for player in team_players:
             position_id = int(player['positionId'])
             players.append({
