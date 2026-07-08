@@ -12,9 +12,9 @@
               "leg": "",
               "date": "Sun 28/06/2026",
               "time": "9:00 PM",
-              "homeTeam": "Second in Group A",
-              "result": "-:-",
-              "awayTeam": "Second in Group B"
+              "homeTeam": "South Africa",
+              "result": "0:1",
+              "awayTeam": "Canada"
             }
           ]
         },
@@ -25,9 +25,9 @@
               "leg": "",
               "date": "Mon 29/06/2026",
               "time": "7:00 PM",
-              "homeTeam": "Winner Group C",
-              "result": "-:-",
-              "awayTeam": "Second in Group F"
+              "homeTeam": "Brazil",
+              "result": "2:1",
+              "awayTeam": "Japan"
             }
           ]
         },
@@ -39,8 +39,8 @@
               "date": "",
               "time": "10:30 PM",
               "homeTeam": "Germany",
-              "result": "-:-",
-              "awayTeam": "Third in Group A/B/C/D/F"
+              "result": "4:5 on pens",
+              "awayTeam": "Paraguay"
             }
           ]
         },
@@ -51,9 +51,9 @@
               "leg": "",
               "date": "Tue 30/06/2026",
               "time": "3:00 AM",
-              "homeTeam": "Winner Group F",
-              "result": "-:-",
-              "awayTeam": "Second in Group C"
+              "homeTeam": "Netherlands",
+              "result": "3:4 on pens",
+              "awayTeam": "Morocco"
             }
           ]
         },
@@ -64,9 +64,9 @@
               "leg": "",
               "date": "",
               "time": "7:00 PM",
-              "homeTeam": "Second in Group E",
-              "result": "-:-",
-              "awayTeam": "Second in Group I"
+              "homeTeam": "Ivory Coast",
+              "result": "1:2",
+              "awayTeam": "Norway"
             }
           ]
         },
@@ -77,9 +77,9 @@
               "leg": "",
               "date": "",
               "time": "11:00 PM",
-              "homeTeam": "Winner Group I",
-              "result": "-:-",
-              "awayTeam": "Third in Group C/D/F/G/H"
+              "homeTeam": "France",
+              "result": "3:0",
+              "awayTeam": "Sweden"
             }
           ]
         },
@@ -91,8 +91,8 @@
               "date": "Wed 01/07/2026",
               "time": "3:00 AM",
               "homeTeam": "Mexico",
-              "result": "-:-",
-              "awayTeam": "Third in Group C/E/F/H/I"
+              "result": "2:0",
+              "awayTeam": "Ecuador"
             }
           ]
         },
@@ -103,9 +103,9 @@
               "leg": "",
               "date": "",
               "time": "6:00 PM",
-              "homeTeam": "Winner Group L",
-              "result": "-:-",
-              "awayTeam": "Third in Group E/H/I/J/K"
+              "homeTeam": "England",
+              "result": "2:1",
+              "awayTeam": "DR Congo"
             }
           ]
         },
@@ -116,9 +116,9 @@
               "leg": "",
               "date": "",
               "time": "10:00 PM",
-              "homeTeam": "Winner Group G",
-              "result": "-:-",
-              "awayTeam": "Third in Group A/E/H/I/J"
+              "homeTeam": "Belgium",
+              "result": "3:2 AET",
+              "awayTeam": "Senegal"
             }
           ]
         },
@@ -130,8 +130,8 @@
               "date": "Thu 02/07/2026",
               "time": "2:00 AM",
               "homeTeam": "USA",
-              "result": "-:-",
-              "awayTeam": "Third in Group B/E/F/I/J"
+              "result": "2:0",
+              "awayTeam": "Bosnia"
             }
           ]
         },
@@ -142,9 +142,9 @@
               "leg": "",
               "date": "",
               "time": "9:00 PM",
-              "homeTeam": "Winner Group H",
-              "result": "-:-",
-              "awayTeam": "Second in Group J"
+              "homeTeam": "Spain",
+              "result": "3:0",
+              "awayTeam": "Austria"
             }
           ]
         },
@@ -155,9 +155,9 @@
               "leg": "",
               "date": "Fri 03/07/2026",
               "time": "1:00 AM",
-              "homeTeam": "Second in Group K",
-              "result": "-:-",
-              "awayTeam": "Second in Group L"
+              "homeTeam": "Portugal",
+              "result": "2:1",
+              "awayTeam": "Croatia"
             }
           ]
         },
@@ -168,9 +168,9 @@
               "leg": "",
               "date": "",
               "time": "5:00 AM",
-              "homeTeam": "Winner Group B",
-              "result": "-:-",
-              "awayTeam": "Third in Group E/F/G/I/J"
+              "homeTeam": "Switzerland",
+              "result": "2:0",
+              "awayTeam": "Algeria"
             }
           ]
         },
@@ -181,9 +181,9 @@
               "leg": "",
               "date": "",
               "time": "8:00 PM",
-              "homeTeam": "Second in Group D",
-              "result": "-:-",
-              "awayTeam": "Second in Group G"
+              "homeTeam": "Australia",
+              "result": "3:5 on pens",
+              "awayTeam": "Egypt"
             }
           ]
         },
@@ -194,9 +194,9 @@
               "leg": "",
               "date": "Sat 04/07/2026",
               "time": "12:00 AM",
-              "homeTeam": "Winner Group J",
-              "result": "-:-",
-              "awayTeam": "Second in Group H"
+              "homeTeam": "Argentina",
+              "result": "3:2 AET",
+              "awayTeam": "Cape Verde"
             }
           ]
         },
@@ -207,9 +207,9 @@
               "leg": "",
               "date": "",
               "time": "3:30 AM",
-              "homeTeam": "Winner Group K",
-              "result": "-:-",
-              "awayTeam": "Third in Group D/E/I/J/L"
+              "homeTeam": "Colombia",
+              "result": "1:0",
+              "awayTeam": "Ghana"
             }
           ]
         }
@@ -227,9 +227,9 @@
               "leg": "",
               "date": "Sat 04/07/2026",
               "time": "7:00 PM",
-              "homeTeam": "Winner Ro32 1",
-              "result": "-:-",
-              "awayTeam": "Winner Ro32 3"
+              "homeTeam": "Canada",
+              "result": "0:3",
+              "awayTeam": "Morocco"
             }
           ]
         },
@@ -240,9 +240,9 @@
               "leg": "",
               "date": "",
               "time": "11:00 PM",
-              "homeTeam": "Winner Ro32 2",
-              "result": "-:-",
-              "awayTeam": "Winner Ro32 5"
+              "homeTeam": "Paraguay",
+              "result": "0:1",
+              "awayTeam": "France"
             }
           ]
         },
@@ -253,9 +253,9 @@
               "leg": "",
               "date": "Sun 05/07/2026",
               "time": "10:00 PM",
-              "homeTeam": "Winner Ro32 4",
-              "result": "-:-",
-              "awayTeam": "Winner Ro32 6"
+              "homeTeam": "Brazil",
+              "result": "1:2",
+              "awayTeam": "Norway"
             }
           ]
         },
@@ -266,9 +266,9 @@
               "leg": "",
               "date": "Mon 06/07/2026",
               "time": "2:00 AM",
-              "homeTeam": "Winner Ro32 7",
-              "result": "-:-",
-              "awayTeam": "Winner Ro32 8"
+              "homeTeam": "Mexico",
+              "result": "2:3",
+              "awayTeam": "England"
             }
           ]
         },
@@ -279,9 +279,9 @@
               "leg": "",
               "date": "",
               "time": "9:00 PM",
-              "homeTeam": "Winner Ro32 11",
-              "result": "-:-",
-              "awayTeam": "Winner Ro32 12"
+              "homeTeam": "Portugal",
+              "result": "0:1",
+              "awayTeam": "Spain"
             }
           ]
         },
@@ -292,9 +292,9 @@
               "leg": "",
               "date": "Tue 07/07/2026",
               "time": "2:00 AM",
-              "homeTeam": "Winner Ro32 9",
-              "result": "-:-",
-              "awayTeam": "Winner Ro32 10"
+              "homeTeam": "USA",
+              "result": "1:4",
+              "awayTeam": "Belgium"
             }
           ]
         },
@@ -305,9 +305,9 @@
               "leg": "",
               "date": "",
               "time": "6:00 PM",
-              "homeTeam": "Winner Ro32 14",
-              "result": "-:-",
-              "awayTeam": "Winner Ro32 16"
+              "homeTeam": "Argentina",
+              "result": "3:2",
+              "awayTeam": "Egypt"
             }
           ]
         },
@@ -318,9 +318,9 @@
               "leg": "",
               "date": "",
               "time": "10:00 PM",
-              "homeTeam": "Winner Ro32 13",
-              "result": "-:-",
-              "awayTeam": "Winner Ro32 15"
+              "homeTeam": "Switzerland",
+              "result": "4:3 on pens",
+              "awayTeam": "Colombia"
             }
           ]
         }
@@ -338,9 +338,9 @@
               "leg": "Final",
               "date": "Thu 09/07/2026",
               "time": "10:00 PM",
-              "homeTeam": "Winner Ro16 1",
+              "homeTeam": "France",
               "result": "-:-",
-              "awayTeam": "Winner Ro16 2"
+              "awayTeam": "Morocco"
             }
           ]
         },
@@ -351,9 +351,9 @@
               "leg": "Final",
               "date": "Fri 10/07/2026",
               "time": "9:00 PM",
-              "homeTeam": "Winner Ro16 5",
+              "homeTeam": "Spain",
               "result": "-:-",
-              "awayTeam": "Winner Ro16 6"
+              "awayTeam": "Belgium"
             }
           ]
         },
@@ -364,9 +364,9 @@
               "leg": "Final",
               "date": "Sat 11/07/2026",
               "time": "11:00 PM",
-              "homeTeam": "Winner Ro16 3",
+              "homeTeam": "Norway",
               "result": "-:-",
-              "awayTeam": "Winner Ro16 4"
+              "awayTeam": "England"
             }
           ]
         },
@@ -376,10 +376,10 @@
             {
               "leg": "Final",
               "date": "Sun 12/07/2026",
-              "time": "2:00 AM",
-              "homeTeam": "Winner Ro16 7",
+              "time": "3:00 AM",
+              "homeTeam": "Argentina",
               "result": "-:-",
-              "awayTeam": "Winner Ro16 8"
+              "awayTeam": "Switzerland"
             }
           ]
         }
