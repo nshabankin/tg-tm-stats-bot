@@ -80,6 +80,9 @@ CLUB_ALIASES: Dict[str, List[str]] = {
     'parmacalcio1913': ['parma'],
     'uscremonese': ['cremonese'],
     'uslecce': ['lecce'],
+    'bosniaherzegovina': ['bosnia', 'bosniaandherzegovina'],
+    'democraticrepublicofthecongo': ['drcongo', 'drc'],
+    'unitedstates': ['usa', 'us', 'unitedstatesofamerica'],
 }
 
 ALIAS_TO_CANONICAL = {
@@ -239,7 +242,22 @@ def load_bracket_snapshot(table_path, league: str, season_start_year: int) -> di
         return {'rounds': []}
 
     with bracket_path.open(encoding='utf-8') as json_file:
-        return json.load(json_file)
+        payload = json.load(json_file)
+
+    club_map = load_table_club_map(table_path)
+    for round_data in payload.get('rounds', []):
+        for tie in round_data.get('ties', []):
+            for match in tie.get('matches', []):
+                match['homeTeam'] = canonicalize_match_team_name(
+                    match.get('homeTeam', ''),
+                    club_map,
+                )
+                match['awayTeam'] = canonicalize_match_team_name(
+                    match.get('awayTeam', ''),
+                    club_map,
+                )
+
+    return payload
 
 
 def load_matches_snapshot(table_path, league: str, season_start_year: int) -> dict:

@@ -1,4 +1,5 @@
 import io
+import json
 import tempfile
 import unittest
 from contextlib import redirect_stdout
@@ -170,6 +171,60 @@ class TournamentSnapshotTests(unittest.TestCase):
             [team['club'] for team in payload['thirdPlaceRanking']],
             ['Switzerland', 'South Korea'],
         )
+
+    def test_world_cup_bracket_aliases_resolve_to_table_teams(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            league_dir = Path(temp_dir) / 'world_cup'
+            league_dir.mkdir(parents=True)
+            table_path = league_dir / 'world_cup_table_2025.csv'
+            table_path.write_text(
+                '\n'.join([
+                    'group,rank,club,logo,played,wins,draws,losses,goals,diff,points,form',
+                    'Group A,1,United States,us-flag,3,,,,,4,6,',
+                    'Group A,2,Bosnia-Herzegovina,bosnia-flag,3,,,,,-1,4,',
+                    'Group A,3,Democratic Republic of the Congo,dr-congo-flag,3,,,,,1,4,',
+                ]),
+                encoding='utf-8',
+            )
+            bracket_path = league_dir / 'world_cup_bracket_2025.json'
+            bracket_path.write_text(
+                json.dumps({
+                    'rounds': [{
+                        'key': 'round_of_32',
+                        'label': 'Round of 32',
+                        'ties': [{
+                            'code': 'Ro32 1',
+                            'matches': [{
+                                'homeTeam': 'USA',
+                                'awayTeam': 'Bosnia',
+                                'result': '2:0',
+                            }],
+                        }, {
+                            'code': 'Ro32 2',
+                            'matches': [{
+                                'homeTeam': 'DR Congo',
+                                'awayTeam': 'Winner QF 1',
+                                'result': '',
+                            }],
+                        }],
+                    }],
+                }),
+                encoding='utf-8',
+            )
+
+            with patch('tmstats.snapshots.TMSTATS_DIR', Path(temp_dir)):
+                payload = miniapp.build_league_payload('world_cup')
+
+        matches = [
+            match
+            for round_data in payload['bracket']['rounds']
+            for tie in round_data['ties']
+            for match in tie['matches']
+        ]
+        self.assertEqual(matches[0]['homeTeam'], 'United States')
+        self.assertEqual(matches[0]['awayTeam'], 'Bosnia-Herzegovina')
+        self.assertEqual(matches[1]['homeTeam'], 'Democratic Republic of the Congo')
+        self.assertEqual(matches[1]['awayTeam'], 'Winner QF 1')
 
     def test_tournament_parser_reads_nested_group_tables(self) -> None:
         doc = html.fromstring('''
