@@ -1,0 +1,43 @@
+{
+  "league": "ucl",
+  "season": 2026,
+  "updatedAt": "2026-09-01T06:23:36+00:00",
+  "mode": "pdf-only",
+  "counts": {
+    "clubs": 36,
+    "players": 1030,
+    "statsRows": 1030,
+    "tableRows": 36
+  },
+  "matches": {
+    "groupCount": 8,
+    "pendingMatchdays": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "completedMatchdays": [],
+    "lastPendingMatchday": 8,
+    "lastCompletedMatchday": null
+  },
+  "stats": {
+    "status": "unchanged",
+    "changedClubs": [],
+    "resolvedClubs": [],
+    "unresolvedClubs": []
+  },
+  "outputs": {
+    "tableChanged": false,
+    "playersChanged": false,
+    "statsChanged": false,
+    "matchesChanged": false,
+    "bracketChanged": false,
+    "tablePdfRendered": true,
+    "statsPdfRendered": true
+  }
+}

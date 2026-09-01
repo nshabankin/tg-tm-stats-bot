@@ -15,11 +15,18 @@ def run_for_leagues(league_keys: Iterable[str],
                     label: str = None,
                     **kwargs) -> List[dict]:
     results = []
-    season = kwargs.get('season')
+    requested_season = kwargs.get('season')
     for league_key in league_keys:
+        season = (
+            requested_season
+            if requested_season is not None
+            else LEAGUES[league_key].default_season_start_year
+            or current_season_start_year()
+        )
+        runner_kwargs = {**kwargs, 'season': season}
         if label:
             print(f'{label} for {league_key} season {season}', flush=True)
-        results.append(runner(league_key, *args, **kwargs))
+        results.append(runner(league_key, *args, **runner_kwargs))
     return results
 
 
@@ -103,8 +110,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         '--season',
         type=int,
-        default=current_season_start_year(),
-        help='Transfermarkt season start year. Defaults to the current European season.',
+        default=None,
+        help=(
+            'Transfermarkt season start year. Defaults to the current European '
+            'season, with competition-specific exceptions such as World Cup 2026.'
+        ),
     )
     parser.add_argument(
         '--timeout',

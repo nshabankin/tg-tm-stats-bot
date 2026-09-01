@@ -34,8 +34,12 @@ def build_refresh_context(league_key: str,
                           timeout: int = DEFAULT_TIMEOUT,
                           with_session: bool = False,
                           with_live_table: bool = False) -> RefreshContext:
-    resolved_season = season or current_season_start_year()
     league = LEAGUES[league_key]
+    resolved_season = (
+        season
+        if season is not None
+        else league.default_season_start_year or current_season_start_year()
+    )
     paths = build_league_refresh_paths(league_key, resolved_season)
     session = build_session() if with_session or with_live_table else None
     context = RefreshContext(

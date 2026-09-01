@@ -1,0 +1,66 @@
+{
+  "league": "rpl",
+  "season": 2026,
+  "updatedAt": "2026-08-31T15:53:05+00:00",
+  "mode": "full",
+  "counts": {
+    "clubs": 16,
+    "players": 443,
+    "statsRows": 443,
+    "tableRows": 16
+  },
+  "matches": {
+    "groupCount": 30,
+    "pendingMatchdays": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "completedMatchdays": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "lastPendingMatchday": 30,
+    "lastCompletedMatchday": 6
+  },
+  "stats": {
+    "status": "refreshed",
+    "changedClubs": [],
+    "resolvedClubs": [],
+    "unresolvedClubs": []
+  },
+  "outputs": {
+    "tableChanged": true,
+    "playersChanged": true,
+    "statsChanged": true,
+    "matchesChanged": true,
+    "bracketChanged": false,
+    "tablePdfRendered": true,
+    "statsPdfRendered": true
+  }
+}

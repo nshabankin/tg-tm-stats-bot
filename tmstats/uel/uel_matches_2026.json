@@ -1,0 +1,1060 @@
+{
+  "groups": [
+    {
+      "key": "md-1",
+      "label": "Matchday 1",
+      "matches": [
+        {
+          "date": "Wed 16/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "H. Beer Sheva",
+          "awayTeam": "Dinamo Zagreb",
+          "score": ""
+        },
+        {
+          "date": "Wed 16/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "NK Celje",
+          "score": ""
+        },
+        {
+          "date": "Wed 16/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Olympiacos",
+          "awayTeam": "Jagiellonia",
+          "score": ""
+        },
+        {
+          "date": "Wed 16/09/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Omonia Nicosia",
+          "awayTeam": "Celta de Vigo",
+          "score": ""
+        },
+        {
+          "date": "Wed 16/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sturm Graz",
+          "awayTeam": "Stade Rennais",
+          "score": ""
+        },
+        {
+          "date": "Wed 16/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sunderland",
+          "awayTeam": "AZ Alkmaar",
+          "score": ""
+        },
+        {
+          "date": "Wed 16/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Benfica",
+          "score": ""
+        },
+        {
+          "date": "Wed 16/09/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Ararat-Armenia",
+          "awayTeam": "Sparta Prague",
+          "score": ""
+        },
+        {
+          "date": "Wed 16/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "RSC Anderlecht",
+          "awayTeam": "Lyon",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Besiktas",
+          "awayTeam": "Marseille",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "NEC Nijmegen",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/09/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Levski Sofia",
+          "awayTeam": "Salzburg",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Celtic",
+          "awayTeam": "Ferencváros",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Real Sociedad",
+          "awayTeam": "Bournemouth",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/09/2026",
+          "time": "6:45 PM",
+          "homeTeam": "OFI Crete",
+          "awayTeam": "Hoffenheim",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Viktoria Plzeň",
+          "awayTeam": "Union SG",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Lillestrøm SK",
+          "awayTeam": "Torreense",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/09/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Crystal Palace",
+          "awayTeam": "Lech Poznan",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-2",
+      "label": "Matchday 2",
+      "matches": [
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Hoffenheim",
+          "awayTeam": "Besiktas",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "AZ Alkmaar",
+          "awayTeam": "H. Beer Sheva",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Celta de Vigo",
+          "awayTeam": "Juventus",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "NEC Nijmegen",
+          "awayTeam": "Levski Sofia",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Marseille",
+          "awayTeam": "Olympiacos",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "NK Celje",
+          "awayTeam": "Omonia Nicosia",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Bournemouth",
+          "awayTeam": "Sturm Graz",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Ferencváros",
+          "awayTeam": "Viktoria Plzeň",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Salzburg",
+          "awayTeam": "AC Milan",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Stade Rennais",
+          "awayTeam": "OFI Crete",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Benfica",
+          "awayTeam": "Celtic",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Dinamo Zagreb",
+          "awayTeam": "RSC Anderlecht",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Union SG",
+          "awayTeam": "Real Sociedad",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Sparta Prague",
+          "awayTeam": "Lillestrøm SK",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Lech Poznan",
+          "awayTeam": "Leverkusen",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Torreense",
+          "awayTeam": "Sunderland",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Jagiellonia",
+          "awayTeam": "Ararat-Armenia",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Lyon",
+          "awayTeam": "Crystal Palace",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-3",
+      "label": "Matchday 3",
+      "matches": [
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Besiktas",
+          "awayTeam": "Crystal Palace",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Union SG",
+          "awayTeam": "H. Beer Sheva",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Stade Rennais",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Viktoria Plzeň",
+          "awayTeam": "Levski Sofia",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Sturm Graz",
+          "awayTeam": "Marseille",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "NK Celje",
+          "awayTeam": "Salzburg",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Olympiacos",
+          "awayTeam": "Sparta Prague",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Omonia Nicosia",
+          "awayTeam": "Benfica",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Ararat-Armenia",
+          "awayTeam": "AZ Alkmaar",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Ferencváros",
+          "awayTeam": "Torreense",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Dinamo Zagreb",
+          "awayTeam": "NEC Nijmegen",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Lillestrøm SK",
+          "awayTeam": "Real Sociedad",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Celtic",
+          "awayTeam": "Celta de Vigo",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "OFI Crete",
+          "awayTeam": "Leverkusen",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Hoffenheim",
+          "awayTeam": "Lyon",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Bournemouth",
+          "awayTeam": "AC Milan",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Lech Poznan",
+          "awayTeam": "Sunderland",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Jagiellonia",
+          "awayTeam": "RSC Anderlecht",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-4",
+      "label": "Matchday 4",
+      "matches": [
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Celtic",
+          "awayTeam": "Besiktas",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "H. Beer Sheva",
+          "awayTeam": "OFI Crete",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "AZ Alkmaar",
+          "awayTeam": "Juventus",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Levski Sofia",
+          "awayTeam": "Jagiellonia",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "Marseille",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sturm Graz",
+          "awayTeam": "NK Celje",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Stade Rennais",
+          "awayTeam": "Olympiacos",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "NEC Nijmegen",
+          "awayTeam": "Omonia Nicosia",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Ferencváros",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "RSC Anderlecht",
+          "awayTeam": "Salzburg",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Benfica",
+          "awayTeam": "Lech Poznan",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sunderland",
+          "awayTeam": "Dinamo Zagreb",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Real Sociedad",
+          "awayTeam": "Lyon",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Sparta Prague",
+          "awayTeam": "Bournemouth",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Celta de Vigo",
+          "awayTeam": "Union SG",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Lillestrøm SK",
+          "awayTeam": "Viktoria Plzeň",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Torreense",
+          "awayTeam": "Ararat-Armenia",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Crystal Palace",
+          "awayTeam": "Hoffenheim",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-5",
+      "label": "Matchday 5",
+      "matches": [
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Besiktas",
+          "awayTeam": "H. Beer Sheva",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Omonia Nicosia",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Marseille",
+          "awayTeam": "Levski Sofia",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Ferencváros",
+          "awayTeam": "NK Celje",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Olympiacos",
+          "awayTeam": "AC Milan",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Hoffenheim",
+          "awayTeam": "Sturm Graz",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sparta Prague",
+          "awayTeam": "AZ Alkmaar",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "NEC Nijmegen",
+          "awayTeam": "Stade Rennais",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Salzburg",
+          "awayTeam": "Ararat-Armenia",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Viktoria Plzeň",
+          "awayTeam": "Benfica",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Dinamo Zagreb",
+          "awayTeam": "Leverkusen",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Crystal Palace",
+          "awayTeam": "Real Sociedad",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Celta de Vigo",
+          "awayTeam": "Bournemouth",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "OFI Crete",
+          "awayTeam": "RSC Anderlecht",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Union SG",
+          "awayTeam": "Lech Poznan",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Lyon",
+          "awayTeam": "Lillestrøm SK",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Torreense",
+          "awayTeam": "Celtic",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sunderland",
+          "awayTeam": "Jagiellonia",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-6",
+      "label": "Matchday 6",
+      "matches": [
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "Besiktas",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "H. Beer Sheva",
+          "awayTeam": "Juventus",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Levski Sofia",
+          "awayTeam": "Lillestrøm SK",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Marseille",
+          "awayTeam": "Celta de Vigo",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "NK Celje",
+          "awayTeam": "Olympiacos",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Omonia Nicosia",
+          "awayTeam": "Celtic",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "AZ Alkmaar",
+          "awayTeam": "Sturm Graz",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Lech Poznan",
+          "awayTeam": "Ferencváros",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Ararat-Armenia",
+          "awayTeam": "NEC Nijmegen",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Salzburg",
+          "awayTeam": "Sparta Prague",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Stade Rennais",
+          "awayTeam": "Dinamo Zagreb",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Benfica",
+          "awayTeam": "OFI Crete",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Real Sociedad",
+          "awayTeam": "Torreense",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Lyon",
+          "awayTeam": "Union SG",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Bournemouth",
+          "awayTeam": "Viktoria Plzeň",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "RSC Anderlecht",
+          "awayTeam": "Hoffenheim",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Sunderland",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Jagiellonia",
+          "awayTeam": "Crystal Palace",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-7",
+      "label": "Matchday 7",
+      "matches": [
+        {
+          "date": "Thu 21/01/2027",
+          "time": "6:45 PM",
+          "homeTeam": "Besiktas",
+          "awayTeam": "Union SG",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "H. Beer Sheva",
+          "awayTeam": "Celta de Vigo",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "6:45 PM",
+          "homeTeam": "Ferencváros",
+          "awayTeam": "Juventus",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Levski Sofia",
+          "awayTeam": "AC Milan",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Celtic",
+          "awayTeam": "Marseille",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "6:45 PM",
+          "homeTeam": "Ararat-Armenia",
+          "awayTeam": "NK Celje",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "6:45 PM",
+          "homeTeam": "Olympiacos",
+          "awayTeam": "Hoffenheim",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Stade Rennais",
+          "awayTeam": "Omonia Nicosia",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "6:45 PM",
+          "homeTeam": "Sturm Graz",
+          "awayTeam": "OFI Crete",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "AZ Alkmaar",
+          "awayTeam": "Dinamo Zagreb",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "6:45 PM",
+          "homeTeam": "NEC Nijmegen",
+          "awayTeam": "Benfica",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Leverkusen",
+          "awayTeam": "Salzburg",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "6:45 PM",
+          "homeTeam": "Real Sociedad",
+          "awayTeam": "Viktoria Plzeň",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Crystal Palace",
+          "awayTeam": "Sparta Prague",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "6:45 PM",
+          "homeTeam": "Lillestrøm SK",
+          "awayTeam": "Bournemouth",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "RSC Anderlecht",
+          "awayTeam": "Sunderland",
+          "score": ""
+        },
+        {
+          "date": "Thu 21/01/2027",
+          "time": "6:45 PM",
+          "homeTeam": "Jagiellonia",
+          "awayTeam": "Lyon",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-8",
+      "label": "Matchday 8",
+      "matches": [
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Omonia Nicosia",
+          "awayTeam": "Besiktas",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Bournemouth",
+          "awayTeam": "H. Beer Sheva",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Juventus",
+          "awayTeam": "Real Sociedad",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Sunderland",
+          "awayTeam": "Levski Sofia",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Marseille",
+          "awayTeam": "RSC Anderlecht",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "NK Celje",
+          "awayTeam": "NEC Nijmegen",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Torreense",
+          "awayTeam": "Olympiacos",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Dinamo Zagreb",
+          "awayTeam": "Sturm Graz",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Benfica",
+          "awayTeam": "AZ Alkmaar",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Hoffenheim",
+          "awayTeam": "Ferencváros",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Salzburg",
+          "awayTeam": "Crystal Palace",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Sparta Prague",
+          "awayTeam": "Stade Rennais",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Celta de Vigo",
+          "awayTeam": "Lillestrøm SK",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Lech Poznan",
+          "awayTeam": "OFI Crete",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "OFI Crete",
+          "awayTeam": "Lech Poznan",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Union SG",
+          "awayTeam": "Celtic",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Lyon",
+          "awayTeam": "Leverkusen",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "Viktoria Plzeň",
+          "awayTeam": "Jagiellonia",
+          "score": ""
+        },
+        {
+          "date": "Thu 28/01/2027",
+          "time": "9:00 PM",
+          "homeTeam": "AC Milan",
+          "awayTeam": "Ararat-Armenia",
+          "score": ""
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,7 @@ class LeagueSpec:
     table_label: str = 'Table'
     supports_bracket: bool = False
     supports_third_place: bool = False
+    default_season_start_year: int = None
 
 def competition_logo_url(site_id: str) -> str:
     return (
@@ -69,7 +70,8 @@ LEAGUES = {
                             family='international_tournament',
                             table_label='Groups',
                             supports_bracket=True,
-                            supports_third_place=True),
+                            supports_third_place=True,
+                            default_season_start_year=2025),
 }
 
 LEAGUE_KEYS = tuple(LEAGUES.keys())

@@ -1,0 +1,21 @@
+group,rank,club,logo,played,wins,draws,losses,goals,diff,points,form
+,1,Manchester City,https://img.a.transfermarkt.technology/wappen/tiny/281.png?lm=4711,2,2,0,0,6:2,4,6,WW
+,2,Hull City,https://img.a.transfermarkt.technology/wappen/tiny/3008.png?lm=4711,2,2,0,0,3:0,3,6,WW
+,3,Chelsea FC,https://img.a.transfermarkt.technology/wappen/tiny/631.png?lm=4711,2,2,0,0,7:5,2,6,WW
+,4,Brentford FC,https://img.a.transfermarkt.technology/wappen/tiny/1148.png?lm=4711,2,1,1,0,4:1,3,4,WD
+,5,Newcastle United,https://img.a.transfermarkt.technology/wappen/tiny/762.png?lm=4711,2,1,1,0,4:2,2,4,DW
+,6,Everton FC,https://img.a.transfermarkt.technology/wappen/tiny/29.png?lm=4711,2,1,1,0,3:1,2,4,WD
+,7,Leeds United,https://img.a.transfermarkt.technology/wappen/tiny/399.png?lm=4711,2,1,1,0,2:1,1,4,WD
+,8,Brighton & Hove Albion,https://img.a.transfermarkt.technology/wappen/tiny/1237.png?lm=4711,2,1,0,1,7:4,3,3,WL
+,9,Arsenal FC,https://img.a.transfermarkt.technology/wappen/tiny/11.png?lm=4711,1,1,0,0,3:0,3,3,W
+,10,Manchester United,https://img.a.transfermarkt.technology/wappen/tiny/985.png?lm=4711,2,1,0,1,5:4,1,3,LW
+,11,Sunderland AFC,https://img.a.transfermarkt.technology/wappen/tiny/289.png?lm=4711,2,1,0,1,2:2,0,3,LW
+,12,Ipswich Town,https://img.a.transfermarkt.technology/wappen/tiny/677.png?lm=4711,2,1,0,1,4:6,-2,3,WL
+,13,Liverpool FC,https://img.a.transfermarkt.technology/wappen/tiny/31.png?lm=4711,2,0,2,0,4:4,0,2,DD
+,14,AFC Bournemouth,https://img.a.transfermarkt.technology/wappen/tiny/989.png?lm=4711,2,0,1,1,2:3,-1,1,LD
+,15,Nottingham Forest,https://img.a.transfermarkt.technology/wappen/tiny/703.png?lm=4711,2,0,1,1,2:3,-1,1,LD
+,16,Fulham FC,https://img.a.transfermarkt.technology/wappen/tiny/931.png?lm=4711,2,0,0,2,2:4,-2,0,LL
+,17,Aston Villa,https://img.a.transfermarkt.technology/wappen/tiny/405.png?lm=4711,1,0,0,1,0:4,-4,0,L
+,18,Coventry City,https://img.a.transfermarkt.technology/wappen/tiny/990.png?lm=4711,2,0,0,2,0:4,-4,0,LL
+,19,Crystal Palace,https://img.a.transfermarkt.technology/wappen/tiny/873.png?lm=4711,2,0,0,2,1:6,-5,0,LL
+,20,Tottenham Hotspur,https://img.a.transfermarkt.technology/wappen/tiny/148.png?lm=4711,2,0,0,2,0:5,-5,0,LL

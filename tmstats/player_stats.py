@@ -8,7 +8,7 @@ from lxml import html
 
 from .catalog import LEAGUES
 from .identity import canonical_club_identity, normalize_text
-from .source import fetch_json, fetch_text
+from .source import (TransfermarktVerificationError, fetch_json, fetch_text)
 from .storage import read_csv_rows
 
 PLAYER_FIELDS = ['id', 'name', 'shirtNumber', 'positionId',
@@ -503,6 +503,8 @@ def fetch_stats(session: requests.Session, league_key: str, players: List[dict],
                 season,
                 league_label,
             )
+        except TransfermarktVerificationError:
+            raise
         except (requests.RequestException, RuntimeError) as error:
             api_failed = True
             print(
@@ -544,6 +546,8 @@ def fetch_stats(session: requests.Session, league_key: str, players: List[dict],
                         f'{player["name"]} ({player["id"]})',
                         flush=True,
                     )
+            except TransfermarktVerificationError:
+                raise
             except (requests.RequestException, RuntimeError) as error:
                 print(f'Warning: failed to refresh stats for {player["name"]}: '
                       f'{error}', flush=True)

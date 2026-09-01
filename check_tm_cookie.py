@@ -8,7 +8,9 @@ whether Transfermarkt responds with an AWS WAF captcha challenge.
 
 import argparse
 
-from tmstats.refresh import build_session, competition_path, current_season_start_year, request_with_retries
+from tmstats.catalog import LEAGUES
+from tmstats.refresh_context import current_season_start_year
+from tmstats.source import build_session, competition_path, request_with_retries
 
 
 def main() -> int:
@@ -28,7 +30,8 @@ def main() -> int:
     args = parser.parse_args()
 
     season = args.season or current_season_start_year()
-    url = competition_path(args.league, "tabelle", season)
+    page = 'tabelle' if LEAGUES[args.league].family == 'domestic' else 'gesamtspielplan'
+    url = competition_path(args.league, page, season)
 
     session = build_session()
     try:
@@ -43,4 +46,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

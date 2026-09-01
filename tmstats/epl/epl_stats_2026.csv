@@ -1,0 +1,574 @@
+player_id,player_name,number,position,club,league,played,goals,assists,yellow_cards,second_yellows,red_cards,conceded,clean_sheets,minutes
+418560,Erling Haaland,#9,Forward,Manchester City,Premier League,2,2,-,-,-,-,,,180'
+567576,Elliot Anderson,#5,Midfield,Manchester City,Premier League,2,-,-,1,-,-,,,145'
+607223,Rayan Cherki,#10,Midfield,Manchester City,Premier League,2,2,2,1,-,-,,,109'
+1097139,Ayyoub Bouaddi,#32,Midfield,Manchester City,Premier League,1,-,-,-,-,-,,,8'
+583255,Antoine Semenyo,#42,Forward,Manchester City,Premier League,2,-,1,-,-,-,,,180'
+486049,Jérémy Doku,#11,Forward,Manchester City,Premier League,,,,,,,,,
+392757,Marc Guéhi,#6,Defender,Manchester City,Premier League,2,1,-,-,-,-,,,180'
+406635,Phil Foden,#47,Midfield,Manchester City,Premier League,2,-,2,1,-,-,,,172'
+475959,Josko Gvardiol,#24,Defender,Manchester City,Premier League,2,1,1,-,-,-,,,165'
+743413,Nico O'Reilly,#33,Defender,Manchester City,Premier League,2,-,-,-,-,-,,,152'
+258004,Rúben Dias,#3,Defender,Manchester City,Premier League,2,-,-,-,-,-,,,180'
+601883,Matheus Nunes,#27,Defender,Manchester City,Premier League,1,-,-,-,-,-,,,33'
+763079,Abdukodir Khusanov,#45,Defender,Manchester City,Premier League,2,-,-,-,-,-,,,179'
+315858,Gianluigi Donnarumma,#1,Goalkeeper,Manchester City,Premier League,2,-,,-,-,-,2,-,180'
+578391,Rayan Aït-Nouri,#21,Defender,Manchester City,Premier League,,,,,,,,,
+1005575,Vitor Reis,#22,Defender,Manchester City,Premier League,1,-,-,-,-,-,,,1'
+701057,Rico Lewis,#82,Defender,Manchester City,Premier League,1,-,-,-,-,-,,,57'
+1082631,Allan,#0,Forward,Manchester City,Premier League,,,,,,,,,
+203460,Jack Grealish,#18,Forward,Manchester City,Premier League,1,-,-,-,-,-,,,8'
+1245948,Jeremy Monga,#40,Forward,Manchester City,Premier League,,,,,,,,,
+994536,Claudio Echeverri,#30,Midfield,Manchester City,Premier League,,,,,,,,,
+1121298,Juma Bah,#0,Defender,Manchester City,Premier League,,,,,,,,,
+51471,Mateo Kovacic,#8,Midfield,Manchester City,Premier League,2,-,-,-,-,-,,,42'
+229604,Gerónimo Rulli,#28,Goalkeeper,Manchester City,Premier League,,,,,,,,,
+576121,Josh Wilson-Esbrand,#59,Defender,Manchester City,Premier League,,,,,,,,,
+116648,Marcus Bettinelli,#13,Goalkeeper,Manchester City,Premier League,,,,,,,,,
+1187640,Ryan McAidoo,#56,Forward,Manchester City,Premier League,1,-,-,-,-,-,,,8'
+554389,Konstantinos Tzolakis,#19,Goalkeeper,Hull City,Premier League,2,-,,-,-,-,-,2,180'
+670847,Mohamed-Ali Cho,#43,Forward,Hull City,Premier League,1,-,-,-,-,-,,,7'
+503980,Joe Gelhardt,#11,Forward,Hull City,Premier League,,,,,,,,,
+504581,Ryan Giles,#3,Defender,Hull City,Premier League,2,-,-,-,-,-,,,175'
+923535,Jens Hjertø-Dahl,#14,Midfield,Hull City,Premier League,,,,,,,,,
+746357,Charlie Hughes,#4,Defender,Hull City,Premier League,,,,,,,,,
+1279984,Lucas Herrington,#22,Defender,Hull City,Premier League,2,-,-,-,-,-,,,57'
+687622,Elliot Stroud,#21,Forward,Hull City,Premier League,2,-,-,1,-,-,,,130'
+524315,Hidemasa Morita,#5,Midfield,Hull City,Premier League,1,-,-,-,-,-,,,45'
+1034853,Nobel Mendy,#32,Defender,Hull City,Premier League,2,1,-,-,-,-,,,123'
+620313,Lucas Gourna-Douath,#29,Midfield,Hull City,Premier League,1,-,-,-,-,-,,,45'
+857079,Mohamed Belloumi,#10,Forward,Hull City,Premier League,2,-,1,-,-,-,,,173'
+473080,Regan Slater,#27,Midfield,Hull City,Premier League,2,-,1,1,-,-,,,180'
+487417,Liam Millar,#7,Forward,Hull City,Premier League,2,1,-,1,-,-,,,50'
+298477,Oli McBurnie,#9,Forward,Hull City,Premier League,2,-,-,1,-,-,,,180'
+531957,Cody Drameh,#18,Defender,Hull City,Premier League,2,-,-,-,-,-,,,65'
+250478,Matt Targett,#23,Defender,Hull City,Premier League,1,-,-,-,-,-,,,5'
+663264,Darko Gyabi,#24,Midfield,Hull City,Premier League,,,,,,,,,
+271495,Abdülkadir Ömür,#33,Midfield,Hull City,Premier League,,,,,,,,,
+128899,Jack Butland,#1,Goalkeeper,Hull City,Premier League,,,,,,,,,
+535834,Eliot Matazo,#8,Midfield,Hull City,Premier League,,,,,,,,,
+893658,Óscar Zambrano,#20,Midfield,Hull City,Premier League,,,,,,,,,
+167268,Paddy McNair,#17,Defender,Hull City,Premier League,1,-,-,-,-,-,,,26'
+413402,Lewie Coyle,#2,Defender,Hull City,Premier League,2,-,-,1,-,-,,,115'
+121324,John Egan,#15,Defender,Hull City,Premier League,2,-,-,-,-,-,,,180'
+353775,David Akintola,#30,Forward,Hull City,Premier League,,,,,,,,,
+169416,Matt Crooks,#25,Midfield,Hull City,Premier League,1,-,-,1,-,-,,,90'
+251912,Semi Ajayi,#6,Defender,Hull City,Premier League,2,1,-,-,-,-,,,154'
+258916,Kieran Dowell,#26,Midfield,Hull City,Premier League,,,,,,,,,
+729940,Matty Jacob,#16,Defender,Hull City,Premier League,,,,,,,,,
+308431,Dillon Phillips,#12,Goalkeeper,Hull City,Premier League,,,,,,,,,
+503743,Morgan Rogers,#17,Midfield,Chelsea FC,Premier League,2,1,1,-,-,-,,,172'
+687626,Moisés Caicedo,#25,Midfield,Chelsea FC,Premier League,1,-,-,-,-,-,,,14'
+648195,Enzo Fernández,#8,Midfield,Chelsea FC,Premier League,1,-,-,-,-,-,,,25'
+568177,Cole Palmer,#10,Midfield,Chelsea FC,Premier League,2,2,1,-,-,-,,,173'
+626724,João Pedro,#9,Forward,Chelsea FC,Premier League,2,2,2,-,-,-,,,180'
+1056993,Estêvão,#41,Forward,Chelsea FC,Premier League,1,-,-,-,-,-,,,7'
+472423,Reece James,#24,Defender,Chelsea FC,Premier League,2,-,-,1,-,-,,,112'
+487465,Pedro Neto,#7,Forward,Chelsea FC,Premier League,2,1,-,-,-,-,,,82'
+434224,Maxence Lacroix,#5,Defender,Chelsea FC,Premier League,2,-,1,-,-,-,,,180'
+614258,Levi Colwill,#6,Defender,Chelsea FC,Premier League,2,-,-,1,-,-,,,162'
+1138758,Geovany Quenda,#23,Forward,Chelsea FC,Premier League,1,-,-,-,-,-,,,8'
+849410,Valentín Barco,#4,Midfield,Chelsea FC,Premier League,1,-,-,-,-,-,,,8'
+904802,Jorrel Hato,#21,Defender,Chelsea FC,Premier League,2,-,1,-,-,-,,,155'
+620322,Malo Gusto,#27,Defender,Chelsea FC,Premier League,2,-,-,-,-,-,,,166'
+895937,Marco Palestra,#2,Defender,Chelsea FC,Premier League,,,,,,,,,
+670882,Jamie Gittens,#11,Forward,Chelsea FC,Premier League,,,,,,,,,
+475411,Wesley Fofana,#3,Defender,Chelsea FC,Premier League,1,-,-,1,-,-,,,68'
+1004708,Josh Acheampong,#34,Defender,Chelsea FC,Premier League,2,-,-,-,-,-,,,112'
+559328,Emmanuel Emegha,#22,Forward,Chelsea FC,Premier League,,,,,,,,,
+834397,Mike Penders,#39,Goalkeeper,Chelsea FC,Premier League,,,,,,,,,
+628451,Roméo Lavia,#45,Midfield,Chelsea FC,Premier League,2,1,-,1,-,-,,,133'
+403151,Robert Sánchez,#1,Goalkeeper,Chelsea FC,Premier League,1,-,,-,-,-,2,-,90'
+258878,Tosin Adarabioyo,#38,Defender,Chelsea FC,Premier League,,,,,,,,,
+670717,Dário Essugo,#16,Midfield,Chelsea FC,Premier League,,,,,,,,,
+938158,Marc Guiu,#0,Forward,Chelsea FC,Premier League,,,,,,,,,
+111873,Emiliano Martínez,#26,Goalkeeper,Chelsea FC,Premier League,1,-,,-,-,-,3,-,90'
+1145504,Aarón Anselmino,#30,Defender,Chelsea FC,Premier League,,,,,,,,,
+596122,Pep Chavarría,#29,Defender,Chelsea FC,Premier League,2,-,-,-,-,-,,,43'
+1052439,Kendry Páez,#0,Midfield,Chelsea FC,Premier League,,,,,,,,,
+787232,David Datro Fofana,#0,Forward,Chelsea FC,Premier League,,,,,,,,,
+656316,Gabriel Slonina,#44,Goalkeeper,Chelsea FC,Premier League,,,,,,,,,
+67063,Danny Welbeck,#18,Forward,Chelsea FC,Premier League,,,,,,,,,
+61651,Jordan Henderson,#14,Midfield,Chelsea FC,Premier League,,,,,,,,,
+731466,Teddy Sharman-Lowe,#28,Goalkeeper,Chelsea FC,Premier League,,,,,,,,,
+537860,Mykhaylo Mudryk,#33,Forward,Chelsea FC,Premier League,,,,,,,,,
+739443,Igor Thiago,#9,Forward,Brentford FC,Premier League,2,-,-,-,-,-,,,173'
+823486,Michael Kayode,#33,Defender,Brentford FC,Premier League,2,1,-,-,-,-,,,164'
+808348,Mamadou Sangaré,#18,Midfield,Brentford FC,Premier League,2,-,1,-,-,-,,,166'
+823231,Dango Ouattara,#11,Forward,Brentford FC,Premier League,2,-,-,-,-,-,,,96'
+473050,Kevin Schade,#7,Forward,Brentford FC,Premier League,2,1,-,-,-,-,,,178'
+717411,Yegor Yarmolyuk,#6,Midfield,Brentford FC,Premier League,2,-,-,-,-,-,,,44'
+541231,Sepp van den Berg,#4,Defender,Brentford FC,Premier League,,,,,,,,,
+469050,Nathan Collins,#22,Defender,Brentford FC,Premier League,2,-,-,1,-,-,,,180'
+540941,Mikkel Damsgaard,#24,Midfield,Brentford FC,Premier League,2,-,-,-,-,-,,,83'
+1111589,El Hadji Malick Diouf,#25,Defender,Brentford FC,Premier League,,,,,,,,,
+340918,Caoimhín Kelleher,#1,Goalkeeper,Brentford FC,Premier League,2,-,,-,-,-,1,1,180'
+644401,Keane Lewis-Potter,#23,Midfield,Brentford FC,Premier League,2,1,1,-,-,-,,,178'
+328658,Kristoffer Ajer,#20,Defender,Brentford FC,Premier League,2,-,-,1,-,-,,,180'
+684210,Jaidon Anthony,#19,Forward,Brentford FC,Premier League,2,-,-,1,-,-,,,84'
+915418,Jannik Schuster,#44,Defender,Brentford FC,Premier League,,,,,,,,,
+270171,Vitaly Janelt,#27,Midfield,Brentford FC,Premier League,2,1,-,2,-,-,,,180'
+591949,Aaron Hickey,#2,Defender,Brentford FC,Premier League,2,-,-,-,-,-,,,16'
+683620,Antoni Milambo,#17,Midfield,Brentford FC,Premier League,,,,,,,,,
+339556,Rico Henry,#3,Defender,Brentford FC,Premier League,1,-,-,-,-,-,,,2'
+319859,Mathias Jensen,#8,Midfield,Brentford FC,Premier League,1,-,-,-,-,-,,,67'
+1011936,Kaye Furo,#47,Forward,Brentford FC,Premier League,,,,,,,,,
+1086375,Gustavo Nunes,#39,Forward,Brentford FC,Premier League,,,,,,,,,
+559263,Fábio Carvalho,#14,Midfield,Brentford FC,Premier League,,,,,,,,,
+123682,Callum Wilson,#13,Forward,Brentford FC,Premier League,2,-,-,-,-,-,,,9'
+488935,Hákon Valdimarsson,#12,Goalkeeper,Brentford FC,Premier League,,,,,,,,,
+954104,Jayden Meghoma,#21,Defender,Brentford FC,Premier League,,,,,,,,,
+709767,Ji-soo Kim,#36,Defender,Brentford FC,Premier League,,,,,,,,,
+340321,Josh Dasilva,#10,Midfield,Brentford FC,Premier League,,,,,,,,,
+1071138,Benjamin Fredrick,#48,Defender,Brentford FC,Premier League,,,,,,,,,
+456292,Ellery Balcombe,#31,Goalkeeper,Brentford FC,Premier League,,,,,,,,,
+455661,Nick Woltemade,#27,Forward,Newcastle United,Premier League,1,-,1,-,-,-,,,19'
+1067904,Bazoumana Touré,#17,Forward,Newcastle United,Premier League,1,-,-,-,-,-,,,1'
+521964,Malick Thiaw,#12,Defender,Newcastle United,Premier League,2,-,-,-,-,-,,,180'
+503981,Tino Livramento,#2,Defender,Newcastle United,Premier League,,,,,,,,,
+670858,Lewis Hall,#3,Defender,Newcastle United,Premier League,2,-,-,-,-,-,,,180'
+466805,Nico González,#6,Midfield,Newcastle United,Premier League,1,-,-,1,-,-,,,71'
+361093,Sven Botman,#4,Defender,Newcastle United,Premier League,2,-,-,1,-,-,,,180'
+503749,Jacob Ramsey,#41,Midfield,Newcastle United,Premier League,2,-,-,1,-,-,,,42'
+583189,Anthony Elanga,#19,Forward,Newcastle United,Premier League,2,2,-,-,-,-,,,158'
+398065,Harvey Barnes,#11,Forward,Newcastle United,Premier League,2,-,-,-,-,-,,,180'
+609556,William Osula,#10,Forward,Newcastle United,Premier League,1,-,1,-,-,-,,,56'
+922769,Lewis Miley,#67,Midfield,Newcastle United,Premier League,2,-,-,1,-,-,,,166'
+388165,Yoane Wissa,#9,Forward,Newcastle United,Premier League,2,1,1,1,-,-,,,172'
+333241,Joelinton,#7,Midfield,Newcastle United,Premier League,,,,,,,,,
+519184,Amar Dedic,#37,Defender,Newcastle United,Premier League,2,-,1,-,-,-,,,180'
+629773,Lukas Hornicek,#21,Goalkeeper,Newcastle United,Premier League,2,-,,1,-,-,2,1,180'
+975347,Aladji Bamba,#8,Midfield,Newcastle United,Premier League,1,-,-,-,-,-,,,14'
+340329,Joe Willock,#28,Midfield,Newcastle United,Premier League,2,1,-,-,-,-,,,105'
+199527,Jacob Murphy,#23,Forward,Newcastle United,Premier League,2,-,-,1,-,-,,,22'
+923757,Ewen Jaouen,#24,Goalkeeper,Newcastle United,Premier League,,,,,,,,,
+1111063,Sean Steur,#14,Midfield,Newcastle United,Premier League,2,-,-,-,-,-,,,75'
+192080,Nick Pope,#1,Goalkeeper,Newcastle United,Premier League,,,,,,,,,
+135343,Fabian Schär,#5,Defender,Newcastle United,Premier League,1,-,-,-,-,-,,,1'
+134270,Dan Burn,#33,Defender,Newcastle United,Premier League,,,,,,,,,
+142389,Mark Gillespie,#29,Goalkeeper,Newcastle United,Premier League,,,,,,,,,
+940858,Leo Shahar,#51,Defender,Newcastle United,Premier League,,,,,,,,,
+623570,Iliman Ndiaye,#10,Forward,Everton FC,Premier League,2,-,1,-,-,-,,,180'
+505219,James Garner,#37,Midfield,Everton FC,Premier League,2,-,-,1,-,-,,,73'
+661053,Jarrad Branthwaite,#4,Defender,Everton FC,Premier League,2,-,-,-,-,-,,,180'
+475188,Kiernan Dewsbury-Hall,#8,Midfield,Everton FC,Premier League,2,1,-,-,-,-,,,180'
+538216,Hayden Hackney,#30,Midfield,Everton FC,Premier League,2,-,-,-,-,-,,,107'
+937941,Thierno Barry,#11,Forward,Everton FC,Premier League,2,1,-,-,-,-,,,149'
+470607,Brennan Johnson,#22,Forward,Everton FC,Premier League,2,-,-,-,-,-,,,34'
+404842,Vitaliy Mykolenko,#16,Defender,Everton FC,Premier League,2,-,-,-,-,-,,,180'
+936874,Tyrique George,#19,Forward,Everton FC,Premier League,2,-,-,-,-,-,,,146'
+711544,Jake O'Brien,#15,Defender,Everton FC,Premier League,,,,,,,,,
+696589,Tim Iroegbunam,#42,Midfield,Everton FC,Premier League,1,-,-,-,-,-,,,3'
+595809,Beto,#9,Forward,Everton FC,Premier League,2,-,-,-,-,-,,,31'
+866655,Tyler Dibling,#20,Forward,Everton FC,Premier League,,,,,,,,,
+608832,Merlin Röhl,#34,Midfield,Everton FC,Premier League,2,-,-,-,-,-,,,177'
+748319,Carlos Alcaraz,#24,Midfield,Everton FC,Premier League,2,-,-,1,-,-,,,4'
+130164,Jordan Pickford,#1,Goalkeeper,Everton FC,Premier League,2,-,,-,-,-,1,1,180'
+1107733,Harrison Armstrong,#45,Midfield,Everton FC,Premier League,2,-,1,-,-,-,,,177'
+424015,Nathan Patterson,#2,Defender,Everton FC,Premier League,,,,,,,,,
+938146,Adam Aznou,#39,Defender,Everton FC,Premier League,,,,,,,,,
+173504,James Tarkowski,#6,Defender,Everton FC,Premier League,2,1,-,-,-,-,,,180'
+148367,Christian Nørgaard,#23,Midfield,Everton FC,Premier League,,,,,,,,,
+357658,Mark Travers,#12,Goalkeeper,Everton FC,Premier League,,,,,,,,,
+118534,Michael Keane,#5,Defender,Everton FC,Premier League,,,,,,,,,
+215810,Tom King,#31,Goalkeeper,Everton FC,Premier League,,,,,,,,,
+679423,Tarik Muharemović,#5,Defender,Leeds United,Premier League,2,-,-,-,-,-,,,180'
+392771,Ethan Ampadu,#4,Midfield,Leeds United,Premier League,2,-,-,-,-,-,,,180'
+344069,Anton Stach,#18,Midfield,Leeds United,Premier League,2,1,-,-,-,-,,,180'
+566799,James Trafford,#1,Goalkeeper,Leeds United,Premier League,2,-,,-,-,-,1,1,180'
+279455,Harry Wilson,#10,Forward,Leeds United,Premier League,2,-,-,-,-,-,,,111'
+346890,Noah Okafor,#19,Forward,Leeds United,Premier League,2,-,-,-,-,-,,,93'
+393323,Brenden Aaronson,#11,Midfield,Leeds United,Premier League,2,-,-,-,-,-,,,127'
+306024,Dominic Calvert-Lewin,#9,Forward,Leeds United,Premier League,2,1,-,1,-,-,,,180'
+362108,Gabriel Gudmundsson,#3,Defender,Leeds United,Premier League,,,,,,,,,
+371851,Jaka Bijol,#15,Defender,Leeds United,Premier League,2,-,-,-,-,-,,,135'
+297212,Joe Rodon,#6,Defender,Leeds United,Premier League,2,-,-,-,-,-,,,124'
+627626,Wilfried Gnonto,#29,Forward,Leeds United,Premier League,,,,,,,,,
+346707,Sean Longstaff,#8,Midfield,Leeds United,Premier League,1,-,-,-,-,-,,,8'
+465717,Jayden Bogle,#2,Defender,Leeds United,Premier League,2,-,-,-,-,-,,,158'
+489359,Ao Tanaka,#22,Midfield,Leeds United,Premier League,1,-,-,-,-,-,,,45'
+381753,Ilia Gruev,#44,Midfield,Leeds United,Premier League,,,,,,,,,
+413220,James Justin,#24,Defender,Leeds United,Premier League,2,-,-,-,-,-,,,180'
+319301,Daniel James,#7,Forward,Leeds United,Premier League,1,-,-,-,-,-,,,22'
+314288,Lukas Nmecha,#14,Forward,Leeds United,Premier League,1,-,1,-,-,-,,,21'
+518644,Largie Ramazani,#0,Forward,Leeds United,Premier League,,,,,,,,,
+192635,Nico Elvedi,#30,Defender,Leeds United,Premier League,1,-,-,-,-,-,,,56'
+196813,Michael Zetterer,#0,Goalkeeper,Leeds United,Premier League,,,,,,,,,
+834742,Mateo Joseph,#0,Forward,Leeds United,Premier League,,,,,,,,,
+194386,Alex Cairns,#21,Goalkeeper,Leeds United,Premier League,,,,,,,,,
+892160,Luka Vuskovic,#44,Defender,Brighton & Hove Albion,Premier League,2,-,-,-,-,-,,,180'
+1012534,Yankuba Minteh,#11,Forward,Brighton & Hove Albion,Premier League,,,,,,,,,
+667287,Yasin Ayari,#26,Midfield,Brighton & Hove Albion,Premier League,1,-,-,1,-,-,,,64'
+565093,Bart Verbruggen,#1,Goalkeeper,Brighton & Hove Albion,Premier League,2,-,,-,-,-,4,1,180'
+369316,Ferdi Kadıoğlu,#24,Defender,Brighton & Hove Albion,Premier League,1,-,-,-,-,-,,,90'
+538977,Georginio Rutter,#10,Forward,Brighton & Hove Albion,Premier League,1,-,1,-,-,-,,,90'
+867688,Jack Hinshelwood,#8,Midfield,Brighton & Hove Albion,Premier League,1,2,-,-,-,-,,,64'
+996897,Diego Gómez,#25,Midfield,Brighton & Hove Albion,Premier League,2,-,1,-,-,-,,,176'
+415381,Mats Wieffer,#27,Defender,Brighton & Hove Albion,Premier League,2,-,-,-,-,-,,,158'
+1060087,Charalampos Kostoulas,#19,Forward,Brighton & Hove Albion,Premier League,2,-,-,-,-,-,,,106'
+410708,Pascal Struijk,#4,Defender,Brighton & Hove Albion,Premier League,,,,,,,,,
+429915,Maxim De Cuyper,#29,Defender,Brighton & Hove Albion,Premier League,2,1,-,-,-,-,,,168'
+504849,Kaoru Mitoma,#7,Forward,Brighton & Hove Albion,Premier League,,,,,,,,,
+648046,Evan Ferguson,#28,Forward,Brighton & Hove Albion,Premier League,,,,,,,,,
+950091,Stefanos Tzimas,#9,Forward,Brighton & Hove Albion,Premier League,,,,,,,,,
+406634,Matt O'Riley,#33,Midfield,Brighton & Hove Albion,Premier League,,,,,,,,,
+1421433,Zadok Yohanna,#36,Forward,Brighton & Hove Albion,Premier League,1,-,-,-,-,-,,,12'
+888785,Promise David,#12,Forward,Brighton & Hove Albion,Premier League,1,-,-,-,-,-,,,10'
+318508,Olivier Boscagli,#21,Defender,Brighton & Hove Albion,Premier League,2,-,-,1,-,-,,,180'
+1178758,Malick Yalcouyé,#35,Midfield,Brighton & Hove Albion,Premier League,2,1,-,-,-,-,,,78'
+380350,Igor Julio,#3,Defender,Brighton & Hove Albion,Premier League,,,,,,,,,
+539252,Costinha,#20,Defender,Brighton & Hove Albion,Premier League,2,-,-,1,-,-,,,36'
+1110406,Ibrahim Osman,#15,Forward,Brighton & Hove Albion,Premier League,2,-,-,-,-,-,,,28'
+750903,Jaouen Hadjam,#6,Defender,Brighton & Hove Albion,Premier League,,,,,,,,,
+581330,Eiran Cashin,#16,Defender,Brighton & Hove Albion,Premier League,,,,,,,,,
+878150,Amario Cozier-Duberry,#22,Forward,Brighton & Hove Albion,Premier League,,,,,,,,,
+438961,Michael Svoboda,#30,Defender,Brighton & Hove Albion,Premier League,,,,,,,,,
+148153,Lewis Dunk,#5,Defender,Brighton & Hove Albion,Premier League,2,-,-,1,-,-,,,180'
+82873,Pascal Groß,#13,Midfield,Brighton & Hove Albion,Premier League,2,1,1,1,-,-,,,180'
+1420635,Matías Orozco,#0,Midfield,Brighton & Hove Albion,Premier League,,,,,,,,,
+73564,Jason Steele,#23,Goalkeeper,Brighton & Hove Albion,Premier League,,,,,,,,,
+406556,Tom McGill,#38,Goalkeeper,Brighton & Hove Albion,Premier League,,,,,,,,,
+357662,Declan Rice,#41,Midfield,Arsenal FC,Premier League,1,-,-,-,-,-,,,68'
+433177,Bukayo Saka,#7,Forward,Arsenal FC,Premier League,1,1,-,-,-,-,,,68'
+495666,William Saliba,#2,Defender,Arsenal FC,Premier League,,,,,,,,,
+423440,Martín Zubimendi,#36,Midfield,Arsenal FC,Premier League,1,-,-,-,-,-,,,22'
+435338,Gabriel,#6,Defender,Arsenal FC,Premier League,1,-,-,1,-,-,,,90'
+520624,Bruno Guimarães,#39,Midfield,Arsenal FC,Premier League,,,,,,,,,
+316264,Martin Ødegaard,#8,Midfield,Arsenal FC,Premier League,1,1,-,-,-,-,,,76'
+420243,Jurriën Timber,#12,Defender,Arsenal FC,Premier League,,,,,,,,,
+325443,Viktor Gyökeres,#14,Forward,Arsenal FC,Premier League,,,,,,,,,
+479999,Eberechi Eze,#10,Midfield,Arsenal FC,Premier League,1,-,-,-,-,-,,,14'
+309400,Kai Havertz,#29,Forward,Arsenal FC,Premier League,1,1,-,-,-,-,,,90'
+502821,Riccardo Calafiori,#33,Defender,Arsenal FC,Premier League,1,-,1,-,-,-,,,81'
+503987,Noni Madueke,#20,Forward,Arsenal FC,Premier League,1,-,-,-,-,-,,,22'
+659813,Piero Hincapié,#5,Defender,Arsenal FC,Premier League,1,-,-,-,-,-,,,9'
+890721,Myles Lewis-Skelly,#49,Defender,Arsenal FC,Premier League,1,-,-,-,-,-,,,90'
+413403,Ezri Konsa,#15,Defender,Arsenal FC,Premier League,,,,,,,,,
+655488,Gabriel Martinelli,#11,Forward,Arsenal FC,Premier League,,,,,,,,,
+451677,Christos Tzolis,#17,Forward,Arsenal FC,Premier League,1,-,-,-,-,-,,,76'
+646750,Cristhian Mosquera,#3,Defender,Arsenal FC,Premier League,1,-,-,-,-,-,,,90'
+890719,Ethan Nwaneri,#22,Midfield,Arsenal FC,Premier League,,,,,,,,,
+1187629,Max Dowman,#56,Forward,Arsenal FC,Premier League,,,,,,,,,
+335721,Ben White,#4,Defender,Arsenal FC,Premier League,1,-,1,-,-,-,,,90'
+262749,David Raya,#1,Goalkeeper,Arsenal FC,Premier League,1,-,,-,-,-,-,1,90'
+338424,Mikel Merino,#23,Midfield,Arsenal FC,Premier League,1,-,-,-,-,-,,,14'
+537598,Fábio Vieira,#21,Midfield,Arsenal FC,Premier League,,,,,,,,,
+363205,Gabriel Jesus,#9,Forward,Arsenal FC,Premier League,,,,,,,,,
+542586,Illan Meslier,#30,Goalkeeper,Arsenal FC,Premier League,,,,,,,,,
+192279,Kepa Arrizabalaga,#13,Goalkeeper,Arsenal FC,Premier League,,,,,,,,,
+848753,Tommy Setford,#35,Goalkeeper,Arsenal FC,Premier League,,,,,,,,,
+627442,Benjamin Sesko,#30,Forward,Manchester United,Premier League,2,-,-,-,-,-,,,33'
+413039,Bryan Mbeumo,#19,Forward,Manchester United,Premier League,2,1,-,1,-,-,,,180'
+517894,Matheus Cunha,#10,Forward,Manchester United,Premier League,2,-,2,-,-,-,,,160'
+820374,Kobbie Mainoo,#37,Midfield,Manchester United,Premier League,2,-,-,-,-,-,,,103'
+973085,Carlos Baleba,#20,Midfield,Manchester United,Premier League,,,,,,,,,
+923831,Leny Yoro,#15,Defender,Manchester United,Premier League,1,-,-,-,-,-,,,16'
+536835,Amad Diallo,#16,Forward,Manchester United,Premier League,,,,,,,,,
+480762,Lisandro Martínez,#6,Defender,Manchester United,Premier League,1,-,-,-,-,-,,,90'
+249565,Youri Tielemans,#18,Midfield,Manchester United,Premier League,2,-,-,-,-,-,,,157'
+258923,Marcus Rashford,#9,Forward,Manchester United,Premier League,2,-,-,-,-,-,,,125'
+743600,Andrey Santos,#17,Midfield,Manchester United,Premier League,2,-,-,-,-,-,,,77'
+926952,Patrick Dorgu,#13,Forward,Manchester United,Premier League,2,-,-,1,-,-,,,55'
+240306,Bruno Fernandes,#8,Midfield,Manchester United,Premier League,2,3,1,-,-,-,,,180'
+503883,Senne Lammens,#1,Goalkeeper,Manchester United,Premier League,2,-,,-,-,-,4,-,180'
+1078163,Ayden Heaven,#26,Defender,Manchester United,Premier League,1,-,-,-,-,-,,,90'
+357147,Diogo Dalot,#2,Defender,Manchester United,Premier League,2,-,-,-,-,-,,,84'
+326031,Matthijs de Ligt,#4,Defender,Manchester United,Premier League,,,,,,,,,
+476701,Manuel Ugarte,#25,Midfield,Manchester United,Premier League,,,,,,,,,
+346483,Mason Mount,#7,Midfield,Manchester United,Premier League,,,,,,,,,
+435648,Joshua Zirkzee,#11,Forward,Manchester United,Premier League,,,,,,,,,
+340456,Noussair Mazraoui,#3,Defender,Manchester United,Premier League,2,-,-,-,-,-,,,97'
+183288,Luke Shaw,#23,Defender,Manchester United,Premier League,2,-,-,-,-,-,,,163'
+177907,Harry Maguire,#5,Defender,Manchester United,Premier League,2,-,1,-,-,-,,,180'
+1011738,Harry Amass,#41,Defender,Manchester United,Premier League,,,,,,,,,
+926309,Shea Lacey,#31,Forward,Manchester United,Premier League,1,-,-,-,-,-,,,10'
+1011140,Jack Fletcher,#38,Midfield,Manchester United,Premier League,,,,,,,,,
+1049911,Tyler Fletcher,#39,Midfield,Manchester United,Premier League,,,,,,,,,
+99397,Karl Darlow,#12,Goalkeeper,Manchester United,Premier League,,,,,,,,,
+34130,Tom Heaton,#22,Goalkeeper,Manchester United,Premier League,,,,,,,,,
+620362,Dermot Mee,#45,Goalkeeper,Manchester United,Premier League,,,,,,,,,
+473169,Brian Brobbey,#9,Forward,Sunderland AFC,Premier League,2,-,-,-,-,-,,,131'
+876631,Habib Diarra,#19,Midfield,Sunderland AFC,Premier League,2,-,1,-,-,-,,,28'
+727089,Noah Sadiki,#27,Midfield,Sunderland AFC,Premier League,2,-,-,-,-,-,,,180'
+633992,Enzo Le Fée,#28,Midfield,Sunderland AFC,Premier League,2,-,-,-,-,-,,,170'
+646991,Robin Roefs,#22,Goalkeeper,Sunderland AFC,Premier League,2,-,,-,-,-,2,1,180'
+947411,Chris Rigg,#11,Midfield,Sunderland AFC,Premier League,2,-,-,-,-,-,,,17'
+743384,Chemsdine Talbi,#7,Forward,Sunderland AFC,Premier League,1,-,-,-,-,-,,,31'
+515544,Trai Hume,#32,Defender,Sunderland AFC,Premier League,2,-,-,-,-,-,,,170'
+658536,Simon Adingra,#24,Forward,Sunderland AFC,Premier League,,,,,,,,,
+503686,Dan Ballard,#5,Defender,Sunderland AFC,Premier League,2,-,-,1,-,-,,,180'
+1191444,Dayann Méthalie,#6,Defender,Sunderland AFC,Premier League,,,,,,,,,
+494237,Wilson Isidor,#18,Forward,Sunderland AFC,Premier League,2,1,-,-,-,-,,,49'
+903611,Nilson Angulo,#10,Forward,Sunderland AFC,Premier League,2,1,-,1,-,-,,,124'
+348026,Nordi Mukiele,#20,Defender,Sunderland AFC,Premier League,1,-,-,-,-,-,,,90'
+353032,Omar Alderete,#15,Defender,Sunderland AFC,Premier League,1,-,-,-,-,-,,,23'
+111455,Granit Xhaka,#34,Midfield,Sunderland AFC,Premier League,2,-,-,-,-,-,,,180'
+696181,Romaine Mundle,#14,Forward,Sunderland AFC,Premier League,1,-,-,-,-,-,,,1'
+240692,Reinildo Mandava,#17,Defender,Sunderland AFC,Premier League,2,-,-,-,-,-,,,180'
+605426,Melker Ellborg,#31,Goalkeeper,Sunderland AFC,Premier League,,,,,,,,,
+1322090,Jocelin Ta Bi,#37,Forward,Sunderland AFC,Premier League,,,,,,,,,
+277697,Alan Browne,#8,Midfield,Sunderland AFC,Premier League,,,,,,,,,
+654412,Abdoullah Ba,#46,Midfield,Sunderland AFC,Premier League,,,,,,,,,
+100986,Thomas Meunier,#12,Defender,Sunderland AFC,Premier League,2,-,-,-,-,-,,,180'
+502065,Aji Alese,#42,Defender,Sunderland AFC,Premier League,,,,,,,,,
+282939,Luke O'Nien,#13,Defender,Sunderland AFC,Premier League,1,-,-,1,-,-,,,67'
+840687,Luís Semedo,#0,Forward,Sunderland AFC,Premier League,,,,,,,,,
+1401779,Jules Ahoka,#29,Midfield,Sunderland AFC,Premier League,,,,,,,,,
+123536,Simon Moore,#21,Goalkeeper,Sunderland AFC,Premier League,,,,,,,,,
+660867,Julio Enciso,#10,Midfield,Ipswich Town,Premier League,2,-,2,-,-,-,,,161'
+401578,Exequiel Palacios,#25,Midfield,Ipswich Town,Premier League,1,-,-,-,-,-,,,28'
+665390,Jaden Philogene,#11,Forward,Ipswich Town,Premier League,,,,,,,,,
+596446,Leif Davis,#3,Defender,Ipswich Town,Premier League,2,1,-,-,-,-,,,180'
+864121,Abdul Fatawu,#7,Forward,Ipswich Town,Premier League,2,-,1,1,-,-,,,149'
+559794,Jack Clarke,#47,Forward,Ipswich Town,Premier League,1,1,-,-,-,-,,,19'
+401320,Dara O'Shea,#26,Defender,Ipswich Town,Premier League,2,-,-,-,-,-,,,180'
+357162,Florentino,#12,Midfield,Ipswich Town,Premier League,,,,,,,,,
+530813,Anis Mehmeti,#33,Midfield,Ipswich Town,Premier League,,,,,,,,,
+923504,Sindre Walle Egeli,#8,Forward,Ipswich Town,Premier League,1,-,-,-,-,-,,,10'
+991487,Abdoul Ouattara,#42,Defender,Ipswich Town,Premier League,2,-,-,-,-,-,,,27'
+715558,Marcelino Núñez,#32,Midfield,Ipswich Town,Premier League,2,-,-,-,-,-,,,142'
+693095,Jacob Greaves,#24,Defender,Ipswich Town,Premier League,2,-,-,1,-,-,,,180'
+420931,Daizen Maeda,#38,Forward,Ipswich Town,Premier League,2,-,-,-,-,-,,,153'
+315145,Azor Matusiwa,#5,Midfield,Ipswich Town,Premier League,,,,,,,,,
+245056,Saša Lukić,#23,Midfield,Ipswich Town,Premier League,2,-,1,1,-,-,,,163'
+621193,Kasey McAteer,#20,Midfield,Ipswich Town,Premier League,2,-,-,-,-,-,,,31'
+743599,Emersonn,#19,Forward,Ipswich Town,Premier League,2,1,-,-,-,-,,,111'
+463527,Kjell Scherpen,#37,Goalkeeper,Ipswich Town,Premier League,2,-,,-,-,-,6,-,180'
+272622,Issa Diop,#6,Defender,Ipswich Town,Premier League,2,-,-,-,-,-,,,180'
+392591,Chiedozie Ogbene,#21,Forward,Ipswich Town,Premier League,,,,,,,,,
+197642,Chuba Akpom,#29,Forward,Ipswich Town,Premier League,2,1,-,-,-,-,,,69'
+458178,Jack Taylor,#14,Midfield,Ipswich Town,Premier League,,,,,,,,,
+351755,Darnell Furlong,#2,Defender,Ipswich Town,Premier League,1,-,-,-,-,-,,,17'
+208379,Christian Walton,#28,Goalkeeper,Ipswich Town,Premier League,,,,,,,,,
+364827,Cédric Kipré,#4,Defender,Ipswich Town,Premier League,,,,,,,,,
+245625,Alex Palmer,#1,Goalkeeper,Ipswich Town,Premier League,,,,,,,,,
+871335,Cameron Humphreys,#30,Midfield,Ipswich Town,Premier League,,,,,,,,,
+61814,David Button,#27,Goalkeeper,Ipswich Town,Premier League,,,,,,,,,
+451276,Dominik Szoboszlai,#8,Midfield,Liverpool FC,Premier League,2,1,-,-,-,-,,,180'
+598577,Florian Wirtz,#7,Midfield,Liverpool FC,Premier League,2,-,1,1,-,-,,,153'
+708265,Bradley Barcola,#29,Forward,Liverpool FC,Premier League,,,,,,,,,
+349066,Alexander Isak,#9,Forward,Liverpool FC,Premier League,2,1,-,-,-,-,,,180'
+709726,Hugo Ekitiké,#22,Forward,Liverpool FC,Premier League,,,,,,,,,
+478573,Ryan Gravenberch,#38,Midfield,Liverpool FC,Premier League,2,-,1,-,-,-,,,97'
+534033,Alexis Mac Allister,#10,Midfield,Liverpool FC,Premier League,2,-,-,-,-,-,,,104'
+434675,Cody Gakpo,#18,Forward,Liverpool FC,Premier League,2,1,1,-,-,-,,,161'
+1004301,Jérémy Jacquet,#5,Defender,Liverpool FC,Premier League,2,-,-,-,-,-,,,147'
+730861,Milos Kerkez,#6,Defender,Liverpool FC,Premier League,2,-,-,1,-,-,,,161'
+484547,Jeremie Frimpong,#30,Defender,Liverpool FC,Premier League,2,-,-,1,-,-,,,161'
+1108466,Rio Ngumoha,#73,Forward,Liverpool FC,Premier League,2,-,-,-,-,-,,,82'
+935231,Víctor Muñoz,#23,Forward,Liverpool FC,Premier League,2,1,1,1,-,-,,,117'
+502676,Giorgi Mamardashvili,#25,Goalkeeper,Liverpool FC,Premier League,,,,,,,,,
+624258,Conor Bradley,#12,Defender,Liverpool FC,Premier League,,,,,,,,,
+1086619,Giovanni Leoni,#15,Defender,Liverpool FC,Premier League,,,,,,,,,
+565822,Harvey Elliott,#19,Midfield,Liverpool FC,Premier League,,,,,,,,,
+480267,Ronald Araujo,#33,Defender,Liverpool FC,Premier League,2,-,-,1,-,-,,,33'
+105470,Alisson,#1,Goalkeeper,Liverpool FC,Premier League,2,-,,1,-,-,4,-,180'
+139208,Virgil van Dijk,#4,Defender,Liverpool FC,Premier League,2,-,-,1,-,-,,,180'
+341092,Federico Chiesa,#14,Forward,Liverpool FC,Premier League,,,,,,,,,
+256178,Joe Gomez,#2,Defender,Liverpool FC,Premier League,,,,,,,,,
+1045123,Trey Nyoni,#42,Midfield,Liverpool FC,Premier League,1,-,-,-,-,-,,,13'
+486604,Vitezslav Jaros,#56,Goalkeeper,Liverpool FC,Premier League,,,,,,,,,
+338070,Konstantinos Tsimikas,#21,Defender,Liverpool FC,Premier League,1,-,-,-,-,-,,,19'
+864799,Stefan Bajcetic,#43,Midfield,Liverpool FC,Premier League,,,,,,,,,
+146310,Wataru Endo,#3,Midfield,Liverpool FC,Premier League,,,,,,,,,
+226049,Freddie Woodman,#28,Goalkeeper,Liverpool FC,Premier League,,,,,,,,,
+706815,Harvey Davies,#95,Goalkeeper,Liverpool FC,Premier League,,,,,,,,,
+955357,Junior Kroupi,#22,Forward,AFC Bournemouth,Premier League,,,,,,,,,
+1012564,Rayan,#37,Forward,AFC Bournemouth,Premier League,2,-,-,-,-,-,,,179'
+855256,Alex Scott,#8,Midfield,AFC Bournemouth,Premier League,2,1,-,1,-,-,,,177'
+711337,Evanilson,#9,Forward,AFC Bournemouth,Premier League,2,-,2,1,-,-,,,156'
+654539,Adrien Truffert,#3,Defender,AFC Bournemouth,Premier League,2,-,-,-,-,-,,,180'
+465555,Djordje Petrovic,#1,Goalkeeper,AFC Bournemouth,Premier League,2,-,,-,-,-,3,-,180'
+330659,Justin Kluivert,#19,Midfield,AFC Bournemouth,Premier League,2,-,-,-,-,-,,,156'
+332705,Tyler Adams,#12,Midfield,AFC Bournemouth,Premier League,2,-,-,-,-,-,,,36'
+399434,Marcus Tavernier,#16,Midfield,AFC Bournemouth,Premier League,2,1,-,1,-,-,,,180'
+463605,Bafodé Diakité,#18,Defender,AFC Bournemouth,Premier League,,,,,,,,,
+650568,António Silva,#14,Defender,AFC Bournemouth,Premier League,2,-,-,1,-,-,,,180'
+611793,James Hill,#5,Defender,AFC Bournemouth,Premier League,2,-,-,-,-,-,,,180'
+532776,Amine Adli,#21,Forward,AFC Bournemouth,Premier League,,,,,,,,,
+989112,Veljko Milosavljevic,#44,Defender,AFC Bournemouth,Premier League,,,,,,,,,
+719673,Ben Gannon-Doak,#11,Forward,AFC Bournemouth,Premier League,1,-,-,-,-,-,,,1'
+998101,Alex Tóth,#27,Midfield,AFC Bournemouth,Premier League,1,-,-,-,-,-,,,15'
+277033,David Brooks,#7,Forward,AFC Bournemouth,Premier League,1,-,-,-,-,-,,,9'
+249089,Lewis Cook,#4,Midfield,AFC Bournemouth,Premier League,2,-,-,-,-,-,,,144'
+301238,Michele Di Gregorio,#20,Goalkeeper,AFC Bournemouth,Premier League,,,,,,,,,
+676042,Juanlu Sánchez,#24,Defender,AFC Bournemouth,Premier League,,,,,,,,,
+948275,Álvaro Rodríguez,#30,Forward,AFC Bournemouth,Premier League,1,-,-,-,-,-,,,9'
+1009658,Julio Soler,#6,Defender,AFC Bournemouth,Premier League,,,,,,,,,
+513970,Julián Araujo,#2,Defender,AFC Bournemouth,Premier League,,,,,,,,,
+188077,Ryan Christie,#10,Midfield,AFC Bournemouth,Premier League,1,-,-,-,-,-,,,3'
+746740,Daniel Jebbison,#29,Forward,AFC Bournemouth,Premier League,1,-,-,-,-,-,,,15'
+471690,Max Aarons,#28,Defender,AFC Bournemouth,Premier League,,,,,,,,,
+52570,Fraser Forster,#17,Goalkeeper,AFC Bournemouth,Premier League,,,,,,,,,
+854721,Ben Winterburn,#47,Midfield,AFC Bournemouth,Premier League,,,,,,,,,
+61841,Adam Smith,#15,Defender,AFC Bournemouth,Premier League,2,-,-,1,-,-,,,180'
+429014,Morgan Gibbs-White,#10,Midfield,Nottingham Forest,Premier League,2,1,1,-,-,-,,,180'
+1005649,Murillo,#5,Defender,Nottingham Forest,Premier League,2,-,-,-,-,-,,,180'
+974982,Ousmane Diomande,#2,Defender,Nottingham Forest,Premier League,,,,,,,,,
+365108,Dan Ndoye,#14,Forward,Nottingham Forest,Premier League,2,1,-,-,-,-,,,128'
+741238,Omari Hutchinson,#20,Forward,Nottingham Forest,Premier League,,,,,,,,,
+392768,Callum Hudson-Odoi,#7,Forward,Nottingham Forest,Premier League,1,-,-,-,-,-,,,1'
+610849,Liam Delap,#19,Forward,Nottingham Forest,Premier League,1,-,-,-,-,-,,,24'
+413507,Nikola Milenković,#31,Defender,Nottingham Forest,Premier League,2,-,-,-,-,-,,,180'
+503680,Neco Williams,#3,Defender,Nottingham Forest,Premier League,2,-,1,-,-,-,,,180'
+585959,Arnaud Kalimuendo,#15,Forward,Nottingham Forest,Premier League,1,-,-,-,-,-,,,1'
+432164,Igor Jesus,#11,Forward,Nottingham Forest,Premier League,2,-,-,1,-,-,,,180'
+493003,Daniel Muñoz,#27,Defender,Nottingham Forest,Premier League,1,-,-,-,-,-,,,55'
+375885,Ibrahim Sangaré,#6,Midfield,Nottingham Forest,Premier League,1,-,-,-,-,-,,,90'
+583199,James McAtee,#24,Midfield,Nottingham Forest,Premier League,2,-,-,-,-,-,,,164'
+236490,Ola Aina,#34,Defender,Nottingham Forest,Premier League,2,-,-,2,-,-,,,160'
+497291,Nicolás Domínguez,#8,Midfield,Nottingham Forest,Premier League,1,-,-,-,-,-,,,1'
+708072,Nicolò Savona,#37,Defender,Nottingham Forest,Premier League,,,,,,,,,
+984096,Jair Cunha,#23,Defender,Nottingham Forest,Premier League,2,-,-,1,-,-,,,180'
+673492,Morato,#4,Defender,Nottingham Forest,Premier League,,,,,,,,,
+223979,Xaver Schlager,#21,Midfield,Nottingham Forest,Premier League,2,-,-,-,-,-,,,106'
+524285,Luca Netz,#25,Defender,Nottingham Forest,Premier League,2,-,-,-,-,-,,,20'
+425902,Ryan Yates,#22,Midfield,Nottingham Forest,Premier League,,,,,,,,,
+432914,John Victor,#12,Goalkeeper,Nottingham Forest,Premier League,,,,,,,,,
+108725,Chris Wood,#9,Forward,Nottingham Forest,Premier League,1,-,-,-,-,-,,,28'
+933017,Zach Abbott,#44,Defender,Nottingham Forest,Premier League,,,,,,,,,
+127202,Matz Sels,#26,Goalkeeper,Nottingham Forest,Premier League,2,-,,-,-,-,3,-,180'
+381469,Steven Benda,#33,Goalkeeper,Nottingham Forest,Premier League,,,,,,,,,
+935230,Gonzalo García,#7,Forward,Fulham FC,Premier League,2,1,-,-,-,-,,,180'
+661207,Oscar Bobb,#14,Forward,Fulham FC,Premier League,2,-,-,-,-,-,,,135'
+461883,Calvin Bassey,#3,Defender,Fulham FC,Premier League,2,-,-,1,-,-,,,180'
+900195,Kevin,#11,Forward,Fulham FC,Premier League,2,-,-,-,-,-,,,24'
+333014,Sander Berge,#16,Midfield,Fulham FC,Premier League,2,-,-,-,-,-,,,156'
+1011131,Josh King,#24,Midfield,Fulham FC,Premier League,2,1,-,-,-,-,,,180'
+349701,Antonee Robinson,#33,Defender,Fulham FC,Premier League,2,-,-,-,-,-,,,172'
+392775,Ryan Sessegnon,#30,Defender,Fulham FC,Premier League,2,-,-,-,-,-,,,39'
+242631,Alex Iwobi,#17,Forward,Fulham FC,Premier League,2,-,-,-,-,-,,,180'
+260827,Joachim Andersen,#5,Defender,Fulham FC,Premier League,1,-,-,1,-,-,,,90'
+392765,Emile Smith Rowe,#32,Midfield,Fulham FC,Premier League,1,-,-,-,-,-,,,13'
+735571,Rodrigo Muniz,#9,Forward,Fulham FC,Premier League,1,-,-,-,-,-,,,8'
+747951,Shea Charles,#19,Midfield,Fulham FC,Premier League,2,-,-,-,-,-,,,45'
+262226,Timothy Castagne,#21,Defender,Fulham FC,Premier League,2,-,1,1,-,-,,,158'
+206746,Kenny Tete,#2,Defender,Fulham FC,Premier League,,,,,,,,,
+494880,Jorge Cuenca,#4,Defender,Fulham FC,Premier League,1,-,-,-,-,-,,,90'
+948272,César Palacios,#8,Midfield,Fulham FC,Premier League,2,-,-,1,-,-,,,150'
+72476,Bernd Leno,#1,Goalkeeper,Fulham FC,Premier League,2,-,,-,-,-,4,-,180'
+921995,Luc De Fougerolles,#44,Defender,Fulham FC,Premier League,,,,,,,,,
+1069512,Jonah Kusi-Asare,#18,Forward,Fulham FC,Premier League,,,,,,,,,
+226973,Harrison Reed,#6,Midfield,Fulham FC,Premier League,,,,,,,,,
+127181,Benjamin Lecomte,#23,Goalkeeper,Fulham FC,Premier League,,,,,,,,,
+123275,Tom Cairney,#10,Midfield,Fulham FC,Premier League,,,,,,,,,
+817613,Alex Borto,#36,Goalkeeper,Fulham FC,Premier League,,,,,,,,,
+927353,Johan Manzambi,#44,Midfield,Aston Villa,Premier League,,,,,,,,,
+485706,Amadou Onana,#24,Midfield,Aston Villa,Premier League,,,,,,,,,
+776890,Nicolas Jackson,#0,Forward,Aston Villa,Premier League,,,,,,,,,
+735570,João Gomes,#35,Midfield,Aston Villa,Premier League,1,-,-,1,-,1,,,40'
+394327,Boubacar Kamara,#8,Midfield,Aston Villa,Premier League,1,-,-,-,-,-,,,90'
+485585,Ian Maatsen,#22,Defender,Aston Villa,Premier League,1,-,-,-,-,-,,,82'
+432298,Zion Suzuki,#1,Goalkeeper,Aston Villa,Premier League,,,,,,,,,
+811779,Alejandro Garnacho,#17,Forward,Aston Villa,Premier League,1,-,-,-,-,-,,,4'
+616631,Matteo Ruggeri,#13,Defender,Aston Villa,Premier League,1,-,-,-,-,-,,,8'
+425334,Matty Cash,#2,Defender,Aston Villa,Premier League,1,-,-,1,-,-,,,90'
+399776,Pau Torres,#14,Defender,Aston Villa,Premier League,1,-,-,-,-,-,,,74'
+331726,Tammy Abraham,#18,Forward,Aston Villa,Premier League,,,,,,,,,
+645686,Lamare Bogarde,#26,Midfield,Aston Villa,Premier League,1,-,-,-,-,-,,,16'
+321247,Emiliano Buendía,#10,Forward,Aston Villa,Premier League,1,-,-,-,-,-,,,86'
+477758,Aaron Wan-Bissaka,#29,Defender,Aston Villa,Premier League,,,,,,,,,
+387626,Leon Bailey,#31,Forward,Aston Villa,Premier League,,,,,,,,,
+193116,John McGinn,#7,Midfield,Aston Villa,Premier League,1,-,-,1,-,-,,,82'
+153084,Leon Goretzka,#27,Midfield,Aston Villa,Premier League,,,,,,,,,
+1226357,Brian Madjo,#39,Forward,Aston Villa,Premier League,,,,,,,,,
+1005583,Alysson,#47,Forward,Aston Villa,Premier League,1,-,-,-,-,-,,,8'
+1282860,Modou Kéba Cissé,#48,Defender,Aston Villa,Premier League,,,,,,,,,
+184573,Victor Lindelöf,#3,Defender,Aston Villa,Premier League,1,-,-,-,-,-,,,90'
+131978,Ross Barkley,#6,Midfield,Aston Villa,Premier League,1,-,-,-,-,-,,,74'
+253677,Tyrone Mings,#5,Defender,Aston Villa,Premier League,1,-,-,-,-,-,,,16'
+1202361,Bradley Burrowes,#49,Forward,Aston Villa,Premier League,,,,,,,,,
+124884,Marco Bizot,#40,Goalkeeper,Aston Villa,Premier League,1,-,,-,-,-,4,-,90'
+1023191,George Hemmings,#53,Midfield,Aston Villa,Premier League,1,-,-,-,-,-,,,90'
+587335,Milan van Ewijk,#27,Defender,Coventry City,Premier League,2,-,-,-,-,-,,,180'
+662476,Jack Rudoni,#5,Midfield,Coventry City,Premier League,2,-,-,-,-,-,,,91'
+1240763,Caleb Yirenkyi,#8,Midfield,Coventry City,Premier League,2,-,-,1,-,-,,,133'
+986288,Sidiki Chérif,#49,Forward,Coventry City,Premier League,,,,,,,,,
+646353,Carl Rushworth,#19,Goalkeeper,Coventry City,Premier League,2,-,,-,-,-,4,-,180'
+788283,Bobby Thomas,#4,Defender,Coventry City,Premier League,2,-,-,-,-,-,,,168'
+466637,Ephron Mason-Clark,#10,Forward,Coventry City,Premier League,1,-,-,-,-,-,,,58'
+451747,Brandon Thomas-Asante,#23,Forward,Coventry City,Premier League,2,-,-,-,-,-,,,102'
+315291,Haji Wright,#11,Forward,Coventry City,Premier League,,,,,,,,,
+403692,Victor Torp,#29,Midfield,Coventry City,Premier League,2,-,-,-,-,-,,,47'
+322985,Gustavo Hamer,#38,Midfield,Coventry City,Premier League,2,-,-,-,-,-,,,27'
+534701,Liam Kitching,#15,Defender,Coventry City,Premier League,,,,,,,,,
+607226,Loum Tchaouna,#18,Forward,Coventry City,Premier League,2,-,-,-,-,-,,,141'
+511550,Ellis Simms,#9,Forward,Coventry City,Premier League,1,-,-,-,-,-,,,70'
+635645,Aurèle Amenda,#24,Defender,Coventry City,Premier League,2,-,-,1,-,-,,,180'
+258915,Jay Dasilva,#3,Defender,Coventry City,Premier League,2,-,-,-,-,-,,,180'
+618903,Josh Eccles,#28,Midfield,Coventry City,Premier League,,,,,,,,,
+421637,Frank Onyeka,#16,Midfield,Coventry City,Premier League,1,-,-,-,-,-,,,90'
+295313,Taiwo Awoniyi,#14,Forward,Coventry City,Premier League,2,-,-,-,-,-,,,110'
+265471,Matt Grimes,#6,Midfield,Coventry City,Premier League,2,-,-,-,-,-,,,180'
+617408,Tatsuhiro Sakamoto,#7,Forward,Coventry City,Premier League,1,-,-,-,-,-,,,31'
+412823,Joel Latibeaudiere,#22,Defender,Coventry City,Premier League,,,,,,,,,
+626888,Kaine Kesler-Hayden,#20,Defender,Coventry City,Premier League,,,,,,,,,
+442248,Ethan Pinnock,#0,Defender,Coventry City,Premier League,1,-,-,-,-,-,,,12'
+527329,Oliver Dovin,#1,Goalkeeper,Coventry City,Premier League,,,,,,,,,
+527425,Luke Woolfenden,#26,Defender,Coventry City,Premier League,,,,,,,,,
+1049020,Stephen Mfuni,#0,Defender,Coventry City,Premier League,,,,,,,,,
+136401,Daniel Bentley,#0,Goalkeeper,Coventry City,Premier League,,,,,,,,,
+121250,Jake Bidwell,#21,Defender,Coventry City,Premier League,,,,,,,,,
+704398,Raphael Borges Rodrigues,#17,Forward,Coventry City,Premier League,,,,,,,,,
+121352,Ben Wilson,#13,Goalkeeper,Coventry City,Premier League,,,,,,,,,
+744149,Adam Wharton,#20,Midfield,Crystal Palace,Premier League,2,-,-,-,-,-,,,180'
+410225,Ismaïla Sarr,#7,Forward,Crystal Palace,Premier League,,,,,,,,,
+429983,Jørgen Strand Larsen,#22,Forward,Crystal Palace,Premier League,2,-,-,-,-,-,,,90'
+568157,Yéremy Pino,#10,Forward,Crystal Palace,Premier League,2,-,-,-,-,-,,,103'
+420002,Jean-Philippe Mateta,#14,Forward,Crystal Palace,Premier League,1,-,-,-,-,-,,,63'
+1006411,Jaydee Canvot,#6,Defender,Crystal Palace,Premier League,2,-,-,-,-,-,,,180'
+578539,Chris Richards,#26,Defender,Crystal Palace,Premier League,2,-,-,-,-,-,,,180'
+258919,Dean Henderson,#1,Goalkeeper,Crystal Palace,Premier League,2,-,,-,-,-,6,-,180'
+500689,Evann Guessand,#29,Forward,Crystal Palace,Premier League,2,-,-,-,-,-,,,54'
+730893,Tyrick Mitchell,#3,Defender,Crystal Palace,Premier League,2,-,-,-,-,-,,,180'
+945021,Anan Khalaili,#25,Defender,Crystal Palace,Premier League,2,-,-,1,-,-,,,110'
+689637,Chadi Riad,#4,Defender,Crystal Palace,Premier League,1,-,-,-,-,-,,,72'
+331505,Óscar Mingueza,#30,Defender,Crystal Palace,Premier League,1,-,-,-,-,-,,,15'
+584769,Dwight McNeil,#11,Forward,Crystal Palace,Premier League,2,-,-,-,-,-,,,85'
+386047,Axel Disasi,#5,Defender,Crystal Palace,Premier League,1,-,-,-,-,-,,,16'
+747009,Justin Devenny,#55,Midfield,Crystal Palace,Premier League,,,,,,,,,
+340324,Eddie Nketiah,#9,Forward,Crystal Palace,Premier League,2,-,-,-,-,-,,,123'
+356141,Daichi Kamada,#18,Midfield,Crystal Palace,Premier League,2,-,-,1,-,-,,,180'
+967319,Romain Esse,#21,Forward,Crystal Palace,Premier League,,,,,,,,,
+543387,Cheick Doucouré,#28,Midfield,Crystal Palace,Premier League,,,,,,,,,
+1007383,Zavier Gozo,#12,Forward,Crystal Palace,Premier League,1,-,-,-,-,-,,,22'
+743597,Matheus França,#27,Forward,Crystal Palace,Premier League,,,,,,,,,
+586834,Jesurun Rak-Sakyi,#49,Forward,Crystal Palace,Premier League,,,,,,,,,
+262980,Jefferson Lerma,#8,Midfield,Crystal Palace,Premier League,,,,,,,,,
+331560,Takehiro Tomiyasu,#17,Defender,Crystal Palace,Premier League,2,-,-,-,-,-,,,92'
+207014,Will Hughes,#19,Midfield,Crystal Palace,Premier League,,,,,,,,,
+296802,Walter Benítez,#44,Goalkeeper,Crystal Palace,Premier League,,,,,,,,,
+293194,Borna Sosa,#24,Defender,Crystal Palace,Premier League,,,,,,,,,
+865993,David Ozoh,#52,Midfield,Crystal Palace,Premier League,,,,,,,,,
+196722,Remi Matthews,#31,Goalkeeper,Crystal Palace,Premier League,,,,,,,,,
+397033,Sandro Tonali,#16,Midfield,Tottenham Hotspur,Premier League,2,-,-,-,-,-,,,165'
+576314,Jan Paul van Hecke,#6,Defender,Tottenham Hotspur,Premier League,2,-,-,-,-,-,,,180'
+880245,Mateus Fernandes,#18,Midfield,Tottenham Hotspur,Premier League,2,-,-,-,-,-,,,135'
+557459,Micky van de Ven,#37,Defender,Tottenham Hotspur,Premier League,1,-,-,1,-,-,,,90'
+445939,Omar Marmoush,#22,Forward,Tottenham Hotspur,Premier League,1,-,-,-,-,-,,,90'
+543499,Mohammed Kudus,#20,Forward,Tottenham Hotspur,Premier League,1,-,-,-,-,-,,,22'
+553875,Pedro Porro,#23,Defender,Tottenham Hotspur,Premier League,1,-,-,-,-,-,,,90'
+566931,Xavi Simons,#7,Midfield,Tottenham Hotspur,Premier League,,,,,,,,,
+922693,Archie Gray,#14,Defender,Tottenham Hotspur,Premier League,2,-,-,-,-,-,,,154'
+743591,Sávio,#17,Forward,Tottenham Hotspur,Premier League,,,,,,,,,
+866246,Lucas Bergvall,#15,Midfield,Tottenham Hotspur,Premier League,1,-,-,-,-,-,,,45'
+488362,Conor Gallagher,#8,Midfield,Tottenham Hotspur,Premier League,1,-,-,1,-,-,,,45'
+568693,Pape Matar Sarr,#29,Midfield,Tottenham Hotspur,Premier League,,,,,,,,,
+556385,Destiny Udogie,#13,Defender,Tottenham Hotspur,Premier League,2,-,-,-,-,-,,,26'
+258889,Dominic Solanke,#19,Forward,Tottenham Hotspur,Premier League,2,-,-,-,-,-,,,37'
+469781,Marcos Senesi,#5,Defender,Tottenham Hotspur,Premier League,1,-,-,-,-,-,,,90'
+378710,Richarlison,#9,Forward,Tottenham Hotspur,Premier League,1,-,-,-,-,-,,,68'
+801734,Mathys Tel,#11,Forward,Tottenham Hotspur,Premier League,2,-,-,-,-,-,,,158'
+354362,Rodrigo Bentancur,#30,Midfield,Tottenham Hotspur,Premier League,2,-,-,-,-,-,,,135'
+294057,James Maddison,#10,Midfield,Tottenham Hotspur,Premier League,1,-,-,-,-,-,,,22'
+263236,Kevin Danso,#4,Defender,Tottenham Hotspur,Premier League,,,,,,,,,
+743498,Wilson Odobert,#28,Forward,Tottenham Hotspur,Premier League,,,,,,,,,
+431755,Dejan Kulusevski,#21,Midfield,Tottenham Hotspur,Premier League,,,,,,,,,
+725912,Antonín Kinský,#31,Goalkeeper,Tottenham Hotspur,Premier League,2,-,,-,-,-,5,-,180'
+1086258,Souza,#38,Defender,Tottenham Hotspur,Premier League,,,,,,,,,
+234803,Andrew Robertson,#3,Defender,Tottenham Hotspur,Premier League,2,-,-,-,-,-,,,158'
+671108,Kota Takai,#25,Defender,Tottenham Hotspur,Premier League,,,,,,,,,
+192765,Ben Davies,#33,Defender,Tottenham Hotspur,Premier League,,,,,,,,,
+670883,Dane Scarlett,#44,Forward,Tottenham Hotspur,Premier League,,,,,,,,,
+428016,Brandon Austin,#40,Goalkeeper,Tottenham Hotspur,Premier League,,,,,,,,,
+74960,Martin Dúbravka,#39,Goalkeeper,Tottenham Hotspur,Premier League,,,,,,,,,

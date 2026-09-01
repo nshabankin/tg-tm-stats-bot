@@ -6,7 +6,7 @@ from contextlib import redirect_stdout
 from datetime import date
 from pathlib import Path
 from types import SimpleNamespace
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 from lxml import html
 
@@ -39,6 +39,17 @@ class RefreshContextTests(unittest.TestCase):
         self.assertIsNone(context.session)
         self.assertEqual(context.paths, build_league_refresh_paths('epl', 2025))
 
+    @patch('tmstats.refresh_context.current_season_start_year', return_value=2026)
+    def test_world_cup_keeps_its_transfermarkt_default_season(
+            self, _current_season_mock) -> None:
+        context = refresh_context.build_refresh_context('world_cup')
+
+        self.assertEqual(context.season, 2025)
+        self.assertEqual(
+            context.paths,
+            build_league_refresh_paths('world_cup', 2025),
+        )
+
     @patch('tmstats.refresh_context.fetch_recent_form')
     @patch('tmstats.refresh_context.fetch_current_table')
     @patch('tmstats.refresh_context.build_session')
@@ -61,6 +72,71 @@ class RefreshContextTests(unittest.TestCase):
         self.assertIs(refreshed.session, session)
         self.assertEqual(refreshed.teams[0]['form'], 'WWWWW')
         self.assertEqual(refreshed.table[0]['form'], 'WWWWW')
+
+
+class SourceAccessTests(unittest.TestCase):
+    def test_request_with_retries_rejects_javascript_challenge(self) -> None:
+        response = SimpleNamespace(
+            status_code=202,
+            headers={},
+            text='<h1>JavaScript is disabled</h1>',
+            raise_for_status=Mock(),
+        )
+        session = SimpleNamespace(get=Mock(return_value=response))
+
+        with self.assertRaisesRegex(RuntimeError, 'human verification'):
+            source.request_with_retries(session, 'https://example.test', 30)
+
+    @patch('tmstats.source.fetch_text', return_value='<html></html>')
+    def test_fetch_current_table_rejects_empty_standings(
+            self, _fetch_text_mock) -> None:
+        with self.assertRaisesRegex(RuntimeError, 'No standings rows found'):
+            source.fetch_current_table(object(), 'epl', 2026, 30)
+
+    @patch('tmstats.player_stats.fetch_performance_games')
+    def test_player_stats_aborts_on_verification_challenge(
+            self, fetch_performance_games_mock) -> None:
+        fetch_performance_games_mock.side_effect = (
+            source.TransfermarktVerificationError('human verification')
+        )
+        player = {
+            'id': '1',
+            'name': 'Test Player',
+            'shirtNumber': '9',
+            'positionId': '4',
+            'position': 'Forward',
+            'club': 'Test Club',
+            'link': '/test-player/profil/spieler/1',
+        }
+
+        with self.assertRaises(source.TransfermarktVerificationError):
+            player_stats.fetch_stats(
+                object(),
+                'epl',
+                [player],
+                2026,
+                30,
+                teams=[{'name': 'Test Club'}],
+                delay=0,
+            )
+
+    def test_uefa_table_uses_sequential_order_for_tied_teams(self) -> None:
+        doc = html.fromstring('''
+            <table>
+              <thead><tr><th>#</th><th></th><th>Club</th><th>GP</th>
+                <th>+/-</th><th>Goals</th><th>Pts</th></tr></thead>
+              <tbody>
+                <tr><td>1</td><td></td><td><a href="/alpha/startseite/verein/1">Alpha</a></td>
+                  <td>0</td><td>0</td><td>0:0</td><td>0</td></tr>
+                <tr><td>1</td><td></td><td><a href="/beta/startseite/verein/2">Beta</a></td>
+                  <td>0</td><td>0</td><td>0:0</td><td>0</td></tr>
+              </tbody>
+            </table>
+        ''')
+
+        _teams, table_rows = source.parse_uefa_table(doc)
+
+        self.assertEqual([row['rank'] for row in table_rows], ['1', '2'])
 
 
 class RefreshPipelineTests(unittest.TestCase):
@@ -324,6 +400,23 @@ class RefreshEntrypointTests(unittest.TestCase):
         output = buffer.getvalue()
         self.assertIn('Refreshing test mode for epl season 2025', output)
         self.assertIn('Refreshing test mode for ucl season 2025', output)
+
+    @patch('tmstats.refresh.current_season_start_year', return_value=2026)
+    def test_run_for_leagues_resolves_competition_default_seasons(
+            self, _current_season_mock) -> None:
+        calls = []
+
+        def fake_runner(league_key: str, **kwargs) -> dict:
+            calls.append((league_key, kwargs['season']))
+            return {'league': league_key}
+
+        refresh.run_for_leagues(
+            ['epl', 'world_cup'],
+            fake_runner,
+            season=None,
+        )
+
+        self.assertEqual(calls, [('epl', 2026), ('world_cup', 2025)])
 
 
 class RefreshModesTests(unittest.TestCase):

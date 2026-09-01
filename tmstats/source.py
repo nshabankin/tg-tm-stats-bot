@@ -64,6 +64,10 @@ KNOCKOUT_STAGE_LABELS = {
 }
 
 
+class TransfermarktVerificationError(RuntimeError):
+    """Raised when Transfermarkt serves a site-wide verification challenge."""
+
+
 def competition_path(league_key: str, page: str, season: int) -> str:
     league = LEAGUES[league_key]
     if league.tm_scope == 'pokalwettbewerb':
@@ -99,8 +103,13 @@ def request_with_retries(session: requests.Session, url: str,
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = session.get(url, timeout=timeout)
-            if response.headers.get('x-amzn-waf-action') == 'captcha':
-                raise RuntimeError(
+            verification_page = (
+                response.status_code == 202
+                or response.headers.get('x-amzn-waf-action') == 'captcha'
+                or 'JavaScript is disabled' in response.text
+            )
+            if verification_page:
+                raise TransfermarktVerificationError(
                     'Transfermarkt requested human verification. '
                     'If this keeps happening, open Transfermarkt in a browser '
                     'and copy your browser cookie string into TM_COOKIE in '
@@ -699,7 +708,7 @@ def parse_uefa_table(doc: html.HtmlElement) -> Tuple[List[dict], List[dict]]:
     teams = []
     table_rows = []
 
-    for row in table[0].xpath('.//tbody/tr[td]'):
+    for rank_index, row in enumerate(table[0].xpath('.//tbody/tr[td]'), start=1):
         cells = row.xpath('./td')
         if len(cells) < 7:
             continue
@@ -711,7 +720,7 @@ def parse_uefa_table(doc: html.HtmlElement) -> Tuple[List[dict], List[dict]]:
 
         team_name = normalize_text(' '.join(cells[2].xpath('.//text()')))
         team_stats = {
-            'rank': normalize_text(' '.join(cells[0].xpath('.//text()'))),
+            'rank': str(rank_index),
             'logo': extract_logo_url(row),
             'played': normalize_text(' '.join(cells[3].xpath('.//text()'))),
             'wins': '',
@@ -838,12 +847,19 @@ def fetch_current_table(session: requests.Session, league_key: str,
     doc = html.fromstring(fetch_text(session, competition_path(league_key, page, season), timeout))
 
     if league.family == 'international_tournament':
-        return parse_tournament_groups(doc)
+        teams, table = parse_tournament_groups(doc)
+    elif league.family == 'uefa':
+        teams, table = parse_uefa_table(doc)
+    else:
+        teams, table = parse_domestic_table(doc)
 
-    if league.family == 'uefa':
-        return parse_uefa_table(doc)
+    if not teams or not table:
+        raise RuntimeError(
+            f'No standings rows found for {league_key} season {season}. '
+            'The source page may be unavailable, blocked, or may have changed format.'
+        )
 
-    return parse_domestic_table(doc)
+    return teams, table
 
 
 def extract_form_value(row: html.HtmlElement) -> str:

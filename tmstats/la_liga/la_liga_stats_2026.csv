@@ -1,0 +1,513 @@
+player_id,player_name,number,position,club,league,played,goals,assists,yellow_cards,second_yellows,red_cards,conceded,clean_sheets,minutes
+342229,Kylian Mbappé,#10,Forward,Real Madrid,La Liga,3,4,-,-,-,-,,,270'
+581678,Jude Bellingham,#5,Midfield,Real Madrid,La Liga,3,2,3,-,-,-,,,245'
+371998,Vinicius Junior,#7,Forward,Real Madrid,La Liga,3,1,2,1,-,-,,,264'
+1390649,Yan Diomande,#25,Forward,Real Madrid,La Liga,3,-,-,-,-,-,,,57'
+861410,Arda Güler,#15,Midfield,Real Madrid,La Liga,3,1,1,-,-,-,,,145'
+369081,Federico Valverde,#8,Midfield,Real Madrid,La Liga,3,-,1,-,-,-,,,257'
+413112,Aurélien Tchouaméni,#14,Midfield,Real Madrid,La Liga,,,,,,,,,
+890290,Dean Huijsen,#4,Defender,Real Madrid,La Liga,3,-,-,-,-,-,,,270'
+314353,Trent Alexander-Arnold,#12,Defender,Real Madrid,La Liga,2,-,1,-,-,-,,,100'
+284857,Marc Cucurella,#17,Defender,Real Madrid,La Liga,3,-,-,-,-,-,,,161'
+811778,Álvaro Carreras,#18,Defender,Real Madrid,La Liga,2,-,-,1,-,-,,,109'
+640428,Eduardo Camavinga,#6,Midfield,Real Madrid,La Liga,3,-,-,1,-,-,,,112'
+357119,Ibrahima Konaté,#16,Defender,Real Madrid,La Liga,2,-,-,1,-,-,,,180'
+412363,Rodrygo,#11,Forward,Real Madrid,La Liga,,,,,,,,,
+971570,Endrick,#9,Forward,Real Madrid,La Liga,,,,,,,,,
+314678,Brahim Díaz,#21,Forward,Real Madrid,La Liga,2,-,-,-,-,-,,,77'
+321528,Denzel Dumfries,#24,Defender,Real Madrid,La Liga,2,-,-,-,-,-,,,170'
+241641,Bernardo Silva,#20,Midfield,Real Madrid,La Liga,3,-,-,-,-,-,,,179'
+1063338,Carlos Espí,#19,Forward,Real Madrid,La Liga,2,1,-,-,-,-,,,14'
+401530,Éder Militão,#3,Defender,Real Madrid,La Liga,,,,,,,,,
+1375227,Thiago Pitarch,#27,Midfield,Real Madrid,La Liga,,,,,,,,,
+935245,Raúl Asencio,#2,Defender,Real Madrid,La Liga,,,,,,,,,
+108390,Thibaut Courtois,#1,Goalkeeper,Real Madrid,La Liga,3,-,,-,-,-,2,1,270'
+404839,Andriy Lunin,#13,Goalkeeper,Real Madrid,La Liga,,,,,,,,,
+1186235,Jorge Cestero,#29,Midfield,Real Madrid,La Liga,,,,,,,,,
+86202,Antonio Rüdiger,#22,Defender,Real Madrid,La Liga,1,-,-,-,-,-,,,90'
+291417,Ferland Mendy,#23,Defender,Real Madrid,La Liga,,,,,,,,,
+576024,Julián Alvarez,#19,Forward,Atlético de Madrid,La Liga,1,-,-,-,-,-,,,24'
+775605,Pablo Barrios,#8,Midfield,Atlético de Madrid,La Liga,3,-,1,-,-,-,,,204'
+355915,Cristian Romero,#21,Defender,Atlético de Madrid,La Liga,,,,,,,,,
+461496,Morten Hjulmand,#23,Midfield,Atlético de Madrid,La Liga,3,-,-,1,-,-,,,187'
+742201,Giuliano Simeone,#20,Forward,Atlético de Madrid,La Liga,3,1,1,-,-,-,,,213'
+548111,Álex Baena,#10,Forward,Atlético de Madrid,La Liga,3,3,1,1,-,-,,,163'
+406040,Ademola Lookman,#11,Forward,Atlético de Madrid,La Liga,3,1,-,-,-,-,,,235'
+844637,Marc Pubill,#18,Defender,Atlético de Madrid,La Liga,2,1,-,1,-,-,,,156'
+404418,Dávid Hancko,#17,Defender,Atlético de Madrid,La Liga,3,-,1,1,-,-,,,270'
+557149,Kang-in Lee,#7,Midfield,Atlético de Madrid,La Liga,3,1,1,-,-,-,,,171'
+351809,Robin Le Normand,#24,Defender,Atlético de Madrid,La Liga,2,-,-,-,-,1,,,166'
+689505,Johnny Cardoso,#5,Midfield,Atlético de Madrid,La Liga,1,-,-,-,-,-,,,5'
+282411,Marcos Llorente,#14,Defender,Atlético de Madrid,La Liga,3,-,1,1,-,-,,,135'
+193082,Alejandro Grimaldo,#22,Defender,Atlético de Madrid,La Liga,2,-,-,-,-,-,,,180'
+961297,Rodrigo Mendoza,#4,Midfield,Atlético de Madrid,La Liga,3,-,-,-,-,-,,,107'
+238407,Alexander Sørloth,#9,Forward,Atlético de Madrid,La Liga,,,,,,,,,
+121483,Jan Oblak,#13,Goalkeeper,Atlético de Madrid,La Liga,3,-,,-,-,-,3,1,270'
+889435,Obed Vargas,#3,Midfield,Atlético de Madrid,La Liga,,,,,,,,,
+250845,José María Giménez,#2,Defender,Atlético de Madrid,La Liga,2,-,-,1,-,-,,,35'
+1460961,Jorge Domínguez,#27,Defender,Atlético de Madrid,La Liga,1,-,-,1,-,-,,,45'
+74229,Koke,#6,Midfield,Atlético de Madrid,La Liga,3,-,-,-,-,-,,,162'
+242359,Juan Musso,#1,Goalkeeper,Atlético de Madrid,La Liga,,,,,,,,,
+205562,Thomas Lemar,#15,Midfield,Atlético de Madrid,La Liga,,,,,,,,,
+618813,Carlos Martín,#12,Forward,Atlético de Madrid,La Liga,1,-,-,-,-,-,,,57'
+802046,Arnau Ortiz,#16,Forward,Atlético de Madrid,La Liga,2,-,-,-,-,-,,,81'
+945763,Dani Martinez,#30,Defender,Atlético de Madrid,La Liga,1,-,-,-,-,-,,,90'
+495621,Antonio Blanco,#8,Midfield,Deportivo Alavés,La Liga,3,-,-,1,-,-,,,270'
+302371,Toni Martínez,#11,Forward,Deportivo Alavés,La Liga,3,-,-,-,-,-,,,234'
+298197,Antonio Sivera,#1,Goalkeeper,Deportivo Alavés,La Liga,3,-,,1,-,-,1,2,270'
+334222,Lucas Boyé,#15,Forward,Deportivo Alavés,La Liga,2,1,-,-,-,-,,,144'
+634427,Miguel Rodríguez,#22,Forward,Deportivo Alavés,La Liga,,,,,,,,,
+785353,Pablo Ibáñez,#19,Midfield,Deportivo Alavés,La Liga,3,-,-,-,-,-,,,270'
+741289,Youssef Enríquez,#3,Defender,Deportivo Alavés,La Liga,3,-,-,-,-,-,,,81'
+1124136,Ángel Pérez,#7,Forward,Deportivo Alavés,La Liga,3,-,1,-,-,-,,,216'
+860992,Nicolás Valentini,#2,Defender,Deportivo Alavés,La Liga,1,-,-,1,-,-,,,10'
+284854,Carles Aleñá,#10,Midfield,Deportivo Alavés,La Liga,2,-,-,-,-,-,,,11'
+533568,Nahuel Tenaglia,#14,Defender,Deportivo Alavés,La Liga,3,1,-,1,-,-,,,270'
+465967,Ander Guevara,#6,Midfield,Deportivo Alavés,La Liga,1,-,-,-,-,-,,,1'
+718034,Abde Rebbach,#21,Forward,Deportivo Alavés,La Liga,3,-,-,2,-,-,,,251'
+175446,Jonny Otto,#17,Defender,Deportivo Alavés,La Liga,3,-,-,-,-,-,,,250'
+581326,Ville Koski,#16,Defender,Deportivo Alavés,La Liga,3,-,-,-,-,-,,,260'
+431190,Carlos Protesoni,#23,Midfield,Deportivo Alavés,La Liga,1,-,-,-,-,-,,,19'
+165007,Denis Suárez,#4,Midfield,Deportivo Alavés,La Liga,3,-,-,1,-,-,,,104'
+668276,Hugo Novoa,#12,Defender,Deportivo Alavés,La Liga,,,,,,,,,
+721660,Mikel Rodriguez,#18,Midfield,Deportivo Alavés,La Liga,3,1,-,-,-,-,,,149'
+935232,Aitor Mañas,#20,Forward,Deportivo Alavés,La Liga,2,-,-,-,-,-,,,65'
+646734,Tomás Mendes,#0,Midfield,Deportivo Alavés,La Liga,,,,,,,,,
+1054931,Selu Diallo,#0,Midfield,Deportivo Alavés,La Liga,,,,,,,,,
+225020,Mariano Díaz,#9,Forward,Deportivo Alavés,La Liga,3,2,2,2,-,-,,,97'
+608382,Adrián Rodríguez,#13,Goalkeeper,Deportivo Alavés,La Liga,,,,,,,,,
+533354,Facundo Garcés,#5,Defender,Deportivo Alavés,La Liga,,,,,,,,,
+937958,Lamine Yamal,#10,Forward,FC Barcelona,La Liga,2,-,-,-,-,-,,,155'
+683840,Pedri,#8,Midfield,FC Barcelona,La Liga,2,-,1,-,-,-,,,130'
+962110,Pau Cubarsí,#5,Defender,FC Barcelona,La Liga,1,-,-,-,-,-,,,90'
+636703,Fermín López,#7,Midfield,FC Barcelona,La Liga,2,3,-,-,-,-,,,180'
+503733,Anthony Gordon,#17,Forward,FC Barcelona,La Liga,2,-,2,-,-,-,,,105'
+411295,Raphinha,#11,Forward,FC Barcelona,La Liga,2,3,1,-,-,-,,,143'
+293385,Dani Olmo,#20,Midfield,FC Barcelona,La Liga,2,-,-,-,-,-,,,52'
+411975,Jules Koundé,#23,Defender,FC Barcelona,La Liga,2,-,-,-,-,-,,,20'
+357565,Rodri,#16,Midfield,FC Barcelona,La Liga,1,-,-,-,-,-,,,27'
+636688,Alejandro Balde,#3,Defender,FC Barcelona,La Liga,,,,,,,,,
+561613,Joan García,#1,Goalkeeper,FC Barcelona,La Liga,2,-,,-,-,-,-,2,180'
+466794,Eric García,#24,Defender,FC Barcelona,La Liga,2,-,-,-,-,-,,,170'
+496094,Karim Adeyemi,#14,Forward,FC Barcelona,La Liga,2,1,-,-,-,-,,,75'
+705395,Gerard Martín,#18,Defender,FC Barcelona,La Liga,2,-,-,-,-,-,,,180'
+326330,Frenkie de Jong,#21,Midfield,FC Barcelona,La Liga,,,,,,,,,
+1018920,Marc Bernal,#22,Midfield,FC Barcelona,La Liga,2,-,-,-,-,-,,,143'
+646740,Gavi,#6,Midfield,FC Barcelona,La Liga,1,-,-,-,-,-,,,45'
+636695,Marc Casadó,#0,Midfield,FC Barcelona,La Liga,,,,,,,,,
+792331,Roony Bardghji,#0,Forward,FC Barcelona,La Liga,,,,,,,,,
+182712,João Cancelo,#2,Defender,FC Barcelona,La Liga,2,-,-,-,-,-,,,15'
+196948,Andreas Christensen,#15,Defender,FC Barcelona,La Liga,1,-,-,-,-,-,,,90'
+1018912,Xavi Espart,#12,Defender,FC Barcelona,La Liga,2,-,1,1,-,-,,,180'
+924610,Álvaro Cortés,#26,Defender,FC Barcelona,La Liga,,,,,,,,,
+205927,Dominik Livakovic,#0,Goalkeeper,FC Barcelona,La Liga,,,,,,,,,
+1050120,Guille Fernández,#0,Midfield,FC Barcelona,La Liga,,,,,,,,,
+1066206,Toni Fernández,#0,Midfield,FC Barcelona,La Liga,,,,,,,,,
+938154,Brian Fariñas,#28,Midfield,FC Barcelona,La Liga,,,,,,,,,
+1259085,Hamza Abdelkarim,#29,Forward,FC Barcelona,La Liga,,,,,,,,,
+44058,Wojciech Szczesny,#13,Goalkeeper,FC Barcelona,La Liga,,,,,,,,,
+1105549,Jesse Bisiwu,#27,Forward,FC Barcelona,La Liga,,,,,,,,,
+345886,Rubén Vargas,#11,Forward,Sevilla FC,La Liga,1,-,-,-,-,-,,,20'
+569384,Lucien Agoumé,#6,Midfield,Sevilla FC,La Liga,3,-,-,1,-,-,,,270'
+766583,Kike Salas,#4,Defender,Sevilla FC,La Liga,2,-,-,-,-,1,,,178'
+711625,José Ángel Carmona,#22,Defender,Sevilla FC,La Liga,1,-,-,-,-,-,,,22'
+768380,Arouna Sangante,#12,Defender,Sevilla FC,La Liga,2,-,-,-,-,-,,,158'
+385105,Gabriel Suazo,#17,Defender,Sevilla FC,La Liga,3,-,-,2,-,-,,,270'
+719999,Andrés Castrín,#5,Defender,Sevilla FC,La Liga,2,-,-,-,-,-,,,180'
+783373,Robbie Ure,#9,Forward,Sevilla FC,La Liga,3,-,1,-,-,-,,,225'
+390688,Juan Iglesias,#2,Defender,Sevilla FC,La Liga,3,-,-,-,-,-,,,270'
+687609,Isaac Romero,#16,Forward,Sevilla FC,La Liga,3,1,1,3,-,-,,,112'
+500067,Chidera Ejuke,#21,Forward,Sevilla FC,La Liga,3,1,-,-,-,-,,,92'
+405564,Giorgi Kochorashvili,#8,Midfield,Sevilla FC,La Liga,1,-,-,-,-,-,,,35'
+639733,Peque Fernández,#10,Forward,Sevilla FC,La Liga,3,1,-,1,-,-,,,158'
+357628,Alfon González,#7,Forward,Sevilla FC,La Liga,1,-,-,-,-,-,,,10'
+1055220,Fran González,#13,Goalkeeper,Sevilla FC,La Liga,,,,,,,,,
+124419,Odysseas Vlachodimos,#1,Goalkeeper,Sevilla FC,La Liga,3,-,,-,-,-,5,-,270'
+439022,Marcão,#23,Defender,Sevilla FC,La Liga,,,,,,,,,
+289257,Jon Guridi,#18,Midfield,Sevilla FC,La Liga,3,1,-,2,-,-,,,182'
+155025,Fábio Cardoso,#15,Defender,Sevilla FC,La Liga,,,,,,,,,
+945753,Julio Díaz,#3,Defender,Sevilla FC,La Liga,2,-,-,-,-,-,,,67'
+766723,Manu Bueno,#28,Midfield,Sevilla FC,La Liga,1,-,-,-,-,-,,,8'
+1236856,Nico Guillén,#27,Midfield,Sevilla FC,La Liga,2,-,-,1,-,-,,,90'
+1064105,Miguel Sierra,#30,Forward,Sevilla FC,La Liga,3,1,-,1,-,-,,,195'
+724520,Abde Ezzalzouli,#10,Forward,Real Betis Balompié,La Liga,1,-,-,-,-,-,,,16'
+602105,Antony,#7,Forward,Real Betis Balompié,La Liga,3,-,-,-,-,-,,,270'
+735568,Natan,#4,Defender,Real Betis Balompié,La Liga,2,-,-,1,-,-,,,180'
+552655,Troy Parrott,#19,Forward,Real Betis Balompié,La Liga,2,-,-,-,-,-,,,76'
+459463,Cucho Hernández,#9,Forward,Real Betis Balompié,La Liga,3,-,1,-,-,-,,,184'
+985383,Valentín Gómez,#16,Defender,Real Betis Balompié,La Liga,1,-,-,-,-,-,,,90'
+341264,Fran García,#11,Defender,Real Betis Balompié,La Liga,3,-,1,1,-,-,,,211'
+907559,Nelson Deossa,#18,Midfield,Real Betis Balompié,La Liga,3,-,-,-,-,-,,,123'
+961087,Pablo García,#52,Forward,Real Betis Balompié,La Liga,3,1,-,1,-,-,,,51'
+348795,Giovani Lo Celso,#20,Midfield,Real Betis Balompié,La Liga,,,,,,,,,
+357885,Pablo Fornals,#8,Midfield,Real Betis Balompié,La Liga,3,-,-,-,-,-,,,202'
+417913,Álvaro Valles,#1,Goalkeeper,Real Betis Balompié,La Liga,3,-,,-,-,-,5,2,270'
+261503,Álvaro Fidalgo,#15,Midfield,Real Betis Balompié,La Liga,,,,,,,,,
+898350,Facundo Bernal,#6,Midfield,Real Betis Balompié,La Liga,3,-,-,-,-,-,,,222'
+997814,Gonzalo Petit,#0,Forward,Real Betis Balompié,La Liga,,,,,,,,,
+933908,Ángel Ortiz,#12,Defender,Real Betis Balompié,La Liga,1,-,-,-,-,-,,,71'
+461617,Rodrigo Riquelme,#17,Forward,Real Betis Balompié,La Liga,3,2,-,-,-,-,,,199'
+378139,Aitor Ruibal,#24,Forward,Real Betis Balompié,La Liga,,,,,,,,,
+336869,Marc Roca,#21,Midfield,Real Betis Balompié,La Liga,2,-,1,-,-,-,,,157'
+374139,Junior Firpo,#23,Defender,Real Betis Balompié,La Liga,1,-,-,1,-,-,,,59'
+85288,Isco,#22,Midfield,Real Betis Balompié,La Liga,3,-,-,-,-,-,,,120'
+341713,Diego Conde,#13,Goalkeeper,Real Betis Balompié,La Liga,,,,,,,,,
+246291,Diego Llorente,#3,Defender,Real Betis Balompié,La Liga,1,-,-,-,-,-,,,90'
+191217,Héctor Bellerín,#2,Defender,Real Betis Balompié,La Liga,3,-,-,1,-,-,,,199'
+632741,Iker Losada,#14,Forward,Real Betis Balompié,La Liga,,,,,,,,,
+99922,Marc Bartra,#5,Defender,Real Betis Balompié,La Liga,2,1,-,-,-,-,,,180'
+636385,Yeremay Hernández,#10,Forward,Deportivo A Coruña,La Liga,2,-,-,-,-,-,,,34'
+707450,Lorenzo Amatucci,#16,Midfield,Deportivo A Coruña,La Liga,3,-,1,1,-,-,,,270'
+204103,Adama Traoré,#0,Forward,Deportivo A Coruña,La Liga,,,,,,,,,
+562742,Leo Román,#13,Goalkeeper,Deportivo A Coruña,La Liga,3,-,,-,-,-,3,-,270'
+741256,David Mella,#11,Forward,Deportivo A Coruña,La Liga,2,-,-,-,-,-,,,47'
+568148,Mario Soriano,#21,Midfield,Deportivo A Coruña,La Liga,3,-,1,1,-,-,,,229'
+277179,Angeliño,#24,Defender,Deportivo A Coruña,La Liga,,,,,,,,,
+856274,Jonathan Asp Jensen,#18,Midfield,Deportivo A Coruña,La Liga,3,-,-,-,-,-,,,129'
+1299392,Bil Nsongo,#31,Forward,Deportivo A Coruña,La Liga,3,-,-,1,-,-,,,148'
+519651,Zakaria Eddahchouri,#9,Forward,Deportivo A Coruña,La Liga,1,-,-,-,-,-,,,30'
+58864,Pierre-Emerick Aubameyang,#7,Forward,Deportivo A Coruña,La Liga,3,3,-,-,-,-,,,265'
+453704,Álvaro Ferllo,#25,Goalkeeper,Deportivo A Coruña,La Liga,,,,,,,,,
+458777,Giacomo Quagliata,#12,Defender,Deportivo A Coruña,La Liga,3,-,-,1,-,-,,,270'
+610461,Luismi Cruz,#19,Forward,Deportivo A Coruña,La Liga,3,-,1,-,-,-,,,165'
+466807,Adrià Altimira,#2,Defender,Deportivo A Coruña,La Liga,3,-,-,-,1,-,,,150'
+596899,Riki Rodríguez,#14,Midfield,Deportivo A Coruña,La Liga,1,-,-,-,-,-,,,64'
+743379,Lucas Noubi,#4,Defender,Deportivo A Coruña,La Liga,3,-,-,-,-,-,,,270'
+400104,Miguel Loureiro,#15,Defender,Deportivo A Coruña,La Liga,2,-,-,-,-,-,,,81'
+857949,Dani Barcia,#5,Defender,Deportivo A Coruña,La Liga,,,,,,,,,
+590687,Diego Villares,#8,Midfield,Deportivo A Coruña,La Liga,2,-,-,-,-,-,,,58'
+1309177,Noé Carrillo,#37,Midfield,Deportivo A Coruña,La Liga,,,,,,,,,
+738477,Teun Gijselhart,#34,Midfield,Deportivo A Coruña,La Liga,1,-,-,-,-,-,,,26'
+1177033,Bright Ede,#22,Defender,Deportivo A Coruña,La Liga,3,-,-,-,-,-,,,196'
+581674,Charlie Patiño,#6,Midfield,Deportivo A Coruña,La Liga,,,,,,,,,
+388542,Arnau Comas,#3,Defender,Deportivo A Coruña,La Liga,,,,,,,,,
+126746,Germán Parreño,#1,Goalkeeper,Deportivo A Coruña,La Liga,,,,,,,,,
+786130,Eric Puerto,#0,Goalkeeper,Deportivo A Coruña,La Liga,,,,,,,,,
+187673,José Ángel Jurado,#20,Midfield,Deportivo A Coruña,La Liga,,,,,,,,,
+184767,Ximo Navarro,#23,Defender,Deportivo A Coruña,La Liga,3,-,-,2,-,-,,,263'
+541555,Enzo Boyomo,#22,Defender,CA Osasuna,La Liga,,,,,,,,,
+634131,Aimar Oroz,#10,Midfield,CA Osasuna,La Liga,2,-,-,-,-,-,,,80'
+552425,Jon Moncayola,#7,Midfield,CA Osasuna,La Liga,2,-,-,1,-,-,,,135'
+628621,Jonathan Dubasin,#21,Forward,CA Osasuna,La Liga,2,-,-,-,-,-,,,68'
+658115,Abel Bretones,#23,Defender,CA Osasuna,La Liga,2,-,-,-,-,-,,,180'
+624942,Raúl Moro,#15,Forward,CA Osasuna,La Liga,1,-,-,-,-,-,,,18'
+555500,Jorge Herrando,#5,Defender,CA Osasuna,La Liga,2,-,-,-,-,-,,,148'
+631002,Raúl García,#9,Forward,CA Osasuna,La Liga,2,-,1,-,-,-,,,100'
+441170,Valentin Rosier,#19,Defender,CA Osasuna,La Liga,,,,,,,,,
+46413,Ante Budimir,#17,Forward,CA Osasuna,La Liga,2,1,-,-,-,-,,,112'
+248738,Sergio Herrera,#1,Goalkeeper,CA Osasuna,La Liga,2,-,,1,-,-,1,1,180'
+449796,Alejandro Catena,#24,Defender,CA Osasuna,La Liga,2,-,-,-,-,-,,,180'
+213670,Lucas Torró,#6,Midfield,CA Osasuna,La Liga,2,-,-,-,-,-,,,99'
+710677,Iker Muñoz,#8,Midfield,CA Osasuna,La Liga,2,-,-,-,-,-,,,135'
+213260,Rubén García,#14,Forward,CA Osasuna,La Liga,2,-,-,-,-,-,,,104'
+298575,Kike Barja,#11,Forward,CA Osasuna,La Liga,2,1,-,1,-,-,,,77'
+175449,Moi Gómez,#16,Midfield,CA Osasuna,La Liga,2,-,-,-,-,-,,,103'
+249513,Diego Rico,#15,Defender,CA Osasuna,La Liga,,,,,,,,,
+1038512,Asier Osambela,#29,Midfield,CA Osasuna,La Liga,1,-,-,-,-,-,,,90'
+1065442,Iñigo Arguibide,#41,Defender,CA Osasuna,La Liga,2,-,-,-,-,-,,,171'
+118997,Aitor Fernández,#13,Goalkeeper,CA Osasuna,La Liga,,,,,,,,,
+1149188,Rockson Yeboah,#0,Defender,CA Osasuna,La Liga,,,,,,,,,
+1038950,Karl Etta Eyong,#21,Forward,Levante UD,La Liga,3,-,1,-,-,-,,,64'
+668179,Carlos Álvarez,#10,Midfield,Levante UD,La Liga,1,-,-,-,-,-,,,45'
+1077670,Axel Tape,#0,Defender,Levante UD,La Liga,,,,,,,,,
+628886,Iván Romero,#9,Forward,Levante UD,La Liga,3,-,-,1,-,-,,,226'
+707222,Enzo Bardeli,#18,Midfield,Levante UD,La Liga,3,1,1,-,-,-,,,200'
+618809,Manu Sánchez,#23,Defender,Levante UD,La Liga,3,-,-,-,-,-,,,270'
+892221,Hugo Sotelo,#5,Midfield,Levante UD,La Liga,2,-,-,-,-,-,,,26'
+1127730,Thiago Fernández,#24,Forward,Levante UD,La Liga,2,-,-,-,-,-,,,150'
+341263,Adrián Dela,#4,Defender,Levante UD,La Liga,3,1,-,-,-,-,,,270'
+1167696,Ifeanyi Ndukwe,#3,Defender,Levante UD,La Liga,,,,,,,,,
+625660,Jon Ander Olasagasti,#8,Midfield,Levante UD,La Liga,3,1,1,-,-,-,,,270'
+557057,Roger Brugué,#7,Forward,Levante UD,La Liga,2,2,-,-,-,-,,,174'
+129674,Jeremy Toljan,#22,Defender,Levante UD,La Liga,3,-,-,1,-,-,,,71'
+293388,Oriol Rey,#20,Midfield,Levante UD,La Liga,3,-,-,-,-,-,,,270'
+128969,Mathew Ryan,#13,Goalkeeper,Levante UD,La Liga,3,-,,-,-,-,5,1,270'
+617059,Pablo Campos,#1,Goalkeeper,Levante UD,La Liga,,,,,,,,,
+590690,Víctor García,#17,Forward,Levante UD,La Liga,3,-,-,-,-,-,,,106'
+1232057,Paco Cortés,#27,Forward,Levante UD,La Liga,2,-,-,-,-,-,,,51'
+921345,Tay Abed,#55,Forward,Levante UD,La Liga,,,,,,,,,
+945709,Dani Requena,#6,Midfield,Levante UD,La Liga,,,,,,,,,
+80293,Aïssa Mandi,#2,Defender,Levante UD,La Liga,3,-,-,-,-,-,,,270'
+1063333,Jorge Cabello,#14,Defender,Levante UD,La Liga,,,,,,,,,
+947115,Xavi Grande,#0,Defender,Levante UD,La Liga,,,,,,,,,
+1299566,Yanis Musuayi,#11,Forward,Levante UD,La Liga,,,,,,,,,
+1099061,Dani Martín,#0,Goalkeeper,Levante UD,La Liga,,,,,,,,,
+1371830,Nacho Pérez,#29,Defender,Levante UD,La Liga,3,-,-,-,-,-,,,199'
+939445,Álex Primo,#0,Goalkeeper,Levante UD,La Liga,,,,,,,,,
+1476132,Marc Santos,#33,Defender,Levante UD,La Liga,1,-,-,-,-,-,,,26'
+936981,Gustavo Puerta,#8,Midfield,Racing Santander,La Liga,3,-,-,1,-,-,,,268'
+1153105,Yassir Zabiri,#21,Forward,Racing Santander,La Liga,3,3,-,-,-,-,,,116'
+625014,Julen Agirrezabala,#13,Goalkeeper,Racing Santander,La Liga,3,-,,-,-,-,5,-,270'
+1262996,Jorge Salinas,#17,Defender,Racing Santander,La Liga,3,-,-,1,-,-,,,270'
+531277,Andrés Martín,#11,Forward,Racing Santander,La Liga,3,1,-,-,-,-,,,239'
+335216,Iñigo Vicente,#10,Forward,Racing Santander,La Liga,3,-,1,-,-,-,,,249'
+876298,Matteo Prati,#18,Midfield,Racing Santander,La Liga,1,-,-,-,-,-,,,31'
+341278,Iván Martín,#23,Midfield,Racing Santander,La Liga,2,-,-,-,-,-,,,135'
+502682,Giorgi Guliashvili,#7,Forward,Racing Santander,La Liga,1,-,-,-,-,-,,,21'
+66106,Sergio Canales,#20,Midfield,Racing Santander,La Liga,3,-,-,-,-,-,,,226'
+825199,Facundo González,#16,Defender,Racing Santander,La Liga,3,-,-,1,-,-,,,105'
+251897,Asier Villalibre,#12,Forward,Racing Santander,La Liga,3,-,-,-,-,-,,,154'
+1088712,Simon Eriksson,#1,Goalkeeper,Racing Santander,La Liga,,,,,,,,,
+933795,Maguette Gueye,#14,Midfield,Racing Santander,La Liga,3,-,-,-,-,-,,,52'
+1082581,Pedro Felipe,#22,Defender,Racing Santander,La Liga,1,-,-,-,-,-,,,16'
+629511,Pablo Ramón,#5,Defender,Racing Santander,La Liga,2,-,-,1,-,-,,,167'
+396161,Manu Hernando,#4,Defender,Racing Santander,La Liga,3,-,-,1,-,-,,,252'
+636116,Álvaro Mantilla,#2,Defender,Racing Santander,La Liga,3,-,-,2,-,-,,,270'
+522730,Íñigo Sainz-Maza,#6,Midfield,Racing Santander,La Liga,,,,,,,,,
+461631,Juan Carlos Arana,#9,Forward,Racing Santander,La Liga,1,-,-,-,-,-,,,2'
+514285,Quilindschy Hartman,#3,Defender,RCD Espanyol Barcelona,La Liga,,,,,,,,,
+822331,Omar El Hilali,#23,Defender,RCD Espanyol Barcelona,La Liga,3,-,-,-,-,-,,,270'
+625651,Urko González de Zárate,#4,Midfield,RCD Espanyol Barcelona,La Liga,3,-,-,2,-,-,,,192'
+720518,Roberto Fernández,#9,Forward,RCD Espanyol Barcelona,La Liga,3,3,-,-,-,-,,,263'
+647435,Tyrhys Dolan,#24,Forward,RCD Espanyol Barcelona,La Liga,3,1,-,-,-,-,,,254'
+713644,Bryan Zaragoza,#15,Forward,RCD Espanyol Barcelona,La Liga,,,,,,,,,
+408471,Javi Puado,#7,Forward,RCD Espanyol Barcelona,La Liga,,,,,,,,,
+1086636,Gabriel Moscardo,#20,Midfield,RCD Espanyol Barcelona,La Liga,1,-,-,-,-,-,,,45'
+412045,Pol Lozano,#10,Midfield,RCD Espanyol Barcelona,La Liga,2,-,-,1,-,-,,,33'
+371856,Vanja Drkusic,#16,Defender,RCD Espanyol Barcelona,La Liga,2,-,-,-,-,-,,,114'
+506248,Edu Expósito,#8,Midfield,RCD Espanyol Barcelona,La Liga,3,-,-,1,-,-,,,244'
+633111,Álex Calatrava,#22,Midfield,RCD Espanyol Barcelona,La Liga,3,1,-,2,-,-,,,228'
+692070,Clemens Riedel,#5,Defender,RCD Espanyol Barcelona,La Liga,2,-,-,1,-,-,,,156'
+338285,Unai Núñez,#14,Defender,RCD Espanyol Barcelona,La Liga,3,-,-,-,-,-,,,270'
+628498,Jofre Carreras,#17,Forward,RCD Espanyol Barcelona,La Liga,3,-,-,-,-,-,,,18'
+705813,Rubén Sánchez,#2,Defender,RCD Espanyol Barcelona,La Liga,,,,,,,,,
+946279,Javi Hernández,#28,Midfield,RCD Espanyol Barcelona,La Liga,3,-,3,1,-,-,,,227'
+961948,Marcos Fernández,#18,Forward,RCD Espanyol Barcelona,La Liga,2,-,-,1,-,-,,,24'
+1178721,Rafel Bauzà,#26,Midfield,RCD Espanyol Barcelona,La Liga,3,-,1,1,-,-,,,62'
+1204959,Roger Hinojo,#21,Defender,RCD Espanyol Barcelona,La Liga,3,-,-,1,-,-,,,270'
+225593,Pere Milla,#11,Forward,RCD Espanyol Barcelona,La Liga,3,-,-,1,-,-,,,30'
+102423,Leandro Cabrera,#6,Defender,RCD Espanyol Barcelona,La Liga,,,,,,,,,
+94308,Marko Dmitrovic,#13,Goalkeeper,RCD Espanyol Barcelona,La Liga,3,-,,-,-,-,4,1,270'
+93936,Kike García,#19,Forward,RCD Espanyol Barcelona,La Liga,,,,,,,,,
+628487,Ángel Fortuño,#1,Goalkeeper,RCD Espanyol Barcelona,La Liga,,,,,,,,,
+709187,Nico Williams,#10,Forward,Athletic Bilbao,La Liga,3,-,-,-,-,-,,,108'
+938729,Mikel Jauregizar,#18,Midfield,Athletic Bilbao,La Liga,2,-,-,-,-,-,,,95'
+571020,Oihan Sancet,#8,Midfield,Athletic Bilbao,La Liga,3,-,-,-,-,-,,,245'
+262396,Unai Simón,#1,Goalkeeper,Athletic Bilbao,La Liga,3,-,,-,-,-,5,1,270'
+524000,Dani Vivian,#3,Defender,Athletic Bilbao,La Liga,,,,,,,,,
+625047,Beñat Prados,#6,Midfield,Athletic Bilbao,La Liga,,,,,,,,,
+1056966,Peio Canales,#28,Midfield,Athletic Bilbao,La Liga,3,-,-,-,-,-,,,205'
+176553,Aymeric Laporte,#14,Defender,Athletic Bilbao,La Liga,3,-,-,-,-,-,,,212'
+255508,Iñaki Williams,#9,Forward,Athletic Bilbao,La Liga,3,-,1,-,-,-,,,183'
+591916,Aitor Paredes,#4,Defender,Athletic Bilbao,La Liga,2,1,-,-,-,-,,,164'
+563137,Robert Navarro,#23,Forward,Athletic Bilbao,La Liga,2,1,-,1,-,-,,,104'
+488626,Jesús Areso,#12,Defender,Athletic Bilbao,La Liga,2,-,-,-,-,-,,,144'
+340205,Gorka Guruzeta,#11,Forward,Athletic Bilbao,La Liga,3,-,-,2,-,-,,,164'
+834491,Alejandro Rego,#20,Midfield,Athletic Bilbao,La Liga,,,,,,,,,
+338425,Álex Berenguer,#7,Forward,Athletic Bilbao,La Liga,3,1,-,-,-,-,,,210'
+671649,Álvaro Djaló,#25,Forward,Athletic Bilbao,La Liga,1,-,-,-,-,-,,,9'
+834487,Hugo Rincón,#15,Defender,Athletic Bilbao,La Liga,2,-,-,-,-,-,,,106'
+289255,Andoni Gorosabel,#2,Defender,Athletic Bilbao,La Liga,,,,,,,,,
+1054934,Maroan Sannadi,#21,Forward,Athletic Bilbao,La Liga,1,-,-,-,-,-,,,32'
+834483,Álex Padilla,#13,Goalkeeper,Athletic Bilbao,La Liga,,,,,,,,,
+710671,Adama Boiro,#19,Defender,Athletic Bilbao,La Liga,1,-,-,-,-,-,,,20'
+126751,Iñigo Ruiz de Galarreta,#16,Midfield,Athletic Bilbao,La Liga,2,-,1,1,-,-,,,72'
+610083,Unai Vencedor,#0,Midfield,Athletic Bilbao,La Liga,,,,,,,,,
+668183,Nico Serrano,#22,Forward,Athletic Bilbao,La Liga,,,,,,,,,
+709214,Beñat Gerenabarrena,#24,Midfield,Athletic Bilbao,La Liga,3,-,-,1,-,-,,,193'
+61812,Yuri Berchiche,#17,Defender,Athletic Bilbao,La Liga,2,-,-,1,-,1,,,101'
+255488,Yeray Álvarez,#5,Defender,Athletic Bilbao,La Liga,2,-,1,-,-,-,,,180'
+834485,Unai Egiluz,#0,Defender,Athletic Bilbao,La Liga,,,,,,,,,
+1124005,Christantus Uche,#0,Forward,Getafe CF,La Liga,,,,,,,,,
+948273,Mario Martín,#6,Midfield,Getafe CF,La Liga,1,-,-,1,-,-,,,66'
+640109,Martín Satriano,#10,Forward,Getafe CF,La Liga,2,-,-,-,-,-,,,163'
+289592,Orel Mangala,#23,Midfield,Getafe CF,La Liga,2,-,-,-,-,-,,,180'
+251106,Enes Ünal,#19,Forward,Getafe CF,La Liga,2,1,-,-,-,-,,,135'
+1063329,Andrés García,#21,Defender,Getafe CF,La Liga,2,-,1,-,-,-,,,166'
+298976,Borja Mayoral,#9,Forward,Getafe CF,La Liga,1,-,-,-,-,-,,,1'
+559979,Abdel Abqar,#5,Defender,Getafe CF,La Liga,2,-,-,-,-,-,,,91'
+783396,Ramón Terrats,#11,Midfield,Getafe CF,La Liga,2,-,-,-,-,-,,,180'
+632930,Francho Serrano,#16,Midfield,Getafe CF,La Liga,1,-,-,-,-,-,,,90'
+226012,David Soria,#13,Goalkeeper,Getafe CF,La Liga,2,-,,-,-,-,3,1,180'
+741142,Zaid Romero,#24,Defender,Getafe CF,La Liga,2,-,-,-,-,-,,,180'
+74294,Nemanja Gudelj,#0,Midfield,Getafe CF,La Liga,,,,,,,,,
+469669,Yvan Neyou,#16,Midfield,Getafe CF,La Liga,,,,,,,,,
+339079,Jiri Letacek,#1,Goalkeeper,Getafe CF,La Liga,,,,,,,,,
+461843,Juan Berrocal,#20,Defender,Getafe CF,La Liga,,,,,,,,,
+262939,Johan Mojica,#22,Defender,Getafe CF,La Liga,1,-,-,-,-,-,,,90'
+898352,Sebastián Boselli,#15,Defender,Getafe CF,La Liga,2,-,-,-,-,-,,,14'
+221150,Dakonam Djené,#2,Defender,Getafe CF,La Liga,2,-,-,1,-,-,,,171'
+126737,Juanmi,#7,Forward,Getafe CF,La Liga,,,,,,,,,
+1268764,Davinchi,#3,Defender,Getafe CF,La Liga,1,-,-,1,-,-,,,45'
+655456,Saba Sazonov,#4,Defender,Getafe CF,La Liga,2,-,-,1,-,-,,,99'
+76467,Kiko Femenía,#17,Defender,Getafe CF,La Liga,1,-,-,-,-,1,,,42'
+1305564,Jean Ives Valou,#26,Defender,Getafe CF,La Liga,1,-,-,-,-,-,,,17'
+711374,Jon Gorrotxategi,#4,Midfield,Real Sociedad,La Liga,1,-,-,-,-,-,,,1'
+1018938,Jon Martín,#31,Defender,Real Sociedad,La Liga,3,-,-,-,-,-,,,270'
+351478,Mikel Oyarzabal,#10,Forward,Real Sociedad,La Liga,3,-,2,-,-,-,,,179'
+910905,Mamadou Sarr,#19,Defender,Real Sociedad,La Liga,,,,,,,,,
+660438,Orri Óskarsson,#9,Forward,Real Sociedad,La Liga,3,1,-,-,-,-,,,201'
+405398,Takefusa Kubo,#14,Forward,Real Sociedad,La Liga,3,-,-,-,-,-,,,144'
+616369,Ander Barrenetxea,#7,Forward,Real Sociedad,La Liga,3,1,-,-,-,-,,,145'
+661145,Jon Aramburu,#2,Defender,Real Sociedad,La Liga,3,-,-,2,-,-,,,237'
+366930,Sergio Gómez,#17,Defender,Real Sociedad,La Liga,3,-,-,1,-,-,,,252'
+937955,Héctor Fort,#0,Defender,Real Sociedad,La Liga,,,,,,,,,
+502722,Luka Sucic,#24,Midfield,Real Sociedad,La Liga,3,1,-,-,-,-,,,255'
+634431,Beñat Turrientes,#8,Midfield,Real Sociedad,La Liga,3,-,-,1,-,-,,,170'
+555143,Arsen Zakharyan,#23,Midfield,Real Sociedad,La Liga,1,-,-,-,-,-,,,3'
+212862,Álex Remiro,#1,Goalkeeper,Real Sociedad,La Liga,3,-,,-,-,-,6,-,270'
+372246,Carlos Soler,#18,Midfield,Real Sociedad,La Liga,3,-,-,-,-,-,,,204'
+907813,Pablo Marín,#15,Midfield,Real Sociedad,La Liga,,,,,,,,,
+378293,Yangel Herrera,#21,Midfield,Real Sociedad,La Liga,3,-,-,1,-,-,,,166'
+355628,Igor Zubeldia,#5,Defender,Real Sociedad,La Liga,3,-,-,2,-,-,,,213'
+225122,Gonçalo Guedes,#11,Forward,Real Sociedad,La Liga,2,-,-,-,-,-,,,28'
+580560,Jon Pacheco,#16,Defender,Real Sociedad,La Liga,,,,,,,,,
+517842,Aihen Muñoz,#3,Defender,Real Sociedad,La Liga,1,-,-,-,-,-,,,18'
+1105810,Job Ochieng,#12,Forward,Real Sociedad,La Liga,1,-,-,-,-,-,,,66'
+709215,Mikel Goti,#22,Midfield,Real Sociedad,La Liga,,,,,,,,,
+625657,Unai Marrero,#13,Goalkeeper,Real Sociedad,La Liga,,,,,,,,,
+280730,Álvaro Odriozola,#20,Defender,Real Sociedad,La Liga,,,,,,,,,
+733576,Alberto Moleiro,#10,Forward,Villarreal CF,La Liga,3,-,1,-,-,-,,,144'
+485963,Pape Gueye,#18,Midfield,Villarreal CF,La Liga,3,1,-,1,-,-,,,270'
+805714,Renato Veiga,#12,Defender,Villarreal CF,La Liga,3,-,-,1,-,-,,,270'
+729814,Georges Mikautadze,#9,Forward,Villarreal CF,La Liga,3,1,1,-,-,-,,,251'
+709372,Carlos Romero,#20,Defender,Villarreal CF,La Liga,3,-,-,1,-,-,,,270'
+953901,Santiago Mouriño,#15,Defender,Villarreal CF,La Liga,3,-,-,2,-,-,,,240'
+1061336,Pau Navarro,#6,Defender,Villarreal CF,La Liga,,,,,,,,,
+484988,Logan Costa,#2,Defender,Villarreal CF,La Liga,,,,,,,,,
+638793,Tajon Buchanan,#17,Forward,Villarreal CF,La Liga,3,-,-,-,-,-,,,126'
+712107,Luiz Júnior,#1,Goalkeeper,Villarreal CF,La Liga,3,-,,-,-,-,5,-,270'
+709969,Ilias Akhomach,#11,Forward,Villarreal CF,La Liga,3,-,-,-,-,-,,,44'
+985806,Alex Freeman,#3,Defender,Villarreal CF,La Liga,2,-,-,-,-,-,,,30'
+842420,Nathan Saliba,#24,Midfield,Villarreal CF,La Liga,,,,,,,,,
+678406,Sergi Cardona,#23,Defender,Villarreal CF,La Liga,,,,,,,,,
+480763,Juan Foyth,#8,Defender,Villarreal CF,La Liga,3,-,-,2,-,-,,,270'
+380598,Santi Comesaña,#14,Midfield,Villarreal CF,La Liga,3,-,-,-,-,-,,,203'
+972465,Tani Oluwaseyi,#21,Forward,Villarreal CF,La Liga,2,-,-,-,-,-,,,13'
+343052,Nicolas Pépé,#19,Forward,Villarreal CF,La Liga,3,1,-,1,-,-,,,246'
+246968,Ayoze Pérez,#22,Forward,Villarreal CF,La Liga,3,-,-,-,-,-,,,145'
+1453066,Carlos Macià,#26,Midfield,Villarreal CF,La Liga,2,-,-,-,-,-,,,45'
+177467,Gerard Moreno,#7,Forward,Villarreal CF,La Liga,3,1,-,-,-,-,,,133'
+57071,Péter Gulácsi,#25,Goalkeeper,Villarreal CF,La Liga,,,,,,,,,
+1249340,Alassane Diatta,#4,Midfield,Villarreal CF,La Liga,,,,,,,,,
+709336,Rubén Gómez,#13,Goalkeeper,Villarreal CF,La Liga,,,,,,,,,
+527966,Andrei Rațiu,#2,Defender,Rayo Vallecano,La Liga,2,-,-,-,-,-,,,180'
+455181,Jorge de Frutos,#19,Forward,Rayo Vallecano,La Liga,2,-,1,-,-,-,,,180'
+275218,Augusto Batalla,#13,Goalkeeper,Rayo Vallecano,La Liga,2,-,,-,-,-,2,-,150'
+560417,Alemão,#9,Forward,Rayo Vallecano,La Liga,1,-,-,-,-,-,,,25'
+363057,Pedro Díaz,#4,Midfield,Rayo Vallecano,La Liga,1,-,-,-,-,-,,,12'
+371371,Marash Kumbulla,#3,Defender,Rayo Vallecano,La Liga,,,,,,,,,
+419067,Giorgi Tsitaishvili,#14,Forward,Rayo Vallecano,La Liga,,,,,,,,,
+505674,Sergio Camello,#10,Forward,Rayo Vallecano,La Liga,2,1,-,1,-,-,,,116'
+362086,Isi Palazón,#7,Forward,Rayo Vallecano,La Liga,2,-,-,-,-,-,,,81'
+501418,Adrià Pedrosa,#17,Defender,Rayo Vallecano,La Liga,,,,,,,,,
+622988,Fran Pérez,#21,Forward,Rayo Vallecano,La Liga,2,-,-,1,-,-,,,75'
+192009,Unai López,#17,Midfield,Rayo Vallecano,La Liga,2,-,-,1,-,-,,,168'
+765467,Jozhua Vertrouwd,#33,Defender,Rayo Vallecano,La Liga,1,-,-,-,-,-,,,90'
+457931,Luiz Felipe,#5,Defender,Rayo Vallecano,La Liga,,,,,,,,,
+517753,Óscar Valentín,#23,Midfield,Rayo Vallecano,La Liga,2,-,-,-,-,-,,,113'
+127108,Florian Lejeune,#24,Defender,Rayo Vallecano,La Liga,2,-,-,-,-,-,,,180'
+525578,Pathé Ciss,#6,Midfield,Rayo Vallecano,La Liga,2,-,-,1,-,-,,,180'
+397676,Dani Cárdenas,#1,Goalkeeper,Rayo Vallecano,La Liga,1,-,,-,-,-,1,-,30'
+257062,Álvaro García,#18,Forward,Rayo Vallecano,La Liga,2,1,-,1,-,-,,,105'
+560483,Randy Nteka,#11,Midfield,Rayo Vallecano,La Liga,2,-,-,-,-,-,,,138'
+85295,Iván Balliu,#20,Defender,Rayo Vallecano,La Liga,1,-,-,-,-,-,,,90'
+692208,Pelayo Fernández,#22,Defender,Rayo Vallecano,La Liga,2,-,-,-,-,-,,,67'
+162038,Raúl de Tomás,#0,Forward,Rayo Vallecano,La Liga,,,,,,,,,
+707359,Etienne Eto'o,#0,Forward,Rayo Vallecano,La Liga,,,,,,,,,
+1368893,Gnangoro Bouare,#0,Midfield,Rayo Vallecano,La Liga,,,,,,,,,
+764859,Williot Swedberg,#19,Forward,Celta de Vigo,La Liga,3,-,-,-,-,-,,,155'
+1076815,Javi Rodríguez,#20,Defender,Celta de Vigo,La Liga,3,-,-,-,-,-,,,225'
+892932,Miguel Román,#8,Midfield,Celta de Vigo,La Liga,3,-,1,-,-,-,,,225'
+617074,Ilaix Moriba,#6,Midfield,Celta de Vigo,La Liga,3,-,-,-,-,-,,,148'
+545647,Sergio Carreira,#5,Defender,Celta de Vigo,La Liga,3,-,-,1,-,-,,,205'
+599231,Ferran Jutglà,#9,Forward,Celta de Vigo,La Liga,3,-,-,-,-,-,,,165'
+303657,Ionuț Radu,#13,Goalkeeper,Celta de Vigo,La Liga,3,-,,1,-,-,4,1,270'
+960571,Jones El-Abdellaoui,#39,Forward,Celta de Vigo,La Liga,2,-,-,-,-,-,,,89'
+892929,Hugo Álvarez,#23,Forward,Celta de Vigo,La Liga,3,-,-,-,-,-,,,115'
+593837,Couhaib Driouech,#24,Forward,Celta de Vigo,La Liga,,,,,,,,,
+652331,Javi Rueda,#17,Defender,Celta de Vigo,La Liga,3,-,-,1,-,-,,,136'
+217144,Aleix Febas,#14,Midfield,Celta de Vigo,La Liga,2,-,-,-,-,-,,,167'
+336077,Altay Bayındır,#1,Goalkeeper,Celta de Vigo,La Liga,,,,,,,,,
+1182738,Abdoulaye Faye,#4,Defender,Celta de Vigo,La Liga,1,-,-,-,-,-,,,45'
+258987,Carl Starfelt,#2,Defender,Celta de Vigo,La Liga,2,-,-,-,-,-,,,128'
+626953,Álvaro Núñez,#15,Defender,Celta de Vigo,La Liga,1,-,-,-,-,-,,,90'
+905997,Pablo Durán,#11,Forward,Celta de Vigo,La Liga,2,-,-,-,-,-,,,105'
+939374,Yoel Lago,#29,Defender,Celta de Vigo,La Liga,3,-,-,-,-,-,,,225'
+278359,Borja Iglesias,#7,Forward,Celta de Vigo,La Liga,,,,,,,,,
+448628,Javi Galán,#22,Defender,Celta de Vigo,La Liga,2,-,-,-,-,-,,,129'
+282810,Carles Pérez,#18,Forward,Celta de Vigo,La Liga,,,,,,,,,
+72047,Iago Aspas,#10,Forward,Celta de Vigo,La Liga,3,1,-,-,-,-,,,123'
+112515,Marcos Alonso,#3,Defender,Celta de Vigo,La Liga,2,-,-,-,-,1,,,141'
+297194,Iván Villar,#25,Goalkeeper,Celta de Vigo,La Liga,,,,,,,,,
+707279,Hugo González,#16,Forward,Celta de Vigo,La Liga,1,-,-,-,-,-,,,45'
+834764,Javi Guerra,#8,Midfield,Valencia CF,La Liga,3,-,-,-,-,-,,,240'
+573775,Hugo Duro,#9,Forward,Valencia CF,La Liga,3,-,-,-,-,-,,,92'
+826224,Arnau Martínez,#22,Defender,Valencia CF,La Liga,1,-,-,-,-,-,,,82'
+707274,César Tárrega,#5,Defender,Valencia CF,La Liga,3,-,-,-,-,-,,,270'
+617081,Diego López,#16,Forward,Valencia CF,La Liga,,,,,,,,,
+328480,Pepelu,#18,Midfield,Valencia CF,La Liga,3,-,-,-,-,-,,,244'
+420196,Justin de Haas,#12,Defender,Valencia CF,La Liga,1,-,-,1,-,-,,,45'
+394236,Filip Ugrinic,#23,Midfield,Valencia CF,La Liga,3,-,-,-,-,-,,,194'
+375382,André Almeida,#10,Midfield,Valencia CF,La Liga,,,,,,,,,
+520840,José Copete,#3,Defender,Valencia CF,La Liga,,,,,,,,,
+342385,Guido Rodríguez,#2,Midfield,Valencia CF,La Liga,2,-,-,-,-,-,,,178'
+337715,Umar Sadiq,#6,Forward,Valencia CF,La Liga,3,1,-,-,-,-,,,158'
+623024,Jesús Vázquez,#21,Defender,Valencia CF,La Liga,3,-,-,-,-,-,,,270'
+221322,José Gayà,#14,Defender,Valencia CF,La Liga,1,-,-,-,-,-,,,69'
+355861,Arnaut Danjuma,#7,Forward,Valencia CF,La Liga,3,-,-,-,-,-,,,168'
+410427,Aliou Dieng,#15,Midfield,Valencia CF,La Liga,3,-,-,-,-,-,,,47'
+251876,Pablo Maffeo,#24,Defender,Valencia CF,La Liga,2,-,-,-,-,-,,,76'
+948169,Ryunosuke Sato,#39,Forward,Valencia CF,La Liga,3,-,-,1,-,-,,,207'
+790669,Kayne van Oevelen,#25,Goalkeeper,Valencia CF,La Liga,,,,,,,,,
+165467,Stole Dimitrievski,#1,Goalkeeper,Valencia CF,La Liga,3,-,,1,-,-,4,1,270'
+278837,Luis Rioja,#11,Forward,Valencia CF,La Liga,2,-,-,-,-,-,,,95'
+346289,Mouctar Diakhaby,#4,Defender,Valencia CF,La Liga,3,-,-,2,-,-,,,225'
+413262,Dani Raba,#19,Forward,Valencia CF,La Liga,1,-,-,-,-,-,,,8'
+170472,Dimitri Foulquier,#20,Defender,Valencia CF,La Liga,,,,,,,,,
+251845,Sergi Canós,#0,Forward,Valencia CF,La Liga,,,,,,,,,
+834463,Iker Córdoba,#36,Defender,Valencia CF,La Liga,,,,,,,,,
+398131,Cristian Rivero,#13,Goalkeeper,Valencia CF,La Liga,,,,,,,,,
+452483,David Affengruber,#22,Defender,Elche CF,La Liga,3,-,-,-,-,-,,,270'
+983989,Facundo Buonanotte,#10,Midfield,Elche CF,La Liga,2,-,-,1,-,-,,,95'
+548188,Germán Valera,#11,Forward,Elche CF,La Liga,3,-,-,-,-,-,,,261'
+962125,Buba Sangaré,#2,Defender,Elche CF,La Liga,3,1,-,-,-,-,,,264'
+296783,Ezequiel Ponce,#9,Forward,Elche CF,La Liga,2,-,-,-,-,-,,,66'
+549027,Martim Neto,#16,Midfield,Elche CF,La Liga,2,-,-,-,-,-,,,86'
+495625,Víctor Chust,#23,Defender,Elche CF,La Liga,3,-,-,-,-,-,,,270'
+531404,Marc Aguado,#8,Midfield,Elche CF,La Liga,3,1,-,-,-,-,,,199'
+909758,Federico Redondo,#5,Midfield,Elche CF,La Liga,2,-,-,-,-,-,,,141'
+912392,Lucas Cepeda,#21,Forward,Elche CF,La Liga,3,-,1,-,-,-,,,77'
+627294,Fer Niño,#14,Forward,Elche CF,La Liga,3,1,-,-,-,-,,,228'
+342048,Grady Diangana,#19,Forward,Elche CF,La Liga,,,,,,,,,
+398163,Gonzalo Villar,#12,Midfield,Elche CF,La Liga,3,-,1,1,-,-,,,270'
+339816,Tete Morente,#20,Forward,Elche CF,La Liga,3,-,1,-,-,-,,,139'
+991773,Abiel Osorio,#24,Forward,Elche CF,La Liga,,,,,,,,,
+618801,Alejandro Iturbe,#43,Goalkeeper,Elche CF,La Liga,,,,,,,,,
+1060456,Matia Barzic,#26,Defender,Elche CF,La Liga,,,,,,,,,
+706947,Yago Santiago,#7,Forward,Elche CF,La Liga,,,,,,,,,
+627290,John Donald,#18,Defender,Elche CF,La Liga,,,,,,,,,
+1064506,Adam Boayar,#32,Forward,Elche CF,La Liga,,,,,,,,,
+435493,Bambo Diaby,#4,Defender,Elche CF,La Liga,,,,,,,,,
+1250522,Javi Morcillo,#47,Midfield,Elche CF,La Liga,2,-,-,-,-,-,,,37'
+1064538,Ali Houary,#29,Forward,Elche CF,La Liga,3,-,-,1,-,-,,,190'
+203043,Pedro Bigas,#6,Defender,Elche CF,La Liga,2,-,-,-,-,-,,,71'
+589456,Rafa Núñez,#0,Forward,Elche CF,La Liga,,,,,,,,,
+277533,Josan,#17,Forward,Elche CF,La Liga,1,-,-,-,-,-,,,6'
+144128,Matías Dituro,#1,Goalkeeper,Elche CF,La Liga,3,-,,-,-,-,9,-,270'
+780817,Chupe,#9,Forward,Málaga CF,La Liga,3,1,-,1,-,-,,,270'
+635939,David Larrubia,#10,Forward,Málaga CF,La Liga,3,-,-,1,-,-,,,214'
+568835,Pablo Martínez,#18,Midfield,Málaga CF,La Liga,1,-,-,-,-,-,,,45'
+357884,Fernando Calero,#20,Defender,Málaga CF,La Liga,,,,,,,,,
+926849,Adrián Niño,#21,Forward,Málaga CF,La Liga,,,,,,,,,
+819590,José Salinas,#12,Defender,Málaga CF,La Liga,2,-,-,-,-,-,,,48'
+1078436,Izan Merino,#23,Midfield,Málaga CF,La Liga,3,-,-,-,-,-,,,262'
+585700,Juan Cruz,#19,Forward,Málaga CF,La Liga,3,-,-,1,-,-,,,108'
+960562,Dani Lorenzo,#22,Midfield,Málaga CF,La Liga,2,-,-,-,-,-,,,165'
+396334,Joaquín Muñoz,#11,Forward,Málaga CF,La Liga,3,-,-,-,-,-,,,201'
+635930,Diego Murillo,#16,Defender,Málaga CF,La Liga,,,,,,,,,
+625654,Julen Lobete,#24,Forward,Málaga CF,La Liga,1,-,-,-,-,-,,,5'
+623524,Carlos Dotor,#8,Midfield,Málaga CF,La Liga,3,-,-,-,-,-,,,230'
+1064717,Rafita Garrido,#31,Defender,Málaga CF,La Liga,3,-,1,-,-,-,,,270'
+1057394,Rafa Rodríguez,#14,Midfield,Málaga CF,La Liga,3,-,-,-,-,-,,,85'
+776703,Carlos Puga,#3,Defender,Málaga CF,La Liga,3,-,-,1,-,-,,,222'
+1109577,Aarón Ochoa,#35,Midfield,Málaga CF,La Liga,,,,,,,,,
+376589,Eneko Jauregi,#17,Forward,Málaga CF,La Liga,1,-,-,-,-,-,,,10'
+129478,Alfonso Herrero,#1,Goalkeeper,Málaga CF,La Liga,3,-,,-,-,-,7,-,270'
+251046,Einar Galilea,#4,Defender,Málaga CF,La Liga,3,-,-,-,-,-,,,244'
+897521,Ángel Recio,#15,Defender,Málaga CF,La Liga,3,-,-,-,-,-,,,270'
+398056,Álex Pastor,#5,Defender,Málaga CF,La Liga,,,,,,,,,
+667996,Haitam Abaida,#7,Forward,Málaga CF,La Liga,2,-,-,-,-,-,,,33'
+567222,Ramón Enríquez,#6,Midfield,Málaga CF,La Liga,3,-,-,2,-,-,,,18'
+1004298,Carlos López,#13,Goalkeeper,Málaga CF,La Liga,,,,,,,,,
+1057392,Pablo Arriaza,#0,Midfield,Málaga CF,La Liga,,,,,,,,,

@@ -148,9 +148,9 @@ Snapshot filenames use the season start year, not the calendar year.
 
 Example:
 
-- `epl_stats_2025.csv` means the `2025/26` season
+- `epl_stats_2026.csv` means the `2026/27` season
 
-So on April 7, 2026, the current season is still labeled `2025`.
+So on August 31, 2026, the current season is labeled `2026`.
 
 ## Refresh Data
 
@@ -197,11 +197,15 @@ Refresh all leagues with a full stats rebuild:
 python refresh_data.py --all
 ```
 
+Without an explicit `--season`, European competitions use the current European
+season (`2026` for 2026/27). World Cup 2026 remains on its Transfermarkt season
+key `2025`, including during global refreshes.
+
 Use this when you intentionally want to rebuild every saved player-stat
 snapshot. For routine catch-up work, prefer the targeted command below.
 
-Force a fresh roster pull when you actually need to rebuild squads, for example
-around transfer windows:
+Force a fresh roster pull when you actually need to rebuild squads, especially
+for a new European season or around transfer windows:
 
 ```bash
 python refresh_data.py --all --refresh-rosters
@@ -210,7 +214,7 @@ python refresh_data.py --all --refresh-rosters
 Force a specific season:
 
 ```bash
-python refresh_data.py --league epl --season 2025
+python refresh_data.py --league epl --season 2026
 ```
 
 Refresh only team logo URLs inside existing table snapshots:
@@ -262,11 +266,11 @@ data.
 
 For example, an EPL refresh produces files like:
 
-- `tmstats/epl/epl_players_2025.csv`
-- `tmstats/epl/epl_table_2025.csv`
-- `tmstats/epl/epl_table_2025.pdf`
-- `tmstats/epl/epl_stats_2025.csv`
-- `tmstats/epl/epl_stats_2025.pdf`
+- `tmstats/epl/epl_players_2026.csv`
+- `tmstats/epl/epl_table_2026.csv`
+- `tmstats/epl/epl_table_2026.pdf`
+- `tmstats/epl/epl_stats_2026.csv`
+- `tmstats/epl/epl_stats_2026.pdf`
 
 ## Generate PDFs Only
 
@@ -276,7 +280,7 @@ use `--pdf-only`.
 Example:
 
 ```bash
-python refresh_data.py --league epl --season 2025 --pdf-only
+python refresh_data.py --league epl --season 2026 --pdf-only
 ```
 
 This does not contact Transfermarkt. It reads the local CSV files and renders
@@ -435,7 +439,7 @@ If a PDF still shows a missing character:
 2. rerun:
 
 ```bash
-python refresh_data.py --league epl --season 2025 --pdf-only
+python refresh_data.py --league epl --season 2026 --pdf-only
 ```
 
 The CSV data remains untouched. Only the PDF rendering changes.

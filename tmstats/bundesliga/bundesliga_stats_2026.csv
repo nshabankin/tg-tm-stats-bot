@@ -1,0 +1,530 @@
+player_id,player_name,number,position,club,league,played,goals,assists,yellow_cards,second_yellows,red_cards,conceded,clean_sheets,minutes
+566723,Michael Olise,#17,Forward,Bayern Munich,Bundesliga,1,1,-,-,-,-,,,90'
+580195,Jamal Musiala,#10,Midfield,Bayern Munich,Bundesliga,,,,,,,,,
+792380,Aleksandar Pavlovic,#45,Midfield,Bayern Munich,Bundesliga,1,1,-,-,-,-,,,84'
+344695,Dayot Upamecano,#2,Defender,Bayern Munich,Bundesliga,1,1,-,-,-,-,,,90'
+480692,Luis Díaz,#14,Forward,Bayern Munich,Bundesliga,1,1,-,-,-,-,,,90'
+1075147,Lennart Karl,#42,Midfield,Bayern Munich,Bundesliga,1,-,-,-,-,-,,,6'
+132098,Harry Kane,#9,Forward,Bayern Munich,Bundesliga,1,-,-,-,-,-,,,84'
+702869,Ismael Saibari,#34,Midfield,Bayern Munich,Bundesliga,1,-,2,-,-,-,,,29'
+691892,Nathaniel Brown,#11,Defender,Bayern Munich,Bundesliga,1,-,-,-,-,-,,,61'
+822959,Tom Bischof,#8,Midfield,Bayern Munich,Bundesliga,1,-,-,-,-,-,,,6'
+424204,Alphonso Davies,#19,Defender,Bayern Munich,Bundesliga,1,-,1,-,-,-,,,74'
+483046,Josip Stanisic,#44,Defender,Bayern Munich,Bundesliga,1,-,-,-,-,-,,,16'
+161056,Joshua Kimmich,#6,Midfield,Bayern Munich,Bundesliga,1,-,2,-,-,-,,,90'
+223967,Konrad Laimer,#27,Defender,Bayern Munich,Bundesliga,1,-,-,-,-,-,,,90'
+196357,Jonathan Tah,#4,Defender,Bayern Munich,Bundesliga,1,-,-,-,-,-,,,6'
+503482,Min-jae Kim,#3,Defender,Bayern Munich,Bundesliga,1,-,-,1,-,-,,,84'
+159471,Serge Gnabry,#7,Forward,Bayern Munich,Bundesliga,,,,,,,,,
+607720,Jonas Urbig,#40,Goalkeeper,Bayern Munich,Bundesliga,,,,,,,,,
+353892,Hiroki Ito,#21,Defender,Bayern Munich,Bundesliga,,,,,,,,,
+475413,Sacha Boey,#23,Defender,Bayern Munich,Bundesliga,,,,,,,,,
+744728,Arijon Ibrahimovic,#22,Forward,Bayern Munich,Bundesliga,,,,,,,,,
+17259,Manuel Neuer,#1,Goalkeeper,Bayern Munich,Bundesliga,1,-,,-,-,-,1,-,90'
+1497653,Bara Sapoko Ndiaye,#39,Midfield,Bayern Munich,Bundesliga,,,,,,,,,
+1118495,David Santos Daiber,#47,Midfield,Bayern Munich,Bundesliga,,,,,,,,,
+40680,Sven Ulreich,#26,Goalkeeper,Bayern Munich,Bundesliga,,,,,,,,,
+668606,Yuito Suzuki,#14,Forward,SC Freiburg,Bundesliga,1,3,-,-,-,-,,,80'
+605268,Igor Matanovic,#31,Forward,SC Freiburg,Bundesliga,1,1,1,-,-,-,,,73'
+863759,Bruno Ogbus,#43,Defender,SC Freiburg,Bundesliga,,,,,,,,,
+620295,Mio Backhaus,#1,Goalkeeper,SC Freiburg,Bundesliga,1,-,,-,-,-,1,-,90'
+335993,Philipp Treu,#29,Defender,SC Freiburg,Bundesliga,1,-,-,-,-,-,,,21'
+443331,Patrick Osterhage,#6,Midfield,SC Freiburg,Bundesliga,,,,,,,,,
+916623,Keisuke Goto,#42,Forward,SC Freiburg,Bundesliga,1,-,-,1,-,-,,,10'
+190284,Maximilian Eggestein,#8,Midfield,SC Freiburg,Bundesliga,1,-,-,-,-,-,,,90'
+225657,Philipp Lienhart,#3,Defender,SC Freiburg,Bundesliga,1,-,-,-,-,-,,,69'
+342967,Niklas Beste,#19,Forward,SC Freiburg,Bundesliga,1,-,1,-,-,-,,,45'
+1145064,Cyriaque Irié,#22,Forward,SC Freiburg,Bundesliga,1,-,-,-,-,-,,,45'
+820957,Derry Scherhant,#7,Forward,SC Freiburg,Bundesliga,1,-,1,-,-,-,,,90'
+907087,Berkay Yılmaz,#27,Defender,SC Freiburg,Bundesliga,,,,,,,,,
+405670,Yannik Engelhardt,#16,Midfield,SC Freiburg,Bundesliga,1,-,-,-,-,-,,,90'
+432403,Rihito Yamamoto,#20,Midfield,SC Freiburg,Bundesliga,,,,,,,,,
+599419,Max Rosenfelder,#37,Defender,SC Freiburg,Bundesliga,1,-,-,-,-,-,,,21'
+815078,Jordy Makengo,#33,Defender,SC Freiburg,Bundesliga,1,-,-,-,-,-,,,90'
+124502,Matthias Ginter,#28,Defender,SC Freiburg,Bundesliga,1,-,1,-,-,-,,,90'
+185077,Vincenzo Grifo,#32,Forward,SC Freiburg,Bundesliga,,,,,,,,,
+248999,Lucas Höler,#9,Forward,SC Freiburg,Bundesliga,1,-,-,-,-,-,,,17'
+93707,Christian Günter,#30,Defender,SC Freiburg,Bundesliga,,,,,,,,,
+337036,Florent Muslija,#23,Forward,SC Freiburg,Bundesliga,,,,,,,,,
+93604,Lukas Kübler,#17,Defender,SC Freiburg,Bundesliga,1,-,-,-,-,-,,,69'
+284769,Florian Müller,#21,Goalkeeper,SC Freiburg,Bundesliga,,,,,,,,,
+58995,Anthony Jung,#5,Defender,SC Freiburg,Bundesliga,,,,,,,,,
+160954,Jannik Huth,#24,Goalkeeper,SC Freiburg,Bundesliga,,,,,,,,,
+1159439,Rouven Tarnutzer,#39,Midfield,SC Freiburg,Bundesliga,,,,,,,,,
+618472,Castello Lukeba,#23,Defender,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,90'
+324278,Christoph Baumgartner,#14,Midfield,RB Leipzig,Bundesliga,,,,,,,,,
+894914,Antonio Nusa,#7,Forward,RB Leipzig,Bundesliga,1,1,-,1,-,-,,,90'
+957874,Rômulo,#40,Forward,RB Leipzig,Bundesliga,,,,,,,,,
+897424,Assan Ouédraogo,#8,Midfield,RB Leipzig,Bundesliga,,,,,,,,,
+842341,Maxime Estève,#3,Defender,RB Leipzig,Bundesliga,,,,,,,,,
+700106,Brajan Gruda,#10,Midfield,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,73'
+318204,David Raum,#22,Defender,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,90'
+344381,Christopher Nkunku,#28,Forward,RB Leipzig,Bundesliga,1,-,1,-,-,-,,,26'
+404950,Nicolas Seiwald,#13,Midfield,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,90'
+565424,Johan Bakayoko,#11,Forward,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,17'
+926694,Arthur Vermeeren,#48,Midfield,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,7'
+467434,Rocco Reitz,#20,Midfield,RB Leipzig,Bundesliga,1,1,-,-,-,-,,,83'
+787912,El Chadaille Bitshiabu,#5,Defender,RB Leipzig,Bundesliga,,,,,,,,,
+807386,Conrad Harder,#9,Forward,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,7'
+865682,Ezechiel Banzuzi,#6,Midfield,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,83'
+486046,Maarten Vandevoordt,#26,Goalkeeper,RB Leipzig,Bundesliga,1,-,,-,-,-,-,1,90'
+1130445,Abdoul Koné,#2,Defender,RB Leipzig,Bundesliga,,,,,,,,,
+327251,Ridle Baku,#17,Defender,RB Leipzig,Bundesliga,1,1,-,-,-,-,,,73'
+952779,Andrija Maksimovic,#30,Midfield,RB Leipzig,Bundesliga,,,,,,,,,
+202591,Benjamin Henrichs,#39,Defender,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,17'
+93740,Willi Orbán,#4,Defender,RB Leipzig,Bundesliga,1,-,-,-,-,-,,,90'
+955448,Tidiam Gomis,#27,Forward,RB Leipzig,Bundesliga,1,-,2,-,-,-,,,64'
+1235583,Suleman Sani,#18,Forward,RB Leipzig,Bundesliga,,,,,,,,,
+810649,Max Finkgräfe,#35,Defender,RB Leipzig,Bundesliga,,,,,,,,,
+215599,Lukas Klostermann,#16,Defender,RB Leipzig,Bundesliga,,,,,,,,,
+763948,Ayodele Thomas,#21,Forward,RB Leipzig,Bundesliga,,,,,,,,,
+73517,Ørjan Nyland,#1,Goalkeeper,RB Leipzig,Bundesliga,,,,,,,,,
+990146,Joyeux Masanka Bungi,#42,Defender,RB Leipzig,Bundesliga,,,,,,,,,
+1074526,Viggo Gebel,#47,Midfield,RB Leipzig,Bundesliga,,,,,,,,,
+160971,Leopold Zingerle,#25,Goalkeeper,RB Leipzig,Bundesliga,,,,,,,,,
+1279157,Benno Kaltefleiter,#37,Midfield,RB Leipzig,Bundesliga,,,,,,,,,
+569383,Chrislain Matsima,#5,Defender,FC Augsburg,Bundesliga,1,-,-,-,-,-,,,90'
+923945,Noahkai Banks,#40,Defender,FC Augsburg,Bundesliga,1,-,-,-,-,-,,,90'
+384593,Alexis Claude-Maurice,#20,Midfield,FC Augsburg,Bundesliga,,,,,,,,,
+507341,Fabian Rieder,#32,Midfield,FC Augsburg,Bundesliga,1,-,1,1,-,-,,,83'
+777005,Mert Kömür,#10,Midfield,FC Augsburg,Bundesliga,1,-,-,-,-,-,,,14'
+251299,Finn Dahmen,#1,Goalkeeper,FC Augsburg,Bundesliga,1,-,,-,-,-,-,1,90'
+654234,Anton Kade,#30,Midfield,FC Augsburg,Bundesliga,1,1,1,-,-,-,,,90'
+536508,Han-Noah Massengo,#4,Midfield,FC Augsburg,Bundesliga,1,-,-,-,-,-,,,90'
+639414,Young-woo Seol,#7,Defender,FC Augsburg,Bundesliga,1,-,1,-,-,-,,,1'
+374954,Kristijan Jakic,#17,Midfield,FC Augsburg,Bundesliga,,,,,,,,,
+829838,Hennes Behrens,#16,Defender,FC Augsburg,Bundesliga,1,-,-,-,-,-,,,90'
+726701,Rodrigo Ribeiro,#9,Forward,FC Augsburg,Bundesliga,1,1,-,-,-,-,,,7'
+1309324,Uchenna Ogundu,#39,Forward,FC Augsburg,Bundesliga,,,,,,,,,
+264960,Robin Fellhauer,#19,Midfield,FC Augsburg,Bundesliga,1,-,-,-,-,-,,,76'
+358766,Calvin Brackelmann,#2,Defender,FC Augsburg,Bundesliga,1,-,-,-,-,-,,,90'
+928265,Sima Suso,#8,Midfield,FC Augsburg,Bundesliga,,,,,,,,,
+193900,Marius Wolf,#27,Defender,FC Augsburg,Bundesliga,1,-,-,-,-,-,,,90'
+342039,Yannik Keitel,#14,Midfield,FC Augsburg,Bundesliga,1,-,-,-,-,-,,,7'
+557614,Nathanaël Mbuku,#34,Forward,FC Augsburg,Bundesliga,,,,,,,,,
+610190,Nediljko Labrovic,#22,Goalkeeper,FC Augsburg,Bundesliga,,,,,,,,,
+120205,Michael Gregoritsch,#11,Forward,FC Augsburg,Bundesliga,1,1,-,-,-,-,,,83'
+238639,Steve Mounié,#15,Forward,FC Augsburg,Bundesliga,,,,,,,,,
+106405,Jeffrey Gouweleeuw,#6,Defender,FC Augsburg,Bundesliga,1,-,-,-,-,-,,,1'
+569457,Tim Breithaupt,#18,Midfield,FC Augsburg,Bundesliga,,,,,,,,,
+1162968,Tim Schnitzer,#37,Midfield,FC Augsburg,Bundesliga,,,,,,,,,
+675565,Thomas Kastanaras,#24,Forward,FC Augsburg,Bundesliga,,,,,,,,,
+1132292,Faik Sakar,#23,Forward,FC Augsburg,Bundesliga,,,,,,,,,
+954082,Tom Wisbereit,#48,Goalkeeper,FC Augsburg,Bundesliga,,,,,,,,,
+406640,Felix Nmecha,#8,Midfield,Borussia Dortmund,Bundesliga,1,-,-,-,-,-,,,74'
+388198,Nico Schlotterbeck,#4,Defender,Borussia Dortmund,Bundesliga,,,,,,,,,
+796297,Jobe Bellingham,#7,Midfield,Borussia Dortmund,Bundesliga,1,-,-,-,-,-,,,90'
+578392,Maximilian Beier,#14,Forward,Borussia Dortmund,Bundesliga,1,-,1,-,-,-,,,84'
+257814,Gregor Kobel,#1,Goalkeeper,Borussia Dortmund,Bundesliga,1,-,,-,-,-,-,1,90'
+990148,Konstantinos Karetsas,#19,Midfield,Borussia Dortmund,Bundesliga,1,-,1,-,-,-,,,74'
+270541,Serhou Guirassy,#9,Forward,Borussia Dortmund,Bundesliga,1,1,-,-,-,-,,,90'
+370789,Julian Ryerson,#26,Defender,Borussia Dortmund,Bundesliga,1,-,-,1,-,-,,,74'
+408574,Joey Veerman,#25,Midfield,Borussia Dortmund,Bundesliga,1,-,-,-,-,-,,,16'
+505653,Fábio Silva,#21,Forward,Borussia Dortmund,Bundesliga,,,,,,,,,
+579287,Daniel Svensson,#24,Defender,Borussia Dortmund,Bundesliga,1,-,-,1,-,-,,,90'
+628331,Giannis Konstantelias,#45,Midfield,Borussia Dortmund,Bundesliga,1,1,-,-,-,-,,,54'
+659459,Carney Chukwuemeka,#17,Midfield,Borussia Dortmund,Bundesliga,,,,,,,,,
+1075577,Joane Gadou,#22,Defender,Borussia Dortmund,Bundesliga,1,-,-,-,-,-,,,90'
+193004,Waldemar Anton,#3,Defender,Borussia Dortmund,Bundesliga,1,-,-,-,-,-,,,90'
+1058359,Samuele Inácio,#40,Forward,Borussia Dortmund,Bundesliga,1,-,-,-,-,1,,,3'
+1074990,Luca Reggiani,#49,Defender,Borussia Dortmund,Bundesliga,,,,,,,,,
+1275068,Kauã Prates,#36,Defender,Borussia Dortmund,Bundesliga,1,-,-,-,-,-,,,6'
+284732,Ramy Bensebaini,#5,Defender,Borussia Dortmund,Bundesliga,,,,,,,,,
+106987,Marcel Sabitzer,#20,Midfield,Borussia Dortmund,Bundesliga,1,-,-,-,-,-,,,36'
+1185507,Justin Lerma,#28,Midfield,Borussia Dortmund,Bundesliga,,,,,,,,,
+119296,Emre Can,#23,Defender,Borussia Dortmund,Bundesliga,,,,,,,,,
+883007,Filippo Mane,#39,Defender,Borussia Dortmund,Bundesliga,1,-,-,-,-,-,,,16'
+76158,Alexander Meyer,#33,Goalkeeper,Borussia Dortmund,Bundesliga,,,,,,,,,
+1193849,Mathis Albert,#41,Forward,Borussia Dortmund,Bundesliga,,,,,,,,,
+94192,Patrick Drewes,#30,Goalkeeper,Borussia Dortmund,Bundesliga,,,,,,,,,
+1311594,Enzo dos Santos,#44,Midfield,Borussia Dortmund,Bundesliga,,,,,,,,,
+1141179,Mussa Kaba,#48,Midfield,Borussia Dortmund,Bundesliga,,,,,,,,,
+684116,Silas Ostrzinski,#31,Goalkeeper,Borussia Dortmund,Bundesliga,,,,,,,,,
+1168219,Said El Mala,#10,Forward,1.FC Köln,Bundesliga,1,1,-,-,-,-,,,65'
+942497,Jahmai Simpson-Pusey,#22,Defender,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,90'
+538964,Thijs Dallinga,#27,Forward,1.FC Köln,Bundesliga,1,2,-,-,-,-,,,25'
+416380,Ragnar Ache,#9,Forward,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,65'
+579565,Ísak Jóhannesson,#8,Midfield,1.FC Köln,Bundesliga,1,-,1,-,-,-,,,90'
+640556,Rav van den Berg,#33,Defender,1.FC Köln,Bundesliga,,,,,,,,,
+592387,Sebastian Sebulonsen,#28,Defender,1.FC Köln,Bundesliga,,,,,,,,,
+290587,Ellyes Skhiri,#6,Midfield,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,25'
+472249,Jan Thielmann,#29,Forward,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,90'
+405687,Tom Krauß,#5,Midfield,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,90'
+397171,Gideon Mensah,#14,Defender,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,90'
+335103,Linton Maina,#37,Forward,1.FC Köln,Bundesliga,1,-,1,-,-,-,,,25'
+322517,Joël Schmied,#2,Defender,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,1'
+160929,Marvin Schwäbe,#1,Goalkeeper,1.FC Köln,Bundesliga,1,-,,-,-,-,2,-,90'
+345189,Luka Lochoshvili,#24,Defender,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,90'
+340166,Alessio Castro-Montes,#17,Defender,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,90'
+744558,Julian Pauli,#3,Defender,1.FC Köln,Bundesliga,,,,,,,,,
+196095,Luca Waldschmidt,#7,Forward,1.FC Köln,Bundesliga,,,,,,,,,
+116088,Marius Bülter,#30,Forward,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,1'
+236981,Timo Hübers,#4,Defender,1.FC Köln,Bundesliga,,,,,,,,,
+1064377,Paul Okon-Engstler,#23,Midfield,1.FC Köln,Bundesliga,1,-,-,-,-,-,,,65'
+464154,Imad Rondic,#0,Forward,1.FC Köln,Bundesliga,,,,,,,,,
+21327,Ron-Robert Zieler,#20,Goalkeeper,1.FC Köln,Bundesliga,,,,,,,,,
+795762,Elias Bakatukanda,#0,Defender,1.FC Köln,Bundesliga,,,,,,,,,
+1168222,Malek El Mala,#19,Forward,1.FC Köln,Bundesliga,,,,,,,,,
+227089,Matthias Köbbing,#44,Goalkeeper,1.FC Köln,Bundesliga,,,,,,,,,
+1056437,Reigan Heskey,#11,Forward,1.FC Köln,Bundesliga,,,,,,,,,
+1073474,Gil Neves,#31,Midfield,1.FC Köln,Bundesliga,,,,,,,,,
+1077676,Martin James,#21,Goalkeeper,1.FC Köln,Bundesliga,,,,,,,,,
+929943,Francis Onyeka,#40,Midfield,SV 07 Elversberg,Bundesliga,1,-,1,-,-,-,,,65'
+675535,Noel Futkeu,#9,Forward,SV 07 Elversberg,Bundesliga,,,,,,,,,
+866579,Cole Campbell,#39,Forward,SV 07 Elversberg,Bundesliga,1,1,-,1,-,-,,,65'
+974894,David Mokwa,#42,Forward,SV 07 Elversberg,Bundesliga,1,1,-,-,-,-,,,75'
+897480,Noah Darvich,#10,Midfield,SV 07 Elversberg,Bundesliga,1,-,-,-,-,-,,,25'
+829316,Maurice Krattenmacher,#7,Forward,SV 07 Elversberg,Bundesliga,1,-,-,-,-,-,,,25'
+401639,Lukas Petkov,#25,Forward,SV 07 Elversberg,Bundesliga,1,1,1,-,-,-,,,90'
+448259,Lukas Pinckert,#19,Defender,SV 07 Elversberg,Bundesliga,1,-,-,-,-,-,,,90'
+532169,Lukasz Poreba,#8,Midfield,SV 07 Elversberg,Bundesliga,1,-,-,-,-,-,,,90'
+522245,Lasse Günther,#21,Defender,SV 07 Elversberg,Bundesliga,1,-,-,-,-,-,,,90'
+349465,Nicolas Kristof,#20,Goalkeeper,SV 07 Elversberg,Bundesliga,1,-,,1,-,-,2,-,90'
+521928,Luca Sirch,#26,Defender,SV 07 Elversberg,Bundesliga,1,-,-,-,-,-,,,15'
+337097,Tom Zimmerschied,#29,Forward,SV 07 Elversberg,Bundesliga,,,,,,,,,
+815322,Felix Keidel,#43,Defender,SV 07 Elversberg,Bundesliga,1,-,-,-,-,-,,,90'
+430034,Nicholas Mickelson,#2,Defender,SV 07 Elversberg,Bundesliga,,,,,,,,,
+207580,Amara Condé,#6,Midfield,SV 07 Elversberg,Bundesliga,,,,,,,,,
+390661,Jason Ceka,#11,Forward,SV 07 Elversberg,Bundesliga,,,,,,,,,
+440386,Maximilian Rohr,#31,Defender,SV 07 Elversberg,Bundesliga,1,-,-,1,-,-,,,82'
+604756,Frederik Schmahl,#17,Midfield,SV 07 Elversberg,Bundesliga,,,,,,,,,
+192840,Jan Gyamerah,#30,Defender,SV 07 Elversberg,Bundesliga,1,-,-,-,-,-,,,75'
+352332,Florian Le Joncour,#3,Defender,SV 07 Elversberg,Bundesliga,1,-,-,-,-,-,,,8'
+232463,Luca Pfeiffer,#16,Forward,SV 07 Elversberg,Bundesliga,,,,,,,,,
+229991,Luca Schnellbacher,#24,Forward,SV 07 Elversberg,Bundesliga,1,-,-,-,-,-,,,15'
+910538,Raif Adam,#15,Forward,SV 07 Elversberg,Bundesliga,,,,,,,,,
+453307,Filimon Gerezgiher,#27,Forward,SV 07 Elversberg,Bundesliga,,,,,,,,,
+85534,Tim Boss,#28,Goalkeeper,SV 07 Elversberg,Bundesliga,,,,,,,,,
+806007,Luis Seifert,#4,Defender,SV 07 Elversberg,Bundesliga,,,,,,,,,
+44536,Frank Lehmann,#1,Goalkeeper,SV 07 Elversberg,Bundesliga,,,,,,,,,
+1159486,Elias Etringer,#12,Goalkeeper,SV 07 Elversberg,Bundesliga,,,,,,,,,
+816585,Can Uzun,#42,Midfield,Eintracht Frankfurt,Bundesliga,1,-,-,-,-,-,,,79'
+333647,Jonathan Burkardt,#9,Forward,Eintracht Frankfurt,Bundesliga,1,-,-,-,-,-,,,66'
+931838,Hugo Larsson,#16,Midfield,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+939964,Jean-Mattéo Bahoya,#19,Forward,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+526845,Noah Atubolu,#1,Goalkeeper,Eintracht Frankfurt,Bundesliga,1,-,,-,-,-,3,-,90'
+699783,Raphael Onyedika,#25,Midfield,Eintracht Frankfurt,Bundesliga,1,-,-,1,-,-,,,90'
+684315,Nnamdi Collins,#34,Defender,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+358504,Ritsu Doan,#20,Forward,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+429874,Ansgar Knauff,#7,Forward,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+846310,Oscar Højlund,#6,Midfield,Eintracht Frankfurt,Bundesliga,1,-,-,-,-,-,,,11'
+855015,Farès Chaïbi,#8,Midfield,Eintracht Frankfurt,Bundesliga,1,-,-,-,-,-,,,90'
+904974,Noël Aséko,#15,Midfield,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+328784,Robin Koch,#4,Defender,Eintracht Frankfurt,Bundesliga,1,-,-,-,-,-,,,90'
+799993,Ayoube Amaimouni-Echghouyab,#29,Forward,Eintracht Frankfurt,Bundesliga,1,-,-,-,-,-,,,79'
+692368,Younes Ebnoutalib,#11,Forward,Eintracht Frankfurt,Bundesliga,1,3,-,1,-,-,,,85'
+997861,Kauã Santos,#40,Goalkeeper,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+1146988,Keita Kosugi,#26,Defender,Eintracht Frankfurt,Bundesliga,1,-,-,-,-,-,,,90'
+1184986,Love Arrhov,#31,Midfield,Eintracht Frankfurt,Bundesliga,1,-,-,-,-,-,,,11'
+744857,Elias Baum,#2,Defender,Eintracht Frankfurt,Bundesliga,1,-,1,-,-,-,,,90'
+1259986,Malik Pimpong,#35,Forward,Eintracht Frankfurt,Bundesliga,1,-,-,-,-,-,,,24'
+74842,Mario Götze,#27,Midfield,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+591193,Niels Nkounkou,#48,Defender,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+1094885,Otávio,#5,Defender,Eintracht Frankfurt,Bundesliga,1,-,-,1,-,-,,,5'
+448177,Jessic Ngankam,#0,Forward,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+49723,Timothy Chandler,#22,Defender,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+40034,Jens Grahl,#33,Goalkeeper,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+1079622,Amil Siljevic,#39,Goalkeeper,Eintracht Frankfurt,Bundesliga,,,,,,,,,
+597432,Leopold Querfeld,#14,Defender,1.FC Union Berlin,Bundesliga,1,1,1,-,-,-,,,90'
+1035765,Ilyas Ansah,#10,Forward,1.FC Union Berlin,Bundesliga,,,,,,,,,
+692737,Aljoscha Kemlein,#6,Midfield,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,76'
+798043,Tom Rothe,#15,Defender,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,90'
+392964,Emmanuel Latte Lath,#29,Forward,1.FC Union Berlin,Bundesliga,1,1,-,-,-,-,,,61'
+583699,Andrej Ilic,#23,Forward,1.FC Union Berlin,Bundesliga,,,,,,,,,
+738774,Zeno Van Den Bosch,#4,Defender,1.FC Union Berlin,Bundesliga,1,-,-,1,-,-,,,90'
+454863,András Schäfer,#13,Midfield,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,61'
+237658,Michel Aebischer,#20,Midfield,1.FC Union Berlin,Bundesliga,1,-,-,1,-,-,,,61'
+519872,Livan Burcu,#9,Forward,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,29'
+391780,Derrick Köhn,#39,Defender,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,8'
+278343,Felix Uduokhai,#2,Defender,1.FC Union Berlin,Bundesliga,,,,,,,,,
+297583,Woo-yeong Jeong,#11,Midfield,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,29'
+341317,Oliver Burke,#7,Forward,1.FC Union Berlin,Bundesliga,,,,,,,,,
+107775,Frederik Rönnow,#1,Goalkeeper,1.FC Union Berlin,Bundesliga,,,,,,,,,
+838236,Marin Ljubicic,#27,Forward,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,82'
+371141,Stanley Nsoki,#34,Defender,1.FC Union Berlin,Bundesliga,,,,,,,,,
+362977,Josip Juranovic,#18,Defender,1.FC Union Berlin,Bundesliga,1,-,2,-,-,-,,,90'
+270393,Robert Skov,#24,Midfield,1.FC Union Berlin,Bundesliga,,,,,,,,,
+177779,Janik Haberer,#19,Midfield,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,14'
+124410,Rani Khedira,#8,Midfield,1.FC Union Berlin,Bundesliga,1,-,-,-,-,-,,,90'
+196231,Marvin Friedrich,#5,Defender,1.FC Union Berlin,Bundesliga,,,,,,,,,
+287920,Tim Skarke,#21,Forward,1.FC Union Berlin,Bundesliga,1,1,-,-,-,-,,,29'
+1378338,Linus Güther,#49,Forward,1.FC Union Berlin,Bundesliga,,,,,,,,,
+995520,Oluwaseun Ogbemudia,#41,Defender,1.FC Union Berlin,Bundesliga,,,,,,,,,
+386685,Matheo Raab,#31,Goalkeeper,1.FC Union Berlin,Bundesliga,1,-,,-,-,-,3,-,90'
+75921,Christopher Trimmel,#28,Defender,1.FC Union Berlin,Bundesliga,,,,,,,,,
+161057,Carl Klaus,#25,Goalkeeper,1.FC Union Berlin,Bundesliga,,,,,,,,,
+1027870,Andrik Markgraf,#3,Defender,1.FC Union Berlin,Bundesliga,,,,,,,,,
+1033581,Julien Friedrich,#38,Forward,1.FC Union Berlin,Bundesliga,,,,,,,,,
+1162925,Mekhi Gray,#32,Forward,1.FC Union Berlin,Bundesliga,,,,,,,,,
+643574,Kaishu Sano,#6,Midfield,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,90'
+1073748,Kacper Potulski,#48,Defender,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,10'
+503160,Paul Nebel,#8,Midfield,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+232454,Nadiem Amiri,#10,Midfield,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,90'
+597000,Eric Martel,#5,Midfield,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+453870,Benedict Hollerbach,#17,Forward,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+453016,Anthony Caci,#19,Defender,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,73'
+223974,Stefan Posch,#4,Defender,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+470038,Ransford Königsdörffer,#11,Forward,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,22'
+288340,Phillip Tietz,#9,Forward,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,90'
+370683,Andreas Hanche-Olsen,#25,Defender,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+594731,Fabio Gruber,#3,Defender,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,90'
+392710,Lennard Maloney,#15,Midfield,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+160963,Robin Zentner,#27,Goalkeeper,1.FSV Mainz 05,Bundesliga,1,-,,-,-,-,-,1,90'
+562948,Hyun-seok Hong,#13,Midfield,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+314398,Jae-sung Lee,#7,Midfield,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,68'
+118847,Dominik Kohr,#31,Defender,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,80'
+733371,Sota Kawasaki,#24,Midfield,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+612826,Silas,#26,Forward,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+279009,Marco Richter,#22,Midfield,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+188888,Sheraldo Becker,#23,Forward,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,68'
+127573,Phillipp Mwene,#2,Defender,1.FSV Mainz 05,Bundesliga,1,-,-,1,-,-,,,90'
+85906,Danny da Costa,#21,Defender,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,90'
+901877,Otto Ruoppi,#20,Midfield,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,22'
+168989,Silvan Widmer,#30,Defender,1.FSV Mainz 05,Bundesliga,1,-,-,-,-,-,,,17'
+82350,Stefan Bell,#16,Defender,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+93763,Alexander Schwolow,#1,Goalkeeper,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+817521,Maximilian Kinzig,#40,Goalkeeper,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+1392952,Alynho Haidara,#39,Forward,1.FSV Mainz 05,Bundesliga,,,,,,,,,
+1005509,Santiago Castañeda,#5,Midfield,SC Paderborn 07,Bundesliga,1,-,-,1,-,-,,,90'
+1108022,Deniz Zeitler,#38,Forward,SC Paderborn 07,Bundesliga,,,,,,,,,
+717465,Laurin Ulrich,#28,Midfield,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,75'
+471055,Marvin Pieringer,#18,Forward,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,90'
+516978,Laurin Curda,#17,Midfield,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,90'
+604327,Gabriel Vidovic,#40,Forward,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,90'
+509650,Tjark Scheller,#25,Defender,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,90'
+694132,Mattes Hansen,#22,Defender,SC Paderborn 07,Bundesliga,1,-,-,1,-,-,,,75'
+330635,Felix Götze,#20,Defender,SC Paderborn 07,Bundesliga,,,,,,,,,
+600942,Nahuel Noll,#15,Goalkeeper,SC Paderborn 07,Bundesliga,1,-,,-,-,-,-,1,90'
+406614,Oliver Batista Meier,#7,Forward,SC Paderborn 07,Bundesliga,,,,,,,,,
+1104418,Kennedy Okpala,#10,Forward,SC Paderborn 07,Bundesliga,,,,,,,,,
+330699,Raphael Obermair,#23,Midfield,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,90'
+606113,Jano ter Horst,#21,Defender,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,90'
+829267,Stefano Marino,#30,Forward,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,67'
+907085,Ruben Müller,#2,Forward,SC Paderborn 07,Bundesliga,,,,,,,,,
+570152,Marcel Hoffmeier,#33,Defender,SC Paderborn 07,Bundesliga,,,,,,,,,
+378424,Sebastian Klaas,#26,Midfield,SC Paderborn 07,Bundesliga,,,,,,,,,
+685484,Luka Duric,#8,Midfield,SC Paderborn 07,Bundesliga,,,,,,,,,
+698843,Jonah Sticker,#3,Midfield,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,15'
+296879,Steffen Tigges,#27,Forward,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,23'
+331637,Tom Baack,#6,Midfield,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,15'
+296741,Markus Schubert,#1,Goalkeeper,SC Paderborn 07,Bundesliga,,,,,,,,,
+949389,Niklas Mohr,#24,Midfield,SC Paderborn 07,Bundesliga,,,,,,,,,
+421323,Timur Gayret,#44,Midfield,SC Paderborn 07,Bundesliga,,,,,,,,,
+521331,Nyamekye Awortwie-Grant,#4,Defender,SC Paderborn 07,Bundesliga,,,,,,,,,
+1148887,Clemens Lippmann,#29,Midfield,SC Paderborn 07,Bundesliga,1,-,-,-,-,-,,,1'
+186988,Sven Michel,#11,Forward,SC Paderborn 07,Bundesliga,,,,,,,,,
+798091,Tristan Zobel,#0,Defender,SC Paderborn 07,Bundesliga,,,,,,,,,
+814986,Albert Millgramm,#19,Forward,SC Paderborn 07,Bundesliga,,,,,,,,,
+930013,Florian Pruhs,#31,Goalkeeper,SC Paderborn 07,Bundesliga,,,,,,,,,
+1299403,Lasse Eickel,#32,Forward,SC Paderborn 07,Bundesliga,,,,,,,,,
+524290,Fisnik Asllani,#11,Forward,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+667457,Leon Avdullahu,#7,Midfield,TSG 1899 Hoffenheim,Bundesliga,1,-,-,-,-,-,,,90'
+1105541,Nathan De Cat,#17,Midfield,TSG 1899 Hoffenheim,Bundesliga,1,-,-,-,-,-,,,19'
+579459,Albian Hajdari,#21,Defender,TSG 1899 Hoffenheim,Bundesliga,1,-,-,-,-,-,,,87'
+412953,Wouter Burger,#18,Midfield,TSG 1899 Hoffenheim,Bundesliga,1,-,-,-,-,-,,,90'
+553285,Tim Lemperle,#19,Forward,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+361260,Ozan Kabak,#5,Defender,TSG 1899 Hoffenheim,Bundesliga,1,1,-,1,-,-,,,90'
+983677,Mats Rots,#39,Defender,TSG 1899 Hoffenheim,Bundesliga,1,-,-,-,-,-,,,3'
+533295,Patrick Wimmer,#8,Forward,TSG 1899 Hoffenheim,Bundesliga,1,-,-,-,-,-,,,71'
+1047136,Cajetan Lenz,#32,Midfield,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+552057,Adam Hlozek,#10,Forward,TSG 1899 Hoffenheim,Bundesliga,1,-,-,-,-,-,,,53'
+620217,Robin Hranac,#2,Defender,TSG 1899 Hoffenheim,Bundesliga,1,-,-,-,-,-,,,37'
+434116,Alexander Prass,#22,Midfield,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+881297,Adam Daghim,#14,Forward,TSG 1899 Hoffenheim,Bundesliga,1,1,-,-,-,-,,,87'
+923595,Max Moerstedt,#9,Forward,TSG 1899 Hoffenheim,Bundesliga,1,-,-,1,-,-,,,37'
+415035,Koki Machida,#28,Defender,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+569387,Valentin Gendrey,#15,Defender,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+875332,Arthur Chaves,#35,Defender,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+1116191,Luis Engelns,#16,Midfield,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+574193,Bambasé Conté,#20,Midfield,TSG 1899 Hoffenheim,Bundesliga,1,-,1,-,-,-,,,90'
+364258,Bernardo,#13,Defender,TSG 1899 Hoffenheim,Bundesliga,1,-,-,-,-,-,,,53'
+46580,Andrej Kramaric,#27,Forward,TSG 1899 Hoffenheim,Bundesliga,1,-,-,-,-,-,,,3'
+157672,Vladimír Coufal,#34,Defender,TSG 1899 Hoffenheim,Bundesliga,1,-,1,-,-,-,,,90'
+55089,Oliver Baumann,#1,Goalkeeper,TSG 1899 Hoffenheim,Bundesliga,1,-,,-,-,-,3,-,90'
+907277,Sean Dulic,#4,Defender,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+432671,Luca Philipp,#37,Goalkeeper,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+718460,Lúkas Petersson,#36,Goalkeeper,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+1075143,Natnael Abraha,#29,Defender,TSG 1899 Hoffenheim,Bundesliga,,,,,,,,,
+905011,Ibrahim Maza,#30,Midfield,Bayer 04 Leverkusen,Bundesliga,1,-,1,1,-,-,,,90'
+632349,Jarell Quansah,#4,Defender,Bayer 04 Leverkusen,Bundesliga,1,-,-,-,-,-,,,35'
+1364454,Christian Kofane,#35,Forward,Bayer 04 Leverkusen,Bundesliga,1,1,-,-,-,-,,,35'
+564545,Edmond Tapsoba,#12,Defender,Bayer 04 Leverkusen,Bundesliga,1,-,-,-,-,-,,,90'
+467437,Malik Tillman,#10,Midfield,Bayer 04 Leverkusen,Bundesliga,1,-,-,-,-,-,,,65'
+525299,Miguel Gutiérrez,#3,Defender,Bayer 04 Leverkusen,Bundesliga,1,-,-,-,-,-,,,90'
+1214123,Kennet Eichhorn,#18,Midfield,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+952282,Afonso Moreira,#9,Forward,Bayer 04 Leverkusen,Bundesliga,1,-,-,-,-,-,,,85'
+810895,Eliesse Ben Seghir,#0,Forward,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+261504,Aleix García,#24,Midfield,Bayer 04 Leverkusen,Bundesliga,1,-,-,-,-,-,,,90'
+730581,Loïc Badé,#5,Defender,Bayer 04 Leverkusen,Bundesliga,1,-,-,-,-,-,,,55'
+664708,Equi Fernández,#6,Midfield,Bayer 04 Leverkusen,Bundesliga,1,-,-,-,-,-,,,55'
+242086,Patrik Schick,#14,Forward,Bayer 04 Leverkusen,Bundesliga,1,1,-,-,-,-,,,90'
+474800,Facundo Medina,#2,Defender,Bayer 04 Leverkusen,Bundesliga,1,-,-,1,-,-,,,35'
+1058514,Montrell Culbreath,#42,Forward,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+340322,Nathan Tella,#23,Forward,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+919515,Jeanuël Belocian,#44,Defender,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+442891,Martin Terrier,#11,Forward,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+977464,Arthur,#13,Defender,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+159088,Robert Andrich,#8,Midfield,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+125714,Mark Flekken,#1,Goalkeeper,Bayer 04 Leverkusen,Bundesliga,1,-,,-,-,-,3,-,90'
+656681,Victor Boniface,#22,Forward,Bayer 04 Leverkusen,Bundesliga,1,-,1,-,-,-,,,5'
+696164,Tim Oermann,#15,Defender,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+221316,Lucas Vázquez,#17,Defender,Bayer 04 Leverkusen,Bundesliga,1,-,-,-,-,-,,,55'
+7161,Jonas Hofmann,#7,Midfield,Bayer 04 Leverkusen,Bundesliga,1,-,-,-,-,-,,,25'
+81173,Janis Blaswich,#28,Goalkeeper,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+85543,Niklas Lomb,#36,Goalkeeper,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+991480,Naba Mensah,#0,Midfield,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+1392804,Ndjicoura Bomba,#0,Forward,Bayer 04 Leverkusen,Bundesliga,,,,,,,,,
+381967,Albert Sambi Lokonga,#6,Midfield,Hamburger SV,Bundesliga,1,-,-,1,-,-,,,90'
+814976,Martin Adeline,#5,Midfield,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,67'
+592534,Nicolai Remberg,#21,Midfield,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,90'
+338629,Sebastiaan Bornauw,#33,Defender,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,90'
+538874,Terem Moffi,#9,Forward,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,23'
+659520,Bilal Nadir,#4,Midfield,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,8'
+649672,Nicolás Capaldo,#24,Defender,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,90'
+298603,Miro Muheim,#28,Defender,Hamburger SV,Bundesliga,,,,,,,,,
+1213681,Alexander Røssing-Lelesiit,#38,Forward,Hamburger SV,Bundesliga,,,,,,,,,
+503866,Albert Grønbaek,#11,Midfield,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,90'
+1058520,Otto Stange,#19,Forward,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,23'
+227110,Jordan Torunarigha,#23,Defender,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,82'
+814950,Kofi Amoako,#22,Midfield,Hamburger SV,Bundesliga,,,,,,,,,
+711996,Warmed Omari,#17,Defender,Hamburger SV,Bundesliga,,,,,,,,,
+694507,Rayan Philippe,#14,Forward,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,1'
+529895,Daniel Elfadli,#8,Defender,Hamburger SV,Bundesliga,,,,,,,,,
+549378,Sander Tangvik,#12,Goalkeeper,Hamburger SV,Bundesliga,,,,,,,,,
+365172,Patson Daka,#27,Forward,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,67'
+403177,Emir Sahiti,#29,Forward,Hamburger SV,Bundesliga,,,,,,,,,
+412935,Immanuel Pherai,#10,Midfield,Hamburger SV,Bundesliga,,,,,,,,,
+84993,Daniel Heuer Fernandes,#1,Goalkeeper,Hamburger SV,Bundesliga,1,-,,-,-,-,2,-,90'
+157635,Yussuf Poulsen,#15,Forward,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,8'
+415194,Bakery Jatta,#18,Midfield,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,82'
+1125079,Shafiq Nandja,#43,Defender,Hamburger SV,Bundesliga,,,,,,,,,
+1048715,Fernando Dickes,#41,Goalkeeper,Hamburger SV,Bundesliga,,,,,,,,,
+1294853,Louis Lemke,#37,Defender,Hamburger SV,Bundesliga,1,-,-,-,-,-,,,89'
+815838,Joel Agyekum,#39,Defender,Hamburger SV,Bundesliga,,,,,,,,,
+1303450,Elias Lahti,#40,Goalkeeper,Hamburger SV,Bundesliga,,,,,,,,,
+289835,Jens Stage,#6,Midfield,SV Werder Bremen,Bundesliga,,,,,,,,,
+156990,Marco Friedl,#32,Defender,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,90'
+926763,Chuki,#20,Midfield,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,90'
+654991,Samuel Mbangula,#7,Forward,SV Werder Bremen,Bundesliga,,,,,,,,,
+338668,Senne Lynen,#14,Midfield,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,45'
+645774,Eren Dinkçi,#18,Forward,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,5'
+821350,Oskar Wójcik,#3,Defender,SV Werder Bremen,Bundesliga,,,,,,,,,
+596153,Justin Njinmah,#11,Forward,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,61'
+393512,Felix Agu,#27,Defender,SV Werder Bremen,Bundesliga,,,,,,,,,
+1114155,Patrice Covic,#24,Midfield,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,5'
+334221,Amos Pieper,#5,Defender,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,90'
+391766,Marco Grüll,#17,Forward,SV Werder Bremen,Bundesliga,1,-,1,-,-,-,,,85'
+75489,Niclas Füllkrug,#10,Forward,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,61'
+621802,Olivier Deman,#2,Defender,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,90'
+1178695,Kenny Quetant,#19,Forward,SV Werder Bremen,Bundesliga,,,,,,,,,
+701757,Keke Topp,#9,Forward,SV Werder Bremen,Bundesliga,,,,,,,,,
+490884,Ludovit Reis,#15,Midfield,SV Werder Bremen,Bundesliga,1,-,-,1,-,-,,,85'
+493513,Karl Hein,#1,Goalkeeper,SV Werder Bremen,Bundesliga,1,-,,-,-,-,4,-,90'
+119211,Mitchell Weiser,#8,Defender,SV Werder Bremen,Bundesliga,,,,,,,,,
+162434,Niklas Stark,#4,Defender,SV Werder Bremen,Bundesliga,,,,,,,,,
+186374,Alexander Schlager,#30,Goalkeeper,SV Werder Bremen,Bundesliga,,,,,,,,,
+830108,Julián Malatini,#22,Defender,SV Werder Bremen,Bundesliga,,,,,,,,,
+855134,Skelly Alvero,#28,Midfield,SV Werder Bremen,Bundesliga,,,,,,,,,
+1042472,Salim Musah,#29,Forward,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,29'
+243856,Cedric Itten,#26,Forward,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,29'
+208167,Dawid Kownacki,#21,Forward,SV Werder Bremen,Bundesliga,,,,,,,,,
+826795,Dariusz Stalmach,#23,Midfield,SV Werder Bremen,Bundesliga,1,1,-,-,-,-,,,45'
+1045986,Mick Schmetgens,#33,Defender,SV Werder Bremen,Bundesliga,1,-,-,-,-,-,,,90'
+99451,Markus Kolke,#25,Goalkeeper,SV Werder Bremen,Bundesliga,,,,,,,,,
+1025989,Stefan Smarkalev,#37,Goalkeeper,SV Werder Bremen,Bundesliga,,,,,,,,,
+1078750,Luca Höcker,#35,Defender,SV Werder Bremen,Bundesliga,,,,,,,,,
+1080555,Paul Erevbenagie,#38,Forward,SV Werder Bremen,Bundesliga,,,,,,,,,
+1032924,Mats Heitmann,#36,Defender,SV Werder Bremen,Bundesliga,,,,,,,,,
+1071244,Darwin Soylu,#34,Midfield,SV Werder Bremen,Bundesliga,,,,,,,,,
+1070979,Wael Mohya,#36,Midfield,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,64'
+613192,Jens Castrop,#17,Midfield,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+193033,Tim Kleindienst,#11,Forward,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,90'
+284270,Moritz Nicolas,#1,Goalkeeper,Borussia Mönchengladbach,Bundesliga,1,-,,-,-,-,3,-,90'
+355816,Ko Itakura,#6,Defender,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,90'
+229006,Franck Honorat,#9,Forward,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,26'
+284010,Robin Hack,#25,Forward,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,64'
+504153,Joe Scally,#29,Defender,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,14'
+787151,Lukas Ullrich,#26,Defender,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,64'
+667251,Hugo Bolin,#38,Forward,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,90'
+322073,Isac Lidberg,#3,Forward,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,26'
+335209,Kevin Diks,#4,Defender,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,90'
+467250,Yukhym Konoplya,#22,Defender,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+388409,Philipp Sander,#16,Midfield,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,90'
+604358,David Herold,#20,Defender,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,26'
+550580,Shuto Machino,#18,Forward,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+383362,Enzo Leopold,#8,Midfield,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+724104,Fabio Chiarodia,#2,Defender,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+278332,Florian Neuhaus,#10,Midfield,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+544148,Tomas Cvancara,#31,Forward,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+106872,Kevin Stöger,#7,Midfield,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,64'
+387191,Daiki Hashioka,#14,Defender,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,76'
+1070980,Mathieu Nguefack,#34,Midfield,Borussia Mönchengladbach,Bundesliga,1,-,-,-,-,-,,,26'
+957526,Zento Uno,#47,Midfield,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+1118874,Jan Leszczyński,#5,Defender,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+455922,Jan Olschowsky,#23,Goalkeeper,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+90317,Daniel Batz,#33,Goalkeeper,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+1067439,Fritz Fleck,#27,Midfield,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+31653,Tobias Sippel,#21,Goalkeeper,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+1211929,Iaia Manco Danfa,#39,Forward,Borussia Mönchengladbach,Bundesliga,,,,,,,,,
+697740,Soufiane El-Faouzi,#23,Midfield,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,90'
+969376,Mertcan Ayhan,#43,Defender,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,4'
+536482,Junior Dina Ebimbe,#29,Midfield,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,28'
+460655,Moussa Sylla,#9,Forward,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,90'
+273132,Robin Gosens,#8,Defender,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,28'
+569385,Adil Aouchiche,#24,Midfield,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,86'
+263361,Maximilian Wöber,#39,Defender,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,28'
+287188,Dejan Ljubicic,#21,Midfield,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,90'
+919703,Vitalie Becker,#33,Defender,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,62'
+452477,Junior Adamu,#20,Forward,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,62'
+292812,Hasan Kuruçay,#4,Defender,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,62'
+665618,Satoshi Tanaka,#13,Midfield,FC Schalke 04,Bundesliga,,,,,,,,,
+332392,Ron Schallenberg,#6,Midfield,FC Schalke 04,Bundesliga,1,-,-,-,-,1,,,62'
+119557,Kenan Karaman,#19,Midfield,FC Schalke 04,Bundesliga,,,,,,,,,
+422051,Nikola Katic,#25,Defender,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,76'
+282349,Timo Becker,#5,Defender,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,90'
+357310,Christian Gomis,#7,Forward,FC Schalke 04,Bundesliga,,,,,,,,,
+28396,Edin Dzeko,#10,Forward,FC Schalke 04,Bundesliga,1,-,-,-,-,-,,,14'
+410870,Adrian Gantenbein,#17,Defender,FC Schalke 04,Bundesliga,,,,,,,,,
+241307,Finn Porath,#27,Midfield,FC Schalke 04,Bundesliga,,,,,,,,,
+85864,Loris Karius,#1,Goalkeeper,FC Schalke 04,Bundesliga,1,-,,-,-,-,3,-,90'
+477109,Bryan Lasme,#11,Forward,FC Schalke 04,Bundesliga,,,,,,,,,
+327862,Janik Bachmann,#14,Midfield,FC Schalke 04,Bundesliga,,,,,,,,,
+802560,Emil Højlund,#15,Forward,FC Schalke 04,Bundesliga,,,,,,,,,
+1188989,Dylan Leonard,#3,Defender,FC Schalke 04,Bundesliga,,,,,,,,,
+43824,Kevin Müller,#22,Goalkeeper,FC Schalke 04,Bundesliga,,,,,,,,,
+1047294,Johannes Siebeking,#36,Goalkeeper,FC Schalke 04,Bundesliga,,,,,,,,,
+1162413,Luca Vozar,#38,Midfield,FC Schalke 04,Bundesliga,,,,,,,,,
+443710,Angelo Stiller,#6,Midfield,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,88'
+518505,Jamie Leweling,#18,Forward,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,28'
+654982,Bilal El Khannouss,#11,Midfield,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,16'
+924117,Finn Jeltsch,#29,Defender,VfB Stuttgart,Bundesliga,1,-,-,1,-,-,,,90'
+436064,Ramon Hendriks,#3,Defender,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,90'
+335457,Ermedin Demirovic,#9,Forward,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,27'
+339314,Deniz Undav,#26,Forward,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,74'
+948279,Chema Andrés,#30,Midfield,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,2'
+282660,Maximilian Mittelstädt,#7,Defender,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,90'
+819636,Dzenan Pejcinovic,#17,Forward,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,63'
+616344,Tiago Tomás,#8,Forward,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,62'
+303219,Jeff Chabot,#24,Defender,VfB Stuttgart,Bundesliga,1,-,-,1,-,-,,,74'
+272278,Chris Führich,#10,Forward,VfB Stuttgart,Bundesliga,,,,,,,,,
+400546,Nikolas Nartey,#28,Midfield,VfB Stuttgart,Bundesliga,,,,,,,,,
+448258,Josha Vagnoman,#4,Defender,VfB Stuttgart,Bundesliga,1,1,-,-,-,-,,,90'
+800946,Dennis Seimen,#41,Goalkeeper,VfB Stuttgart,Bundesliga,,,,,,,,,
+539798,Luca Jaquez,#14,Defender,VfB Stuttgart,Bundesliga,,,,,,,,,
+707242,Badredine Bouanani,#27,Forward,VfB Stuttgart,Bundesliga,,,,,,,,,
+711969,Lorenz Assignon,#22,Defender,VfB Stuttgart,Bundesliga,,,,,,,,,
+232320,Atakan Karazor,#16,Midfield,VfB Stuttgart,Bundesliga,,,,,,,,,
+710886,Leo Sauer,#44,Forward,VfB Stuttgart,Bundesliga,,,,,,,,,
+971663,Jeremy Arévalo,#25,Forward,VfB Stuttgart,Bundesliga,,,,,,,,,
+1131117,Mirza Catovic,#35,Midfield,VfB Stuttgart,Bundesliga,,,,,,,,,
+897505,Lazar Jovanovic,#45,Forward,VfB Stuttgart,Bundesliga,,,,,,,,,
+234029,Grischa Prömel,#21,Midfield,VfB Stuttgart,Bundesliga,1,-,-,1,-,-,,,90'
+620598,Ameen Al-Dakhil,#2,Defender,VfB Stuttgart,Bundesliga,,,,,,,,,
+507345,Leonidas Stergiou,#20,Defender,VfB Stuttgart,Bundesliga,1,-,-,-,-,-,,,16'
+344598,Dan-Axel Zagadou,#23,Defender,VfB Stuttgart,Bundesliga,,,,,,,,,
+1031774,Jarzinho Malanga,#43,Midfield,VfB Stuttgart,Bundesliga,,,,,,,,,
+720162,Justin Diehl,#31,Forward,VfB Stuttgart,Bundesliga,,,,,,,,,
+1297520,Ertugrul Yigit,#39,Midfield,VfB Stuttgart,Bundesliga,,,,,,,,,
+187624,Fabian Bredlow,#1,Goalkeeper,VfB Stuttgart,Bundesliga,1,-,,-,-,-,5,-,90'
+388067,Stefan Drljaca,#46,Goalkeeper,VfB Stuttgart,Bundesliga,,,,,,,,,
+170517,Marius Funk,#33,Goalkeeper,VfB Stuttgart,Bundesliga,,,,,,,,,

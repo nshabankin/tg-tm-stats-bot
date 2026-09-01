@@ -1,0 +1,599 @@
+player_id,player_name,number,position,club,league,played,goals,assists,yellow_cards,second_yellows,red_cards,conceded,clean_sheets,minutes
+406625,Lautaro Martínez,#10,Forward,Inter Milan,Serie A,2,-,-,1,-,-,,,144'
+315853,Alessandro Bastoni,#95,Defender,Inter Milan,Serie A,2,-,-,-,-,-,,,180'
+441986,Yann Bisseck,#31,Defender,Inter Milan,Serie A,2,1,-,-,-,-,,,99'
+318528,Marcus Thuram,#9,Forward,Inter Milan,Serie A,1,-,-,-,-,-,,,25'
+198116,Federico Dimarco,#32,Defender,Inter Milan,Serie A,2,-,-,-,-,-,,,180'
+255942,Nicolò Barella,#23,Midfield,Inter Milan,Serie A,2,-,1,-,-,-,,,180'
+930781,Pio Esposito,#94,Forward,Inter Milan,Serie A,2,1,1,-,-,-,,,155'
+668207,Petar Sučić,#8,Midfield,Inter Milan,Serie A,2,-,-,-,-,-,,,101'
+483348,Djed Spence,#99,Defender,Inter Milan,Serie A,,,,,,,,,
+827734,Ange-Yoan Bonny,#14,Forward,Inter Milan,Serie A,1,-,-,-,-,-,,,36'
+433188,Curtis Jones,#21,Midfield,Inter Milan,Serie A,1,-,-,-,-,-,,,25'
+780136,Aleksandar Stanković,#5,Midfield,Inter Milan,Serie A,1,-,-,-,-,-,,,7'
+585982,Carlos Augusto,#30,Defender,Inter Milan,Serie A,,,,,,,,,
+691316,Luis Henrique,#11,Midfield,Inter Milan,Serie A,2,-,-,-,-,-,,,96'
+711976,Andy Diouf,#17,Midfield,Inter Milan,Serie A,1,-,2,-,-,-,,,75'
+284730,Manuel Akanji,#25,Defender,Inter Milan,Serie A,2,-,-,1,-,-,,,143'
+126414,Hakan Çalhanoğlu,#20,Midfield,Inter Milan,Serie A,2,2,-,1,-,-,,,119'
+186590,John Stones,#6,Defender,Inter Milan,Serie A,2,-,-,-,-,-,,,37'
+353366,Benjamin Pavard,#28,Defender,Inter Milan,Serie A,1,-,-,-,-,-,,,90'
+388516,Josep Martínez,#1,Goalkeeper,Inter Milan,Serie A,2,-,,-,-,-,1,1,180'
+181136,Piotr Zielinski,#7,Midfield,Inter Milan,Serie A,2,1,-,-,-,-,,,108'
+55735,Henrikh Mkhitaryan,#22,Midfield,Inter Milan,Serie A,,,,,,,,,
+197929,Ivan Provedel,#49,Goalkeeper,Inter Milan,Serie A,,,,,,,,,
+70580,Raffaele Di Gennaro,#12,Goalkeeper,Inter Milan,Serie A,,,,,,,,,
+550550,Gonçalo Ramos,#9,Forward,AC Milan,Serie A,2,1,-,-,-,-,,,180'
+574671,Strahinja Pavlović,#31,Defender,AC Milan,Serie A,2,-,-,1,-,-,,,180'
+315779,Christian Pulisic,#11,Forward,AC Milan,Serie A,,,,,,,,,
+618341,Mario Gila,#34,Defender,AC Milan,Serie A,2,-,-,-,-,-,,,163'
+655006,Diego Moreira,#22,Midfield,AC Milan,Serie A,,,,,,,,,
+608172,Ardon Jashari,#30,Midfield,AC Milan,Serie A,2,-,-,-,-,-,,,72'
+569598,Youssouf Fofana,#0,Midfield,AC Milan,Serie A,,,,,,,,,
+490384,Koni De Winter,#5,Defender,AC Milan,Serie A,2,-,-,-,-,-,,,180'
+887638,Davide Bartesaghi,#33,Defender,AC Milan,Serie A,2,-,-,-,-,-,,,111'
+381950,Alexis Saelemaekers,#56,Midfield,AC Milan,Serie A,2,-,1,-,-,-,,,55'
+182906,Mike Maignan,#16,Goalkeeper,AC Milan,Serie A,2,-,,-,-,-,1,1,180'
+401922,Samuel Chukwueze,#21,Forward,AC Milan,Serie A,2,-,1,-,-,-,,,180'
+552955,Santiago Gimenez,#0,Forward,AC Milan,Serie A,,,,,,,,,
+182913,Adrien Rabiot,#12,Midfield,AC Milan,Serie A,2,1,1,-,-,-,,,65'
+323167,Matteo Gabbia,#46,Defender,AC Milan,Serie A,2,-,-,-,-,-,,,17'
+303254,Fikayo Tomori,#0,Defender,AC Milan,Serie A,,,,,,,,,
+1058368,Francesco Camarda,#73,Forward,AC Milan,Serie A,,,,,,,,,
+503991,Yunus Musah,#80,Midfield,AC Milan,Serie A,2,-,-,-,-,-,,,180'
+349599,Pervis Estupiñán,#2,Defender,AC Milan,Serie A,2,-,-,-,-,-,,,69'
+202886,Ruben Loftus-Cheek,#8,Midfield,AC Milan,Serie A,2,-,-,1,-,-,,,115'
+964087,Alphadjo Cissè,#70,Midfield,AC Milan,Serie A,2,1,-,-,-,-,,,125'
+659516,Warren Bondo,#0,Midfield,AC Milan,Serie A,,,,,,,,,
+1058363,Christian Comotto,#28,Midfield,AC Milan,Serie A,,,,,,,,,
+631007,Filippo Terracciano,#42,Defender,AC Milan,Serie A,,,,,,,,,
+27992,Luka Modrić,#14,Midfield,AC Milan,Serie A,2,-,-,-,-,-,,,108'
+1179195,Sankhoun Diawara,#13,Defender,AC Milan,Serie A,,,,,,,,,
+96254,Pietro Terracciano,#1,Goalkeeper,AC Milan,Serie A,,,,,,,,,
+939745,Lorenzo Torriani,#96,Goalkeeper,AC Milan,Serie A,,,,,,,,,
+845654,Kenan Yıldız,#10,Forward,Juventus FC,Serie A,1,-,-,-,-,-,,,69'
+463618,Khéphren Thuram,#19,Midfield,Juventus FC,Serie A,,,,,,,,,
+516716,Bremer,#3,Defender,Juventus FC,Serie A,2,1,-,-,-,-,,,180'
+585949,Pierre Kalulu,#15,Defender,Juventus FC,Serie A,2,-,-,-,-,-,,,180'
+533738,Jonathan David,#30,Forward,Juventus FC,Serie A,1,-,-,-,-,-,,,57'
+332697,Weston McKennie,#22,Midfield,Juventus FC,Serie A,1,-,-,-,-,-,,,90'
+487474,Francisco Conceição,#7,Forward,Juventus FC,Serie A,2,-,1,-,-,-,,,145'
+929994,Kerim Alajbegovic,#17,Forward,Juventus FC,Serie A,1,-,-,-,-,-,,,33'
+265088,Manuel Locatelli,#5,Midfield,Juventus FC,Serie A,2,-,1,1,-,-,,,180'
+480116,Lloyd Kelly,#6,Defender,Juventus FC,Serie A,2,-,-,-,-,-,,,105'
+413565,Jhon Lucumí,#26,Defender,Juventus FC,Serie A,1,-,-,1,-,-,,,75'
+486031,Nico González,#31,Forward,Juventus FC,Serie A,1,1,-,-,-,-,,,33'
+487969,Randal Kolo Muani,#9,Forward,Juventus FC,Serie A,2,-,-,-,-,-,,,180'
+459658,Andrea Cambiaso,#20,Defender,Juventus FC,Serie A,2,-,-,1,-,-,,,31'
+934878,Jeff Ekhator,#18,Forward,Juventus FC,Serie A,,,,,,,,,
+447661,Douglas Luiz,#12,Midfield,Juventus FC,Serie A,2,-,-,-,-,-,,,169'
+286047,Guglielmo Vicario,#25,Goalkeeper,Juventus FC,Serie A,2,-,,-,-,-,-,2,180'
+360518,Teun Koopmeiners,#8,Midfield,Juventus FC,Serie A,2,1,-,-,-,-,,,15'
+509022,Federico Gatti,#4,Defender,Juventus FC,Serie A,,,,,,,,,
+251075,Zeki Çelik,#2,Defender,Juventus FC,Serie A,2,-,-,1,-,-,,,159'
+346551,Kamil Grabara,#1,Goalkeeper,Juventus FC,Serie A,,,,,,,,,
+496857,Edon Zhegrova,#11,Forward,Juventus FC,Serie A,1,-,-,-,-,-,,,21'
+216569,Jérémie Boga,#13,Forward,Juventus FC,Serie A,2,-,-,-,-,-,,,78'
+686965,Juan Cabal,#32,Defender,Juventus FC,Serie A,,,,,,,,,
+162959,Daniele Rugani,#24,Defender,Juventus FC,Serie A,,,,,,,,,
+191891,Arkadiusz Milik,#14,Forward,Juventus FC,Serie A,,,,,,,,,
+75411,Carlo Pinsoglio,#23,Goalkeeper,Juventus FC,Serie A,,,,,,,,,
+470394,Kenneth Taylor,#24,Midfield,SS Lazio,Serie A,2,-,-,-,-,-,,,180'
+525704,Nicolò Rovella,#6,Midfield,SS Lazio,Serie A,2,-,-,-,-,-,,,127'
+394300,Davide Frattesi,#16,Midfield,SS Lazio,Serie A,2,2,-,-,-,-,,,126'
+644408,Oliver Provstgaard,#25,Defender,SS Lazio,Serie A,2,-,-,1,-,-,,,180'
+462823,Gustav Isaksen,#11,Forward,SS Lazio,Serie A,2,-,-,-,-,-,,,72'
+315865,Andrea Pinamonti,#9,Forward,SS Lazio,Serie A,1,-,-,-,-,-,,,10'
+387047,Danilho Doekhi,#5,Defender,SS Lazio,Serie A,2,-,-,-,-,-,,,180'
+535955,Nuno Tavares,#17,Defender,SS Lazio,Serie A,2,-,1,-,-,-,,,75'
+371001,Josip Sutalo,#37,Defender,SS Lazio,Serie A,,,,,,,,,
+846254,Petar Ratkov,#20,Forward,SS Lazio,Serie A,,,,,,,,,
+457736,Tijjani Noslin,#14,Forward,SS Lazio,Serie A,1,-,-,-,-,-,,,11'
+916430,Edoardo Motta,#40,Goalkeeper,SS Lazio,Serie A,,,,,,,,,
+481675,Christos Mandas,#35,Goalkeeper,SS Lazio,Serie A,2,-,,-,-,-,-,2,180'
+283735,Mattia Zaccagni,#10,Forward,SS Lazio,Serie A,2,-,-,1,-,-,,,180'
+550106,Matteo Cancellieri,#22,Forward,SS Lazio,Serie A,2,-,-,1,-,-,,,108'
+982855,Reda Belahyane,#21,Midfield,SS Lazio,Serie A,1,-,-,-,-,-,,,53'
+197747,Alessio Romagnoli,#13,Defender,SS Lazio,Serie A,,,,,,,,,
+530742,Fisayo Dele-Bashiru,#7,Midfield,SS Lazio,Serie A,1,-,-,-,-,-,,,54'
+1018395,Adrian Przyborek,#28,Midfield,SS Lazio,Serie A,,,,,,,,,
+626913,Boulaye Dia,#19,Forward,SS Lazio,Serie A,2,-,1,1,-,-,,,159'
+346567,Luca Pellegrini,#3,Defender,SS Lazio,Serie A,,,,,,,,,
+199733,Danilo Cataldi,#32,Midfield,SS Lazio,Serie A,,,,,,,,,
+356197,Alfonso Pedraza,#23,Defender,SS Lazio,Serie A,2,-,-,-,-,-,,,105'
+708086,Romano Floriani Mussolini,#15,Defender,SS Lazio,Serie A,2,-,-,1,-,-,,,151'
+239802,Adam Marusic,#77,Defender,SS Lazio,Serie A,1,-,-,-,-,-,,,19'
+331401,Manuel Lazzari,#29,Defender,SS Lazio,Serie A,1,-,-,-,-,-,,,10'
+126729,Patric,#4,Defender,SS Lazio,Serie A,,,,,,,,,
+276896,Samuel Gigot,#2,Defender,SS Lazio,Serie A,,,,,,,,,
+1110645,Filipe Bordon,#76,Defender,SS Lazio,Serie A,,,,,,,,,
+287700,Mohamed Fares,#0,Defender,SS Lazio,Serie A,,,,,,,,,
+976207,Federico Serra,#63,Forward,SS Lazio,Serie A,,,,,,,,,
+538079,Alessio Furlanetto,#55,Goalkeeper,SS Lazio,Serie A,,,,,,,,,
+918957,Davide Renzetti,#59,Goalkeeper,SS Lazio,Serie A,,,,,,,,,
+866255,Valerio Farcomeni,#71,Midfield,SS Lazio,Serie A,,,,,,,,,
+1455976,Bruno Galassi,#8,Midfield,SS Lazio,Serie A,,,,,,,,,
+463665,Oumar Solet,#28,Defender,Udinese Calcio,Serie A,2,-,-,-,-,-,,,180'
+392085,Nicolò Zaniolo,#10,Forward,Udinese Calcio,Serie A,1,-,-,-,-,-,,,90'
+924857,Lennon Miller,#38,Midfield,Udinese Calcio,Serie A,2,-,-,-,-,-,,,49'
+340353,Maduka Okoye,#40,Goalkeeper,Udinese Calcio,Serie A,2,-,,-,-,-,3,-,180'
+412660,Keinan Davis,#9,Forward,Udinese Calcio,Serie A,1,-,-,-,-,-,,,68'
+361068,Jurgen Ekkelenkamp,#32,Midfield,Udinese Calcio,Serie A,2,1,1,-,-,-,,,175'
+1178488,Idrissa Gueye,#7,Forward,Udinese Calcio,Serie A,2,-,-,-,-,-,,,94'
+632831,Nicolò Bertola,#13,Defender,Udinese Calcio,Serie A,1,-,-,-,-,-,,,22'
+1058354,Matteo Palma,#16,Defender,Udinese Calcio,Serie A,1,-,-,-,-,-,,,45'
+1300966,Branimir Mlacic,#22,Defender,Udinese Calcio,Serie A,,,,,,,,,
+834752,Unai Gómez,#46,Midfield,Udinese Calcio,Serie A,2,-,-,1,-,-,,,65'
+397225,Alessandro Zanoli,#59,Defender,Udinese Calcio,Serie A,,,,,,,,,
+377243,Jakub Piotrowski,#24,Midfield,Udinese Calcio,Serie A,2,1,-,1,-,-,,,131'
+222855,Jesper Karlström,#8,Midfield,Udinese Calcio,Serie A,2,-,-,-,-,-,,,180'
+412616,Giorgi Chakvetadze,#30,Midfield,Udinese Calcio,Serie A,,,,,,,,,
+1118347,Juan Arizala,#20,Midfield,Udinese Calcio,Serie A,1,-,-,-,-,-,,,5'
+648032,James Abankwah,#14,Defender,Udinese Calcio,Serie A,2,-,-,1,-,-,,,180'
+906160,Saba Goglichidze,#2,Defender,Udinese Calcio,Serie A,,,,,,,,,
+268429,Sandi Lovrić,#4,Midfield,Udinese Calcio,Serie A,,,,,,,,,
+345452,Bartosz Mrozek,#41,Goalkeeper,Udinese Calcio,Serie A,,,,,,,,,
+290017,Hassane Kamara,#11,Defender,Udinese Calcio,Serie A,2,2,1,-,-,-,,,180'
+342877,Enzo Ebosse,#77,Defender,Udinese Calcio,Serie A,2,-,-,-,-,-,,,113'
+375877,Vakoun Bayo,#15,Forward,Udinese Calcio,Serie A,1,-,-,-,-,-,,,18'
+336125,Mërgim Vojvoda,#23,Defender,Udinese Calcio,Serie A,2,-,-,-,-,-,,,175'
+671799,Rui Modesto,#0,Midfield,Udinese Calcio,Serie A,,,,,,,,,
+1009633,David Pejičić,#79,Midfield,Udinese Calcio,Serie A,,,,,,,,,
+524010,Oier Zarraga,#6,Midfield,Udinese Calcio,Serie A,2,-,-,-,-,-,,,31'
+81512,Christian Kabasele,#27,Defender,Udinese Calcio,Serie A,,,,,,,,,
+612059,Edoardo Piana,#99,Goalkeeper,Udinese Calcio,Serie A,,,,,,,,,
+27807,Daniele Padelli,#93,Goalkeeper,Udinese Calcio,Serie A,,,,,,,,,
+1078784,Giulio Vinciati,#45,Forward,Udinese Calcio,Serie A,,,,,,,,,
+948294,Nico Paz,#10,Midfield,Como 1907,Serie A,2,-,-,-,-,-,,,170'
+580451,Martin Baturina,#20,Midfield,Como 1907,Serie A,2,1,1,-,-,-,,,103'
+346314,Trevoh Chalobah,#99,Defender,Como 1907,Serie A,2,-,-,-,-,-,,,180'
+668547,Máximo Perrone,#5,Midfield,Como 1907,Serie A,2,-,-,-,-,-,,,69'
+1190411,Jesús Rodríguez,#17,Forward,Como 1907,Serie A,1,-,-,-,-,-,,,71'
+1061282,Assane Diao,#11,Forward,Como 1907,Serie A,2,-,1,-,-,-,,,110'
+948278,Jacobo Ramón,#4,Defender,Como 1907,Serie A,2,-,-,-,-,-,,,180'
+523318,Anastasios Douvikas,#9,Forward,Como 1907,Serie A,2,2,-,-,-,-,,,180'
+467992,Samuele Ricci,#14,Midfield,Como 1907,Serie A,,,,,,,,,
+747720,Jayden Addai,#42,Forward,Como 1907,Serie A,,,,,,,,,
+495667,Lucas Da Cunha,#7,Midfield,Como 1907,Serie A,2,-,-,-,-,-,,,111'
+627228,Yan Couto,#27,Defender,Como 1907,Serie A,2,-,-,-,-,-,,,147'
+879217,Kaiki,#16,Defender,Como 1907,Serie A,1,-,-,-,-,-,,,9'
+395237,Maxence Caqueret,#8,Midfield,Como 1907,Serie A,2,-,-,-,-,-,,,33'
+709957,Álex Valle,#3,Defender,Como 1907,Serie A,2,-,-,-,-,-,,,180'
+336012,Nicolas Kühn,#19,Forward,Como 1907,Serie A,,,,,,,,,
+1231993,Adrian Lahdo,#15,Midfield,Como 1907,Serie A,,,,,,,,,
+988964,Mattia Liberali,#30,Midfield,Como 1907,Serie A,1,-,-,-,-,-,,,19'
+290537,Jean Butez,#1,Goalkeeper,Como 1907,Serie A,2,-,,-,-,-,2,-,180'
+385394,Alberto Dossena,#13,Defender,Como 1907,Serie A,,,,,,,,,
+633306,Iván Azón,#90,Forward,Como 1907,Serie A,,,,,,,,,
+571271,Ivan Smolcic,#28,Defender,Como 1907,Serie A,2,-,-,-,-,-,,,33'
+281989,Luis Milla,#6,Midfield,Como 1907,Serie A,2,-,-,-,-,-,,,180'
+160938,Marc Oliver Kempf,#2,Defender,Como 1907,Serie A,1,-,-,-,-,-,,,25'
+780630,Willy Kambwala,#53,Defender,Como 1907,Serie A,,,,,,,,,
+256339,Emil Audero,#12,Goalkeeper,Como 1907,Serie A,,,,,,,,,
+730531,Noel Törnqvist,#21,Goalkeeper,Como 1907,Serie A,,,,,,,,,
+242940,Edoardo Goldaniga,#18,Defender,Como 1907,Serie A,,,,,,,,,
+226025,Luca Mazzitelli,#0,Midfield,Como 1907,Serie A,,,,,,,,,
+488052,Matthias Braunöder,#0,Midfield,Como 1907,Serie A,,,,,,,,,
+532495,Marlon Mustapha,#0,Forward,Como 1907,Serie A,,,,,,,,,
+88595,Mauro Vigorito,#22,Goalkeeper,Como 1907,Serie A,,,,,,,,,
+624690,Manu Koné,#17,Midfield,AS Roma,Serie A,1,-,-,1,-,-,,,79'
+326029,Donyell Malen,#14,Forward,AS Roma,Serie A,1,3,-,-,-,-,,,68'
+964580,Wesley,#43,Defender,AS Roma,Serie A,1,-,-,-,-,-,,,90'
+957653,Rodrigo Mora,#86,Midfield,AS Roma,Serie A,1,-,-,-,-,-,,,54'
+338670,Mile Svilar,#99,Goalkeeper,AS Roma,Serie A,1,-,,-,-,-,-,1,90'
+371149,Evan Ndicka,#5,Defender,AS Roma,Serie A,1,-,-,-,-,-,,,90'
+668951,Matías Soulé,#18,Forward,AS Roma,Serie A,1,-,-,-,-,-,,,36'
+849520,Santiago Castro,#9,Forward,AS Roma,Serie A,1,-,-,-,-,-,,,22'
+813137,Niccolò Pisilli,#61,Midfield,AS Roma,Serie A,1,1,-,-,-,-,,,11'
+901019,Neil El Aynaoui,#8,Midfield,AS Roma,Serie A,1,-,-,-,-,-,,,11'
+669380,Konstantinos Koulierakis,#3,Defender,AS Roma,Serie A,1,-,-,-,-,-,,,22'
+1131161,Robinio Vaz,#78,Forward,AS Roma,Serie A,,,,,,,,,
+701819,Daniele Ghilardi,#87,Defender,AS Roma,Serie A,,,,,,,,,
+575998,Leonardo Balerdi,#26,Defender,AS Roma,Serie A,,,,,,,,,
+424042,Nahuel Molina,#20,Defender,AS Roma,Serie A,,,,,,,,,
+256448,Gianluca Mancini,#23,Defender,AS Roma,Serie A,1,-,-,-,-,-,,,90'
+485584,Anass Salah-Eddine,#34,Defender,AS Roma,Serie A,,,,,,,,,
+557407,Devyne Rensch,#2,Defender,AS Roma,Serie A,,,,,,,,,
+286297,Lorenzo Pellegrini,#7,Midfield,AS Roma,Serie A,,,,,,,,,
+199248,Bryan Cristante,#4,Midfield,AS Roma,Serie A,1,-,-,-,-,-,,,90'
+281769,Mario Hermoso,#22,Defender,AS Roma,Serie A,1,-,-,1,-,-,,,68'
+206050,Paulo Dybala,#21,Forward,AS Roma,Serie A,1,-,3,-,-,-,,,79'
+133179,Marten de Roon,#15,Midfield,AS Roma,Serie A,,,,,,,,,
+495722,Devis Vásquez,#0,Goalkeeper,AS Roma,Serie A,,,,,,,,,
+803005,Mattia Mannini,#0,Defender,AS Roma,Serie A,,,,,,,,,
+244192,Pierluigi Gollini,#95,Goalkeeper,AS Roma,Serie A,,,,,,,,,
+1175298,Emanuele Lulli,#77,Defender,AS Roma,Serie A,1,-,-,-,-,-,,,90'
+942004,Giorgio De Marzi,#70,Goalkeeper,AS Roma,Serie A,,,,,,,,,
+346853,Romano Schmid,#10,Midfield,Frosinone Calcio,Serie A,2,-,-,1,-,-,,,149'
+510103,Tomas Bobcek,#0,Forward,Frosinone Calcio,Serie A,,,,,,,,,
+888738,Farès Ghedjemis,#7,Forward,Frosinone Calcio,Serie A,,,,,,,,,
+927905,Matteo Cichella,#16,Midfield,Frosinone Calcio,Serie A,1,-,-,-,-,-,,,67'
+468192,Daniel Bîrligea,#11,Forward,Frosinone Calcio,Serie A,1,-,-,-,-,-,,,1'
+724178,Luis Hasa,#70,Midfield,Frosinone Calcio,Serie A,1,-,-,-,-,-,,,23'
+459665,Patrizio Masini,#73,Midfield,Frosinone Calcio,Serie A,2,-,-,-,-,-,,,121'
+412758,Giorgi Kvernadze,#17,Forward,Frosinone Calcio,Serie A,2,-,1,-,-,-,,,180'
+818888,Antonio Raimondo,#9,Forward,Frosinone Calcio,Serie A,2,2,-,1,-,-,,,179'
+705355,Lorenzo Palmisani,#22,Goalkeeper,Frosinone Calcio,Serie A,2,-,,-,-,-,1,1,180'
+745778,Gabriele Calvani,#3,Defender,Frosinone Calcio,Serie A,2,-,-,2,-,-,,,164'
+571600,Gabriele Bracaglia,#79,Defender,Frosinone Calcio,Serie A,2,1,1,1,-,-,,,150'
+534161,Ilias Koutsoupias,#8,Midfield,Frosinone Calcio,Serie A,,,,,,,,,
+404260,Aleksa Terzić,#71,Defender,Frosinone Calcio,Serie A,2,-,-,-,-,-,,,30'
+301235,Giacomo Calò,#14,Midfield,Frosinone Calcio,Serie A,2,-,1,-,-,-,,,172'
+195736,Florian Grillitsch,#27,Midfield,Frosinone Calcio,Serie A,1,-,-,-,-,-,,,8'
+550116,Ilario Monterisi,#30,Defender,Frosinone Calcio,Serie A,2,-,-,-,-,-,,,157'
+866250,Seydou Fini,#40,Forward,Frosinone Calcio,Serie A,2,-,-,-,-,-,,,104'
+842338,Enzo Tchato,#90,Defender,Frosinone Calcio,Serie A,,,,,,,,,
+433584,Alessio Zerbin,#24,Midfield,Frosinone Calcio,Serie A,2,-,-,-,-,-,,,76'
+804812,Anthony Oyono,#20,Defender,Frosinone Calcio,Serie A,2,-,-,-,-,-,,,113'
+593774,Anouar El Azzouzi,#34,Midfield,Frosinone Calcio,Serie A,,,,,,,,,
+160241,Kevin Akpoguma,#25,Defender,Frosinone Calcio,Serie A,,,,,,,,,
+567465,Sebastiano Desplanches,#91,Goalkeeper,Frosinone Calcio,Serie A,,,,,,,,,
+616628,Giorgio Cittadini,#2,Defender,Frosinone Calcio,Serie A,2,-,-,-,-,-,,,106'
+818878,Wisdom Amey,#5,Defender,Frosinone Calcio,Serie A,,,,,,,,,
+1036405,Omar Fayed,#74,Defender,Frosinone Calcio,Serie A,,,,,,,,,
+522681,Ben Lhassine Kone,#4,Midfield,Frosinone Calcio,Serie A,,,,,,,,,
+337811,Francesco Gelli,#96,Midfield,Frosinone Calcio,Serie A,,,,,,,,,
+1051737,Kevin Barcella,#99,Forward,Frosinone Calcio,Serie A,,,,,,,,,
+1086590,Alejandro Cichero,#29,Forward,Frosinone Calcio,Serie A,,,,,,,,,
+168444,Matteo Pisseri,#12,Goalkeeper,Frosinone Calcio,Serie A,,,,,,,,,
+740517,Eldin Lolic,#0,Goalkeeper,Frosinone Calcio,Serie A,,,,,,,,,
+1112449,Tiago Gabriel,#44,Defender,US Lecce,Serie A,1,1,-,-,-,-,,,16'
+470794,Ivan Ilić,#20,Midfield,US Lecce,Serie A,,,,,,,,,
+583046,Medon Berisha,#10,Midfield,US Lecce,Serie A,,,,,,,,,
+463620,Willem Geubbels,#69,Forward,US Lecce,Serie A,1,-,-,-,-,-,,,74'
+604113,Jamil Siebert,#5,Defender,US Lecce,Serie A,1,-,-,-,-,-,,,90'
+674806,Santiago Pierotti,#50,Forward,US Lecce,Serie A,1,-,-,-,-,-,,,90'
+238537,Wladimiro Falcone,#30,Goalkeeper,US Lecce,Serie A,1,-,,-,-,-,-,1,90'
+595650,Nikola Stulic,#9,Forward,US Lecce,Serie A,1,-,-,-,-,-,,,16'
+392516,Antonino Gallo,#25,Defender,US Lecce,Serie A,1,-,-,-,-,-,,,45'
+980575,Oumar Ngom,#79,Midfield,US Lecce,Serie A,1,-,-,1,-,-,,,90'
+780548,Omri Gandelman,#16,Midfield,US Lecce,Serie A,1,-,-,-,-,-,,,1'
+836441,Gaspar,#4,Defender,US Lecce,Serie A,1,-,-,1,-,-,,,90'
+728485,Danilo Veiga,#17,Defender,US Lecce,Serie A,,,,,,,,,
+911328,Mohamed Kaba,#77,Midfield,US Lecce,Serie A,,,,,,,,,
+386552,Lassana Coulibaly,#29,Midfield,US Lecce,Serie A,1,-,1,-,-,-,,,90'
+324377,Youssef Maleh,#14,Midfield,US Lecce,Serie A,1,-,-,-,-,-,,,29'
+649490,Konan N’Dri,#11,Forward,US Lecce,Serie A,1,-,-,-,-,-,,,74'
+805886,Gaby Jean,#18,Defender,US Lecce,Serie A,,,,,,,,,
+1004344,Ali Dembélé,#2,Defender,US Lecce,Serie A,,,,,,,,,
+1057563,Christ-Owen Kouassi,#21,Defender,US Lecce,Serie A,,,,,,,,,
+433329,Corrie Ndaba,#3,Defender,US Lecce,Serie A,1,-,-,-,-,-,,,45'
+1200320,Hjalte Lærke,#34,Forward,US Lecce,Serie A,,,,,,,,,
+931841,Amar Fatah,#7,Forward,US Lecce,Serie A,,,,,,,,,
+644613,Sadik Fofana,#8,Midfield,US Lecce,Serie A,,,,,,,,,
+943473,Milos Jovic,#0,Forward,US Lecce,Serie A,,,,,,,,,
+1118086,Sebastian Esposito,#0,Defender,US Lecce,Serie A,,,,,,,,,
+937954,Paco Esteban,#22,Forward,US Lecce,Serie A,,,,,,,,,
+1105124,Elijah Scott,#31,Defender,US Lecce,Serie A,,,,,,,,,
+866607,Niko Kovač,#80,Midfield,US Lecce,Serie A,,,,,,,,,
+215167,Marco Bleve,#1,Goalkeeper,US Lecce,Serie A,,,,,,,,,
+748679,Olaf Gorter,#28,Midfield,US Lecce,Serie A,1,1,-,-,-,-,,,61'
+745595,Marlon Ubani,#36,Defender,US Lecce,Serie A,,,,,,,,,
+1017950,Vernon Addo,#0,Defender,US Lecce,Serie A,,,,,,,,,
+667640,Alexandru Borbei,#0,Goalkeeper,US Lecce,Serie A,,,,,,,,,
+1084756,Plamen Penev,#33,Goalkeeper,US Lecce,Serie A,,,,,,,,,
+610442,Rasmus Højlund,#19,Forward,SSC Napoli,Serie A,2,1,-,-,-,-,,,158'
+315969,Scott McTominay,#8,Midfield,SSC Napoli,Serie A,2,-,-,-,-,-,,,146'
+386446,Alessandro Buongiorno,#4,Defender,SSC Napoli,Serie A,,,,,,,,,
+830365,Alisson Santos,#27,Forward,SSC Napoli,Serie A,2,-,-,-,-,-,,,100'
+469822,David Neres,#7,Forward,SSC Napoli,Serie A,1,-,-,-,-,-,,,10'
+433984,Sam Beukema,#31,Defender,SSC Napoli,Serie A,,,,,,,,,
+339332,Noa Lang,#70,Forward,SSC Napoli,Serie A,2,-,-,-,-,-,,,80'
+572265,Lorenzo Lucca,#20,Forward,SSC Napoli,Serie A,2,-,-,-,-,-,,,22'
+257474,Vanja Milinković-Savić,#32,Goalkeeper,SSC Napoli,Serie A,,,,,,,,,
+423744,Billy Gilmour,#6,Midfield,SSC Napoli,Serie A,,,,,,,,,
+703245,Antonio Vergara,#26,Midfield,SSC Napoli,Serie A,1,1,1,-,-,-,,,23'
+463603,Benoît Badiashile,#5,Defender,SSC Napoli,Serie A,,,,,,,,,
+354361,Frank Anguissa,#99,Midfield,SSC Napoli,Serie A,2,-,-,-,-,-,,,147'
+376514,Mathías Olivera,#17,Defender,SSC Napoli,Serie A,2,-,-,-,-,-,,,65'
+1005165,Giovane,#23,Forward,SSC Napoli,Serie A,,,,,,,,,
+662261,Rafa Marín,#16,Defender,SSC Napoli,Serie A,2,-,-,-,-,-,,,171'
+257732,Amir Rrahmani,#13,Defender,SSC Napoli,Serie A,2,-,1,-,-,-,,,180'
+192735,Stanislav Lobotka,#68,Midfield,SSC Napoli,Serie A,2,-,-,-,-,-,,,180'
+240414,Alex Meret,#1,Goalkeeper,SSC Napoli,Serie A,2,-,,-,-,-,2,1,180'
+88755,Kevin De Bruyne,#11,Midfield,SSC Napoli,Serie A,2,1,1,-,-,-,,,57'
+169880,Giovanni Di Lorenzo,#22,Defender,SSC Napoli,Serie A,2,-,-,1,-,-,,,180'
+468066,Jens Cajuste,#0,Midfield,SSC Napoli,Serie A,,,,,,,,,
+814446,Luca Marianucci,#35,Defender,SSC Napoli,Serie A,,,,,,,,,
+165895,Matteo Politano,#21,Forward,SSC Napoli,Serie A,2,-,-,1,-,-,,,157'
+513245,Jesper Lindstrøm,#29,Forward,SSC Napoli,Serie A,,,,,,,,,
+820635,Costantino Favasuli,#2,Midfield,SSC Napoli,Serie A,,,,,,,,,
+118689,Leonardo Spinazzola,#37,Defender,SSC Napoli,Serie A,2,-,-,-,-,-,,,124'
+250153,Pasquale Mazzocchi,#30,Defender,SSC Napoli,Serie A,,,,,,,,,
+250683,Nikita Contini,#14,Goalkeeper,SSC Napoli,Serie A,,,,,,,,,
+989006,Christian Garofalo,#47,Defender,SSC Napoli,Serie A,,,,,,,,,
+607854,Éderson,#13,Midfield,Atalanta BC,Serie A,1,-,-,-,-,-,,,90'
+571604,Giorgio Scalvini,#42,Defender,Atalanta BC,Serie A,1,-,-,-,-,-,,,90'
+435772,Charles De Ketelaere,#17,Midfield,Atalanta BC,Serie A,1,-,-,-,-,-,,,30'
+459763,Marco Carnesecchi,#29,Goalkeeper,Atalanta BC,Serie A,1,-,,-,-,-,1,-,90'
+1077175,Honest Ahanor,#69,Defender,Atalanta BC,Serie A,,,,,,,,,
+434433,Nikola Krstović,#90,Forward,Atalanta BC,Serie A,1,1,-,-,-,-,,,30'
+315867,Gianluca Scamacca,#9,Forward,Atalanta BC,Serie A,1,-,-,-,-,-,,,60'
+405885,Giacomo Raspadori,#18,Forward,Atalanta BC,Serie A,1,1,-,-,-,-,,,82'
+503075,Isak Hien,#4,Defender,Atalanta BC,Serie A,,,,,,,,,
+708635,Lorenzo Bernasconi,#47,Midfield,Atalanta BC,Serie A,1,-,-,-,-,-,,,71'
+550108,Nicola Zalewski,#59,Midfield,Atalanta BC,Serie A,1,-,-,-,-,-,,,60'
+746695,Kamaldeen Sulemana,#7,Forward,Atalanta BC,Serie A,,,,,,,,,
+528833,Lazar Samardžić,#10,Midfield,Atalanta BC,Serie A,1,-,-,-,-,-,,,30'
+357992,Raoul Bellanova,#16,Midfield,Atalanta BC,Serie A,,,,,,,,,
+644771,Odilon Kossounou,#3,Defender,Atalanta BC,Serie A,1,-,-,-,-,-,,,90'
+400489,Eljif Elmas,#99,Midfield,Atalanta BC,Serie A,1,-,-,-,-,-,,,8'
+294808,Franck Kessié,#19,Midfield,Atalanta BC,Serie A,,,,,,,,,
+698259,Thomas Kristensen,#31,Defender,Atalanta BC,Serie A,,,,,,,,,
+358008,Gianluca Gaetano,#70,Midfield,Atalanta BC,Serie A,1,-,1,-,-,-,,,90'
+205938,Mario Pašalić,#8,Midfield,Atalanta BC,Serie A,1,-,-,-,-,-,,,60'
+982267,Ibrahim Sulemana,#6,Midfield,Atalanta BC,Serie A,,,,,,,,,
+94005,Sead Kolasinac,#23,Defender,Atalanta BC,Serie A,1,-,-,-,-,-,,,19'
+173859,Davide Zappacosta,#77,Midfield,Atalanta BC,Serie A,1,-,-,-,-,-,,,90'
+361065,Mitchel Bakker,#5,Midfield,Atalanta BC,Serie A,,,,,,,,,
+650256,Paolo Vismara,#95,Goalkeeper,Atalanta BC,Serie A,,,,,,,,,
+199976,Marco Sportiello,#57,Goalkeeper,Atalanta BC,Serie A,,,,,,,,,
+921655,Ismaël Koné,#90,Midfield,US Sassuolo,Serie A,,,,,,,,,
+579930,Armand Laurienté,#45,Forward,US Sassuolo,Serie A,2,-,-,1,-,-,,,180'
+538918,Sebastiano Esposito,#0,Forward,US Sassuolo,Serie A,,,,,,,,,
+546926,Jay Idzes,#21,Defender,US Sassuolo,Serie A,1,-,-,-,-,-,,,90'
+564785,Kristian Thorstvedt,#42,Midfield,US Sassuolo,Serie A,2,-,-,-,-,-,,,56'
+746891,Cristian Volpato,#7,Midfield,US Sassuolo,Serie A,2,1,-,1,-,-,,,148'
+961022,Benja Domínguez,#25,Forward,US Sassuolo,Serie A,2,-,-,-,-,-,,,46'
+1170286,Darryl Bakola,#50,Midfield,US Sassuolo,Serie A,2,-,-,-,-,-,,,180'
+944570,Vasilije Adžić,#17,Midfield,US Sassuolo,Serie A,2,-,1,-,-,-,,,124'
+371021,Arijanet Murić,#49,Goalkeeper,US Sassuolo,Serie A,2,-,,-,-,-,3,-,180'
+724106,Luca Lipani,#35,Midfield,US Sassuolo,Serie A,1,-,-,-,-,-,,,1'
+177843,Domenico Berardi,#10,Forward,US Sassuolo,Serie A,1,1,-,-,-,-,,,18'
+647280,Kieron Bowie,#9,Forward,US Sassuolo,Serie A,2,-,-,-,-,-,,,160'
+345458,Sebastian Walukiewicz,#6,Defender,US Sassuolo,Serie A,,,,,,,,,
+646747,Rafa Obrador,#33,Defender,US Sassuolo,Serie A,1,-,-,-,-,-,,,29'
+567129,Josh Doig,#3,Defender,US Sassuolo,Serie A,2,-,-,-,-,-,,,151'
+441515,Daniel Boloca,#11,Midfield,US Sassuolo,Serie A,,,,,,,,,
+660746,Fedde Leysen,#16,Defender,US Sassuolo,Serie A,2,-,1,-,-,-,,,106'
+490423,Ignace Van der Brempt,#0,Defender,US Sassuolo,Serie A,,,,,,,,,
+543666,Stefano Turati,#80,Goalkeeper,US Sassuolo,Serie A,,,,,,,,,
+520530,Fali Candé,#5,Defender,US Sassuolo,Serie A,,,,,,,,,
+691825,Edoardo Pieragnolo,#15,Defender,US Sassuolo,Serie A,,,,,,,,,
+372720,Nicholas Pierini,#77,Forward,US Sassuolo,Serie A,,,,,,,,,
+74683,Nemanja Matić,#18,Midfield,US Sassuolo,Serie A,2,-,-,1,-,-,,,164'
+655207,Laurs Skjellerup,#0,Forward,US Sassuolo,Serie A,,,,,,,,,
+406632,Cas Odenthal,#26,Defender,US Sassuolo,Serie A,1,1,-,-,-,-,,,90'
+700053,Edoardo Iannoni,#44,Midfield,US Sassuolo,Serie A,,,,,,,,,
+390163,Andrea Ghion,#8,Midfield,US Sassuolo,Serie A,,,,,,,,,
+919669,Simone Cinquegrano,#46,Midfield,US Sassuolo,Serie A,2,-,-,-,-,-,,,180'
+386574,Fabrizio Caligara,#0,Midfield,US Sassuolo,Serie A,,,,,,,,,
+655525,Yeferson Paz,#27,Defender,US Sassuolo,Serie A,,,,,,,,,
+323255,Giacomo Satalino,#12,Goalkeeper,US Sassuolo,Serie A,,,,,,,,,
+932763,Alessandro Di Bitonto,#23,Defender,US Sassuolo,Serie A,,,,,,,,,
+1019116,Giorgio Vezzosi,#36,Defender,US Sassuolo,Serie A,,,,,,,,,
+1168024,Lorenzo Nyarko,#22,Goalkeeper,US Sassuolo,Serie A,,,,,,,,,
+421873,Elia Caprile,#1,Goalkeeper,Cagliari Calcio,Serie A,2,-,,-,-,-,1,1,180'
+1228231,Juan Rodríguez,#15,Defender,Cagliari Calcio,Serie A,2,-,-,-,-,-,,,180'
+539134,Daniel Maldini,#70,Midfield,Cagliari Calcio,Serie A,2,-,-,-,-,-,,,165'
+691482,Jacopo Fazzini,#10,Midfield,Cagliari Calcio,Serie A,2,-,-,1,-,-,,,123'
+1371793,Paul Mendy,#31,Forward,Cagliari Calcio,Serie A,2,-,-,-,-,-,,,123'
+564305,Michel Adopo,#8,Midfield,Cagliari Calcio,Serie A,2,-,1,-,-,-,,,180'
+568333,Adam Obert,#33,Defender,Cagliari Calcio,Serie A,2,-,-,-,-,-,,,177'
+1039342,Raphael Kofler,#22,Defender,Cagliari Calcio,Serie A,1,-,-,-,-,-,,,33'
+749552,Alieu Fadera,#39,Forward,Cagliari Calcio,Serie A,1,-,-,-,-,-,,,33'
+915849,Yanis Massolin,#0,Midfield,Cagliari Calcio,Serie A,,,,,,,,,
+718201,Kevin Carlos,#9,Forward,Cagliari Calcio,Serie A,1,-,-,1,-,-,,,33'
+885226,Riyad Idrissi,#3,Defender,Cagliari Calcio,Serie A,,,,,,,,,
+1111663,Kingstone Mutandwa,#18,Forward,Cagliari Calcio,Serie A,1,-,-,-,-,-,,,3'
+1134304,Joseph Liteta,#27,Midfield,Cagliari Calcio,Serie A,,,,,,,,,
+459988,Gennaro Borrelli,#29,Forward,Cagliari Calcio,Serie A,2,-,-,-,-,-,,,36'
+406151,Zé Pedro,#2,Defender,Cagliari Calcio,Serie A,2,-,-,1,-,-,,,156'
+249126,Harry Winks,#6,Midfield,Cagliari Calcio,Serie A,2,-,-,-,-,-,,,147'
+600041,Mattia Felici,#17,Forward,Cagliari Calcio,Serie A,1,-,-,-,-,-,,,24'
+289446,Yerry Mina,#26,Defender,Cagliari Calcio,Serie A,,,,,,,,,
+628558,Riccardo Ciervo,#20,Forward,Cagliari Calcio,Serie A,2,-,-,-,-,-,,,9'
+911224,Alessandro Romano,#4,Midfield,Cagliari Calcio,Serie A,2,1,-,-,-,-,,,180'
+1099924,Yael Trepy,#19,Forward,Cagliari Calcio,Serie A,,,,,,,,,
+235931,Alessandro Deiola,#14,Midfield,Cagliari Calcio,Serie A,2,-,-,1,-,-,,,173'
+304144,Alen Sherri,#12,Goalkeeper,Cagliari Calcio,Serie A,,,,,,,,,
+457444,Giuseppe Aurelio,#24,Defender,Cagliari Calcio,Serie A,1,-,-,-,-,-,,,3'
+258482,Boris Radunović,#23,Goalkeeper,Cagliari Calcio,Serie A,,,,,,,,,
+701842,Nicolò Cavuoti,#21,Midfield,Cagliari Calcio,Serie A,,,,,,,,,
+1048013,Nicola Grandu,#36,Midfield,Cagliari Calcio,Serie A,,,,,,,,,
+926839,Ivan Sulev,#32,Midfield,Cagliari Calcio,Serie A,,,,,,,,,
+1078164,Demi Akarakiri,#30,Midfield,Cagliari Calcio,Serie A,,,,,,,,,
+672381,Jonathan Rowe,#11,Forward,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,30'
+368891,Arthur Theate,#3,Defender,Bologna FC 1909,Serie A,,,,,,,,,
+464469,Torbjørn Heggem,#14,Defender,Bologna FC 1909,Serie A,1,-,-,1,-,-,,,90'
+341227,Juan Miranda,#33,Defender,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,90'
+343537,Artem Dovbyk,#9,Forward,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,30'
+368482,Riccardo Orsolini,#7,Forward,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,60'
+459151,Nicolò Cambiaghi,#28,Forward,Bologna FC 1909,Serie A,1,-,-,1,-,-,,,60'
+432092,Roberto Piccoli,#91,Forward,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,60'
+428563,Lewis Ferguson,#19,Midfield,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,90'
+652054,Martin Vitík,#41,Defender,Bologna FC 1909,Serie A,,,,,,,,,
+345590,Jens Odgaard,#21,Midfield,Bologna FC 1909,Serie A,1,-,-,1,-,-,,,90'
+496745,Emil Holm,#2,Defender,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,21'
+392538,Tommaso Pobega,#4,Midfield,Bologna FC 1909,Serie A,,,,,,,,,
+1129198,Eivind Helland,#5,Defender,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,90'
+392966,Nadir Zortea,#20,Defender,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,69'
+316934,Nikola Moro,#6,Midfield,Bologna FC 1909,Serie A,,,,,,,,,
+389837,Nicolò Casale,#16,Defender,Bologna FC 1909,Serie A,,,,,,,,,
+992569,Massimo Pessina,#25,Goalkeeper,Bologna FC 1909,Serie A,,,,,,,,,
+1283311,Mikel Amondarain,#8,Midfield,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,11'
+197300,Federico Bernardeschi,#10,Forward,Bologna FC 1909,Serie A,1,-,-,-,-,-,,,30'
+367992,Jesper Karlsson,#0,Forward,Bologna FC 1909,Serie A,,,,,,,,,
+80894,Lukasz Skorupski,#1,Goalkeeper,Bologna FC 1909,Serie A,1,-,,-,-,-,1,-,90'
+531065,Oussama El Azzouzi,#17,Midfield,Bologna FC 1909,Serie A,1,-,-,1,-,-,,,79'
+929899,Rahim Alhassane,#23,Defender,Bologna FC 1909,Serie A,,,,,,,,,
+33571,Lorenzo De Silvestri,#29,Defender,Bologna FC 1909,Serie A,,,,,,,,,
+1018026,Ukko Happonen,#77,Goalkeeper,Bologna FC 1909,Serie A,,,,,,,,,
+746712,Pietro Comuzzo,#15,Defender,Torino FC,Serie A,2,1,-,-,-,-,,,175'
+622380,Cesare Casadei,#22,Midfield,Torino FC,Serie A,1,-,-,-,-,-,,,70'
+984964,Niccolò Fortini,#29,Defender,Torino FC,Serie A,2,-,-,-,-,-,,,93'
+352041,Lucas Perri,#20,Goalkeeper,Torino FC,Serie A,,,,,,,,,
+293200,Nikola Vlašić,#10,Midfield,Torino FC,Serie A,2,-,-,-,-,-,,,180'
+588426,Saúl Coco,#23,Defender,Torino FC,Serie A,2,-,-,-,-,-,,,180'
+282388,Giovanni Simeone,#18,Forward,Torino FC,Serie A,2,-,-,-,-,-,,,143'
+393238,Zakaria Aboukhlal,#7,Forward,Torino FC,Serie A,2,-,-,-,-,-,,,26'
+743091,Emirhan İlkhan,#6,Midfield,Torino FC,Serie A,1,-,-,-,-,-,,,23'
+798929,Gvidas Gineitis,#66,Midfield,Torino FC,Serie A,2,-,1,1,-,-,,,157'
+346779,Ché Adams,#19,Forward,Torino FC,Serie A,2,1,-,-,-,-,,,103'
+435228,Ardian Ismajli,#44,Defender,Torino FC,Serie A,2,-,-,-,-,-,,,113'
+613393,Gaetano Oristanio,#11,Midfield,Torino FC,Serie A,,,,,,,,,
+1188619,Alessio Cacciamani,#77,Midfield,Torino FC,Serie A,2,-,1,-,-,-,,,171'
+433181,Tino Anjorin,#14,Midfield,Torino FC,Serie A,,,,,,,,,
+357778,Sandro Kulenović,#17,Forward,Torino FC,Serie A,2,-,-,-,-,-,,,22'
+559333,Kian Fitz-Jim,#28,Midfield,Torino FC,Serie A,2,-,-,-,-,-,,,180'
+73794,Duván Zapata,#91,Forward,Torino FC,Serie A,1,-,-,-,-,-,,,7'
+492319,Franco Israel,#81,Goalkeeper,Torino FC,Serie A,,,,,,,,,
+298583,Eray Cömert,#5,Defender,Torino FC,Serie A,1,-,-,-,-,-,,,67'
+981998,Diego Mascardi,#26,Goalkeeper,Torino FC,Serie A,2,-,,-,-,-,4,-,180'
+163048,Alberto Paleari,#1,Goalkeeper,Torino FC,Serie A,,,,,,,,,
+1191921,Andrea Luongo,#79,Midfield,Torino FC,Serie A,,,,,,,,,
+124555,Cristiano Biraghi,#3,Defender,Torino FC,Serie A,,,,,,,,,
+1040080,Tommaso Gabellini,#86,Forward,Torino FC,Serie A,,,,,,,,,
+942103,Lapo Siviero,#76,Goalkeeper,Torino FC,Serie A,,,,,,,,,
+364133,Pietro Pellegri,#9,Forward,Torino FC,Serie A,,,,,,,,,
+1059298,Côme Bianay Balcot,#80,Defender,Torino FC,Serie A,,,,,,,,,
+707844,Mandela Keita,#16,Midfield,Parma Calcio 1913,Serie A,2,-,-,-,-,-,,,165'
+466802,Adrián Bernabé,#10,Midfield,Parma Calcio 1913,Serie A,2,-,-,-,-,-,,,146'
+649016,El Bilal Touré,#19,Forward,Parma Calcio 1913,Serie A,2,-,-,-,-,-,,,170'
+1159864,Mariano Troilo,#37,Defender,Parma Calcio 1913,Serie A,2,-,-,1,-,-,,,175'
+932187,Sascha Britschgi,#27,Defender,Parma Calcio 1913,Serie A,1,-,-,-,-,-,,,84'
+633668,Giovanni Fabbian,#80,Midfield,Parma Calcio 1913,Serie A,,,,,,,,,
+840149,Matija Frigan,#20,Forward,Parma Calcio 1913,Serie A,,,,,,,,,
+1043646,Christian Ordóñez,#32,Midfield,Parma Calcio 1913,Serie A,2,-,-,-,-,-,,,151'
+514888,Oliver Sørensen,#22,Midfield,Parma Calcio 1913,Serie A,,,,,,,,,
+392956,Enrico Delprato,#15,Defender,Parma Calcio 1913,Serie A,2,-,-,1,-,-,,,180'
+673514,Abdoulaye Ndiaye,#3,Defender,Parma Calcio 1913,Serie A,1,-,-,-,-,-,,,90'
+430280,Hans Nicolussi Caviglia,#41,Midfield,Parma Calcio 1913,Serie A,,,,,,,,,
+668512,David Romero,#9,Forward,Parma Calcio 1913,Serie A,1,-,-,-,-,-,,,28'
+862606,Nesta Elphege,#23,Forward,Parma Calcio 1913,Serie A,2,-,-,-,-,-,,,16'
+999127,Benja Cremaschi,#25,Midfield,Parma Calcio 1913,Serie A,2,-,-,-,-,-,,,34'
+814473,Giovanni Daffara,#30,Goalkeeper,Parma Calcio 1913,Serie A,,,,,,,,,
+445126,Emanuele Valeri,#14,Defender,Parma Calcio 1913,Serie A,2,-,-,-,-,-,,,180'
+543727,Botond Balogh,#0,Defender,Parma Calcio 1913,Serie A,,,,,,,,,
+1058366,Simone Lontani,#76,Forward,Parma Calcio 1913,Serie A,2,-,-,-,-,-,,,137'
+625202,Lautaro Valenti,#5,Defender,Parma Calcio 1913,Serie A,,,,,,,,,
+300532,Pontus Almqvist,#11,Forward,Parma Calcio 1913,Serie A,2,-,-,-,-,-,,,30'
+528181,Edoardo Corvi,#40,Goalkeeper,Parma Calcio 1913,Serie A,2,-,,-,-,-,3,-,180'
+962149,Ousmane Diallo,#7,Forward,Parma Calcio 1913,Serie A,1,-,-,-,-,-,,,15'
+731491,Franco Carboni,#29,Defender,Parma Calcio 1913,Serie A,,,,,,,,,
+1009616,Dominik Drobnic,#72,Defender,Parma Calcio 1913,Serie A,1,-,-,-,-,-,,,90'
+1087009,Abdou-Salam Konate,#47,Midfield,Parma Calcio 1913,Serie A,2,-,-,1,-,-,,,94'
+1231230,Thomás De Martis,#25,Forward,Parma Calcio 1913,Serie A,,,,,,,,,
+728733,Brooke Norton-Cuffy,#15,Defender,Genoa CFC,Serie A,2,-,-,-,-,-,,,180'
+391065,Hamed Traoré,#25,Forward,Genoa CFC,Serie A,,,,,,,,,
+503871,Morten Frendrup,#32,Midfield,Genoa CFC,Serie A,2,-,-,-,-,-,,,180'
+818448,Alessandro Marcandalli,#27,Defender,Genoa CFC,Serie A,2,-,-,-,-,-,,,180'
+532937,Johan Vásquez,#22,Defender,Genoa CFC,Serie A,2,-,-,-,-,-,,,165'
+367284,Leo Østigård,#5,Defender,Genoa CFC,Serie A,2,-,-,2,-,-,,,156'
+487843,Lorenzo Colombo,#29,Forward,Genoa CFC,Serie A,2,-,-,-,-,-,,,164'
+641537,Tommaso Baldanzi,#8,Midfield,Genoa CFC,Serie A,2,-,-,-,-,-,,,144'
+1082774,Amorim,#4,Midfield,Genoa CFC,Serie A,2,-,-,1,-,-,,,87'
+586853,Vitinha,#9,Forward,Genoa CFC,Serie A,2,-,-,-,-,-,,,153'
+212723,Djibril Sow,#97,Midfield,Genoa CFC,Serie A,2,-,-,-,-,-,,,73'
+566615,Mikael Egill Ellertsson,#77,Midfield,Genoa CFC,Serie A,2,-,-,-,-,-,,,180'
+726114,Mario Mitaj,#2,Defender,Genoa CFC,Serie A,,,,,,,,,
+1172166,Franz-Ethan Meichtry,#11,Midfield,Genoa CFC,Serie A,2,-,-,-,-,-,,,28'
+1061820,Lorenzo Venturino,#76,Forward,Genoa CFC,Serie A,,,,,,,,,
+251878,Aarón Martín,#3,Defender,Genoa CFC,Serie A,,,,,,,,,
+315121,Justin Bijlow,#1,Goalkeeper,Genoa CFC,Serie A,2,-,,-,-,-,3,-,180'
+542819,Milutin Osmajic,#18,Forward,Genoa CFC,Serie A,1,-,-,-,-,-,,,27'
+715894,David Puczka,#31,Defender,Genoa CFC,Serie A,,,,,,,,,
+890385,Sebastian Otoa,#34,Defender,Genoa CFC,Serie A,1,-,-,-,-,-,,,24'
+1295778,Samuel Wiafe,#71,Midfield,Genoa CFC,Serie A,,,,,,,,,
+566626,Elias Havel,#17,Forward,Genoa CFC,Serie A,,,,,,,,,
+167491,Stefano Sabelli,#20,Defender,Genoa CFC,Serie A,,,,,,,,,
+449151,Junior Messias,#10,Forward,Genoa CFC,Serie A,2,-,-,-,-,-,,,56'
+1089770,Joi Nuredini,#19,Forward,Genoa CFC,Serie A,,,,,,,,,
+462699,Franz Stolz,#99,Goalkeeper,Genoa CFC,Serie A,,,,,,,,,
+1066196,Matteo Barbini,#0,Defender,Genoa CFC,Serie A,,,,,,,,,
+1105948,Mamedi Doucouré,#74,Defender,Genoa CFC,Serie A,,,,,,,,,
+1438038,Marcelo Vaz,#85,Defender,Genoa CFC,Serie A,,,,,,,,,
+312773,Daniele Sommariva,#39,Goalkeeper,Genoa CFC,Serie A,,,,,,,,,
+1046867,Jan Ziolkowski,#4,Defender,AC Monza,Serie A,,,,,,,,,
+1045124,Jay Robinson,#46,Forward,AC Monza,Serie A,1,-,-,-,-,-,,,7'
+969192,Ebenezer Akinsanmiro,#14,Midfield,AC Monza,Serie A,1,-,1,-,-,-,,,36'
+358032,Cyril Ngonge,#16,Forward,AC Monza,Serie A,,,,,,,,,
+332179,Matteo Pessina,#32,Midfield,AC Monza,Serie A,,,,,,,,,
+335516,Idrissa Touré,#27,Midfield,AC Monza,Serie A,,,,,,,,,
+377042,Michael Folorunsho,#90,Midfield,AC Monza,Serie A,1,-,-,-,-,-,,,36'
+265078,Patrick Cutrone,#10,Forward,AC Monza,Serie A,2,-,-,-,-,-,,,110'
+891869,Leonardo Colombo,#21,Midfield,AC Monza,Serie A,,,,,,,,,
+392959,Andrea Colpani,#28,Midfield,AC Monza,Serie A,2,1,-,-,-,-,,,154'
+567454,Lorenzo Lucchesi,#3,Defender,AC Monza,Serie A,2,-,-,2,-,-,,,149'
+481834,Andrea Carboni,#44,Defender,AC Monza,Serie A,2,-,-,-,-,-,,,180'
+931900,Gustavo Varela,#9,Forward,AC Monza,Serie A,2,2,-,-,-,-,,,173'
+347253,Dany Mota,#47,Forward,AC Monza,Serie A,1,-,-,-,-,-,,,6'
+957822,Eddy Kouadio,#60,Defender,AC Monza,Serie A,2,-,-,1,-,-,,,180'
+461019,Samuele Birindelli,#19,Defender,AC Monza,Serie A,2,-,-,-,-,-,,,174'
+435406,Demba Thiam,#20,Goalkeeper,AC Monza,Serie A,1,-,,-,-,-,3,-,90'
+314944,Ricardo Mangas,#7,Defender,AC Monza,Serie A,2,-,1,-,-,-,,,180'
+227347,Valentin Antov,#6,Defender,AC Monza,Serie A,,,,,,,,,
+1167990,Mathis Mout,#80,Midfield,AC Monza,Serie A,2,-,1,-,-,-,,,124'
+393904,Filippo Delli Carri,#15,Defender,AC Monza,Serie A,2,-,-,-,-,-,,,31'
+1010150,Adam Bakoune,#24,Defender,AC Monza,Serie A,1,-,-,-,-,-,,,70'
+670845,Omari Forson,#11,Forward,AC Monza,Serie A,2,-,-,-,-,-,,,26'
+255838,Patrick Ciurria,#26,Midfield,AC Monza,Serie A,,,,,,,,,
+238752,Keita Baldé,#17,Forward,AC Monza,Serie A,,,,,,,,,
+1143375,Foe Ondoa,#8,Midfield,AC Monza,Serie A,2,-,-,-,-,-,,,144'
+524428,Nicolas Galazzi,#23,Midfield,AC Monza,Serie A,1,-,-,-,-,-,,,20'
+1041129,Yvan Maye,#5,Defender,AC Monza,Serie A,,,,,,,,,
+724069,Kevin Martins,#70,Forward,AC Monza,Serie A,,,,,,,,,
+1144614,Solomon Loubao,#22,Forward,AC Monza,Serie A,,,,,,,,,
+1009618,Aljaz Strajnar,#43,Goalkeeper,AC Monza,Serie A,,,,,,,,,
+607034,Akor Adams,#45,Forward,Venezia FC,Serie A,2,-,-,-,-,-,,,180'
+552223,Filip Stanković,#1,Goalkeeper,Venezia FC,Serie A,2,-,,-,-,-,4,-,180'
+507486,Simon Sohm,#19,Midfield,Venezia FC,Serie A,1,-,-,-,-,-,,,25'
+504209,Gianluca Busio,#6,Midfield,Venezia FC,Serie A,2,-,-,-,-,-,,,180'
+903706,Albion Rrahmani,#7,Forward,Venezia FC,Serie A,2,-,-,-,-,-,,,15'
+467563,Armel Bella-Kotchap,#17,Defender,Venezia FC,Serie A,2,-,-,-,-,-,,,180'
+1144700,Matías Moreno,#2,Defender,Venezia FC,Serie A,,,,,,,,,
+439914,John Yeboah,#10,Forward,Venezia FC,Serie A,2,-,-,-,-,-,,,170'
+913660,Redouane Halhal,#25,Defender,Venezia FC,Serie A,1,-,-,-,-,-,,,45'
+707809,Joël Schingtienne,#3,Defender,Venezia FC,Serie A,2,-,-,1,-,-,,,180'
+364206,Andrea Adorante,#9,Forward,Venezia FC,Serie A,,,,,,,,,
+917375,Antoine Hainaut,#18,Defender,Venezia FC,Serie A,2,-,-,-,-,-,,,175'
+744621,Matteo Dagasso,#30,Midfield,Venezia FC,Serie A,1,-,-,1,-,-,,,20'
+334835,Toma Bašić,#26,Midfield,Venezia FC,Serie A,2,-,-,-,-,-,,,150'
+367466,Thierry Correia,#14,Defender,Venezia FC,Serie A,2,-,-,-,-,-,,,88'
+862744,Junior Ligue,#42,Defender,Venezia FC,Serie A,,,,,,,,,
+307800,Lion Lauberbach,#29,Forward,Venezia FC,Serie A,1,-,-,-,-,-,,,10'
+527698,Kike Pérez,#71,Midfield,Venezia FC,Serie A,2,-,-,1,-,-,,,150'
+488996,Thórir Jóhann Helgason,#21,Midfield,Venezia FC,Serie A,,,,,,,,,
+663153,Marko Farji,#11,Forward,Venezia FC,Serie A,,,,,,,,,
+1126888,Lamine Fanne,#8,Midfield,Venezia FC,Serie A,,,,,,,,,
+282169,Marin Šverko,#33,Defender,Venezia FC,Serie A,,,,,,,,,
+655009,Richie Sagrado,#20,Defender,Venezia FC,Serie A,1,-,-,-,-,-,,,5'
+241923,Lorenzo Montipò,#96,Goalkeeper,Venezia FC,Serie A,,,,,,,,,
+370998,Bartol Franjic,#4,Defender,Venezia FC,Serie A,2,-,-,-,-,-,,,135'
+487836,Simone Panada,#55,Midfield,Venezia FC,Serie A,,,,,,,,,
+184894,Alfred Duncan,#32,Midfield,Venezia FC,Serie A,,,,,,,,,
+228444,Ridgeciano Haps,#5,Defender,Venezia FC,Serie A,2,-,-,1,-,-,,,92'
+1148082,Kornel Lisman,#56,Forward,Venezia FC,Serie A,,,,,,,,,
+1371198,Ale Gomes,#95,Defender,Venezia FC,Serie A,,,,,,,,,
+494805,Alessio Pozzi,#28,Goalkeeper,Venezia FC,Serie A,,,,,,,,,
+1130743,Lorenzo Berardi,#36,Midfield,Venezia FC,Serie A,,,,,,,,,
+936684,Saad El Haddad,#27,Midfield,Venezia FC,Serie A,,,,,,,,,
+155038,Matteo Grandi,#23,Goalkeeper,Venezia FC,Serie A,,,,,,,,,
+1372355,Mohamed Malang Touré,#0,Forward,Venezia FC,Serie A,,,,,,,,,
+1057316,Franco Mastantuono,#30,Forward,ACF Fiorentina,Serie A,2,-,-,-,-,-,,,153'
+364135,Moise Kean,#9,Forward,ACF Fiorentina,Serie A,1,-,-,-,-,-,,,27'
+1279526,Christ Inao Oulaï,#42,Midfield,ACF Fiorentina,Serie A,2,-,-,-,-,-,,,99'
+855308,Arthur Atta,#14,Midfield,ACF Fiorentina,Serie A,2,-,-,-,-,-,,,164'
+741257,Álex Jiménez,#20,Defender,ACF Fiorentina,Serie A,2,-,-,1,-,-,,,112'
+651005,Cher Ndour,#27,Midfield,ACF Fiorentina,Serie A,2,-,-,-,-,-,,,151'
+401529,Dodô,#2,Defender,ACF Fiorentina,Serie A,1,-,-,-,-,-,,,90'
+432090,Nicolò Fagioli,#44,Midfield,ACF Fiorentina,Serie A,2,-,-,1,-,-,,,91'
+568559,Radu Drăgușin,#3,Defender,ACF Fiorentina,Serie A,2,-,-,1,-,-,,,180'
+856530,Mateo Pellegrino,#32,Forward,ACF Fiorentina,Serie A,2,-,-,1,-,-,,,180'
+305947,Albert Gudmundsson,#11,Forward,ACF Fiorentina,Serie A,1,-,-,1,-,-,,,71'
+308279,Rolando Mandragora,#8,Midfield,ACF Fiorentina,Serie A,2,-,-,-,-,-,,,35'
+459128,Marco Brescianini,#4,Midfield,ACF Fiorentina,Serie A,2,-,-,-,-,-,,,81'
+537602,João Mário,#17,Defender,ACF Fiorentina,Serie A,2,-,-,-,-,-,,,86'
+282144,Marin Pongracic,#5,Defender,ACF Fiorentina,Serie A,1,-,-,-,-,-,,,61'
+346561,Luca Ranieri,#6,Defender,ACF Fiorentina,Serie A,1,-,-,-,-,-,,,90'
+950393,Viery,#33,Defender,ACF Fiorentina,Serie A,1,-,-,-,-,-,,,29'
+547985,Fabiano Parisi,#65,Defender,ACF Fiorentina,Serie A,,,,,,,,,
+1186245,Víctor Valdepeñas,#21,Defender,ACF Fiorentina,Serie A,2,-,-,-,-,-,,,100'
+354814,M'Bala Nzola,#0,Forward,ACF Fiorentina,Serie A,,,,,,,,,
+59377,David de Gea,#43,Goalkeeper,ACF Fiorentina,Serie A,2,-,,-,-,-,7,-,180'
+386455,Riccardo Sottil,#0,Forward,ACF Fiorentina,Serie A,,,,,,,,,
+934527,Alieu Njie,#0,Forward,ACF Fiorentina,Serie A,1,-,-,-,-,-,,,20'
+1350478,Federico Croci,#70,Forward,ACF Fiorentina,Serie A,,,,,,,,,
+471936,Oliver Christensen,#53,Goalkeeper,ACF Fiorentina,Serie A,,,,,,,,,
+272261,Antonín Barák,#0,Midfield,ACF Fiorentina,Serie A,,,,,,,,,
+135747,Luca Lezzerini,#19,Goalkeeper,ACF Fiorentina,Serie A,,,,,,,,,

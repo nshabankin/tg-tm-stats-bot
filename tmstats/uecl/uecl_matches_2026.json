@@ -1,0 +1,796 @@
+{
+  "groups": [
+    {
+      "key": "md-1",
+      "label": "Matchday 1",
+      "matches": [
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "KAA Gent",
+          "awayTeam": "Aarhus GF",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Hajduk Split",
+          "awayTeam": "Ajax",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Pafos",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Panathinaikos",
+          "awayTeam": "B. Banja Luka",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "CSKA Sofia",
+          "awayTeam": "Monaco",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Riga",
+          "awayTeam": "Kairat Almaty",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "KuPS",
+          "awayTeam": "Trabzonspor",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "SK Brann",
+          "awayTeam": "Lincoln FC",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Freiburg",
+          "awayTeam": "Jablonec",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sint-Truiden",
+          "awayTeam": "Iberia 1999",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Mjällby AIF",
+          "awayTeam": "Inter Escaldes",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "KF Egnatia",
+          "awayTeam": "Midtjylland",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Copenhagen",
+          "awayTeam": "Braga",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Univ. Craiova",
+          "awayTeam": "Getafe",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Heart of Midl.",
+          "awayTeam": "Nordsjaelland",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "FC Lugano",
+          "awayTeam": "Red Star",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "FC Twente",
+          "awayTeam": "FC Thun",
+          "score": ""
+        },
+        {
+          "date": "Thu 15/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Brighton",
+          "awayTeam": "Kauno Zalgiris",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-2",
+      "label": "Matchday 2",
+      "matches": [
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Aarhus GF",
+          "awayTeam": "KF Egnatia",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Ajax",
+          "awayTeam": "Atalanta",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "B. Banja Luka",
+          "awayTeam": "KuPS",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Nordsjaelland",
+          "awayTeam": "CSKA Sofia",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "4:30 PM",
+          "homeTeam": "Kairat Almaty",
+          "awayTeam": "Panathinaikos",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Lincoln FC",
+          "awayTeam": "FC Twente",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Monaco",
+          "awayTeam": "Freiburg",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "FC Thun",
+          "awayTeam": "Hajduk Split",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Iberia 1999",
+          "awayTeam": "Mjällby AIF",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Inter Escaldes",
+          "awayTeam": "Univ. Craiova",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Midtjylland",
+          "awayTeam": "Sint-Truiden",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Trabzonspor",
+          "awayTeam": "Heart of Midl.",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Red Star",
+          "awayTeam": "Copenhagen",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Getafe",
+          "awayTeam": "FC Lugano",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Kauno Zalgiris",
+          "awayTeam": "SK Brann",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Pafos",
+          "awayTeam": "Riga",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Braga",
+          "awayTeam": "KAA Gent",
+          "score": ""
+        },
+        {
+          "date": "Thu 22/10/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Jablonec",
+          "awayTeam": "Brighton",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-3",
+      "label": "Matchday 3",
+      "matches": [
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Aarhus GF",
+          "awayTeam": "Braga",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Midtjylland",
+          "awayTeam": "Ajax",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Kairat Almaty",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Mjällby AIF",
+          "awayTeam": "B. Banja Luka",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Panathinaikos",
+          "awayTeam": "CSKA Sofia",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "KuPS",
+          "awayTeam": "KAA Gent",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Lincoln FC",
+          "awayTeam": "Hajduk Split",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Trabzonspor",
+          "awayTeam": "Freiburg",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Copenhagen",
+          "awayTeam": "Iberia 1999",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Red Star",
+          "awayTeam": "Inter Escaldes",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Getafe",
+          "awayTeam": "Brighton",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Monaco",
+          "awayTeam": "Nordsjaelland",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sint-Truiden",
+          "awayTeam": "SK Brann",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Univ. Craiova",
+          "awayTeam": "KF Egnatia",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Riga",
+          "awayTeam": "Jablonec",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "FC Thun",
+          "awayTeam": "Heart of Midl.",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "FC Twente",
+          "awayTeam": "Pafos",
+          "score": ""
+        },
+        {
+          "date": "Thu 05/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "FC Lugano",
+          "awayTeam": "Kauno Zalgiris",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-4",
+      "label": "Matchday 4",
+      "matches": [
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "SK Brann",
+          "awayTeam": "Aarhus GF",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Ajax",
+          "awayTeam": "FC Thun",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "B. Banja Luka",
+          "awayTeam": "Atalanta",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "CSKA Sofia",
+          "awayTeam": "Trabzonspor",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "4:30 PM",
+          "homeTeam": "Kairat Almaty",
+          "awayTeam": "Mjällby AIF",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Braga",
+          "awayTeam": "KuPS",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "KF Egnatia",
+          "awayTeam": "Lincoln FC",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Nordsjaelland",
+          "awayTeam": "Panathinaikos",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Freiburg",
+          "awayTeam": "FC Twente",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Hajduk Split",
+          "awayTeam": "Sint-Truiden",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Iberia 1999",
+          "awayTeam": "Getafe",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Inter Escaldes",
+          "awayTeam": "Copenhagen",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Pafos",
+          "awayTeam": "Midtjylland",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Heart of Midl.",
+          "awayTeam": "Monaco",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Brighton",
+          "awayTeam": "Univ. Craiova",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Kauno Zalgiris",
+          "awayTeam": "Riga",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "9:00 PM",
+          "homeTeam": "KAA Gent",
+          "awayTeam": "Red Star",
+          "score": ""
+        },
+        {
+          "date": "Thu 26/11/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Jablonec",
+          "awayTeam": "FC Lugano",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-5",
+      "label": "Matchday 5",
+      "matches": [
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Aarhus GF",
+          "awayTeam": "FC Twente",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Sint-Truiden",
+          "awayTeam": "Ajax",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Riga",
+          "awayTeam": "Atalanta",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Heart of Midl.",
+          "awayTeam": "B. Banja Luka",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "KuPS",
+          "awayTeam": "CSKA Sofia",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "4:30 PM",
+          "homeTeam": "Kairat Almaty",
+          "awayTeam": "Univ. Craiova",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Lincoln FC",
+          "awayTeam": "Midtjylland",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Freiburg",
+          "awayTeam": "Panathinaikos",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Hajduk Split",
+          "awayTeam": "Nordsjaelland",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Iberia 1999",
+          "awayTeam": "Red Star",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Getafe",
+          "awayTeam": "Inter Escaldes",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Trabzonspor",
+          "awayTeam": "Jablonec",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "Copenhagen",
+          "awayTeam": "FC Lugano",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Brighton",
+          "awayTeam": "Monaco",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "6:45 PM",
+          "homeTeam": "SK Brann",
+          "awayTeam": "Braga",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "KF Egnatia",
+          "awayTeam": "Kauno Zalgiris",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Mjällby AIF",
+          "awayTeam": "Pafos",
+          "score": ""
+        },
+        {
+          "date": "Thu 10/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "FC Thun",
+          "awayTeam": "KAA Gent",
+          "score": ""
+        }
+      ]
+    },
+    {
+      "key": "md-6",
+      "label": "Matchday 6",
+      "matches": [
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Inter Escaldes",
+          "awayTeam": "Aarhus GF",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Ajax",
+          "awayTeam": "Getafe",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Mjällby AIF",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "B. Banja Luka",
+          "awayTeam": "Riga",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "CSKA Sofia",
+          "awayTeam": "FC Thun",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "FC Twente",
+          "awayTeam": "Kairat Almaty",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Nordsjaelland",
+          "awayTeam": "KuPS",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Monaco",
+          "awayTeam": "Lincoln FC",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Panathinaikos",
+          "awayTeam": "Brighton",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Kauno Zalgiris",
+          "awayTeam": "Freiburg",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Midtjylland",
+          "awayTeam": "Hajduk Split",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Jablonec",
+          "awayTeam": "Iberia 1999",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Red Star",
+          "awayTeam": "Trabzonspor",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Univ. Craiova",
+          "awayTeam": "Copenhagen",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "KAA Gent",
+          "awayTeam": "SK Brann",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Pafos",
+          "awayTeam": "Heart of Midl.",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "Braga",
+          "awayTeam": "KF Egnatia",
+          "score": ""
+        },
+        {
+          "date": "Thu 17/12/2026",
+          "time": "9:00 PM",
+          "homeTeam": "FC Lugano",
+          "awayTeam": "Sint-Truiden",
+          "score": ""
+        }
+      ]
+    }
+  ]
+}

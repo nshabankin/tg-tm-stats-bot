@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.0.2 - 2026-09-01
+
+### Updated
+
+- refreshed complete `2026/27` snapshots for all nine supported European
+  competitions: six domestic leagues plus the Champions League, Europa League,
+  and Conference League
+- regenerated 2026 standings, squads, player stats, matches, UEFA brackets,
+  refresh-state summaries, and PDF exports
+- updated season examples and operating notes from `2025/26` to `2026/27`
+
+### Improved
+
+- global refreshes now resolve competition-specific default seasons, keeping
+  World Cup 2026 on Transfermarkt season key `2025`
+- UEFA table ranks now follow displayed row order when every club is tied before
+  league-phase matches begin
+- the cookie diagnostic now uses the correct source page for domestic, UEFA,
+  and tournament competitions
+
+### Fixed
+
+- repaired the cookie diagnostic after refresh helpers moved modules
+- detect Transfermarkt HTTP 202 JavaScript/WAF challenges instead of accepting
+  them as empty football pages
+- abort player-stat refreshes immediately on site-wide verification challenges,
+  preventing partial blank snapshots from being written
+- reject empty standings before any season snapshot can replace valid data
+
 ## v1.0.1 - 2026-04-21
 
 This release turns the revived bot into a much more complete football snapshot

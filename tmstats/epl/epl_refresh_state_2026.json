@@ -1,0 +1,74 @@
+{
+  "league": "epl",
+  "season": 2026,
+  "updatedAt": "2026-08-31T13:43:19+00:00",
+  "mode": "full",
+  "counts": {
+    "clubs": 20,
+    "players": 573,
+    "statsRows": 573,
+    "tableRows": 20
+  },
+  "matches": {
+    "groupCount": 38,
+    "pendingMatchdays": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "completedMatchdays": [
+      1
+    ],
+    "lastPendingMatchday": 38,
+    "lastCompletedMatchday": 1
+  },
+  "stats": {
+    "status": "refreshed",
+    "changedClubs": [],
+    "resolvedClubs": [],
+    "unresolvedClubs": []
+  },
+  "outputs": {
+    "tableChanged": true,
+    "playersChanged": true,
+    "statsChanged": true,
+    "matchesChanged": true,
+    "bracketChanged": false,
+    "tablePdfRendered": true,
+    "statsPdfRendered": true
+  }
+}

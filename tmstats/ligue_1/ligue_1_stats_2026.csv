@@ -1,0 +1,480 @@
+player_id,player_name,number,position,club,league,played,goals,assists,yellow_cards,second_yellows,red_cards,conceded,clean_sheets,minutes
+503770,Folarin Balogun,#9,Forward,AS Monaco,Ligue 1,,,,,,,,,
+918969,Lamine Camara,#15,Midfield,AS Monaco,Ligue 1,2,-,-,1,-,-,,,180'
+334526,Denis Zakaria,#6,Midfield,AS Monaco,Ligue 1,2,-,-,1,-,-,,,180'
+659543,Matthis Abline,#11,Forward,AS Monaco,Ligue 1,1,-,-,-,-,-,,,9'
+263918,Aleksandr Golovin,#10,Midfield,AS Monaco,Ligue 1,2,-,1,1,-,-,,,171'
+789082,Vanderson,#2,Defender,AS Monaco,Ligue 1,2,-,-,1,-,-,,,179'
+1171981,Mathys Detourbet,#7,Forward,AS Monaco,Ligue 1,1,-,-,-,-,-,,,5'
+1005240,Christian Mawissa,#13,Defender,AS Monaco,Ligue 1,,,,,,,,,
+364245,Jordan Teze,#4,Defender,AS Monaco,Ligue 1,,,,,,,,,
+466810,Ansu Fati,#31,Forward,AS Monaco,Ligue 1,,,,,,,,,
+565821,Mika Biereth,#14,Forward,AS Monaco,Ligue 1,2,-,-,-,-,-,,,42'
+745173,Mamadou Coulibaly,#28,Midfield,AS Monaco,Ligue 1,2,-,-,-,-,-,,,138'
+228948,Thilo Kehrer,#5,Defender,AS Monaco,Ligue 1,1,-,-,-,-,-,,,1'
+165793,Takumi Minamino,#18,Forward,AS Monaco,Ligue 1,,,,,,,,,
+563963,Mohammed Salisu,#22,Defender,AS Monaco,Ligue 1,,,,,,,,,
+1111777,Sadibou Sané,#72,Defender,AS Monaco,Ligue 1,2,-,-,-,-,-,,,180'
+668587,Nazinho,#20,Defender,AS Monaco,Ligue 1,2,-,1,1,-,-,,,170'
+743387,Stanis Idumbo,#17,Midfield,AS Monaco,Ligue 1,2,-,-,-,-,-,,,166'
+175722,Eric Dier,#15,Defender,AS Monaco,Ligue 1,2,1,1,-,-,-,,,180'
+251322,Philipp Köhn,#16,Goalkeeper,AS Monaco,Ligue 1,,,,,,,,,
+745178,Edan Diop,#37,Midfield,AS Monaco,Ligue 1,,,,,,,,,
+918414,Paris Brunner,#29,Forward,AS Monaco,Ligue 1,2,2,-,-,-,-,,,138'
+48015,Lukas Hradecky,#1,Goalkeeper,AS Monaco,Ligue 1,2,-,,1,-,-,-,2,180'
+1075588,Pape Cabral,#19,Midfield,AS Monaco,Ligue 1,,,,,,,,,
+981700,Samuel Nibombe,#44,Defender,AS Monaco,Ligue 1,,,,,,,,,
+745341,Yann Lienard,#50,Goalkeeper,AS Monaco,Ligue 1,,,,,,,,,
+1363293,Patrick Zabi,#8,Midfield,Paris FC,Ligue 1,2,-,1,-,-,-,,,27'
+1241211,Rudy Matondo,#23,Midfield,Paris FC,Ligue 1,2,-,-,-,-,-,,,90'
+660860,Diego Coppola,#42,Defender,Paris FC,Ligue 1,2,-,-,-,-,-,,,180'
+810411,Pablo Pagis,#7,Forward,Paris FC,Ligue 1,2,-,-,-,-,-,,,153'
+739769,Ilan Kebbal,#10,Forward,Paris FC,Ligue 1,2,-,2,-,-,-,,,173'
+955281,Nhoa Sangui,#19,Defender,Paris FC,Ligue 1,,,,,,,,,
+818495,Otávio,#6,Defender,Paris FC,Ligue 1,2,-,-,1,-,-,,,173'
+569140,Lassine Sinayoko,#9,Forward,Paris FC,Ligue 1,2,1,-,-,-,-,,,169'
+649026,Moustapha Mbow,#5,Defender,Paris FC,Ligue 1,1,-,-,-,-,-,,,90'
+274862,Moses Simon,#27,Forward,Paris FC,Ligue 1,2,-,-,-,-,-,,,108'
+745461,Luca Koleosho,#15,Forward,Paris FC,Ligue 1,1,-,-,-,-,-,,,45'
+750878,Obed Nkambadio,#16,Goalkeeper,Paris FC,Ligue 1,,,,,,,,,
+290862,Maxime Lopez,#21,Midfield,Paris FC,Ligue 1,2,-,-,-,-,-,,,117'
+377393,Pierre Lees-Melou,#33,Midfield,Paris FC,Ligue 1,2,-,-,-,-,-,,,180'
+324690,Jonathan Ikoné,#93,Forward,Paris FC,Ligue 1,,,,,,,,,
+358515,Jean-Philippe Krasso,#11,Forward,Paris FC,Ligue 1,,,,,,,,,
+668167,Samir Chergui,#31,Defender,Paris FC,Ligue 1,1,1,-,-,-,-,,,90'
+973949,Adama Camara,#17,Midfield,Paris FC,Ligue 1,2,-,-,-,-,-,,,180'
+340177,Thibault De Smet,#28,Defender,Paris FC,Ligue 1,,,,,,,,,
+45672,Kevin Trapp,#35,Goalkeeper,Paris FC,Ligue 1,2,-,,-,-,-,-,2,180'
+374040,Vincent Marchetti,#4,Midfield,Paris FC,Ligue 1,1,1,-,-,-,-,,,7'
+297070,Hamari Traoré,#14,Defender,Paris FC,Ligue 1,1,-,-,-,-,-,,,7'
+1132426,Omar Sissoko,#0,Forward,Paris FC,Ligue 1,1,-,-,-,-,-,,,11'
+914539,Yoan Koré,#25,Defender,Paris FC,Ligue 1,,,,,,,,,
+1185941,Emmanuel Mbemba,#3,Defender,Paris FC,Ligue 1,,,,,,,,,
+724129,Matias Fernandez-Pardo,#7,Forward,LOSC Lille,Ligue 1,,,,,,,,,
+540664,Dilane Bakwa,#18,Forward,LOSC Lille,Ligue 1,1,1,-,-,-,-,,,22'
+652275,Hákon Arnar Haraldsson,#10,Midfield,LOSC Lille,Ligue 1,2,1,-,1,-,-,,,156'
+548254,Nathan Ngoy,#3,Defender,LOSC Lille,Ligue 1,2,-,-,-,-,-,,,180'
+885445,Hamza Igamane,#29,Forward,LOSC Lille,Ligue 1,,,,,,,,,
+1016015,Ngal'ayel Mukau,#17,Midfield,LOSC Lille,Ligue 1,2,-,-,-,-,-,,,119'
+648020,Alexsandro,#4,Defender,LOSC Lille,Ligue 1,2,-,-,-,-,-,,,180'
+816580,Tiago Santos,#22,Defender,LOSC Lille,Ligue 1,2,1,-,-,-,-,,,180'
+479648,Félix Correia,#27,Forward,LOSC Lille,Ligue 1,2,-,-,-,-,-,,,94'
+361256,Berke Özer,#1,Goalkeeper,LOSC Lille,Ligue 1,2,-,,-,-,-,2,1,180'
+580657,Osame Sahraoui,#11,Forward,LOSC Lille,Ligue 1,1,-,-,-,-,-,,,27'
+903666,Ethan Mbappé,#8,Forward,LOSC Lille,Ligue 1,2,-,-,-,-,-,,,131'
+643259,Orlando Gill,#12,Goalkeeper,LOSC Lille,Ligue 1,,,,,,,,,
+318523,Romain Perraud,#15,Defender,LOSC Lille,Ligue 1,2,-,-,2,-,-,,,166'
+864112,Başar Önal,#19,Forward,LOSC Lille,Ligue 1,1,-,-,-,-,-,,,57'
+353404,Gaëtan Perrin,#28,Forward,LOSC Lille,Ligue 1,2,-,-,-,-,-,,,56'
+1078326,Noah Edjouma,#20,Forward,LOSC Lille,Ligue 1,,,,,,,,,
+594991,Mohamed Bayo,#35,Forward,LOSC Lille,Ligue 1,,,,,,,,,
+245537,Nabil Bentaleb,#6,Midfield,LOSC Lille,Ligue 1,2,-,1,-,-,-,,,180'
+1184007,Soriba Diaoune,#35,Forward,LOSC Lille,Ligue 1,,,,,,,,,
+84301,Benjamin André,#21,Midfield,LOSC Lille,Ligue 1,1,-,-,1,-,-,,,61'
+258364,Calvin Verdonk,#24,Defender,LOSC Lille,Ligue 1,2,-,-,-,-,-,,,24'
+1160753,Isaac Cossier,#26,Defender,LOSC Lille,Ligue 1,1,-,-,-,-,-,,,14'
+815652,Tiago Morais,#0,Forward,LOSC Lille,Ligue 1,,,,,,,,,
+417278,Arnaud Bodart,#16,Goalkeeper,LOSC Lille,Ligue 1,,,,,,,,,
+538996,Tanguy Nianzou,#23,Defender,LOSC Lille,Ligue 1,,,,,,,,,
+999886,Loun Srdanovic,#2,Defender,LOSC Lille,Ligue 1,,,,,,,,,
+82442,Olivier Giroud,#9,Forward,LOSC Lille,Ligue 1,2,1,2,-,-,-,,,153'
+743386,Malick Fofana,#11,Forward,Olympique Lyon,Ligue 1,2,1,-,-,-,-,,,56'
+618494,Tyler Morton,#23,Midfield,Olympique Lyon,Ligue 1,2,-,-,-,-,-,,,111'
+368887,Loïs Openda,#17,Forward,Olympique Lyon,Ligue 1,1,1,-,-,-,-,,,90'
+500053,Pavel Sulc,#10,Midfield,Olympique Lyon,Ligue 1,2,-,1,-,-,-,,,37'
+990637,Zachary Athekame,#13,Defender,Olympique Lyon,Ligue 1,2,-,1,-,-,-,,,180'
+802515,Noah Nartey,#99,Midfield,Olympique Lyon,Ligue 1,2,1,-,1,-,-,,,97'
+1187942,Khalis Merah,#18,Midfield,Olympique Lyon,Ligue 1,,,,,,,,,
+291200,Moussa Niakhaté,#19,Defender,Olympique Lyon,Ligue 1,1,-,-,-,-,-,,,90'
+462832,Mads Bidstrup,#2,Midfield,Olympique Lyon,Ligue 1,2,-,-,-,-,-,,,142'
+285845,Ainsley Maitland-Niles,#98,Defender,Olympique Lyon,Ligue 1,,,,,,,,,
+646402,Abner,#16,Defender,Olympique Lyon,Ligue 1,1,-,-,-,-,-,,,10'
+670096,Tanner Tessmann,#6,Midfield,Olympique Lyon,Ligue 1,1,-,-,1,-,-,,,10'
+1200423,Rémi Himbert,#45,Forward,Olympique Lyon,Ligue 1,1,-,-,-,-,-,,,63'
+190393,Corentin Tolisso,#8,Midfield,Olympique Lyon,Ligue 1,2,-,1,-,-,-,,,111'
+955070,Ernest Nuamah,#7,Forward,Olympique Lyon,Ligue 1,1,-,-,-,-,-,,,80'
+316884,Dominik Greif,#1,Goalkeeper,Olympique Lyon,Ligue 1,1,-,,-,-,-,1,-,90'
+578421,Ruben Kluivert,#21,Defender,Olympique Lyon,Ligue 1,,,,,,,,,
+394134,Felix Bacher,#20,Defender,Olympique Lyon,Ligue 1,2,-,-,-,-,-,,,180'
+819215,Julien Duranville,#24,Forward,Olympique Lyon,Ligue 1,1,-,-,-,-,-,,,63'
+1097113,Kaïl Boudache,#26,Forward,Olympique Lyon,Ligue 1,2,-,-,-,-,-,,,151'
+131225,Nicolás Tagliafico,#3,Defender,Olympique Lyon,Ligue 1,1,-,-,-,-,-,,,80'
+1275040,Noham Kamara,#85,Defender,Olympique Lyon,Ligue 1,,,,,,,,,
+1004486,Mathys de Carvalho,#39,Midfield,Olympique Lyon,Ligue 1,1,-,-,-,-,-,,,69'
+238266,Duje Caleta-Car,#0,Defender,Olympique Lyon,Ligue 1,,,,,,,,,
+187718,Clinton Mata,#22,Defender,Olympique Lyon,Ligue 1,1,-,-,-,-,-,,,90'
+282028,Rémy Descamps,#40,Goalkeeper,Olympique Lyon,Ligue 1,1,-,,-,-,-,-,1,90'
+1107570,Mohamed Ouédraogo,#76,Defender,Olympique Lyon,Ligue 1,1,-,-,-,-,-,,,90'
+1053147,Mahamadou Diawara,#0,Midfield,Olympique Lyon,Ligue 1,,,,,,,,,
+1119391,Steeve Kango,#37,Defender,Olympique Lyon,Ligue 1,,,,,,,,,
+1108478,Alejandro Gomes Rodríguez,#32,Forward,Olympique Lyon,Ligue 1,,,,,,,,,
+429901,Paul Akouokou,#0,Midfield,Olympique Lyon,Ligue 1,,,,,,,,,
+802986,Justin Bengui,#25,Goalkeeper,Olympique Lyon,Ligue 1,,,,,,,,,
+1071430,Lassine Diarra,#50,Goalkeeper,Olympique Lyon,Ligue 1,,,,,,,,,
+461607,Estéban Lepaul,#9,Forward,Stade Rennais FC,Ligue 1,2,3,-,1,-,-,,,180'
+597659,Charlie Cresswell,#4,Defender,Stade Rennais FC,Ligue 1,2,-,-,-,-,-,,,180'
+967346,Eliezer Mayenda,#12,Forward,Stade Rennais FC,Ligue 1,1,-,-,-,-,-,,,16'
+557613,Quentin Merlin,#26,Defender,Stade Rennais FC,Ligue 1,2,-,-,-,-,-,,,90'
+690799,Anthony Rouault,#24,Defender,Stade Rennais FC,Ligue 1,,,,,,,,,
+320748,Sebastian Szymański,#17,Midfield,Stade Rennais FC,Ligue 1,2,1,-,-,-,-,,,138'
+324795,Mahdi Camara,#45,Midfield,Stade Rennais FC,Ligue 1,1,-,-,-,-,-,,,30'
+485960,Lilian Brassier,#3,Defender,Stade Rennais FC,Ligue 1,,,,,,,,,
+1134251,Abdelhamid Ait Boudlal,#48,Defender,Stade Rennais FC,Ligue 1,2,-,-,1,-,-,,,180'
+931160,Djaoui Cissé,#6,Midfield,Stade Rennais FC,Ligue 1,,,,,,,,,
+551505,Mousa Al-Tamari,#11,Forward,Stade Rennais FC,Ligue 1,2,-,-,1,-,-,,,146'
+288225,Ludovic Blas,#10,Midfield,Stade Rennais FC,Ligue 1,2,-,-,-,-,-,,,34'
+332889,Valentin Rongier,#21,Midfield,Stade Rennais FC,Ligue 1,2,1,-,-,-,-,,,164'
+568698,Issa Soumaré,#90,Forward,Stade Rennais FC,Ligue 1,2,-,1,1,-,-,,,148'
+1176345,Mahamadou Nagida,#18,Defender,Stade Rennais FC,Ligue 1,2,-,-,-,-,-,,,90'
+191056,Brice Samba,#30,Goalkeeper,Stade Rennais FC,Ligue 1,1,-,,-,-,-,2,-,90'
+239743,Przemyslaw Frankowski,#95,Defender,Stade Rennais FC,Ligue 1,2,-,1,-,-,-,,,178'
+798404,Alidu Seidu,#36,Defender,Stade Rennais FC,Ligue 1,,,,,,,,,
+215977,Adrien Thomasson,#28,Midfield,Stade Rennais FC,Ligue 1,2,-,2,1,-,-,,,180'
+324811,Arnaud Nordin,#70,Forward,Stade Rennais FC,Ligue 1,2,-,-,-,-,-,,,32'
+475208,Bryan Reynolds,#14,Defender,Stade Rennais FC,Ligue 1,1,-,-,-,-,-,,,2'
+1078918,Gonçalo Oliveira,#5,Defender,Stade Rennais FC,Ligue 1,,,,,,,,,
+1227106,Elías Legendre Quiñónez,#35,Forward,Stade Rennais FC,Ligue 1,,,,,,,,,
+977877,Ayanda Sishuba,#0,Midfield,Stade Rennais FC,Ligue 1,,,,,,,,,
+373939,Nicolas Lemaître,#16,Goalkeeper,Stade Rennais FC,Ligue 1,1,-,,-,-,-,2,-,90'
+1119839,Jonathan Do Marcolino,#64,Defender,Stade Rennais FC,Ligue 1,,,,,,,,,
+1169721,Kilian Belazzoug,#60,Goalkeeper,Stade Rennais FC,Ligue 1,,,,,,,,,
+1009596,Junior Diaz,#4,Defender,ESTAC Troyes,Ligue 1,2,-,-,1,-,-,,,180'
+770895,Ismaël Boura,#14,Defender,ESTAC Troyes,Ligue 1,,,,,,,,,
+933147,Mouhamed Diop,#8,Midfield,ESTAC Troyes,Ligue 1,2,-,-,1,-,-,,,180'
+944181,Hugo Picard,#22,Midfield,ESTAC Troyes,Ligue 1,2,-,-,-,-,-,,,157'
+986299,Yvann Titi,#44,Defender,ESTAC Troyes,Ligue 1,1,-,-,-,-,-,,,55'
+976861,Merwan Ifnaoui,#10,Forward,ESTAC Troyes,Ligue 1,2,-,-,-,-,-,,,180'
+807653,Antoine Mille,#17,Midfield,ESTAC Troyes,Ligue 1,2,-,1,-,-,-,,,93'
+969447,Dermane Karim,#29,Midfield,ESTAC Troyes,Ligue 1,1,-,-,-,-,-,,,12'
+983578,Patrick Beach,#33,Goalkeeper,ESTAC Troyes,Ligue 1,2,-,,-,-,-,1,1,180'
+693352,Iron Gomis,#11,Midfield,ESTAC Troyes,Ligue 1,2,-,-,-,-,-,,,161'
+487333,Paolo Gozzi,#5,Defender,ESTAC Troyes,Ligue 1,,,,,,,,,
+575319,Kandet Diawara,#7,Forward,ESTAC Troyes,Ligue 1,2,-,-,-,-,-,,,98'
+536473,Lucas Maronnier,#2,Defender,ESTAC Troyes,Ligue 1,1,1,-,-,-,-,,,86'
+1372119,Elijah Odede,#12,Forward,ESTAC Troyes,Ligue 1,,,,,,,,,
+1119845,Anis Ouzenadji,#3,Defender,ESTAC Troyes,Ligue 1,2,-,-,-,-,-,,,180'
+170549,Hillel Konaté,#40,Goalkeeper,ESTAC Troyes,Ligue 1,,,,,,,,,
+585951,Alexandre Phliponeau,#26,Midfield,ESTAC Troyes,Ligue 1,2,-,-,-,-,-,,,19'
+234802,Renaud Ripart,#20,Forward,ESTAC Troyes,Ligue 1,2,1,-,-,-,-,,,172'
+281611,Adrien Monfray,#6,Defender,ESTAC Troyes,Ligue 1,2,-,-,-,-,-,,,180'
+111041,Zacharie Boucher,#1,Goalkeeper,ESTAC Troyes,Ligue 1,,,,,,,,,
+1146422,Ibrahim Traoré,#34,Forward,ESTAC Troyes,Ligue 1,,,,,,,,,
+1174523,Roman Murcy,#35,Midfield,ESTAC Troyes,Ligue 1,,,,,,,,,
+1179193,Amadou Diakité,#36,Forward,ESTAC Troyes,Ligue 1,,,,,,,,,
+900037,Tom Akpakoun,#37,Defender,ESTAC Troyes,Ligue 1,,,,,,,,,
+743515,Robin Risser,#40,Goalkeeper,RC Lens,Ligue 1,2,-,,-,-,-,4,-,180'
+655217,Samson Baidoo,#6,Defender,RC Lens,Ligue 1,,,,,,,,,
+1020191,Ismaëlo Ganiou,#25,Defender,RC Lens,Ligue 1,2,1,-,-,-,-,,,169'
+548028,Franjo Ivanović,#29,Forward,RC Lens,Ligue 1,2,1,-,1,-,-,,,135'
+344152,Odsonne Édouard,#11,Forward,RC Lens,Ligue 1,1,-,-,-,-,-,,,19'
+631927,Saud Abdulhamid,#23,Defender,RC Lens,Ligue 1,1,1,-,-,-,-,,,62'
+1160814,Rayan Fofana,#18,Forward,RC Lens,Ligue 1,,,,,,,,,
+986291,Andrija Bulatovic,#5,Midfield,RC Lens,Ligue 1,2,-,-,-,-,-,,,29'
+344886,Matthieu Udol,#14,Defender,RC Lens,Ligue 1,2,-,-,-,-,-,,,180'
+819566,Nidal Celik,#4,Defender,RC Lens,Ligue 1,,,,,,,,,
+748445,Yacine Titraoui,#8,Midfield,RC Lens,Ligue 1,2,-,-,-,-,-,,,180'
+184892,Florian Thauvin,#10,Forward,RC Lens,Ligue 1,2,3,1,-,-,-,,,180'
+776798,Abdallah Sima,#19,Forward,RC Lens,Ligue 1,2,-,2,-,-,-,,,160'
+402008,Amadou Haidara,#21,Midfield,RC Lens,Ligue 1,1,-,-,-,-,-,,,19'
+393565,Michal Skoras,#22,Forward,RC Lens,Ligue 1,2,-,1,-,-,-,,,117'
+1186789,Kyllian Antonio,#32,Defender,RC Lens,Ligue 1,,,,,,,,,
+344600,Michaël Cuisance,#27,Midfield,RC Lens,Ligue 1,2,-,-,-,-,-,,,143'
+203746,Ruben Aguilar,#2,Defender,RC Lens,Ligue 1,1,-,-,1,-,-,,,28'
+126557,Jonathan Gradit,#24,Defender,RC Lens,Ligue 1,,,,,,,,,
+713787,Jhoanner Chávez,#0,Defender,RC Lens,Ligue 1,,,,,,,,,
+102226,Thorgan Hazard,#9,Midfield,RC Lens,Ligue 1,2,-,-,-,-,-,,,45'
+407745,Maik Nawrocki,#3,Defender,RC Lens,Ligue 1,2,-,-,1,-,-,,,152'
+354726,Florian Sotoca,#7,Forward,RC Lens,Ligue 1,1,-,-,-,-,-,,,1'
+1297674,Mezian Mesloub,#38,Midfield,RC Lens,Ligue 1,1,-,-,-,-,-,,,1'
+1160378,Souleymane Sagnan,#31,Defender,RC Lens,Ligue 1,2,-,-,-,-,-,,,180'
+60543,Mathieu Gorgelin,#16,Goalkeeper,RC Lens,Ligue 1,,,,,,,,,
+39918,Régis Gurtner,#1,Goalkeeper,RC Lens,Ligue 1,,,,,,,,,
+1200424,Ilan Jourdren,#60,Goalkeeper,RC Lens,Ligue 1,,,,,,,,,
+653610,Igor Paixão,#14,Forward,Olympique Marseille,Ligue 1,1,-,1,-,-,-,,,90'
+418659,Amine Gouiri,#9,Forward,Olympique Marseille,Ligue 1,2,2,-,-,-,-,,,180'
+420213,Quinten Timber,#27,Midfield,Olympique Marseille,Ligue 1,1,-,-,-,-,-,,,45'
+370846,Timothy Weah,#22,Defender,Olympique Marseille,Ligue 1,2,-,-,-,-,-,,,180'
+167799,Pierre-Emile Højbjerg,#23,Midfield,Olympique Marseille,Ligue 1,2,1,-,-,-,-,,,180'
+361914,Nayef Aguerd,#21,Defender,Olympique Marseille,Ligue 1,2,-,-,1,-,-,,,47'
+392770,Angel Gomes,#7,Midfield,Olympique Marseille,Ligue 1,2,-,1,-,-,-,,,175'
+181778,Emerson,#33,Defender,Olympique Marseille,Ligue 1,2,-,-,-,-,-,,,180'
+581669,CJ Egan-Riley,#4,Defender,Olympique Marseille,Ligue 1,2,-,-,-,-,-,,,165'
+807165,Bamo Meïté,#18,Defender,Olympique Marseille,Ligue 1,,,,,,,,,
+372711,Amine Harit,#77,Forward,Olympique Marseille,Ligue 1,2,-,-,-,-,-,,,173'
+592979,Himad Abdelli,#8,Midfield,Olympique Marseille,Ligue 1,2,-,-,-,-,-,,,128'
+920470,Tochukwu Nnadi,#6,Midfield,Olympique Marseille,Ligue 1,2,-,-,-,-,-,,,34'
+217115,Neal Maupay,#11,Forward,Olympique Marseille,Ligue 1,2,-,-,-,-,-,,,18'
+599663,Faris Moumbagna,#29,Forward,Olympique Marseille,Ligue 1,1,-,-,-,-,-,,,5'
+192616,Ulisses Garcia,#25,Defender,Olympique Marseille,Ligue 1,,,,,,,,,
+127189,Geoffrey Kondogbia,#19,Midfield,Olympique Marseille,Ligue 1,2,-,-,-,-,-,,,141'
+315253,Jeffrey de Lange,#12,Goalkeeper,Olympique Marseille,Ligue 1,2,-,,-,-,-,2,1,180'
+328609,Derek Cornelius,#13,Defender,Olympique Marseille,Ligue 1,1,-,-,-,-,-,,,7'
+1206824,Tadjidine Mmadi,#43,Forward,Olympique Marseille,Ligue 1,,,,,,,,,
+1183719,Keyliane Abdallah,#48,Forward,Olympique Marseille,Ligue 1,2,1,-,-,-,-,,,52'
+727086,Jelle Van Neck,#40,Goalkeeper,Olympique Marseille,Ligue 1,,,,,,,,,
+620912,Théo Vermot,#92,Goalkeeper,Olympique Marseille,Ligue 1,,,,,,,,,
+1103958,Prosper Peter,#35,Forward,Angers SCO,Ligue 1,2,-,-,1,-,-,,,56'
+804711,Ousmane Camara,#4,Defender,Angers SCO,Ligue 1,2,-,1,-,-,-,,,180'
+807688,Yassin Belkhdim,#14,Midfield,Angers SCO,Ligue 1,2,-,-,-,-,-,,,175'
+904662,Louis Mouton,#6,Midfield,Angers SCO,Ligue 1,,,,,,,,,
+851220,Amine Sbaï,#7,Forward,Angers SCO,Ligue 1,2,-,-,-,-,-,,,171'
+829874,Lilian Raolisoa,#27,Defender,Angers SCO,Ligue 1,1,-,-,-,-,-,,,85'
+203938,Branco van den Boomen,#8,Midfield,Angers SCO,Ligue 1,2,1,-,1,-,-,,,180'
+1071956,Emmanuel Biumla,#24,Defender,Angers SCO,Ligue 1,,,,,,,,,
+735051,Amine El Ouazzani,#19,Forward,Angers SCO,Ligue 1,2,1,1,-,-,-,,,161'
+1117092,Joseph Kalulu,#17,Defender,Angers SCO,Ligue 1,1,-,-,-,-,-,,,90'
+1103652,Marius Louër,#20,Defender,Angers SCO,Ligue 1,1,-,-,-,-,-,,,3'
+138055,Haris Belkebla,#93,Midfield,Angers SCO,Ligue 1,,,,,,,,,
+371686,Carlens Arcus,#2,Defender,Angers SCO,Ligue 1,2,-,-,-,-,-,,,92'
+1133929,Harouna Djibirin,#31,Forward,Angers SCO,Ligue 1,2,1,-,-,-,-,,,39'
+646733,Jim Allevinah,#18,Forward,Angers SCO,Ligue 1,2,-,-,-,-,-,,,140'
+1088110,Anthony Bermont,#26,Forward,Angers SCO,Ligue 1,2,-,-,1,-,-,,,125'
+192492,Jordan Lefort,#21,Defender,Angers SCO,Ligue 1,2,-,-,-,-,-,,,180'
+60561,Anthony Lopes,#1,Goalkeeper,Angers SCO,Ligue 1,2,-,,-,-,-,3,-,180'
+766839,Usman Simbakoli,#17,Forward,Angers SCO,Ligue 1,2,-,-,1,-,-,,,26'
+548347,Melvin Zinga,#16,Goalkeeper,Angers SCO,Ligue 1,,,,,,,,,
+1382453,Bané Diatta,#36,Midfield,Angers SCO,Ligue 1,2,-,-,-,-,-,,,7'
+1073176,Oumar Pona,#40,Goalkeeper,Angers SCO,Ligue 1,,,,,,,,,
+1064871,Joaquín Panichelli,#9,Forward,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+1084638,Karim Coulibaly,#31,Defender,RC Strasbourg Alsace,Ligue 1,1,-,-,-,-,-,,,7'
+992686,Martial Godo,#20,Forward,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+1130514,Samir El Mourabet,#29,Midfield,RC Strasbourg Alsace,Ligue 1,1,-,-,-,-,1,,,59'
+711980,Guéla Doué,#22,Defender,RC Strasbourg Alsace,Ligue 1,1,-,-,-,-,-,,,90'
+786436,Ismaël Doukouré,#6,Defender,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+926978,Lucas Høgsberg,#24,Defender,RC Strasbourg Alsace,Ligue 1,2,-,-,-,-,-,,,173'
+579928,Sebastian Nanasi,#11,Forward,RC Strasbourg Alsace,Ligue 1,2,-,2,-,-,-,,,169'
+585323,Filip Jørgensen,#1,Goalkeeper,RC Strasbourg Alsace,Ligue 1,2,-,,-,-,-,5,-,180'
+1151929,Gessime Yassine,#80,Forward,RC Strasbourg Alsace,Ligue 1,2,2,-,1,-,-,,,180'
+316125,Ben Chilwell,#3,Defender,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+1032280,Oso,#0,Forward,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+1010854,Mathis Amougou,#17,Midfield,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+949113,Pape Demba Diop,#21,Midfield,RC Strasbourg Alsace,Ligue 1,2,-,-,-,-,-,,,111'
+933900,Samuel Amo-Ameyaw,#7,Forward,RC Strasbourg Alsace,Ligue 1,2,-,-,1,-,-,,,83'
+937729,Diogo Sousa,#23,Midfield,RC Strasbourg Alsace,Ligue 1,2,-,-,-,-,-,,,159'
+621993,Andrew Omobamidele,#2,Defender,RC Strasbourg Alsace,Ligue 1,2,-,-,-,-,-,,,180'
+659513,Soumaïla Coulibaly,#44,Defender,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+910541,Fábio Baldé,#19,Forward,RC Strasbourg Alsace,Ligue 1,2,-,-,-,-,-,,,12'
+863204,Maxi Oyedele,#8,Midfield,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+984529,Mateo Del Blanco,#15,Defender,RC Strasbourg Alsace,Ligue 1,2,-,-,-,-,-,,,12'
+504215,Giovanni Reyna,#10,Midfield,RC Strasbourg Alsace,Ligue 1,2,-,-,-,-,-,,,97'
+557612,Sékou Mara,#14,Forward,RC Strasbourg Alsace,Ligue 1,2,-,-,1,-,-,,,76'
+856068,Jeyland Mitchell,#4,Defender,RC Strasbourg Alsace,Ligue 1,1,-,-,1,-,-,,,90'
+962555,Abakar Sylla,#5,Defender,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+926135,Omari Kellyman,#26,Midfield,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+1186237,Jacobo Ortega,#30,Forward,RC Strasbourg Alsace,Ligue 1,2,-,-,-,-,-,,,104'
+965043,Milosz Piekutowski,#12,Goalkeeper,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+1172441,Benjamin Brantlind,#45,Midfield,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+1045121,Genesis Antwi,#16,Defender,RC Strasbourg Alsace,Ligue 1,2,-,-,-,-,-,,,169'
+1133733,Yaya Diémé,#34,Forward,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+1185890,Hermann Malonga,#36,Defender,RC Strasbourg Alsace,Ligue 1,,,,,,,,,
+487469,Vitinha,#17,Midfield,Paris Saint-Germain,Ligue 1,2,1,1,-,-,-,,,159'
+502670,Khvicha Kvaratskhelia,#7,Forward,Paris Saint-Germain,Ligue 1,2,-,-,-,-,-,,,90'
+670681,João Neves,#87,Midfield,Paris Saint-Germain,Ligue 1,1,-,-,-,-,-,,,60'
+914562,Désiré Doué,#14,Forward,Paris Saint-Germain,Ligue 1,2,-,-,-,-,-,,,135'
+288230,Ousmane Dembélé,#10,Forward,Paris Saint-Germain,Ligue 1,1,-,-,-,-,-,,,45'
+810092,Warren Zaïre-Emery,#33,Midfield,Paris Saint-Germain,Ligue 1,2,-,-,-,-,-,,,150'
+398073,Achraf Hakimi,#2,Defender,Paris Saint-Germain,Ligue 1,2,-,-,1,-,-,,,180'
+616341,Nuno Mendes,#25,Defender,Paris Saint-Germain,Ligue 1,,,,,,,,,
+661171,Willian Pacho,#51,Defender,Paris Saint-Germain,Ligue 1,2,-,-,-,-,-,,,180'
+398184,Ferran Torres,#9,Forward,Paris Saint-Germain,Ligue 1,2,2,-,-,-,-,,,117'
+745200,Maghnes Akliouche,#11,Forward,Paris Saint-Germain,Ligue 1,2,-,-,-,-,-,,,108'
+903693,Senny Mayulu,#24,Midfield,Paris Saint-Germain,Ligue 1,1,-,-,-,-,-,,,18'
+659089,Ilya Zabarnyi,#6,Defender,Paris Saint-Germain,Ligue 1,,,,,,,,,
+748804,Mika Godts,#22,Forward,Paris Saint-Germain,Ligue 1,2,-,1,-,-,-,,,72'
+1185888,Ibrahim Mbaye,#49,Forward,Paris Saint-Germain,Ligue 1,,,,,,,,,
+350219,Fabián Ruiz,#8,Midfield,Paris Saint-Germain,Ligue 1,2,-,2,1,-,-,,,102'
+318470,Matvey Safonov,#39,Goalkeeper,Paris Saint-Germain,Ligue 1,2,-,,-,-,-,4,-,180'
+181767,Marquinhos,#5,Defender,Paris Saint-Germain,Ligue 1,2,1,-,1,-,-,,,180'
+463600,Lucas Chevalier,#30,Goalkeeper,Paris Saint-Germain,Ligue 1,,,,,,,,,
+872171,Lucas Beraldo,#4,Defender,Paris Saint-Germain,Ligue 1,2,-,-,-,-,-,,,84'
+281963,Lucas Hernández,#21,Defender,Paris Saint-Germain,Ligue 1,1,-,-,-,-,-,,,90'
+1071596,Dro Fernández,#27,Midfield,Paris Saint-Germain,Ligue 1,1,-,-,-,-,-,,,12'
+1053208,Quentin Ndjantou,#47,Forward,Paris Saint-Germain,Ligue 1,,,,,,,,,
+126664,Lucas Digne,#12,Defender,Paris Saint-Germain,Ligue 1,1,-,-,-,-,-,,,18'
+1074986,Alessandro Longoni,#16,Goalkeeper,Paris Saint-Germain,Ligue 1,,,,,,,,,
+671594,Kamory Doumbia,#23,Midfield,Stade Brestois 29,Ligue 1,2,2,1,-,-,-,,,164'
+353399,Romain Del Castillo,#10,Forward,Stade Brestois 29,Ligue 1,2,1,-,-,-,-,,,138'
+624037,Joris Chotard,#13,Midfield,Stade Brestois 29,Ligue 1,2,-,-,-,-,-,,,180'
+805908,Bradley Locko,#2,Defender,Stade Brestois 29,Ligue 1,2,-,-,1,-,-,,,180'
+474662,Hugo Magnetti,#8,Midfield,Stade Brestois 29,Ligue 1,1,-,1,-,-,-,,,15'
+250779,Brendan Chardonnet,#5,Defender,Stade Brestois 29,Ligue 1,,,,,,,,,
+249636,Gautier Lloris,#4,Defender,Stade Brestois 29,Ligue 1,1,-,-,-,-,-,,,83'
+283994,Ludovic Ajorque,#19,Forward,Stade Brestois 29,Ligue 1,2,1,-,1,-,-,,,180'
+325223,Mama Baldé,#17,Forward,Stade Brestois 29,Ligue 1,2,-,-,-,-,-,,,42'
+979551,Pathé Mboup,#99,Forward,Stade Brestois 29,Ligue 1,2,-,-,1,-,-,,,154'
+353948,Lucas Tousart,#24,Midfield,Stade Brestois 29,Ligue 1,2,-,-,-,-,-,,,97'
+748807,Joseph Nonge,#7,Midfield,Stade Brestois 29,Ligue 1,2,-,-,-,-,-,,,78'
+671593,Mamady Diambou,#6,Midfield,Stade Brestois 29,Ligue 1,2,-,1,-,-,-,,,102'
+174196,Kenny Lala,#77,Defender,Stade Brestois 29,Ligue 1,2,-,-,-,-,-,,,180'
+380744,Egil Selvik,#1,Goalkeeper,Stade Brestois 29,Ligue 1,2,-,,-,-,-,4,-,180'
+1144999,Luck Zogbé,#12,Defender,Stade Brestois 29,Ligue 1,,,,,,,,,
+1030153,Justin Bourgault,#0,Defender,Stade Brestois 29,Ligue 1,,,,,,,,,
+1200289,Hamidou Makalou,#33,Midfield,Stade Brestois 29,Ligue 1,,,,,,,,,
+1166473,Raphaël Le Guen,#71,Defender,Stade Brestois 29,Ligue 1,2,-,-,-,-,-,,,180'
+744934,Mathieu Patouillet,#30,Goalkeeper,Stade Brestois 29,Ligue 1,,,,,,,,,
+924800,Axel Camblan,#0,Forward,Stade Brestois 29,Ligue 1,1,-,-,-,-,-,,,19'
+272619,Romain Cagnon,#49,Goalkeeper,Stade Brestois 29,Ligue 1,,,,,,,,,
+1228465,Noé Poillion,#16,Goalkeeper,Stade Brestois 29,Ligue 1,,,,,,,,,
+857653,Lucas Calodat,#22,Defender,Le Mans FC,Ligue 1,2,-,1,-,-,-,,,77'
+631222,Raúl Torrente,#16,Defender,Le Mans FC,Ligue 1,,,,,,,,,
+1169041,Noa Boissé,#15,Defender,Le Mans FC,Ligue 1,2,-,-,-,-,-,,,180'
+554251,Yasser Larouci,#76,Defender,Le Mans FC,Ligue 1,1,-,-,-,-,-,,,81'
+531960,Lucas Buades,#18,Defender,Le Mans FC,Ligue 1,2,-,-,-,-,-,,,180'
+357069,Nicolas Kocik,#98,Goalkeeper,Le Mans FC,Ligue 1,2,-,,-,-,-,4,-,171'
+941561,Lucas Bretelle,#29,Midfield,Le Mans FC,Ligue 1,2,-,-,-,-,-,,,87'
+461790,Louis Mafouta,#14,Forward,Le Mans FC,Ligue 1,2,3,1,-,-,-,,,153'
+371143,Milan Robin,#24,Midfield,Le Mans FC,Ligue 1,1,-,-,-,-,-,,,9'
+543051,Billal Brahimi,#7,Forward,Le Mans FC,Ligue 1,1,-,-,-,-,-,,,18'
+979760,Rayan Bamba,#26,Defender,Le Mans FC,Ligue 1,1,-,-,-,-,-,,,90'
+161869,Djibril Sidibé,#19,Defender,Le Mans FC,Ligue 1,1,-,-,-,-,1,,,1'
+801762,Théo Eyoum,#21,Defender,Le Mans FC,Ligue 1,2,-,-,-,-,-,,,180'
+344382,Harold Voyer,#5,Defender,Le Mans FC,Ligue 1,1,-,-,1,-,-,,,90'
+422711,Dame Gueye,#25,Forward,Le Mans FC,Ligue 1,2,1,-,-,-,-,,,140'
+146373,Antoine Rabillard,#9,Forward,Le Mans FC,Ligue 1,2,-,-,-,-,-,,,112'
+804386,Erwan Colas,#28,Forward,Le Mans FC,Ligue 1,1,-,-,-,-,-,,,27'
+666744,Alexandre Lauray,#8,Midfield,Le Mans FC,Ligue 1,2,-,-,2,-,-,,,153'
+590048,Edwin Quarshie,#6,Midfield,Le Mans FC,Ligue 1,,,,,,,,,
+1166137,Adil Bourabaa,#11,Midfield,Le Mans FC,Ligue 1,2,-,1,-,-,-,,,153'
+626592,Jean Vercruysse,#10,Midfield,Le Mans FC,Ligue 1,1,-,-,-,-,-,,,30'
+986300,Daouda Traoré,#23,Midfield,Le Mans FC,Ligue 1,,,,,,,,,
+1010671,Martin Rossignol,#27,Midfield,Le Mans FC,Ligue 1,,,,,,,,,
+1029482,William Harhouz,#20,Forward,Le Mans FC,Ligue 1,1,-,-,-,-,-,,,18'
+386048,Samuel Yohou,#17,Defender,Le Mans FC,Ligue 1,,,,,,,,,
+725963,Ewan Hatfout,#1,Goalkeeper,Le Mans FC,Ligue 1,1,-,,-,-,-,1,-,9'
+569359,Augustin Delbecque,#55,Goalkeeper,Le Mans FC,Ligue 1,,,,,,,,,
+1027788,Enzo Vagner,#99,Forward,Le Mans FC,Ligue 1,,,,,,,,,
+1074628,Arthur Avom,#62,Midfield,FC Lorient,Ligue 1,2,-,-,-,-,-,,,180'
+1088199,Arsène Kouassi,#43,Defender,FC Lorient,Ligue 1,2,-,-,-,-,-,,,180'
+496706,Montassar Talbi,#3,Defender,FC Lorient,Ligue 1,2,-,-,-,-,-,,,180'
+322305,Jean-Victor Makengo,#17,Midfield,FC Lorient,Ligue 1,2,1,-,-,-,-,,,163'
+801886,Isak Jensen,#10,Forward,FC Lorient,Ligue 1,1,-,-,-,-,-,,,24'
+766412,Théo Le Bris,#11,Midfield,FC Lorient,Ligue 1,2,-,-,-,-,-,,,145'
+691958,Noah Cadiou,#8,Midfield,FC Lorient,Ligue 1,2,-,-,-,-,-,,,174'
+666971,Souleymane Faye,#19,Forward,FC Lorient,Ligue 1,2,-,-,-,-,-,,,38'
+147051,Yvon Mvogo,#38,Goalkeeper,FC Lorient,Ligue 1,2,-,,-,-,-,2,1,180'
+619461,Mohamed Bamba,#9,Forward,FC Lorient,Ligue 1,,,,,,,,,
+743395,Noah Mbamba,#72,Midfield,FC Lorient,Ligue 1,1,-,-,-,-,-,,,6'
+816308,Panos Katseris,#77,Midfield,FC Lorient,Ligue 1,2,-,-,-,-,-,,,35'
+239647,Aiyegun Tosin,#15,Forward,FC Lorient,Ligue 1,2,-,-,-,-,-,,,44'
+646829,Nathaniel Adjei,#32,Defender,FC Lorient,Ligue 1,2,-,-,-,-,-,,,180'
+649023,Formose Mendy,#0,Defender,FC Lorient,Ligue 1,,,,,,,,,
+704456,Nosa Edward Obaretin,#55,Defender,FC Lorient,Ligue 1,,,,,,,,,
+324800,Alec Georgen,#2,Defender,FC Lorient,Ligue 1,1,-,-,-,-,-,,,18'
+1049151,Dembo Sylla,#0,Defender,FC Lorient,Ligue 1,2,-,-,-,-,-,,,162'
+708678,Isaak Touré,#95,Defender,FC Lorient,Ligue 1,,,,,,,,,
+1254786,Gabin Bernardeau,#33,Midfield,FC Lorient,Ligue 1,2,-,-,-,-,-,,,135'
+981760,Jérémy Hatchi,#0,Forward,FC Lorient,Ligue 1,,,,,,,,,
+333175,Bingourou Kamara,#21,Goalkeeper,FC Lorient,Ligue 1,,,,,,,,,
+590914,Bandiougou Fadiga,#7,Midfield,FC Lorient,Ligue 1,,,,,,,,,
+124901,Benjamin Leroy,#1,Goalkeeper,FC Lorient,Ligue 1,,,,,,,,,
+662242,Rassoul Ndiaye,#14,Midfield,Le Havre AC,Ligue 1,2,-,-,-,-,-,,,180'
+1011200,Junior Mwanga,#6,Midfield,Le Havre AC,Ligue 1,2,-,-,-,-,-,,,180'
+405389,Ayumu Seko,#15,Defender,Le Havre AC,Ligue 1,2,-,-,1,-,-,,,180'
+646478,Elias Jelert,#12,Defender,Le Havre AC,Ligue 1,1,-,-,-,-,-,,,20'
+453824,Josh Maja,#9,Forward,Le Havre AC,Ligue 1,2,-,-,-,-,-,,,45'
+770436,Simon Ebonog,#26,Midfield,Le Havre AC,Ligue 1,2,-,-,-,-,-,,,164'
+1228317,Stephan Zagadou,#29,Defender,Le Havre AC,Ligue 1,,,,,,,,,
+893675,Amir Richardson,#7,Midfield,Le Havre AC,Ligue 1,2,-,-,1,-,-,,,180'
+325924,Ahmed Touba,#5,Defender,Le Havre AC,Ligue 1,1,-,-,-,-,-,,,90'
+798925,Fodé Doucouré,#13,Defender,Le Havre AC,Ligue 1,2,-,1,2,-,-,,,95'
+1119881,Enzo Koffi,#27,Defender,Le Havre AC,Ligue 1,2,-,-,-,-,-,,,64'
+538998,Timothée Pembélé,#32,Defender,Le Havre AC,Ligue 1,2,-,-,-,-,-,,,146'
+1268075,Sota Nakamura,#30,Forward,Le Havre AC,Ligue 1,2,-,-,-,-,-,,,34'
+164915,Lionel Mpasi-Nzau,#77,Goalkeeper,Le Havre AC,Ligue 1,2,-,,-,-,-,2,-,180'
+182201,Mbwana Samatta,#25,Forward,Le Havre AC,Ligue 1,2,1,-,-,-,-,,,160'
+677794,Kaito Mizuta,#17,Midfield,Le Havre AC,Ligue 1,2,-,-,-,-,-,,,67'
+193256,Gauthier Gallon,#93,Goalkeeper,Le Havre AC,Ligue 1,,,,,,,,,
+651973,Godson Kyeremeh,#11,Forward,Le Havre AC,Ligue 1,,,,,,,,,
+507496,Felix Mambimbi,#10,Forward,Le Havre AC,Ligue 1,,,,,,,,,
+986286,Ismaïl Bouneb,#44,Midfield,Le Havre AC,Ligue 1,,,,,,,,,
+1119880,Daren Mosengo,#78,Midfield,Le Havre AC,Ligue 1,,,,,,,,,
+770407,Elysée Logbo,#0,Forward,Le Havre AC,Ligue 1,,,,,,,,,
+988275,Paul Argney,#50,Goalkeeper,Le Havre AC,Ligue 1,,,,,,,,,
+122115,Vincent Sasso,#23,Defender,Le Havre AC,Ligue 1,2,-,-,1,-,-,,,91'
+975348,Joan Tincrès,#19,Forward,Le Havre AC,Ligue 1,,,,,,,,,
+1119877,Guy-Noël Zohouri,#24,Midfield,Le Havre AC,Ligue 1,,,,,,,,,
+463613,Yann Gboho,#10,Forward,FC Toulouse,Ligue 1,2,-,1,-,-,-,,,170'
+912902,Guillaume Restes,#16,Goalkeeper,FC Toulouse,Ligue 1,2,-,,-,-,-,4,-,180'
+1200427,Alexis Vossah,#6,Midfield,FC Toulouse,Ligue 1,1,-,-,-,-,-,,,60'
+467632,Cristian Cásseres Jr.,#23,Midfield,FC Toulouse,Ligue 1,2,-,1,1,-,-,,,180'
+429259,Mark McKenzie,#3,Defender,FC Toulouse,Ligue 1,2,-,-,-,-,-,,,180'
+989574,Santiago Hidalgo,#9,Forward,FC Toulouse,Ligue 1,2,-,-,-,-,-,,,83'
+283227,Rasmus Nicolaisen,#2,Defender,FC Toulouse,Ligue 1,2,-,-,1,-,-,,,180'
+1075583,Seny Koumbassa,#5,Defender,FC Toulouse,Ligue 1,1,-,-,-,-,-,,,12'
+953004,Thomas Jørgensen,#8,Midfield,FC Toulouse,Ligue 1,2,-,-,-,-,-,,,168'
+897423,David Odogu,#19,Defender,FC Toulouse,Ligue 1,,,,,,,,,
+476836,Aron Dønnum,#15,Midfield,FC Toulouse,Ligue 1,,,,,,,,,
+683625,Jacen Russell-Rowe,#13,Forward,FC Toulouse,Ligue 1,2,1,-,-,-,-,,,97'
+1075580,Mathys Niflore,#60,Goalkeeper,FC Toulouse,Ligue 1,,,,,,,,,
+658533,Abu Francis,#17,Midfield,FC Toulouse,Ligue 1,,,,,,,,,
+883865,Rafik Messali,#22,Defender,FC Toulouse,Ligue 1,2,-,-,-,-,-,,,64'
+275249,Niklas Schmidt,#31,Midfield,FC Toulouse,Ligue 1,2,-,-,2,-,-,,,116'
+1234988,Julián Vignolo,#7,Forward,FC Toulouse,Ligue 1,2,-,-,-,-,-,,,138'
+1177290,Ismaïl Diallo,#94,Defender,FC Toulouse,Ligue 1,2,-,-,-,-,-,,,116'
+1270796,Christ Tapé,#12,Defender,FC Toulouse,Ligue 1,2,1,-,-,-,-,,,180'
+986310,Mathis Saka,#28,Midfield,FC Toulouse,Ligue 1,1,-,-,-,-,-,,,4'
+1368526,Sion Oppong,#11,Forward,FC Toulouse,Ligue 1,2,-,-,-,-,-,,,33'
+1200417,Ilyas Azizi,#37,Forward,FC Toulouse,Ligue 1,1,-,-,-,-,-,,,19'
+1297670,Aymen Amaaouch,#49,Midfield,FC Toulouse,Ligue 1,,,,,,,,,
+659542,Elye Wahi,#11,Forward,OGC Nice,Ligue 1,1,-,-,-,-,-,,,27'
+569389,Sofiane Diop,#10,Forward,OGC Nice,Ligue 1,2,-,-,-,-,-,,,171'
+560593,Hicham Boudaoui,#6,Midfield,OGC Nice,Ligue 1,,,,,,,,,
+891998,Antoine Mendy,#33,Defender,OGC Nice,Ligue 1,2,-,-,-,-,-,,,107'
+532775,Melvin Bard,#26,Defender,OGC Nice,Ligue 1,2,-,-,-,-,-,,,172'
+1089202,Moïse Bombito,#64,Defender,OGC Nice,Ligue 1,,,,,,,,,
+674612,Youssouf Ndayishimiye,#55,Defender,OGC Nice,Ligue 1,2,-,-,1,-,-,,,180'
+448632,Yehvann Diouf,#80,Goalkeeper,OGC Nice,Ligue 1,2,-,,-,-,-,3,1,180'
+1297638,Xavier Mandza,#35,Midfield,OGC Nice,Ligue 1,2,-,-,-,-,-,,,178'
+344892,Gauthier Hein,#7,Forward,OGC Nice,Ligue 1,2,-,-,-,-,-,,,180'
+535820,Isak Jansson,#21,Forward,OGC Nice,Ligue 1,1,-,-,-,-,-,,,17'
+688707,Salis Abdul Samed,#99,Midfield,OGC Nice,Ligue 1,,,,,,,,,
+175639,Jonathan Clauss,#92,Defender,OGC Nice,Ligue 1,2,-,-,-,-,-,,,163'
+629588,Nathan Ngoumou,#29,Forward,OGC Nice,Ligue 1,2,-,-,-,-,-,,,72'
+174094,Morgan Sanson,#8,Midfield,OGC Nice,Ligue 1,,,,,,,,,
+566025,Mohamed Abdelmonem,#5,Defender,OGC Nice,Ligue 1,2,-,-,-,-,-,,,75'
+1134110,Brad-Hamilton Mantsounga,#36,Defender,OGC Nice,Ligue 1,,,,,,,,,
+211474,Ali Abdi,#2,Defender,OGC Nice,Ligue 1,,,,,,,,,
+1191473,Everton,#41,Midfield,OGC Nice,Ligue 1,1,-,-,-,-,-,,,90'
+238626,Laurent Abergel,#19,Midfield,OGC Nice,Ligue 1,,,,,,,,,
+35047,Axel Witsel,#28,Midfield,OGC Nice,Ligue 1,1,-,-,-,-,-,,,73'
+1208968,Djibril Coulibaly,#39,Midfield,OGC Nice,Ligue 1,2,-,-,-,-,-,,,180'
+1004479,Zoumana Diallo,#44,Forward,OGC Nice,Ligue 1,1,-,-,1,-,-,,,60'
+1231401,Victor Orakpo,#14,Forward,OGC Nice,Ligue 1,,,,,,,,,
+789419,Teddy Boulhendi,#77,Goalkeeper,OGC Nice,Ligue 1,,,,,,,,,
+1180835,Issiaga Camara,#22,Midfield,OGC Nice,Ligue 1,,,,,,,,,
+1134250,Hamza Koutoune,#84,Defender,OGC Nice,Ligue 1,2,-,-,-,-,-,,,17'
+1297633,Martin Ponsot,#60,Goalkeeper,OGC Nice,Ligue 1,,,,,,,,,
+1297635,Nassim Laarej,#34,Midfield,OGC Nice,Ligue 1,,,,,,,,,
+743496,Kévin Danois,#5,Midfield,AJ Auxerre,Ligue 1,2,-,-,-,-,-,,,180'
+806793,Clément Akpa,#92,Defender,AJ Auxerre,Ligue 1,2,-,-,1,-,-,,,180'
+392767,Danny Namaso,#19,Forward,AJ Auxerre,Ligue 1,2,1,-,-,-,-,,,148'
+702441,Sinaly Diomandé,#20,Defender,AJ Auxerre,Ligue 1,2,-,-,1,-,-,,,180'
+917778,Rémy Labeau Lascary,#3,Forward,AJ Auxerre,Ligue 1,1,1,-,-,-,-,,,61'
+775981,Arthur Piedfort,#46,Midfield,AJ Auxerre,Ligue 1,2,-,-,-,-,-,,,167'
+539795,Bryan Okoh,#24,Defender,AJ Auxerre,Ligue 1,,,,,,,,,
+555076,Romain Faivre,#28,Midfield,AJ Auxerre,Ligue 1,2,-,1,-,-,-,,,138'
+830890,Marvin Senaya,#29,Defender,AJ Auxerre,Ligue 1,,,,,,,,,
+538971,Naouirou Ahamada,#8,Midfield,AJ Auxerre,Ligue 1,2,-,-,-,-,-,,,167'
+763182,Josué Casimir,#7,Forward,AJ Auxerre,Ligue 1,2,-,-,-,-,-,,,22'
+1310513,Aristide Zossou,#77,Forward,AJ Auxerre,Ligue 1,2,-,-,-,-,-,,,95'
+796865,Lamine Sy,#27,Defender,AJ Auxerre,Ligue 1,2,1,-,-,-,-,,,180'
+538994,Pierre Ekwah,#17,Midfield,AJ Auxerre,Ligue 1,,,,,,,,,
+539665,Fredrik Oppegård,#22,Defender,AJ Auxerre,Ligue 1,1,-,-,-,-,-,,,29'
+501709,Theo Bair,#9,Forward,AJ Auxerre,Ligue 1,1,-,-,-,-,-,,,19'
+917147,Mamadou Diop,#23,Goalkeeper,AJ Auxerre,Ligue 1,2,-,,-,-,-,8,-,180'
+189744,Paul Nardi,#1,Goalkeeper,AJ Auxerre,Ligue 1,,,,,,,,,
+371436,Francisco Sierralta,#4,Defender,AJ Auxerre,Ligue 1,,,,,,,,,
+1091353,Telli Siwe,#13,Defender,AJ Auxerre,Ligue 1,,,,,,,,,
+668941,Sékou Fofana,#93,Defender,AJ Auxerre,Ligue 1,,,,,,,,,
+1113528,Christ Makosso,#15,Defender,AJ Auxerre,Ligue 1,1,-,-,-,-,1,,,35'
+658534,Lasso Coulibaly,#21,Forward,AJ Auxerre,Ligue 1,1,-,-,-,-,-,,,13'
+287635,Assane Dioussé,#18,Midfield,AJ Auxerre,Ligue 1,,,,,,,,,
+1119338,Rayan Mandengue,#0,Forward,AJ Auxerre,Ligue 1,1,-,1,-,-,-,,,23'
+1010856,Ryan Rodin,#31,Forward,AJ Auxerre,Ligue 1,,,,,,,,,
+1174032,Tidiane Devernois,#36,Midfield,AJ Auxerre,Ligue 1,,,,,,,,,
+1265965,Xiangxin Wei,#49,Forward,AJ Auxerre,Ligue 1,,,,,,,,,
+1291928,Elikya Legros,#35,Defender,AJ Auxerre,Ligue 1,2,-,-,1,-,-,,,75'
+412934,Eros Maddy,#11,Forward,AJ Auxerre,Ligue 1,,,,,,,,,
+1167216,Louis Mezerette,#37,Goalkeeper,AJ Auxerre,Ligue 1,,,,,,,,,
+1144938,Alvin Petit Dol,#38,Defender,AJ Auxerre,Ligue 1,,,,,,,,,
+1205629,Ackah-Tidiane Zoukrou,#0,Defender,AJ Auxerre,Ligue 1,,,,,,,,,

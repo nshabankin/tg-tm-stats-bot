@@ -1,0 +1,43 @@
+{
+  "league": "uel",
+  "season": 2026,
+  "updatedAt": "2026-09-01T07:07:02+00:00",
+  "mode": "full",
+  "counts": {
+    "clubs": 36,
+    "players": 1055,
+    "statsRows": 1055,
+    "tableRows": 36
+  },
+  "matches": {
+    "groupCount": 8,
+    "pendingMatchdays": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "completedMatchdays": [],
+    "lastPendingMatchday": 8,
+    "lastCompletedMatchday": null
+  },
+  "stats": {
+    "status": "refreshed",
+    "changedClubs": [],
+    "resolvedClubs": [],
+    "unresolvedClubs": []
+  },
+  "outputs": {
+    "tableChanged": true,
+    "playersChanged": true,
+    "statsChanged": true,
+    "matchesChanged": true,
+    "bracketChanged": true,
+    "tablePdfRendered": true,
+    "statsPdfRendered": true
+  }
+}

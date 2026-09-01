@@ -1,0 +1,444 @@
+player_id,player_name,number,position,club,league,played,goals,assists,yellow_cards,second_yellows,red_cards,conceded,clean_sheets,minutes
+617520,Stanislav Agkatsev,#1,Goalkeeper,FC Krasnodar,Russian Premier League,6,-,,1,-,-,4,3,540'
+546212,Diego Costa,#4,Defender,FC Krasnodar,Russian Premier League,1,-,-,-,-,-,,,18'
+658678,Christian,#18,Midfield,FC Krasnodar,Russian Premier League,6,2,2,1,-,-,,,426'
+185245,Jhon Córdoba,#9,Forward,FC Krasnodar,Russian Premier League,2,-,-,2,-,-,,,118'
+432112,Aleksandr Chernikov,#53,Midfield,FC Krasnodar,Russian Premier League,6,-,-,1,-,-,,,470'
+517300,Vítor Tormena,#3,Defender,FC Krasnodar,Russian Premier League,6,-,-,-,-,-,,,540'
+514256,João Batxi,#11,Forward,FC Krasnodar,Russian Premier League,6,1,1,1,-,-,,,435'
+746180,Nikita Krivtsov,#88,Midfield,FC Krasnodar,Russian Premier League,4,3,1,1,-,-,,,360'
+393621,Douglas Augusto,#8,Midfield,FC Krasnodar,Russian Premier League,5,-,1,2,-,-,,,354'
+370287,Dmitriy Vorobyov,#10,Forward,FC Krasnodar,Russian Premier League,6,-,1,1,-,-,,,456'
+544586,Kevin Pina,#6,Midfield,FC Krasnodar,Russian Premier League,6,-,1,-,-,-,,,191'
+216240,Lucas Olaza,#15,Defender,FC Krasnodar,Russian Premier League,6,1,1,1,-,-,,,532'
+515050,Ilya Vakhania,#40,Defender,FC Krasnodar,Russian Premier League,6,-,-,1,-,-,,,505'
+615650,Valentin Paltsev,#17,Defender,FC Krasnodar,Russian Premier League,3,-,-,-,-,-,,,39'
+375667,Daniil Utkin,#47,Midfield,FC Krasnodar,Russian Premier League,5,-,-,1,-,-,,,127'
+487421,Juan Manuel Boselli,#23,Forward,FC Krasnodar,Russian Premier League,4,1,1,-,-,-,,,199'
+149928,Jubal,#5,Defender,FC Krasnodar,Russian Premier League,6,3,-,3,-,-,,,522'
+137206,Magomed Ozdoev,#21,Midfield,FC Krasnodar,Russian Premier League,6,-,-,-,-,-,,,100'
+687463,Aleksandr Koryakin,#16,Goalkeeper,FC Krasnodar,Russian Premier League,,,,,,,,,
+817843,Aleksandr Koksharov,#96,Forward,FC Krasnodar,Russian Premier League,,,,,,,,,
+375662,Vitaliy Stezhko,#2,Defender,FC Krasnodar,Russian Premier League,,,,,,,,,
+1052493,Artem Khmarin,#59,Defender,FC Krasnodar,Russian Premier League,1,-,-,-,-,-,,,8'
+1109231,Efim Burkin,#27,Midfield,FC Krasnodar,Russian Premier League,,,,,,,,,
+1244035,Eldar Guseynov,#29,Forward,FC Krasnodar,Russian Premier League,,,,,,,,,
+102581,Sergey Petrov,#98,Defender,FC Krasnodar,Russian Premier League,1,-,-,-,-,-,,,1'
+685982,Roman Safronov,#0,Goalkeeper,FC Krasnodar,Russian Premier League,,,,,,,,,
+715339,Grigoriy Lovtsov,#0,Midfield,FC Krasnodar,Russian Premier League,,,,,,,,,
+797594,Timur Abdrashitov,#41,Forward,FC Krasnodar,Russian Premier League,,,,,,,,,
+456623,Esequiel Barco,#5,Midfield,Spartak Moscow,Russian Premier League,4,1,1,-,-,-,,,315'
+337800,Gedson Fernandes,#83,Midfield,Spartak Moscow,Russian Premier League,5,-,-,3,-,-,,,416'
+645173,Manfred Ugalde,#9,Forward,Spartak Moscow,Russian Premier League,6,2,1,2,-,-,,,426'
+521872,Mirlind Daku,#19,Forward,Spartak Moscow,Russian Premier League,6,3,1,2,-,-,,,389'
+756991,Pablo Solari,#7,Forward,Spartak Moscow,Russian Premier League,6,1,-,-,-,-,,,527'
+381833,Nail Umyarov,#18,Midfield,Spartak Moscow,Russian Premier League,6,-,-,-,-,-,,,527'
+516722,Marquinhos,#10,Forward,Spartak Moscow,Russian Premier League,6,1,3,1,-,-,,,512'
+381714,Danil Prutsev,#25,Midfield,Spartak Moscow,Russian Premier League,6,1,-,-,-,-,,,109'
+520073,Ruslan Litvinov,#68,Defender,Spartak Moscow,Russian Premier League,5,-,-,-,-,-,,,417'
+572326,Christopher Wooh,#3,Defender,Spartak Moscow,Russian Premier League,5,1,-,2,-,-,,,450'
+351419,Aleksandr Maksimenko,#98,Goalkeeper,Spartak Moscow,Russian Premier League,6,-,,1,-,-,5,2,540'
+222805,Srdjan Babic,#6,Defender,Spartak Moscow,Russian Premier League,4,-,-,-,-,-,,,321'
+591957,Victor Parada,#33,Defender,Spartak Moscow,Russian Premier League,4,-,-,-,-,-,,,86'
+649303,Daniil Denisov,#97,Defender,Spartak Moscow,Russian Premier League,4,-,-,-,-,-,,,152'
+250844,Alexander Djiku,#4,Defender,Spartak Moscow,Russian Premier League,3,-,1,-,-,-,,,207'
+248054,Christopher Martins,#35,Midfield,Spartak Moscow,Russian Premier League,3,1,-,-,-,-,,,137'
+817700,Igor Dmitriev,#27,Forward,Spartak Moscow,Russian Premier League,6,-,-,1,-,-,,,67'
+166277,Roman Zobnin,#47,Midfield,Spartak Moscow,Russian Premier League,6,1,1,2,-,-,,,512'
+706618,Vladislav Saus,#17,Midfield,Spartak Moscow,Russian Premier League,1,-,-,-,-,-,,,13'
+621436,Daniil Khlusevich,#82,Defender,Spartak Moscow,Russian Premier League,,,,,,,,,
+263962,Anton Zinkovskiy,#8,Forward,Spartak Moscow,Russian Premier League,,,,,,,,,
+217686,Ilya Pomazun,#1,Goalkeeper,Spartak Moscow,Russian Premier League,,,,,,,,,
+726445,Daniil Zorin,#28,Midfield,Spartak Moscow,Russian Premier League,,,,,,,,,
+1180777,Nikita Massalyga,#24,Forward,Spartak Moscow,Russian Premier League,,,,,,,,,
+1384080,Pavel Polekh,#62,Forward,Spartak Moscow,Russian Premier League,,,,,,,,,
+47004,Aleksandr Dovbnya,#56,Goalkeeper,Spartak Moscow,Russian Premier League,,,,,,,,,
+800175,Luiz Henrique,#11,Forward,Zenit St. Petersburg,Russian Premier League,4,-,-,-,-,-,,,153'
+1004741,Pedro,#20,Forward,Zenit St. Petersburg,Russian Premier League,5,-,2,-,-,-,,,432'
+834899,Felipe Augusto,#9,Forward,Zenit St. Petersburg,Russian Premier League,6,1,-,-,-,-,,,229'
+448981,Maksim Glushenkov,#10,Forward,Zenit St. Petersburg,Russian Premier League,5,5,2,1,1,-,,,403'
+499721,Wendel,#8,Midfield,Zenit St. Petersburg,Russian Premier League,5,-,1,3,-,-,,,409'
+964582,Jhon Jhon,#14,Midfield,Zenit St. Petersburg,Russian Premier League,5,1,1,-,-,-,,,372'
+520454,Nino,#33,Defender,Zenit St. Petersburg,Russian Premier League,6,-,-,-,-,-,,,350'
+532732,Igor Diveev,#78,Defender,Zenit St. Petersburg,Russian Premier League,6,-,-,-,-,1,,,535'
+220793,Douglas Santos,#3,Defender,Zenit St. Petersburg,Russian Premier League,3,-,-,-,-,-,,,70'
+464259,Aleksandr Sobolev,#7,Forward,Zenit St. Petersburg,Russian Premier League,6,5,2,-,-,-,,,412'
+691920,Artem Karpukas,#93,Midfield,Zenit St. Petersburg,Russian Premier League,5,-,-,1,-,-,,,373'
+574660,Strahinja Erakovic,#0,Defender,Zenit St. Petersburg,Russian Premier League,,,,,,,,,
+257668,Wilmar Barrios,#5,Midfield,Zenit St. Petersburg,Russian Premier League,6,-,-,1,-,-,,,454'
+814269,Gustavo Mantuan,#31,Defender,Zenit St. Petersburg,Russian Premier League,6,1,-,-,-,-,,,524'
+875947,Román Vega,#66,Defender,Zenit St. Petersburg,Russian Premier League,6,-,-,2,-,-,,,470'
+614898,Kevin Andrade,#25,Defender,Zenit St. Petersburg,Russian Premier League,6,-,-,1,-,-,,,104'
+362570,Andrey Mostovoy,#17,Forward,Zenit St. Petersburg,Russian Premier League,1,-,-,-,-,-,,,6'
+334477,Denis Adamov,#16,Goalkeeper,Zenit St. Petersburg,Russian Premier League,6,-,,-,-,-,4,4,540'
+465408,Nuraly Alip,#28,Defender,Zenit St. Petersburg,Russian Premier League,4,-,-,-,-,-,,,143'
+170620,Vyacheslav Karavaev,#15,Defender,Zenit St. Petersburg,Russian Premier League,2,-,-,-,-,-,,,70'
+906774,Du Queiroz,#37,Midfield,Zenit St. Petersburg,Russian Premier League,,,,,,,,,
+1109232,Daniil Kondakov,#61,Midfield,Zenit St. Petersburg,Russian Premier League,3,-,1,-,-,-,,,104'
+520060,Sergey Volkov,#82,Defender,Zenit St. Petersburg,Russian Premier League,,,,,,,,,
+1109229,Vadim Shilov,#51,Forward,Zenit St. Petersburg,Russian Premier League,,,,,,,,,
+718755,Bogdan Moskvichev,#57,Goalkeeper,Zenit St. Petersburg,Russian Premier League,,,,,,,,,
+555135,Daniil Odoevskiy,#71,Goalkeeper,Zenit St. Petersburg,Russian Premier League,,,,,,,,,
+84483,Aleksandr Erokhin,#21,Midfield,Zenit St. Petersburg,Russian Premier League,2,-,-,-,-,-,,,25'
+651580,Matvey Kislyak,#31,Midfield,CSKA Moscow,Russian Premier League,6,-,1,-,-,-,,,460'
+419845,Ivan Oblyakov,#10,Midfield,CSKA Moscow,Russian Premier League,6,1,-,-,-,-,,,515'
+865414,Kirill Glebov,#17,Forward,CSKA Moscow,Russian Premier League,6,1,1,-,-,-,,,372'
+263905,Dmitriy Barinov,#6,Midfield,CSKA Moscow,Russian Premier League,3,-,-,-,-,-,,,102'
+851111,Luciano Gondou,#32,Forward,CSKA Moscow,Russian Premier League,6,2,2,2,-,-,,,432'
+1127813,Matheus Alves,#7,Midfield,CSKA Moscow,Russian Premier League,5,1,1,1,-,-,,,270'
+372535,Danil Krugovoy,#3,Midfield,CSKA Moscow,Russian Premier League,6,-,1,-,-,-,,,517'
+368468,Moisés,#27,Defender,CSKA Moscow,Russian Premier League,3,-,-,-,-,-,,,270'
+624340,Matvey Lukin,#90,Defender,CSKA Moscow,Russian Premier League,,,,,,,,,
+245030,Milan Gajic,#22,Defender,CSKA Moscow,Russian Premier League,4,-,1,-,-,-,,,344'
+1009031,Henrique Carmo,#37,Forward,CSKA Moscow,Russian Premier League,4,1,-,-,-,-,,,86'
+671145,João Victor,#4,Defender,CSKA Moscow,Russian Premier League,6,-,-,1,-,-,,,540'
+720287,Danila Kozlov,#18,Midfield,CSKA Moscow,Russian Premier League,6,-,-,-,-,-,,,273'
+1131030,Kirill Danilov,#79,Defender,CSKA Moscow,Russian Premier League,6,1,-,1,-,-,,,540'
+654117,Tamerlan Musaev,#11,Forward,CSKA Moscow,Russian Premier League,6,-,-,-,-,-,,,124'
+379249,Matheus Reis,#2,Defender,CSKA Moscow,Russian Premier League,1,-,-,1,-,-,,,90'
+1141473,Maksim Voronov,#97,Forward,CSKA Moscow,Russian Premier League,,,,,,,,,
+526448,Maksim Borisko,#39,Goalkeeper,CSKA Moscow,Russian Premier League,1,-,,-,-,-,2,-,90'
+1012421,Matija Popović,#20,Midfield,CSKA Moscow,Russian Premier League,6,1,1,-,-,-,,,379'
+555146,Vladislav Torop,#49,Goalkeeper,CSKA Moscow,Russian Premier League,6,-,,1,-,-,6,2,540'
+15570,Igor Akinfeev,#35,Goalkeeper,CSKA Moscow,Russian Premier League,,,,,,,,,
+917402,Dzhamalutdin Abdulkadyrov,#23,Defender,CSKA Moscow,Russian Premier League,2,-,-,-,-,-,,,24'
+878219,Ramiro Di Luciano,#24,Defender,CSKA Moscow,Russian Premier League,,,,,,,,,
+917403,Artem Bandikyan,#52,Midfield,CSKA Moscow,Russian Premier League,,,,,,,,,
+898119,Artem Shumanskiy,#8,Forward,CSKA Moscow,Russian Premier League,,,,,,,,,
+1242657,Imran Firov,#62,Forward,CSKA Moscow,Russian Premier League,4,-,-,1,-,-,,,63'
+1052489,Artem Serikov,#88,Forward,CSKA Moscow,Russian Premier League,,,,,,,,,
+960578,Nikolay Barovskiy,#99,Goalkeeper,CSKA Moscow,Russian Premier League,,,,,,,,,
+864314,Egor Besaev,#85,Goalkeeper,CSKA Moscow,Russian Premier League,,,,,,,,,
+736202,Brayan Gil,#91,Forward,Baltika Kaliningrad,Russian Premier League,5,2,-,-,-,-,,,215'
+431708,Maksim Petrov,#73,Midfield,Baltika Kaliningrad,Russian Premier League,6,1,1,1,-,-,,,375'
+360451,Mingiyan Beveev,#22,Defender,Baltika Kaliningrad,Russian Premier League,6,-,-,2,-,-,,,540'
+555159,Sergey Varatynov,#2,Defender,Baltika Kaliningrad,Russian Premier League,6,1,1,-,-,-,,,540'
+312891,Evgeniy Latyshonok,#1,Goalkeeper,Baltika Kaliningrad,Russian Premier League,5,-,,-,-,-,4,2,450'
+815346,Nathan Gassama,#4,Defender,Baltika Kaliningrad,Russian Premier League,6,-,2,-,-,-,,,520'
+297034,Ilya Petrov,#10,Midfield,Baltika Kaliningrad,Russian Premier League,2,-,-,-,-,-,,,79'
+301037,Aleksandr Filin,#25,Defender,Baltika Kaliningrad,Russian Premier League,,,,,,,,,
+799936,Loris Mouyokolo,#24,Defender,Baltika Kaliningrad,Russian Premier League,2,-,-,-,-,-,,,180'
+606526,Nikolay Titkov,#11,Midfield,Baltika Kaliningrad,Russian Premier League,6,1,1,2,-,-,,,491'
+917404,Mikhail Ryadno,#68,Defender,Baltika Kaliningrad,Russian Premier League,1,-,-,-,-,-,,,12'
+376127,Stefan Kovac,#14,Midfield,Baltika Kaliningrad,Russian Premier League,,,,,,,,,
+693412,Chinonso Offor,#9,Forward,Baltika Kaliningrad,Russian Premier League,6,2,-,-,-,-,,,329'
+265589,Fahd Moufi,#18,Defender,Baltika Kaliningrad,Russian Premier League,5,-,-,-,-,-,,,148'
+1247237,Ivan Belikov,#26,Midfield,Baltika Kaliningrad,Russian Premier League,6,-,-,-,-,-,,,106'
+230536,Andrey Mendel,#8,Midfield,Baltika Kaliningrad,Russian Premier League,6,1,-,2,-,-,,,434'
+637552,Maksim Shnaptsev,#19,Defender,Baltika Kaliningrad,Russian Premier League,1,-,-,-,-,-,,,90'
+637545,Ilya Kirsh,#3,Defender,Baltika Kaliningrad,Russian Premier League,,,,,,,,,
+317764,Eldar Civic,#77,Defender,Baltika Kaliningrad,Russian Premier League,4,1,-,-,-,-,,,197'
+593480,Aymane Mourid,#5,Midfield,Baltika Kaliningrad,Russian Premier League,5,1,1,3,-,-,,,380'
+620015,Tenton Yenne,#15,Forward,Baltika Kaliningrad,Russian Premier League,1,-,-,-,-,-,,,21'
+667980,Irakliy Manelov,#69,Forward,Baltika Kaliningrad,Russian Premier League,,,,,,,,,
+699266,Konstantin Shiltsov,#7,Midfield,Baltika Kaliningrad,Russian Premier League,3,-,-,-,-,-,,,10'
+742858,Eduardo Anderson,#21,Defender,Baltika Kaliningrad,Russian Premier League,6,-,-,2,-,-,,,540'
+577714,Egor Lyubakov,#44,Goalkeeper,Baltika Kaliningrad,Russian Premier League,,,,,,,,,
+946394,Mark Mokin,#0,Forward,Baltika Kaliningrad,Russian Premier League,,,,,,,,,
+692563,Ivan Kukushkin,#81,Goalkeeper,Baltika Kaliningrad,Russian Premier League,,,,,,,,,
+743906,Kirill Nikishin,#17,Forward,Baltika Kaliningrad,Russian Premier League,,,,,,,,,
+1151889,Dmitriy Nikitin,#40,Forward,Baltika Kaliningrad,Russian Premier League,1,-,-,-,-,-,,,14'
+616035,Dmitriy Begun,#57,Defender,Baltika Kaliningrad,Russian Premier League,,,,,,,,,
+1151887,Vladislav Pospelov,#42,Midfield,Baltika Kaliningrad,Russian Premier League,6,-,1,-,-,-,,,179'
+532676,Konstantin Tyukavin,#70,Forward,Dynamo Moscow,Russian Premier League,5,2,1,-,-,-,,,435'
+703497,Bitello,#10,Midfield,Dynamo Moscow,Russian Premier League,6,-,1,-,-,-,,,540'
+592735,Gonzalo Plata,#0,Forward,Dynamo Moscow,Russian Premier League,,,,,,,,,
+843397,Rubens,#8,Defender,Dynamo Moscow,Russian Premier League,6,-,-,1,-,-,,,276'
+400713,Daniil Fomin,#74,Midfield,Dynamo Moscow,Russian Premier League,4,-,-,1,-,-,,,303'
+756494,Juan José Cáceres,#4,Defender,Dynamo Moscow,Russian Premier League,5,-,-,1,-,-,,,334'
+570423,Danil Glebov,#15,Midfield,Dynamo Moscow,Russian Premier League,5,-,-,-,-,-,,,298'
+852980,Nicolás Marichal,#2,Defender,Dynamo Moscow,Russian Premier League,1,-,-,-,-,-,,,3'
+985172,David Ricardo,#57,Defender,Dynamo Moscow,Russian Premier League,6,-,-,3,-,-,,,540'
+668228,Matheus Martins,#0,Forward,Dynamo Moscow,Russian Premier League,,,,,,,,,
+331059,Luis Chávez,#24,Midfield,Dynamo Moscow,Russian Premier League,2,-,-,-,-,-,,,70'
+673114,Yaroslav Gladyshev,#91,Forward,Dynamo Moscow,Russian Premier League,6,-,1,1,-,-,,,442'
+401534,Arthur Gomes,#11,Forward,Dynamo Moscow,Russian Premier League,6,1,-,-,-,-,,,456'
+293829,Maksim Osipenko,#55,Defender,Dynamo Moscow,Russian Premier League,6,1,1,-,-,-,,,540'
+395659,Ivan Sergeev,#33,Forward,Dynamo Moscow,Russian Premier League,6,-,1,1,-,-,,,186'
+491589,Roberto Fernández,#6,Defender,Dynamo Moscow,Russian Premier League,,,,,,,,,
+344299,Bakhtiyor Zaynutdinov,#19,Defender,Dynamo Moscow,Russian Premier League,,,,,,,,,
+281917,Dmitriy Skopintsev,#7,Defender,Dynamo Moscow,Russian Premier League,5,1,-,-,-,-,,,270'
+255451,Anton Miranchuk,#21,Midfield,Dynamo Moscow,Russian Premier League,6,2,-,-,-,-,,,168'
+918327,Kurban Rasulov,#1,Goalkeeper,Dynamo Moscow,Russian Premier League,5,-,,-,-,-,7,1,450'
+673429,Milan Majstorovic,#5,Defender,Dynamo Moscow,Russian Premier League,,,,,,,,,
+687617,Aleksandr Kutitskiy,#50,Midfield,Dynamo Moscow,Russian Premier League,,,,,,,,,
+1080107,Timofey Marinkin,#60,Midfield,Dynamo Moscow,Russian Premier League,5,1,-,1,-,-,,,269'
+724969,Luka Gagnidze,#34,Midfield,Dynamo Moscow,Russian Premier League,,,,,,,,,
+112541,Andrey Lunev,#99,Goalkeeper,Dynamo Moscow,Russian Premier League,1,-,,-,-,-,-,1,90'
+637540,Ulvi Babaev,#17,Forward,Dynamo Moscow,Russian Premier League,,,,,,,,,
+939068,Viktor Okishor,#88,Midfield,Dynamo Moscow,Russian Premier League,3,-,2,1,-,-,,,71'
+718759,Leon Zaydenzal,#56,Defender,Dynamo Moscow,Russian Premier League,3,-,-,-,-,-,,,200'
+168527,Igor Leshchuk,#31,Goalkeeper,Dynamo Moscow,Russian Premier League,,,,,,,,,
+700385,Ilya Rozhkov,#51,Defender,Rubin Kazan,Russian Premier League,5,1,1,1,-,1,,,327'
+619279,Veldin Hodza,#22,Midfield,Rubin Kazan,Russian Premier League,6,-,-,2,-,-,,,518'
+565852,Ugochukwu Iwu,#6,Midfield,Rubin Kazan,Russian Premier League,3,-,-,-,-,-,,,206'
+227538,Igor Vujacic,#5,Defender,Rubin Kazan,Russian Premier League,5,-,1,1,-,-,,,450'
+584231,Egor Teslenko,#2,Defender,Rubin Kazan,Russian Premier League,5,-,-,-,-,-,,,448'
+804933,Jacques Siwe,#43,Forward,Rubin Kazan,Russian Premier League,5,2,1,-,-,-,,,341'
+355692,Nazmi Gripshi,#11,Midfield,Rubin Kazan,Russian Premier League,4,-,-,-,-,-,,,220'
+389624,Evgeniy Staver,#38,Goalkeeper,Rubin Kazan,Russian Premier League,6,-,,-,-,-,8,-,540'
+401706,Ignacio Saavedra,#14,Midfield,Rubin Kazan,Russian Premier League,6,-,1,1,-,-,,,415'
+426326,Anderson Arroyo,#12,Defender,Rubin Kazan,Russian Premier League,6,1,1,1,-,-,,,433'
+401769,Denil Maldonado,#3,Defender,Rubin Kazan,Russian Premier League,6,-,-,-,-,-,,,300'
+522030,Ilya Samoshnikov,#71,Defender,Rubin Kazan,Russian Premier League,4,-,1,-,-,-,,,165'
+452464,Dardan Shabanhaxhaj,#99,Forward,Rubin Kazan,Russian Premier League,,,,,,,,,
+989069,Jakhongir Urozov,#13,Defender,Rubin Kazan,Russian Premier League,2,-,-,-,-,-,,,180'
+685854,Ruslan Bezrukov,#23,Midfield,Rubin Kazan,Russian Premier League,6,-,-,-,-,-,,,341'
+379634,Aleksey Gritsaenko,#27,Defender,Rubin Kazan,Russian Premier League,,,,,,,,,
+720281,Nikita Lobov,#98,Defender,Rubin Kazan,Russian Premier League,4,-,-,-,-,-,,,201'
+574669,Bogdan Jocic,#8,Midfield,Rubin Kazan,Russian Premier League,3,1,-,-,-,-,,,25'
+604073,Konstantin Nizhegorodov,#4,Defender,Rubin Kazan,Russian Premier League,2,-,-,-,-,-,,,128'
+393699,Aleksandar Jukic,#77,Midfield,Rubin Kazan,Russian Premier League,4,1,-,2,-,-,,,204'
+726446,Daniil Motorin,#59,Forward,Rubin Kazan,Russian Premier League,2,-,-,-,-,-,,,2'
+908186,Maksim Ignatjev,#18,Defender,Rubin Kazan,Russian Premier League,4,-,-,-,-,-,,,104'
+522145,Daniil Kuznetsov,#44,Forward,Rubin Kazan,Russian Premier League,5,-,-,-,-,-,,,134'
+148118,Dmitriy Kabutov,#70,Defender,Rubin Kazan,Russian Premier League,1,-,-,-,-,-,,,8'
+70074,Artur Nigmatullin,#25,Goalkeeper,Rubin Kazan,Russian Premier League,,,,,,,,,
+615642,Uros Drezgic,#26,Defender,Rubin Kazan,Russian Premier League,,,,,,,,,
+697943,Nikita Korets,#86,Goalkeeper,Rubin Kazan,Russian Premier League,,,,,,,,,
+1030739,Mohammadjavad Hosseinnejad,#10,Midfield,Dinamo Makhachkala,Russian Premier League,1,-,-,-,-,-,,,2'
+567023,Gamid Agalarov,#25,Forward,Dinamo Makhachkala,Russian Premier League,6,2,-,1,-,-,,,258'
+315252,Daniil Lesovoy,#88,Forward,Dinamo Makhachkala,Russian Premier League,6,1,1,1,-,-,,,307'
+842780,Houssem Mrezigue,#16,Midfield,Dinamo Makhachkala,Russian Premier League,6,-,3,-,-,-,,,531'
+863190,Mohamed Azzi,#22,Defender,Dinamo Makhachkala,Russian Premier League,5,-,1,-,-,-,,,384'
+702149,Idar Shumakhov,#4,Defender,Dinamo Makhachkala,Russian Premier League,,,,,,,,,
+654591,Temirkan Sundukov,#77,Defender,Dinamo Makhachkala,Russian Premier League,6,-,1,2,-,-,,,540'
+451244,David Volk,#1,Goalkeeper,Dinamo Makhachkala,Russian Premier League,,,,,,,,,
+480139,Nikita Glushkov,#47,Midfield,Dinamo Makhachkala,Russian Premier League,6,2,2,-,-,-,,,530'
+1043831,Miro,#11,Forward,Dinamo Makhachkala,Russian Premier League,6,2,-,1,-,-,,,414'
+1102540,Andrés Alarcón,#24,Defender,Dinamo Makhachkala,Russian Premier League,6,1,-,2,-,-,,,540'
+715359,Egor Smelov,#52,Midfield,Dinamo Makhachkala,Russian Premier League,5,-,-,-,-,-,,,234'
+1317563,Ilyas Akhmedov,#43,Defender,Dinamo Makhachkala,Russian Premier League,3,-,-,1,-,-,,,186'
+334425,Mutalip Alibekov,#99,Defender,Dinamo Makhachkala,Russian Premier League,6,-,1,1,-,-,,,540'
+622477,Timur Magomedov,#39,Goalkeeper,Dinamo Makhachkala,Russian Premier League,6,-,,-,-,-,10,-,540'
+438306,Soslan Kagermazov,#13,Defender,Dinamo Makhachkala,Russian Premier League,3,-,-,-,-,-,,,92'
+622454,Razhab Magomedov,#9,Midfield,Dinamo Makhachkala,Russian Premier League,1,-,-,-,-,-,,,8'
+1156870,Abdulpasha Dzhabrailov,#21,Midfield,Dinamo Makhachkala,Russian Premier League,5,-,-,-,-,-,,,111'
+649301,Aleksandr Sandrachuk,#72,Defender,Dinamo Makhachkala,Russian Premier League,6,1,-,-,-,-,,,189'
+430484,Vladimir Khubulov,#8,Forward,Dinamo Makhachkala,Russian Premier League,2,-,-,1,-,-,,,31'
+720936,Kirill Zinovich,#19,Midfield,Dinamo Makhachkala,Russian Premier League,2,-,-,-,-,-,,,17'
+864621,Dmitriy Aleksandrov,#30,Midfield,Dinamo Makhachkala,Russian Premier League,1,-,-,-,-,-,,,16'
+698931,Nikita Karabashev,#33,Goalkeeper,Dinamo Makhachkala,Russian Premier League,,,,,,,,,
+129103,Serder Serderov,#28,Forward,Dinamo Makhachkala,Russian Premier League,,,,,,,,,
+599046,Marat Apshatsev,#6,Midfield,Dinamo Makhachkala,Russian Premier League,6,-,-,2,-,-,,,473'
+614776,Anton Krachkovskiy,#17,Midfield,Dinamo Makhachkala,Russian Premier League,,,,,,,,,
+926945,Shamil Gadzhiev,#53,Midfield,Dinamo Makhachkala,Russian Premier League,,,,,,,,,
+1404902,Diaa Eddine Mechid,#55,Forward,Dinamo Makhachkala,Russian Premier League,,,,,,,,,
+1317564,Gadzhi Budunov,#98,Forward,Dinamo Makhachkala,Russian Premier League,,,,,,,,,
+1106216,Damián Puebla,#8,Midfield,FC Orenburg,Russian Premier League,6,-,-,-,-,-,,,464'
+889462,Jordhy Thompson,#16,Forward,FC Orenburg,Russian Premier League,,,,,,,,,
+529870,Danila Khotulev,#4,Defender,FC Orenburg,Russian Premier League,1,-,-,1,-,-,,,90'
+534477,Bogdan Ovsyannikov,#1,Goalkeeper,FC Orenburg,Russian Premier League,5,-,,1,-,-,4,1,450'
+649343,Dmitriy Vasiljev,#18,Midfield,FC Orenburg,Russian Premier League,1,-,-,-,-,-,,,16'
+772843,Jersson González,#7,Forward,FC Orenburg,Russian Premier League,2,-,-,-,-,-,,,22'
+575408,Evgeniy Bolotov,#57,Midfield,FC Orenburg,Russian Premier League,6,-,-,2,-,-,,,527'
+628049,Emil Tsenov,#26,Defender,FC Orenburg,Russian Premier League,5,1,-,1,-,-,,,375'
+574930,Danila Vedernikov,#3,Defender,FC Orenburg,Russian Premier League,5,-,-,1,-,-,,,255'
+653408,Jhon Alex Palacios,#6,Defender,FC Orenburg,Russian Premier League,6,-,-,3,-,-,,,540'
+580715,Maxime Sivis,#24,Defender,FC Orenburg,Russian Premier League,6,-,1,1,-,-,,,540'
+751099,Artem Kasimov,#38,Defender,FC Orenburg,Russian Premier League,1,-,-,-,-,-,,,24'
+739439,Alexandre Jesus,#19,Forward,FC Orenburg,Russian Premier League,5,-,-,-,-,-,,,87'
+572818,Robert Mejía,#14,Midfield,FC Orenburg,Russian Premier League,,,,,,,,,
+501777,Maksim Saveljev,#9,Forward,FC Orenburg,Russian Premier League,1,-,-,-,1,-,,,49'
+362572,Dmitriy Rybchinskiy,#20,Midfield,FC Orenburg,Russian Premier League,6,-,-,1,-,-,,,387'
+312502,Aleksey Tataev,#5,Defender,FC Orenburg,Russian Premier League,6,-,-,3,-,-,,,427'
+601456,Ruslan Kul,#78,Midfield,FC Orenburg,Russian Premier League,6,2,1,1,-,-,,,432'
+919358,Renat Golybin,#27,Midfield,FC Orenburg,Russian Premier League,4,-,-,-,-,-,,,180'
+1160957,Andrey Kasadzhikov,#77,Forward,FC Orenburg,Russian Premier League,6,2,1,1,-,-,,,190'
+697958,Egor Nazarenko,#11,Midfield,FC Orenburg,Russian Premier League,5,-,-,-,-,-,,,305'
+447462,Gedeon Guzina,#30,Forward,FC Orenburg,Russian Premier League,6,-,1,1,-,-,,,421'
+817822,Stanislav Poroykov,#2,Defender,FC Orenburg,Russian Premier League,,,,,,,,,
+235347,Maksim Rudakov,#88,Goalkeeper,FC Orenburg,Russian Premier League,1,-,,-,-,-,3,-,90'
+715357,Aleksey Baranovskiy,#96,Midfield,FC Orenburg,Russian Premier League,,,,,,,,,
+1155741,Ivan Ivashchenko,#65,Midfield,FC Orenburg,Russian Premier League,1,-,-,-,-,-,,,1'
+825725,Maksim Syshchenko,#59,Defender,FC Orenburg,Russian Premier League,,,,,,,,,
+951303,Andrey Khodanovich,#95,Goalkeeper,FC Orenburg,Russian Premier League,,,,,,,,,
+1128666,Nikolay Koserik,#54,Defender,FC Orenburg,Russian Premier League,,,,,,,,,
+1164454,Omar Minatulaev,#63,Midfield,FC Orenburg,Russian Premier League,2,-,-,1,-,-,,,14'
+1240383,Benjamín Bosch,#21,Forward,FC Orenburg,Russian Premier League,2,-,-,-,-,-,,,16'
+623553,Lechi Sadulaev,#7,Forward,Akhmat Grozny,Russian Premier League,5,2,3,1,-,-,,,413'
+713071,Maksim Samorodov,#20,Forward,Akhmat Grozny,Russian Premier League,5,-,-,-,-,-,,,342'
+501769,Kirill Shchetinin,#10,Midfield,Akhmat Grozny,Russian Premier League,6,-,1,-,-,-,,,203'
+911400,Egas Cacintura,#17,Midfield,Akhmat Grozny,Russian Premier League,4,2,2,-,-,1,,,346'
+629585,Kalidou Sidibé,#6,Midfield,Akhmat Grozny,Russian Premier League,2,-,-,-,-,-,,,27'
+281552,Georgiy Melkadze,#77,Forward,Akhmat Grozny,Russian Premier League,6,3,-,2,-,-,,,424'
+486204,Klisman Cake,#5,Defender,Akhmat Grozny,Russian Premier League,6,-,-,1,-,-,,,540'
+273945,Miroslav Bogosavac,#8,Defender,Akhmat Grozny,Russian Premier League,6,-,-,1,-,-,,,495'
+646894,Sergey Pryakhin,#19,Midfield,Akhmat Grozny,Russian Premier League,,,,,,,,,
+829380,Ousmane N'Dong,#90,Defender,Akhmat Grozny,Russian Premier League,6,-,-,1,-,-,,,386'
+810558,Turpal-Ali Ibishev,#4,Defender,Akhmat Grozny,Russian Premier League,6,1,-,-,-,-,,,528'
+455016,Arsen Adamov,#95,Defender,Akhmat Grozny,Russian Premier League,6,-,1,-,-,-,,,484'
+457743,Mohamed Konaté,#13,Forward,Akhmat Grozny,Russian Premier League,1,-,-,-,-,-,,,14'
+456814,Maksim Sidorov,#81,Defender,Akhmat Grozny,Russian Premier League,2,-,-,1,-,-,,,81'
+253734,Ismael Silva,#11,Midfield,Akhmat Grozny,Russian Premier League,6,-,-,-,-,-,,,401'
+1059814,Kelliano,#42,Midfield,Akhmat Grozny,Russian Premier League,3,-,-,-,-,-,,,83'
+799095,Vadim Ulyanov,#1,Goalkeeper,Akhmat Grozny,Russian Premier League,4,-,,-,-,-,5,1,360'
+645423,Júlio Romão,#18,Midfield,Akhmat Grozny,Russian Premier League,5,-,-,1,-,-,,,450'
+946954,Erald Maksuti,#76,Forward,Akhmat Grozny,Russian Premier League,5,1,-,1,-,-,,,114'
+704593,Galymzhan Kenzhebek,#23,Forward,Akhmat Grozny,Russian Premier League,2,-,-,-,-,-,,,44'
+867082,Abakar Gadzhiev,#70,Midfield,Akhmat Grozny,Russian Premier League,,,,,,,,,
+743010,Rasul Mitsaev,#71,Goalkeeper,Akhmat Grozny,Russian Premier League,,,,,,,,,
+1038637,Kirill Kistenev,#54,Defender,Akhmat Grozny,Russian Premier League,,,,,,,,,
+58971,Giorgiy Shelia,#88,Goalkeeper,Akhmat Grozny,Russian Premier League,2,-,,-,-,-,3,-,180'
+1160956,Aleksey Kasadzhikov,#97,Forward,Akhmat Grozny,Russian Premier League,2,-,-,-,-,-,,,12'
+524403,Fernando Costanza,#22,Midfield,Krylya Sovetov Samara,Russian Premier League,5,-,-,1,-,-,,,402'
+371627,Ivan Oleynikov,#19,Forward,Krylya Sovetov Samara,Russian Premier League,6,3,-,1,-,-,,,515'
+214238,Nikita Chernov,#23,Defender,Krylya Sovetov Samara,Russian Premier League,4,2,-,1,-,-,,,360'
+585082,Mihajlo Banjac,#7,Midfield,Krylya Sovetov Samara,Russian Premier League,4,-,1,-,-,-,,,191'
+448983,Yuriy Gorshkov,#4,Defender,Krylya Sovetov Samara,Russian Premier League,3,-,3,-,-,-,,,208'
+764386,Islam Chesnokov,#17,Forward,Krylya Sovetov Samara,Russian Premier League,2,-,-,1,-,-,,,94'
+285868,Nikolay Rasskazov,#15,Defender,Krylya Sovetov Samara,Russian Premier League,6,-,-,-,-,-,,,437'
+599203,Denis Makarov,#77,Forward,Krylya Sovetov Samara,Russian Premier League,5,-,-,2,-,-,,,136'
+498015,Kirill Pechenin,#2,Defender,Krylya Sovetov Samara,Russian Premier League,6,-,-,2,-,-,,,540'
+538773,Chinedu Geoffrey,#9,Forward,Krylya Sovetov Samara,Russian Premier League,2,-,-,-,-,1,,,47'
+353559,Dominik Oroz,#5,Defender,Krylya Sovetov Samara,Russian Premier League,6,1,-,2,-,-,,,282'
+539469,Thomas Galdames,#3,Defender,Krylya Sovetov Samara,Russian Premier League,3,-,-,1,-,-,,,60'
+447101,Maksim Vityugov,#8,Midfield,Krylya Sovetov Samara,Russian Premier League,6,1,2,2,-,-,,,455'
+538954,Nikita Kokarev,#80,Goalkeeper,Krylya Sovetov Samara,Russian Premier League,,,,,,,,,
+372730,Jimmy Marín,#26,Forward,Krylya Sovetov Samara,Russian Premier League,,,,,,,,,
+265282,Sergey Bozhin,#47,Defender,Krylya Sovetov Samara,Russian Premier League,6,-,1,-,-,-,,,540'
+697954,Ivan Lepskiy,#18,Defender,Krylya Sovetov Samara,Russian Premier League,,,,,,,,,
+166086,Amar Rahmanovic,#11,Midfield,Krylya Sovetov Samara,Russian Premier League,6,-,-,-,-,-,,,346'
+403187,Dani Fernández,#72,Defender,Krylya Sovetov Samara,Russian Premier League,3,-,-,-,-,-,,,46'
+318705,Martin Kramaric,#10,Forward,Krylya Sovetov Samara,Russian Premier League,6,-,1,-,-,-,,,303'
+516749,Vladislav Shitov,#73,Forward,Krylya Sovetov Samara,Russian Premier League,3,1,-,-,-,-,,,40'
+718763,Kirill Stolbov,#20,Midfield,Krylya Sovetov Samara,Russian Premier League,2,-,-,-,-,-,,,28'
+1160724,Kazbek Mukailov,#67,Forward,Krylya Sovetov Samara,Russian Premier League,2,-,-,-,-,-,,,29'
+1249173,Vladimir Ignatenko,#91,Forward,Krylya Sovetov Samara,Russian Premier League,,,,,,,,,
+61397,Sergey Pesjakov,#30,Goalkeeper,Krylya Sovetov Samara,Russian Premier League,6,-,,-,-,-,10,2,540'
+177350,Evgeniy Frolov,#39,Goalkeeper,Krylya Sovetov Samara,Russian Premier League,,,,,,,,,
+866670,Ronaldo,#7,Forward,FC Rostov,Russian Premier League,4,-,-,-,-,-,,,360'
+866001,Viktor Melekhin,#4,Defender,FC Rostov,Russian Premier League,6,1,-,3,-,-,,,540'
+640692,Oumar Sako,#3,Defender,FC Rostov,Russian Premier League,6,-,-,3,-,-,,,534'
+666616,Olakunle Olusegun,#6,Forward,FC Rostov,Russian Premier League,6,-,1,1,-,-,,,360'
+381834,Konstantin Kuchaev,#18,Midfield,FC Rostov,Russian Premier League,6,-,2,3,-,-,,,471'
+424022,Rustam Yatimov,#1,Goalkeeper,FC Rostov,Russian Premier League,5,-,,-,-,-,9,1,450'
+402625,Aleksey Mironov,#8,Midfield,FC Rostov,Russian Premier League,6,-,-,1,-,-,,,518'
+449722,Egor Golenkov,#17,Forward,FC Rostov,Russian Premier League,3,-,-,-,-,-,,,58'
+582074,Timur Suleymanov,#99,Forward,FC Rostov,Russian Premier League,6,2,1,-,-,-,,,485'
+727569,Andrey Langovich,#87,Defender,FC Rostov,Russian Premier League,6,1,2,1,-,-,,,517'
+787305,Ivan Komarov,#10,Midfield,FC Rostov,Russian Premier League,6,1,-,1,-,-,,,507'
+623274,Maksim Mukhin,#16,Midfield,FC Rostov,Russian Premier League,4,-,-,-,-,-,,,190'
+486083,Danila Prokhin,#27,Defender,FC Rostov,Russian Premier League,3,-,-,-,-,-,,,22'
+817604,David Semenchuk,#22,Defender,FC Rostov,Russian Premier League,1,-,-,1,-,-,,,45'
+235339,Dmitriy Chistyakov,#78,Defender,FC Rostov,Russian Premier League,,,,,,,,,
+817607,Daniil Shantaliy,#21,Midfield,FC Rostov,Russian Premier League,3,1,-,-,-,-,,,22'
+701937,Yaroslav Mikhailov,#5,Midfield,FC Rostov,Russian Premier League,6,-,-,-,-,-,,,214'
+187211,Ygor Nogueira,#40,Defender,FC Rostov,Russian Premier League,6,-,-,2,-,-,,,495'
+918332,German Ignatov,#67,Defender,FC Rostov,Russian Premier League,1,-,-,-,-,-,,,23'
+817967,Imran Aznaurov,#73,Forward,FC Rostov,Russian Premier League,2,-,-,1,-,-,,,19'
+917991,Anton Shamonin,#91,Forward,FC Rostov,Russian Premier League,2,-,-,-,-,-,,,20'
+817830,Ilya Zhbanov,#57,Midfield,FC Rostov,Russian Premier League,,,,,,,,,
+1244873,Karim Madrakhimov,#80,Forward,FC Rostov,Russian Premier League,,,,,,,,,
+1244877,Artem Petrov,#84,Goalkeeper,FC Rostov,Russian Premier League,1,-,,-,-,-,1,-,90'
+697721,Daniil Golikov,#34,Goalkeeper,FC Rostov,Russian Premier League,,,,,,,,,
+939879,Nikita Babakin,#59,Defender,FC Rostov,Russian Premier League,,,,,,,,,
+1339250,Ibraheem Mahfus Ajasa,#11,Forward,FC Rostov,Russian Premier League,,,,,,,,,
+1369649,Denis Titov,#13,Forward,FC Rostov,Russian Premier League,,,,,,,,,
+494586,Mickaël Nadé,#75,Defender,Rodina Moscow,Russian Premier League,1,-,-,-,-,-,,,84'
+568318,German Onugkha,#7,Forward,Rodina Moscow,Russian Premier League,1,-,-,-,-,-,,,90'
+445096,Iker Pozo,#8,Midfield,Rodina Moscow,Russian Premier League,6,2,1,2,-,-,,,406'
+310132,Artem Maksimenko,#9,Forward,Rodina Moscow,Russian Premier League,6,3,1,-,-,-,,,522'
+653776,Ivan Timoshenko,#99,Forward,Rodina Moscow,Russian Premier League,6,-,-,1,-,-,,,281'
+373374,Brian Mansilla,#11,Forward,Rodina Moscow,Russian Premier League,1,-,-,-,-,-,,,6'
+402434,Sergey Volkov,#13,Goalkeeper,Rodina Moscow,Russian Premier League,6,-,,-,-,-,17,-,540'
+413524,Mitja Krizan,#55,Defender,Rodina Moscow,Russian Premier League,3,-,-,-,-,-,,,171'
+535968,Ruslan Fishchenko,#6,Midfield,Rodina Moscow,Russian Premier League,5,-,-,1,-,-,,,354'
+380349,Artem Meshchaninov,#26,Defender,Rodina Moscow,Russian Premier League,6,-,-,1,-,-,,,540'
+330780,Artem Sokol,#88,Defender,Rodina Moscow,Russian Premier League,3,-,-,-,-,-,,,154'
+869527,Ilya Dyatlov,#49,Defender,Rodina Moscow,Russian Premier League,4,-,-,2,-,-,,,157'
+817673,Stanislav Bessmertniy,#80,Defender,Rodina Moscow,Russian Premier League,6,-,1,1,-,-,,,410'
+416704,Soltmurad Bakaev,#17,Forward,Rodina Moscow,Russian Premier League,6,-,1,-,-,-,,,324'
+686193,Magomedkhabib Abdusalamov,#18,Forward,Rodina Moscow,Russian Premier League,3,-,-,-,-,-,,,90'
+334481,Leo Goglichidze,#3,Defender,Rodina Moscow,Russian Premier League,6,-,-,-,-,-,,,405'
+447257,Andrey Egorychev,#5,Midfield,Rodina Moscow,Russian Premier League,3,-,-,1,-,-,,,92'
+375668,Leon Musaev,#38,Midfield,Rodina Moscow,Russian Premier League,3,-,-,-,-,-,,,146'
+200779,Yordy Reyna,#10,Midfield,Rodina Moscow,Russian Premier League,6,-,1,1,-,-,,,530'
+461687,Dmitriy Tananeev,#19,Defender,Rodina Moscow,Russian Premier League,3,-,-,1,-,-,,,270'
+575401,Dmitriy Shadrintsev,#15,Defender,Rodina Moscow,Russian Premier League,,,,,,,,,
+591862,Kerfala Cissoko,#95,Forward,Rodina Moscow,Russian Premier League,1,-,-,-,-,-,,,10'
+576743,Kirill Ushatov,#23,Midfield,Rodina Moscow,Russian Premier League,4,-,-,-,-,-,,,56'
+334429,Astemir Gordyushenko,#72,Midfield,Rodina Moscow,Russian Premier League,2,-,-,-,-,-,,,81'
+1064063,Artur Gharibyan,#77,Forward,Rodina Moscow,Russian Premier League,5,2,2,-,-,-,,,223'
+599150,Ilya Svinov,#71,Goalkeeper,Rodina Moscow,Russian Premier League,,,,,,,,,
+461682,Sergey Aydarov,#1,Goalkeeper,Rodina Moscow,Russian Premier League,,,,,,,,,
+515051,Aleksandr Silyanov,#45,Defender,Lokomotiv Moscow,Russian Premier League,6,1,1,-,-,-,,,540'
+516751,Sergey Pinyaev,#9,Forward,Lokomotiv Moscow,Russian Premier League,6,1,-,-,-,-,,,322'
+387687,César Montes,#23,Defender,Lokomotiv Moscow,Russian Premier League,2,-,-,1,-,-,,,165'
+729266,Lucas Fasson,#3,Defender,Lokomotiv Moscow,Russian Premier League,6,-,-,1,-,-,,,414'
+652270,Evgeniy Morozov,#85,Defender,Lokomotiv Moscow,Russian Premier League,5,-,-,-,-,-,,,405'
+260677,Anton Mitryushkin,#1,Goalkeeper,Lokomotiv Moscow,Russian Premier League,4,-,,-,-,-,6,-,330'
+378953,Gerzino Nyamsi,#5,Defender,Lokomotiv Moscow,Russian Premier League,5,-,-,2,-,-,,,450'
+745284,Vadim Rakov,#11,Forward,Lokomotiv Moscow,Russian Premier League,6,1,1,1,-,-,,,376'
+300538,Nikolay Komlichenko,#27,Forward,Lokomotiv Moscow,Russian Premier League,,,,,,,,,
+279242,Zelimkhan Bakaev,#7,Forward,Lokomotiv Moscow,Russian Premier League,6,1,1,1,-,-,,,402'
+318468,Aleksandr Rudenko,#19,Forward,Lokomotiv Moscow,Russian Premier League,6,-,-,-,-,-,,,414'
+382535,Maksim Nenakhov,#24,Defender,Lokomotiv Moscow,Russian Premier League,3,-,-,1,-,-,,,127'
+689628,Lucas Vera,#32,Midfield,Lokomotiv Moscow,Russian Premier League,,,,,,,,,
+622461,Sergey Babkin,#6,Midfield,Lokomotiv Moscow,Russian Premier League,6,-,-,1,-,-,,,512'
+189485,Cristian Ramírez,#2,Defender,Lokomotiv Moscow,Russian Premier League,,,,,,,,,
+697728,Nikita Saltykov,#17,Forward,Lokomotiv Moscow,Russian Premier League,6,-,-,-,-,-,,,73'
+697724,Egor Pogostnov,#59,Defender,Lokomotiv Moscow,Russian Premier League,1,-,-,-,-,-,,,3'
+230946,Ilya Lantratov,#22,Goalkeeper,Lokomotiv Moscow,Russian Premier League,3,-,,1,-,-,2,1,210'
+811544,Aleksandr Kovalenko,#8,Midfield,Lokomotiv Moscow,Russian Premier League,5,-,-,-,-,-,,,102'
+185024,Georgiy Dzhikiya,#14,Defender,Lokomotiv Moscow,Russian Premier League,4,-,-,-,-,-,,,157'
+948363,Danila Godyaev,#47,Midfield,Lokomotiv Moscow,Russian Premier League,2,-,-,1,-,-,,,98'
+1037572,Daniil Chevardin,#74,Midfield,Lokomotiv Moscow,Russian Premier League,,,,,,,,,
+749186,Mikhail Shchetinin,#88,Midfield,Lokomotiv Moscow,Russian Premier League,,,,,,,,,
+946413,Ruslan Myalkovskiy,#99,Forward,Lokomotiv Moscow,Russian Premier League,2,-,-,-,-,-,,,63'
+1080109,Ilya Eremeev,#75,Midfield,Lokomotiv Moscow,Russian Premier League,5,-,-,1,-,-,,,391'
+1244223,Vladislav Golubev,#63,Forward,Lokomotiv Moscow,Russian Premier League,4,-,-,1,-,-,,,93'
+838670,Daniil Veselov,#16,Goalkeeper,Lokomotiv Moscow,Russian Premier League,,,,,,,,,
+1037971,Dmitriy Pestryakov,#71,Forward,Akron Tolyatti,Russian Premier League,,,,,,,,,
+505652,Slobodan Tedic,#9,Forward,Akron Tolyatti,Russian Premier League,3,-,-,-,-,-,,,268'
+274694,Ionuț Nedelcearu,#24,Defender,Akron Tolyatti,Russian Premier League,2,-,-,-,-,-,,,92'
+375857,Kristijan Bistrovic,#8,Midfield,Akron Tolyatti,Russian Premier League,6,-,-,3,-,-,,,282'
+598101,Roberto Fernández,#21,Defender,Akron Tolyatti,Russian Premier League,5,-,1,1,-,-,,,450'
+636601,Aleksa Djurasovic,#5,Midfield,Akron Tolyatti,Russian Premier League,3,-,-,-,-,-,,,247'
+352599,Stefan Loncar,#15,Midfield,Akron Tolyatti,Russian Premier League,6,1,1,1,-,-,,,531'
+1083607,Dudu,#11,Forward,Akron Tolyatti,Russian Premier League,4,-,1,1,-,-,,,178'
+1033394,Maksim Boldyrev,#91,Forward,Akron Tolyatti,Russian Premier League,,,,,,,,,
+820252,Gilson Benchimol,#7,Forward,Akron Tolyatti,Russian Premier League,6,2,1,1,-,-,,,472'
+700755,Marat Bokoev,#19,Defender,Akron Tolyatti,Russian Premier League,4,-,-,-,-,-,,,360'
+391905,Khetag Khosonov,#80,Midfield,Akron Tolyatti,Russian Premier League,5,-,-,-,-,-,,,109'
+908807,Yomar Rocha,#2,Defender,Akron Tolyatti,Russian Premier League,5,1,-,-,-,-,,,288'
+190188,Vitaliy Gudiev,#88,Goalkeeper,Akron Tolyatti,Russian Premier League,6,-,,-,-,-,15,1,540'
+396428,Rodrigo Escoval,#26,Defender,Akron Tolyatti,Russian Premier League,5,-,-,2,-,-,,,450'
+519567,Vyacheslav Bardybakhin,#13,Defender,Akron Tolyatti,Russian Premier League,6,-,-,1,-,-,,,433'
+535974,Konstantin Maradishvili,#22,Midfield,Akron Tolyatti,Russian Premier League,6,-,1,-,-,-,,,343'
+979625,Paulo Vitor,#3,Defender,Akron Tolyatti,Russian Premier League,1,-,-,1,-,-,,,90'
+1160366,Arseniy Dmitriev,#69,Forward,Akron Tolyatti,Russian Premier League,6,1,-,2,-,-,,,345'
+1385364,Kévin Arévalo,#10,Forward,Akron Tolyatti,Russian Premier League,5,1,-,-,-,-,,,190'
+1038622,Ignat Terekhovskiy,#32,Goalkeeper,Akron Tolyatti,Russian Premier League,,,,,,,,,
+673998,Yuriy Zheleznov,#14,Forward,Akron Tolyatti,Russian Premier League,3,-,-,-,-,-,,,92'
+917457,Nikita Bazilevskiy,#81,Midfield,Akron Tolyatti,Russian Premier League,4,-,-,1,-,-,,,91'
+1243089,Denis Popenkov,#89,Defender,Akron Tolyatti,Russian Premier League,1,-,-,1,-,-,,,90'
+1309944,Nikita Platon,#67,Midfield,Akron Tolyatti,Russian Premier League,,,,,,,,,
+541006,Belajdi Pusi,#19,Forward,Fakel Voronezh,Russian Premier League,5,-,1,-,-,-,,,183'
+991180,Matvey Bardachev,#53,Defender,Fakel Voronezh,Russian Premier League,4,-,-,-,-,-,,,360'
+323710,Yuriy Zhuravlev,#44,Defender,Fakel Voronezh,Russian Premier League,4,-,-,-,-,-,,,347'
+621586,Daniil Frolkin,#1,Goalkeeper,Fakel Voronezh,Russian Premier League,6,-,,-,-,-,7,2,540'
+627926,Hodaifa El Mhassani,#22,Defender,Fakel Voronezh,Russian Premier League,,,,,,,,,
+293231,Darko Todorovic,#55,Defender,Fakel Voronezh,Russian Premier League,6,-,-,2,-,-,,,524'
+371968,Clayton,#40,Defender,Fakel Voronezh,Russian Premier League,,,,,,,,,
+448901,Nikolay Giorgobiani,#99,Midfield,Fakel Voronezh,Russian Premier League,6,-,1,1,-,-,,,357'
+462329,Stanislav Magkeev,#27,Defender,Fakel Voronezh,Russian Premier League,,,,,,,,,
+217033,Aleksey Sutormin,#11,Forward,Fakel Voronezh,Russian Premier League,5,1,-,1,-,-,,,258'
+235344,Igor Obukhov,#96,Goalkeeper,Fakel Voronezh,Russian Premier League,,,,,,,,,
+645682,Vyacheslav Yakimov,#23,Midfield,Fakel Voronezh,Russian Premier League,6,1,-,1,-,-,,,432'
+395163,Butta Magomedov,#97,Midfield,Fakel Voronezh,Russian Premier League,6,-,-,1,-,-,,,339'
+606527,Maks Dziov,#4,Defender,Fakel Voronezh,Russian Premier League,,,,,,,,,
+528386,Albert Gabaraev,#5,Defender,Fakel Voronezh,Russian Premier League,6,-,-,1,-,-,,,540'
+913018,Abdula Bagamaev,#8,Midfield,Fakel Voronezh,Russian Premier League,6,-,-,-,-,-,,,92'
+1021048,Kirill Simonov,#18,Midfield,Fakel Voronezh,Russian Premier League,,,,,,,,,
+151282,Ravil Netfullin,#52,Midfield,Fakel Voronezh,Russian Premier League,6,-,-,-,-,-,,,515'
+231724,Igor Yurganov,#20,Defender,Fakel Voronezh,Russian Premier League,6,-,-,-,-,-,,,383'
+179973,Ilnur Alshin,#10,Forward,Fakel Voronezh,Russian Premier League,6,-,1,-,-,-,,,454'
+555837,Maksim Turishchev,#7,Forward,Fakel Voronezh,Russian Premier League,4,1,-,-,-,-,,,107'
+825668,Axel Gnapi,#9,Forward,Fakel Voronezh,Russian Premier League,6,-,-,1,-,-,,,370'
+114022,Merabi Uridia,#93,Forward,Fakel Voronezh,Russian Premier League,2,-,-,-,-,-,,,12'
+541914,Anton Kovalev,#17,Midfield,Fakel Voronezh,Russian Premier League,5,-,-,-,-,-,,,127'
+528380,Nuri Abdokov,#70,Midfield,Fakel Voronezh,Russian Premier League,,,,,,,,,
+798664,Vyacheslav Dorovskikh,#35,Goalkeeper,Fakel Voronezh,Russian Premier League,,,,,,,,,
+909229,Vladislav Kalinichev,#62,Goalkeeper,Fakel Voronezh,Russian Premier League,,,,,,,,,
+1243095,Aleksandr Belyaev,#25,Forward,Fakel Voronezh,Russian Premier League,,,,,,,,,

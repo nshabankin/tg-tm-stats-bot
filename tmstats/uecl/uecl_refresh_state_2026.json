@@ -1,0 +1,41 @@
+{
+  "league": "uecl",
+  "season": 2026,
+  "updatedAt": "2026-09-01T07:26:01+00:00",
+  "mode": "full",
+  "counts": {
+    "clubs": 36,
+    "players": 1031,
+    "statsRows": 1031,
+    "tableRows": 36
+  },
+  "matches": {
+    "groupCount": 6,
+    "pendingMatchdays": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "completedMatchdays": [],
+    "lastPendingMatchday": 6,
+    "lastCompletedMatchday": null
+  },
+  "stats": {
+    "status": "refreshed",
+    "changedClubs": [],
+    "resolvedClubs": [],
+    "unresolvedClubs": []
+  },
+  "outputs": {
+    "tableChanged": true,
+    "playersChanged": true,
+    "statsChanged": true,
+    "matchesChanged": true,
+    "bracketChanged": true,
+    "tablePdfRendered": true,
+    "statsPdfRendered": true
+  }
+}
