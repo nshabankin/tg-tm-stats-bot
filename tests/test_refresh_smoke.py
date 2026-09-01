@@ -352,6 +352,22 @@ class TournamentSnapshotTests(unittest.TestCase):
             'https://tmssl.akamaized.net//images/flagge/head/172.png?lm=1',
         )
 
+    def test_legacy_club_assets_are_upgraded_from_tiny_to_big(self) -> None:
+        self.assertEqual(
+            source.normalize_asset_url(
+                'https://tmssl.akamaized.net//images/wappen/tiny/281.png?lm=1'
+            ),
+            'https://tmssl.akamaized.net//images/wappen/big/281.png?lm=1',
+        )
+
+    def test_current_club_assets_are_upgraded_from_tiny_to_big(self) -> None:
+        self.assertEqual(
+            source.normalize_asset_url(
+                'https://img.a.transfermarkt.technology/wappen/tiny/281.png?lm=1'
+            ),
+            'https://img.a.transfermarkt.technology/wappen/big/281.png?lm=1',
+        )
+
     def test_world_cup_text_table_is_split_by_group(self) -> None:
         message = format_table_message({
             'league': LEAGUES['world_cup'],

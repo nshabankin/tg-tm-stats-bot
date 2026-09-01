@@ -158,7 +158,8 @@ def normalize_asset_url(url: str) -> str:
         normalized = f'https:{normalized}'
     if normalized.startswith('/'):
         normalized = f'https://www.transfermarkt.com{normalized}'
-    normalized = normalized.replace('/images/wappen/tiny/', '/images/wappen/head/')
+    normalized = normalized.replace('/images/wappen/tiny/', '/images/wappen/big/')
+    normalized = normalized.replace('/wappen/tiny/', '/wappen/big/')
     normalized = normalized.replace('/images/flagge/tiny/', '/images/flagge/head/')
     return normalized
 
